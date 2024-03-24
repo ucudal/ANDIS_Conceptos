@@ -1,22 +1,53 @@
 # Requisitos
 
-...
+El propósito de esta sección es reunir, analizar, definir y especificar las
+necesidades del usuario y las funcionalidades del sistema.
 
 ## Posicionamiento del proyecto
 
-...
+Esta subsección da un resumen general del proyecto.
 
 ### Oportunidad de negocios
 
-...
+Describir brevemente la oportunidad de negocio que el cliente trata de alcanzar
+con este proyecto, esto es: explicar por qué el negocio del cliente se beneficia
+de este proyecto y cómo.
 
 ### Declaración del problema
 
-...
+Sin entrar en detalles, describir el problema que este proyecto intenta resolver.
+Opcionalmente se puede utilizar el siguiente formato:
+
+| 1                               | 2                                                           |
+| ------------------------------- | ----------------------------------------------------------- |
+| El problema                     | _(descripción del problema)_                                |
+| Afecta a                        | _(stakeholders afectados)_                                  |
+| Cuyo impacto es                 | _(¿cuál es el impacto del problema?)_                       |
+| Una solución exitosa debe tener | _(listar algunos beneficios clave de una solución exitosa)_ |
 
 ### Declaración del posicionamiento del producto
 
-...
+Dar un resumen general que indique, a alto nivel y sin entrar en detalles,
+las características del producto a desarrollar. Algunas cosas a mencionar:
+
+- Organización cliente (opcional, si ya se mencionó antes)
+
+- Categoría del producto y opcionalmente nombre, en caso de tenerlo definido
+
+  **Preguntas disparadoras**: _¿Qué es el producto que voy a desarrollar?_ _¿Cómo
+  se llama?_
+
+- Beneficios del producto
+
+- Productos alternativos
+
+  **Pregunta disparadora**: _¿Qué otros productos similares existen actualmente?_
+
+- Diferenciación del producto en comparación con las alternativas
+
+  **Preguntas disparadoras**: _¿Qué tiene de diferente mi producto a desarrollar
+  en comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
+  las alternativas?_
 
 ## Descripción de usuarios e interesados
 
