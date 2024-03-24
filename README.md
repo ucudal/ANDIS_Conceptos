@@ -31,7 +31,7 @@ Acá va lo que veníamos poniendo en el documento de notas de arquitectura y dis
 
 ### [Casos de prueba]
 
-### [Resultados de las pruebas]
+### [Informe de pruebas]
 
 ## [Gestión](./1_Contenido/1_4_Gestión.md)
 
