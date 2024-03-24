@@ -18,12 +18,14 @@ de este proyecto y cómo.
 Sin entrar en detalles, describir el problema que este proyecto intenta resolver.
 Opcionalmente se puede utilizar el siguiente formato:
 
-| 1                               | 2                                                           |
-| ------------------------------- | ----------------------------------------------------------- |
-| El problema                     | _(descripción del problema)_                                |
-| Afecta a                        | _(stakeholders afectados)_                                  |
-| Cuyo impacto es                 | _(¿cuál es el impacto del problema?)_                       |
-| Una solución exitosa debe tener | _(listar algunos beneficios clave de una solución exitosa)_ |
+<table>
+  <tr><td>El problema</td><td><i>(descripción del problema)</i></td></tr>
+  <!-- TODO add link in 'stakeholders' to definition if considered a keyword-->
+  <tr><td>Afecta a</td><td><i>(stakeholders afectados)</i></td></tr>
+  <tr><td>Cuyo impacto es</td><td><i>(¿cuál es el impacto del problema?)</i></td></tr>
+  <tr><td>Una solución exitosa debe tener</td><td><i>(listar algunos beneficios
+  clave de una solución exitosa)</i></td></tr>
+</table>
 
 ### Declaración del posicionamiento del producto
 
