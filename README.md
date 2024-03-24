@@ -67,7 +67,7 @@ Acá van diversas técnicas de relevamiento, de modelado como UML, BPMN, MER, et
 
 Diversas plantillas para casos de uso, arquitecturas típicas, etc.
 
-# Conceptos
+# [Conceptos](./4_Conceptos/)
 
 Definiciones en formato glosario de conceptos que se usan a lo largo del sitio y
 que nos interesa unificar.
