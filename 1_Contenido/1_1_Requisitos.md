@@ -20,7 +20,7 @@ Opcionalmente se puede utilizar el siguiente formato:
 
 <table>
   <tr><td>El problema</td><td><i>(descripción del problema)</i></td></tr>
-  <!-- TODO add link in 'stakeholders' to definition if considered a keyword-->
+  <!-- TODO add link in 'stakeholders' to definition if considered a keyword -->
   <tr><td>Afecta a</td><td><i>(stakeholders afectados)</i></td></tr>
   <tr><td>Cuyo impacto es</td><td><i>(¿cuál es el impacto del problema?)</i></td></tr>
   <tr><td>Una solución exitosa debe tener</td><td><i>(listar algunos beneficios
@@ -53,27 +53,95 @@ las características del producto a desarrollar. Algunas cosas a mencionar:
 
 ## Descripción de usuarios e interesados
 
-...
+Esta subsección busca analizar a los usuarios del sistema y a los problemas
+clave que limitan su productividad, proveyendo una base y justificación de por
+qué los requerimientos son necesarios.
+
+En las siguientes partes, se identifica a los beneficiarios o interesados y a
+los usuarios del sistema.
 
 ### Estadísticas del mercado o usuarios
 
-...
+Resumir los datos demográficos clave que motivan las decisiones del producto.
+
+**Algunas preguntas disparadoras**: _¿Quiénes serán los usuarios? ¿Cuántos serán?
+¿Cómo se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
+tratando de satisfacer por otros medios las necesidades que el producto podrá cubrir?_
 
 ### Interesados
 
-...
+<!-- TODO add link in 'interesados' to definition if considered a keyword-->
+
+Describir los interesados del proyecto. Se puede usar el siguiente formato como guía:
+
+<table>
+  <tr><td>Interesado(s)</td><td><i>Nombre de la(s) persona(s) que integra(n) este
+  grupo de interesados.</i></td></tr>
+  <tr><td>Rol en la organización</td><td><i>Descripción del rol que desempeña en
+  la organización cliente.</i></td></tr>
+  <tr><td>Rol en el proyecto</td><td><i>Descripción del rol que desempeña en el
+  proyecto y cuáles son sus responsabilidades e intereses con respecto al sistema.
+  Ej.: responsable de proveer los requerimientos de ___, interesado en mejorar el
+  desempeño del área de ___.</i></td></tr>
+  <tr><td>Perfil técnico</td><td><i>Describir el nivel técnico a efectos del uso
+  de un sistema de software. Por ejemplo: usuario común, técnico avanzado, experto
+  del negocio, experto en tecnologías.</i></td></tr>
+  <tr><td>Criterio de éxito</td><td><i>¿Cómo el interesado define el éxito del
+  proyecto? ¿Qué factores determinan el éxito del proyecto según el interesado?</i></td></tr>
+  <tr><td>Comentarios</td><td><i>Comentarios sobre el interesado.</i></td></tr>
+</table>
 
 ### Usuarios
 
-...
+Describir los usuarios del sistema. Se puede usar el siguiente formato como guía:
+
+<table>
+  <tr><td>Descripción</td><td><i>Descripción breve del usuario y la relación que
+  tendrá con el sistema.</i></td></tr>
+  <!-- TODO add link in 'stakeholders' to definition if considered a keyword -->
+  <tr><td>Representado por</td><td><i>Stakeholders que representan en el proyecto
+  a este tipo de usuario. Por ejemplo, el usuario “telefonista” podría estar
+  representado por el stakeholder “Encargado del Call Center”</i></td></tr>
+  <tr><td>Rol en la organización</td><td><i>Descripción del rol que desempeña en
+  la organización cliente.</i></td></tr>
+  <tr><td>Rol en el sistema</td><td><i>Descripción del rol que tendrá con respecto
+  a la operación del sistema. Por ejemplo: “este usuario ingresará los datos de
+  ventas.” </i></td></tr>
+  <tr><td>Perfil técnico</td><td><i>Describir el nivel técnico a efectos del uso
+  de un sistema de software. Por ejemplo: usuario común, técnico avanzado, experto
+  del negocio, experto en tecnologías.</i></td></tr>
+  <tr><td>Criterio de éxito</td><td><i>¿Cómo el usuario define el éxito del
+  proyecto? ¿Qué factores determinan el éxito del proyecto según el usuario?</i></td></tr>
+  <tr><td>Comentarios</td><td><i>Comentarios sobre el usuario.</i></td></tr>
+</table>
 
 ### Entornos de los usuarios
 
-...
+Detallar el ambiente de trabajo del usuario objetivo. **Algunas preguntas disparadoras**:
+
+- Número de personas involucradas en la tarea. ¿Es cambiante?
+
+- ¿Cuán extenso es el ciclo de una tarea? ¿Cuánto tiempo se dedica a cada actividad?
+  ¿Es cambiante?
+
+- Restricciones ambientales particulares: móviles, exteriores, en vuelo, etc.
+
+- ¿Qué plataformas de sistemas se encuentran en uso actualmente?
+  ¿Plataformas futuras?
+
+- ¿Qué otras aplicaciones están en uso? ¿Precisa esta aplicación ser integrada con
+  ellas?
 
 ## Identificación de necesidades clave
 
-...
+Listar los problemas clave junto con las soluciones existentes, de acuerdo a la
+percepción de los interesados. Aclarar los siguientes elementos de cada problema:
+
+- ¿Cuáles son las razones para este problema?
+
+- ¿De qué manera se lo soluciona ahora?
+
+- ¿Qué soluciones desea el interesado?
 
 ## Resumen del producto
 
