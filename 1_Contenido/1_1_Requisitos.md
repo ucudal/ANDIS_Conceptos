@@ -48,6 +48,30 @@ las características del producto a desarrollar. Algunas cosas a mencionar:
   en comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
   las alternativas?_
 
+### Objetivos del proyecto
+
+Mencionar a alto nivel los objetivos del proyecto y la forma de medir su cumplimiento.
+La idea aquí es dejar en claro cómo medir el éxito del proyecto una vez se ponga
+en marcha.
+
+Por ejemplo: el hipotético objetivo de "proveer respuestas inmediatas
+a clientes que compren los bienes de la empresa en línea" se desprende de la idea
+de que respuestas inmediatas provocan una mayor cantidad de clientes satisfechos,
+lo que reporta beneficios a la empresa y, por ende, la satisfacción de los
+compradores ha de ser medida (mediante encuestas, comparar la cantidad
+de veces que el comprador ingresa al sistema versus cuánto lo hacía antes, etc.).
+
+Otro ejemplo es la mejora de una métrica en un proyecto que busca
+solucionar un problema de optimización.
+
+Se puede utilizar el siguiente formato:
+
+| Objetivo     | Métrica                              |
+| ------------ | ------------------------------------ |
+| _Objetivo 1_ | _(describir cómo medir el objetivo)_ |
+| _Objetivo 2_ | _(describir cómo medir el objetivo)_ |
+| ...          | ...                                  |
+
 ## Descripción de usuarios e interesados
 
 Esta subsección busca analizar a los usuarios del sistema y a los problemas
