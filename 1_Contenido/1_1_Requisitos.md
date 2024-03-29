@@ -7,7 +7,7 @@ necesidades del usuario y las funcionalidades del sistema.
 
 Esta subsección da un resumen general del proyecto.
 
-### Oportunidad de negocios
+### Oportunidad de negocio
 
 Describir brevemente la oportunidad de negocio que el cliente trata de alcanzar
 con este proyecto, esto es: explicar por qué el negocio del cliente se beneficia
@@ -35,18 +35,15 @@ las características del producto a desarrollar. Algunas cosas a mencionar:
 - Organización cliente (opcional, si ya se mencionó antes)
 
 - Categoría del producto y opcionalmente nombre, en caso de tenerlo definido
-
   **Preguntas disparadoras**: _¿Qué es el producto que voy a desarrollar?_ _¿Cómo
   se llama?_
 
 - Beneficios del producto
 
 - Productos alternativos
-
   **Pregunta disparadora**: _¿Qué otros productos similares existen actualmente?_
 
 - Diferenciación del producto en comparación con las alternativas
-
   **Preguntas disparadoras**: _¿Qué tiene de diferente mi producto a desarrollar
   en comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
   las alternativas?_
@@ -106,7 +103,7 @@ Describir los usuarios del sistema. Se puede usar el siguiente formato como guí
   la organización cliente.</i></td></tr>
   <tr><td>Rol en el sistema</td><td><i>Descripción del rol que tendrá con respecto
   a la operación del sistema. Por ejemplo: “este usuario ingresará los datos de
-  ventas.” </i></td></tr>
+  ventas”.</i></td></tr>
   <tr><td>Perfil técnico</td><td><i>Describir el nivel técnico a efectos del uso
   de un sistema de software. Por ejemplo: usuario común, técnico avanzado, experto
   del negocio, experto en tecnologías.</i></td></tr>
@@ -127,7 +124,7 @@ Detallar el ambiente de trabajo del usuario objetivo. **Algunas preguntas dispar
 - Restricciones ambientales particulares: móviles, exteriores, en vuelo, etc.
 
 - ¿Qué plataformas de sistemas se encuentran en uso actualmente?
-  ¿Plataformas futuras?
+  ¿Y plataformas futuras?
 
 - ¿Qué otras aplicaciones están en uso? ¿Precisa esta aplicación ser integrada con
   ellas?
@@ -146,8 +143,8 @@ percepción de los interesados. Aclarar los siguientes elementos de cada problem
 Se puede usar el siguiente formato para cada necesidad:
 
 <table>
-  <tr><td>Descripción</td><td><i>Breve descripción de la necesidad y sus motivos</i></td></tr>
-  <tr><td>Prioridad</td><td><i>¿Qué nivel de prioridad tiene es esta necesidad?</i></td></tr>
+  <tr><td>Descripción</td><td><i>Breve descripción de la necesidad y sus motivos.</i></td></tr>
+  <tr><td>Prioridad</td><td><i>¿Qué nivel de prioridad tiene esta necesidad?</i></td></tr>
   <tr><td>Concierne a</td><td><i>¿A quién concierne esta necesidad?</i></td></tr>
   <tr><td>Solución actual</td><td><i>¿Cuál es la solución actual para esta necesidad?</i></td></tr>
   <tr><td>Solución propuesta</td><td><i>¿Qué solución propone el sistema ante esta
@@ -163,7 +160,7 @@ interfaces con otras aplicaciones y configuraciones de sistemas.
 
 Poner al producto en el contexto de la organización cliente y describir su relación
 con otros productos relacionados y con el ambiente del usuario. Si el producto es
-independiente y totalmente auto contenido, debe ser declarado aquí. Por ejemplo,
+independiente y totalmente autocontenido, debe ser declarado aquí. Por ejemplo,
 si el producto es un componente de un sistema mayor, entonces se debe identificar
 las interfaces relevantes entre los sistemas. Una forma sencilla de mostrar los
 componentes principales de un sistema mayor, las interconexiones e interfaces externas
@@ -182,12 +179,12 @@ o para cualquier otro que lea el documento por primera vez. Una tabla sencilla
 que resuma los beneficios clave y las características que los hacen posibles puede
 ser suficiente. Por ejemplo:
 
-| Beneficio para el cliente                                                                                   | Característica que produce el beneficio                                                                                                               |
-| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Un nuevo equipo de soporte puede rápidamente ponerse a tono                                                 | Una base de conocimientos asiste al personal de soporte identificando rápidamente las fallas conocidas y sus soluciones                               |
-| La Administración puede identificar las áreas problema y medir la carga de trabajo del equipo               | Los reportes de tendencias permiten una vista de alto nivel del estado del problema                                                                   |
-| Los equipos de soporte distribuidos pueden trabajar juntos para resolver problemas                          | El servidor de replicación permite que la información de la base de datos actual sea compartida a través de la empresa                                |
-| Los clientes se pueden ayudar a sí mismos, bajando los costos de soporte y mejorando el tiempo de respuesta | La Base de Conocimientos puede ser habilitada a través de Internet. Incluye capacidades de búsqueda con hipertexto y una máquina de consulta gráfica. |
+| Beneficio para el cliente                                                                                    | Característica que produce el beneficio                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Un nuevo equipo de soporte puede rápidamente ponerse a tono.                                                 | Una base de conocimientos asiste al personal de soporte identificando rápidamente las fallas conocidas y sus soluciones.                              |
+| La Administración puede identificar las áreas problema y medir la carga de trabajo del equipo.               | Los reportes de tendencias permiten una vista de alto nivel del estado del problema.                                                                  |
+| Los equipos de soporte distribuidos pueden trabajar juntos para resolver problemas.                          | El servidor de replicación permite que la información de la base de datos actual sea compartida a través de la empresa.                               |
+| Los clientes se pueden ayudar a sí mismos, bajando los costos de soporte y mejorando el tiempo de respuesta. | La base de conocimientos puede ser habilitada a través de Internet. Incluye capacidades de búsqueda con hipertexto y una máquina de consulta gráfica. |
 
 ### Asunciones y dependencias
 
@@ -273,7 +270,7 @@ una implantación exitosa del sistema.
 
 ### Manual de usuario
 
-Describir el propósito y contenido del Manual del Usuario. Extensión, nivel de
+Describir el propósito y contenido del manual de usuario: extensión, nivel de
 detalle, índices, glosarios, etcétera. Si hay restricciones de formatos o de impresión,
 indicarlo.
 
