@@ -50,27 +50,17 @@ las características del producto a desarrollar. Algunas cosas a mencionar:
 
 ### Objetivos del proyecto
 
-Mencionar a alto nivel los objetivos del proyecto y la forma de medir su cumplimiento.
-La idea aquí es dejar en claro cómo medir el éxito del proyecto una vez se ponga
-en marcha.
+<!-- TODO add links in 'objetivos', 'propósito', 'beneficio' and 'métricas del beneficio'
+to definition if considered keywords -->
 
-Por ejemplo: el hipotético objetivo de "proveer respuestas inmediatas
-a clientes que compren los bienes de la empresa en línea" se desprende de la idea
-de que respuestas inmediatas provocan una mayor cantidad de clientes satisfechos,
-lo que reporta beneficios a la empresa y, por ende, la satisfacción de los
-compradores ha de ser medida (mediante encuestas, comparar la cantidad
-de veces que el comprador ingresa al sistema versus cuánto lo hacía antes, etc.).
+Mencionar a alto nivel los objetivos del proyecto. Para ello, describir el propósito,
+beneficio y métricas del beneficio para cada objetivo.
 
-Otro ejemplo es la mejora de una métrica en un proyecto que busca
-solucionar un problema de optimización.
-
-Se puede utilizar el siguiente formato:
-
-| Objetivo     | Métrica                              |
-| ------------ | ------------------------------------ |
-| _Objetivo 1_ | _(describir cómo medir el objetivo)_ |
-| _Objetivo 2_ | _(describir cómo medir el objetivo)_ |
-| ...          | ...                                  |
+Se puede usar el siguiente formato:
+| Objetivo | Propósito | Beneficio | Métrica del beneficio |
+| ------------ | ------------------------------------ | - | -|
+| _Título del objetivo_ | _Propósito del objetivo_ | _Beneficio del objetivo_ | _Cuantificación del beneficio_ |
+| ... | ... | ... | ... |
 
 ## Descripción de usuarios e interesados
 
