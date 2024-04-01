@@ -62,49 +62,33 @@ Se puede usar el siguiente formato:
 | _Título del objetivo_ | _Propósito del objetivo_ | _Beneficio del objetivo_ | _Cuantificación del beneficio_ |
 | ... | ... | ... | ... |
 
-## Descripción de usuarios e interesados
+## Interesados
 
-Esta subsección busca analizar a los usuarios del sistema y a los problemas
-clave que limitan su productividad, proveyendo una base y justificación de por
-qué los requerimientos son necesarios.
+<!-- TODO add link in 'interesados' to definition if considered a keyword -->
 
-En las siguientes partes, se identifica a los beneficiarios o interesados y a
-los usuarios del sistema.
+Esta subsección busca analizar a los interesados en el proyecto. Para ello, se
+presenta: el cliente del proyecto, el comprador o consumidor del producto, usuarios
+del producto y otros interesados.
 
-### Estadísticas del mercado o usuarios
+### Cliente del proyecto
 
-Resumir los datos demográficos clave que motivan las decisiones del producto.
+<!-- TODO add link in 'cliente' to definition if considered a keyword -->
 
-**Algunas preguntas disparadoras**: _¿Quiénes serán los usuarios? ¿Cuántos serán?
-¿Cómo se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
-tratando de satisfacer por otros medios las necesidades que el producto podrá cubrir?_
+Mencionar el cliente o clientes del proyecto. Limitarse a mencionar tres como máximo.
+Para cada uno mencionar su rol en la organización, rol en el proyecto, perfil técnico,
+criterio de éxito (cómo el cliente define el éxito del proyecto o factores clave
+para que el cliente considere al proyecto exitoso) y otros comentarios sobre el cliente.
 
-### Interesados
+### Comprador o consumidor del producto
 
-<!-- TODO add link in 'interesados' to definition if considered a keyword-->
-
-Describir los interesados del proyecto. Se puede usar el siguiente formato como guía:
-
-<table>
-  <tr><td>Interesado(s)</td><td><i>Nombre de la(s) persona(s) que integra(n) este
-  grupo de interesados.</i></td></tr>
-  <tr><td>Rol en la organización</td><td><i>Descripción del rol que desempeña en
-  la organización cliente.</i></td></tr>
-  <tr><td>Rol en el proyecto</td><td><i>Descripción del rol que desempeña en el
-  proyecto y cuáles son sus responsabilidades e intereses con respecto al sistema.
-  Ej.: responsable de proveer los requerimientos de ___, interesado en mejorar el
-  desempeño del área de ___.</i></td></tr>
-  <tr><td>Perfil técnico</td><td><i>Describir el nivel técnico a efectos del uso
-  de un sistema de software. Por ejemplo: usuario común, técnico avanzado, experto
-  del negocio, experto en tecnologías.</i></td></tr>
-  <tr><td>Criterio de éxito</td><td><i>¿Cómo el interesado define el éxito del
-  proyecto? ¿Qué factores determinan el éxito del proyecto según el interesado?</i></td></tr>
-  <tr><td>Comentarios</td><td><i>Comentarios sobre el interesado.</i></td></tr>
-</table>
+Mencionar el arquetipo del comprador o consumidor del producto. Por ejemplo: Si
+el producto a desarrollar fuera una aplicación de gestión de seguimiento de horas
+de empleados, el consumidor
+podría ser cualquier empresa interesada en hacer un seguimiento de horas de sus empleados.
 
 ### Usuarios
 
-Describir los usuarios del sistema. Se puede usar el siguiente formato como guía:
+Describir a los usuarios del sistema. Se puede usar el siguiente formato como guía:
 
 <table>
   <tr><td>Descripción</td><td><i>Descripción breve del usuario y la relación que
@@ -126,7 +110,15 @@ Describir los usuarios del sistema. Se puede usar el siguiente formato como guí
   <tr><td>Comentarios</td><td><i>Comentarios sobre el usuario.</i></td></tr>
 </table>
 
-### Entornos de los usuarios
+#### Estadísticas del mercado o usuarios
+
+Resumir los datos demográficos clave que motivan las decisiones del producto.
+
+**Algunas preguntas disparadoras**: _¿Cuántos usuarios tendrá el producto?
+¿Cómo se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
+tratando de satisfacer por otros medios las necesidades que el producto podrá cubrir?_
+
+#### Entornos de los usuarios
 
 Detallar el ambiente de trabajo del usuario objetivo. **Algunas preguntas disparadoras**:
 
@@ -142,6 +134,19 @@ Detallar el ambiente de trabajo del usuario objetivo. **Algunas preguntas dispar
 
 - ¿Qué otras aplicaciones están en uso? ¿Precisa esta aplicación ser integrada con
   ellas?
+
+### Otros interesados
+
+Mencionar otras personas u organizaciones interesadas en el proyecto o afectadas
+por él. Estos interesados
+pueden formar parte de la organización cliente o trabajar para ella y sus comentarios
+pueden ser valiosos para el proyecto, por ejemplo: patrocinadores, expertos del
+dominio, usuarios del sistema actual, expertos en legislación, diseñadores, usuarios
+encargados del mantenimiento del sistema, encargados del servicio técnico, etcétera.
+
+Para cada uno de ellos, mencionar: rol en el proyecto, rol en la organización,
+aporte al proyecto, grado de involucración en el proyecto y nivel de influencia en
+el proyecto.
 
 ## Identificación de necesidades clave
 
