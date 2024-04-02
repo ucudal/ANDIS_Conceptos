@@ -63,7 +63,7 @@ Para dibujar un mapa mental:
 
 **Paso 1**. Escribir el título del tema o proyecto que se va a representar en el
 centro de una página y dibujar un círculo alrededor, como se muestra en la
-figura debajo -este ejemplo  muestra un mapa mental de las acciones necesarias
+figura debajo -este ejemplo muestra un mapa mental de las acciones necesarias
 para realizar una presentación exitosa-.
 
 ```mermaid
