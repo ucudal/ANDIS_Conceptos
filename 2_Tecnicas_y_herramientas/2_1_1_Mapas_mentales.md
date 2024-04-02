@@ -194,28 +194,28 @@ desarrollar otras convenciones para llevarlas más lejos. Las siguientes
 sugerencias pueden ayudar a obtener el máximo provecho de los mapas mentales:
 
 1. Usar palabras simples o frases sencillas: En los mapas mentales, palabras
-simples y frases cortas y significativas pueden transmitir el mismo significado
-de manera más potente. Las palabras en exceso solo desordenan un mapa mental.
+   simples y frases cortas y significativas pueden transmitir el mismo significado
+   de manera más potente. Las palabras en exceso solo desordenan un mapa mental.
 
 2. Usar letra de molde: Será más fáciles de leer que la escritura cursiva o
-manuscrita.
+   manuscrita.
 
 3. Usar color para separar ideas diferentes: El color puede ayudar a mostrar la
-organización del tema. También puede hacer que el mapa mental sea un documento
-más atractivo y ayudar a visualizar las diferentes secciones para recordarlas en
-el futuro.
+   organización del tema. También puede hacer que el mapa mental sea un documento
+   más atractivo y ayudar a visualizar las diferentes secciones para recordarlas
+   en el futuro.
 
 4. Usar símbolos e imágenes: Las imágenes pueden ayudar a recordar información
-de manera más efectiva que las palabras, así que es bueno usar símbolos o
-imágenes que signifiquen algo para la audiencia o el autor. Es posible usar
-[emojis](https://unicode.org/emoji/charts/full-emoji-list.html) o bibliotecas de
-fotos como [iStock](https://www.istockphoto.com/es) para obtener imágenes de
-manera económica.
+   de manera más efectiva que las palabras, así que es bueno usar símbolos o
+   imágenes que signifiquen algo para la audiencia o el autor. Es posible usar
+   [emojis](https://unicode.org/emoji/charts/full-emoji-list.html) o bibliotecas
+   de fotos como [iStock](https://www.istockphoto.com/es) para obtener imágenes de
+   manera económica.
 
 5. Utilizar conexiones cruzadas: La información en una parte de un mapa mental
-puede relacionarse con otra parte, así que se puede dibujar líneas para mostrar
-estas conexiones cruzadas. Esto ayudará a mostrar cómo una parte del tema afecta
-a otra.
+   puede relacionarse con otra parte, así que se puede dibujar líneas para mostrar
+   estas conexiones cruzadas. Esto ayudará a mostrar cómo una parte del tema afecta
+   a otra.
 
 ## Resumen
 
