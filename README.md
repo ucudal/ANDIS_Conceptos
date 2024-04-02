@@ -55,7 +55,9 @@ Acá tienen que poner el kanban y los sprints.
 
 Acá van diversas técnicas de relevamiento, de modelado como UML, BPMN, MER, etc.
 
-## [Relevamiento](./2_Tecnicas_y_herramientas/2_1_Relevamiento.md)
+## [Relevamiento](./2_Tecnicas_y_herramientas/2_1__Relevamiento.md)
+
+### [Mapas mentales](./2_Tecnicas_y_herramientas/2_1_1_Mapas_mentales.md)
 
 ## [Modelos de arquitectura](./2_Tecnicas_y_herramientas/2_2_Modelos_de_arquitectura.md)
 
