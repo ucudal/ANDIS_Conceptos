@@ -167,7 +167,7 @@ mindmap
 
 _[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
 
-**Paso 5**. A medida que se descubre nueva información o aparencen en tareas
+**Paso 5**. A medida que se descubre nueva información o aparecen tareas
 adicionales, agregarlas al tu mapa mental en los lugares apropiados.
 
 Un mapa mental completo puede tener líneas principales que irradian en todas
