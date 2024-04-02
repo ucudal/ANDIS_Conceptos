@@ -234,7 +234,7 @@ de notas puede resultar muy beneficioso y placentero.
 ## Referencias
 
 - [MindTools: Mind Maps](https://www.mindtools.com/ahlezc4/mind-maps)
-- [Mind Maps: Tony Buzan Learnign Center](https://www.tonybuzan.edu.sg/about/mind-maps/)
+- [Mind Maps: Tony Buzan Learning Center](https://www.tonybuzan.edu.sg/about/mind-maps/)
 - [How to Mind Map with Tony Buzan](https://www.youtube.com/watch?v=u5Y4pIsXTV0)
 - Buzan, T., and Buzan, B. (1996). [The Mind Map Book: How to Use Radiant
 Thinking to Maximize Your Brains Untapped Potential](https://www.amazon.com/Mind-Map-Book-Thinking-Potential/dp/0452273226).
