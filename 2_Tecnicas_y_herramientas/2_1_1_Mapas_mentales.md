@@ -49,11 +49,11 @@ Realmente es posible ser inventivo con los mapas mentales, por lo que son
 excelentes para aumentar la creatividad también. Cuando se incluyen colores,
 imágenes o dibujos, ¡incluso pueden parecer una obra de arte!
 
-![](https://www.tonybuzan.edu.sg/wp-content/uploads/2017/10/mm_week.jpg)
+![Ejemplo de mapa mental con actividades semanales](https://www.tonybuzan.edu.sg/wp-content/uploads/2017/10/mm_week.jpg)
 
 _[Fuente](https://www.tonybuzan.edu.sg/about/mind-maps/)_
 
-![](https://www.tonybuzan.edu.sg/wp-content/uploads/2017/10/mm_laws.jpg)
+![Ejemplo de mapa mental de las reglas de un mapa mental](https://www.tonybuzan.edu.sg/wp-content/uploads/2017/10/mm_laws.jpg)
 
 _[Fuente](https://www.tonybuzan.edu.sg/about/mind-maps/)_
 
@@ -171,9 +171,9 @@ _[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
 adicionales, agregarlas a tu mapa mental en los lugares apropiados.
 
 Un mapa mental completo puede tener líneas principales que irradian en todas
-direcciones desde el centro, con subtemas ramificándose de estos como ramas y
-ramitas del tronco de un árbol. No es necesario preocuparse por la estructura
-que se produce, esta evolucionará por sí sola.
+direcciones desde el centro, con subtemas ramificándose de estas líneas como
+ramas y ramitas del tronco de un árbol. No es necesario preocuparse por la
+estructura que se produce, esta evolucionará por sí sola.
 
 _[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
 
@@ -197,8 +197,8 @@ sugerencias pueden ayudar a obtener el máximo provecho de los mapas mentales:
    simples y frases cortas y significativas pueden transmitir el mismo significado
    de manera más potente. Las palabras en exceso solo desordenan un mapa mental.
 
-2. Usar letra de molde: Será más fáciles de leer que la escritura cursiva o
-   manuscrita.
+2. Usar letra de molde: Será más fácil de leer que la escritura cursiva o
+manuscrita.
 
 3. Usar color para separar ideas diferentes: El color puede ayudar a mostrar la
    organización del tema. También puede hacer que el mapa mental sea un documento
