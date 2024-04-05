@@ -8,6 +8,13 @@
 
 <br/>
 
+![GitHub License](https://img.shields.io/github/license/ucudal/ANDIS_Conceptos)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/ucudal/ANDIS_Conceptos)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/ucudal/ANDIS_Conceptos)
+
+
+<br/>
+
 En este documento definimos y presentamos los contenidos útiles para los cursos
 de análisis y diseño de aplicaciones e ingeniería de software. También es la
 referencia para el proyecto final de grado. Estos contenidos conceptuales están
