@@ -8,6 +8,13 @@
 
 <br/>
 
+![GitHub License](https://img.shields.io/github/license/ucudal/ANDIS_Conceptos)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/ucudal/ANDIS_Conceptos)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/ucudal/ANDIS_Conceptos)
+
+
+<br/>
+
 En este documento definimos y presentamos los contenidos útiles para los cursos
 de análisis y diseño de aplicaciones e ingeniería de software. También es la
 referencia para el proyecto final de grado. Estos contenidos conceptuales están
@@ -55,7 +62,9 @@ Acá tienen que poner el kanban y los sprints.
 
 Acá van diversas técnicas de relevamiento, de modelado como UML, BPMN, MER, etc.
 
-## [Relevamiento](./2_Tecnicas_y_herramientas/2_1_Relevamiento.md)
+## [Relevamiento](./2_Tecnicas_y_herramientas/2_1__Relevamiento.md)
+
+### [Mapas mentales](./2_Tecnicas_y_herramientas/2_1_1_Mapas_mentales.md)
 
 ## [Modelos de arquitectura](./2_Tecnicas_y_herramientas/2_2_Modelos_de_arquitectura.md)
 
