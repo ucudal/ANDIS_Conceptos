@@ -77,7 +77,9 @@ Acá van diversas técnicas de relevamiento, de modelado como UML, BPMN, MER, et
 
 Diversas plantillas para casos de uso, arquitecturas típicas, etc.
 
-## 3.1 [Casos de uso](./3_1_Casos_de_uso.md)
+## 3.1 [Requerimiento atómico](./3_Plantillas/3_1_Requerimiento_atomico.md)
+
+## 3.2 [Escenario](./3_Plantillas/3_2_Escenario.md)
 
 # 4 [Conceptos](./4_Conceptos/4__Conceptos.md)
 
