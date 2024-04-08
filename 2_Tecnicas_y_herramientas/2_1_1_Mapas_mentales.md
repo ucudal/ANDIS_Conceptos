@@ -1,4 +1,9 @@
-# Mapas mentales
+
+# 2 Técnicas y herramientas
+
+## 2.1 Relevamiento
+
+### 2.1.1 Mapas mentales
 
 Los [mapas mentales](https://en.wikipedia.org/wiki/Mind_map) son una herramienta
 poderosa para apoyar el aprendizaje, mejorar el registro de información, mostrar
