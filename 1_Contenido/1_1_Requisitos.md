@@ -3,6 +3,11 @@
 El propósito de esta sección es reunir, analizar, definir y especificar las
 necesidades del usuario y las funcionalidades del sistema.
 
+## Glosario
+
+Explicar todas las abreviaciones, términos y acrónimos particulares empleados en
+el contexto del proyecto y del problema que son utilizados en el documento.
+
 ## Posicionamiento del proyecto
 
 Esta subsección da un resumen general del proyecto.
