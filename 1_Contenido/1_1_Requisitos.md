@@ -240,7 +240,46 @@ una, en el contexto de la organización cliente.
 
 ## Restricciones
 
-Si existen, las restricciones de diseño o restricciones externas que se impongan.
+Esta subsección detalla las diferentes restricciones de diseño o restricciones
+externas que se impongan para el desarrollo del producto.
+
+### Restricciones de diseño y tecnologías
+
+Cada una de las restricciones mencionadas en esta parte debe usar el [template
+de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico).
+
+<!-- TODO add link in 'restricciones' to definition if considered a keyword -->
+
+Mencionar las restricciones relacionadas con el diseño de la solución. _(¿La
+solución debe ser una aplicación web? ¿debe ser una aplicación mobile? ¿debe
+seguir un patrón de arquitectura de software en específico?)_
+
+En caso de existir restricciones sobre las tecnologías a utilizar para el
+desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente— la
+versión de las mismas.
+
+### Restricciones de entorno de instalación
+
+Mencionar aquellas restricciones relacionadas el entorno de instalación de la
+solución. Estas pueden ser restricciones en cuanto al lugar físico o virtual en
+el cual la solución final debe ser instalada.
+
+Suele ser conveniente utilizar un
+diagrama para explicar las interacciones del sistema con el entorno y otros
+sistemas con los que la solución deba interactuar.
+
+### Restricciones de utilización de software externo
+
+Utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico), mencionar las restricciones
+existentes sobre la utilización de software externo. Esto es: la obligación de
+que la solución se integre con con un software externo específico.
+
+### Restricciones organizacionales
+
+Utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico), detallar aquellas
+restricciones provenientes de las políticas de la organización/empresa cliente.
 
 ## Rangos de calidad
 
@@ -254,8 +293,10 @@ Definir las prioridades de las diferentes funcionalidades del producto.
 
 ## Otros requerimientos del producto
 
-A alto nivel, listar todos los estándares aplicables, requerimientos de plataformas
-o hardware, requerimientos de rendimiento y requerimientos ambientales.
+Utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico), listar todos los estándares
+aplicables, requerimientos de plataformas o hardware, requerimientos de
+rendimiento y requerimientos ambientales.
 
 ### Estándares aplicables
 
@@ -295,15 +336,19 @@ indicarlo.
 
 ### Ayuda en línea
 
-Muchas aplicaciones proveen un sistema de ayuda en línea para asistir al usuario.
-La naturaleza de estos sistemas es específica del desarrollo de la aplicación
-debido a que combinan aspectos de programación con aspectos de texto técnico
-(organización, presentación). En muchos casos, se ha encontrado que el desarrollo
-del sistema de ayuda es un proyecto dentro del proyecto, que beneficia a la
-administración del alcance y a las actividades de planificación. Especificar aquí
-los requerimientos de ayuda en línea, si los hay.
+Muchas aplicaciones proveen un sistema de ayuda en línea para asistir al
+usuario. La naturaleza de estos sistemas es específica del desarrollo de la
+aplicación debido a que combinan aspectos de programación con aspectos de texto
+técnico (organización, presentación). En muchos casos, se ha encontrado que el
+desarrollo del sistema de ayuda es un proyecto dentro del proyecto, que
+beneficia a la administración del alcance y a las actividades de planificación.
+Utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico), especificar aquí los
+requerimientos de ayuda en línea, si los hay.
 
 ### Guías de instalación y configuración
 
-En una solución completa se debe incluir documentos con las instrucciones de instalación
-y configuración. Establecer aquí los requerimientos para esos documentos.
+En una solución completa se debe incluir documentos con las instrucciones de
+instalación y configuración. Utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico), establecer aquí los
+requerimientos para esos documentos.
