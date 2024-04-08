@@ -86,8 +86,8 @@ que nos interesa unificar.
 
 > Nota: No numeramos estas entradas para poder ordenarlas alfabéticamente en el futuro
 
-## [Caso de uso de negocio](./4_Conceptos/4_Caso_de_uso_de_negocio.md)
+## [Caso de uso de negocio](./4_Conceptos/4_Caso_de_uso_del_negocio.md)
 
-## [Caso de uso del producto](./4_Conceptos/4_Caso_de_uso_de_producto.md)
+## [Caso de uso del producto](./4_Conceptos/4_Caso_de_uso_del_producto.md)
 
 ## [Evento de negocio](./4_Conceptos/4_Evento_de_negocio.md)
