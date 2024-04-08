@@ -41,7 +41,7 @@ Acá va lo que veníamos poniendo en el documento de notas de arquitectura y dis
 
 ### [Resultados de las pruebas]
 
-## 1.4 [Gestión](./1_Contenido/1_4_Gestión.md)
+## 1.4 [Gestión](./1_Contenido/1_4__Gestion.md)
 
 Acá van los aspectos metodológicos, de procesos de ingeniería de software, de
 gestión del proyecto.
@@ -73,7 +73,7 @@ Acá van diversas técnicas de relevamiento, de modelado como UML, BPMN, MER, et
 
 ## 2.4 [Modelos de procesos](./2_Tecnicas_y_herramientas/2_4_Modelos_de_procesos.md)
 
-# 3 [Plantillas](./3_Plantillas/)
+# 3 [Plantillas](./3_Plantillas/3__Plantillas.md)
 
 Diversas plantillas para casos de uso, arquitecturas típicas, etc.
 
