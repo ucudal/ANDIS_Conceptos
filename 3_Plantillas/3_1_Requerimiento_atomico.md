@@ -18,13 +18,13 @@ y el texto a completar en el color normal. Tomado de [^1].
             <b>Tipo del requerimiento</b>
         </td>
         <td>
-            Ver debajo 2
+            Ver debajo <span id="back_ref_1"><a href="#ref_1">↓</a></span>
         </td>
         <td td style="color:#0969DA">
             <b># Evento/Caso de uso</b>
         </td>
         <td>
-            Ver debajo 3
+            Ver debajo <span id="back_ref_2"><a href="#ref_2">↓</a></span>
         </td>
     </tr>
     <tr>
@@ -105,16 +105,18 @@ y el texto a completar en el color normal. Tomado de [^1].
     </tr>
 </table>
 
-2 Tipos de requerimiento:
+-----
+<span id="ref_1">Tipos de requerimiento</span>:
 
 - Requerimiento funcional
 - Requerimiento no funcional
 - Restricción o *constraint* del proyecto
 - Restricción o *constraint* de diseño
 - Impulsor o *driver* del proyecto
-- Cuestiones o *issues* del proyecto
+- Cuestiones o *issues* del proyecto <a href="#back_ref_1" title="Volver...">↩︎</a>
 
-3 Lista de identificadores de eventos o casos de uso que necesitan este requerimiento
+<span id="ref_2">Lista de identificadores de eventos o casos de uso que necesitan
+este requerimiento.</span> <a href="#back_ref_2" title="Volver...">↩︎</a>
 
-[^1] Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
+[^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
 Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
