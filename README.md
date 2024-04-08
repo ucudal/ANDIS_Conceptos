@@ -20,6 +20,12 @@ de análisis y diseño de aplicaciones e ingeniería de software. También es la
 referencia para el proyecto final de grado. Estos contenidos conceptuales están
 alineados con las competencias a desarrollar durante los cursos.
 
+</br>
+
+# Contribuyendo
+
+En caso de querer contribuir a esta iniciativa [empieza aquí](./CONTRIBUTING.md)
+
 # Contenido
 
 En esta sección va el contenido del documento entregable principal de un proyecto.
