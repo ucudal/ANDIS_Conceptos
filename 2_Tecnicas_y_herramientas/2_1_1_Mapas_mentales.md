@@ -122,7 +122,7 @@ mindmap
 
 _[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
 
-**Paso 4**. Repetir el proceso para el siguiente nivel de datos, tareas e ideas.
+**Paso 4**. Repetir el proceso para el siguiente nivel de datos, tareas o ideas.
 Dibujar líneas desde los encabezados apropiados y etiquetarlos, como se muestra
 en la figura de abajo.
 
@@ -168,7 +168,7 @@ mindmap
 _[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
 
 **Paso 5**. A medida que se descubre nueva información o aparecen tareas
-adicionales, agregarlas a tu mapa mental en los lugares apropiados.
+adicionales, agregarlas al mapa mental en los lugares apropiados.
 
 Un mapa mental completo puede tener líneas principales que irradian en todas
 direcciones desde el centro, con subtemas ramificándose de estas líneas como
@@ -177,28 +177,31 @@ estructura que se produce, esta evolucionará por sí sola.
 
 _[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
 
-💡 **Consejo**: Si bien dibujar mapas mentales a mano es apropiado en muchos casos,
-herramientas y aplicaciones como [Draw.io](https://drawio-app.com/blog/increase-productivity-with-mind-maps-in-draw-io/),
+💡 **Consejo**: Si bien dibujar mapas mentales a mano es apropiado en muchos
+casos, herramientas y aplicaciones como
+[Draw.io](https://drawio-app.com/blog/increase-productivity-with-mind-maps-in-draw-io/),
 [Visio](https://support.microsoft.com/en-us/office/five-great-tools-for-making-brainstorming-diagrams-in-visio-92d2505b-8187-4134-b1a9-16e7a20720e8)
--todos los estudiantes y docentes tiene acceso a Visio a través de
-[Azure for Education](https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/software)-,
-[Mindmeister](https://www.mindmeister.com/), o incluso [Mermaid](https://mermaid.js.org/syntax/mindmap.html)
--que hemos usado en este documento- pueden mejorar el proceso al ayudar a
-producir mapas mentales de alta calidad, que luego se pueden editar o revisar
-fácilmente.
+-todos los estudiantes y docentes tiene acceso a Visio a través de [Azure for
+Education](https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/software)-,
+[Miro](https://miro.com/templates/mind-map/),
+[Mindmeister](https://www.mindmeister.com/), o incluso
+[Mermaid](https://mermaid.js.org/syntax/mindmap.html) -que hemos usado en este
+documento- pueden mejorar el proceso al ayudar a producir mapas mentales de alta
+calidad, que luego se pueden editar o revisar fácilmente.
 
 ## Cómo usar mapas mentales de manera efectiva
 
 Una vez entendido cómo tomar notas en formato de mapa mental, es posible
-desarrollar otras convenciones para llevarlas más lejos. Las siguientes
-sugerencias pueden ayudar a obtener el máximo provecho de los mapas mentales:
+desarrollar otras convenciones para llevar los mapas mentales más lejos. Las
+siguientes sugerencias pueden ayudar a obtener el máximo provecho de los mapas
+mentales:
 
 1. Usar palabras simples o frases sencillas: En los mapas mentales, palabras
    simples y frases cortas y significativas pueden transmitir el mismo significado
    de manera más potente. Las palabras en exceso solo desordenan un mapa mental.
 
 2. Usar letra de molde: Será más fácil de leer que la escritura cursiva o
-manuscrita.
+   manuscrita.
 
 3. Usar color para separar ideas diferentes: El color puede ayudar a mostrar la
    organización del tema. También puede hacer que el mapa mental sea un documento
