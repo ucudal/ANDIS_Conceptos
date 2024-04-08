@@ -18,13 +18,13 @@ y el texto a completar en el color normal. Tomado de [^1].
             <b>Tipo del requerimiento</b>
         </td>
         <td>
-            Ver debajo[^2]
+            Ver debajo 2
         </td>
         <td td style="color:#0969DA">
             <b># Evento/Caso de uso</b>
         </td>
         <td>
-            Ver debajo[^3]
+            Ver debajo 3
         </td>
     </tr>
     <tr>
@@ -105,10 +105,7 @@ y el texto a completar en el color normal. Tomado de [^1].
     </tr>
 </table>
 
-[^1] Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
-Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
-
-[^2] Tipos de requerimiento:
+2 Tipos de requerimiento:
 
 - Requerimiento funcional
 - Requerimiento no funcional
@@ -117,4 +114,7 @@ Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
 - Impulsor o *driver* del proyecto
 - Cuestiones o *issues* del proyecto
 
-[^3] Lista de identificadores de eventos o casos de uso que necesitan este requerimiento
+3 Lista de identificadores de eventos o casos de uso que necesitan este requerimiento
+
+[^1] Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
+Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
