@@ -1,4 +1,6 @@
-# Introducción
+# Contribuyendo
+
+## Introducción
 
 Antes que nada, gracias por considerar contribuir con esta iniciativa. Son las
 personas como tú las que hacen que sea una herramienta útil para estudiantes,
@@ -16,11 +18,11 @@ tus *pull requests*.
 reportar los errores que encuentres son ejemplos de contribuciones que ayudan a
 mejorar esta iniciativa.
 
-# Reglas de base
+## Reglas de base
 
 Esperamos que quienes quieran contribuir asuman las siguientes responsabilidades:
 
-* Asegúrate de la compatibilidad entre plataformas para cada cambio aceptado:
+* Asegurar la compatibilidad entre plataformas para cada cambio aceptado:
 Windows, Mac, Linux.
 * Crea *issues* para cualquier cambio mayor y mejora que desearías hacer. Discute
 las cosas de manera transparente y obtén los comentarios de la comunidad.
@@ -30,14 +32,27 @@ las cosas de manera transparente y obtén los comentarios de la comunidad.
 contribuidores de todo tipo de antecedente. Revisa el [código de conducta de la
 comunidad Python](https://www.python.org/psf/codeofconduct/).
 
-# Tu primera contribución
-Ayuda a la gente que es nueva en el proyecto a que entiendan donde pueden ser de apoyo. Este es un buen momento también para dejarle saber a las personas si sigues alguna convención para etiquetar issues para principiantes.
+## Tu primera contribución
 
-> Aun no sabes como empezar a contribuir con Atom? Puedes empezar revisando los issues con etiquetas principiante (beginner) y se-necesita-ayuda (help-wanted):
-> Beginner (principiante) - los issues con esta etiqueta deberían de requerir unicamente unas pocas lineas de código y uno o dos tests.
-> Help wanted (se necesita ayuda) - Estos son issues que pueden ser un poco más complicados que los issues de principiantes.
-> Ambas listas de issues están ordenadas por la cantidad de comentarios que tienen. Aunque no es perfecto, la cantidad de comentarios es un proxy rasonable para saber el impacto que tendrá el cambio.
+¿Aun no sabes como empezar a contribuir? Puedes empezar revisando los
+*issues* con etiquetas `good first issue` —principiante— y `help wanted`
 
+* Etiqueta `good first issue`: los *issues* con esta etiqueta deberían ser
+triviales de resolver, por ejemplo, un error ortográfico, o un error de formato.
+* Etiqueta `help wanted`: Estos son *issues* que pueden ser un poco más
+complicados que los anteriores.
+
+Ambas listas de issues están ordenadas por la cantidad de comentarios que
+tienen. Aunque no es perfecto, la cantidad de comentarios es un proxy razonable
+para saber el impacto que tendrá el cambio.
+
+No seas tímido. Tus comentarios y aportes son siempre bienvenidos. Puedes
+equivocarte, todos podemos equivocarnos, lo que no podemos hacer es dejar de
+aprender de nuestros errores, o ser negligentes; pero por lo demás, te alentamos
+a que pruebes.
+
+<!--
+TODO: Ver qué de esto es interesante para agregar, el de Django me gustó.
 [source: [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#your-first-code-contribution)] **Necesitas más inspiración?** [1] [Read the Docs](http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-development) [2] [Django](https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#first-steps) (baja en el scroll hasta "Guidelines" también)
 
 ### Puntos de Bonus: Agrega un enlace a recursos para personas que nunca han contribuido anteriormente.
@@ -48,93 +63,105 @@ Aquí hay algunos tutoriales que puedes incluir: http://makeapullrequest.com/ y 
 [fuente: [React](https://github.com/facebook/react/blob/master/CONTRIBUTING.md#pull-requests)]
 
 Cómo nota, es bastante util usar lenguaje amigable con las personas recien llegadas en todo el documento. Aquí algunos ejemplos de [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md):
+-->
 
->En este punto, ya estas preparada o preparado para hacer cambios! Sientete libre de pedir ayuda; todos fuimos principiantes una vez :smile_cat:
->
->Si un maintainer te pide que hagas un "rebase" al PR, ellos se refieren a que muchisimo código a cambiado y que deberías actualizar la rama para que sea más facil unirla al resto del código.
+[![PRs
+Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
-# Empezando
-### Dales un rapido tour de como hacer submit a una contribución.
-Cómo escribes esto, depende de tí, pero algunas cosas que debería incluir son:
+> [!TIP]
+> ¿Estás por hacer tu primer *pull request*? Aprende cómo hacerlo en esta
+> serie *gratuita* [How to Contribute to an Open Source Project on
+> GitHub](https://kcd.im/pull-request)
 
-* Dejales saber si necesitan firmar un CLA, estar de acuerdo con un DCO, o cualquier otra documentación legal que se necesite
-* Si los tests son necesarios para las contribuciones, hazles saber y explicales como ejecutar estos tests.
-* Si estas usando algo distinto de GitHub para manejar tus issues (ej. JIRA or Trac), hazles saber que herramientas necesitan para contribuir
+En este punto, ¡ya estas preparada o preparado para hacer cambios! Siéntete libre
+de pedir ayuda; todos fuimos principiantes una vez :smile_cat:
 
->Para cualquier cosa que sea mayor a una o dos lineas para corregir:
+> [!IMPORTANT]
+> Si un colaborador te pide que hagas un *rebase* al *pull request*, se refiere
+> a que muchísimo código ha cambiado y deberías actualizar la rama para que sea
+> más fácil unirla al resto del código.
 
->1. Crea tu propio fork del código
->2. Haz los cambios en tu fork
->3. Si te gusta el cambio y crees que el proyecto podría utilizarlo:
-    * Asegurate de haber seguido el estilo de código del proyecto.
-    * Firma el Contributor License Agreement, CLA, con la Fundación jQuery.
-    * Revisa el Código de conducta de la Fundación jQuery.
-    * Envia un pull request indicando que tienes un archivo con el CLA.
+## Empezando
 
+Asumimos que si tienes acceso al repo puedes hacer todo lo que estás autorizado
+a hacer según los permisos de tu rol.
+
+La rama `main` está configurada con una regla de protección de requiere:
+
+* Que haya un *pull request* para hacer un *merge*.
+* Que haya al menos una aprobación del *pull request*.
+* Que uno de los revisores sea *code owner*.
+
+> [!TIP]
+> Para obtener más información sobre las reglas de protección de
+> las ramas mira [este link](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging).
+
+> [!TIP]
+> Para obtener más información sobre los *code owners* mira [este
+> link](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+
+Para cualquier cosa que sea mayor a una o dos lineas para corregir:
+
+1. Crea tu propio *fork* del código
+2. Haz los cambios en tu *fork*
+3. Cuando creas que los cambios ameritan ser incorporados en el repo:
+    * Asegúrate de haber seguido el estilo de código del proyecto.
+    * Envía un *pull request* solicitando que tus cambios sean incorporados.
+
+<!--
+TODO: Revisar estas fuentes
 [fuente: [Requirejs](http://requirejs.org/docs/contributing.html)] **Necesitas más inspiración?** [1] [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md#1-where-do-i-go-from-here) [2] [Node.js](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-contributions) [3] [Ember.js](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md#pull-requests)
+-->
 
-### Si tienes un proceso diferente para correcciones pequeñas u "obvias", hazlo saber.
+## Cómo reportar un bug
 
-> Pequeñas contribuciones como errores de ortografía, donde el contenido es lo suficientemente pequeño como para no considerado propiedad intelectual, puede ser agregado como un patch de contribuidor, sin el CLA.
->
->Como regla de oro, los cambios pueden ser considerados "correcciones obvias" si estos no introducen una nueva funcionalidad o pensamiento creativo. Media vez el cambio no afecte la funcionalidad, algunos ejemplos incluyen los siguientes:
->* Correcciones de Ortografía / Gramática
->* Corrección de un error en la escritura de una palabra, espacios en blanco y cambios de formato
->* Limpieza de comentarios
->* Corrección de Bugs que cambian los valores que se retornan o códigos de error guardados en constantes
->* Agregar mensajes de logueo o salidas de debugging
->* Cambios a los archivos de ‘metadata’ como Gemfile, .gitignore, scripts de construcción, etc.
->* Mover archivos con código de un directorio o paquete a otro
+Cuando completes un *issue* para
+[reportar](https://github.com/ucudal/ANDIS_Conceptos/issues/new/choose) un
+error, asegúrate de responder estas tres preguntas:
 
-[fuente: [Chef](https://github.com/chef/chef/blob/master/CONTRIBUTING.md#chef-obvious-fix-policy)] **Necesitas más inspiración?** [1] [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#making-trivial-changes)
+1. ¿En qué página estabas navegando? Incluye la URL que muestra el navegador
+2. ¿Qué viste que consideras incorrecto?
+3. ¿Qué esperabas ver que consideras correcto?
 
-# Cómo reportar un bug
-### Explica primero cuales son las formas de revelación de fallos en seguridad primero!
-Como mínimo, incluye la siguiente oración:
-> Si encuentras una vulnerabilidad de seguridad, NO abras un issue con la explicación. En vez de eso, envía un email a XXXX.
+Preguntas generales sobre el contenido deben ser planteadas a través de los
+canales de comunicación que proponen los profesores en los cursos o proyectos en
+los que se consume este contenido.
 
-Si no quieres usar tu información personal, establece una dirección como "seguridad@xxxxx". Proyectos más grandes suelen tener procesos más formales para comunicar cuestiones de seguridad, incluyendo comunicación encriptada. (Disclosure: No soy un experto en seguridad.)
-
-> Cualquier issue de seguridad debe ser enviado directamente a security@travis-ci.org
-> Para poder determinar si estas tratando con un error de seguridad, hazte las siguientes preguntas:
-> * Puedo accesar a algo que no es mío, o algo que no debería de tener acceso?
-> * Puedo deshabilitar algo para otras personas?
->
-> Si la respuesta a cualquiera de esas dos preguntas es "Si", entonces probablemente estas lideando con un problema de seguridad. Nota que aún cuando la respuesta es "no" a ambas preguntas, aún podrías estar lideando con un issue de seguridad, si no estas seguro, envianos un email a security@travis-ci.org.
-
-[fuente: [Travis CI](https://github.com/travis-ci/travis-ci/blob/master/CONTRIBUTING.md)] **Necesitas más inspiración?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#security) [2] [Express.js](https://github.com/expressjs/express/blob/master/Security.md)
-
-### Dile a tus contribuidores como crear un reporte de bug.
-También puedes incluir una plantilla para que las personas puedan hacer un copy-paste (de nuevo, menos trabajo para tí).
-
-> Cuando llenas un issue, asegurate de responder estas cinco preguntas:
->
-> 1. Qué version de Go estas usando(go version)?
-> 2. Qué sistema operativo y que procesador estas usando?
-> 3. Qué hiciste?
-> 4. Qué esperabas ver?
-> 5. Qué viste en lugar de ello?
-> Preguntas generales deberían de ir la lista de correos de golang-nuts en vez del issue tracker. Las y los gophers que estén allí te indicarán si es necesario abrir un issue cuando encontraste un bug.
+<!--
+TODO: Revisar estas fuentes
 
 [fuente: [Go](https://github.com/golang/go/blob/master/CONTRIBUTING.md#filing-issues)] **Necesitas más inspiración?** [1] [Celery](https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#other-bugs ) [2] [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#reporting-bugs) (incluye plantilla)
+-->
 
-# Cómo sugerir una nueva característica
-### Si tienes un plan en particular, metas, o filosofía de desarrollo, compartela aquí.
-Esta información le dara a los contribuidores contexto antes de hacer sugerencias que puede no estén alineadas con lo que el proyecto necesita.
+## Cómo sugerir algo nuevo
 
-> La filosofía Express se trata de proveer un pequeño pero robusto set de herramientas para servidores HTTP, haciendolo una gran solución para aplicaciones de una sola página, web sites, híbridos, APIs HTTP publicas.
->
-> Express no te forza a utilizar ningún ORM específico. Con soporte para al rededor de 14 motores de plantillas vía Consolidate.js, puedes facilmente crear un framework perfecto.
+En caso de que lo que quieras reportar no sea un error en un contenido existente
+sino la sugerencia de agregar un nuevo contenido, puedes hacerlo también a través
+de un *issue*.
 
-[fuente: [Express](https://github.com/expressjs/express#philosophy)] **Necesitas más inspiración?** [Active Admin](https://github.com/activeadmin/activeadmin#goals)
+> [!IMPORTANT]
+> Cuando consideres que falta algo, probablemente no estés solo.
+> [Busca](https://github.com/ucudal/ANDIS_Conceptos/issues?q=is%3Aissue+is%3Aopen)
+> en la lista de *issues* si ya no existe uno similar al que estás considerando
+> agregar; si no lo encuentras, [crea uno
+> nuevo](https://github.com/ucudal/ANDIS_Conceptos/issues/new/choose).
 
-### Explica tu proceso deseado para sugerir una nueva característica.
-Si hay una ida y vuelta o cierre de sesion requerido, dilo. Pideles que escriban el alcance de la nueva caracteristica, con la idea de porque es necesaria y como podría funcionar.
+Al crear un *issue* para pedir que se agregue el contenido que te gustaría ver,
+asegúrate que incluye las respuesta a las siguientes preguntas:
 
-> Si te encuentras desdeando una característica que no existe en Elasticsearch, probablemente no estas solo. Puede ser que otras personas tengan necesidades similares. Muchas de las características que Elasticsearch tiene el día de hoy han sido agregadas gracias a que nuestros usuarios vieron la necesidad. Abre un issue en la lista de issues de GitHub que describa la característica que te gustaría ver, porqué la necesitas y como debería funcionar.
+1. ¿Qué contenido está faltando? Incluye referencias a libros, sitios web, u
+otros recursos útiles para encontrar lo que estás sugiriendo
+2. ¿Por qué es necesario?
+3. ¿Cómo deberíamos agregarlo?
+
+<!--
+TODO: Revisar estas fuentes
 
 [fuente: [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#feature-requests)] **Necesitas más inspiración?** [1] [Hoodie](https://github.com/hoodiehq/hoodie/blob/master/CONTRIBUTING.md#feature-requests) [2] [Ember.js](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md#requesting-a-feature)
+-->
 
+
+<!-- TODO: Definir si vamos a tener un proceso de revisión>
 # Proceso de Revisión del código
 ### Explica que necesita una contribución para ser aceptada luego de que se hace el submit.
 Quién la revisa? Quien necesita firmar antes de que sea aceptada? Cuando debería esperar el contribuidor que le respondas? Cómo puede tener un contribuidor acceso a hacer commits, si fuese necesario?
@@ -143,21 +170,250 @@ Quién la revisa? Quien necesita firmar antes de que sea aceptada? Cuando deber�
 > Luego de que se da la retroalimentación se esperan respuestas en las siguientes dos semanas. Luego de ello puede que se cierre el pull request debido a la inactividad.
 
 [fuente: [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#submitting-changes)] **Necesitas más inspiración?** [1] [Meteor](https://meteor.hackpad.com/Responding-to-GitHub-Issues-SKE2u3tkSiH ) [2] [Express.js](https://github.com/expressjs/express/blob/master/Contributing.md#becoming-a-committer)
+-->
 
-# Comunidad
-Si existen otros canales a demás de Github para discutir las contribuciones, mencionalos aquí. También puedes listar las y los autores, mantenedores y/o contribuidores aquí, o establecer las expectativas de tiempo de respuesta.
+## Convenciones
 
-> Puedes chatear con el core team en https://gitter.im/cucumber/cucumber. Tratamos de tener horas disponibles los viernes.
+La documentación en este repo está creada utilizando el lenguaje
+[Markdown](https://en.wikipedia.org/wiki/Markdown). Es un lenguaje que permite
+crear texto con formato utilizando un editor de texto plano.
 
-[fuente: [cucumber-ruby](https://github.com/cucumber/cucumber-ruby/blob/master/CONTRIBUTING.md#talking-with-other-devs)] **Necesitas más inspiración?**
- [1] [Chef](https://github.com/chef/chef/blob/master/CONTRIBUTING.md#-developer-office-hours) [2] [Cookiecutter](https://github.com/audreyr/cookiecutter#community)
+Mira los siguientes recursos para conocer más sobre este lenguaje:
 
-# BONOS: Convenciones de código, mensajes de commit y etiquetado
-Estas secciones no son necesarias, pero pueden ayudar a orientar las contribuciones que recibes.
+* [Escritura y formato básico](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Lee esta guía primero para conocer lo básico que se necesita al editar
+documentos en Markdown.
+* [Edición avanzada](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting).
+Lee esta otra guía para ver cómo crear tablas, bloques de código, diagramas,
+etc.
+* [Guía básica](https://markdownguide.offshoot.io/basic-syntax/). Una guía
+  básica de lo que se puede hacer con Markdown.
+* [Guía avanzada](https://markdownguide.offshoot.io/extended-syntax/). Una guía
+  avanzada para usuarios de Markdown.
+* [Markdown](https://daringfireball.net/projects/markdown/). Sitio de John
+Grubber, uno de los creadores
+* [Edición de Markdown en Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown).
+  Funcionalidades de Visual Studio Code para la edición de Markdown.
 
-### Explica tu estilo preferido de código, si tienes alguno.
+### Edición
 
-**Necesitas más inspiración?** [1] [Requirejs](http://requirejs.org/docs/contributing.html#codestyle) [2] [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#contributing-to-the-elasticsearch-codebase)
+Usamos [Visual Studio Code](https://code.visualstudio.com/download) para editar
+los archivos de este repo. Aunque puedes usar cualquier editor de texto, este
+documento asume que usas ese editor de código.
+
+> [!TIP]
+> Como probablemente uses el editor en otros proyectos, considera crear un
+> perfil antes de agregar estas extensiones que te sugerimos a continuación.
+> Consulta [este link](https://code.visualstudio.com/docs/editor/profiles) para
+> obtener más información sobre los perfiles en Visual Studio Code.
+
+Instala las siguientes extensiones que son útiles para facilitar la edición:
+
+* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker):
+  Corrector ortográfico para el texto.
+* [Code Spell Checker - Spanish](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-spanish):
+  Corrector ortográfico para idioma español.
+* [Markdown Checkboxes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox):
+  Agrega compatibilidad con casillas de verificación a la vista previa de
+  Markdown.
+* [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji):
+  Agrega compatibilidad con la sintaxis de emoji a la vista previa de Markdown.
+* [Markdown Footnotes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-footnotes):
+  agrega compatibilidad con la sintaxis de ^notas al pie a la vista previa de
+  Markdown.
+* [Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles):
+  Utiliza el estilo de GitHub en la vista previa de Markdown.
+* [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid):
+  Agrega soporte para diagramas en Mermaid.
+* [Markdown yaml Preamble](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid):
+  Aunque no usamos actualmente las *front matters* de YAML, podríamos usarlas en
+  el futuro y esta extensión es recomendada.
+* [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint):
+  *Linting* de Markdown y controles de estilo.
+
+Otras extensiones útiles:
+
+* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense):
+  Para auto-completar de nombres de archivos.
+* [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap):
+  Para formatear el ancho del archivo a cierto número de columnas, que en
+  nuestro caso es 80.
+* [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks):
+  Para navegar fácilmente dentro de un archivo mediante marcadores.
+
+Además, esta es la configuración sugerida del editor y sus extensiones:
+
+```json
+{
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
+  "window.commandCenter": true,
+  "cSpell.language": "en,es-ES",
+  "editor.renderWhitespace": "selection",
+  "editor.wordWrapColumn": 120,
+  "markdown.validate.enabled": true,
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "rewrap.wrappingColumn": 80,
+  "rewrap.autoWrap.enabled": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "markdown.validate.enabled": true,
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "workbench.startupEditor": "none",
+}
+```
+
+### Organización del contenido
+
+El contenido está organizado en estas carpetas:
+
+1. Contenido
+2. Técnicas y herramientas
+3.
+4.
+
+### Referencias a las fuentes
+
+Respetamos la propiedad intelectual dando atribución al origen del contenido
+incluido en los documentos.
+
+Cuando el contenido de un documento fue tomado de una fuente,
+incluimos el texto "Tomado de", seguido de una notas al pie, al final de la primera frase del documento.
+
+#### Ejemplo
+
+> Esta es la plantilla para un requerimiento funcional o no funcional. Tomado de [^1].
+
+[^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
+Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
+
+#### Fuente
+
+``` markdown
+Esta es la plantilla para un requerimiento funcional o no funcional. Tomado de [^1].
+
+[^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
+Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
+```
+
+En el caso de una imagen, el texto "Tomado de" va al final del pie de foto, seguido de una nota al pie.
+
+> [!TIP]
+> Mira [este link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes)
+> para tener más información sobre cómo crear notas al pie en Markdown.
+
+Cuando usamos tablas en HTML no es posible agregar notas al pie. En ese caso
+las referencias las agregamos así:
+
+#### Ejemplo
+
+<table>
+    <tr>
+        <td>
+            Ver debajo <span id="back_ref_1"><a href="#ref_1">↓</a></span>
+        </td>
+      </tr>
+</table>
+
+-----
+
+<span id="ref_1">Robertson, S. & Robertson, J. (2012). Mastering the
+Requirements Process: Getting Requirements Right, 3<sup>rd</sup> Edition.
+Addison-Wesley Professional.</span><a href="#back_ref_1" title="Volver...">↩︎</a>
+
+#### Fuente
+
+```html
+<table>
+    <tr>
+        <td>
+            Ver debajo <span id="back_ref_1"><a href="#ref_1">↓</a></span>
+        </td>
+      </tr>
+</table>
+
+-----
+
+<span id="ref_1">Robertson, S. & Robertson, J. (2012). Mastering the
+Requirements Process: Getting Requirements Right, 3<sup>rd</sup> Edition.
+Addison-Wesley Professional.</span><a href="#back_ref_1" title="Volver...">↩︎</a>
+```
+
+### Viñetas
+
+Usamos el símbolo `*` para las viñetas; no usamos `-`.
+
+### Incisos
+
+Cuando queremos incluir en una frase un texto en forma de aclaración o
+explicación —lo que en gramática se conoce como
+[inciso](https://www.rae.es/drae2001/inciso#)—, usamos `—` que corresponde con
+la [raya](https://www.rae.es/dpd/raya) o `EM DASH`, código Unicode `U+2014` o
+UTF-8 `E28094`; no usamos `-` o guión.
+
+Puedes generar una raya:
+
+* En Windows: con <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>-</kbd>
+* En Mac: con kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
+
+### Palabras en inglés u otros idiomas
+
+Cuando no existe una traducción ampliamente aceptada de una palabra en inglés
+u otro idioma al español, preferimos usar la palabra original; esa palabra la
+escribimos *en cursiva*.
+
+### Notas, consejos, avisos, etc.
+
+Incluimos notas —*notes*—, consejos —*tips*—, avisos —*warnings*—, etc. usando
+la notación de citas en bloque según se describe
+[aquí](https://github.com/orgs/community/discussions/16925).
+
+#### Ejemplo
+
+> [!NOTE]
+> Destaca información que los usuarios deben tener en cuenta, incluso cuando hojean.
+
+> [!TIP]
+> Información opcional para ayudar al usuario a tener más éxito.
+
+> [!IMPORTANT]
+> Información crucial necesaria para que los usuarios tengan éxito.
+
+> [!WARNING]
+> Contenido crítico que exige atención inmediata del usuario debido a riesgos potenciales.
+
+> [!CAUTION]
+> Consecuencias potenciales negativas de una acción.
+
+#### Fuente
+
+```text
+> [!NOTE]
+> Destaca información que los usuarios deben tener en cuenta, incluso cuando hojean.
+
+> [!TIP]
+> Información opcional para ayudar al usuario a tener más éxito.
+
+> [!IMPORTANT]
+> Información crucial necesaria para que los usuarios tengan éxito.
+
+> [!WARNING]
+> Contenido crítico que exige atención inmediata del usuario debido a riesgos potenciales.
+
+> [!CAUTION]
+> Consecuencias potenciales negativas de una acción.
+```
+
+### Nombres de archivos
+
+No usamos caracteres especiales o letras con tilde en los nombres de archivos.
+
+Tampoco usamos espacios, separamos las palabras que componen el nombre con guión
+bajo `_`.
+
+Cada palabra del nombre comienza con mayúscula, excepto conectores como `y`, `a`
+o `de`.
+
+<!-- TODO: evaluar incluir otras convenciones para commits, issues, etc.
 
 ### Explica si tienes alguna convención de mensajes de commit.
 
@@ -166,3 +422,21 @@ Estas secciones no son necesarias, pero pueden ayudar a orientar las contribucio
 ### Explica si usas alguna convención para el etiquetado de issues.
 
 **Necesitas más inspiración?** [1] [StandardIssueLabels](https://github.com/wagenet/StandardIssueLabels#standardissuelabels) [2] [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#issue-and-pull-request-labels)
+
+-->
+
+## TODOs
+
+Para manejar la lista de TODO usamos la [extensión Todo
+Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+que permite ver los TODO directamente en el editor.
+
+También usamos la [*GitHub action* TODO to
+Issue](https://github.com/marketplace/actions/todo-to-issue) para convertir los
+nuevos TODO en *issues*.
+
+<!-- Lo siguiente debe ser lo último de este archivo -->
+
+> [!NOTE]
+> La línea que ves debajo y el texto que le sigue son la nota al pie que
+> mostramos en la sección de [referencias](./CONTRIBUTING.md#fuente).
