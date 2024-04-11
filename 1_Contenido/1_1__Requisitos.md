@@ -41,16 +41,16 @@ características del producto a desarrollar. Algunas cosas a mencionar:
 
 - Organización cliente (opcional, si ya se mencionó antes)
 
-- Categoría del producto y opcionalmente nombre, en caso de tenerlo definido
+- Categoría del producto y opcionalmente nombre, en caso de tenerlo definido.
   **Preguntas disparadoras**: _¿Qué es el producto que voy a desarrollar?_
   _¿Cómo se llama?_
 
 - Beneficios del producto
 
-- Productos alternativos **Pregunta disparadora**: _¿Qué otros productos
+- Productos alternativos. **Pregunta disparadora**: _¿Qué otros productos
   similares existen actualmente?_
 
-- Diferenciación del producto en comparación con las alternativas **Preguntas
+- Diferenciación del producto en comparación con las alternativas. **Preguntas
   disparadoras**: _¿Qué tiene de diferente mi producto a desarrollar en
   comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
   las alternativas?_
@@ -63,10 +63,12 @@ to definition if considered keywords -->
 Mencionar a alto nivel los objetivos del proyecto. Para ello, describir el
 propósito, beneficio y métricas del beneficio para cada objetivo.
 
-Se puede usar el siguiente formato: | Objetivo | Propósito | Beneficio | Métrica
-del beneficio | | ------------ | ------------------------------------ | - | -| |
-_Título del objetivo_ | _Propósito del objetivo_ | _Beneficio del objetivo_ |
-_Cuantificación del beneficio_ | | ... | ... | ... | ... |
+Se puede usar el siguiente formato:
+
+| Objetivo              | Propósito                | Beneficio                | Métrica del beneficio          |
+| --------------------- | ------------------------ | ------------------------ | ------------------------------ |
+| _Título del objetivo_ | _Propósito del objetivo_ | _Beneficio del objetivo_ | _Cuantificación del beneficio_ |
+| ...                   | ...                      | ...                      | ...                            |
 
 ### Interesados
 
@@ -297,7 +299,7 @@ externas que se impongan para el desarrollo del producto.
 #### Restricciones de diseño y tecnologías
 
 Cada una de las restricciones mencionadas en esta parte debe usar el [template
-de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico).
+de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
 
 <!-- TODO add link in 'restricciones' to definition if considered a keyword -->
 
@@ -322,14 +324,14 @@ interactuar.
 #### Restricciones de utilización de software externo
 
 Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico), mencionar las restricciones
-existentes sobre la utilización de software externo. Esto es: la obligación de
-que la solución se integre con con un software externo específico.
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), mencionar las
+restricciones existentes sobre la utilización de software externo. Esto es: la
+obligación de que la solución se integre con con un software externo específico.
 
 #### Restricciones organizacionales
 
 Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico), detallar aquellas
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), detallar aquellas
 restricciones provenientes de las políticas de la organización/empresa cliente.
 
 ### Rangos de calidad
@@ -346,9 +348,9 @@ Definir las prioridades de las diferentes funcionalidades del producto.
 ### Otros requerimientos del producto
 
 Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico), listar todos los estándares
-aplicables, requerimientos de plataformas o hardware, requerimientos de
-rendimiento y requerimientos ambientales.
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), listar todos los
+estándares aplicables, requerimientos de plataformas o hardware, requerimientos
+de rendimiento y requerimientos ambientales.
 
 #### Estándares aplicables
 
@@ -397,12 +399,12 @@ técnico (organización, presentación). En muchos casos, se ha encontrado que e
 desarrollo del sistema de ayuda es un proyecto dentro del proyecto, que
 beneficia a la administración del alcance y a las actividades de planificación.
 Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico), especificar aquí los
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), especificar aquí los
 requerimientos de ayuda en línea, si los hay.
 
 #### Guías de instalación y configuración
 
 En una solución completa se debe incluir documentos con las instrucciones de
 instalación y configuración. Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico), establecer aquí los
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), establecer aquí los
 requerimientos para esos documentos.
