@@ -22,8 +22,8 @@ de este proyecto y cómo.
 
 #### Declaración del problema
 
-Sin entrar en detalles, describir el problema que este proyecto intenta resolver.
-Opcionalmente se puede utilizar el siguiente formato:
+Sin entrar en detalles, describir el problema que este proyecto intenta
+resolver. Opcionalmente se puede utilizar el siguiente formato:
 
 <table>
   <tr><td>El problema</td><td><i>(descripción del problema)</i></td></tr>
@@ -36,23 +36,23 @@ Opcionalmente se puede utilizar el siguiente formato:
 
 #### Declaración del posicionamiento del producto
 
-Dar un resumen general que indique, a alto nivel y sin entrar en detalles,
-las características del producto a desarrollar. Algunas cosas a mencionar:
+Dar un resumen general que indique, a alto nivel y sin entrar en detalles, las
+características del producto a desarrollar. Algunas cosas a mencionar:
 
 - Organización cliente (opcional, si ya se mencionó antes)
 
 - Categoría del producto y opcionalmente nombre, en caso de tenerlo definido
-  **Preguntas disparadoras**: _¿Qué es el producto que voy a desarrollar?_ _¿Cómo
-  se llama?_
+  **Preguntas disparadoras**: _¿Qué es el producto que voy a desarrollar?_
+  _¿Cómo se llama?_
 
 - Beneficios del producto
 
-- Productos alternativos
-  **Pregunta disparadora**: _¿Qué otros productos similares existen actualmente?_
+- Productos alternativos **Pregunta disparadora**: _¿Qué otros productos
+  similares existen actualmente?_
 
-- Diferenciación del producto en comparación con las alternativas
-  **Preguntas disparadoras**: _¿Qué tiene de diferente mi producto a desarrollar
-  en comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
+- Diferenciación del producto en comparación con las alternativas **Preguntas
+  disparadoras**: _¿Qué tiene de diferente mi producto a desarrollar en
+  comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
   las alternativas?_
 
 #### Objetivos del proyecto
@@ -60,42 +60,43 @@ las características del producto a desarrollar. Algunas cosas a mencionar:
 <!-- TODO add links in 'objetivos', 'propósito', 'beneficio' and 'métricas del beneficio'
 to definition if considered keywords -->
 
-Mencionar a alto nivel los objetivos del proyecto. Para ello, describir el propósito,
-beneficio y métricas del beneficio para cada objetivo.
+Mencionar a alto nivel los objetivos del proyecto. Para ello, describir el
+propósito, beneficio y métricas del beneficio para cada objetivo.
 
-Se puede usar el siguiente formato:
-| Objetivo | Propósito | Beneficio | Métrica del beneficio |
-| ------------ | ------------------------------------ | - | -|
-| _Título del objetivo_ | _Propósito del objetivo_ | _Beneficio del objetivo_ | _Cuantificación del beneficio_ |
-| ... | ... | ... | ... |
+Se puede usar el siguiente formato: | Objetivo | Propósito | Beneficio | Métrica
+del beneficio | | ------------ | ------------------------------------ | - | -| |
+_Título del objetivo_ | _Propósito del objetivo_ | _Beneficio del objetivo_ |
+_Cuantificación del beneficio_ | | ... | ... | ... | ... |
 
 ### Interesados
 
 <!-- TODO add link in 'interesados' to definition if considered a keyword -->
 
 Esta subsección busca analizar a los interesados en el proyecto. Para ello, se
-presenta: el cliente del proyecto, el comprador o consumidor del producto, usuarios
-del producto y otros interesados.
+presenta: el cliente del proyecto, el comprador o consumidor del producto,
+usuarios del producto y otros interesados.
 
 #### Cliente del proyecto
 
 <!-- TODO add link in 'cliente' to definition if considered a keyword -->
 
-Mencionar el cliente o clientes del proyecto. Limitarse a mencionar tres como máximo.
-Para cada uno mencionar su rol en la organización, rol en el proyecto, perfil técnico,
-criterio de éxito (cómo el cliente define el éxito del proyecto o factores clave
-para que el cliente considere al proyecto exitoso) y otros comentarios sobre el cliente.
+Mencionar el cliente o clientes del proyecto. Limitarse a mencionar tres como
+máximo. Para cada uno mencionar su rol en la organización, rol en el proyecto,
+perfil técnico, criterio de éxito (cómo el cliente define el éxito del proyecto
+o factores clave para que el cliente considere al proyecto exitoso) y otros
+comentarios sobre el cliente.
 
 #### Comprador o consumidor del producto
 
 Mencionar el arquetipo del comprador o consumidor del producto. Por ejemplo: Si
-el producto a desarrollar fuera una aplicación de gestión de seguimiento de horas
-de empleados, el consumidor
-podría ser cualquier empresa interesada en hacer un seguimiento de horas de sus empleados.
+el producto a desarrollar fuera una aplicación de gestión de seguimiento de
+horas de empleados, el consumidor podría ser cualquier empresa interesada en
+hacer un seguimiento de horas de sus empleados.
 
 #### Usuarios
 
-Describir a los usuarios del sistema. Se puede usar el siguiente formato como guía:
+Describir a los usuarios del sistema. Se puede usar el siguiente formato como
+guía:
 
 <table>
   <tr><td>Descripción</td><td><i>Descripción breve del usuario y la relación que
@@ -121,44 +122,47 @@ Describir a los usuarios del sistema. Se puede usar el siguiente formato como gu
 
 Resumir los datos demográficos clave que motivan las decisiones del producto.
 
-**Algunas preguntas disparadoras**: _¿Cuántos usuarios tendrá el producto?
-¿Cómo se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
-tratando de satisfacer por otros medios las necesidades que el producto podrá cubrir?_
+**Algunas preguntas disparadoras**: _¿Cuántos usuarios tendrá el producto? ¿Cómo
+se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
+tratando de satisfacer por otros medios las necesidades que el producto podrá
+cubrir?_
 
 ##### Entornos de los usuarios
 
-Detallar el ambiente de trabajo del usuario objetivo. **Algunas preguntas disparadoras**:
+Detallar el ambiente de trabajo del usuario objetivo. **Algunas preguntas
+disparadoras**:
 
 - Número de personas involucradas en la tarea. ¿Es cambiante?
 
-- ¿Cuán extenso es el ciclo de una tarea? ¿Cuánto tiempo se dedica a cada actividad?
-  ¿Es cambiante?
+- ¿Cuán extenso es el ciclo de una tarea? ¿Cuánto tiempo se dedica a cada
+  actividad? ¿Es cambiante?
 
 - Restricciones ambientales particulares: móviles, exteriores, en vuelo, etc.
 
-- ¿Qué plataformas de sistemas se encuentran en uso actualmente?
-  ¿Y plataformas futuras?
+- ¿Qué plataformas de sistemas se encuentran en uso actualmente? ¿Y plataformas
+  futuras?
 
-- ¿Qué otras aplicaciones están en uso? ¿Precisa esta aplicación ser integrada con
-  ellas?
+- ¿Qué otras aplicaciones están en uso? ¿Precisa esta aplicación ser integrada
+  con ellas?
 
 #### Otros interesados
 
 Mencionar otras personas u organizaciones interesadas en el proyecto o afectadas
-por él. Estos interesados
-pueden formar parte de la organización cliente o trabajar para ella y sus comentarios
-pueden ser valiosos para el proyecto, por ejemplo: patrocinadores, expertos del
-dominio, usuarios del sistema actual, expertos en legislación, diseñadores, usuarios
-encargados del mantenimiento del sistema, encargados del servicio técnico, etcétera.
+por él. Estos interesados pueden formar parte de la organización cliente o
+trabajar para ella y sus comentarios pueden ser valiosos para el proyecto, por
+ejemplo: patrocinadores, expertos del dominio, usuarios del sistema actual,
+expertos en legislación, diseñadores, usuarios encargados del mantenimiento del
+sistema, encargados del servicio técnico, etcétera.
 
 Para cada uno de ellos, mencionar: rol en el proyecto, rol en la organización,
-aporte al proyecto, grado de involucración en el proyecto y nivel de influencia en
-el proyecto.
+aporte al proyecto, grado de involucración en el proyecto y nivel de influencia
+en el proyecto.
 
 ### Identificación de necesidades clave
 
 Listar los problemas clave junto con las soluciones existentes, de acuerdo a la
-percepción de los interesados. Aclarar los siguientes elementos de cada problema:
+percepción de los interesados. Aclarar los siguientes elementos de cada
+problema:
 
 - ¿Cuáles son las razones para este problema?
 
@@ -177,6 +181,48 @@ Se puede usar el siguiente formato para cada necesidad:
   necesidad?</i></td></tr>
 </table>
 
+### Contexto del trabajo
+
+Esta subsección busca determinar los límites del trabajo a realizar y cómo
+encaja en su entorno.
+
+#### Situación actual
+
+<!-- TODO add link in 'modelo de procesos de negocio' to definition if considered
+a keyword -->
+
+Mediante un modelo de procesos de negocio, denotar los procesos de negocio
+pertinentes que existen actualmente y que pueden ser reemplazados o cambiados
+por la solución a desarrollar.
+
+#### Interfaces pertinentes al trabajo
+
+A alto nivel y mediante un diagrama, explicar las interacciones de la solución
+con entidades adyacentes a la misma (otras personas, organizaciones, hardware y
+software) y el input/output de estas interacciones.
+
+#### Eventos y casos de uso del negocio
+
+<!-- TODO add link in 'eventos de negocio' to definition if considered
+a keyword -->
+
+A alto nivel, listar todos los eventos de negocio a los que el trabajo a
+desarrollar responde (es decir, casos de uso del negocio), indicando: nombre del
+evento de negocio, input o información proveniente de la entidad adyacente,
+output a la entidad adyacente y una breve descripción del caso de uso del
+negocio. Se puede utilizar el siguiente formato:
+
+| Evento de negocio                | Input                                 | Output                                 | Descripción del caso de uso del negocio           |
+| -------------------------------- | ------------------------------------- | -------------------------------------- | ------------------------------------------------- |
+| _(Nombre del evento de negocio)_ | _(Input del caso de uso del negocio)_ | _(Output del caso de uso del negocio)_ | _(Breve descripción del caso de uso del negocio)_ |
+
+#### Especificación de los casos de uso del negocio
+
+Detallar el paso a paso de cómo cada caso de uso del negocio identificado
+anteriormente responde al evento del negocio correspondiente. Esto se puede
+realizar mediante diagramas de actividad, escenarios de caso de uso del negocio,
+diagramas de flujo, diagramas de secuencia o mapas mentales.
+
 ### Resumen del producto
 
 Esta subsección provee una vista de alto nivel de las capacidades del producto,
@@ -184,26 +230,24 @@ interfaces con otras aplicaciones y configuraciones de sistemas.
 
 #### Contexto del producto
 
-Poner al producto en el contexto de la organización cliente y describir su relación
-con otros productos relacionados y con el ambiente del usuario. Si el producto es
-independiente y totalmente autocontenido, debe ser declarado aquí. Por ejemplo,
-si el producto es un componente de un sistema mayor, entonces se debe identificar
-las interfaces relevantes entre los sistemas. Una forma sencilla de mostrar los
-componentes principales de un sistema mayor, las interconexiones e interfaces externas
-es mediante un diagrama de bloques.
+Poner al producto en el contexto de la organización cliente y describir su
+relación con otros productos relacionados y con el ambiente del usuario. Si el
+producto es independiente y totalmente autocontenido, debe ser declarado aquí.
+Por ejemplo, si el producto es un componente de un sistema mayor, entonces se
+debe identificar las interfaces relevantes entre los sistemas. Una forma
+sencilla de mostrar los componentes principales de un sistema mayor, las
+interconexiones e interfaces externas es mediante un diagrama de bloques.
 
 #### Resumen de capacidades
 
 Resumir los beneficios y características más importantes que el sistema ha de
-proveer.
-Por ejemplo, si el sistema en cuestión fuera un sistema de atención al cliente,
-en esta parte se abordaría la gestión de documentación de problemas comunes, gestión
-de reclamos, telefonistas, etc., sin mencionar la cantidad de detalle que cada
-una de estas partes requiere.
-Organizar las funciones de forma que la lista resulte comprensible para el cliente
-o para cualquier otro que lea el documento por primera vez. Una tabla sencilla
-que resuma los beneficios clave y las características que los hacen posibles puede
-ser suficiente. Por ejemplo:
+proveer. Por ejemplo, si el sistema en cuestión fuera un sistema de atención al
+cliente, en esta parte se abordaría la gestión de documentación de problemas
+comunes, gestión de reclamos, telefonistas, etc., sin mencionar la cantidad de
+detalle que cada una de estas partes requiere. Organizar las funciones de forma
+que la lista resulte comprensible para el cliente o para cualquier otro que lea
+el documento por primera vez. Una tabla sencilla que resuma los beneficios clave
+y las características que los hacen posibles puede ser suficiente. Por ejemplo:
 
 | Beneficio para el cliente                                                                                    | Característica que produce el beneficio                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -216,16 +260,16 @@ ser suficiente. Por ejemplo:
 
 Listar los asunciones que, si fueran cambiadas, cambiarían las capacidades del
 producto tal como están descritas en este documento. Por ejemplo, una asunción
-puede ser que un sistema operativo específico estará disponible para el producto,
-de tal forma que si el sistema operativo no está disponible, el documento deberá
-ajustarse.
+puede ser que un sistema operativo específico estará disponible para el
+producto, de tal forma que si el sistema operativo no está disponible, el
+documento deberá ajustarse.
 
 #### Costos y precios
 
-Las características de costo y precio pueden impactar directamente a la definición
-e implementación de la aplicación. En esta parte se deben registrar todas las
-restricciones de costos y precios que sean relevantes. Por ejemplo, adquisición
-de hardware para el sistema.
+Las características de costo y precio pueden impactar directamente a la
+definición e implementación de la aplicación. En esta parte se deben registrar
+todas las restricciones de costos y precios que sean relevantes. Por ejemplo,
+adquisición de hardware para el sistema.
 
 #### Instalación
 
@@ -237,13 +281,13 @@ la necesidad de un software de instalación separado.
 
 #### Alternativas competitivas
 
-Identificar las alternativas que la organización cliente percibe como disponibles.
-Éstas alternativas compiten con la realización de este proyecto y pueden incluir
-comprar un producto de la competencia, construir una solución internamente o
-simplemente mantener el status quo. Listar todas las alternativas competitivas
-existentes, o que puedan volverse disponibles, incluyendo los productos existentes
-de la competencia. Incluir las debilidades y fortalezas más importantes de cada
-una, en el contexto de la organización cliente.
+Identificar las alternativas que la organización cliente percibe como
+disponibles. Éstas alternativas compiten con la realización de este proyecto y
+pueden incluir comprar un producto de la competencia, construir una solución
+internamente o simplemente mantener el status quo. Listar todas las alternativas
+competitivas existentes, o que puedan volverse disponibles, incluyendo los
+productos existentes de la competencia. Incluir las debilidades y fortalezas más
+importantes de cada una, en el contexto de la organización cliente.
 
 ### Restricciones
 
@@ -262,8 +306,8 @@ solución debe ser una aplicación web? ¿debe ser una aplicación mobile? ¿deb
 seguir un patrón de arquitectura de software en específico?)_
 
 En caso de existir restricciones sobre las tecnologías a utilizar para el
-desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente— la
-versión de las mismas.
+desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente—
+la versión de las mismas.
 
 #### Restricciones de entorno de instalación
 
@@ -271,9 +315,9 @@ Mencionar aquellas restricciones relacionadas el entorno de instalación de la
 solución. Estas pueden ser restricciones en cuanto al lugar físico o virtual en
 el cual la solución final debe ser instalada.
 
-Suele ser conveniente utilizar un
-diagrama para explicar las interacciones del sistema con el entorno y otros
-sistemas con los que la solución deba interactuar.
+Suele ser conveniente utilizar un diagrama para explicar las interacciones del
+sistema con el entorno y otros sistemas con los que la solución deba
+interactuar.
 
 #### Restricciones de utilización de software externo
 
@@ -291,8 +335,9 @@ restricciones provenientes de las políticas de la organización/empresa cliente
 ### Rangos de calidad
 
 Definir los rangos de calidad requeridos para características no funcionales,
-por ejemplo: rendimiento, robustez, tolerancia a fallos, usabilidad, y características
-similares que no se hayan capturado en el conjunto de funcionalidades.
+por ejemplo: rendimiento, robustez, tolerancia a fallos, usabilidad, y
+características similares que no se hayan capturado en el conjunto de
+funcionalidades.
 
 ### Precedencia y prioridad
 
@@ -308,38 +353,40 @@ rendimiento y requerimientos ambientales.
 #### Estándares aplicables
 
 Listar los estándares con los cuales el producto debe cumplir, si los hay. Por
-ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con plataformas,
-calidad y seguridad (UL, ISO, CMM).
+ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
+plataformas, calidad y seguridad (UL, ISO, CMM).
 
 #### Requerimientos del sistema
 
-Definir todos los requerimientos de sistema necesarios para soportar la aplicación.
-Esto puede incluir plataformas de sistemas operativos, de redes, configuraciones,
-memoria, periféricos y software adicional necesario.
+Definir todos los requerimientos de sistema necesarios para soportar la
+aplicación. Esto puede incluir plataformas de sistemas operativos, de redes,
+configuraciones, memoria, periféricos y software adicional necesario.
 
 #### Requerimientos de rendimiento
 
-Indicar los requerimientos de rendimiento, si los hay. Puede incluir características
-tales como factores de carga de usuarios, anchos de banda o capacidad de comunicaciones,
-precisión, confiabilidad o tiempos de respuesta bajo condiciones de carga variadas.
+Indicar los requerimientos de rendimiento, si los hay. Puede incluir
+características tales como factores de carga de usuarios, anchos de banda o
+capacidad de comunicaciones, precisión, confiabilidad o tiempos de respuesta
+bajo condiciones de carga variadas.
 
 #### Requerimientos ambientales
 
 Detallar los requerimientos ambientales necesarios, si los hay. Para sistemas de
-hardware, estos requerimientos pueden incluir temperatura, humedad, radiación, etc.
-Para aplicaciones de software, los factores ambientales pueden incluir condiciones
-de uso, ambiente del usuario, disponibilidad de recursos, mantenimiento, recuperación.
+hardware, estos requerimientos pueden incluir temperatura, humedad, radiación,
+etc. Para aplicaciones de software, los factores ambientales pueden incluir
+condiciones de uso, ambiente del usuario, disponibilidad de recursos,
+mantenimiento, recuperación.
 
 ### Requerimientos de documentación
 
-Esta subsección describe la documentación que debe ser desarrollada para soportar
-una implantación exitosa del sistema.
+Esta subsección describe la documentación que debe ser desarrollada para
+soportar una implantación exitosa del sistema.
 
 #### Manual de usuario
 
 Describir el propósito y contenido del manual de usuario: extensión, nivel de
-detalle, índices, glosarios, etcétera. Si hay restricciones de formatos o de impresión,
-indicarlo.
+detalle, índices, glosarios, etcétera. Si hay restricciones de formatos o de
+impresión, indicarlo.
 
 #### Ayuda en línea
 
