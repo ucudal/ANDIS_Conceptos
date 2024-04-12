@@ -358,7 +358,8 @@ UTF-8 `E28094`; no usamos `-` o guión.
 Puedes generar una raya:
 
 * En Windows: con <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>-</kbd>
-* En Mac: con kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
+* En Mac: con <kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
+
 
 ### Palabras en inglés u otros idiomas
 
