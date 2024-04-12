@@ -104,7 +104,8 @@ La rama `main` está configurada con una regla de protección de requiere:
 > Para obtener más información sobre los *code owners* mira [este
 > link](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 
-Para cualquier cosa que sea mayor a una o dos lineas para corregir:
+Para cualquier cosa que sea mayor a una o dos líneas para corregir:
+
 
 1. Crea tu propio *fork* del código
 2. Haz los cambios en tu *fork*
