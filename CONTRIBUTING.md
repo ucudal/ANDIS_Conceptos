@@ -76,7 +76,8 @@ Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-squ
 > serie *gratuita* [How to Contribute to an Open Source Project on
 > GitHub](https://kcd.im/pull-request)
 
-En este punto, ¡ya estas preparada o preparado para hacer cambios! Siéntete libre
+En este punto, ¡ya estás preparada o preparado para hacer cambios! Siéntete libre
+
 de pedir ayuda; todos fuimos principiantes una vez :smile_cat:
 
 > [!IMPORTANT]
