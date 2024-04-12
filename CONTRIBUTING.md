@@ -28,7 +28,8 @@ Windows, Mac, Linux.
 las cosas de manera transparente y obtén los comentarios de la comunidad.
 * No agregues nuevos archivos a menos de que sea completamente necesario.
 * Mantén el versionamiento de las cosas que agregues tan cortos como sea posible.
-* Se amable con las y los recién llegados y apoya la diversidad de nuevas y nuevos
+* Sé amable con las y los recién llegados y apoya la diversidad de nuevas y nuevos
+
 contribuidores de todo tipo de antecedente. Revisa el [código de conducta de la
 comunidad Python](https://www.python.org/psf/codeofconduct/).
 
