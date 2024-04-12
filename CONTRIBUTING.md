@@ -64,7 +64,8 @@ Aquí hay algunos tutoriales que puedes incluir: http://makeapullrequest.com/ y 
 
 [fuente: [React](https://github.com/facebook/react/blob/master/CONTRIBUTING.md#pull-requests)]
 
-Cómo nota, es bastante util usar lenguaje amigable con las personas recien llegadas en todo el documento. Aquí algunos ejemplos de [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md):
+Como nota, es bastante útil usar lenguaje amigable con las personas recién llegadas en todo el documento. Aquí algunos ejemplos de [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md):
+
 -->
 
 [![PRs
