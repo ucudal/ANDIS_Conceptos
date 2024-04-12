@@ -11,7 +11,7 @@ y [esta otra](https://github.com/valerybriz/contributing-template).
 
 Al seguir estas guías estás comunicando que tú respetas el tiempo de las y los
 que estamos involucrados en esta iniciativa. A cambio, ellas y ellos deberían de
-forma reciproca resolver tus *issues*, revisar los cambios y ayudarte a finalizar
+forma recíproca resolver tus *issues*, revisar los cambios y ayudarte a finalizar
 tus *pull requests*.
 
 ¡Mantén la mente abierta! Mejorar la documentación sugiriendo nuevas entradas o
