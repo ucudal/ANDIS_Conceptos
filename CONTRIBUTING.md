@@ -151,7 +151,8 @@ de un *issue*.
 > nuevo](https://github.com/ucudal/ANDIS_Conceptos/issues/new/choose).
 
 Al crear un *issue* para pedir que se agregue el contenido que te gustaría ver,
-asegúrate que incluye las respuesta a las siguientes preguntas:
+asegúrate de que incluya las respuesta a las siguientes preguntas:
+
 
 1. ¿Qué contenido está faltando? Incluye referencias a libros, sitios web, u
 otros recursos útiles para encontrar lo que estás sugiriendo
