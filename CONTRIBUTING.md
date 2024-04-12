@@ -35,7 +35,8 @@ comunidad Python](https://www.python.org/psf/codeofconduct/).
 
 ## Tu primera contribución
 
-¿Aun no sabes como empezar a contribuir? Puedes empezar revisando los
+¿Aún no sabes como empezar a contribuir? Puedes empezar revisando los
+
 *issues* con etiquetas `good first issue` —principiante— y `help wanted`
 
 * Etiqueta `good first issue`: los *issues* con esta etiqueta deberían ser
