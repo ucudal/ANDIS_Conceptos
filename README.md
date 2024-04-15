@@ -15,8 +15,9 @@
 <br/>
 
 En este documento definimos y presentamos los contenidos útiles para los cursos
-de **Análisis y Diseño de Aplicaciones I y II** e **Ingeniería de Software**.
-También es la referencia para el **Proyecto Final de Grado**.
+de análisis y diseño de aplicaciones e ingeniería de software. También es la
+referencia para el proyecto final de grado. Estos contenidos conceptuales están
+alineados con las competencias a desarrollar durante los cursos.
 
 # 1 [Contenido](./1_Contenido/1__Contenido.md)
 
@@ -37,25 +38,25 @@ Acá va lo que veníamos poniendo en el documento de notas de arquitectura y dis
 
 ## 1.3 [Calidad](./1_Contenido/1_3__Calidad.md)
 
-### [Casos de prueba]
+### 1.3.1 Casos de prueba
 
-### [Resultados de las pruebas]
+### 1.3.2 Resultados de las pruebas
 
-## 1.4 [Gestión](./1_Contenido/1_4__Gestion.md)
+## 1.4 [Gestión](./1_Contenido/1_4_Gestión.md)
 
 Acá van los aspectos metodológicos, de procesos de ingeniería de software, de
 gestión del proyecto.
 
-### 1.4.1 [Proceso]
+### 1.4.1 Proceso
 
 Acá van las etapas del proyecto basado tanto en UCUAP como en lo que mandó Diego.
 
-### 1.4.2 [Hitos y entregas]
+### 1.4.2 Hitos y entregas
 
 Acá van los hitos, que se entrega en cada hito, y cuándo son los hitos. Lo
 expresamos en semanas para que sirva para todas las ediciones de proyecto.
 
-### 1.4.3 [Sprints y kanbans]
+### 1.4.3 Sprints y kanbans
 
 Acá tienen que poner el kanban y los sprints.
 
