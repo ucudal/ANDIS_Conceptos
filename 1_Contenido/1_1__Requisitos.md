@@ -70,7 +70,7 @@ Se puede usar el siguiente formato:
 | _Título del objetivo_ | _Propósito del objetivo_ | _Beneficio del objetivo_ | _Cuantificación del beneficio_ |
 | ...                   | ...                      | ...                      | ...                            |
 
-### Interesados
+### Interesados (_stakeholders_)
 
 <!-- TODO add link in 'interesados' to definition if considered a keyword -->
 
@@ -83,7 +83,7 @@ usuarios del producto y otros interesados.
 <!-- TODO add link in 'cliente' to definition if considered a keyword -->
 
 Mencionar el cliente o clientes del proyecto. Limitarse a mencionar tres como
-máximo. Para cada uno mencionar su rol en la organización, rol en el proyecto,
+máximo. Para cada uno, mencionar su rol en la organización, rol en el proyecto,
 perfil técnico, criterio de éxito (cómo el cliente define el éxito del proyecto
 o factores clave para que el cliente considere al proyecto exitoso) y otros
 comentarios sobre el cliente.
@@ -210,13 +210,13 @@ a keyword -->
 
 A alto nivel, listar todos los eventos de negocio a los que el trabajo a
 desarrollar responde (es decir, casos de uso del negocio), indicando: nombre del
-evento de negocio, input o información proveniente de la entidad adyacente,
-output a la entidad adyacente y una breve descripción del caso de uso del
-negocio. Se puede utilizar el siguiente formato:
+evento de negocio, entrada (input) o información proveniente de la entidad
+adyacente, salida (output) a la entidad adyacente y una breve descripción del
+caso de uso del negocio. Se puede utilizar el siguiente formato:
 
-| Evento de negocio                | Input                                 | Output                                 | Descripción del caso de uso del negocio           |
-| -------------------------------- | ------------------------------------- | -------------------------------------- | ------------------------------------------------- |
-| _(Nombre del evento de negocio)_ | _(Input del caso de uso del negocio)_ | _(Output del caso de uso del negocio)_ | _(Breve descripción del caso de uso del negocio)_ |
+| Evento de negocio                | Input y output                                 | Descripción del caso de uso del negocio           |
+| -------------------------------- | ---------------------------------------------- | ------------------------------------------------- |
+| _(Nombre del evento de negocio)_ | _(Input y output del caso de uso del negocio)_ | _(Breve descripción del caso de uso del negocio)_ |
 
 #### Especificación de los casos de uso del negocio
 
@@ -224,21 +224,6 @@ Detallar el paso a paso de cómo cada caso de uso del negocio identificado
 anteriormente responde al evento del negocio correspondiente. Esto se puede
 realizar mediante diagramas de actividad, escenarios de caso de uso del negocio,
 diagramas de flujo, diagramas de secuencia o mapas mentales.
-
-### Resumen del producto
-
-Esta subsección provee una vista de alto nivel de las capacidades del producto,
-interfaces con otras aplicaciones y configuraciones de sistemas.
-
-#### Contexto del producto
-
-Poner al producto en el contexto de la organización cliente y describir su
-relación con otros productos relacionados y con el ambiente del usuario. Si el
-producto es independiente y totalmente autocontenido, debe ser declarado aquí.
-Por ejemplo, si el producto es un componente de un sistema mayor, entonces se
-debe identificar las interfaces relevantes entre los sistemas. Una forma
-sencilla de mostrar los componentes principales de un sistema mayor, las
-interconexiones e interfaces externas es mediante un diagrama de bloques.
 
 #### Resumen de capacidades
 
@@ -275,7 +260,7 @@ adquisición de hardware para el sistema.
 
 #### Instalación
 
-Listar las características de instalación, ya que éstas pueden también impactar
+Listar las características de instalación, ya que estas pueden también impactar
 directamente al esfuerzo de desarrollo. Por ejemplo, brindar serialización o
 seguridad con encriptación requerirá esfuerzos adicionales de desarrollo. Los
 requerimientos de instalación también pueden afectar a la codificación, o crear
@@ -313,7 +298,7 @@ la versión de las mismas.
 
 #### Restricciones de entorno de instalación
 
-Mencionar aquellas restricciones relacionadas el entorno de instalación de la
+Mencionar aquellas restricciones relacionadas al entorno de instalación de la
 solución. Estas pueden ser restricciones en cuanto al lugar físico o virtual en
 el cual la solución final debe ser instalada.
 
