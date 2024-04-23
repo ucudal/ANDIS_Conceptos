@@ -276,6 +276,57 @@ competitivas existentes, o que puedan volverse disponibles, incluyendo los
 productos existentes de la competencia. Incluir las debilidades y fortalezas más
 importantes de cada una, en el contexto de la organización cliente.
 
+### Modelo de datos organizacionales y diccionario de datos
+
+Esta subsección consiste de la especificación a alto nivel de entidades
+esenciales para el proyecto. Esta especificación se realiza mediante el diagrama
+de modelo de datos organizacionales y el diccionario de datos.
+
+#### Modelo de datos organizacionales
+
+<!-- TODO Agregar link a 'diagrama de clases UML' y'Modelo Entidad-Relación'
+-->
+
+<!-- TODO Cuando esté definido qué termino usar para contexto del trabajo,
+actualizarlo acá también -->
+
+Mediante un diagrama de clases UML, Modelo Entidad-Relación u cualquier otro
+diagrama de datos, especificar todas las entidades o clases relevantes al
+contexto del trabajo. Lo interesante aquí es mostrar todas las entidades en
+cuestión y sus atributos o propiedades, además de mostrar cómo las entidades se
+relacionan entre sí (para ello es importante indicar la cardinalidad en las
+relaciones).
+
+#### Diccionario de datos
+
+Definir el contenido o formato de los siguientes items vistos en el modelo de
+datos organizacionales:
+
+* Entidades o clases
+* Atributos
+* Relaciones entre las entidades o clases
+* Entradas y salidas de los modelos
+* Datos dentro de las entradas y salidas
+
+Se puede utilizar el siguiente formato:
+
+| Nombre | Contenido | Tipo |
+|--------|-----------|------|
+| _Nombre_ | _Contenido de la entidad/clase o formato del atributo_ | _Clase/Relación/Atributo_ |
+
+**Nota**: En la columna **_Contenido_**, nombrar los atributos de la entidad, y
+si la entrada pertenece a un atributo en vez de a una entidad, mencionar el
+formato del atributo.
+
+Tanto el diccionario de datos como el modelo de datos organizacionales se irán
+ampliando junto con el desarrollo de la solución, esto es: a medida que se vayan
+haciendo ajustes o adiciones de clases/atributos/datos en el desarrollo de la
+solución, reflejar estos cambios en el diccionario de datos y el modelo de datos
+organizacionales.
+
+Los términos utilizados en el diccionario de datos son los términos que se han
+de usar al definir requerimientos atómicos detallados.
+
 ### Restricciones
 
 Esta subsección detalla las diferentes restricciones de diseño o restricciones
@@ -393,3 +444,29 @@ En una solución completa se debe incluir documentos con las instrucciones de
 instalación y configuración. Utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), establecer aquí los
 requerimientos para esos documentos.
+
+### Casos de uso del producto
+
+En esta subsección se definen los casos de uso del producto y se detallan
+individualmente.
+
+#### Diagrama o tabla de casos de uso
+
+Mediante un diagrama de casos de uso o una tabla de casos de uso, definir los
+casos de uso del producto. La tabla de casos de uso suele ser más cómoda cuando
+la cantidad de casos de uso es mayor a 20.
+
+#### Detalles de los casos de uso del producto
+
+Definir los detalles de cada caso de uso del producto. Esto se puede realizar
+mediante un guión gráfico, un escenario descrito textualmente, un prototipo de
+baja o alta fidelidad, una especificación de casos de uso incluyendo excepciones
+y alternativas, o un diagrama de secuencia o actividades.
+
+### Requerimientos funcionales
+
+En esta subsección se detallan los requerimientos funcionales del producto,
+utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada uno de ellos.
+
+Estos requerimientos emergen de los casos de uso del producto.
