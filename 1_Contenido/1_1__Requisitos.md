@@ -39,18 +39,18 @@ resolver. Opcionalmente se puede utilizar el siguiente formato:
 Dar un resumen general que indique, a alto nivel y sin entrar en detalles, las
 características del producto a desarrollar. Algunas cosas a mencionar:
 
-- Organización cliente (opcional, si ya se mencionó antes)
+* Organización cliente (opcional, si ya se mencionó antes)
 
-- Categoría del producto y opcionalmente nombre, en caso de tenerlo definido.
+* Categoría del producto y opcionalmente nombre, en caso de tenerlo definido.
   **Preguntas disparadoras**: _¿Qué es el producto que voy a desarrollar?_
   _¿Cómo se llama?_
 
-- Beneficios del producto
+* Beneficios del producto
 
-- Productos alternativos. **Pregunta disparadora**: _¿Qué otros productos
+* Productos alternativos. **Pregunta disparadora**: _¿Qué otros productos
   similares existen actualmente?_
 
-- Diferenciación del producto en comparación con las alternativas. **Preguntas
+* Diferenciación del producto en comparación con las alternativas. **Preguntas
   disparadoras**: _¿Qué tiene de diferente mi producto a desarrollar en
   comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
   las alternativas?_
@@ -134,17 +134,17 @@ cubrir?_
 Detallar el ambiente de trabajo del usuario objetivo. **Algunas preguntas
 disparadoras**:
 
-- Número de personas involucradas en la tarea. ¿Es cambiante?
+* Número de personas involucradas en la tarea. ¿Es cambiante?
 
-- ¿Cuán extenso es el ciclo de una tarea? ¿Cuánto tiempo se dedica a cada
+* ¿Cuán extenso es el ciclo de una tarea? ¿Cuánto tiempo se dedica a cada
   actividad? ¿Es cambiante?
 
-- Restricciones ambientales particulares: móviles, exteriores, en vuelo, etc.
+* Restricciones ambientales particulares: móviles, exteriores, en vuelo, etc.
 
-- ¿Qué plataformas de sistemas se encuentran en uso actualmente? ¿Y plataformas
+* ¿Qué plataformas de sistemas se encuentran en uso actualmente? ¿Y plataformas
   futuras?
 
-- ¿Qué otras aplicaciones están en uso? ¿Precisa esta aplicación ser integrada
+* ¿Qué otras aplicaciones están en uso? ¿Precisa esta aplicación ser integrada
   con ellas?
 
 #### Otros interesados
@@ -166,11 +166,11 @@ Listar los problemas clave junto con las soluciones existentes, de acuerdo a la
 percepción de los interesados. Aclarar los siguientes elementos de cada
 problema:
 
-- ¿Cuáles son las razones para este problema?
+* ¿Cuáles son las razones para este problema?
 
-- ¿De qué manera se lo soluciona ahora?
+* ¿De qué manera se lo soluciona ahora?
 
-- ¿Qué soluciones desea el interesado?
+* ¿Qué soluciones desea el interesado?
 
 Se puede usar el siguiente formato para cada necesidad:
 
