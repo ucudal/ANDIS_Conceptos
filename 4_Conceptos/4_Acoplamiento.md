@@ -4,7 +4,7 @@
 
 El acoplamiento es una de las formas con las que se mide la modularidad en
 ingeniería de software —las otras son la [cohesión](./4_Cohesion.md) y la
-[co-nascencia o *connascence*](./4_Connascence.md)——. Refiere a la conexión
+[co-nascencia o *connascence*](./4_Connascence.md)—. Refiere a la conexión
 entre partes de diferentes módulos o entre diferentes módulos, y puede ser
 aferente —hacia adentro— o eferente —hacia afuera—[^1]:
 
