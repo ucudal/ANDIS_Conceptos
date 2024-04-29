@@ -1,13 +1,13 @@
 # Conceptos
 
-## Co-nascencia o connascence
+## Co-nascencia o _connascence_
 
 > [!NOTE]
 > El término [nascencia](https://dle.rae.es/nascencia?m=form) se define como la
 > acción y efecto de nacer. Por lo tanto, co-nascencia sería algo así como la
 > acción y efecto de nacer al mismo tiempo. Sin embargo, este término no es muy
 > común en español y en algunos casos se prefiere simplemente usar el término en
-> inglés *connascence*.
+> inglés _connascence_.
 
 La co-nascencia es una de las formas con las que se mide la modularidad en
 ingeniería de software —las otras son el [acoplamiento](./4_Acoplamiento.md) y
@@ -24,7 +24,7 @@ Existen dos tipos de co-nascencia:
   Puede ser:
 
   * De nombres. Múltiples partes deben ponerse de acuerdo en el nombre de una
-    entidad, por ejemplo, un identificador. Consideren el *refactoring* que
+    entidad, por ejemplo, un identificador. Consideren el _refactoring_ que
     tienen varios IDE de renombrar identificadores, para que lidiar con este
     tipo de acoplamiento sea trivial.
 
@@ -48,9 +48,10 @@ Existen dos tipos de co-nascencia:
 * Dinámica. Refiere al acoplamiento en tiempo de ejecución. Puede ser:
 
   * De orden de ejecución. El orden en que se ejecutan diferentes partes es
-    importante. Por ejemplo, cuando en un [ORM](https://en.wikipedia.org/wiki/Object–relational_mapping),
-    debo asignar todas las propiedades de un nuevo objeto, antes de persistirlo
-    en la base de datos.
+    importante. Por ejemplo, cuando en un
+    [ORM](https://en.wikipedia.org/wiki/Object–relational_mapping), debo asignar
+    todas las propiedades de un nuevo objeto, antes de persistirlo en la base de
+    datos.
 
   * De tiempo. El momento de la ejecución de múltiples partes es importantes.
     Por ejemplo, una [condición de carrera](https://en.wikipedia.org/wiki/Race_condition).

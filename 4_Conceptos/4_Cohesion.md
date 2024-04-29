@@ -34,10 +34,10 @@ de [acoplamiento](./4_Acoplamiento.md).
 Cohesión y acoplamiento van de la mano, es decir, cuando aumenta la cohesión
 también tiende a aumentar el acoplamiento, y cuando disminuye la cohesión
 también tiende a disminuir el acoplamiento. El problema es que es bueno para la
-modularidad que la cohesión alta, pero también que al mismo tiempo el
+modularidad que la cohesión sea alta, pero también que al mismo tiempo el
 acoplamiento sea bajo. Lo mismo aplica para cohesión y co-nascencia.
 
-Idealmente, un módulo cohesivo es aquel en el que todas las partes deben estas
+Idealmente, un módulo cohesivo es aquel en el que todas las partes deben estar
 juntas, porque dividirlas en partes más pequeñas —o separarlas en diferentes
 módulos— requeriría acoplar las partes —crear nuevas conexiones entre módulos—
 para lograr un resultado equivalente.
