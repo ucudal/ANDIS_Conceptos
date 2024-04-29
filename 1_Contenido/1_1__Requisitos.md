@@ -333,8 +333,8 @@ Además, explicar las consecuencias de no cumplir con la restricción.
 Mencionar el presupuesto del proyecto expresado en términos monetarios o
 recursos disponibles.
 
-Los requerimientos no deben exceder el presupuesto, así
-que esta restricción determina qué requerimientos son incluidos en el producto.
+Los requerimientos no deben exceder el presupuesto, así que esta restricción
+determina qué requerimientos son incluidos en el producto.
 
 ### Precedencia y prioridad
 
