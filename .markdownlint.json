@@ -1,4 +1,7 @@
 {
+  "MD004": {
+    "style": "asterisk"
+  },
   "MD013": {
     "tables": false
   },

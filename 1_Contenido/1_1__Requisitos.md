@@ -39,18 +39,18 @@ resolver. Opcionalmente se puede utilizar el siguiente formato:
 Dar un resumen general que indique, a alto nivel y sin entrar en detalles, las
 características del producto a desarrollar. Algunas cosas a mencionar:
 
-- Organización cliente (opcional, si ya se mencionó antes)
+* Organización cliente (opcional, si ya se mencionó antes)
 
-- Categoría del producto y opcionalmente nombre, en caso de tenerlo definido.
+* Categoría del producto y opcionalmente nombre, en caso de tenerlo definido.
   **Preguntas disparadoras**: _¿Qué es el producto que voy a desarrollar?_
   _¿Cómo se llama?_
 
-- Beneficios del producto
+* Beneficios del producto
 
-- Productos alternativos. **Pregunta disparadora**: _¿Qué otros productos
+* Productos alternativos. **Pregunta disparadora**: _¿Qué otros productos
   similares existen actualmente?_
 
-- Diferenciación del producto en comparación con las alternativas. **Preguntas
+* Diferenciación del producto en comparación con las alternativas. **Preguntas
   disparadoras**: _¿Qué tiene de diferente mi producto a desarrollar en
   comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
   las alternativas?_
@@ -134,17 +134,17 @@ cubrir?_
 Detallar el ambiente de trabajo del usuario objetivo. **Algunas preguntas
 disparadoras**:
 
-- Número de personas involucradas en la tarea. ¿Es cambiante?
+* Número de personas involucradas en la tarea. ¿Es cambiante?
 
-- ¿Cuán extenso es el ciclo de una tarea? ¿Cuánto tiempo se dedica a cada
+* ¿Cuán extenso es el ciclo de una tarea? ¿Cuánto tiempo se dedica a cada
   actividad? ¿Es cambiante?
 
-- Restricciones ambientales particulares: móviles, exteriores, en vuelo, etc.
+* Restricciones ambientales particulares: móviles, exteriores, en vuelo, etc.
 
-- ¿Qué plataformas de sistemas se encuentran en uso actualmente? ¿Y plataformas
+* ¿Qué plataformas de sistemas se encuentran en uso actualmente? ¿Y plataformas
   futuras?
 
-- ¿Qué otras aplicaciones están en uso? ¿Precisa esta aplicación ser integrada
+* ¿Qué otras aplicaciones están en uso? ¿Precisa esta aplicación ser integrada
   con ellas?
 
 #### Otros interesados
@@ -166,11 +166,11 @@ Listar los problemas clave junto con las soluciones existentes, de acuerdo a la
 percepción de los interesados. Aclarar los siguientes elementos de cada
 problema:
 
-- ¿Cuáles son las razones para este problema?
+* ¿Cuáles son las razones para este problema?
 
-- ¿De qué manera se lo soluciona ahora?
+* ¿De qué manera se lo soluciona ahora?
 
-- ¿Qué soluciones desea el interesado?
+* ¿Qué soluciones desea el interesado?
 
 Se puede usar el siguiente formato para cada necesidad:
 
@@ -209,7 +209,8 @@ software) y el input/output de estas interacciones.
 a keyword -->
 
 A alto nivel, listar todos los eventos de negocio a los que el trabajo a
-desarrollar responde (es decir, casos de uso del negocio), indicando: nombre del
+desarrollar responde (es decir, [casos de uso del
+negocio](../4_Conceptos/4_Caso_de_uso_del_negocio.md)), indicando: nombre del
 evento de negocio, entrada (input) o información proveniente de la entidad
 adyacente, salida (output) a la entidad adyacente y una breve descripción del
 caso de uso del negocio. Se puede utilizar el siguiente formato:
@@ -275,6 +276,65 @@ internamente o simplemente mantener el status quo. Listar todas las alternativas
 competitivas existentes, o que puedan volverse disponibles, incluyendo los
 productos existentes de la competencia. Incluir las debilidades y fortalezas más
 importantes de cada una, en el contexto de la organización cliente.
+
+### Modelo de datos organizacionales y diccionario de datos
+
+> [!NOTE] Cuando estés especificando el modelo de datos organizacionales y el
+> diccionario de datos, asegúrate de ser consistente con el
+> [glosario](#glosario) —es una buena idea que las entidades del dominio estén
+> definidas en el glosario—. A su vez, es una buena práctica el mantener un
+> lenguaje ubicuo a lo largo y ancho del proyecto[^1].
+
+Esta subsección consiste de la especificación a alto nivel de entidades
+esenciales para el proyecto. Esta especificación se realiza mediante el diagrama
+de modelo de datos organizacionales y el diccionario de datos.
+
+#### Modelo de datos organizacionales
+
+<!-- TODO Agregar link a 'diagrama de clases UML' y'Modelo Entidad-Relación'
+-->
+
+<!-- TODO Cuando esté definido qué termino usar para contexto del trabajo,
+actualizarlo acá también -->
+
+Mediante un diagrama de clases UML, Modelo Entidad-Relación u cualquier otro
+diagrama de datos, especificar todas las entidades o clases relevantes al
+contexto del trabajo. Lo interesante aquí es mostrar todas las entidades en
+cuestión y sus atributos o propiedades, además de mostrar cómo las entidades se
+relacionan entre sí (para ello es importante indicar la cardinalidad en las
+relaciones).
+
+#### Diccionario de datos
+
+Definir el contenido o formato de los siguientes items vistos en el modelo de
+datos organizacionales:
+
+* Entidades o clases
+* Atributos
+* Relaciones entre las entidades o clases
+* Entradas y salidas de los modelos
+* Datos dentro de las entradas y salidas
+
+Se puede utilizar el siguiente formato:
+
+| Nombre | Contenido | Tipo |
+|--------|-----------|------|
+| _Nombre_ | _Contenido de la entidad/clase o formato del atributo_ | _Clase/Relación/Atributo_ |
+
+**Nota**: En la columna **_Contenido_**, nombrar los atributos de la entidad, y
+si la entrada pertenece a un atributo en vez de a una entidad, mencionar el
+formato del atributo.
+
+Tanto el diccionario de datos como el modelo de datos organizacionales se irán
+ampliando junto con el desarrollo de la solución, esto es: a medida que se vayan
+haciendo ajustes o adiciones de clases/atributos/datos en el desarrollo de la
+solución, reflejar estos cambios en el diccionario de datos y el modelo de datos
+organizacionales.
+
+Los términos utilizados en el diccionario de datos son los términos que se han
+de usar al definir requerimientos atómicos detallados.
+
+<!-- TODO Agregar `Restricción` en la sección de `Conceptos` -->
 
 ### Restricciones
 
@@ -414,3 +474,34 @@ En una solución completa se debe incluir documentos con las instrucciones de
 instalación y configuración. Utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), establecer aquí los
 requerimientos para esos documentos.
+
+### Casos de uso del producto
+
+En esta subsección se definen los [casos de uso del
+producto](../4_Conceptos/4_Caso_de_uso_del_producto.md) y se detallan
+individualmente.
+
+#### Diagrama o tabla de casos de uso
+
+Mediante un diagrama de casos de uso o una tabla de casos de uso, definir los
+casos de uso del producto. La tabla de casos de uso suele ser más cómoda cuando
+la cantidad de casos de uso es mayor a 20.
+
+#### Detalles de los casos de uso del producto
+
+Definir los detalles de cada caso de uso del producto. Esto se puede realizar
+mediante un guión gráfico, un escenario descrito textualmente, un prototipo de
+baja o alta fidelidad, una especificación de casos de uso incluyendo excepciones
+y alternativas, o un diagrama de secuencia o actividades.
+
+### Requerimientos funcionales
+
+En esta subsección se detallan los requerimientos funcionales del producto,
+utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada uno de ellos.
+
+Estos requerimientos emergen de los casos de uso del producto.
+
+[^1]: “bliki: Ubiquitous Language”, martinfowler.com. Consultado: el 29 de abril
+    de 2024. [En línea]. Disponible en:
+    https://martinfowler.com/bliki/UbiquitousLanguage.html
