@@ -7,7 +7,7 @@ necesidades del usuario y las funcionalidades del sistema.
 
 ### Glosario
 
-Explicar todas las abreviaciones, términos y acrónimos particulares empleados en
+Explicar todas las abreviaturas, términos y acrónimos particulares empleados en
 el contexto del proyecto y del problema que son utilizados en el documento.
 
 ### Posicionamiento del proyecto
