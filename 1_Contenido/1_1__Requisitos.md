@@ -328,6 +328,14 @@ Para cada restricción de calendario, detallar el momento o fecha claramente,
 explicar el grado de importancia de la restricción y por qué es importante.
 Además, explicar las consecuencias de no cumplir con la restricción.
 
+#### Restricciones de presupuesto
+
+Mencionar el presupuesto del proyecto expresado en términos monetarios o
+recursos disponibles.
+
+Los requerimientos no deben exceder el presupuesto, así
+que esta restricción determina qué requerimientos son incluidos en el producto.
+
 ### Precedencia y prioridad
 
 Definir las prioridades de las diferentes funcionalidades del producto.
