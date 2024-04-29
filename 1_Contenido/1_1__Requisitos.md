@@ -375,6 +375,8 @@ Describir el propósito y contenido del manual de usuario: extensión, nivel de
 detalle, índices, glosarios, etcétera. Si hay restricciones de formatos o de
 impresión, indicarlo.
 
+En caso de que no haya manual de usuario, indicarlo.
+
 #### Ayuda en línea
 
 Muchas aplicaciones proveen un sistema de ayuda en línea para asistir al
@@ -386,6 +388,8 @@ beneficia a la administración del alcance y a las actividades de planificación
 Utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), especificar aquí los
 requerimientos de ayuda en línea, si los hay.
+
+En caso de que no haya ayuda en línea, indicarlo.
 
 #### Guías de instalación y configuración
 
