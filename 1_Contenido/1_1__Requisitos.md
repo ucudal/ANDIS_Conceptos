@@ -319,6 +319,15 @@ Utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), detallar aquellas
 restricciones provenientes de las políticas de la organización/empresa cliente.
 
+#### Restricciones de calendario
+
+Mencionar las restricciones temporales o *deadlines* del proyecto. En caso de
+existir alguna ventana temporal de oportunidad, mencionarla también.
+
+Para cada restricción de calendario, detallar el momento o fecha claramente,
+explicar el grado de importancia de la restricción y por qué es importante.
+Además, explicar las consecuencias de no cumplir con la restricción.
+
 ### Precedencia y prioridad
 
 Definir las prioridades de las diferentes funcionalidades del producto.
