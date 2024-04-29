@@ -319,13 +319,6 @@ Utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), detallar aquellas
 restricciones provenientes de las políticas de la organización/empresa cliente.
 
-### Rangos de calidad
-
-Definir los rangos de calidad requeridos para características no funcionales,
-por ejemplo: rendimiento, robustez, tolerancia a fallos, usabilidad, y
-características similares que no se hayan capturado en el conjunto de
-funcionalidades.
-
 ### Precedencia y prioridad
 
 Definir las prioridades de las diferentes funcionalidades del producto.
@@ -363,6 +356,13 @@ hardware, estos requerimientos pueden incluir temperatura, humedad, radiación,
 etc. Para aplicaciones de software, los factores ambientales pueden incluir
 condiciones de uso, ambiente del usuario, disponibilidad de recursos,
 mantenimiento, recuperación.
+
+#### Rangos de calidad
+
+Definir los rangos de calidad requeridos para características no funcionales,
+por ejemplo: rendimiento, robustez, tolerancia a fallos, usabilidad, y
+características similares que no se hayan capturado en el conjunto de
+funcionalidades.
 
 ### Requerimientos de documentación
 
