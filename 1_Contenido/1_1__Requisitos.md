@@ -209,7 +209,8 @@ software) y el input/output de estas interacciones.
 a keyword -->
 
 A alto nivel, listar todos los eventos de negocio a los que el trabajo a
-desarrollar responde (es decir, casos de uso del negocio), indicando: nombre del
+desarrollar responde (es decir, [casos de uso del
+negocio](../4_Conceptos/4_Caso_de_uso_del_negocio.md)), indicando: nombre del
 evento de negocio, entrada (input) o información proveniente de la entidad
 adyacente, salida (output) a la entidad adyacente y una breve descripción del
 caso de uso del negocio. Se puede utilizar el siguiente formato:
@@ -476,7 +477,8 @@ requerimientos para esos documentos.
 
 ### Casos de uso del producto
 
-En esta subsección se definen los casos de uso del producto y se detallan
+En esta subsección se definen los [casos de uso del
+producto](../4_Conceptos/4_Caso_de_uso_del_producto.md) y se detallan
 individualmente.
 
 #### Diagrama o tabla de casos de uso
