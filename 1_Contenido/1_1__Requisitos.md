@@ -7,7 +7,7 @@ necesidades del usuario y las funcionalidades del sistema.
 
 ### Glosario
 
-Explicar todas las abreviaciones, términos y acrónimos particulares empleados en
+Explicar todas las abreviaturas, términos y acrónimos particulares empleados en
 el contexto del proyecto y del problema que son utilizados en el documento.
 
 ### Posicionamiento del proyecto
@@ -370,12 +370,22 @@ Utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), detallar aquellas
 restricciones provenientes de las políticas de la organización/empresa cliente.
 
-### Rangos de calidad
+#### Restricciones de calendario
 
-Definir los rangos de calidad requeridos para características no funcionales,
-por ejemplo: rendimiento, robustez, tolerancia a fallos, usabilidad, y
-características similares que no se hayan capturado en el conjunto de
-funcionalidades.
+Mencionar las restricciones temporales o *deadlines* del proyecto. En caso de
+existir alguna ventana temporal de oportunidad, mencionarla también.
+
+Para cada restricción de calendario, detallar el momento o fecha claramente,
+explicar el grado de importancia de la restricción y por qué es importante.
+Además, explicar las consecuencias de no cumplir con la restricción.
+
+#### Restricciones de presupuesto
+
+Mencionar el presupuesto del proyecto expresado en términos monetarios o
+recursos disponibles.
+
+Los requerimientos no deben exceder el presupuesto, así
+que esta restricción determina qué requerimientos son incluidos en el producto.
 
 ### Precedencia y prioridad
 
@@ -415,6 +425,13 @@ etc. Para aplicaciones de software, los factores ambientales pueden incluir
 condiciones de uso, ambiente del usuario, disponibilidad de recursos,
 mantenimiento, recuperación.
 
+#### Rangos de calidad
+
+Definir los rangos de calidad requeridos para características no funcionales,
+por ejemplo: rendimiento, robustez, tolerancia a fallos, usabilidad, y
+características similares que no se hayan capturado en el conjunto de
+funcionalidades.
+
 ### Requerimientos de documentación
 
 Esta subsección describe la documentación que debe ser desarrollada para
@@ -425,6 +442,8 @@ soportar una implantación exitosa del sistema.
 Describir el propósito y contenido del manual de usuario: extensión, nivel de
 detalle, índices, glosarios, etcétera. Si hay restricciones de formatos o de
 impresión, indicarlo.
+
+En caso de que no haya manual de usuario, indicarlo.
 
 #### Ayuda en línea
 
@@ -437,6 +456,8 @@ beneficia a la administración del alcance y a las actividades de planificación
 Utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), especificar aquí los
 requerimientos de ayuda en línea, si los hay.
+
+En caso de que no haya ayuda en línea, indicarlo.
 
 #### Guías de instalación y configuración
 
