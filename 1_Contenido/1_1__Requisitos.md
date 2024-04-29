@@ -278,6 +278,12 @@ importantes de cada una, en el contexto de la organización cliente.
 
 ### Modelo de datos organizacionales y diccionario de datos
 
+> [!NOTE] Cuando estés especificando el modelo de datos organizacionales y el
+> diccionario de datos, asegúrate de ser consistente con el
+> [glosario](#glosario) —es una buena idea que las entidades del dominio estén
+> definidas en el glosario—. A su vez, es una buena práctica el mantener un
+> lenguaje ubicuo a lo largo y ancho del proyecto[^1].
+
 Esta subsección consiste de la especificación a alto nivel de entidades
 esenciales para el proyecto. Esta especificación se realiza mediante el diagrama
 de modelo de datos organizacionales y el diccionario de datos.
@@ -491,3 +497,7 @@ utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada uno de ellos.
 
 Estos requerimientos emergen de los casos de uso del producto.
+
+[^1]: “bliki: Ubiquitous Language”, martinfowler.com. Consultado: el 29 de abril
+    de 2024. [En línea]. Disponible en:
+    https://martinfowler.com/bliki/UbiquitousLanguage.html
