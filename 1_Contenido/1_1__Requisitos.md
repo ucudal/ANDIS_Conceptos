@@ -333,6 +333,8 @@ organizacionales.
 Los términos utilizados en el diccionario de datos son los términos que se han
 de usar al definir requerimientos atómicos detallados.
 
+<!-- TODO Agregar `Restricción` en la sección de `Conceptos` -->
+
 ### Restricciones
 
 Esta subsección detalla las diferentes restricciones de diseño o restricciones
