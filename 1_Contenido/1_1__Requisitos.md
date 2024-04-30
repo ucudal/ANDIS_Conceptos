@@ -504,4 +504,4 @@ Estos requerimientos emergen de los casos de uso del producto.
 
 [^1]: “bliki: Ubiquitous Language”, martinfowler.com. Consultado: el 29 de abril
     de 2024. [En línea]. Disponible en:
-    https://martinfowler.com/bliki/UbiquitousLanguage.html
+    <https://martinfowler.com/bliki/UbiquitousLanguage.html>
