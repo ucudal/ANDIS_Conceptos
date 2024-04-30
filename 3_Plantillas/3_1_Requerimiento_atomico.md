@@ -45,6 +45,14 @@ y el texto a completar en el color normal. Tomado de [^1].
     </tr>
     <tr>
         <td td style="color:#0969DA">
+            <b>Autor</b>
+        </td>
+        <td colspan="5">
+            La persona que escribió este requerimiento
+        </td>
+    </tr>
+    <tr>
+        <td td style="color:#0969DA">
             <b>Criterio de ajuste</b>
         </td>
         <td colspan="5">
@@ -68,6 +76,14 @@ y el texto a completar en el color normal. Tomado de [^1].
             En qué medida la parte interesada es infeliz si el requerimiento no
             es parte del producto final. La escala va de 1 —no le importa— a 5
             —extremadamente disgustado—.
+        </td>
+    </tr>
+    <tr>
+        <td td style="color:#0969DA">
+            <b>Prioridad</b>
+        </td>
+        <td colspan="5">
+            Una calificación del valor de este requerimiento para los usuarios finales
         </td>
     </tr>
     <tr>
@@ -108,12 +124,12 @@ y el texto a completar en el color normal. Tomado de [^1].
 -----
 <span id="ref_1">Tipos de requerimiento</span>:
 
-- Requerimiento funcional
-- Requerimiento no funcional
-- Restricción o *constraint* del proyecto
-- Restricción o *constraint* de diseño
-- Impulsor o *driver* del proyecto
-- Cuestiones o *issues* del proyecto <a href="#back_ref_1" title="Volver...">↩︎</a>
+* Requerimiento funcional
+* Requerimiento no funcional
+* Restricción o *constraint* del proyecto
+* Restricción o *constraint* de diseño
+* Impulsor o *driver* del proyecto
+* Cuestiones o *issues* del proyecto <a href="#back_ref_1" title="Volver...">↩︎</a>
 
 <span id="ref_2">Lista de identificadores de eventos o casos de uso que necesitan
 este requerimiento.</span> <a href="#back_ref_2" title="Volver...">↩︎</a>
