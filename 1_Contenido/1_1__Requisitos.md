@@ -400,16 +400,42 @@ determina qué requerimientos son incluidos en el producto.
 
 Definir las prioridades de las diferentes funcionalidades del producto.
 
-### Otros requerimientos del producto
+### Casos de uso del producto
 
-Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), listar todos los
-estándares aplicables, requerimientos de plataformas o hardware, requerimientos
-de rendimiento y requerimientos ambientales.
+En esta subsección se definen los [casos de uso del
+producto](../4_Conceptos/4_Caso_de_uso_del_producto.md) y se detallan
+individualmente.
+
+#### Diagrama o tabla de casos de uso
+
+Mediante un diagrama de casos de uso o una tabla de casos de uso, definir los
+casos de uso del producto. La tabla de casos de uso suele ser más cómoda cuando
+la cantidad de casos de uso es mayor a 20.
+
+#### Detalles de los casos de uso del producto
+
+Definir los detalles de cada caso de uso del producto. Esto se puede realizar
+mediante un guión gráfico, un escenario descrito textualmente, un prototipo de
+baja o alta fidelidad, una especificación de casos de uso incluyendo excepciones
+y alternativas, o un diagrama de secuencia o actividades.
+
+### Requerimientos funcionales
+
+En esta subsección se detallan los requerimientos funcionales del producto,
+utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada uno de ellos.
+
+Estos requerimientos emergen de los casos de uso del producto.
+
+### Requerimientos no funcionales
+
+En esta subsección se detallan los diferentes tipos de requerimientos no
+funcionales del producto, utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) en cada caso.
 
 #### Estándares aplicables
 
-Listar los estándares con los cuales el producto debe cumplir, si los hay. Por
+Detallar los estándares con los cuales el producto debe cumplir, si los hay. Por
 ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
 plataformas, calidad y seguridad (UL, ISO, CMM).
 
@@ -437,16 +463,12 @@ mantenimiento, recuperación.
 #### Rangos de calidad
 
 Definir los rangos de calidad requeridos para características no funcionales,
-por ejemplo: rendimiento, robustez, tolerancia a fallos, usabilidad, y
-características similares que no se hayan capturado en el conjunto de
-funcionalidades.
+por ejemplo: robustez, tolerancia a fallos, usabilidad, y características
+similares que no se hayan capturado en el conjunto de funcionalidades.
 
-### Requerimientos de documentación
+#### Requerimientos de documentación
 
-Esta subsección describe la documentación que debe ser desarrollada para
-soportar una implantación exitosa del sistema.
-
-#### Manual de usuario
+##### Manual de usuario
 
 Describir el propósito y contenido del manual de usuario: extensión, nivel de
 detalle, índices, glosarios, etcétera. Si hay restricciones de formatos o de
@@ -454,7 +476,7 @@ impresión, indicarlo.
 
 En caso de que no haya manual de usuario, indicarlo.
 
-#### Ayuda en línea
+##### Ayuda en línea
 
 Muchas aplicaciones proveen un sistema de ayuda en línea para asistir al
 usuario. La naturaleza de estos sistemas es específica del desarrollo de la
@@ -474,33 +496,6 @@ En una solución completa se debe incluir documentos con las instrucciones de
 instalación y configuración. Utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), establecer aquí los
 requerimientos para esos documentos.
-
-### Casos de uso del producto
-
-En esta subsección se definen los [casos de uso del
-producto](../4_Conceptos/4_Caso_de_uso_del_producto.md) y se detallan
-individualmente.
-
-#### Diagrama o tabla de casos de uso
-
-Mediante un diagrama de casos de uso o una tabla de casos de uso, definir los
-casos de uso del producto. La tabla de casos de uso suele ser más cómoda cuando
-la cantidad de casos de uso es mayor a 20.
-
-#### Detalles de los casos de uso del producto
-
-Definir los detalles de cada caso de uso del producto. Esto se puede realizar
-mediante un guión gráfico, un escenario descrito textualmente, un prototipo de
-baja o alta fidelidad, una especificación de casos de uso incluyendo excepciones
-y alternativas, o un diagrama de secuencia o actividades.
-
-### Requerimientos funcionales
-
-En esta subsección se detallan los requerimientos funcionales del producto,
-utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada uno de ellos.
-
-Estos requerimientos emergen de los casos de uso del producto.
 
 [^1]: “bliki: Ubiquitous Language”, martinfowler.com. Consultado: el 29 de abril
     de 2024. [En línea]. Disponible en:
