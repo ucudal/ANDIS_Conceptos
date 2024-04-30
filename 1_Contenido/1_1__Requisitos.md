@@ -433,6 +433,41 @@ En esta subsección se detallan los diferentes tipos de requerimientos no
 funcionales del producto, utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) en cada caso.
 
+#### Requerimientos de apariencia
+
+Detallar los requerimientos asociados a la apariencia del sistema, por ejemplo:
+guías de UX/UI a utilizar —quizá brindadas por el cliente—, marca corporativa de
+la organización cliente, qué colores utilizar, etcétera. Si el sistema no cuenta
+con ninguna interfaz gráfica de usuario, indicarlo.
+
+#### Requerimientos de usabilidad y humanidad
+
+Esta subsección trata con los requerimientos que hacen al producto usable y
+aceptable para los usuarios finales.
+
+##### Requerimientos de facilidad de uso
+
+Detallar las aspiraciones del cliente en cuanto a la facilidad de uso del
+sistema por parte de los usuarios finales. Ten en cuenta que esta facilidad es
+derivada de: la habilidad de los previstos usuarios finales y la complejidad del
+producto y sus funcionalidades. Algunas características a tener en cuenta pueden
+ser:
+
+* Eficiencia de uso: Qué tan rápido o con qué precisión el usuario puede usar el
+  producto.
+* Facilidad de memorización: Qué tanto se espera que el usuario casual memorice
+  en cuanto a usar el producto.
+* Tasa de errores: Qué tantos errores sería aceptable que el usuario cometa.
+  Para algunos productos, es crucial que el usuario cometa muy pocos errores, o
+  en ocasiones, ninguno.
+* Satisfacción general al usar el producto: Para productos que tienen cierta
+  competencia, es esencial que los usuarios se sientan muy satisfechos al usar
+  el producto. De ser el caso, es valioso registrar esto como un requerimiento.
+* Retroalimentación: Qué tanta retroalimentación el usuario necesita para
+  sentirse confiado en cuanto a que el producto está haciendo precisa y
+  correctamente lo que se espera de él. Productos de seguridad o tareas críticas
+  suelen necesitar un alto nivel de retroalimentación.
+
 #### Estándares aplicables
 
 Detallar los estándares con los cuales el producto debe cumplir, si los hay. Por
