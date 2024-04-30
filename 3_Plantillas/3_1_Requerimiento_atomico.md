@@ -48,7 +48,7 @@ y el texto a completar en el color normal. Tomado de [^1].
             <b>Autor</b>
         </td>
         <td colspan="5">
-            La persona que escribió escribió este requerimiento
+            La persona que escribió este requerimiento
         </td>
     </tr>
     <tr>
