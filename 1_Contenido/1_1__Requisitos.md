@@ -498,6 +498,12 @@ ejemplo: "Los usuarios deben ser capaces de usar el sistema tras una semana de
 capacitación" o, "Los usuarios deben ser capaces de utilizar el sistema tras
 leer el manual de usuario":
 
+##### Requerimientos de accesibilidad
+
+Especificar los requerimientos asociados a la accesibilidad del sistema.
+Dependiendo del problema y el producto, este tipo de requerimientos puede ser
+más necesario.
+
 #### Estándares aplicables
 
 Detallar los estándares con los cuales el producto debe cumplir, si los hay. Por
