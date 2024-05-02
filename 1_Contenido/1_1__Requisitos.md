@@ -482,6 +482,22 @@ idiomas, etcétera.
 En caso de que el cliente no esté interesado en definir este tipo de
 requerimientos, indicarlo.
 
+##### Requerimientos de aprendizaje
+
+Detallar las expectativas del cliente en cuanto a qué tanto esfuerzo deben
+emplear los usuarios finales para poder utilizar el sistema de una forma
+productiva.
+
+Algunos sistemas deben ser muy fáciles de utilizar y por ende intuitivos, otros
+se pueden permitir determinada curva de aprendizaje debido a la complejidad del
+problema. La idea aquí es cuantificar la cantidad de tiempo o esfuerzo que los
+usuarios finales necesitan para aprender a usar el sistema y que esta
+cuantificación sea aceptable para el cliente. Esta clarificación puede incluir
+un plan de capacitación para los usuarios, e incluso un manual de usuario, por
+ejemplo: "Los usuarios deben ser capaces de usar el sistema tras una semana de
+capacitación" o, "Los usuarios deben ser capaces de utilizar el sistema tras
+leer el manual de usuario":
+
 #### Estándares aplicables
 
 Detallar los estándares con los cuales el producto debe cumplir, si los hay. Por
