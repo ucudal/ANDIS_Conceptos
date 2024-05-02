@@ -468,6 +468,20 @@ ser:
   correctamente lo que se espera de él. Productos de seguridad o tareas críticas
   suelen necesitar un alto nivel de retroalimentación.
 
+##### Requerimientos de personalización e internacionalización
+
+Especificar los requerimientos asociados a las preferencias de los usuarios.
+
+Estos requerimientos indican cómo el sistema puede ser modificado o configurado
+por los usuarios para tener en cuenta sus preferencias y selección de lenguaje
+utilizado por el sistema.
+
+En otras culturas, se usan diferentes sistemas métricos, unidades monetarias,
+idiomas, etcétera.
+
+En caso de que el cliente no esté interesado en definir este tipo de
+requerimientos, indicarlo.
+
 #### Estándares aplicables
 
 Detallar los estándares con los cuales el producto debe cumplir, si los hay. Por
