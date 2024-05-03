@@ -504,7 +504,7 @@ Especificar los requerimientos asociados a la accesibilidad del sistema.
 Dependiendo del problema y el producto, este tipo de requerimientos puede ser
 más necesario.
 
-##### Requerimientos protección crítica
+##### Requerimientos de protección crítica
 
 Detallar los requerimientos que cuantifican el riesgo de daño percibido a
 personas, propiedad y entorno. Estos pueden estar relacionados a estándares de
