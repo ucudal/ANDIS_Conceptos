@@ -396,10 +396,6 @@ recursos disponibles.
 Los requerimientos no deben exceder el presupuesto, así que esta restricción
 determina qué requerimientos son incluidos en el producto.
 
-### Precedencia y prioridad
-
-Definir las prioridades de las diferentes funcionalidades del producto.
-
 ### Casos de uso del producto
 
 En esta subsección se definen los [casos de uso del
