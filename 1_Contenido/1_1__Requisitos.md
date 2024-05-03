@@ -496,13 +496,65 @@ cuantificación sea aceptable para el cliente. Esta clarificación puede incluir
 un plan de capacitación para los usuarios, e incluso un manual de usuario, por
 ejemplo: "Los usuarios deben ser capaces de usar el sistema tras una semana de
 capacitación" o, "Los usuarios deben ser capaces de utilizar el sistema tras
-leer el manual de usuario":
+leer el manual de usuario".
 
 ##### Requerimientos de accesibilidad
 
 Especificar los requerimientos asociados a la accesibilidad del sistema.
 Dependiendo del problema y el producto, este tipo de requerimientos puede ser
 más necesario.
+
+##### Requerimientos protección crítica
+
+Detallar los requerimientos que cuantifican el riesgo de daño percibido a
+personas, propiedad y entorno. Estos pueden estar relacionados a estándares de
+seguridad o protección.
+
+#### Requerimientos de *performance*
+
+En esta subsección se especifican los requerimientos relacionados al rendimiento
+esperable del producto.
+
+##### Requerimientos de velocidad y latencia
+
+Detallar la cantidad de tiempo disponible para el producto al realizar
+diferentes tareas. Por ejemplo: "El sistema debe responder a cualquier
+interacción en un tiempo menor a dos segundos".
+
+##### Requerimientos de precisión
+
+Especificar los requerimientos asociados a la precisión de los resultados
+mostrados por el producto, por ejemplo: "El sistema debe mostrar las unidades
+monetarias con una precisión de tres decimales".
+
+##### Requerimientos de confiabilidad y disponibilidad
+
+Definir los requerimientos de confiabilidad y disponibilidad del sistema, esto
+es: ¿qué tanto tiempo debe estar disponible el sistema? ¿en qué momentos del día
+o qué días ha de estarlo? ¿qué porcentaje de tiempo de actividad debe cumplir?
+¿qué tasa de fallos del sistema es aceptable?
+
+##### Requerimientos de robustez
+
+Indicar los requerimientos de robustez del sistema, esto es, la capacidad del
+sistema de continuar funcionando de forma aceptable bajo condiciones anormales.
+Por ejemplo: "El sistema debe seguir proveyendo la funcionalidad X al no tener
+conexión a Internet".
+
+##### Requerimientos de capacidad
+
+Especificar la cantidad de volumen de datos o usuarios que el sistema debe
+soportar. ¿Qué tantos usuarios en simultáneo debe soportar el sistema? ¿este
+número cambia para determinado momento del día?
+
+##### Requerimientos de escalabilidad
+
+Detallar aquellos requerimientos relacionados a la escalabilidad del sistema.
+
+##### Requerimientos de longevidad
+
+Especificar los requerimientos que definen la longevidad del producto, esto es,
+la cantidad de tiempo que estará operativo.
 
 #### Estándares aplicables
 
@@ -516,13 +568,6 @@ Definir todos los requerimientos de sistema necesarios para soportar la
 aplicación. Esto puede incluir plataformas de sistemas operativos, de redes,
 configuraciones, memoria, periféricos y software adicional necesario.
 
-#### Requerimientos de rendimiento
-
-Indicar los requerimientos de rendimiento, si los hay. Puede incluir
-características tales como factores de carga de usuarios, anchos de banda o
-capacidad de comunicaciones, precisión, confiabilidad o tiempos de respuesta
-bajo condiciones de carga variadas.
-
 #### Requerimientos ambientales
 
 Detallar los requerimientos ambientales necesarios, si los hay. Para sistemas de
@@ -530,12 +575,6 @@ hardware, estos requerimientos pueden incluir temperatura, humedad, radiación,
 etc. Para aplicaciones de software, los factores ambientales pueden incluir
 condiciones de uso, ambiente del usuario, disponibilidad de recursos,
 mantenimiento, recuperación.
-
-#### Rangos de calidad
-
-Definir los rangos de calidad requeridos para características no funcionales,
-por ejemplo: robustez, tolerancia a fallos, usabilidad, y características
-similares que no se hayan capturado en el conjunto de funcionalidades.
 
 #### Requerimientos de documentación
 
