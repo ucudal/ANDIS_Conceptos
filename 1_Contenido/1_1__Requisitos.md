@@ -593,7 +593,28 @@ Definir todos los requerimientos de sistema necesarios para soportar la
 aplicación. Esto puede incluir plataformas de sistemas operativos, de redes,
 configuraciones, memoria, periféricos y software adicional necesario.
 
-#### Requerimientos de documentación
+#### Requerimientos de mantenimiento y soporte
+
+##### Requerimientos de mantenimiento
+
+Especificar aquellos requerimientos relacionados al mantenimiento del sistema
+por parte de los usuarios finales, administradores e incluso otros futuros
+desarrolladores. Por ejemplo: "El código debe ser escrito en inglés para que sea
+legible internacionalmente" o, "Un administrador de la aplicación debe ser capaz
+de agregar un recurso X en menos de 15 minutos para que sea visible por los
+usuarios" o, "Se debe entregar junto al producto un documento con notas de
+arquitectura del sistema que explique cómo está estructurado".
+
+##### Requerimientos de soporte
+
+En caso de que el sistema incluya soporte o ayuda en línea de alguna forma
+específica —un chatbot, por ejemplo—, detallarlo aquí mediante requerimientos.
+En caso contrario, indicarlo.
+
+##### Requerimientos de adaptabilidad
+
+Especificar los entornos o plataformas que el sistema deberá soportar, por
+ejemplo: "El sistema deberá ser capaz de correr en Android y iOS".
 
 ##### Manual de usuario
 
@@ -603,26 +624,11 @@ impresión, indicarlo.
 
 En caso de que no haya manual de usuario, indicarlo.
 
-##### Ayuda en línea
-
-Muchas aplicaciones proveen un sistema de ayuda en línea para asistir al
-usuario. La naturaleza de estos sistemas es específica del desarrollo de la
-aplicación debido a que combinan aspectos de programación con aspectos de texto
-técnico (organización, presentación). En muchos casos, se ha encontrado que el
-desarrollo del sistema de ayuda es un proyecto dentro del proyecto, que
-beneficia a la administración del alcance y a las actividades de planificación.
-Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), especificar aquí los
-requerimientos de ayuda en línea, si los hay.
-
-En caso de que no haya ayuda en línea, indicarlo.
-
 #### Guías de instalación y configuración
 
 En una solución completa se debe incluir documentos con las instrucciones de
-instalación y configuración. Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), establecer aquí los
-requerimientos para esos documentos.
+instalación y configuración. Establecer aquí los requerimientos para esos
+documentos.
 
 [^1]: “bliki: Ubiquitous Language”, martinfowler.com. Consultado: el 29 de abril
     de 2024. [En línea]. Disponible en:
