@@ -593,14 +593,6 @@ Definir todos los requerimientos de sistema necesarios para soportar la
 aplicación. Esto puede incluir plataformas de sistemas operativos, de redes,
 configuraciones, memoria, periféricos y software adicional necesario.
 
-#### Requerimientos ambientales
-
-Detallar los requerimientos ambientales necesarios, si los hay. Para sistemas de
-hardware, estos requerimientos pueden incluir temperatura, humedad, radiación,
-etc. Para aplicaciones de software, los factores ambientales pueden incluir
-condiciones de uso, ambiente del usuario, disponibilidad de recursos,
-mantenimiento, recuperación.
-
 #### Requerimientos de documentación
 
 ##### Manual de usuario
