@@ -552,6 +552,35 @@ Detallar aquellos requerimientos relacionados a la escalabilidad del sistema.
 Especificar los requerimientos que definen la longevidad del producto, esto es,
 la cantidad de tiempo que estará operativo.
 
+#### Requerimientos operacionales y de entorno
+
+##### Requerimientos de entorno físico
+
+Detallar los requerimientos del entorno físico en el cual el sistema operará.
+
+En algunos productos, las diferentes condiciones especiales bajo las que operará
+el sistema generan requerimientos que se deben tener en cuenta.
+
+##### Requerimientos de interfaz con sistemas adyacentes
+
+Definir los requerimientos que establecen las interacciones necesarias entre el
+sistema y otras aplicaciones o software. Tener en cuenta el versionado del
+software con el cual el sistema va a interactuar, por ejemplo: "El sistema
+deberá poder utilizar datos de la aplicación X en su versión 4.0".
+
+##### Requerimientos de distribución
+
+Indicar los requerimientos necesarios para que el sistema sea distribuido o
+vendido como producto. Indicar también las tareas necesarias para que sea
+instalado, en caso de ser pertinente. Por ejemplo: "La aplicación debe ser
+distribuida en la App Store y Google Play Store en Uruguay" o, "La aplicación
+debe ser descargable desde el sitio web de la organización".
+
+##### Requerimientos del ciclo de *releases*
+
+En caso de establecer con el cliente un ciclo de releases durante un determinado
+período, indicarlo aquí como un requerimiento.
+
 #### Estándares aplicables
 
 Detallar los estándares con los cuales el producto debe cumplir, si los hay. Por
