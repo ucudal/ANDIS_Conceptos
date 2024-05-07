@@ -624,7 +624,7 @@ impresión, indicarlo.
 
 En caso de que no haya manual de usuario, indicarlo.
 
-#### Guías de instalación y configuración
+##### Guías de instalación y configuración
 
 En una solución completa se debe incluir documentos con las instrucciones de
 instalación y configuración. Establecer aquí los requerimientos para esos
