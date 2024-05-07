@@ -633,3 +633,37 @@ documentos.
 [^1]: “bliki: Ubiquitous Language”, martinfowler.com. Consultado: el 29 de abril
     de 2024. [En línea]. Disponible en:
     <https://martinfowler.com/bliki/UbiquitousLanguage.html>
+
+#### Requerimientos de seguridad
+
+##### Requerimientos de acceso
+
+Detallar quiénes tienen acceso a las diferentes partes del producto (tanto en
+términos de funcionalidades como en términos de datos) y bajo qué
+circunstancias.
+
+##### Requerimientos de integridad
+
+Especificar la integridad requerida por la base de datos, archivos del sistema y
+el sistema en sí mismo. Por ejemplo: "El sistema deberá prevenir el ingreso de
+datos incorrectos" o, "El sistema deberá protegerse a sí mismo del uso
+malintencionado".
+
+##### Requerimientos de privacidad
+
+Describir aquellos requerimientos que definen qué debe hacer o con qué debe
+cumplir el sistema para asegurar la privacidad de los datos compartidos por los
+usuarios. Por ejemplo: "El sistema debe notificar a los usuarios sobre el uso
+de sus datos personales" o, "El sistema debe notificar sobre cambios en la
+política de privacidad de los datos".
+
+##### Requerimientos de auditoría
+
+Especificar lo que el sistema debe de hacer (usualmente, mantener información
+persistida) para permitir controles de auditoría. Por ejemplo: "El sistema debe
+mantener datos sobre X para que sean auditados periódicamente".
+
+##### Requerimientos de inmunidad
+
+Mencionar qué es lo que tiene que hacer el sistema para protegerse de
+infecciones de software como viruses, gusanos, *malware*, *spyware*, etcétera.
