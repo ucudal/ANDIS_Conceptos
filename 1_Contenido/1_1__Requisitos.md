@@ -42,18 +42,18 @@ características del producto a desarrollar. Algunas cosas a mencionar:
 * Organización cliente (opcional, si ya se mencionó antes)
 
 * Categoría del producto y opcionalmente nombre, en caso de tenerlo definido.
-  **Preguntas disparadoras**: _¿Qué es el producto que voy a desarrollar?_
-  _¿Cómo se llama?_
+  **Preguntas disparadoras**: *¿Qué es el producto que voy a desarrollar?
+  ¿Cómo se llama?*
 
 * Beneficios del producto
 
-* Productos alternativos. **Pregunta disparadora**: _¿Qué otros productos
-  similares existen actualmente?_
+* Productos alternativos. **Pregunta disparadora**: *¿Qué otros productos
+  similares existen actualmente?*
 
 * Diferenciación del producto en comparación con las alternativas. **Preguntas
-  disparadoras**: _¿Qué tiene de diferente mi producto a desarrollar en
-  comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
-  las alternativas?_
+  disparadoras**: *¿Qué tiene de diferente mi producto a desarrollar en
+  comparación con las alternativas mencionadas? ¿Por qué el cliente no utiliza
+  las alternativas?*
 
 #### Objetivos del proyecto
 
@@ -67,10 +67,10 @@ Se puede usar el siguiente formato:
 
 | Objetivo              | Propósito                | Beneficio                | Métrica del beneficio          |
 | --------------------- | ------------------------ | ------------------------ | ------------------------------ |
-| _Título del objetivo_ | _Propósito del objetivo_ | _Beneficio del objetivo_ | _Cuantificación del beneficio_ |
+| *Título del objetivo* | *Propósito del objetivo* | *Beneficio del objetivo* | *Cuantificación del beneficio* |
 | ...                   | ...                      | ...                      | ...                            |
 
-### Interesados (_stakeholders_)
+### Interesados (*stakeholders*)
 
 <!-- TODO add link in 'interesados' to definition if considered a keyword -->
 
@@ -124,10 +124,10 @@ guía:
 
 Resumir los datos demográficos clave que motivan las decisiones del producto.
 
-**Algunas preguntas disparadoras**: _¿Cuántos usuarios tendrá el producto? ¿Cómo
+**Algunas preguntas disparadoras**: *¿Cuántos usuarios tendrá el producto? ¿Cómo
 se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
 tratando de satisfacer por otros medios las necesidades que el producto podrá
-cubrir?_
+cubrir?*
 
 ##### Entornos de los usuarios
 
@@ -217,7 +217,7 @@ caso de uso del negocio. Se puede utilizar el siguiente formato:
 
 | Evento de negocio                | Input y output                                 | Descripción del caso de uso del negocio           |
 | -------------------------------- | ---------------------------------------------- | ------------------------------------------------- |
-| _(Nombre del evento de negocio)_ | _(Input y output del caso de uso del negocio)_ | _(Breve descripción del caso de uso del negocio)_ |
+| *(Nombre del evento de negocio)* | *(Input y output del caso de uso del negocio)* | *(Breve descripción del caso de uso del negocio)* |
 
 #### Especificación de los casos de uso del negocio
 
@@ -319,9 +319,9 @@ Se puede utilizar el siguiente formato:
 
 | Nombre | Contenido | Tipo |
 |--------|-----------|------|
-| _Nombre_ | _Contenido de la entidad/clase o formato del atributo_ | _Clase/Relación/Atributo_ |
+| *Nombre* | *Contenido de la entidad/clase o formato del atributo* | *Clase/Relación/Atributo* |
 
-**Nota**: En la columna **_Contenido_**, nombrar los atributos de la entidad, y
+**Nota**: En la columna ***Contenido***, nombrar los atributos de la entidad, y
 si la entrada pertenece a un atributo en vez de a una entidad, mencionar el
 formato del atributo.
 
@@ -348,9 +348,9 @@ de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
 
 <!-- TODO add link in 'restricciones' to definition if considered a keyword -->
 
-Mencionar las restricciones relacionadas con el diseño de la solución. _(¿La
+Mencionar las restricciones relacionadas con el diseño de la solución. *(¿La
 solución debe ser una aplicación web? ¿debe ser una aplicación mobile? ¿debe
-seguir un patrón de arquitectura de software en específico?)_
+seguir un patrón de arquitectura de software en específico?)*
 
 En caso de existir restricciones sobre las tecnologías a utilizar para el
 desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente—
