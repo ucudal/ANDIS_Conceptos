@@ -404,9 +404,10 @@ individualmente.
 
 #### Diagrama o tabla de casos de uso
 
-Mediante un diagrama de casos de uso o una tabla de casos de uso, definir los
-casos de uso del producto. La tabla de casos de uso suele ser más cómoda cuando
-la cantidad de casos de uso es mayor a 20.
+Mediante un [diagrama de casos de uso o una tabla de casos de
+uso](/3_Plantillas/3_3_Casos_de_uso.md), definir los casos de uso del producto.
+La tabla de casos de uso suele ser más cómoda cuando la cantidad de casos de uso
+es mayor a 20.
 
 #### Detalles de los casos de uso del producto
 
@@ -472,7 +473,8 @@ Estos requerimientos indican cómo el sistema puede ser modificado o configurado
 por los usuarios para tener en cuenta sus preferencias y selección de lenguaje
 utilizado por el sistema.
 
-En otras culturas, se usan diferentes sistemas de unidades —sistema métrico, anglosajón, etcétera—, unidades monetarias,
+En otras culturas, se usan diferentes sistemas de unidades —sistema métrico,
+anglosajón, etcétera—, unidades monetarias,
 
 idiomas, etcétera.
 
