@@ -613,6 +613,4 @@ instalación y configuración. Utilizando el [template de requerimiento
 atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), establecer aquí los
 requerimientos para esos documentos.
 
-[^1]: “bliki: Ubiquitous Language”, martinfowler.com. Consultado: el 29 de abril
-    de 2024. [En línea]. Disponible en:
-    <https://martinfowler.com/bliki/UbiquitousLanguage.html>
+[^1]: Evans, E. (2003). Domain-Driven Design. Addison-Wesley Professional.
