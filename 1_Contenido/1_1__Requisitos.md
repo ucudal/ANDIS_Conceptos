@@ -279,7 +279,8 @@ importantes de cada una, en el contexto de la organización cliente.
 
 ### Modelo de datos organizacionales y diccionario de datos
 
-> [!NOTE] Cuando estés especificando el modelo de datos organizacionales y el
+> [!NOTE]
+> Cuando estés especificando el modelo de datos organizacionales y el
 > diccionario de datos, asegúrate de ser consistente con el
 > [glosario](#glosario) —es una buena idea que las entidades del dominio estén
 > definidas en el glosario—. A su vez, es una buena práctica el mantener un
@@ -415,7 +416,8 @@ es mayor a 20.
 Definir los detalles de cada caso de uso del producto. Esto se puede realizar
 mediante una de las siguientes opciones:
 
-> [!NOTE] El próximo listado está ordenado descendentemente según la formalidad
+> [!NOTE]
+> El próximo listado está ordenado descendentemente según la formalidad
 > de cada alternativa, esto es: la primer opción es la más formal, la última la
 > menos. De las cinco opciones presentadas, las tres primeras las consideramos
 > formales y las últimas dos informales.
@@ -429,7 +431,8 @@ mediante una de las siguientes opciones:
 * Un guión gráfico
 * Un prototipo de baja o alta fidelidad
 
-> [!WARNING] A efectos de entregas de Proyecto, debes utilizar **al menos una
+> [!WARNING]
+> A efectos de entregas de Proyecto, debes utilizar **al menos una
 > opción formal**, aunque puedes utilizar de forma adicional opciones informales
 > para profundizar en los casos de uso o aclararlos. Para utilizar únicamente
 > opciones informales, debes contar con la autorización de tu tutor.
