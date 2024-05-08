@@ -443,7 +443,7 @@ aceptable para los usuarios finales.
 
 ##### Requerimientos de facilidad de uso
 
-Detallar las aspiraciones del cliente en cuanto a la facilidad de uso del
+Detallar los requerimientos del cliente en cuanto a la facilidad de uso del
 sistema por parte de los usuarios finales. Ten en cuenta que esta facilidad es
 derivada de: la habilidad de los previstos usuarios finales y la complejidad del
 producto y sus funcionalidades. Algunas características a tener en cuenta pueden
@@ -472,7 +472,8 @@ Estos requerimientos indican cómo el sistema puede ser modificado o configurado
 por los usuarios para tener en cuenta sus preferencias y selección de lenguaje
 utilizado por el sistema.
 
-En otras culturas, se usan diferentes sistemas métricos, unidades monetarias,
+En otras culturas, se usan diferentes sistemas de unidades —sistema métrico, anglosajón, etcétera—, unidades monetarias,
+
 idiomas, etcétera.
 
 En caso de que el cliente no esté interesado en definir este tipo de
