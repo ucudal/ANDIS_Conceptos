@@ -412,9 +412,26 @@ es mayor a 20.
 #### Detalles de los casos de uso del producto
 
 Definir los detalles de cada caso de uso del producto. Esto se puede realizar
-mediante un guión gráfico, un escenario descrito textualmente, un prototipo de
-baja o alta fidelidad, una especificación de casos de uso incluyendo excepciones
-y alternativas, o un diagrama de secuencia o actividades.
+mediante una de las siguientes opciones:
+
+> [!NOTE] El próximo listado está ordenado descendentemente según la formalidad
+> de cada alternativa, esto es: la primer opción es la más formal, la última la
+> menos. De las cinco opciones presentadas, las tres primeras las consideramos
+> formales y las últimas dos informales.
+
+<!-- TODO Agregar hipervínculos a diagrama UML y diagrama BPML -->
+
+* Un escenario descrito textualmente, paso a paso, incluyendo excepciones y
+  alternativas
+* Un diagrama de actividades UML o un diagrama de procesos BPML
+* Una historia de usuario descrita textualmente
+* Un guión gráfico
+* Un prototipo de baja o alta fidelidad
+
+> [!WARNING] A efectos de entregas de Proyecto, debes utilizar **al menos una
+> opción formal**, aunque puedes utilizar de forma adicional opciones informales
+> para profundizar en los casos de uso o aclararlos. Para utilizar únicamente
+> opciones informales, debes contar con la autorización de tu tutor.
 
 ### Requerimientos funcionales
 
@@ -520,9 +537,9 @@ esperable del producto.
 ##### Requerimientos de velocidad y latencia
 
 Detallar la cantidad de tiempo disponible para el producto al realizar
-diferentes tareas. Un ejemplo de latencia: "El sistema deberá responder a cualquier
-interacción en un tiempo menor a dos segundos". Un ejemplo de velocidad: "El
-sistema deberá refrescar el estado de cuenta cada 5 minutos".
+diferentes tareas. Un ejemplo de latencia: "El sistema deberá responder a
+cualquier interacción en un tiempo menor a dos segundos". Un ejemplo de
+velocidad: "El sistema deberá refrescar el estado de cuenta cada 5 minutos".
 
 ##### Requerimientos de precisión
 
