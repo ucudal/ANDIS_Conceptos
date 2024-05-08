@@ -519,6 +519,9 @@ esperable del producto.
 
 ##### Requerimientos de velocidad y latencia
 
+<!-- TODO Mencionar MTBF, MTTF y SLA, agregarlos bajo la carpeta de Conceptos y
+referenciarlos -->
+
 Detallar la cantidad de tiempo disponible para el producto al realizar
 diferentes tareas. Por ejemplo: "El sistema deberá responder a cualquier
 interacción en un tiempo menor a dos segundos".
