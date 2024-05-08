@@ -42,18 +42,18 @@ características del producto a desarrollar. Algunas cosas a mencionar:
 * Organización cliente (opcional, si ya se mencionó antes)
 
 * Categoría del producto y opcionalmente nombre, en caso de tenerlo definido.
-  **Preguntas disparadoras**: _¿Qué es el producto que voy a desarrollar?_
-  _¿Cómo se llama?_
+  **Preguntas disparadoras**: *¿Qué es el producto que voy a desarrollar?
+  ¿Cómo se llama?*
 
 * Beneficios del producto
 
-* Productos alternativos. **Pregunta disparadora**: _¿Qué otros productos
-  similares existen actualmente?_
+* Productos alternativos. **Pregunta disparadora**: *¿Qué otros productos
+  similares existen actualmente?*
 
 * Diferenciación del producto en comparación con las alternativas. **Preguntas
-  disparadoras**: _¿Qué tiene de diferente mi producto a desarrollar en
-  comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
-  las alternativas?_
+  disparadoras**: *¿Qué tiene de diferente mi producto a desarrollar en
+  comparación con las alternativas mencionadas? ¿Por qué el cliente no utiliza
+  las alternativas?*
 
 #### Objetivos del proyecto
 
@@ -67,10 +67,10 @@ Se puede usar el siguiente formato:
 
 | Objetivo              | Propósito                | Beneficio                | Métrica del beneficio          |
 | --------------------- | ------------------------ | ------------------------ | ------------------------------ |
-| _Título del objetivo_ | _Propósito del objetivo_ | _Beneficio del objetivo_ | _Cuantificación del beneficio_ |
+| *Título del objetivo* | *Propósito del objetivo* | *Beneficio del objetivo* | *Cuantificación del beneficio* |
 | ...                   | ...                      | ...                      | ...                            |
 
-### Interesados (_stakeholders_)
+### Interesados (*stakeholders*)
 
 <!-- TODO add link in 'interesados' to definition if considered a keyword -->
 
@@ -124,10 +124,10 @@ guía:
 
 Resumir los datos demográficos clave que motivan las decisiones del producto.
 
-**Algunas preguntas disparadoras**: _¿Cuántos usuarios tendrá el producto? ¿Cómo
+**Algunas preguntas disparadoras**: *¿Cuántos usuarios tendrá el producto? ¿Cómo
 se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
 tratando de satisfacer por otros medios las necesidades que el producto podrá
-cubrir?_
+cubrir?*
 
 ##### Entornos de los usuarios
 
@@ -217,7 +217,7 @@ caso de uso del negocio. Se puede utilizar el siguiente formato:
 
 | Evento de negocio                | Input y output                                 | Descripción del caso de uso del negocio           |
 | -------------------------------- | ---------------------------------------------- | ------------------------------------------------- |
-| _(Nombre del evento de negocio)_ | _(Input y output del caso de uso del negocio)_ | _(Breve descripción del caso de uso del negocio)_ |
+| *(Nombre del evento de negocio)* | *(Input y output del caso de uso del negocio)* | *(Breve descripción del caso de uso del negocio)* |
 
 #### Especificación de los casos de uso del negocio
 
@@ -320,11 +320,12 @@ Se puede utilizar el siguiente formato:
 
 | Nombre | Contenido | Tipo |
 |--------|-----------|------|
-| _Nombre_ | _Contenido de la entidad/clase o formato del atributo_ | _Clase/Relación/Atributo_ |
+| *Nombre* | *Contenido de la entidad/clase o formato del atributo* | *Clase/Relación/Atributo* |
 
-**Nota**: En la columna **_Contenido_**, nombrar los atributos de la entidad, y
-si la entrada pertenece a un atributo en vez de a una entidad, mencionar el
-formato del atributo.
+> [!NOTE]
+> En la columna ***Contenido***, nombrar los atributos de la entidad, y si la
+> entrada pertenece a un atributo en vez de a una entidad, mencionar el formato
+> del atributo.
 
 Tanto el diccionario de datos como el modelo de datos organizacionales se irán
 ampliando junto con el desarrollo de la solución, esto es: a medida que se vayan
@@ -349,9 +350,9 @@ de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
 
 <!-- TODO add link in 'restricciones' to definition if considered a keyword -->
 
-Mencionar las restricciones relacionadas con el diseño de la solución. _(¿La
+Mencionar las restricciones relacionadas con el diseño de la solución. *(¿La
 solución deberá ser una aplicación web? ¿deberá ser una aplicación mobile?
-¿deberá seguir un patrón de arquitectura de software en específico?)_
+¿deberá seguir un patrón de arquitectura de software en específico?)*
 
 En caso de existir restricciones sobre las tecnologías a utilizar para el
 desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente—
@@ -582,6 +583,35 @@ Detallar aquellos requerimientos relacionados a la escalabilidad del sistema.
 Especificar los requerimientos que definen la longevidad del producto, esto es,
 la cantidad de tiempo que estará operativo.
 
+#### Requerimientos operacionales y de entorno
+
+##### Requerimientos de entorno físico
+
+Detallar los requerimientos del entorno físico en el cual el sistema operará.
+
+En algunos productos, las diferentes condiciones especiales bajo las que operará
+el sistema generan requerimientos que se deben tener en cuenta.
+
+##### Requerimientos de interfaz con sistemas adyacentes
+
+Definir los requerimientos que establecen las interacciones necesarias entre el
+sistema y otras aplicaciones o software. Tener en cuenta el versionado del
+software con el cual el sistema va a interactuar, por ejemplo: "El sistema
+deberá poder utilizar datos de la aplicación X en su versión 4.0".
+
+##### Requerimientos de distribución
+
+Indicar los requerimientos necesarios para que el sistema sea distribuido o
+vendido como producto. Indicar también las tareas necesarias para que sea
+instalado, en caso de ser pertinente. Por ejemplo: "La aplicación debe ser
+distribuida en la App Store y Google Play Store en Uruguay" o, "La aplicación
+debe ser descargable desde el sitio web de la organización".
+
+##### Requerimientos del ciclo de *releases*
+
+En caso de establecer con el cliente un ciclo de releases durante un determinado
+período, indicarlo aquí como un requerimiento.
+
 #### Estándares aplicables
 
 Detallar los estándares con los cuales el producto deberá cumplir, si los hay.
@@ -594,15 +624,28 @@ Definir todos los requerimientos de sistema necesarios para soportar la
 aplicación. Esto puede incluir plataformas de sistemas operativos, de redes,
 configuraciones, memoria, periféricos y software adicional necesario.
 
-#### Requerimientos ambientales
+#### Requerimientos de mantenimiento y soporte
 
-Detallar los requerimientos ambientales necesarios, si los hay. Para sistemas de
-hardware, estos requerimientos pueden incluir temperatura, humedad, radiación,
-etc. Para aplicaciones de software, los factores ambientales pueden incluir
-condiciones de uso, ambiente del usuario, disponibilidad de recursos,
-mantenimiento, recuperación.
+##### Requerimientos de mantenimiento
 
-#### Requerimientos de documentación
+Especificar aquellos requerimientos relacionados al mantenimiento del sistema
+por parte de los usuarios finales, administradores e incluso otros futuros
+desarrolladores. Por ejemplo: "El código debe ser escrito en inglés para que sea
+legible internacionalmente" o, "Un administrador de la aplicación debe ser capaz
+de agregar un recurso X en menos de 15 minutos para que sea visible por los
+usuarios" o, "Se debe entregar junto al producto un documento con notas de
+arquitectura del sistema que explique cómo está estructurado".
+
+##### Requerimientos de soporte
+
+En caso de que el sistema incluya soporte o ayuda en línea de alguna forma
+específica —un chatbot, por ejemplo—, detallarlo aquí mediante requerimientos.
+En caso contrario, indicarlo.
+
+##### Requerimientos de adaptabilidad
+
+Especificar los entornos o plataformas que el sistema deberá soportar, por
+ejemplo: "El sistema deberá ser capaz de correr en Android y iOS".
 
 ##### Manual de usuario
 
@@ -612,25 +655,44 @@ impresión, indicarlo.
 
 En caso de que no haya manual de usuario, indicarlo.
 
-##### Ayuda en línea
-
-Muchas aplicaciones proveen un sistema de ayuda en línea para asistir al
-usuario. La naturaleza de estos sistemas es específica del desarrollo de la
-aplicación debido a que combinan aspectos de programación con aspectos de texto
-técnico (organización, presentación). En muchos casos, se ha encontrado que el
-desarrollo del sistema de ayuda es un proyecto dentro del proyecto, que
-beneficia a la administración del alcance y a las actividades de planificación.
-Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), especificar aquí los
-requerimientos de ayuda en línea, si los hay.
-
-En caso de que no haya ayuda en línea, indicarlo.
-
-#### Guías de instalación y configuración
+##### Guías de instalación y configuración
 
 En una solución completa se debe incluir documentos con las instrucciones de
-instalación y configuración. Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), establecer aquí los
-requerimientos para esos documentos.
+instalación y configuración. Establecer aquí los requerimientos para esos
+documentos.
+
+#### Requerimientos de seguridad
+
+##### Requerimientos de acceso
+
+Detallar quiénes tienen acceso a las diferentes partes del producto (tanto en
+términos de funcionalidades como en términos de datos) y bajo qué
+circunstancias.
+
+##### Requerimientos de integridad
+
+Especificar la integridad requerida por la base de datos, archivos del sistema y
+el sistema en sí mismo. Por ejemplo: "El sistema deberá prevenir el ingreso de
+datos incorrectos" o, "El sistema deberá protegerse a sí mismo del uso
+malintencionado".
+
+##### Requerimientos de privacidad
+
+Describir aquellos requerimientos que definen qué debe hacer o con qué debe
+cumplir el sistema para asegurar la privacidad de los datos compartidos por los
+usuarios. Por ejemplo: "El sistema debe notificar a los usuarios sobre el uso
+de sus datos personales" o, "El sistema debe notificar sobre cambios en la
+política de privacidad de los datos".
+
+##### Requerimientos de auditoría
+
+Especificar lo que el sistema debe de hacer (usualmente, mantener información
+persistida) para permitir controles de auditoría. Por ejemplo: "El sistema debe
+mantener datos sobre X para que sean auditados periódicamente".
+
+##### Requerimientos de inmunidad
+
+Mencionar qué es lo que tiene que hacer el sistema para protegerse de
+infecciones de software como viruses, gusanos, *malware*, *spyware*, etcétera.
 
 [^1]: Evans, E. (2003). Domain-Driven Design. Addison-Wesley Professional.
