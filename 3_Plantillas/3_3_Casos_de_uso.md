@@ -10,8 +10,8 @@ para ponerlos en un mismo diagrama, se suele utilizar la tabla.
 
 ### Diagrama de casos de uso
 
-<!--TODO Agregar plantilla de diagrama de casos de uso-->
+<!-- TODO Agregar plantilla de diagrama de casos de uso-->
 
 ### Tabla de casos de uso
 
-<!--TODO Agregar plantilla de tabla de casos de uso-->
+<!-- TODO Agregar plantilla de tabla de casos de uso-->

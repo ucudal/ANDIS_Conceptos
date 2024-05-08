@@ -450,6 +450,9 @@ derivada de: la habilidad de los previstos usuarios finales y la complejidad del
 producto y sus funcionalidades. Algunas características a tener en cuenta pueden
 ser:
 
+<!-- TODO Agregar ejemplos de cada tipo de requisito incluyendo además criterio
+de aceptación -->
+
 * Eficiencia de uso: Qué tan rápido o con qué precisión el usuario puede usar el
   producto.
 * Facilidad de memorización: Qué tanto se espera que el usuario casual memorice
