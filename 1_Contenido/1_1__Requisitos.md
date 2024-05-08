@@ -520,8 +520,9 @@ esperable del producto.
 ##### Requerimientos de velocidad y latencia
 
 Detallar la cantidad de tiempo disponible para el producto al realizar
-diferentes tareas. Por ejemplo: "El sistema deberá responder a cualquier
-interacción en un tiempo menor a dos segundos".
+diferentes tareas. Un ejemplo de latencia: "El sistema deberá responder a cualquier
+interacción en un tiempo menor a dos segundos". Un ejemplo de velocidad: "El
+sistema deberá refrescar el estado de cuenta cada 5 minutos".
 
 ##### Requerimientos de precisión
 
