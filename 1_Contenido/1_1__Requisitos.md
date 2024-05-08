@@ -321,9 +321,10 @@ Se puede utilizar el siguiente formato:
 |--------|-----------|------|
 | *Nombre* | *Contenido de la entidad/clase o formato del atributo* | *Clase/Relación/Atributo* |
 
-**Nota**: En la columna ***Contenido***, nombrar los atributos de la entidad, y
-si la entrada pertenece a un atributo en vez de a una entidad, mencionar el
-formato del atributo.
+> [!NOTE]
+> En la columna ***Contenido***, nombrar los atributos de la entidad, y si la
+> entrada pertenece a un atributo en vez de a una entidad, mencionar el formato
+> del atributo.
 
 Tanto el diccionario de datos como el modelo de datos organizacionales se irán
 ampliando junto con el desarrollo de la solución, esto es: a medida que se vayan
