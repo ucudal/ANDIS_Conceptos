@@ -349,8 +349,8 @@ de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
 <!-- TODO add link in 'restricciones' to definition if considered a keyword -->
 
 Mencionar las restricciones relacionadas con el diseño de la solución. _(¿La
-solución debe ser una aplicación web? ¿debe ser una aplicación mobile? ¿debe
-seguir un patrón de arquitectura de software en específico?)_
+solución deberá ser una aplicación web? ¿deberá ser una aplicación mobile?
+¿deberá seguir un patrón de arquitectura de software en específico?)_
 
 En caso de existir restricciones sobre las tecnologías a utilizar para el
 desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente—
@@ -360,7 +360,7 @@ la versión de las mismas.
 
 Mencionar aquellas restricciones relacionadas al entorno de instalación de la
 solución. Estas pueden ser restricciones en cuanto al lugar físico o virtual en
-el cual la solución final debe ser instalada.
+el cual la solución final deberá ser instalada.
 
 Suele ser conveniente utilizar un diagrama para explicar las interacciones del
 sistema con el entorno y otros sistemas con los que la solución deba
@@ -483,7 +483,7 @@ requerimientos, indicarlo.
 
 ##### Requerimientos de aprendizaje
 
-Detallar las expectativas del cliente en cuanto a qué tanto esfuerzo deben
+Detallar las expectativas del cliente en cuanto a qué tanto esfuerzo deberán
 emplear los usuarios finales para poder utilizar el sistema de una forma
 productiva.
 
@@ -493,8 +493,8 @@ problema. La idea aquí es cuantificar la cantidad de tiempo o esfuerzo que los
 usuarios finales necesitan para aprender a usar el sistema y que esta
 cuantificación sea aceptable para el cliente. Esta clarificación puede incluir
 un plan de capacitación para los usuarios, e incluso un manual de usuario, por
-ejemplo: "Los usuarios deben ser capaces de usar el sistema tras una semana de
-capacitación" o, "Los usuarios deben ser capaces de utilizar el sistema tras
+ejemplo: "Los usuarios deberán ser capaces de usar el sistema tras una semana de
+capacitación" o, "Los usuarios deberán ser capaces de utilizar el sistema tras
 leer el manual de usuario".
 
 ##### Requerimientos de accesibilidad
@@ -517,33 +517,33 @@ esperable del producto.
 ##### Requerimientos de velocidad y latencia
 
 Detallar la cantidad de tiempo disponible para el producto al realizar
-diferentes tareas. Por ejemplo: "El sistema debe responder a cualquier
+diferentes tareas. Por ejemplo: "El sistema deberá responder a cualquier
 interacción en un tiempo menor a dos segundos".
 
 ##### Requerimientos de precisión
 
 Especificar los requerimientos asociados a la precisión de los resultados
-mostrados por el producto, por ejemplo: "El sistema debe mostrar las unidades
+mostrados por el producto, por ejemplo: "El sistema deberá mostrar las unidades
 monetarias con una precisión de tres decimales".
 
 ##### Requerimientos de confiabilidad y disponibilidad
 
 Definir los requerimientos de confiabilidad y disponibilidad del sistema, esto
-es: ¿qué tanto tiempo debe estar disponible el sistema? ¿en qué momentos del día
-o qué días ha de estarlo? ¿qué porcentaje de tiempo de actividad debe cumplir?
-¿qué tasa de fallos del sistema es aceptable?
+es: ¿qué tanto tiempo deberá estar disponible el sistema? ¿en qué momentos del
+día o qué días ha de estarlo? ¿qué porcentaje de tiempo de actividad deberá
+cumplir? ¿qué tasa de fallos del sistema es aceptable?
 
 ##### Requerimientos de robustez
 
 Indicar los requerimientos de robustez del sistema, esto es, la capacidad del
 sistema de continuar funcionando de forma aceptable bajo condiciones anormales.
-Por ejemplo: "El sistema debe seguir proveyendo la funcionalidad X al no tener
+Por ejemplo: "El sistema deberá seguir proveyendo la funcionalidad X al no tener
 conexión a Internet".
 
 ##### Requerimientos de capacidad
 
-Especificar la cantidad de volumen de datos o usuarios que el sistema debe
-soportar. ¿Qué tantos usuarios en simultáneo debe soportar el sistema? ¿este
+Especificar la cantidad de volumen de datos o usuarios que el sistema deberá
+soportar. ¿Qué tantos usuarios en simultáneo deberá soportar el sistema? ¿este
 número cambia para determinado momento del día?
 
 ##### Requerimientos de escalabilidad
@@ -557,8 +557,8 @@ la cantidad de tiempo que estará operativo.
 
 #### Estándares aplicables
 
-Detallar los estándares con los cuales el producto debe cumplir, si los hay. Por
-ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
+Detallar los estándares con los cuales el producto deberá cumplir, si los hay.
+Por ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
 plataformas, calidad y seguridad (UL, ISO, CMM).
 
 #### Requerimientos del sistema
