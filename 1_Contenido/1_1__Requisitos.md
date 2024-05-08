@@ -349,8 +349,8 @@ de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
 <!-- TODO add link in 'restricciones' to definition if considered a keyword -->
 
 Mencionar las restricciones relacionadas con el diseño de la solución. *(¿La
-solución debe ser una aplicación web? ¿debe ser una aplicación mobile? ¿debe
-seguir un patrón de arquitectura de software en específico?)*
+solución deberá ser una aplicación web? ¿deberá ser una aplicación mobile?
+¿deberá seguir un patrón de arquitectura de software en específico?)*
 
 En caso de existir restricciones sobre las tecnologías a utilizar para el
 desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente—
@@ -360,7 +360,7 @@ la versión de las mismas.
 
 Mencionar aquellas restricciones relacionadas al entorno de instalación de la
 solución. Estas pueden ser restricciones en cuanto al lugar físico o virtual en
-el cual la solución final debe ser instalada.
+el cual la solución final deberá ser instalada.
 
 Suele ser conveniente utilizar un diagrama para explicar las interacciones del
 sistema con el entorno y otros sistemas con los que la solución deba
@@ -404,9 +404,10 @@ individualmente.
 
 #### Diagrama o tabla de casos de uso
 
-Mediante un diagrama de casos de uso o una tabla de casos de uso, definir los
-casos de uso del producto. La tabla de casos de uso suele ser más cómoda cuando
-la cantidad de casos de uso es mayor a 20.
+Mediante un [diagrama de casos de uso o una tabla de casos de
+uso](/3_Plantillas/3_3_Casos_de_uso.md), definir los casos de uso del producto.
+La tabla de casos de uso suele ser más cómoda cuando la cantidad de casos de uso
+es mayor a 20.
 
 #### Detalles de los casos de uso del producto
 
@@ -443,11 +444,14 @@ aceptable para los usuarios finales.
 
 ##### Requerimientos de facilidad de uso
 
-Detallar las aspiraciones del cliente en cuanto a la facilidad de uso del
+Detallar los requerimientos del cliente en cuanto a la facilidad de uso del
 sistema por parte de los usuarios finales. Ten en cuenta que esta facilidad es
 derivada de: la habilidad de los previstos usuarios finales y la complejidad del
 producto y sus funcionalidades. Algunas características a tener en cuenta pueden
 ser:
+
+<!-- TODO Agregar ejemplos de cada tipo de requisito incluyendo además criterio
+de aceptación -->
 
 * Eficiencia de uso: Qué tan rápido o con qué precisión el usuario puede usar el
   producto.
@@ -472,7 +476,9 @@ Estos requerimientos indican cómo el sistema puede ser modificado o configurado
 por los usuarios para tener en cuenta sus preferencias y selección de lenguaje
 utilizado por el sistema.
 
-En otras culturas, se usan diferentes sistemas métricos, unidades monetarias,
+En otras culturas, se usan diferentes sistemas de unidades —sistema métrico,
+anglosajón, etcétera—, unidades monetarias,
+
 idiomas, etcétera.
 
 En caso de que el cliente no esté interesado en definir este tipo de
@@ -480,7 +486,7 @@ requerimientos, indicarlo.
 
 ##### Requerimientos de aprendizaje
 
-Detallar las expectativas del cliente en cuanto a qué tanto esfuerzo deben
+Detallar las expectativas del cliente en cuanto a qué tanto esfuerzo deberán
 emplear los usuarios finales para poder utilizar el sistema de una forma
 productiva.
 
@@ -490,8 +496,8 @@ problema. La idea aquí es cuantificar la cantidad de tiempo o esfuerzo que los
 usuarios finales necesitan para aprender a usar el sistema y que esta
 cuantificación sea aceptable para el cliente. Esta clarificación puede incluir
 un plan de capacitación para los usuarios, e incluso un manual de usuario, por
-ejemplo: "Los usuarios deben ser capaces de usar el sistema tras una semana de
-capacitación" o, "Los usuarios deben ser capaces de utilizar el sistema tras
+ejemplo: "Los usuarios deberán ser capaces de usar el sistema tras una semana de
+capacitación" o, "Los usuarios deberán ser capaces de utilizar el sistema tras
 leer el manual de usuario".
 
 ##### Requerimientos de accesibilidad
@@ -514,33 +520,37 @@ esperable del producto.
 ##### Requerimientos de velocidad y latencia
 
 Detallar la cantidad de tiempo disponible para el producto al realizar
-diferentes tareas. Por ejemplo: "El sistema debe responder a cualquier
-interacción en un tiempo menor a dos segundos".
+diferentes tareas. Un ejemplo de latencia: "El sistema deberá responder a cualquier
+interacción en un tiempo menor a dos segundos". Un ejemplo de velocidad: "El
+sistema deberá refrescar el estado de cuenta cada 5 minutos".
 
 ##### Requerimientos de precisión
 
 Especificar los requerimientos asociados a la precisión de los resultados
-mostrados por el producto, por ejemplo: "El sistema debe mostrar las unidades
+mostrados por el producto, por ejemplo: "El sistema deberá mostrar las unidades
 monetarias con una precisión de tres decimales".
 
 ##### Requerimientos de confiabilidad y disponibilidad
 
+<!-- TODO Mencionar MTBF, MTTF y SLA, agregarlos bajo la carpeta de Conceptos y
+referenciarlos -->
+
 Definir los requerimientos de confiabilidad y disponibilidad del sistema, esto
-es: ¿qué tanto tiempo debe estar disponible el sistema? ¿en qué momentos del día
-o qué días ha de estarlo? ¿qué porcentaje de tiempo de actividad debe cumplir?
-¿qué tasa de fallos del sistema es aceptable?
+es: ¿qué tanto tiempo deberá estar disponible el sistema? ¿en qué momentos del
+día o qué días ha de estarlo? ¿qué porcentaje de tiempo de actividad deberá
+cumplir? ¿qué tasa de fallos del sistema es aceptable?
 
 ##### Requerimientos de robustez
 
 Indicar los requerimientos de robustez del sistema, esto es, la capacidad del
 sistema de continuar funcionando de forma aceptable bajo condiciones anormales.
-Por ejemplo: "El sistema debe seguir proveyendo la funcionalidad X al no tener
+Por ejemplo: "El sistema deberá seguir proveyendo la funcionalidad X al no tener
 conexión a Internet".
 
 ##### Requerimientos de capacidad
 
-Especificar la cantidad de volumen de datos o usuarios que el sistema debe
-soportar. ¿Qué tantos usuarios en simultáneo debe soportar el sistema? ¿este
+Especificar la cantidad de volumen de datos o usuarios que el sistema deberá
+soportar. ¿Qué tantos usuarios en simultáneo deberá soportar el sistema? ¿este
 número cambia para determinado momento del día?
 
 ##### Requerimientos de escalabilidad
@@ -583,8 +593,8 @@ período, indicarlo aquí como un requerimiento.
 
 #### Estándares aplicables
 
-Detallar los estándares con los cuales el producto debe cumplir, si los hay. Por
-ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
+Detallar los estándares con los cuales el producto deberá cumplir, si los hay.
+Por ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
 plataformas, calidad y seguridad (UL, ISO, CMM).
 
 #### Requerimientos del sistema
@@ -630,10 +640,6 @@ En una solución completa se debe incluir documentos con las instrucciones de
 instalación y configuración. Establecer aquí los requerimientos para esos
 documentos.
 
-[^1]: “bliki: Ubiquitous Language”, martinfowler.com. Consultado: el 29 de abril
-    de 2024. [En línea]. Disponible en:
-    <https://martinfowler.com/bliki/UbiquitousLanguage.html>
-
 #### Requerimientos de seguridad
 
 ##### Requerimientos de acceso
@@ -667,3 +673,5 @@ mantener datos sobre X para que sean auditados periódicamente".
 
 Mencionar qué es lo que tiene que hacer el sistema para protegerse de
 infecciones de software como viruses, gusanos, *malware*, *spyware*, etcétera.
+
+[^1]: Evans, E. (2003). Domain-Driven Design. Addison-Wesley Professional.
