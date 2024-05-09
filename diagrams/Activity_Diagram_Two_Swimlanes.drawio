@@ -1,0 +1,19 @@
+<mxfile host="65bd71144e">
+    <diagram id="ETZOoa3Ljku3VyCiB5HW" name="Page-1">
+        <mxGraphModel dx="640" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Nombre de la partición" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=40;horizontalStack=0;whiteSpace=wrap;fontStyle=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="100" width="480" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Nombre de la sub-partición" style="swimlane;html=1;startSize=40;horizontal=0;whiteSpace=wrap;fontStyle=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="3">
+                    <mxGeometry x="40" width="440" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Nombre de la sub-partición" style="swimlane;html=1;startSize=40;horizontal=0;whiteSpace=wrap;fontStyle=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="3">
+                    <mxGeometry x="40" y="120" width="440" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
