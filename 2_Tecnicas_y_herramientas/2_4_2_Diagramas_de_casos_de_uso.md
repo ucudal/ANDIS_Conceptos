@@ -81,5 +81,10 @@ extensión](/diagrams/Use_Case_Diagram_Extends_Includes.svg)
 
 *Figura 2: Un diagrama de casos de uso con relaciones de inclusión y extensión.*
 
+Puedes ver más  información sobre diagramas de casos de uso con ejemplos
+adicionales de las herramientas de modelado [Visual
+Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/)
+y [Lucidchart] (https://www.lucidchart.com/pages/uml-use-case-diagram).
+
 [^1]: OMG. (2017). OMG® Unified Modeling Language®. Disponible
     [aquí](https://www.omg.org/spec/UML/2.5.1/PDF).
