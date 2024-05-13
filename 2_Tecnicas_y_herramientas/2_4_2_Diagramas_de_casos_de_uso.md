@@ -1,6 +1,6 @@
 # 2 Técnicas y herramientas
 
-## 2.4 Modelos de procesos
+## 2.4 Modelos de comportamiento
 
 ### 2.4.2 Diagramas de casos de uso UML
 

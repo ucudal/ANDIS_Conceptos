@@ -1,6 +1,6 @@
 # 2 Técnicas y herramientas
 
-## 2.4 Modelos de procesos
+## 2.4 Modelos de comportamiento
 
 ### 2.4.1 Diagramas de actividad UML
 
@@ -16,11 +16,11 @@ Los diagramas de actividad tienen típicamente:
 flujos de control que lleguen al nodo inicial.
 * Uno o más nodos finales de actividad, que se representan con un círculo negro
   dentro de otro círculo; no puede haber flujos de control que salgan del nodo
-inicial; los nodos finales de actividad, terminan todos los flujos de control en
+final; los nodos finales de actividad terminan todos los flujos de control en
 la actividad modelada en el diagrama.
 * Un nodo final de flujo, que se representa con un círculo negro con una cruz
   dentro; los nodos finales de flujo terminan un flujo de control.
-* Uno más nodos de actividades, que se representan con un rectángulo con las
+* Uno o más nodos de actividades, que se representan con un rectángulo con las
   esquinas redondeadas; puede haber sólo un flujo de control de entrada y sólo
   uno de salida de un nodo de actividad.
 * Uno o más flujos de control que conectan los nodos, y se representan con
@@ -59,7 +59,7 @@ un nodo final.*
 En la figura 2, a continuación, luego de la actividad `Conseguir ingredientes`,
 las actividades `Precalentar horno` y `Preparar receta` ocurren simultáneamente,
 es decir, el horno se precalienta mientras se prepara la receta. Cuando ambas
-actividades terminan, se realiza la actividad `Hornear la receta`, es decir, se
+actividades terminan, se realiza la actividad `Hornear receta`, es decir, se
 tiene que haber terminado de precalentar el horno y de preparar la receta para
 poder hornearla.
 
@@ -81,7 +81,7 @@ otro de fusión*
 En los diagramas de actividades vemos qué actividades tienen lugar, pero no
 quién las realiza; esto no es un problema porque muchas veces alcanza con
 modelar qué se hace, sin que sea relevante quién lo hace. Sin embargo, es
-posible mostrar participante que realiza cada actividad, utilizando particiones.
+posible mostrar el participante que realiza cada actividad, utilizando particiones.
 
 Una partición se representa con dos líneas, generalmente paralelas, ya sea
 horizontales o verticales, y un nombre que etiqueta la partición en un cuadro en
@@ -114,7 +114,7 @@ de múltiples particiones.
 La figura 7, a continuación, es un ejemplo de las actividades que tienen lugar
 en la restaurante para una cena. Los participantes son el `Cliente`, el `Mozo` y
 la `Cocina`. El cliente realiza la actividad `Revisar menú`. Luego el mozo
-realiza `Tomar pedido`. Luego la cocina realiza `Preparar pedido`. Luego el modo
+realiza `Tomar pedido`. Luego la cocina realiza `Preparar pedido`. Luego el mozo
 realiza `Llevar pedido a la mesa`. Por último, el cliente realiza la actividad
 `Cenar`.
 
@@ -152,7 +152,7 @@ acciones, que se utilizan para modelar eventos:
 
 La figura 9, a continuación, es un ejemplo de un cliente pidiendo la cena a un
 restaurante a través de una aplicación; vean que no se modela cómo el cliente
-confirma el pedido al restaurante, ni como el restaurante hace llegar la cena al
+confirma el pedido al restaurante, ni cómo el restaurante hace llegar la cena al
 cliente. El cliente realiza la acción `Revisar menú` a la `Hora de la cena`, que
 es una acción temporizada. Luego realiza la actividad `Agregar platos al
 carrito`, y cuando termina envía la señal `Confirmar pedido`. El restaurante
