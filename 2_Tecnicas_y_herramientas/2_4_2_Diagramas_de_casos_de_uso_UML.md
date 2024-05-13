@@ -5,15 +5,16 @@
 ### 2.4.2 Diagramas de casos de uso UML
 
 Los diagramas de casos de uso permiten mostrar una visión general de los actores
-y de los casos de uso de un sujeto —es decir, de un componente, de un artefacto,
-de un nodo, de un subsistema, etc.—, así como de la relación entre ellos: qué
-actores participan en qué casos de uso, o qué casos de uso incluyen o extienden
-a otros.
+y de los casos de uso de un sujeto —de un
+[clasificador](/4_Conceptos/4_Clasificador.md)—, así como de la relación entre
+ellos: qué actores participan en qué casos de uso, o qué casos de uso incluyen o
+extienden a otros.
 
 Este documento está basado en UML 2.5.1[^1].
 
 Tengan en cuenta que este diagrama sólo incluye los nombres de los casos de uso,
-así que también va a ser necesario el escenario detallado del [caso de
+sin ningún detalle del escenario que tiene ese caso de uso, así que también va a
+ser necesario el escenario detallado del [caso de
 uso](/3_Plantillas/3_3_Casos_de_uso.md).
 
 Los diagramas de casos de uso tienen:
@@ -81,10 +82,19 @@ extensión](/diagrams/Use_Case_Diagram_Extends_Includes.svg)
 
 *Figura 2: Un diagrama de casos de uso con relaciones de inclusión y extensión.*
 
+Un actor puede ser primario o secundario. Los actores primarios son aquellos que
+inician casos de uso e interactúan con el sistema, se suele colocarlos del lado
+izquierdo del diagrama, pero esto no es obligatorio, es sólo una convención para
+facilitar la lectura. Por otro lado, los actores secundarios pero no interactúan
+por sí solos; se suele colocarlos del lado derecho del diagrama, también como
+convención.
+
 Puedes ver más  información sobre diagramas de casos de uso con ejemplos
-adicionales de las herramientas de modelado [Visual
+adicionales de las herramientas de modelado [IBM Rational Software
+Architect](https://www.ibm.com/docs/en/rational-soft-arch/9.7.0?topic=diagrams-use-case),
+[Visual
 Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/)
-y [Lucidchart] (https://www.lucidchart.com/pages/uml-use-case-diagram).
+y [Lucidchart](https://www.lucidchart.com/pages/uml-use-case-diagram).
 
 [^1]: OMG. (2017). OMG® Unified Modeling Language®. Disponible
     [aquí](https://www.omg.org/spec/UML/2.5.1/PDF).

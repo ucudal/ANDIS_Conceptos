@@ -168,7 +168,9 @@ señales, acciones temporizadas, y acciones de envío de señales.*
 
 Los diagramas de actividades tienen otros elementos que no cubrimos en este
 documento; puedes ver las páginas sobre diagramas de actividades de las
-herramientas de modelado [Visual
+herramientas de modelado [IBM Software
+Architect](https://www.ibm.com/docs/en/rational-soft-arch/9.7.0?topic=diagrams-activity),
+[Visual
 Paradigm](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-activity-diagram/)
 y [Lucidchart](https://www.lucidchart.com/pages/uml-activity-diagram).
 
