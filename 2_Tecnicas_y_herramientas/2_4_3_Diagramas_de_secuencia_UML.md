@@ -2,7 +2,7 @@
 
 ## 2.4 Modelos de comportamiento
 
-### 2.4.2 Diagramas de secuencia UML
+### 2.4.3 Diagramas de secuencia UML
 
 Los diagramas de secuencia se utilizan para mostrar las interacciones entre
 instancias de [clasificadores](/4_Conceptos/4_Clasificador.md), incluyendo la
@@ -88,7 +88,7 @@ para modelar:
   elementos de una colección; la condición de guarda se indica también en la
   esquina superior izquierda.
 
-* Condicionales —*alt*, *alt-else*, *case*: Los mensajes en la región se
+* Condicionales —*alt*, *alt-else*, *case*—: Los mensajes en la región se
   ejecutan si se cumple una condición de guarda. En el caso de *alt-else* la
   región se divide con una línea horizontal, y los mensajes en la parte superior
   se ejecutan si la condición de guarda se cumple, de lo contrario se ejecutan
