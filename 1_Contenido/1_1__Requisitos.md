@@ -612,12 +612,6 @@ debe ser descargable desde el sitio web de la organización".
 En caso de establecer con el cliente un ciclo de releases durante un determinado
 período, indicarlo aquí como un requerimiento.
 
-#### Estándares aplicables
-
-Detallar los estándares con los cuales el producto deberá cumplir, si los hay.
-Por ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
-plataformas, calidad y seguridad (UL, ISO, CMM).
-
 #### Requerimientos del sistema
 
 Definir todos los requerimientos de sistema necesarios para soportar la
@@ -702,5 +696,18 @@ aceptabilidad del sistema. Estos son de particular interés al desarrollar un
 sistema para el mercado extranjero. Por ejemplo: "El sistema deberá ser capaz de
 distinguir entre el enumerado de calles utilizado en Italia e Inglaterra", o,
 "El sistema deberá contemplar los feriados de la Unión Europea".
+
+#### Requerimientos legales
+
+##### Requerimientos de cumplimiento normativo
+
+Detallar los requerimientos asociados a normas y regulaciones que el proyecto y
+tú como desarrollador del sistema deberán cumplir.
+
+##### Requerimientos de estándares aplicables
+
+Detallar los estándares con los cuales el producto deberá cumplir, si los hay.
+Por ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
+plataformas, calidad y seguridad (UL, ISO, CMM).
 
 [^1]: Evans, E. (2003). Domain-Driven Design. Addison-Wesley Professional.
