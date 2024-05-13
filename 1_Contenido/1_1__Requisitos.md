@@ -695,4 +695,12 @@ mantener datos sobre X para que sean auditados periódicamente".
 Mencionar qué es lo que tiene que hacer el sistema para protegerse de
 infecciones de software como viruses, gusanos, *malware*, *spyware*, etcétera.
 
+#### Requerimientos culturales
+
+Especificar los requerimientos de carácter sociológico que afectan la
+aceptabilidad del sistema. Estos son de particular interés al desarrollar un
+sistema para el mercado extranjero. Por ejemplo: "El sistema deberá ser capaz de
+distinguir entre el enumerado de calles utilizado en Italia e Inglaterra", o,
+"El sistema deberá contemplar los feriados de la Unión Europea".
+
 [^1]: Evans, E. (2003). Domain-Driven Design. Addison-Wesley Professional.
