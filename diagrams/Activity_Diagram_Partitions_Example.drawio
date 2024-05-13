@@ -1,0 +1,62 @@
+<mxfile host="65bd71144e">
+    <diagram id="NjB9zPXBMRY546YFZkir" name="Page-1">
+        <mxGraphModel dx="640" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#006EAF;fillColor=#1ba1e2;fontStyle=0" parent="1" source="7" edge="1" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="-200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#006EAF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;fontStyle=0" parent="1" source="9" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="-190" as="targetPoint"/>
+                        <mxPoint x="70" y="-190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#006EAF;fillColor=#1ba1e2;fontStyle=0" parent="1" source="11" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="20" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#006EAF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#1ba1e2;fontStyle=0" parent="1" source="15" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="20" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#006EAF;fillColor=#1ba1e2;fontStyle=0" parent="1" source="13" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="" style="ellipse;html=1;shape=startState;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="30" y="45" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="(Cliente)&lt;br&gt;Revisar menú" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="100" y="40" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="(Cliente)&lt;br&gt;Cenar" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="380" y="40" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="ellipse;html=1;shape=endState;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="540" y="45" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="(Mozo)&lt;br&gt;Tomar pedido" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="100" y="130" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="(Mozo)&lt;br&gt;Llevar pedido a la mesa" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="240" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="(Cocina)&lt;br&gt;Preparar pedido" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="100" y="220" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#006EAF;startArrow=none;fillColor=#1ba1e2;fontStyle=0" parent="1" source="17" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="445" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -6,4 +6,4 @@
 
 ## 2.3 [Modelos de datos](./2_3_Modelos_de_datos.md)
 
-## 2.4 [Modelos de procesos](./2_4_Modelos_de_procesos.md)
+## 2.4 [Modelos de comportamiento](./2_4__Modelos_de_comportamiento.md)
