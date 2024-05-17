@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="ZF6Owt_XMiTOg9m9DH3z" name="Page-1">
+        <mxGraphModel dx="640" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Persona" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Empresa" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="40" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="trabaja para" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="100" y="160" as="sourcePoint"/>
+                        <mxPoint x="260" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Camión" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="120" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Zorra" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="120" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="arrastra" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="100" y="240" as="sourcePoint"/>
+                        <mxPoint x="260" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="40" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="0..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="40" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Empleado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="60" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Empleador" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="60" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="120" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="0..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="120" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Vehículo" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Rueda" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="200" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="rueda sobre" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="15" target="16" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="100" y="320" as="sourcePoint"/>
+                        <mxPoint x="260" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="200" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="1..4,6,10,14" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="264" y="220" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Jefe" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="280" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Empleado" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="280" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="manda" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="20" target="21" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="100" y="400" as="sourcePoint"/>
+                        <mxPoint x="260" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="280" width="30" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -32,7 +32,10 @@ y el texto a completar en el color normal. Tomado de [^1].
             <b>Descripción</b>
         </td>
         <td colspan="5">
-            Una frase con la intención del requerimiento
+            Una frase con la intención del requerimiento. Para ser consistente,
+            hacerlo de la siguiente manera: "El sistema <strong>deberá <i>verbo</i></strong>...".
+            Es importante siempre usar la palabra <strong>deberá</strong> y no
+            otras como podrá, debería, debe, etcétera.
         </td>
     </tr>
     <tr>

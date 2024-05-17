@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="ZF6Owt_XMiTOg9m9DH3z" name="Page-1">
+        <mxGraphModel dx="640" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Camión" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Zorra" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="40" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="arrastra" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="100" y="160" as="sourcePoint"/>
+                        <mxPoint x="260" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

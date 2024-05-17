@@ -42,18 +42,18 @@ características del producto a desarrollar. Algunas cosas a mencionar:
 * Organización cliente (opcional, si ya se mencionó antes)
 
 * Categoría del producto y opcionalmente nombre, en caso de tenerlo definido.
-  **Preguntas disparadoras**: _¿Qué es el producto que voy a desarrollar?_
-  _¿Cómo se llama?_
+  **Preguntas disparadoras**: *¿Qué es el producto que voy a desarrollar?
+  ¿Cómo se llama?*
 
 * Beneficios del producto
 
-* Productos alternativos. **Pregunta disparadora**: _¿Qué otros productos
-  similares existen actualmente?_
+* Productos alternativos. **Pregunta disparadora**: *¿Qué otros productos
+  similares existen actualmente?*
 
 * Diferenciación del producto en comparación con las alternativas. **Preguntas
-  disparadoras**: _¿Qué tiene de diferente mi producto a desarrollar en
-  comparación con las alternativas mencionadas?_ _¿Por qué el cliente no utiliza
-  las alternativas?_
+  disparadoras**: *¿Qué tiene de diferente mi producto a desarrollar en
+  comparación con las alternativas mencionadas? ¿Por qué el cliente no utiliza
+  las alternativas?*
 
 #### Objetivos del proyecto
 
@@ -67,10 +67,10 @@ Se puede usar el siguiente formato:
 
 | Objetivo              | Propósito                | Beneficio                | Métrica del beneficio          |
 | --------------------- | ------------------------ | ------------------------ | ------------------------------ |
-| _Título del objetivo_ | _Propósito del objetivo_ | _Beneficio del objetivo_ | _Cuantificación del beneficio_ |
+| *Título del objetivo* | *Propósito del objetivo* | *Beneficio del objetivo* | *Cuantificación del beneficio* |
 | ...                   | ...                      | ...                      | ...                            |
 
-### Interesados (_stakeholders_)
+### Interesados (*stakeholders*)
 
 <!-- TODO add link in 'interesados' to definition if considered a keyword -->
 
@@ -124,10 +124,10 @@ guía:
 
 Resumir los datos demográficos clave que motivan las decisiones del producto.
 
-**Algunas preguntas disparadoras**: _¿Cuántos usuarios tendrá el producto? ¿Cómo
+**Algunas preguntas disparadoras**: *¿Cuántos usuarios tendrá el producto? ¿Cómo
 se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
 tratando de satisfacer por otros medios las necesidades que el producto podrá
-cubrir?_
+cubrir?*
 
 ##### Entornos de los usuarios
 
@@ -217,7 +217,7 @@ caso de uso del negocio. Se puede utilizar el siguiente formato:
 
 | Evento de negocio                | Input y output                                 | Descripción del caso de uso del negocio           |
 | -------------------------------- | ---------------------------------------------- | ------------------------------------------------- |
-| _(Nombre del evento de negocio)_ | _(Input y output del caso de uso del negocio)_ | _(Breve descripción del caso de uso del negocio)_ |
+| *(Nombre del evento de negocio)* | *(Input y output del caso de uso del negocio)* | *(Breve descripción del caso de uso del negocio)* |
 
 #### Especificación de los casos de uso del negocio
 
@@ -279,7 +279,8 @@ importantes de cada una, en el contexto de la organización cliente.
 
 ### Modelo de datos organizacionales y diccionario de datos
 
-> [!NOTE] Cuando estés especificando el modelo de datos organizacionales y el
+> [!NOTE]
+> Cuando estés especificando el modelo de datos organizacionales y el
 > diccionario de datos, asegúrate de ser consistente con el
 > [glosario](#glosario) —es una buena idea que las entidades del dominio estén
 > definidas en el glosario—. A su vez, es una buena práctica el mantener un
@@ -319,11 +320,12 @@ Se puede utilizar el siguiente formato:
 
 | Nombre | Contenido | Tipo |
 |--------|-----------|------|
-| _Nombre_ | _Contenido de la entidad/clase o formato del atributo_ | _Clase/Relación/Atributo_ |
+| *Nombre* | *Contenido de la entidad/clase o formato del atributo* | *Clase/Relación/Atributo* |
 
-**Nota**: En la columna **_Contenido_**, nombrar los atributos de la entidad, y
-si la entrada pertenece a un atributo en vez de a una entidad, mencionar el
-formato del atributo.
+> [!NOTE]
+> En la columna ***Contenido***, nombrar los atributos de la entidad, y si la
+> entrada pertenece a un atributo en vez de a una entidad, mencionar el formato
+> del atributo.
 
 Tanto el diccionario de datos como el modelo de datos organizacionales se irán
 ampliando junto con el desarrollo de la solución, esto es: a medida que se vayan
@@ -348,9 +350,9 @@ de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
 
 <!-- TODO add link in 'restricciones' to definition if considered a keyword -->
 
-Mencionar las restricciones relacionadas con el diseño de la solución. _(¿La
-solución debe ser una aplicación web? ¿debe ser una aplicación mobile? ¿debe
-seguir un patrón de arquitectura de software en específico?)_
+Mencionar las restricciones relacionadas con el diseño de la solución. *(¿La
+solución deberá ser una aplicación web? ¿deberá ser una aplicación mobile?
+¿deberá seguir un patrón de arquitectura de software en específico?)*
 
 En caso de existir restricciones sobre las tecnologías a utilizar para el
 desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente—
@@ -360,7 +362,7 @@ la versión de las mismas.
 
 Mencionar aquellas restricciones relacionadas al entorno de instalación de la
 solución. Estas pueden ser restricciones en cuanto al lugar físico o virtual en
-el cual la solución final debe ser instalada.
+el cual la solución final deberá ser instalada.
 
 Suele ser conveniente utilizar un diagrama para explicar las interacciones del
 sistema con el entorno y otros sistemas con los que la solución deba
@@ -396,81 +398,6 @@ recursos disponibles.
 Los requerimientos no deben exceder el presupuesto, así que esta restricción
 determina qué requerimientos son incluidos en el producto.
 
-### Otros requerimientos del producto
-
-Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), listar todos los
-estándares aplicables, requerimientos de plataformas o hardware, requerimientos
-de rendimiento y requerimientos ambientales.
-
-#### Estándares aplicables
-
-Listar los estándares con los cuales el producto debe cumplir, si los hay. Por
-ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
-plataformas, calidad y seguridad (UL, ISO, CMM).
-
-#### Requerimientos del sistema
-
-Definir todos los requerimientos de sistema necesarios para soportar la
-aplicación. Esto puede incluir plataformas de sistemas operativos, de redes,
-configuraciones, memoria, periféricos y software adicional necesario.
-
-#### Requerimientos de rendimiento
-
-Indicar los requerimientos de rendimiento, si los hay. Puede incluir
-características tales como factores de carga de usuarios, anchos de banda o
-capacidad de comunicaciones, precisión, confiabilidad o tiempos de respuesta
-bajo condiciones de carga variadas.
-
-#### Requerimientos ambientales
-
-Detallar los requerimientos ambientales necesarios, si los hay. Para sistemas de
-hardware, estos requerimientos pueden incluir temperatura, humedad, radiación,
-etc. Para aplicaciones de software, los factores ambientales pueden incluir
-condiciones de uso, ambiente del usuario, disponibilidad de recursos,
-mantenimiento, recuperación.
-
-#### Rangos de calidad
-
-Definir los rangos de calidad requeridos para características no funcionales,
-por ejemplo: rendimiento, robustez, tolerancia a fallos, usabilidad, y
-características similares que no se hayan capturado en el conjunto de
-funcionalidades.
-
-### Requerimientos de documentación
-
-Esta subsección describe la documentación que debe ser desarrollada para
-soportar una implantación exitosa del sistema.
-
-#### Manual de usuario
-
-Describir el propósito y contenido del manual de usuario: extensión, nivel de
-detalle, índices, glosarios, etcétera. Si hay restricciones de formatos o de
-impresión, indicarlo.
-
-En caso de que no haya manual de usuario, indicarlo.
-
-#### Ayuda en línea
-
-Muchas aplicaciones proveen un sistema de ayuda en línea para asistir al
-usuario. La naturaleza de estos sistemas es específica del desarrollo de la
-aplicación debido a que combinan aspectos de programación con aspectos de texto
-técnico (organización, presentación). En muchos casos, se ha encontrado que el
-desarrollo del sistema de ayuda es un proyecto dentro del proyecto, que
-beneficia a la administración del alcance y a las actividades de planificación.
-Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), especificar aquí los
-requerimientos de ayuda en línea, si los hay.
-
-En caso de que no haya ayuda en línea, indicarlo.
-
-#### Guías de instalación y configuración
-
-En una solución completa se debe incluir documentos con las instrucciones de
-instalación y configuración. Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), establecer aquí los
-requerimientos para esos documentos.
-
 ### Casos de uso del producto
 
 En esta subsección se definen los [casos de uso del
@@ -479,16 +406,36 @@ individualmente.
 
 #### Diagrama o tabla de casos de uso
 
-Mediante un diagrama de casos de uso o una tabla de casos de uso, definir los
-casos de uso del producto. La tabla de casos de uso suele ser más cómoda cuando
-la cantidad de casos de uso es mayor a 20.
+Mediante un [diagrama de casos de uso o una tabla de casos de
+uso](/3_Plantillas/3_3_Casos_de_uso.md), definir los casos de uso del producto.
+La tabla de casos de uso suele ser más cómoda cuando la cantidad de casos de uso
+es mayor a 20.
 
 #### Detalles de los casos de uso del producto
 
 Definir los detalles de cada caso de uso del producto. Esto se puede realizar
-mediante un guión gráfico, un escenario descrito textualmente, un prototipo de
-baja o alta fidelidad, una especificación de casos de uso incluyendo excepciones
-y alternativas, o un diagrama de secuencia o actividades.
+mediante una de las siguientes opciones:
+
+> [!NOTE]
+> El próximo listado está ordenado descendentemente según la formalidad
+> de cada alternativa, esto es: la primer opción es la más formal, la última la
+> menos. De las cinco opciones presentadas, las tres primeras las consideramos
+> formales y las últimas dos informales.
+
+<!-- TODO Agregar hipervínculos a diagrama UML y diagrama BPML -->
+
+* Un escenario descrito textualmente, paso a paso, incluyendo excepciones y
+  alternativas
+* Un diagrama de actividades UML o un diagrama de procesos BPML
+* Una historia de usuario descrita textualmente
+* Un guión gráfico
+* Un prototipo de baja o alta fidelidad
+
+> [!WARNING]
+> A efectos de entregas de Proyecto, debes utilizar **al menos una
+> opción formal**, aunque puedes utilizar de forma adicional opciones informales
+> para profundizar en los casos de uso o aclararlos. Para utilizar únicamente
+> opciones informales, debes contar con la autorización de tu tutor.
 
 ### Requerimientos funcionales
 
@@ -498,6 +445,254 @@ atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada uno de ellos.
 
 Estos requerimientos emergen de los casos de uso del producto.
 
-[^1]: “bliki: Ubiquitous Language”, martinfowler.com. Consultado: el 29 de abril
-    de 2024. [En línea]. Disponible en:
-    https://martinfowler.com/bliki/UbiquitousLanguage.html
+### Requerimientos no funcionales
+
+En esta subsección se detallan los diferentes tipos de requerimientos no
+funcionales del producto, utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) en cada caso.
+
+#### Requerimientos de apariencia
+
+Detallar los requerimientos asociados a la apariencia del sistema, por ejemplo:
+guías de UX/UI a utilizar —quizá brindadas por el cliente—, marca corporativa de
+la organización cliente, qué colores utilizar, etcétera. Si el sistema no cuenta
+con ninguna interfaz gráfica de usuario, indicarlo.
+
+#### Requerimientos de usabilidad y humanidad
+
+Esta subsección trata con los requerimientos que hacen al producto usable y
+aceptable para los usuarios finales.
+
+##### Requerimientos de facilidad de uso
+
+Detallar los requerimientos del cliente en cuanto a la facilidad de uso del
+sistema por parte de los usuarios finales. Ten en cuenta que esta facilidad es
+derivada de: la habilidad de los previstos usuarios finales y la complejidad del
+producto y sus funcionalidades. Algunas características a tener en cuenta pueden
+ser:
+
+<!-- TODO Agregar ejemplos de cada tipo de requisito incluyendo además criterio
+de aceptación -->
+
+* Eficiencia de uso: Qué tan rápido o con qué precisión el usuario puede usar el
+  producto.
+* Facilidad de memorización: Qué tanto se espera que el usuario casual memorice
+  en cuanto a usar el producto.
+* Tasa de errores: Qué tantos errores sería aceptable que el usuario cometa.
+  Para algunos productos, es crucial que el usuario cometa muy pocos errores, o
+  en ocasiones, ninguno.
+* Satisfacción general al usar el producto: Para productos que tienen cierta
+  competencia, es esencial que los usuarios se sientan muy satisfechos al usar
+  el producto. De ser el caso, es valioso registrar esto como un requerimiento.
+* Retroalimentación: Qué tanta retroalimentación el usuario necesita para
+  sentirse confiado en cuanto a que el producto está haciendo precisa y
+  correctamente lo que se espera de él. Productos de seguridad o tareas críticas
+  suelen necesitar un alto nivel de retroalimentación.
+
+##### Requerimientos de personalización e internacionalización
+
+Especificar los requerimientos asociados a las preferencias de los usuarios.
+
+Estos requerimientos indican cómo el sistema puede ser modificado o configurado
+por los usuarios para tener en cuenta sus preferencias y selección de lenguaje
+utilizado por el sistema.
+
+En otras culturas, se usan diferentes sistemas de unidades —sistema métrico,
+anglosajón, etcétera—, unidades monetarias,
+
+idiomas, etcétera.
+
+En caso de que el cliente no esté interesado en definir este tipo de
+requerimientos, indicarlo.
+
+##### Requerimientos de aprendizaje
+
+Detallar las expectativas del cliente en cuanto a qué tanto esfuerzo deberán
+emplear los usuarios finales para poder utilizar el sistema de una forma
+productiva.
+
+Algunos sistemas deben ser muy fáciles de utilizar y por ende intuitivos, otros
+se pueden permitir determinada curva de aprendizaje debido a la complejidad del
+problema. La idea aquí es cuantificar la cantidad de tiempo o esfuerzo que los
+usuarios finales necesitan para aprender a usar el sistema y que esta
+cuantificación sea aceptable para el cliente. Esta clarificación puede incluir
+un plan de capacitación para los usuarios, e incluso un manual de usuario, por
+ejemplo: "Los usuarios deberán ser capaces de usar el sistema tras una semana de
+capacitación" o, "Los usuarios deberán ser capaces de utilizar el sistema tras
+leer el manual de usuario".
+
+##### Requerimientos de accesibilidad
+
+Especificar los requerimientos asociados a la accesibilidad del sistema.
+Dependiendo del problema y el producto, este tipo de requerimientos puede ser
+más necesario.
+
+##### Requerimientos de protección crítica
+
+Detallar los requerimientos que cuantifican el riesgo de daño percibido a
+personas, propiedad y entorno. Estos pueden estar relacionados a estándares de
+seguridad o protección.
+
+#### Requerimientos de *performance*
+
+En esta subsección se especifican los requerimientos relacionados al rendimiento
+esperable del producto.
+
+##### Requerimientos de velocidad y latencia
+
+Detallar la cantidad de tiempo disponible para el producto al realizar
+diferentes tareas. Un ejemplo de latencia: "El sistema deberá responder a
+cualquier interacción en un tiempo menor a dos segundos". Un ejemplo de
+velocidad: "El sistema deberá refrescar el estado de cuenta cada 5 minutos".
+
+##### Requerimientos de precisión
+
+Especificar los requerimientos asociados a la precisión de los resultados
+mostrados por el producto, por ejemplo: "El sistema deberá mostrar las unidades
+monetarias con una precisión de tres decimales".
+
+##### Requerimientos de confiabilidad y disponibilidad
+
+<!-- TODO Mencionar MTBF, MTTF y SLA, agregarlos bajo la carpeta de Conceptos y
+referenciarlos -->
+
+Definir los requerimientos de confiabilidad y disponibilidad del sistema, esto
+es: ¿qué tanto tiempo deberá estar disponible el sistema? ¿en qué momentos del
+día o qué días ha de estarlo? ¿qué porcentaje de tiempo de actividad deberá
+cumplir? ¿qué tasa de fallos del sistema es aceptable?
+
+##### Requerimientos de robustez
+
+Indicar los requerimientos de robustez del sistema, esto es, la capacidad del
+sistema de continuar funcionando de forma aceptable bajo condiciones anormales.
+Por ejemplo: "El sistema deberá seguir proveyendo la funcionalidad X al no tener
+conexión a Internet".
+
+##### Requerimientos de capacidad
+
+Especificar la cantidad de volumen de datos o usuarios que el sistema deberá
+soportar. ¿Qué tantos usuarios en simultáneo deberá soportar el sistema? ¿este
+número cambia para determinado momento del día?
+
+##### Requerimientos de escalabilidad
+
+Detallar aquellos requerimientos relacionados a la escalabilidad del sistema.
+
+##### Requerimientos de longevidad
+
+Especificar los requerimientos que definen la longevidad del producto, esto es,
+la cantidad de tiempo que estará operativo.
+
+#### Requerimientos operacionales y de entorno
+
+##### Requerimientos de entorno físico
+
+Detallar los requerimientos del entorno físico en el cual el sistema operará.
+
+En algunos productos, las diferentes condiciones especiales bajo las que operará
+el sistema generan requerimientos que se deben tener en cuenta.
+
+##### Requerimientos de interfaz con sistemas adyacentes
+
+Definir los requerimientos que establecen las interacciones necesarias entre el
+sistema y otras aplicaciones o software. Tener en cuenta el versionado del
+software con el cual el sistema va a interactuar, por ejemplo: "El sistema
+deberá poder utilizar datos de la aplicación X en su versión 4.0".
+
+##### Requerimientos de distribución
+
+Indicar los requerimientos necesarios para que el sistema sea distribuido o
+vendido como producto. Indicar también las tareas necesarias para que sea
+instalado, en caso de ser pertinente. Por ejemplo: "La aplicación debe ser
+distribuida en la App Store y Google Play Store en Uruguay" o, "La aplicación
+debe ser descargable desde el sitio web de la organización".
+
+##### Requerimientos del ciclo de *releases*
+
+En caso de establecer con el cliente un ciclo de releases durante un determinado
+período, indicarlo aquí como un requerimiento.
+
+#### Estándares aplicables
+
+Detallar los estándares con los cuales el producto deberá cumplir, si los hay.
+Por ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
+plataformas, calidad y seguridad (UL, ISO, CMM).
+
+#### Requerimientos del sistema
+
+Definir todos los requerimientos de sistema necesarios para soportar la
+aplicación. Esto puede incluir plataformas de sistemas operativos, de redes,
+configuraciones, memoria, periféricos y software adicional necesario.
+
+#### Requerimientos de mantenimiento y soporte
+
+##### Requerimientos de mantenimiento
+
+Especificar aquellos requerimientos relacionados al mantenimiento del sistema
+por parte de los usuarios finales, administradores e incluso otros futuros
+desarrolladores. Por ejemplo: "El código debe ser escrito en inglés para que sea
+legible internacionalmente" o, "Un administrador de la aplicación debe ser capaz
+de agregar un recurso X en menos de 15 minutos para que sea visible por los
+usuarios" o, "Se debe entregar junto al producto un documento con notas de
+arquitectura del sistema que explique cómo está estructurado".
+
+##### Requerimientos de soporte
+
+En caso de que el sistema incluya soporte o ayuda en línea de alguna forma
+específica —un chatbot, por ejemplo—, detallarlo aquí mediante requerimientos.
+En caso contrario, indicarlo.
+
+##### Requerimientos de adaptabilidad
+
+Especificar los entornos o plataformas que el sistema deberá soportar, por
+ejemplo: "El sistema deberá ser capaz de correr en Android y iOS".
+
+##### Manual de usuario
+
+Describir el propósito y contenido del manual de usuario: extensión, nivel de
+detalle, índices, glosarios, etcétera. Si hay restricciones de formatos o de
+impresión, indicarlo.
+
+En caso de que no haya manual de usuario, indicarlo.
+
+##### Guías de instalación y configuración
+
+En una solución completa se debe incluir documentos con las instrucciones de
+instalación y configuración. Establecer aquí los requerimientos para esos
+documentos.
+
+#### Requerimientos de seguridad
+
+##### Requerimientos de acceso
+
+Detallar quiénes tienen acceso a las diferentes partes del producto (tanto en
+términos de funcionalidades como en términos de datos) y bajo qué
+circunstancias.
+
+##### Requerimientos de integridad
+
+Especificar la integridad requerida por la base de datos, archivos del sistema y
+el sistema en sí mismo. Por ejemplo: "El sistema deberá prevenir el ingreso de
+datos incorrectos" o, "El sistema deberá protegerse a sí mismo del uso
+malintencionado".
+
+##### Requerimientos de privacidad
+
+Describir aquellos requerimientos que definen qué debe hacer o con qué debe
+cumplir el sistema para asegurar la privacidad de los datos compartidos por los
+usuarios. Por ejemplo: "El sistema debe notificar a los usuarios sobre el uso
+de sus datos personales" o, "El sistema debe notificar sobre cambios en la
+política de privacidad de los datos".
+
+##### Requerimientos de auditoría
+
+Especificar lo que el sistema debe de hacer (usualmente, mantener información
+persistida) para permitir controles de auditoría. Por ejemplo: "El sistema debe
+mantener datos sobre X para que sean auditados periódicamente".
+
+##### Requerimientos de inmunidad
+
+Mencionar qué es lo que tiene que hacer el sistema para protegerse de
+infecciones de software como viruses, gusanos, *malware*, *spyware*, etcétera.
+
+[^1]: Evans, E. (2003). Domain-Driven Design. Addison-Wesley Professional.
