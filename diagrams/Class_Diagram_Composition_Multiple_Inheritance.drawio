@@ -67,7 +67,7 @@
                 <mxCell id="129" value="Volar()&#10;Mamar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#006EAF;" parent="107" vertex="1">
                     <mxGeometry y="48" width="100" height="42" as="geometry"/>
                 </mxCell>
-                <mxCell id="115" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;fontColor=#006EAF;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" source="124" edge="1">
+                <mxCell id="115" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;fontColor=#006EAF;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" source="124" edge="1" target="107">
                     <mxGeometry x="-0.5784" y="31" width="160" relative="1" as="geometry">
                         <mxPoint x="540" y="570" as="sourcePoint"/>
                         <mxPoint x="410" y="480" as="targetPoint"/>
@@ -78,7 +78,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="116" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;fontColor=#006EAF;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="125" target="129" edge="1">
+                <mxCell id="116" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;fontColor=#006EAF;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" source="125" target="107" edge="1">
                     <mxGeometry x="-0.519" y="-25" width="160" relative="1" as="geometry">
                         <mxPoint x="365.81818181818187" y="490" as="sourcePoint"/>
                         <mxPoint x="227.79816513761466" y="440" as="targetPoint"/>
@@ -124,8 +124,8 @@
                 <mxCell id="127" value="Mamar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#006EAF;" parent="125" vertex="1">
                     <mxGeometry y="48" width="100" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="131" value="Volar() =&amp;gt; mamífero.Volar()&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Mamar() =&amp;gt; volador.Volar()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="425" y="540" width="170" height="40" as="geometry"/>
+                <mxCell id="131" value="Volar() =&amp;gt; volador.Volar()&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Mamar() =&amp;gt; mamífero.Volar()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="540" width="180" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="132" value="" style="edgeStyle=none;html=1;endArrow=none;endSize=12;dashed=1;verticalAlign=bottom;labelBackgroundColor=none;fontColor=#006EAF;fillColor=#1ba1e2;strokeColor=#006EAF;endFill=0;" parent="1" source="131" target="107" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
