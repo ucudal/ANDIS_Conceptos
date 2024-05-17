@@ -70,7 +70,7 @@ Acá van diversas técnicas de relevamiento, de modelado como UML, BPMN, MER, et
 
 ## 2.2 [Modelos de arquitectura](./2_Tecnicas_y_herramientas/2_2_Modelos_de_arquitectura.md)
 
-## 2.3 [Modelos de datos](./2_Tecnicas_y_herramientas/2_3_Modelos_de_datos.md)
+## 2.3 [Modelos de datos](./2_Tecnicas_y_herramientas/2_3__Modelos_de_estructura.md)
 
 ## 2.4 [Modelos de procesos](./2_Tecnicas_y_herramientas/2_4_Modelos_de_procesos.md)
 
