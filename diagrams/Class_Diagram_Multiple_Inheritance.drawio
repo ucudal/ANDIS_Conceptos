@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="ME14ZrENKLqDYr_cWZbU" name="Page-1">
+        <mxGraphModel dx="640" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="60" value="" style="endArrow=block;html=1;endFill=0;elbow=vertical;strokeColor=#006EAF;fontColor=#006EAF;strokeWidth=1;endSize=20;" parent="1" source="65" target="64" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="73.79310344827582" y="410" as="sourcePoint"/>
+                        <mxPoint x="87.81609195402302" y="288" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="" style="endArrow=block;html=1;endFill=0;elbow=vertical;strokeColor=#006EAF;fontColor=#006EAF;strokeWidth=1;endSize=20;" parent="1" source="66" target="64" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="116.38888888888891" y="250" as="sourcePoint"/>
+                        <mxPoint x="230" y="168.20000000000005" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="Vehículo" style="html=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="40" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Vehículo acuático" style="html=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="160" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Vehículo terrestre" style="html=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="160" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Barco" style="html=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="280" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="Vehículo anfibio" style="html=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="280" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="Automóvil" style="html=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="280" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="endArrow=block;html=1;endFill=0;elbow=vertical;strokeColor=#006EAF;fontColor=#006EAF;strokeWidth=1;endSize=20;" edge="1" parent="1" source="67" target="65">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="121.66666666666663" y="170" as="sourcePoint"/>
+                        <mxPoint x="168.33333333333337" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="" style="endArrow=block;html=1;endFill=0;elbow=vertical;strokeColor=#006EAF;fontColor=#006EAF;strokeWidth=1;endSize=20;" edge="1" parent="1" source="68" target="65">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="93.125" y="290" as="sourcePoint"/>
+                        <mxPoint x="101.875" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="" style="endArrow=block;html=1;endFill=0;elbow=vertical;strokeColor=#006EAF;fontColor=#006EAF;strokeWidth=1;endSize=20;" edge="1" parent="1" source="68" target="66">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="203.95833333333337" y="290" as="sourcePoint"/>
+                        <mxPoint x="131.04166666666663" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="" style="endArrow=block;html=1;endFill=0;elbow=vertical;strokeColor=#006EAF;fontColor=#006EAF;strokeWidth=1;endSize=20;" edge="1" parent="1" source="69" target="66">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="241.45833333333337" y="290" as="sourcePoint"/>
+                        <mxPoint x="273.54166666666663" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
