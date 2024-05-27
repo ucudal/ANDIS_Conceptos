@@ -6,4 +6,4 @@
 
 ## 2.3 [Modelos de estructura](./2_Tecnicas_y_herramientas/2_3__Modelos_de_estructura.md)
 
-## 2.4 [Modelos de procesos](./2_Tecnicas_y_herramientas/2_4_Modelos_de_procesos.md)
+## 2.4 [Modelos de comportamiento](/2_Tecnicas_y_herramientas/2_4__Modelos_de_comportamiento.md)
