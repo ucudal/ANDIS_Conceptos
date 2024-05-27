@@ -6,8 +6,10 @@
 
 ## [Caso de uso del producto](./4_Caso_de_uso_del_producto.md)
 
-## [Co-nascencia o *connascence*](./4_Connascence.md)
-
 ## [Cohesión](./4_Cohesion.md)
 
+## [Co-nascencia o *connascence*](./4_Connascence.md)
+
 ## [Evento de negocio](./4_Evento_de_negocio.md)
+
+## [Jerarquía de requerimientos](./4_Jerarquia_de_requerimientos.md)
