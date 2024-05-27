@@ -274,8 +274,48 @@ El contenido está organizado en estas carpetas:
 
 1. Contenido
 2. Técnicas y herramientas
-3.
-4.
+3. Plantillas
+4. Conceptos
+5. Unidades temáticas
+
+Cada carpeta tiene un archivo Markdown —con extensión `.md`— cuyo nombre
+coincide con el de la carpeta y sirve como tabla de contenido de la carpeta
+—excepto que usa dos guiones bajos `__` en lugar de uno para separar el número
+del resto de nombre; esto para que quede ordenado antes de los demás archivos—:
+por ejemplo, la carpeta `4_Conceptos` tiene un archivo `4__Conceptos.md`.
+
+> [!IMPORTANT]
+> Mira la sección [Nombres de archivos](#nombres-de-archivos), más adelante en
+> este documento, para conocer más detalles sobre las convenciones sobre los
+> nombres de archivos y carpetas.
+
+En algunas carpetas el contenido está organizado de manera jerárquica, pero no
+utilizamos sub carpetas, sino que agregamos niveles a los nombres de archivos:
+por ejemplo, el tema `5. Unidades temáticas` tiene algunos de los siguientes
+niveles:
+
+* <span>5.</span> Unidades temáticas
+  * 5.1
+    * 5.1.1
+    * 5.1.2
+  * 5.2
+    * 5.2.1
+
+Los nombres de los archivos en la carpeta `5_Unidades_tematicas` comienzan con:
+
+`5_Unidades_tematicas`
+
+`5__Unidades_tematicas.md`
+
+`5_1__⋯.md`
+
+`5_1_1⋯.md`
+
+`5_1_2⋯.md`
+
+`5_2__⋯.md`
+
+`5_2_1⋯.md`
 
 ### Referencias a las fuentes
 

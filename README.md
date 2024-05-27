@@ -26,71 +26,25 @@ En esta sección va el contenido del documento entregable principal de un proyec
 TODO: Combinar lo que hay de proyecto y lo que mandó Diego D, y con con el
 template de Volere.
 
-## 1.1 [Requisitos](./1_Contenido/1_1__Requisitos.md)
-
-Basado en la plantilla de requisitos de Volere. Las secciones que veníamos
-usando en el documento de visión serían obligatorias aquí, luego definimos bien
-cuáles quedan.
-
-## 1.2 [Diseño y arquitectura](./1_Contenido/1_2__Diseno_y_arquitectura.md)
-
-Acá va lo que veníamos poniendo en el documento de notas de arquitectura y diseño.
-
-## 1.3 [Calidad](./1_Contenido/1_3__Calidad.md)
-
-### 1.3.1 Casos de prueba
-
-### 1.3.2 Resultados de las pruebas
-
-## 1.4 [Gestión](./1_Contenido/1_4_Gestión.md)
-
-Acá van los aspectos metodológicos, de procesos de ingeniería de software, de
-gestión del proyecto.
-
-### 1.4.1 Proceso
-
-Acá van las etapas del proyecto basado tanto en UCUAP como en lo que mandó Diego.
-
-### 1.4.2 Hitos y entregas
-
-Acá van los hitos, que se entrega en cada hito, y cuándo son los hitos. Lo
-expresamos en semanas para que sirva para todas las ediciones de proyecto.
-
-### 1.4.3 Sprints y kanbans
-
-Acá tienen que poner el kanban y los sprints.
-
 # 2 [Técnicas y herramientas](./2_Tecnicas_y_herramientas/2__Tecnicas_y_herramientas.md)
 
-Acá van diversas técnicas de relevamiento, de modelado como UML, BPMN, MER, etc.
-
-## 2.1 [Relevamiento](./2_Tecnicas_y_herramientas/2_1__Relevamiento.md)
-
-### 2.1.2 [Mapas mentales](./2_Tecnicas_y_herramientas/2_1_1_Mapas_mentales.md)
-
-## 2.2 [Modelos de arquitectura](./2_Tecnicas_y_herramientas/2_2_Modelos_de_arquitectura.md)
-
-## 2.3 [Modelos de estructura](./2_Tecnicas_y_herramientas/2_3__Modelos_de_estructura.md)
-
-## 2.4 [Modelos de procesos](./2_Tecnicas_y_herramientas/2_4_Modelos_de_procesos.md)
+Aquí van a encontrar diversas técnicas y herramientas de relevamiento, de
+modelado como UML, BPMN, MER, etc.
 
 # 3 [Plantillas](./3_Plantillas/3__Plantillas.md)
 
 Diversas plantillas para casos de uso, arquitecturas típicas, etc.
-
-## 3.1 [Requerimiento atómico](./3_Plantillas/3_1_Requerimiento_atomico.md)
-
-## 3.2 [Escenario](./3_Plantillas/3_2_Escenario.md)
 
 # 4 [Conceptos](./4_Conceptos/4__Conceptos.md)
 
 Definiciones en formato glosario de conceptos que se usan a lo largo del sitio y
 que nos interesa unificar.
 
-> Nota: No numeramos estas entradas para poder ordenarlas alfabéticamente en el futuro
+> [!NOTE]
+> No numeramos estas entradas en esta sección para poder ordenarlas
+> alfabéticamente en el futuro
 
-## [Caso de uso de negocio](./4_Conceptos/4_Caso_de_uso_del_negocio.md)
+# 5 [Unidades temáticas](./5_Unidades_tematicas/5__Unidades_tematicas.md)
 
-## [Caso de uso del producto](./4_Conceptos/4_Caso_de_uso_del_producto.md)
-
-## [Evento de negocio](./4_Conceptos/4_Evento_de_negocio.md)
+Agrupamos contenido en este repositorio según las necesidades de los cursos en
+los que se usa.
