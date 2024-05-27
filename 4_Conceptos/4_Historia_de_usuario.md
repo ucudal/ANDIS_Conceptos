@@ -215,7 +215,7 @@ atómico](/3_Plantillas/3_1_Requerimiento_atomico.md):
     </tr>
 </table>
 
-Las historias de usuario pueden ser agrupadas en épicas -*epics*-, o dicho de
+Las historias de usuario pueden ser agrupadas en épicas —*epics*—, o dicho de
 otro modo, las épicas de descomponen en historias de usuario. Pueden tener el
 mismo formato que las historias de usuario aunque con una granularidad mucho
 menor, o dicho de otro modo, con un alcanza mucho mayor.
