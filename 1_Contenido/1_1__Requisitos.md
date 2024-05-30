@@ -27,7 +27,7 @@ resolver. Opcionalmente se puede utilizar el siguiente formato:
 
 <table>
   <tr><td>El problema</td><td><i>(descripción del problema)</i></td></tr>
-  <!-- TODO add link in 'stakeholders' to definition if considered a keyword -->
+  <!-- TODO Agregar definición y link para 'stakeholders' -->
   <tr><td>Afecta a</td><td><i>(stakeholders afectados)</i></td></tr>
   <tr><td>Cuyo impacto es</td><td><i>(¿cuál es el impacto del problema?)</i></td></tr>
   <tr><td>Una solución exitosa debe tener</td><td><i>(listar algunos beneficios
@@ -57,8 +57,8 @@ características del producto a desarrollar. Algunas cosas a mencionar:
 
 #### Objetivos del proyecto
 
-<!-- TODO add links in 'objetivos', 'propósito', 'beneficio' and 'métricas del beneficio'
-to definition if considered keywords -->
+<!-- TODO Agregar definiciones y links para 'objetivos', 'propósito', 'beneficio'
+y 'métricas del beneficio' -->
 
 Mencionar a alto nivel los objetivos del proyecto. Para ello, describir el
 propósito, beneficio y métricas del beneficio para cada objetivo.
@@ -72,7 +72,7 @@ Se puede usar el siguiente formato:
 
 ### Interesados (*stakeholders*)
 
-<!-- TODO add link in 'interesados' to definition if considered a keyword -->
+<!-- TODO Agregar definición y link para 'interesados' -->
 
 Esta subsección busca analizar a los interesados en el proyecto. Para ello, se
 presenta: el cliente del proyecto, el comprador o consumidor del producto,
@@ -80,7 +80,7 @@ usuarios del producto y otros interesados.
 
 #### Cliente del proyecto
 
-<!-- TODO add link in 'cliente' to definition if considered a keyword -->
+<!-- TODO Agregar definición y link para 'cliente' -->
 
 Mencionar el cliente o clientes del proyecto. Limitarse a mencionar tres como
 máximo. Para cada uno, mencionar su rol en la organización, rol en el proyecto,
@@ -103,7 +103,7 @@ guía:
 <table>
   <tr><td>Descripción</td><td><i>Descripción breve del usuario y la relación que
   tendrá con el sistema.</i></td></tr>
-  <!-- TODO add link in 'stakeholders' to definition if considered a keyword -->
+  <!-- TODO Agregar definición y link para 'stakeholders' -->
   <tr><td>Representado por</td><td><i>Stakeholders que representan en el proyecto
   a este tipo de usuario. Por ejemplo, el usuario “telefonista” podría estar
   representado por el stakeholder “Encargado del Call Center”</i></td></tr>
@@ -190,8 +190,7 @@ encaja en su entorno.
 
 #### Situación actual
 
-<!-- TODO add link in 'modelo de procesos de negocio' to definition if considered
-a keyword -->
+<!-- TODO Agregar definición y link para 'modelo de procesos de negocio' -->
 
 Mediante un modelo de procesos de negocio, denotar los procesos de negocio
 pertinentes que existen actualmente y que pueden ser reemplazados o cambiados
@@ -205,11 +204,8 @@ software) y el input/output de estas interacciones.
 
 #### Eventos y casos de uso del negocio
 
-<!-- TODO add link in 'eventos de negocio' to definition if considered
-a keyword -->
-
-A alto nivel, listar todos los eventos de negocio a los que el trabajo a
-desarrollar responde (es decir, [casos de uso del
+A alto nivel, listar todos los [eventos de negocio](../4_Conceptos/4_Evento_de_negocio.md)
+a los que el trabajo a desarrollar responde (es decir, [casos de uso del
 negocio](../4_Conceptos/4_Caso_de_uso_del_negocio.md)), indicando: nombre del
 evento de negocio, entrada (input) o información proveniente de la entidad
 adyacente, salida (output) a la entidad adyacente y una breve descripción del
@@ -292,18 +288,17 @@ de modelo de datos organizacionales y el diccionario de datos.
 
 #### Modelo de datos organizacionales
 
-<!-- TODO Agregar link a 'diagrama de clases UML' y'Modelo Entidad-Relación'
--->
+<!-- TODO Agregar definición y link a 'Modelo Entidad-Relación' -->
 
 <!-- TODO Cuando esté definido qué termino usar para contexto del trabajo,
 actualizarlo acá también -->
 
-Mediante un diagrama de clases UML, Modelo Entidad-Relación u cualquier otro
-diagrama de datos, especificar todas las entidades o clases relevantes al
-contexto del trabajo. Lo interesante aquí es mostrar todas las entidades en
-cuestión y sus atributos o propiedades, además de mostrar cómo las entidades se
-relacionan entre sí (para ello es importante indicar la cardinalidad en las
-relaciones).
+Mediante un [diagrama de clases UML](../2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md)
+, Modelo Entidad-Relación o cualquier otro diagrama de datos, especificar todas
+las entidades o clases relevantes al contexto del trabajo. Lo interesante aquí
+es mostrar todas las entidades en cuestión y sus atributos o propiedades, además
+de mostrar cómo las entidades se relacionan entre sí (para ello es importante
+indicar la cardinalidad en las relaciones).
 
 #### Diccionario de datos
 
@@ -336,9 +331,9 @@ organizacionales.
 Los términos utilizados en el diccionario de datos son los términos que se han
 de usar al definir requerimientos atómicos detallados.
 
-<!-- TODO Agregar `Restricción` en la sección de `Conceptos` -->
-
 ### Restricciones
+
+<!-- TODO Agregar definición y link para 'Restricción' -->
 
 Esta subsección detalla las diferentes restricciones de diseño o restricciones
 externas que se impongan para el desarrollo del producto.
@@ -347,8 +342,6 @@ externas que se impongan para el desarrollo del producto.
 
 Cada una de las restricciones mencionadas en esta parte debe usar el [template
 de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
-
-<!-- TODO add link in 'restricciones' to definition if considered a keyword -->
 
 Mencionar las restricciones relacionadas con el diseño de la solución. *(¿La
 solución deberá ser una aplicación web? ¿deberá ser una aplicación mobile?
@@ -422,11 +415,12 @@ mediante una de las siguientes opciones:
 > menos. De las cinco opciones presentadas, las tres primeras las consideramos
 > formales y las últimas dos informales.
 
-<!-- TODO Agregar hipervínculos a diagrama UML y diagrama BPML -->
+<!-- TODO Agregar link a diagrama BPML -->
 
 * Un escenario descrito textualmente, paso a paso, incluyendo excepciones y
   alternativas
-* Un diagrama de actividades UML o un diagrama de procesos BPML
+* Un [diagrama de actividades UML](../2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
+  o un diagrama de procesos BPML
 * Una historia de usuario descrita textualmente
 * Un guión gráfico
 * Un prototipo de baja o alta fidelidad
