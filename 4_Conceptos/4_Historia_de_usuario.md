@@ -47,7 +47,8 @@ Algunos sugieren que las historias de usuario tengan cierto formato[^3]:
 > quiero [<span style="color:#0969DA">característica o funcionalidad</span>]
 > de modo que [<span style="color:#0969DA">razón</span>]
 
-*Persona* —ver [definición](https://www.merriam-webster.com/dictionary/persona)— representa el rol o el usuario.
+*Persona* —ver [definición](https://www.merriam-webster.com/dictionary/persona)—
+representa el rol o el usuario.
 
 > [!TIP]
 > Contesta las siguientes preguntas sobre la *persona*:
