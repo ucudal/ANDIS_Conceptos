@@ -87,7 +87,9 @@ y el texto a completar en el color normal. Tomado de [^1].
             <b>Prioridad</b>
         </td>
         <td colspan="5">
-            Una calificación del valor de este requerimiento para los usuarios finales
+            Una calificación del valor de este requerimiento para los usuarios
+            finales. Ver debajo <span id="back_ref_3"><a href="#ref_3">↓</a>
+            </span>
         </td>
     </tr>
     <tr>
@@ -135,8 +137,25 @@ y el texto a completar en el color normal. Tomado de [^1].
 * Impulsor o *driver* del proyecto
 * Cuestiones o *issues* del proyecto <a href="#back_ref_1" title="Volver...">↩︎</a>
 
-<span id="ref_2">Lista de identificadores de eventos o casos de uso que necesitan
-este requerimiento.</span> <a href="#back_ref_2" title="Volver...">↩︎</a>
+<span id="ref_2">#Evento/Caso de uso</span>:
+
+* Lista de identificadores de eventos o casos de uso que necesitan
+este requerimiento.<a href="#back_ref_2" title="Volver...">↩︎</a>
+
+<span id="ref_3">Prioridad</span>:
+
+* ***Must have* —imprescindibles—**: Requerimientos críticos que el proyecto
+  debe cumplir para ser considerado exitoso. Sin ellos el proyecto no cumplirá
+  su propósito.
+
+* ***Should have* —importantes—**: Requerimientos que son importantes pero no
+  críticos. Su ausencia no detendrá el proyecto, pero puede afectar la calidad o
+  eficiencia del resultado final.
+
+* ***Nice to have* —deseables—**: Estos son los requerimientos que sería
+  beneficioso tener, pero que no son esenciales. Mejoran la experiencia o la
+  funcionalidad, pero no afectan la viabilidad del proyecto.
+  <a href="#back_ref_3" title="Volver...">↩︎</a>
 
 [^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
 Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.

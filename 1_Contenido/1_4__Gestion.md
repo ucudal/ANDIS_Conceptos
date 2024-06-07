@@ -5,8 +5,9 @@
 Este documento describe aspectos de gestión de los proyectos de finales de grado
 en particular.
 
-> [!NOTE] A diferencia de otras páginas en este repositorio, ésta está dirigida
-> a los equipos que llevan adelante el proyecto final de grado —y no a un lector
+> [!NOTE]
+> A diferencia de otras páginas en este repositorio, ésta está dirigida a los
+> equipos que llevan adelante el proyecto final de grado —y no a un lector
 > individual— por lo que notarán un cambio en el estilo de redacción —en otras
 > páginas hubiéramos dicho "notarás"— :wink:.
 
@@ -42,7 +43,8 @@ Cada una de estas fases puede tener una o más iteraciones o *sprints*.
 *Figura 1: Una vista de alto nivel del ciclo de vida de la entrega en DAD.
 Tomado de [PMI](https://www.pmi.org/disciplined-agile/lifecycle).*
 
-> [!TIP] Puedes ver las actividades en cada una de las fases de DAD en el [DA
+> [!TIP]
+> Puedes ver las actividades en cada una de las fases de DAD en el [DA
 > Browser](https://dabrowser.pmi.org).
 
 El proyecto final de grado tiene las siguientes etapas, donde algunas de ellas
@@ -258,18 +260,17 @@ semanas.
 
 Los objetivos en esta etapa son:
 
-* Terminar de familiarizarte con el dominio del problema; tuviste tu primer
-  acercamiento cuando formulaste la propuesta, ahora deberás completar tu
+* Terminar de familiarizarse con el dominio del problema; tuvieron su primer
+  acercamiento cuando formularon la propuesta, ahora deberán completar su
   entendimiento del dominio del problema.
 
 * Completar los eventos del negocio y los casos de uso del negocio; la mayoría
-  ya los identificaste para la propuesta durante el anteproyecto.
+  ya los identificaron para la propuesta durante el anteproyecto.
 
 * Armar un [EDT](/4_Conceptos/4_EDT.md) —o [*WBS*](/4_Conceptos/4_WBS.md)—
-  incluyendo el [MVP] y un listado de épicas para el alcance todo el proyecto;
-  este será el plan del proyecto.
-
-  TODO: definir el MVP
+  incluyendo el [MVP](/4_Conceptos/4_MVP.md) y un listado de
+  [épicas](/4_Conceptos/4_Epica.md) para el alcance todo el proyecto; este será
+  el plan del proyecto.
 
 * Compartir con el cliente el plan del proyecto y validar expectativas sobre el
   alcance del proyecto y las soluciones arquitectónicas que incluiste
@@ -306,9 +307,10 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
   te obligará a crear los proyectos, ponerlos en un repositorio de control de
   configuración en línea, asignar los permisos, etc.
 
-  > [!IMPORTANT] Todos los miembros del equipo, independientemente de su rol,
-  > deberán conocer y estar en condiciones de ejecutar el código desarrollado a
-  > lo largo de todo el proyecto.
+  > [!IMPORTANT]
+  > Todos los miembros del equipo, independientemente de su rol, deberán conocer
+  > y estar en condiciones de ejecutar el código desarrollado a lo largo de todo
+  > el proyecto.
 
 * **Aseguramiento de la calidad**. Completen la sección de resultado esperado de
   cada caso de uso, y asegúrense de que es verificable.
@@ -408,19 +410,19 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
   este indicador es mostrar cuánto trabajo tuvo capacidad de entregar el equipo
   durante la etapa.
 
-  **_Burn down_**. La evolución de la cantidad de trabajo entregada. El
+  ***Burn down***. La evolución de la cantidad de trabajo entregada. El
   propósito de este indicador es mostrar la cantidad de trabajo realizada por el
   equipo durante la etapa.
 
-  **_Cumulative flow_**. La evolución de la cantidad de trabajo pendiente, en
+  ***Cumulative flow***. La evolución de la cantidad de trabajo pendiente, en
   progreso y terminada. El propósito de este indicador es entender si hubo
   *scope creep*, demoras en completar items, etc. durante la etapa.
 
-  **_Build status_**. La evolución del estado de compilación de la solución. El
+  ***Build status***. La evolución del estado de compilación de la solución. El
   propósito de este indicador es ver si hubo contribuciones que introdujeron
   inestabilidad en la solución.
 
-  **_Test failures_**. La evolución del estado de los casos de prueba. El
+  ***Test failures***. La evolución del estado de los casos de prueba. El
   propósito de este indicador es entender cómo agregan casos de prueba a lo
   largo del tiempo, y cómo la solución pasa o no estos casos de prueba.
 
@@ -505,9 +507,8 @@ Los objetivos de esta etapa son:
 * Liberar una segunda versión del MVP funcionando, con la UX/UI avanzada, y al
   menos tres funcionalidades definidas por el cliente como *nice to have*
   implementadas.
-  <!-- @diego deberíamos definir antes la prioridad de las funcionalidades además de
-  las nice to have, cuáles van en qué etapa, y qué relación hay entre
-  funcionalidades, requerimientos, casos de uso e historias de usuario -->
+  <!-- @diego acá se habla de funcionalidades, pero antes mencionamos épicas y
+  requerimientos; hay que ver con cuál nos quedamos. -->
 
   Aunque no es obligatorio, recomendamos definir la interfaz de usuario con
   herramientas de creación de prototipos como [Figma](https://www.figma.com),
@@ -518,7 +519,8 @@ Los objetivos de esta etapa son:
   <!-- @fmachadopiriz poner que el criterio de ajuste es opcional antes. -->
 
 * Completar la sección de calidad del documento entregable.
-  <!-- @fmachadopiriz ver qué de calidad se agrega antes si en este etapa es sólo completar -->
+  <!-- @fmachadopiriz ver qué de calidad se agrega antes si en este etapa es
+  sólo completar -->
 
 * Actualizar las secciones de arquitectura y diseño si corresponde.
 
@@ -635,7 +637,11 @@ Contenido de la propuesta:
 
 ### Primera entrega
 
-* Carta de confidencialidad
+* [Carta de
+  confidencialidad](/3_Plantillas/3_x_Carta_confidencialidad_simple.md) o
+  [Compromiso de
+  confidencialidad](/3_Plantillas/3_x_Compromiso_confidencialidad.md) según
+  corresponda.
 
 * <!-- TODO: enumerar las secciones aplicables -->
 
@@ -645,7 +651,7 @@ Contenido de la propuesta:
 
 ### Entrega final
 
-* Carta de aceptación
+* [Carta de aceptación](/3_Plantillas/3_5_Aceptacion_cliente.md)
 
 * <!-- TODO: enumerar las secciones aplicables -->
 
