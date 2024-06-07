@@ -5,9 +5,8 @@
 Este documento describe aspectos de gestión de los proyectos de finales de grado
 en particular.
 
-> [!NOTE]
-> A diferencia de otras páginas en este repositorio, ésta está dirigida a los
-> equipos que llevan adelante el proyecto final de grado —y no a un lector
+> [!NOTE] A diferencia de otras páginas en este repositorio, ésta está dirigida
+> a los equipos que llevan adelante el proyecto final de grado —y no a un lector
 > individual— por lo que notarán un cambio en el estilo de redacción —en otras
 > páginas hubiéramos dicho "notarás"— :wink:.
 
@@ -43,12 +42,12 @@ Cada una de estas fases puede tener una o más iteraciones o *sprints*.
 *Figura 1: Una vista de alto nivel del ciclo de vida de la entrega en DAD.
 Tomado de [PMI](https://www.pmi.org/disciplined-agile/lifecycle).*
 
-> [!TIP]
-> Puedes ver las actividades en cada una de las fases de DAD en el [DA
+> [!TIP] Puedes ver las actividades en cada una de las fases de DAD en el [DA
 > Browser](https://dabrowser.pmi.org).
 
 El proyecto final de grado tiene las siguientes etapas, donde algunas de ellas
-tienen una entrega formal en webasignatura, según se indica [más adelante](#correspondencia-entre-el-marco-metodológico-y-el-proyecto-final-de-grado):
+tienen una entrega formal en webasignatura, según se indica [más
+adelante](#correspondencia-entre-el-marco-metodológico-y-el-proyecto-final-de-grado):
 
 * Inicio
 
@@ -60,9 +59,9 @@ tienen una entrega formal en webasignatura, según se indica [más adelante](#co
 
 * *Delivery* al cliente y tercer *release*
 
-Las siguientes son las diferentes dimensiones en las que los equipos
-trabajan a lo largo del proyecto; en algunas etapas trabajan más en una
-dimensión que en otras.
+Las siguientes son las diferentes dimensiones en las que los equipos trabajan a
+lo largo del proyecto; en algunas etapas trabajan más en una dimensión que en
+otras.
 
 * Requerimientos
 
@@ -76,9 +75,9 @@ dimensión que en otras.
 
 * Gestión y proceso
 
-De la combinación entre las etapas y los surgen las actividades y los productos
-que se generan a lo largo del proyecto final de grado, como se detalla más
-adelante.
+De la combinación entre las etapas y las dimensiones surgen las actividades y
+los productos que se generan a lo largo del proyecto final de grado, como se
+detalla más adelante.
 
 A partir de 2024 toda la documentación se entrega en un solo archivo o
 repositorio siguiendo la estructura detallada en la sección
@@ -217,9 +216,10 @@ carrera](https://webasignatura.ucu.edu.uy/course/view.php?id=3751).
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los [eventos de negocio](/4_Conceptos/4_Evento_de_negocio.md)
-  más significativos. Incluyan para cada evento de negocio al menos su
-  descripción, sus datos, y si es de entrada o de salida.
+* **Requerimientos**. Los [eventos de
+  negocio](/4_Conceptos/4_Evento_de_negocio.md) más significativos. Incluyan
+  para cada evento de negocio al menos su descripción, sus datos, y si es de
+  entrada o de salida.
 
   Los [caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md) para
   cada evento del negocio identificado en el punto anterior. Del caso de uso del
@@ -236,12 +236,14 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
 * **Desarrollo**. No es necesario que desarrollen código en esta etapa.
 
-* **Aseguramiento de la calidad**. Pueden usar la rúbrica de propuestas de proyecto
-  final de grado para evaluar el producto que van a entregar; sin embargo, no es
-  necesario que entreguen esta evaluación.
+* **Aseguramiento de la calidad**. Pueden usar la [rúbrica de propuestas de
+  proyecto](/1_Contenido/1_4_1_Rubrica_propuesta.md) final de grado para evaluar
+  el producto que van a entregar; sin embargo, no es necesario que entreguen
+  esta evaluación.
 
-* **UX/UI**. En caso de que el cliente indique que deben seguir ciertos estándares,
-  mantener cierto estilo, seguir manuales de marca, etc. deben indicarlo aquí.
+* **UX/UI**. En caso de que el cliente indique que deben seguir ciertos
+  estándares, mantener cierto estilo, seguir manuales de marca, etc. deben
+  indicarlo aquí.
 
 * **Gestión y proceso**. Cuál de las [seis versiones de ciclos de vida de
   DAD](https://www.pmi.org/disciplined-agile/process/introduction-to-dad/full-delivery-lifecycles-introduction)
@@ -278,8 +280,8 @@ Los objetivos en esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Todos los eventos del negocio; incluyan para cada evento de
-  negocio al menos la misma información que incluyeron en la propuesta.
+* **Requerimientos**. Todos los eventos del negocio; incluyan para cada evento
+  de negocio al menos la misma información que incluyeron en la propuesta.
 
   Todos los casos de uso del negocio para los eventos del negocio identificados;
   incluyan para cada caso de uso la misma información que incluyeron en la
@@ -294,8 +296,8 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
   de una aplicación web a una aplicación *mobile*, por ejemplo—, incluyan una
   justificación.
 
-* **Desarrollo**. Aunque no es requerido, sí es recomendable tener un esqueleto de
-  la arquitectura de la solución en código. Por ejemplo, si el producto final
+* **Desarrollo**. Aunque no es requerido, sí es recomendable tener un esqueleto
+  de la arquitectura de la solución en código. Por ejemplo, si el producto final
   será una aplicación *mobile* con un *backend*, puedes tener un servicio web
   REST para el *backend* con un *endpoint* de chequeo de salud[^1] que retorne
   siempre `200 OK` y el cliente *mobile* puede ser simplemente una pantalla de
@@ -304,10 +306,9 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
   te obligará a crear los proyectos, ponerlos en un repositorio de control de
   configuración en línea, asignar los permisos, etc.
 
-  > [!IMPORTANT]
-  > Todos los miembros del equipo, independientemente de su rol, deberán conocer
-  > y estar en condiciones de ejecutar el código desarrollado a lo largo de todo
-  > el proyecto.
+  > [!IMPORTANT] Todos los miembros del equipo, independientemente de su rol,
+  > deberán conocer y estar en condiciones de ejecutar el código desarrollado a
+  > lo largo de todo el proyecto.
 
 * **Aseguramiento de la calidad**. Completen la sección de resultado esperado de
   cada caso de uso, y asegúrense de que es verificable.
@@ -321,18 +322,18 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
   corresponde. En caso de que haya cambios significativos, incluyan una
   justificación.
 
-* **Gestión**. Definición de herramientas para la operativa cotidiana del proyecto,
-  por ejemplo:
+* **Gestión**. Definición de herramientas para la operativa cotidiana del
+  proyecto, por ejemplo:
 
   **Gestión del *backlog***. Recomendamos usar [Azure Devops
   Services](https://azure.microsoft.com/es-es/products/devops) ya que tienen
   acceso a la versión completa de esta herramienta con la cuenta de estudiante
   @correo.ucu.edu.uy; pero en acuerdo con tu tutor pueden usar otras[^2].
 
-  **Repositorio de código**. Habitualmente usamos GitHub y los estudiantes pueden
-  tener repositorios privados en la [organización](https://github.com/ucudal) de
-  la  universidad. Pídanle a su tutor que les gestione la creación de los
-  repositorios que necesiten.
+  **Repositorio de código**. Habitualmente usamos GitHub y los estudiantes
+  pueden tener repositorios privados en la
+  [organización](https://github.com/ucudal) de la  universidad. Pídanle a su
+  tutor que les gestione la creación de los repositorios que necesiten.
 
   **Repositorio de documentos**. Pueden usar también [Microsoft
   Teams](https://teams.microsoft.com) para esto; nuevamente, si lo acuerdan con
@@ -427,8 +428,8 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
 La tercera etapa del proyecto es el primer *release*. Dura entre X y X semanas.
 
-Más allá de que en cada iteración produzcas una [solución consumible](), en el primer
-*release* sí o sí deberías tener una solución similar a la final, aunque
+Más allá de que en cada iteración produzcas una [solución consumible](), en el
+primer *release* sí o sí deberías tener una solución similar a la final, aunque
 obviamente sólo implementará los requerimientos asignados a esta etapa. Excepto
 por el hecho de que no es una solución funcionalmente completa, debería tener
 las siguientes características:
@@ -472,9 +473,9 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
   actividades](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
   o [secuencia](/2_Tecnicas_y_herramientas/2_4_3_Diagramas_de_secuencia_UML.md).
 
-* **Desarrollo**. El código funcionando que implementa requerimientos
-  que hayan implementado en este etapa. Nuevamente incluyan instrucciones para
-  que su tutor pueda ejecutar la solución en un ambiente de desarrollo.
+* **Desarrollo**. El código funcionando que implementa requerimientos que hayan
+  implementado en este etapa. Nuevamente incluyan instrucciones para que su
+  tutor pueda ejecutar la solución en un ambiente de desarrollo.
 
 * **Aseguramiento de la calidad**. Las pruebas de unidad para el código
   entregado.
@@ -486,7 +487,8 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
   En caso de que corresponda, pruebas de carga para mostrar el funcionamiento
   correcto de la arquitectura.
 
-* **UX/UI**. Maquetas para los casos de uso del producto incluidos en esta etapa.
+* **UX/UI**. Maquetas para los casos de uso del producto incluidos en esta
+  etapa.
 
 * **Gestión**. El plan de proyecto actualizado y los mismos indicadores de la
   etapa anterior.
@@ -497,7 +499,8 @@ La cuarta etapa del proyecto es el segundo *release*. Dura entre X y X semanas.
 
 Los objetivos de esta etapa son:
 
-* Conseguir retroalimentación del cliente respecto del MVP. <!-- @diego es del MVP entregado en la etapa anterior? -->
+* Conseguir retroalimentación del cliente respecto del MVP. <!-- @diego es del
+  MVP entregado en la etapa anterior? -->
 
 * Liberar una segunda versión del MVP funcionando, con la UX/UI avanzada, y al
   menos tres funcionalidades definidas por el cliente como *nice to have*
@@ -554,7 +557,8 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
   en esta etapa. Datos de prueba para esos casos de prueba. Resultados de esas
   pruebas.
 
-* **UX/UI**. Maquetas para los casos de uso del producto incluidos en esta etapa.
+* **UX/UI**. Maquetas para los casos de uso del producto incluidos en esta
+  etapa.
 
 * **Gestión**. El plan de proyecto actualizado y los mismos indicadores de las
   etapas anteriores.
@@ -624,7 +628,8 @@ Contenido de la propuesta:
   encargado del proyecto de la contraparte y quién hace las veces de
   patrocinador.
 
-* Borrador de las [necesidades clave](/1_Contenido/1_1__Requisitos.md#identificación-de-necesidades-clave).
+* Borrador de las [necesidades
+  clave](/1_Contenido/1_1__Requisitos.md#identificación-de-necesidades-clave).
 
 * El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes.
 
@@ -645,14 +650,15 @@ Contenido de la propuesta:
 * <!-- TODO: enumerar las secciones aplicables -->
 
 [^1]: Ese *endpoint* será la semilla para implementar en el futuro el patrón
-    [Health Endpoint Monitoring](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring)
+    [Health Endpoint
+    Monitoring](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring)
     por ejemplo.
 
-[^2]: Ten en cuenta la seguridad y privacidad de la información que almacenes
-    en estos repositorios; si tienes un acuerdo de confidencialidad con el
-    cliente, deberías usar las herramientas recomendadas. También deberás
-    considerar que otras herramientas pueden tener costos asociados o limitar la
-    cantidad de usuarios o de archivos en las versiones gratuitas.
+[^2]: Ten en cuenta la seguridad y privacidad de la información que almacenes en
+    estos repositorios; si tienes un acuerdo de confidencialidad con el cliente,
+    deberías usar las herramientas recomendadas. También deberás considerar que
+    otras herramientas pueden tener costos asociados o limitar la cantidad de
+    usuarios o de archivos en las versiones gratuitas.
 
 [^3]: Estos reportes pueden ser generados automáticamente con la herramienta
     Azure DevOps recomendada, no tienen porqué hacerlos a mano si la usan para
