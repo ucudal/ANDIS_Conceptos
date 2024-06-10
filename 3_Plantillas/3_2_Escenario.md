@@ -78,7 +78,9 @@ sean accesibles para todos los interesados.
             adelante.
             </br>
             Para el caso normal, las alternativas y las excepciones es posible
-            usar diagramas de actividades o un diagram BPMN.
+            usar <a href="/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md">
+            diagramas de actividades</a> o un <a href="/2_Tecnicas_y_herramientas/2_4_4_Diagramas_BMPN.md">
+            diagram BPMN</a>.
         </td>
     </tr>
     <tr>
