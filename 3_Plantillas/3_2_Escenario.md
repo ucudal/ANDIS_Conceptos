@@ -11,22 +11,17 @@ Los escenarios muestran la funcionalidad de un caso de uso dividiéndolo en una
 serie de pasos fácilmente reconocibles, escritos en lenguaje natural para que
 sean accesibles para todos los interesados.
 
-<style>
- td {
-   vertical-align: top;
- }
- </style>
 <table>
     <tr>
-        <td td style="color:#0969DA">
+        <td style="color:#0969DA">
             <b>Nombre del caso de uso del {negocio|producto}</b>
         </td>
-        <td>
+        <td valign="top">
             Un nombre significativo para el caso de uso.
         </td>
     </tr>
     <tr>
-        <td td style="color:#0969DA">
+        <td td style="color:#0969DA" valign="top">
             <b>Desencadenante —<i>trigger</i>—</b>
         </td>
         <td>
@@ -37,7 +32,7 @@ sean accesibles para todos los interesados.
         </td>
     </tr>
     <tr>
-        <td td style="color:#0969DA">
+        <td td style="color:#0969DA" valign="top">
             <b>Precondiciones</b>
         </td>
         <td>
@@ -48,7 +43,7 @@ sean accesibles para todos los interesados.
         </td>
     </tr>
     <tr>
-        <td td style="color:#0969DA">
+        <td td style="color:#0969DA" valign="top">
             <b>Partes interesadas</b>
         </td>
         <td>
@@ -58,7 +53,7 @@ sean accesibles para todos los interesados.
         </td>
     </tr>
     <tr>
-        <td td style="color:#0969DA">
+        <td td style="color:#0969DA" valign="top">
             <b>Actores</b>
         </td>
         <td>
@@ -68,7 +63,7 @@ sean accesibles para todos los interesados.
         </td>
     </tr>
     <tr>
-        <td td style="color:#0969DA">
+        <td td style="color:#0969DA" valign="top">
             <b>Pasos del caso normal</b>
         </td>
         <td>
@@ -79,12 +74,12 @@ sean accesibles para todos los interesados.
             </br>
             Para el caso normal, las alternativas y las excepciones es posible
             usar <a href="/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md">
-            diagramas de actividades</a> o un <a href="/2_Tecnicas_y_herramientas/2_4_4_Diagramas_BMPN.md">
-            diagrama BPMN</a>.
+            diagramas de actividades</a> o un <a href="/2_Tecnicas_y_herramientas/2_4_4_Diagramas_BPMN.md">
+            diagram BPMN</a>.
         </td>
     </tr>
     <tr>
-        <td td style="color:#0969DA">
+        <td td style="color:#0969DA" valign="top">
             <b>Alternativas</b>
         </td>
         <td>
@@ -96,7 +91,7 @@ sean accesibles para todos los interesados.
         </td>
     </tr>
     <tr>
-        <td td style="color:#0969DA">
+        <td td style="color:#0969DA" valign="top">
             <b>Excepciones</b>
         </td>
         <td>
