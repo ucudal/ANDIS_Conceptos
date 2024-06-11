@@ -1,6 +1,6 @@
 # 3 Plantillas
 
-## 3.x Carta de aceptación del cliente
+## 3.5 Carta de aceptación del cliente
 
 Esta es la plantilla para la carta en la que el cliente acepta los entregables
 del proyecto final de grado.
