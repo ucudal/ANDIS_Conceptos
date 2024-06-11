@@ -638,9 +638,9 @@ Contenido de la propuesta:
 ### Primera entrega
 
 * [Carta de
-  confidencialidad](/3_Plantillas/3_x_Carta_confidencialidad_simple.md) o
+  confidencialidad](/3_Plantillas/3_6_Carta_confidencialidad_simple.md) o
   [Compromiso de
-  confidencialidad](/3_Plantillas/3_x_Compromiso_confidencialidad.md) según
+  confidencialidad](/3_Plantillas/3_7_Compromiso_confidencialidad.md) según
   corresponda.
 
 * <!-- TODO: enumerar las secciones aplicables -->
