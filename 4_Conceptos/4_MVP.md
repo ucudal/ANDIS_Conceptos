@@ -32,7 +32,7 @@ objetivo es probar hipótesis de negocio fundamentales.
 Los MVP varían en complejidad, desde pruebas de humo extremadamente simples
 —poco más que un anuncio— hasta prototipos iniciales completos con problemas y
 características faltantes. Decidir exactamente qué tan complejo debe ser un MVP
-no se puede hacer mediante fórmulas. Requiere juicio. Afortunadamente, este
+no se puede hacer mediante fórmulas; requiere juicio. Afortunadamente, este
 juicio no es difícil de desarrollar: la mayoría de los emprendedores y personas
 de desarrollo de productos sobrestiman dramáticamente cuántas características
 se necesitan en un MVP. En caso de duda, simplifica.
