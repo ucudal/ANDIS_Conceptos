@@ -88,7 +88,7 @@ derivadas de los daños y perjuicios causados, así como toda otra de cualquier
 naturaleza.
 
 Sin perjuicio de lo previsto en este documento, se deja constancia en este acto,
-que el estudiante participará en el proyecto `≪nombre del proyecto≫` en la
+que `≪el o la≫` estudiante participará en el proyecto `≪nombre del proyecto≫` en la
 empresa `≪nombre de la empresa≫`, respecto de la cual rigen todos los términos y
 condiciones incluidos en la presente.
 
