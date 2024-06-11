@@ -1,6 +1,6 @@
 # 3 Plantillas
 
-## 3.x Carta de confidencialidad
+## 3.6 Carta de confidencialidad
 
 Esta carta la firma cada uno de los estudiantes del equipo del proyecto y
 entregan una copia en la empresa en la que están desarrollando el proyecto y
