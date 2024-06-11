@@ -2,7 +2,7 @@
 
 ## 2.4 Modelos de comportamiento
 
-### 2.4.3 Diagramas BPMN
+### 2.4.4 Diagramas BPMN
 
 BPMN significa *business process model and notation* —modelado y notación de
 procesos del negocio—. Es un estándar para el modelado de procesos del negocio
@@ -71,16 +71,16 @@ Algunos tipos de pasarelas son:
   fusión, combina el flujo de control previamente separado en ramas por una
   pasarela exclusiva.
 
-* Pasarela inclusivo —OR—: Crea caminos alternativos o paralelos en un flujo de
+* Pasarela inclusiva —OR—: Crea caminos alternativos o paralelos en un flujo de
   proceso. En una pasarela usada como ramificación, una expresión está asociada
-  a los flujos de secuencia salida; el flujo de control pasará en paralelo por
+  a los flujos de secuencia de salida; el flujo de control pasará en paralelo por
   todas los flujos de secuencia cuyas condiciones se cumplan; puede haber un
   flujo de secuencia sin expresión, que también se ejecuta en paralelo. Cuando
   esta pasarela es usada como fusión, combina el flujo previamente separado por
   una pasarela inclusiva.
 
 * Pasarela paralela: Crea caminos paralelos en un flujo de procesos. En una
-  pasarela usada como bifurcación, todos flujos de salida se ejecutan en
+  pasarela usada como bifurcación, todos los flujos de salida se ejecutan en
   paralelo. Cuando esta pasarela es usada como unión, combina el flujo
   previamente separado en ramas paralelas.
 
