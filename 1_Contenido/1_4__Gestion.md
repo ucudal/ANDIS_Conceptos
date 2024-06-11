@@ -430,11 +430,12 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
 La tercera etapa del proyecto es el primer *release*. Dura entre X y X semanas.
 
-Más allá de que en cada iteración produzcas una [solución consumible](), en el
-primer *release* sí o sí deberías tener una solución similar a la final, aunque
-obviamente sólo implementará los requerimientos asignados a esta etapa. Excepto
-por el hecho de que no es una solución funcionalmente completa, debería tener
-las siguientes características:
+Más allá de que en cada iteración produzcas una [solución
+consumible](/4_Conceptos/4_Solucion_consumible.md), en el primer *release* sí o
+sí deberías tener una solución similar a la final, aunque obviamente sólo
+implementará los requerimientos asignados a esta etapa. Excepto por el hecho de
+que no es una solución funcionalmente completa, debería tener las siguientes
+características:
 
 * Lo que está implementado es usable
 
