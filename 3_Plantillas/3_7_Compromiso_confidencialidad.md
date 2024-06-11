@@ -2,8 +2,8 @@
 
 ## 3.x Compromiso de confidencialidad
 
-Este es un documento de confidencialidad más completo que la [carta de/3_Plantillas/3_6_Carta_confidencialidad_simple.md
-confidencialidad](/3_Plantillas/3_x_Carta_confidencialidad_simple.md) y lo firma
+Este es un documento de confidencialidad más completo que la [carta de
+confidencialidad simple](/3_Plantillas/3_6_Carta_confidencialidad_simple.md) y lo firma
 cada uno de los estudiantes del equipo del proyecto y entregan una copia en la
 empresa en la que están desarrollando el proyecto y otra copia la envían al
 tutor del proyecto o al coordinador.
@@ -11,7 +11,7 @@ tutor del proyecto o al coordinador.
 > [!NOTE]
 > Reemplazar el texto entre `≪` y `≫` con la información correspondiente.
 
-, `≪fecha≫`
+`≪lugar≫`, `≪fecha≫`
 
 **COMPROMISO DE CONFIDENCIALIDAD DE ESTUDIANTES EN PROYECTOS DE FINAL DE GRADO EN
 UCU O EN TERCERAS ENTIDADES**
@@ -58,7 +58,7 @@ tercero vinculado a dicha institución, cualquiera sea la naturaleza de dicho
 vínculo, y de la actividad que dio origen a su recolección.
 
 Los datos de carácter personal serán objeto de protección, reserva y tratamiento
-confidencial por parte del estudiante en todo caso, especialmente  aquellos
+confidencial por parte `≪del o de la≫` estudiante en todo caso, especialmente  aquellos
 datos sensibles, entendiéndose por tales, los datos personales que revelen
 origen racial y étnico, preferencias políticas, convicciones religiosas o
 morales, afiliación sindical e informaciones referentes a la salud o a la vida
@@ -78,7 +78,7 @@ el presente asume en materia de finalidad en el acceso y utilización de la
 información, datos y documentos referidos anteriormente, así como en cuanto a la
 integridad, confidencialidad y reserva de los mismos y demás obligaciones de su
 cargo, será responsabilidad exclusiva de `≪aquel o aquella≫` frente a la UCU o
-frente a terceros.  De incurrirse por el estudiante en tal incumplimiento, la
+frente a terceros.  De incurrirse por `≪el o la≫` estudiante en tal incumplimiento, la
 UCU queda facultada desde ya, a dar por rescindido el contrato de prestación de
 servicios de enseñanza que la vincula con `≪el o la≫` estudiante, en forma
 automática y de pleno derecho y sin necesidad de gestión extrajudicial o
