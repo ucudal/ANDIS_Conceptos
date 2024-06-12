@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="9AlIKVe4MQfbpUhIRnks" name="Page-1">
+        <mxGraphModel dx="640" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Tarea" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Servicio" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=service;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Envío" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=send;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Recepción" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=receive;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Usuario" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=user;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Manual" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=manual;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Regla del negocio" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=businessRule;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Script" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=script;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Tareas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="360" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Bucle" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;isLoopStandard=1;isLoopSub=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Multi-instancia" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;isLoopSub=1;isLoopMultiParallel=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Compensación" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;isLoopSub=1;isLoopComp=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Sub-proceso" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;taskMarker=abstract;isLoopSub=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Sub-procesos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="200" width="100" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

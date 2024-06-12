@@ -4,7 +4,7 @@
 
 ### 2.4.1 Diagramas de actividad UML
 
-Los diagramas de actividad UML permiten representar flujos de trabajo o
+Los diagramas de actividades UML permiten representar flujos de trabajo o
 procesos que incluyen opciones, iteraciones y concurrencia, así como los flujos
 de datos que ocurren entre actividades relacionadas.
 
