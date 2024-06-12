@@ -1,6 +1,6 @@
 # 3 Plantillas
 
-## 3.x Compromiso de confidencialidad
+## 3.7 Compromiso de confidencialidad
 
 Este es un documento de confidencialidad más completo que la [carta de
 confidencialidad simple](/3_Plantillas/3_6_Carta_confidencialidad_simple.md) y lo firma
