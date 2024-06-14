@@ -12,10 +12,6 @@ Acá va lo que veníamos poniendo en el documento de notas de arquitectura y dis
 
 ## 1.3 [Calidad](./1_Contenido/1_3__Calidad.md)
 
-### 1.3.1 Casos de prueba
-
-### 1.3.2 Resultados de las pruebas
-
 ## 1.4 [Gestión](./1_Contenido/1_4_Gestión.md)
 
 Acá van los aspectos metodológicos, de procesos de ingeniería de software, de
