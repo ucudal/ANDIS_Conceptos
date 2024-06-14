@@ -54,22 +54,22 @@ Existen varios tipos de mensajes:
 
 * Asíncronos, que se dibujan con una flecha con las puntas abiertas:
 
-![](/diagrams/Sequence_Diagram_Async_Message.svg)
+![Mensaje asíncrono](/diagrams/Sequence_Diagram_Async_Message.svg)
 
 * Sincrónicos, que se dibujan con una fecha con un triángulo relleno:
 
-![](/diagrams/Sequence_Diagram_Sync_Message.svg)
+![Mensaje sincrónico](/diagrams/Sequence_Diagram_Sync_Message.svg)
 
 * Respuesta, que se dibujan con una línea punteada; estos mensajes son
   opcionales:
 
-![](/diagrams/Sequence_Diagram_Reply_Message.svg)
+![Mensaje de respuesta](/diagrams/Sequence_Diagram_Reply_Message.svg)
 
 * Perdido —*lost*—, que se dibujan con un círculo al final del mensaje, en el
   lugar en el que estaría el receptor, y que se utilizan para modelar un mensaje
   enviado por un emisor pero se desconoce o no interesa modelar el receptor.
 
-![](/diagrams/Activity_Diagram_Lost.svg)
+![Mensaje perdido](/diagrams/Activity_Diagram_Lost.svg)
 
 * Encontrado —*found*—, que se dibujan con un círculo al inicio del mensaje, en
   el lugar en el que estaría el emisor, y que se utiliza para modelar un mensaje

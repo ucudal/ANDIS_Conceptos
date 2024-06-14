@@ -10,7 +10,7 @@ probablemente, el más importante de los diagramas.
 
 Aunque lo llamamos diagramas de clases, y en este documento incluimos ejemplos
 de estos diagramas generalmente con clases, en realidad pueden aparecer otros
-[clasificadores](./4_Conceptos/4_Clasificador.md) además de las clases.
+[clasificadores](/4_Conceptos/4_Clasificador.md) además de las clases.
 
 Este documento está basado en UML 2.5.1[^1].
 

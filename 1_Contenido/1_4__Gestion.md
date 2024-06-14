@@ -218,14 +218,14 @@ carrera](https://webasignatura.ucu.edu.uy/course/view.php?id=3751).
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los [eventos de
+* **Requerimientos**. Los [eventos de/4_Conceptos/4_Evento_del_negocio.md
   negocio](/4_Conceptos/4_Evento_de_negocio.md) más significativos. Incluyan
-  para cada evento de negocio al menos su descripción, sus datos, y si es de
+  para cada evento del negocio al menos su descripción, sus datos, y si es de
   entrada o de salida.
 
   Los [caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md) para
   cada evento del negocio identificado en el punto anterior. Del caso de uso del
-  negocio incluyan al menos su descripción, el evento de negocio que lo activa,
+  negocio incluyan al menos su descripción, el evento del negocio que lo activa,
   el actor o parte interesada —*stakeholder*— activa, y el resultado
   —*outcome*—.
 
