@@ -3,7 +3,7 @@
 ## Jerarquía de requerimientos
 
 El [contexto del
-trabajo](/2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md) es la
+trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md) es la
 declaración de requisitos de más alto nivel; se descompone en el siguiente
 nivel, los [eventos del negocio](/4_Conceptos/4_Evento_del_negocio.md). El nivel
 debajo de los eventos del negocio comprende los [casos de uso del
