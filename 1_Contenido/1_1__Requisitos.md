@@ -415,12 +415,12 @@ mediante una de las siguientes opciones:
 > menos. De las cinco opciones presentadas, las tres primeras las consideramos
 > formales y las últimas dos informales.
 
-<!-- TODO Agregar link a diagrama BPML -->
-
 * Un escenario descrito textualmente, paso a paso, incluyendo excepciones y
   alternativas
-* Un [diagrama de actividades UML](../2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
-  o un diagrama de procesos BPML
+* Un [diagrama de actividades
+  UML](../2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md) o un
+  [diagrama de procesos
+  BPMN](/2_Tecnicas_y_herramientas/2_4_4_Diagramas_BPMN.md)
 * Una historia de usuario descrita textualmente
 * Un guión gráfico
 * Un prototipo de baja o alta fidelidad
