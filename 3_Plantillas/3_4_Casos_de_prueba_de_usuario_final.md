@@ -2,15 +2,26 @@
 
 ## 3.4 Casos de prueba de usuario final
 
-Esta es la plantilla para documentar los casos de prueba de usuario final. El
-producto a probar es la aplicación desplegada en un ambiente de prueba. Aunque
-la redacción de la plantilla asume una prueba manual, esta plantilla puede ser
-utilizada también para escribir el guión de una prueba automatizada.
+Esta es la plantilla para documentar los casos de prueba. El producto a probar
+es la aplicación desplegada en un ambiente de prueba. Aunque la redacción puede
+implicar una [prueba de aceptación de usuario
+final](/4_Conceptos/4_Tipos_de_pruebas.md), esta plantilla también puede ser
+utilizada también para escribir el guión de otros tipos de pruebas.
 
-Los casos de prueba de usuario final están agrupados en esta plantilla por
-módulos. En este contexto un módulo puede ser un [caso de uso del
+Los casos de prueba están agrupados en esta plantilla por módulos. En este
+contexto un módulo puede ser un [caso de uso del
 producto](/4_Conceptos/4_Caso_de_uso_del_producto.md) o una
 [épica](/4_Conceptos/4_Epica.md).
+
+En lugar de esta plantilla pueden utilizar la herramienta de automatización de
+pruebas [Azure Test
+Plans](https://learn.microsoft.com/en-us/azure/devops/test/?view=azure-devops)
+disponible como parte de la suscripción a [Azure Devops
+Services](https://azure.microsoft.com/es-es/products/devops) a la que tienen
+acceso con la cuenta de estudiante @correo.ucu.edu.uy
+
+<!-- TODO: Revisar si es aplicable a todos los tipos de pruebas y adaptarlo para que
+lo sea. -->
 
 <table>
     <tr>

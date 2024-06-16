@@ -315,6 +315,9 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 * **Aseguramiento de la calidad**. Completen la sección de resultado esperado de
   cada caso de uso, y asegúrense de que es verificable.
 
+  Definan también la estrategia de pruebas tal como se indica en la [sección de
+  calidad](1_3__Calidad.md#estrategia-de-pruebas).
+
   Pueden usar la rúbrica de la primera entrega para evaluar lo que hayan
   avanzado del producto que van a entregar, teniendo en cuenta que hay otras
   etapas por completar antes de esa entrega. No es necesario que entreguen esta
@@ -366,6 +369,11 @@ Los objetivos de esta etapa son:
   Pueden usar [historias de usuario](/4_Conceptos/4_Historia_de_usuario.md) para
   especificar los requerimientos.
 
+* Actualizar el [plan de pruebas](/3_Plantillas/3_8_Plan_de_pruebas.md) y
+  agregar los [casos de
+  prueba](/3_Plantillas/3_4_Casos_de_prueba_de_usuario_final.md) en aquellos
+  casos que sea posible.
+
 * Definir la arquitectura detallada y las tecnologías que vas a utilizar.
 
 * Implementar la mínima cantidad de requerimientos —puede ser uno— que permita
@@ -398,7 +406,10 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
   que hayan escogido para validar la arquitectura. Incluyan instrucciones para
   que su tutor pueda ejecutar la solución en un ambiente de desarrollo.
 
-* **Aseguramiento de la calidad**. Pruebas de unidad para el código entregado.
+* **Aseguramiento de la calidad**. Los [casos de
+  prueba](/3_Plantillas/3_4_Casos_de_prueba_de_usuario_final.md) en los casos en
+ que sea posible y pruebas de unidad para el código entregado si fuera parte de
+  la estrategia de pruebas.
 
 * **UX/UI**. Maquetas para la interfaz de usuario del o de los casos de uso
   elegidos para validar la arquitectura.
@@ -483,9 +494,8 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 * **Aseguramiento de la calidad**. Las pruebas de unidad para el código
   entregado.
 
-  Casos de prueba de usuario final para los casos de uso del producto incluidos
-  en esta fase. Datos de prueba para esos casos de prueba. Resultados de esas
-  pruebas.
+  Casos de prueba para los casos de uso del producto incluidos en esta fase.
+  Datos de prueba para esos casos de prueba. Resultados de esas pruebas.
 
   En caso de que corresponda, pruebas de carga para mostrar el funcionamiento
   correcto de la arquitectura.

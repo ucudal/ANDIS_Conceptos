@@ -484,3 +484,6 @@ $RECYCLE.BIN/
 
 # Mac OS
 .DS_Store
+
+# Temporary HTML file used to crear content for another MD file
+temp.html
