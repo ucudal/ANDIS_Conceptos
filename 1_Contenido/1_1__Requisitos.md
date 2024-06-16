@@ -204,16 +204,16 @@ software) y el input/output de estas interacciones.
 
 #### Eventos y casos de uso del negocio
 
-A alto nivel, listar todos los [eventos de negocio](../4_Conceptos/4_Evento_de_negocio.md)
+A alto nivel, listar todos los [eventos de negocio](../4_Conceptos/4_Evento_del_negocio.md)
 a los que el trabajo a desarrollar responde (es decir, [casos de uso del
 negocio](../4_Conceptos/4_Caso_de_uso_del_negocio.md)), indicando: nombre del
-evento de negocio, entrada (input) o información proveniente de la entidad
+evento del negocio, entrada (input) o información proveniente de la entidad
 adyacente, salida (output) a la entidad adyacente y una breve descripción del
 caso de uso del negocio. Se puede utilizar el siguiente formato:
 
-| Evento de negocio                | Input y output                                 | Descripción del caso de uso del negocio           |
+| Evento del negocio                | Input y output                                 | Descripción del caso de uso del negocio           |
 | -------------------------------- | ---------------------------------------------- | ------------------------------------------------- |
-| *(Nombre del evento de negocio)* | *(Input y output del caso de uso del negocio)* | *(Breve descripción del caso de uso del negocio)* |
+| *(Nombre del evento del negocio)* | *(Input y output del caso de uso del negocio)* | *(Breve descripción del caso de uso del negocio)* |
 
 #### Especificación de los casos de uso del negocio
 
@@ -415,12 +415,12 @@ mediante una de las siguientes opciones:
 > menos. De las cinco opciones presentadas, las tres primeras las consideramos
 > formales y las últimas dos informales.
 
-<!-- TODO Agregar link a diagrama BPML -->
-
 * Un escenario descrito textualmente, paso a paso, incluyendo excepciones y
   alternativas
-* Un [diagrama de actividades UML](../2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
-  o un diagrama de procesos BPML
+* Un [diagrama de actividades
+  UML](../2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md) o un
+  [diagrama de procesos
+  BPMN](/2_Tecnicas_y_herramientas/2_4_4_Diagramas_BPMN.md)
 * Una historia de usuario descrita textualmente
 * Un guión gráfico
 * Un prototipo de baja o alta fidelidad

@@ -1,6 +1,6 @@
 # Conceptos
 
-## Co-nascencia o _connascence_
+## Co-nascencia o *connascence*
 
 > [!NOTE]
 > El término [nascencia](https://dle.rae.es/nascencia?m=form) se define como la

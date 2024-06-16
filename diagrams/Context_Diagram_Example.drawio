@@ -1,0 +1,74 @@
+<mxfile host="65bd71144e">
+    <diagram id="6-a1aUyZGBvEQouCsXdf" name="Page-1">
+        <mxGraphModel dx="640" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="Compensación" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1" source="2">
+                    <mxGeometry x="0.0229" y="41" relative="1" as="geometry">
+                        <mxPoint x="425" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="410" y="280"/>
+                        </Array>
+                        <mxPoint y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Slots de publicidad" style="edgeStyle=none;html=1;entryX=0.75;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry x="-0.2081" y="-10" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="150" y="200"/>
+                        </Array>
+                        <mxPoint x="4" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Contenido" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1" source="2">
+                    <mxGeometry x="0.1188" y="28" relative="1" as="geometry">
+                        <mxPoint x="400" y="70" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="310" y="90"/>
+                        </Array>
+                        <mxPoint x="-14" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Comunidad en línea" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="200" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Contenido" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1" target="2">
+                    <mxGeometry x="0.1124" y="28" relative="1" as="geometry">
+                        <mxPoint x="410" y="380" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="320" y="340"/>
+                        </Array>
+                        <mxPoint x="5" y="8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Creadores de contenido" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="370" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Slots de publicidad" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1" source="7" target="2">
+                    <mxGeometry x="0.1673" y="-13" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="150" y="280"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Anunciantes" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="230" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Perfil para registro" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1" target="2">
+                    <mxGeometry x="-0.304" y="28" relative="1" as="geometry">
+                        <mxPoint x="425" y="120" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="410" y="170"/>
+                        </Array>
+                        <mxPoint x="8" y="-5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Usuarios de la comunidad" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="40" width="30" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

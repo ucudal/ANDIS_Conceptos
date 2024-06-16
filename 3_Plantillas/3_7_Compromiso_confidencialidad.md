@@ -3,10 +3,10 @@
 ## 3.7 Compromiso de confidencialidad
 
 Este es un documento de confidencialidad más completo que la [carta de
-confidencialidad simple](/3_Plantillas/3_6_Carta_confidencialidad_simple.md) y lo firma
-cada uno de los estudiantes del equipo del proyecto y entregan una copia en la
-empresa en la que están desarrollando el proyecto y otra copia la envían al
-tutor del proyecto o al coordinador.
+confidencialidad simple](/3_Plantillas/3_6_Carta_confidencialidad_simple.md) y
+lo firma cada uno de los estudiantes del equipo del proyecto y entregan una
+copia en la empresa en la que están desarrollando el proyecto y otra copia la
+envían al tutor del proyecto o al coordinador.
 
 > [!NOTE]
 > Reemplazar el texto entre `≪` y `≫` con la información correspondiente.
@@ -78,19 +78,19 @@ el presente asume en materia de finalidad en el acceso y utilización de la
 información, datos y documentos referidos anteriormente, así como en cuanto a la
 integridad, confidencialidad y reserva de los mismos y demás obligaciones de su
 cargo, será responsabilidad exclusiva de `≪aquel o aquella≫` frente a la UCU o
-frente a terceros.  De incurrirse por `≪el o la≫` estudiante en tal incumplimiento, la
-UCU queda facultada desde ya, a dar por rescindido el contrato de prestación de
-servicios de enseñanza que la vincula con `≪el o la≫` estudiante, en forma
-automática y de pleno derecho y sin necesidad de gestión extrajudicial o
-judicial de clase alguna, operando en todo caso la mora automática. Lo anterior,
-es sin perjuicios de las responsabilidades que le puedan caber al estudiante
-derivadas de los daños y perjuicios causados, así como toda otra de cualquier
-naturaleza.
+frente a terceros.  De incurrirse por `≪el o la≫` estudiante en tal
+incumplimiento, la UCU queda facultada desde ya, a dar por rescindido el
+contrato de prestación de servicios de enseñanza que la vincula con `≪el o la≫`
+estudiante, en forma automática y de pleno derecho y sin necesidad de gestión
+extrajudicial o judicial de clase alguna, operando en todo caso la mora
+automática. Lo anterior, es sin perjuicios de las responsabilidades que le
+puedan caber al estudiante derivadas de los daños y perjuicios causados, así
+como toda otra de cualquier naturaleza.
 
 Sin perjuicio de lo previsto en este documento, se deja constancia en este acto,
-que `≪el o la≫` estudiante participará en el proyecto `≪nombre del proyecto≫` en la
-empresa `≪nombre de la empresa≫`, respecto de la cual rigen todos los términos y
-condiciones incluidos en la presente.
+que `≪el o la≫` estudiante participará en el proyecto `≪nombre del proyecto≫` en
+la empresa `≪nombre de la empresa≫`, respecto de la cual rigen todos los
+términos y condiciones incluidos en la presente.
 
 Por la firma del presente compromiso, `≪el o la≫` estudiante declara que conoce
 y comprende plenamente el contenido y alcance de su obligación de
