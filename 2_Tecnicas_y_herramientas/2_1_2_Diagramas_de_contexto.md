@@ -43,7 +43,7 @@ La figura 1, a continuación, muestra un ejemplo —parcial— de un diagrama de
 contexto para una `Comunidad en línea`. Los sistemas adyacentes son los
 `Usuarios de la comunidad`, los `Anunciantes` y los `Creadores de contenido`.
 Los datos intercambiados aparecen como las etiquetas de las asociaciones; por
-ejemplo, el `Anunciante` recibe de la comunidad `Slots para publicidad` y envía
+ejemplo, el `Anunciante` recibe de la comunidad `Slots de publicidad` y envía
 `Pagos`.
 
 ![Ejemplo de diagrama de contexto](/diagrams/Context_Diagram_Example.svg)
