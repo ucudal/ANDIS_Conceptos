@@ -45,7 +45,7 @@
                 <mxCell id="3" value="Creadores de contenido" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
                     <mxGeometry x="410" y="370" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Pagos" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1" source="7" target="2">
+                <mxCell id="9" value="Slots de publicidad" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1" source="7" target="2">
                     <mxGeometry x="0.1673" y="-13" relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="150" y="280"/>
