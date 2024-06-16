@@ -81,7 +81,7 @@ Para documentar los casos de prueba puedes usar [esta
 plantilla](/3_Plantillas/3_4_Casos_de_prueba_de_usuario_final.md), o puedes usar
 la herramienta [Azure Test
 Plans](https://learn.microsoft.com/en-us/azure/devops/test/?view=azure-devops)
-antes mencionada. Los casos de prueba se van generado luego de definida la
+antes mencionada. Los casos de prueba se van generando luego de definida la
 estrategia de pruebas en la etapa de inicio a medida que van creando [casos de
 uso](/4_Conceptos/4_Caso_de_uso_del_producto.md), requerimientos funcionales y
 no-funcionales, código, etc. a probar.

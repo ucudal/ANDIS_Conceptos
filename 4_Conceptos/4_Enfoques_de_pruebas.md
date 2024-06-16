@@ -11,15 +11,15 @@ TODO: Completar con información de https://dabrowser.pmi.org/#item:287
 
 * **Pruebas de caja negra**. También llamadas pruebas basadas en
   especificaciones, examinan la funcionalidad de una aplicación sin examinar sus
-  estructuras o funcionamiento internos. Este enfoque de pruebas se puede
+  estructuras o funcionamiento interno. Este enfoque de pruebas se puede
   aplicar prácticamente a todos los niveles de prueba: unidad, integración,
   sistema y aceptación.
 
 * **Pruebas de caja blanca**. También conocidas como prueba de caja
   transparente, prueban las estructuras internas o el funcionamiento de una
   aplicación, a diferencia de su funcionalidad —que serían pruebas de caja
-  negra—. Para diseñas los casos de estas pruebas se usa una perspectiva interna
-  del sistema. Este enfoque de pruebas ase puede aplicar a nivel de unidad,
+  negra—. Para diseñar los casos de estas pruebas se usa una perspectiva interna
+  del sistema. Este enfoque de pruebas se puede aplicar a nivel de unidad,
   integración y de sistema.
 
 * **Pruebas confirmatorias**. Son pruebas que permiten confirmar o rechazar
