@@ -14,7 +14,7 @@
 
 ## [EDT](./4_EDT.md)
 
-## [Evento del negocio](./4_Evento_de_negocio.md)
+## [Evento del negocio](./4_Evento_del_negocio.md)
 
 ## [Historia de usuario](./4_Historia_de_usuario.md)
 

@@ -50,9 +50,9 @@ ejemplo, el `Anunciante` recibe de la comunidad `Slots para publicidad` y envía
 
 *Figura 1: Ejemplo de un diagrama de contexto.*
 
-Con el diagrama de contexto es posible derivar los [eventos del/4_Conceptos/4_Evento_del_negocio.md
-negocio](/4_Conceptos/4_Evento_de_negocio.md), aunque durante el relevamiento la
-identificación de los eventos del negocio puede modificar el diagrama de
+Con el diagrama de contexto es posible derivar los [eventos del
+negocio](/4_Conceptos/4_Evento_del_negocio.md), aunque durante el relevamiento
+la identificación de los eventos del negocio puede modificar el diagrama de
 contexto y viceversa. Los eventos de negocio se especifican usando la [plantilla
 de eventos del negocio](/3_Plantillas/3_8_Eventos_del_negocio.md).
 

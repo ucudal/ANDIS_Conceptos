@@ -218,8 +218,8 @@ carrera](https://webasignatura.ucu.edu.uy/course/view.php?id=3751).
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los [eventos de/4_Conceptos/4_Evento_del_negocio.md
-  negocio](/4_Conceptos/4_Evento_de_negocio.md) más significativos. Incluyan
+* **Requerimientos**. Los [eventos de
+  negocio](/4_Conceptos/4_Eventos_del_negocio.md) más significativos. Incluyan
   para cada evento del negocio al menos su descripción, sus datos, y si es de
   entrada o de salida.
 

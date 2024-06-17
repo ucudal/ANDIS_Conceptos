@@ -204,8 +204,9 @@ software) y el input/output de estas interacciones.
 
 #### Eventos y casos de uso del negocio
 
-A alto nivel, listar todos los [eventos de negocio](../4_Conceptos/4_Evento_del_negocio.md)
-a los que el trabajo a desarrollar responde (es decir, [casos de uso del
+A alto nivel, listar todos los [eventos del
+negocio](/4_Conceptos/4_Evento_del_negocio.md) a los que el trabajo a
+desarrollar responde (es decir, [casos de uso del
 negocio](../4_Conceptos/4_Caso_de_uso_del_negocio.md)), indicando: nombre del
 evento del negocio, entrada (input) o información proveniente de la entidad
 adyacente, salida (output) a la entidad adyacente y una breve descripción del
