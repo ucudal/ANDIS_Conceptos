@@ -15,13 +15,19 @@
 <br/>
 
 En este documento definimos y presentamos los contenidos útiles para los cursos
-de análisis y diseño de aplicaciones e ingeniería de software. También es la
-referencia para el proyecto final de grado. Estos contenidos conceptuales están
-alineados con las competencias a desarrollar durante los cursos.
+de [Análisis y diseño de aplicaciones
+I](https://webasignatura.ucu.edu.uy/course/view.php?id=22930) y
+[II](https://webasignatura.ucu.edu.uy/course/view.php?id=24039) e Ingeniería de
+software. También es la referencia para el [Proyecto final de
+grado](https://webasignatura.ucu.edu.uy/course/view.php?id=7559). Estos
+contenidos conceptuales están alineados con las competencias a desarrollar
+durante los cursos.
 
-# 1 [Contenido](./1_Contenido/1__Contenido.md)
+# 1 [Entregable proyecto](./1_Entregable_proyecto/1__Entretable_proyecto.md)
 
-En esta sección va el contenido del documento entregable principal de un proyecto.
+En esta sección va la descripción del contenido del documento entregable
+principal de un proyecto final de grado; aunque también puede ser utilizada en otros
+tipos de proyectos.
 
 TODO: Combinar lo que hay de proyecto y lo que mandó Diego D, y con con el
 template de Volere.
@@ -46,5 +52,5 @@ que nos interesa unificar.
 
 # 5 [Unidades temáticas](./5_Unidades_tematicas/5__Unidades_tematicas.md)
 
-Agrupamos contenido en este repositorio según las necesidades de los cursos en
+Agrupamos contenido en estas páginas según las necesidades de los cursos en
 los que se usa.
