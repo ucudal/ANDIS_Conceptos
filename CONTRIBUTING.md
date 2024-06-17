@@ -246,6 +246,8 @@ Otras extensiones útiles:
   nuestro caso es 80.
 * [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks):
   Para navegar fácilmente dentro de un archivo mediante marcadores.
+* [Print](https://marketplace.visualstudio.com/items?itemName=pdconsec.vscode-print):
+  Permite imprimir archivos Markdown.
 
 Además, esta es la configuración sugerida del editor y sus extensiones:
 
