@@ -398,12 +398,16 @@ En esta subsección se definen los [casos de uso del
 producto](../4_Conceptos/4_Caso_de_uso_del_producto.md) y se detallan
 individualmente.
 
-#### Diagrama o tabla de casos de uso
+#### Diagrama de casos de uso
 
-Mediante un [diagrama de casos de uso o una tabla de casos de
-uso](/3_Plantillas/3_3_Casos_de_uso.md), definir los casos de uso del producto.
-La tabla de casos de uso suele ser más cómoda cuando la cantidad de casos de uso
-es mayor a 20.
+Mediante un [diagrama de casos de
+uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md), definir
+los casos de uso del producto.
+
+Una tabla con la misma información que los diagramas de casos de uso —es decir,
+nombre de los casos de uso, actores participantes, relación de `extends` o
+`includes` con otros casos de uso— suele ser más cómoda cuando la cantidad de
+casos de uso es mayor a 20.
 
 #### Detalles de los casos de uso del producto
 
