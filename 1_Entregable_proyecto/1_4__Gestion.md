@@ -633,16 +633,16 @@ Contenido de la propuesta:
 * Descripción de los integrantes del grupo, junto con su historial laboral y
   competencias claves dentro del proyecto.
 
-* Borrador del [posicionamiento del</1_Entregable proyecto/1_1__Requisitos.md#posicionamiento-del-proyecto>
-  proyecto](/1_Contenido/1_1__Requisitos.md#posicionamiento-del-proyecto).
+* Borrador del [posicionamiento del
+  proyecto](/1_Entregable_proyecto/1_1__Requisitos.md#posicionamiento-del-proyecto).
 
 * [Interesados](/1_Entregable_proyecto/1_1__Requisitos.md#interesados-stakeholders)
   preliminares. En particular identificar quién de los interesados actuará como
   encargado del proyecto de la contraparte y quién hace las veces de
   patrocinador.
 
-* Borrador de las [necesidades</1_Entregable proyecto/1_1__Requisitos.md#identificación-de-necesidades-clave>
-  clave](/1_Contenido/1_1__Requisitos.md#identificación-de-necesidades-clave).
+* Borrador de las [necesidades
+  clave](/1_Entregable_proyecto/1_1__Requisitos.md#identificación-de-necesidades-clave).
 
 * El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes.
 
