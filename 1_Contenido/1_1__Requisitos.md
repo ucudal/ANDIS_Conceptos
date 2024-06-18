@@ -5,23 +5,14 @@
 El propósito de esta sección es reunir, analizar, definir y especificar las
 necesidades del usuario y las funcionalidades del sistema.
 
-### Glosario
+<!-- TAG: Must have -->
+### Impulsores del proyecto
 
-Explicar todas las abreviaturas, términos y acrónimos particulares empleados en
-el contexto del proyecto y del problema que son utilizados en el documento.
+<!-- TAG: Must have -->
+#### Propósito del proyecto
 
-### Posicionamiento del proyecto
-
-Esta subsección da un resumen general del proyecto.
-
-#### Oportunidad de negocio
-
-Describir brevemente la oportunidad de negocio que el cliente trata de alcanzar
-con este proyecto, esto es: explicar por qué el negocio del cliente se beneficia
-de este proyecto y cómo.
-
-#### Declaración del problema
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Declaración del problema -->
 Sin entrar en detalles, describir el problema que este proyecto intenta
 resolver. Opcionalmente se puede utilizar el siguiente formato:
 
@@ -34,8 +25,8 @@ resolver. Opcionalmente se puede utilizar el siguiente formato:
   clave de una solución exitosa)</i></td></tr>
 </table>
 
-#### Declaración del posicionamiento del producto
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Declaración del posicionamiento del producto -->
 Dar un resumen general que indique, a alto nivel y sin entrar en detalles, las
 características del producto a desarrollar. Algunas cosas a mencionar:
 
@@ -47,19 +38,35 @@ características del producto a desarrollar. Algunas cosas a mencionar:
 
 * Beneficios del producto
 
-* Productos alternativos. **Pregunta disparadora**: *¿Qué otros productos
-  similares existen actualmente?*
+* Productos alternativos. Estas alternativas compiten con la realización de este
+proyecto y pueden incluir comprar un producto de la competencia, construir una
+solución internamente o simplemente mantener el status quo. **Pregunta
+  disparadora**: *¿Qué otros productos similares existen actualmente?*
 
 * Diferenciación del producto en comparación con las alternativas. **Preguntas
   disparadoras**: *¿Qué tiene de diferente mi producto a desarrollar en
   comparación con las alternativas mencionadas? ¿Por qué el cliente no utiliza
   las alternativas?*
 
-#### Objetivos del proyecto
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Oportunidad de negocio -->
+Describir brevemente la oportunidad de negocio que el cliente trata de alcanzar
+con este proyecto, esto es: explicar por qué el negocio del cliente se beneficia
+de este proyecto y cómo.
 
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Estadísticas del mercado o usuarios -->
+Resumir los datos demográficos clave que motivan las decisiones del producto.
+
+**Algunas preguntas disparadoras**: *¿Cuántos usuarios tendrá el producto? ¿Cómo
+se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
+tratando de satisfacer por otros medios las necesidades que el producto podrá
+cubrir?*
+
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Objetivos del proyecto -->
 <!-- TODO Agregar definiciones y links para 'objetivos', 'propósito', 'beneficio'
 y 'métricas del beneficio' -->
-
 Mencionar a alto nivel los objetivos del proyecto. Para ello, describir el
 propósito, beneficio y métricas del beneficio para cada objetivo.
 
@@ -70,33 +77,27 @@ Se puede usar el siguiente formato:
 | *Título del objetivo* | *Propósito del objetivo* | *Beneficio del objetivo* | *Cuantificación del beneficio* |
 | ...                   | ...                      | ...                      | ...                            |
 
-### Interesados (*stakeholders*)
+<!-- TAG: Must have -->
+#### Los interesados o *stakeholders*
 
-<!-- TODO Agregar definición y link para 'interesados' -->
-
-Esta subsección busca analizar a los interesados en el proyecto. Para ello, se
-presenta: el cliente del proyecto, el comprador o consumidor del producto,
-usuarios del producto y otros interesados.
-
-#### Cliente del proyecto
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Cliente del proyecto -->
 <!-- TODO Agregar definición y link para 'cliente' -->
-
 Mencionar el cliente o clientes del proyecto. Limitarse a mencionar tres como
 máximo. Para cada uno, mencionar su rol en la organización, rol en el proyecto,
 perfil técnico, criterio de éxito (cómo el cliente define el éxito del proyecto
 o factores clave para que el cliente considere al proyecto exitoso) y otros
 comentarios sobre el cliente.
 
-#### Comprador o consumidor del producto
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Comprador o consumidor del producto -->
 Mencionar el arquetipo del comprador o consumidor del producto. Por ejemplo: Si
 el producto a desarrollar fuera una aplicación de gestión de seguimiento de
 horas de empleados, el consumidor podría ser cualquier empresa interesada en
 hacer un seguimiento de horas de sus empleados.
 
-#### Usuarios
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Usuarios -->
 Describir a los usuarios del sistema. Se puede usar el siguiente formato como
 guía:
 
@@ -120,35 +121,8 @@ guía:
   <tr><td>Comentarios</td><td><i>Comentarios sobre el usuario.</i></td></tr>
 </table>
 
-##### Estadísticas del mercado o usuarios
-
-Resumir los datos demográficos clave que motivan las decisiones del producto.
-
-**Algunas preguntas disparadoras**: *¿Cuántos usuarios tendrá el producto? ¿Cómo
-se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
-tratando de satisfacer por otros medios las necesidades que el producto podrá
-cubrir?*
-
-##### Entornos de los usuarios
-
-Detallar el ambiente de trabajo del usuario objetivo. **Algunas preguntas
-disparadoras**:
-
-* Número de personas involucradas en la tarea. ¿Es cambiante?
-
-* ¿Cuán extenso es el ciclo de una tarea? ¿Cuánto tiempo se dedica a cada
-  actividad? ¿Es cambiante?
-
-* Restricciones ambientales particulares: móviles, exteriores, en vuelo, etc.
-
-* ¿Qué plataformas de sistemas se encuentran en uso actualmente? ¿Y plataformas
-  futuras?
-
-* ¿Qué otras aplicaciones están en uso? ¿Precisa esta aplicación ser integrada
-  con ellas?
-
-#### Otros interesados
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Otros interesados -->
 Mencionar otras personas u organizaciones interesadas en el proyecto o afectadas
 por él. Estos interesados pueden formar parte de la organización cliente o
 trabajar para ella y sus comentarios pueden ser valiosos para el proyecto, por
@@ -160,8 +134,8 @@ Para cada uno de ellos, mencionar: rol en el proyecto, rol en la organización,
 aporte al proyecto, grado de involucración en el proyecto y nivel de influencia
 en el proyecto.
 
-### Identificación de necesidades clave
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Identificación de necesidades clave -->
 Listar los problemas clave junto con las soluciones existentes, de acuerdo a la
 percepción de los interesados. Aclarar los siguientes elementos de cada
 problema:
@@ -183,27 +157,105 @@ Se puede usar el siguiente formato para cada necesidad:
   necesidad?</i></td></tr>
 </table>
 
-### Contexto del trabajo
+<!-- TAG: Must have -->
+### Restricciones del proyecto
 
-Esta subsección busca determinar los límites del trabajo a realizar y cómo
-encaja en su entorno.
+<!-- TAG: Must have -->
+#### Restricciones obligatorias
 
-#### Situación actual
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Restricciones de diseño y tecnologías -->
+Cada una de las restricciones mencionadas en esta parte debe usar el [template
+de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
 
+Mencionar las restricciones relacionadas con el diseño de la solución. *(¿La
+solución deberá ser una aplicación web? ¿deberá ser una aplicación mobile?
+¿deberá seguir un patrón de arquitectura de software en específico?)*
+
+En caso de existir restricciones sobre las tecnologías a utilizar para el
+desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente—
+la versión de las mismas.
+
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Restricciones de entorno de instalación -->
+Mencionar aquellas restricciones relacionadas al entorno de instalación de la
+solución. Estas pueden ser restricciones en cuanto al lugar físico o virtual en
+el cual la solución final deberá ser instalada.
+
+Suele ser conveniente utilizar un diagrama para explicar las interacciones del
+sistema con el entorno y otros sistemas con los que la solución deba
+interactuar.
+
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Restricciones de utilización de software externo -->
+Utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), mencionar las
+restricciones existentes sobre la utilización de software externo. Esto es: la
+obligación de que la solución se integre con con un software externo específico.
+
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Restricciones organizacionales -->
+Utilizando el [template de requerimiento
+atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), detallar aquellas
+restricciones provenientes de las políticas de la organización/empresa cliente.
+
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Restricciones de calendario -->
+Mencionar las restricciones temporales o *deadlines* del proyecto. En caso de
+existir alguna ventana temporal de oportunidad, mencionarla también.
+
+Para cada restricción de calendario, detallar el momento o fecha claramente,
+explicar el grado de importancia de la restricción y por qué es importante.
+Además, explicar las consecuencias de no cumplir con la restricción.
+
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Restricciones de presupuesto -->
+Mencionar el presupuesto del proyecto expresado en términos monetarios o
+recursos disponibles.
+
+Los requerimientos no deben exceder el presupuesto, así que esta restricción
+determina qué requerimientos son incluidos en el producto.
+
+<!-- TAG: Must have -->
+#### Convenciones de denominación y términos
+
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Glosario -->
+Explicar todas las abreviaturas, términos y acrónimos particulares empleados en
+el contexto del proyecto y del problema que son utilizados en el documento.
+
+<!-- TAG: Must have -->
+#### Hechos relevantes y asunciones
+
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Asunciones y dependencias -->
+Listar los asunciones que, si fueran cambiadas, cambiarían las capacidades del
+producto tal como están descritas en este documento. Por ejemplo, una asunción
+puede ser que un sistema operativo específico estará disponible para el
+producto, de tal forma que si el sistema operativo no está disponible, el
+documento deberá ajustarse.
+
+<!-- TAG: Must have -->
+### Requerimientos funcionales
+
+<!-- TAG: Must have -->
+#### Área de trabajo
+
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Situación actual -->
 <!-- TODO Agregar definición y link para 'modelo de procesos de negocio' -->
-
 Mediante un modelo de procesos de negocio, denotar los procesos de negocio
 pertinentes que existen actualmente y que pueden ser reemplazados o cambiados
 por la solución a desarrollar.
 
-#### Interfaces pertinentes al trabajo
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Interfaces pertinentes al trabajo -->
 A alto nivel y mediante un diagrama, explicar las interacciones de la solución
 con entidades adyacentes a la misma (otras personas, organizaciones, hardware y
 software) y el input/output de estas interacciones.
 
-#### Eventos y casos de uso del negocio
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Eventos y casos de uso del negocio -->
 A alto nivel, listar todos los [eventos del
 negocio](/4_Conceptos/4_Evento_del_negocio.md) a los que el trabajo a
 desarrollar responde (es decir, [casos de uso del
@@ -216,93 +268,38 @@ caso de uso del negocio. Se puede utilizar el siguiente formato:
 | -------------------------------- | ---------------------------------------------- | ------------------------------------------------- |
 | *(Nombre del evento del negocio)* | *(Input y output del caso de uso del negocio)* | *(Breve descripción del caso de uso del negocio)* |
 
-#### Especificación de los casos de uso del negocio
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Especificación de los casos de uso del negocio -->
 Detallar el paso a paso de cómo cada caso de uso del negocio identificado
 anteriormente responde al evento del negocio correspondiente. Esto se puede
 realizar mediante diagramas de actividad, escenarios de caso de uso del negocio,
 diagramas de flujo, diagramas de secuencia o mapas mentales.
 
-#### Resumen de capacidades
-
-Resumir los beneficios y características más importantes que el sistema ha de
-proveer. Por ejemplo, si el sistema en cuestión fuera un sistema de atención al
-cliente, en esta parte se abordaría la gestión de documentación de problemas
-comunes, gestión de reclamos, telefonistas, etc., sin mencionar la cantidad de
-detalle que cada una de estas partes requiere. Organizar las funciones de forma
-que la lista resulte comprensible para el cliente o para cualquier otro que lea
-el documento por primera vez. Una tabla sencilla que resuma los beneficios clave
-y las características que los hacen posibles puede ser suficiente. Por ejemplo:
-
-| Beneficio para el cliente                                                                                    | Característica que produce el beneficio                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Un nuevo equipo de soporte puede rápidamente ponerse a tono.                                                 | Una base de conocimientos asiste al personal de soporte identificando rápidamente las fallas conocidas y sus soluciones.                              |
-| La Administración puede identificar las áreas problema y medir la carga de trabajo del equipo.               | Los reportes de tendencias permiten una vista de alto nivel del estado del problema.                                                                  |
-| Los equipos de soporte distribuidos pueden trabajar juntos para resolver problemas.                          | El servidor de replicación permite que la información de la base de datos actual sea compartida a través de la empresa.                               |
-| Los clientes se pueden ayudar a sí mismos, bajando los costos de soporte y mejorando el tiempo de respuesta. | La base de conocimientos puede ser habilitada a través de Internet. Incluye capacidades de búsqueda con hipertexto y una máquina de consulta gráfica. |
-
-#### Asunciones y dependencias
-
-Listar los asunciones que, si fueran cambiadas, cambiarían las capacidades del
-producto tal como están descritas en este documento. Por ejemplo, una asunción
-puede ser que un sistema operativo específico estará disponible para el
-producto, de tal forma que si el sistema operativo no está disponible, el
-documento deberá ajustarse.
-
-#### Costos y precios
-
-Las características de costo y precio pueden impactar directamente a la
-definición e implementación de la aplicación. En esta parte se deben registrar
-todas las restricciones de costos y precios que sean relevantes. Por ejemplo,
-adquisición de hardware para el sistema.
-
-#### Instalación
-
-Listar las características de instalación, ya que estas pueden también impactar
-directamente al esfuerzo de desarrollo. Por ejemplo, brindar serialización o
-seguridad con encriptación requerirá esfuerzos adicionales de desarrollo. Los
-requerimientos de instalación también pueden afectar a la codificación, o crear
-la necesidad de un software de instalación separado.
-
-#### Alternativas competitivas
-
-Identificar las alternativas que la organización cliente percibe como
-disponibles. Éstas alternativas compiten con la realización de este proyecto y
-pueden incluir comprar un producto de la competencia, construir una solución
-internamente o simplemente mantener el status quo. Listar todas las alternativas
-competitivas existentes, o que puedan volverse disponibles, incluyendo los
-productos existentes de la competencia. Incluir las debilidades y fortalezas más
-importantes de cada una, en el contexto de la organización cliente.
-
-### Modelo de datos organizacionales y diccionario de datos
+<!-- TAG: Must have -->
+#### Modelo de datos organizacionales y diccionario de datos
 
 > [!NOTE]
 > Cuando estés especificando el modelo de datos organizacionales y el
-> diccionario de datos, asegúrate de ser consistente con el
-> [glosario](#glosario) —es una buena idea que las entidades del dominio estén
-> definidas en el glosario—. A su vez, es una buena práctica el mantener un
-> lenguaje ubicuo a lo largo y ancho del proyecto[^1].
+> diccionario de datos, asegúrate de ser consistente con la subsección de
+> [convenciones de denominación y
+> términos](#convenciones-de-denominación-y-términos) —es una buena idea que las
+> entidades del dominio estén definidas en esa sección. A su vez, es una buena
+> práctica el mantener un lenguaje ubicuo a lo largo y ancho del proyecto[^1].
 
-Esta subsección consiste de la especificación a alto nivel de entidades
-esenciales para el proyecto. Esta especificación se realiza mediante el diagrama
-de modelo de datos organizacionales y el diccionario de datos.
-
-#### Modelo de datos organizacionales
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Modelo de datos organizacionales -->
 <!-- TODO Agregar definición y link a 'Modelo Entidad-Relación' -->
-
-<!-- TODO Cuando esté definido qué termino usar para contexto del trabajo,
-actualizarlo acá también -->
-
-Mediante un [diagrama de clases UML](../2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md)
-, Modelo Entidad-Relación o cualquier otro diagrama de datos, especificar todas
-las entidades o clases relevantes al contexto del trabajo. Lo interesante aquí
-es mostrar todas las entidades en cuestión y sus atributos o propiedades, además
-de mostrar cómo las entidades se relacionan entre sí (para ello es importante
+Mediante un [diagrama de clases
+UML](../2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md), Modelo
+Entidad-Relación o cualquier otro diagrama de datos, especificar todas las
+entidades o clases relevantes al [área del
+trabajo](../4_Conceptos/4_Trabajo_y_area_de_trabajo.md). Lo interesante aquí es
+mostrar todas las entidades en cuestión y sus atributos o propiedades, además de
+mostrar cómo las entidades se relacionan entre sí (para ello es importante
 indicar la cardinalidad en las relaciones).
 
-#### Diccionario de datos
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Diccionario de datos -->
 Definir el contenido o formato de los siguientes items vistos en el modelo de
 datos organizacionales:
 
@@ -332,81 +329,18 @@ organizacionales.
 Los términos utilizados en el diccionario de datos son los términos que se han
 de usar al definir requerimientos atómicos detallados.
 
-### Restricciones
+<!-- TAG: Must have -->
+#### Alcance del proyecto
 
-<!-- TODO Agregar definición y link para 'Restricción' -->
-
-Esta subsección detalla las diferentes restricciones de diseño o restricciones
-externas que se impongan para el desarrollo del producto.
-
-#### Restricciones de diseño y tecnologías
-
-Cada una de las restricciones mencionadas en esta parte debe usar el [template
-de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
-
-Mencionar las restricciones relacionadas con el diseño de la solución. *(¿La
-solución deberá ser una aplicación web? ¿deberá ser una aplicación mobile?
-¿deberá seguir un patrón de arquitectura de software en específico?)*
-
-En caso de existir restricciones sobre las tecnologías a utilizar para el
-desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente—
-la versión de las mismas.
-
-#### Restricciones de entorno de instalación
-
-Mencionar aquellas restricciones relacionadas al entorno de instalación de la
-solución. Estas pueden ser restricciones en cuanto al lugar físico o virtual en
-el cual la solución final deberá ser instalada.
-
-Suele ser conveniente utilizar un diagrama para explicar las interacciones del
-sistema con el entorno y otros sistemas con los que la solución deba
-interactuar.
-
-#### Restricciones de utilización de software externo
-
-Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), mencionar las
-restricciones existentes sobre la utilización de software externo. Esto es: la
-obligación de que la solución se integre con con un software externo específico.
-
-#### Restricciones organizacionales
-
-Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), detallar aquellas
-restricciones provenientes de las políticas de la organización/empresa cliente.
-
-#### Restricciones de calendario
-
-Mencionar las restricciones temporales o *deadlines* del proyecto. En caso de
-existir alguna ventana temporal de oportunidad, mencionarla también.
-
-Para cada restricción de calendario, detallar el momento o fecha claramente,
-explicar el grado de importancia de la restricción y por qué es importante.
-Además, explicar las consecuencias de no cumplir con la restricción.
-
-#### Restricciones de presupuesto
-
-Mencionar el presupuesto del proyecto expresado en términos monetarios o
-recursos disponibles.
-
-Los requerimientos no deben exceder el presupuesto, así que esta restricción
-determina qué requerimientos son incluidos en el producto.
-
-### Casos de uso del producto
-
-En esta subsección se definen los [casos de uso del
-producto](../4_Conceptos/4_Caso_de_uso_del_producto.md) y se detallan
-individualmente.
-
-#### Diagrama o tabla de casos de uso
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Diagrama o tabla de casos de uso -->
 Mediante un [diagrama de casos de uso o una tabla de casos de
 uso](/3_Plantillas/3_3_Casos_de_uso.md), definir los casos de uso del producto.
 La tabla de casos de uso suele ser más cómoda cuando la cantidad de casos de uso
 es mayor a 20.
 
-#### Detalles de los casos de uso del producto
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Detalles de los casos de uso del producto -->
 Definir los detalles de cada caso de uso del producto. Esto se puede realizar
 mediante una de las siguientes opciones:
 
@@ -432,7 +366,8 @@ mediante una de las siguientes opciones:
 > para profundizar en los casos de uso o aclararlos. Para utilizar únicamente
 > opciones informales, debes contar con la autorización de tu tutor.
 
-### Requerimientos funcionales
+<!-- TAG: Must have -->
+#### Requerimientos funcionales
 
 En esta subsección se detallan los requerimientos funcionales del producto,
 utilizando el [template de requerimiento
@@ -440,26 +375,24 @@ atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada uno de ellos.
 
 Estos requerimientos emergen de los casos de uso del producto.
 
+<!-- TAG: Must have -->
 ### Requerimientos no funcionales
 
-En esta subsección se detallan los diferentes tipos de requerimientos no
-funcionales del producto, utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) en cada caso.
-
+<!-- TAG: Might have -->
 #### Requerimientos de apariencia
 
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos de apariencia -->
 Detallar los requerimientos asociados a la apariencia del sistema, por ejemplo:
 guías de UX/UI a utilizar —quizá brindadas por el cliente—, marca corporativa de
 la organización cliente, qué colores utilizar, etcétera. Si el sistema no cuenta
 con ninguna interfaz gráfica de usuario, indicarlo.
 
+<!-- TAG: Might have -->
 #### Requerimientos de usabilidad y humanidad
 
-Esta subsección trata con los requerimientos que hacen al producto usable y
-aceptable para los usuarios finales.
-
-##### Requerimientos de facilidad de uso
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos de facilidad de uso -->
 Detallar los requerimientos del cliente en cuanto a la facilidad de uso del
 sistema por parte de los usuarios finales. Ten en cuenta que esta facilidad es
 derivada de: la habilidad de los previstos usuarios finales y la complejidad del
@@ -484,8 +417,8 @@ de aceptación -->
   correctamente lo que se espera de él. Productos de seguridad o tareas críticas
   suelen necesitar un alto nivel de retroalimentación.
 
-##### Requerimientos de personalización e internacionalización
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos de personalización e internacionalización -->
 Especificar los requerimientos asociados a las preferencias de los usuarios.
 
 Estos requerimientos indican cómo el sistema puede ser modificado o configurado
@@ -500,8 +433,8 @@ idiomas, etcétera.
 En caso de que el cliente no esté interesado en definir este tipo de
 requerimientos, indicarlo.
 
-##### Requerimientos de aprendizaje
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos de aprendizaje -->
 Detallar las expectativas del cliente en cuanto a qué tanto esfuerzo deberán
 emplear los usuarios finales para poder utilizar el sistema de una forma
 productiva.
@@ -516,107 +449,106 @@ ejemplo: "Los usuarios deberán ser capaces de usar el sistema tras una semana d
 capacitación" o, "Los usuarios deberán ser capaces de utilizar el sistema tras
 leer el manual de usuario".
 
-##### Requerimientos de accesibilidad
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos de accesibilidad -->
 Especificar los requerimientos asociados a la accesibilidad del sistema.
 Dependiendo del problema y el producto, este tipo de requerimientos puede ser
 más necesario.
 
-##### Requerimientos de protección crítica
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos de protección crítica -->
 Detallar los requerimientos que cuantifican el riesgo de daño percibido a
 personas, propiedad y entorno. Estos pueden estar relacionados a estándares de
 seguridad o protección.
 
+<!-- TAG: Must have -->
 #### Requerimientos de *performance*
 
-En esta subsección se especifican los requerimientos relacionados al rendimiento
-esperable del producto.
-
-##### Requerimientos de velocidad y latencia
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de velocidad y latencia -->
 Detallar la cantidad de tiempo disponible para el producto al realizar
 diferentes tareas. Un ejemplo de latencia: "El sistema deberá responder a
 cualquier interacción en un tiempo menor a dos segundos". Un ejemplo de
 velocidad: "El sistema deberá refrescar el estado de cuenta cada 5 minutos".
 
-##### Requerimientos de precisión
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de precisión -->
 Especificar los requerimientos asociados a la precisión de los resultados
 mostrados por el producto, por ejemplo: "El sistema deberá mostrar las unidades
 monetarias con una precisión de tres decimales".
 
-##### Requerimientos de confiabilidad y disponibilidad
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de confiabilidad y disponibilidad -->
 <!-- TODO Mencionar MTBF, MTTF y SLA, agregarlos bajo la carpeta de Conceptos y
 referenciarlos -->
-
 Definir los requerimientos de confiabilidad y disponibilidad del sistema, esto
 es: ¿qué tanto tiempo deberá estar disponible el sistema? ¿en qué momentos del
 día o qué días ha de estarlo? ¿qué porcentaje de tiempo de actividad deberá
 cumplir? ¿qué tasa de fallos del sistema es aceptable?
 
-##### Requerimientos de robustez
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de robustez -->
 Indicar los requerimientos de robustez del sistema, esto es, la capacidad del
 sistema de continuar funcionando de forma aceptable bajo condiciones anormales.
 Por ejemplo: "El sistema deberá seguir proveyendo la funcionalidad X al no tener
 conexión a Internet".
 
-##### Requerimientos de capacidad
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de capacidad -->
 Especificar la cantidad de volumen de datos o usuarios que el sistema deberá
 soportar. ¿Qué tantos usuarios en simultáneo deberá soportar el sistema? ¿este
 número cambia para determinado momento del día?
 
-##### Requerimientos de escalabilidad
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de escalabilidad -->
 Detallar aquellos requerimientos relacionados a la escalabilidad del sistema.
 
-##### Requerimientos de longevidad
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de longevidad -->
 Especificar los requerimientos que definen la longevidad del producto, esto es,
 la cantidad de tiempo que estará operativo.
 
+<!-- TAG: Must have -->
 #### Requerimientos operacionales y de entorno
 
-##### Requerimientos de entorno físico
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de entorno físico -->
 Detallar los requerimientos del entorno físico en el cual el sistema operará.
 
 En algunos productos, las diferentes condiciones especiales bajo las que operará
 el sistema generan requerimientos que se deben tener en cuenta.
 
-##### Requerimientos de interfaz con sistemas adyacentes
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de interfaz con sistemas adyacentes -->
 Definir los requerimientos que establecen las interacciones necesarias entre el
 sistema y otras aplicaciones o software. Tener en cuenta el versionado del
 software con el cual el sistema va a interactuar, por ejemplo: "El sistema
 deberá poder utilizar datos de la aplicación X en su versión 4.0".
 
-##### Requerimientos de distribución
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos de distribución -->
 Indicar los requerimientos necesarios para que el sistema sea distribuido o
 vendido como producto. Indicar también las tareas necesarias para que sea
 instalado, en caso de ser pertinente. Por ejemplo: "La aplicación debe ser
 distribuida en la App Store y Google Play Store en Uruguay" o, "La aplicación
 debe ser descargable desde el sitio web de la organización".
 
-##### Requerimientos del ciclo de *releases*
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos del ciclo de *releases* -->
 En caso de establecer con el cliente un ciclo de releases durante un determinado
 período, indicarlo aquí como un requerimiento.
 
-#### Requerimientos del sistema
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos del sistema -->
 Definir todos los requerimientos de sistema necesarios para soportar la
 aplicación. Esto puede incluir plataformas de sistemas operativos, de redes,
 configuraciones, memoria, periféricos y software adicional necesario.
 
+<!-- TAG: Must have -->
 #### Requerimientos de mantenimiento y soporte
 
-##### Requerimientos de mantenimiento
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de mantenimiento -->
 Especificar aquellos requerimientos relacionados al mantenimiento del sistema
 por parte de los usuarios finales, administradores e incluso otros futuros
 desarrolladores. Por ejemplo: "El código debe ser escrito en inglés para que sea
@@ -625,82 +557,87 @@ de agregar un recurso X en menos de 15 minutos para que sea visible por los
 usuarios" o, "Se debe entregar junto al producto un documento con notas de
 arquitectura del sistema que explique cómo está estructurado".
 
-##### Requerimientos de soporte
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos de soporte -->
 En caso de que el sistema incluya soporte o ayuda en línea de alguna forma
 específica —un chatbot, por ejemplo—, detallarlo aquí mediante requerimientos.
 En caso contrario, indicarlo.
 
-##### Requerimientos de adaptabilidad
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de adaptabilidad -->
 Especificar los entornos o plataformas que el sistema deberá soportar, por
 ejemplo: "El sistema deberá ser capaz de correr en Android y iOS".
 
-##### Manual de usuario
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Manual de usuario -->
 Describir el propósito y contenido del manual de usuario: extensión, nivel de
 detalle, índices, glosarios, etcétera. Si hay restricciones de formatos o de
 impresión, indicarlo.
 
 En caso de que no haya manual de usuario, indicarlo.
 
-##### Guías de instalación y configuración
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Guías de instalación y configuración -->
 En una solución completa se debe incluir documentos con las instrucciones de
 instalación y configuración. Establecer aquí los requerimientos para esos
 documentos.
 
+<!-- TAG: Must have -->
 #### Requerimientos de seguridad
 
-##### Requerimientos de acceso
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de acceso -->
 Detallar quiénes tienen acceso a las diferentes partes del producto (tanto en
 términos de funcionalidades como en términos de datos) y bajo qué
 circunstancias.
 
-##### Requerimientos de integridad
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de integridad -->
 Especificar la integridad requerida por la base de datos, archivos del sistema y
 el sistema en sí mismo. Por ejemplo: "El sistema deberá prevenir el ingreso de
 datos incorrectos" o, "El sistema deberá protegerse a sí mismo del uso
 malintencionado".
 
-##### Requerimientos de privacidad
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de privacidad -->
 Describir aquellos requerimientos que definen qué debe hacer o con qué debe
 cumplir el sistema para asegurar la privacidad de los datos compartidos por los
 usuarios. Por ejemplo: "El sistema debe notificar a los usuarios sobre el uso
 de sus datos personales" o, "El sistema debe notificar sobre cambios en la
 política de privacidad de los datos".
 
-##### Requerimientos de auditoría
-
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos de auditoría -->
 Especificar lo que el sistema debe de hacer (usualmente, mantener información
 persistida) para permitir controles de auditoría. Por ejemplo: "El sistema debe
 mantener datos sobre X para que sean auditados periódicamente".
 
-##### Requerimientos de inmunidad
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de inmunidad -->
 Mencionar qué es lo que tiene que hacer el sistema para protegerse de
 infecciones de software como viruses, gusanos, *malware*, *spyware*, etcétera.
 
+<!-- TAG: Might have -->
 #### Requerimientos culturales
 
+<!-- TAG: Might have -->
+<!-- SECCIÓN: Requerimientos culturales -->
 Especificar los requerimientos de carácter sociológico que afectan la
 aceptabilidad del sistema. Estos son de particular interés al desarrollar un
 sistema para el mercado extranjero. Por ejemplo: "El sistema deberá ser capaz de
 distinguir entre el enumerado de calles utilizado en Italia e Inglaterra", o,
 "El sistema deberá contemplar los feriados de la Unión Europea".
 
+<!-- TAG: Must have -->
 #### Requerimientos legales
 
-##### Requerimientos de cumplimiento normativo
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de cumplimiento normativo -->
 Detallar los requerimientos asociados a normas y regulaciones que el proyecto y
 tú como desarrollador del sistema deberán cumplir.
 
-##### Requerimientos de estándares aplicables
-
+<!-- TAG: Must have -->
+<!-- SECCIÓN: Requerimientos de estándares aplicables -->
 Detallar los estándares con los cuales el producto deberá cumplir, si los hay.
 Por ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
 plataformas, calidad y seguridad (UL, ISO, CMM).
