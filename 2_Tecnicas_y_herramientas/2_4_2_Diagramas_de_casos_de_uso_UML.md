@@ -14,8 +14,8 @@ Este documento está basado en UML 2.5.1[^1].
 
 Tengan en cuenta que este diagrama sólo incluye los nombres de los casos de uso,
 sin ningún detalle del escenario que tiene ese caso de uso, así que también va a
-ser necesario el escenario detallado del [caso de
-uso](/3_Plantillas/3_3_Casos_de_uso.md).
+ser necesario el [escenario](/3_Plantillas/3_2_Escenario.md) detallado del caso
+de uso.
 
 Los diagramas de casos de uso tienen:
 
