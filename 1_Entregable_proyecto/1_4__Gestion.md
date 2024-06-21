@@ -83,7 +83,7 @@ detalla más adelante.
 
 A partir de 2024 toda la documentación se entrega en un solo archivo o
 repositorio siguiendo la estructura detallada en la sección
-[Contenido](/1_Contenido/1__Contenido.md) de este repositorio.
+[Contenido](/1_Entregable_proyecto/1__Entretable_proyecto.md) de este repositorio.
 
 ## Correspondencia entre el marco metodológico y el proyecto final de grado
 
@@ -238,7 +238,7 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
 * **Desarrollo**. No es necesario que desarrollen código en esta etapa.
 
-* **Aseguramiento de la calidad**. Pueden usar la [rúbrica de propuestas de
+* **Aseguramiento de la calidad**. Pueden usar la [rúbrica de propuestas de</1_Entregable proyecto/1_4_1_Rubrica_propuesta.md>
   proyecto](/1_Contenido/1_4_1_Rubrica_propuesta.md) final de grado para evaluar
   el producto que van a entregar; sin embargo, no es necesario que entreguen
   esta evaluación.
@@ -634,15 +634,15 @@ Contenido de la propuesta:
   competencias claves dentro del proyecto.
 
 * Borrador del [posicionamiento del
-  proyecto](/1_Contenido/1_1__Requisitos.md#posicionamiento-del-proyecto).
+  proyecto](/1_Entregable_proyecto/1_1__Requisitos.md#posicionamiento-del-proyecto).
 
-* [Interesados](/1_Contenido/1_1__Requisitos.md#interesados-stakeholders)
+* [Interesados](/1_Entregable_proyecto/1_1__Requisitos.md#interesados-stakeholders)
   preliminares. En particular identificar quién de los interesados actuará como
   encargado del proyecto de la contraparte y quién hace las veces de
   patrocinador.
 
 * Borrador de las [necesidades
-  clave](/1_Contenido/1_1__Requisitos.md#identificación-de-necesidades-clave).
+  clave](/1_Entregable_proyecto/1_1__Requisitos.md#identificación-de-necesidades-clave).
 
 * El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes.
 
