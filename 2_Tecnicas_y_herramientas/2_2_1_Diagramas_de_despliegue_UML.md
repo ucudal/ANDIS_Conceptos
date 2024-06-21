@@ -93,7 +93,7 @@ ejecuta la `Aplicación web` y la `API conexión DB`. El `Navegador web` en el
 dispositivo `Computadora del usuario` se conecta a la `Aplicación web` mediante
 una conexión HTTP sobre Internet. La `API conexión DB` se conecta mediante una
 conexión nativa con el `Reporte de datos` en el `Servidor de base de datos`. La
-`Aplicación web` se conecta con la `lógica de negocios` en `Servicios web`
+`Aplicación web` se conecta con la `lógica de negocios` en `Servidor web`
 mediante una conexión SOAP sobre HTTP.
 
 ![Ejemplo de diagrama de despliegue](/diagrams/Deployment_Diagram_Example.svg)
