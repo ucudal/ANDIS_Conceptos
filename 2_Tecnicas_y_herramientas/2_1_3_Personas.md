@@ -33,8 +33,8 @@ sobre nuestra persona, incluyendo por ejemplo[^1]:
 Las personas nos dan la capacidad de ponernos en el lugar de la persona a la
 hora de tomar decisiones sobre el producto o servicio que estamos construyendo.
 
-Aunque no hay una estándar de representar las personas, esta [plantilla]() puede
-ser útil.
+Aunque no hay una forma estándar de representar las personas, esta
+[plantilla](../3_Plantillas/3_3_Personas.md) puede ser útil.
 
 [^1]: Rind, B. (2009). The Power of the Persona.
   [Link](https://bonfire.typepad.com/bonfire/The-Power-of-the-Persona.pdf)
