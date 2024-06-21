@@ -5,6 +5,9 @@
 <!-- TAG: Must have -->
 ### 1.1.3 Requerimientos funcionales
 
+En esta tercera parte del análisis de requisitos deben definir el área de
+trabajo, alcance del proyecto y los requerimientos funcionales del mismo.
+
 <!-- TAG: Must have -->
 ## Área de trabajo
 

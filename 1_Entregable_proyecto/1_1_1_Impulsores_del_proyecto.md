@@ -5,6 +5,11 @@
 <!-- TAG: Must have -->
 ### 1.1.1 Impulsores del proyecto
 
+En esta primera parte del análisis de requisitos deben dejar en claro que están
+familiarizados con el propósito del proyecto, su oportunidad de negocio,
+motivaciones y objetivos, así como también su proyección y cualquier entidad
+interesada en el mismo.
+
 <!-- TAG: Must have -->
 ## Propósito del proyecto
 

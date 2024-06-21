@@ -5,6 +5,12 @@
 <!-- TAG: Must have -->
 ### 1.1.4 Requerimientos no funcionales
 
+En esta cuarta y última parte del análisis de requisitos deben definir todos los
+diferentes tipos de requerimientos no funcionales que apliquen a su proyecto.
+Tengan en cuenta que no todos los requerimientos no funcionales mencionados aquí
+necesariamente aplican, así que deben ser prudentes y analizar cuáles sí que son
+necesarios, así como cuáles no.
+
 <!-- TAG: Might have -->
 ## Requerimientos de apariencia
 
