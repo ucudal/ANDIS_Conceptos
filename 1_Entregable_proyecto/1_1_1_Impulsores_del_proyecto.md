@@ -17,6 +17,7 @@ interesada en el mismo.
   alt="REQUERIDO"
   src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
 />
+
 Sin entrar en detalles, describir el problema que este proyecto intenta
 resolver. Opcionalmente se puede utilizar el siguiente formato:
 
@@ -35,6 +36,7 @@ resolver. Opcionalmente se puede utilizar el siguiente formato:
   alt="REQUERIDO"
   src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
 />
+
 Dar un resumen general que indique, a alto nivel y sin entrar en detalles, las
 características del producto a desarrollar. Algunas cosas a mencionar:
 
@@ -62,6 +64,7 @@ solución internamente o simplemente mantener el status quo. **Pregunta
   alt="REQUERIDO"
   src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
 />
+
 Describir brevemente la oportunidad de negocio que el cliente trata de alcanzar
 con este proyecto, esto es: explicar por qué el negocio del cliente se beneficia
 de este proyecto y cómo.
@@ -72,6 +75,7 @@ de este proyecto y cómo.
   alt="REQUERIDO"
   src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
 />
+
 Resumir los datos demográficos clave que motivan las decisiones del producto.
 
 **Algunas preguntas disparadoras**: *¿Cuántos usuarios tendrá el producto? ¿Cómo
@@ -85,6 +89,7 @@ cubrir?*
   alt="REQUERIDO"
   src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
 />
+
 <!-- TODO Agregar definiciones y links para 'objetivos', 'propósito', 'beneficio'
 y 'métricas del beneficio' -->
 Mencionar a alto nivel los objetivos del proyecto. Para ello, describir el
@@ -105,6 +110,7 @@ Se puede usar el siguiente formato:
   alt="REQUERIDO"
   src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
 />
+
 <!-- TODO Agregar definición y link para 'cliente' -->
 Mencionar el cliente o clientes del proyecto. Limitarse a mencionar tres como
 máximo. Para cada uno, mencionar su rol en la organización, rol en el proyecto,
@@ -118,6 +124,7 @@ comentarios sobre el cliente.
   alt="OPCIONALMENTE REQUERIDO"
   src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
 />
+
 Mencionar el arquetipo del comprador o consumidor del producto. Por ejemplo: Si
 el producto a desarrollar fuera una aplicación de gestión de seguimiento de
 horas de empleados, el consumidor podría ser cualquier empresa interesada en
@@ -129,6 +136,7 @@ hacer un seguimiento de horas de sus empleados.
   alt="REQUERIDO"
   src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
 />
+
 Describir a los usuarios del sistema. Se puede usar el siguiente formato como
 guía:
 
@@ -158,6 +166,7 @@ guía:
   alt="REQUERIDO"
   src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
 />
+
 Mencionar otras personas u organizaciones interesadas en el proyecto o afectadas
 por él. Estos interesados pueden formar parte de la organización cliente o
 trabajar para ella y sus comentarios pueden ser valiosos para el proyecto, por
@@ -175,6 +184,7 @@ en el proyecto.
   alt="REQUERIDO"
   src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
 />
+
 Listar los problemas clave junto con las soluciones existentes, de acuerdo a la
 percepción de los interesados. Aclarar los siguientes elementos de cada
 problema:
