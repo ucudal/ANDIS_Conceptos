@@ -16,7 +16,7 @@ utilizados a lo largo del documento de forma consistente.
 
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Restricciones de diseño y tecnologías -->
-Cada una de las restricciones mencionadas en esta parte debe usar el [template
+Cada una de las restricciones mencionadas en esta parte debe usar la [plantilla
 de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
 
 Mencionar las restricciones relacionadas con el diseño de la solución. *(¿La
@@ -39,33 +39,28 @@ interactuar.
 
 <!-- TAG: Might have -->
 <!-- SECCIÓN: Restricciones de utilización de software externo -->
-Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), mencionar las
-restricciones existentes sobre la utilización de software externo. Esto es: la
-obligación de que la solución se integre con con un software externo específico.
+Detallar las restricciones existentes sobre la utilización de software externo.
+Esto es: la obligación de que la solución se integre con con un software externo
+específico.
 
 <!-- TAG: Might have -->
 <!-- SECCIÓN: Restricciones organizacionales -->
-Utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md), detallar aquellas
-restricciones provenientes de las políticas de la organización/empresa cliente.
+Especificar aquellas restricciones provenientes de las políticas de la
+organización/empresa cliente.
 
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Restricciones de calendario -->
 Mencionar las restricciones temporales o *deadlines* del proyecto. En caso de
-existir alguna ventana temporal de oportunidad, mencionarla también.
-
-Para cada restricción de calendario, detallar el momento o fecha claramente,
+existir alguna ventana temporal de oportunidad, mencionarla también. Para cada
+una de estas restricción de calendario, detallar el momento o fecha claramente,
 explicar el grado de importancia de la restricción y por qué es importante.
 Además, explicar las consecuencias de no cumplir con la restricción.
 
 <!-- TAG: Might have -->
 <!-- SECCIÓN: Restricciones de presupuesto -->
-Mencionar el presupuesto del proyecto expresado en términos monetarios o
-recursos disponibles.
-
-Los requerimientos no deben exceder el presupuesto, así que esta restricción
-determina qué requerimientos son incluidos en el producto.
+Detallar el presupuesto del proyecto expresado en términos monetarios o recursos
+disponibles. Los requerimientos no deben exceder el presupuesto, así que esta
+restricción determina qué requerimientos son incluidos en el producto.
 
 <!-- TAG: Must have -->
 ## Convenciones de denominación y términos
@@ -81,7 +76,7 @@ el contexto del proyecto y del problema que son utilizados en el documento.
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Asunciones y dependencias -->
 Listar los asunciones que, si fueran cambiadas, cambiarían las capacidades del
-producto tal como están descritas en este documento. Por ejemplo, una asunción
+producto tal y como están descritas en este documento. Por ejemplo, una asunción
 puede ser que un sistema operativo específico estará disponible para el
 producto, de tal forma que si el sistema operativo no está disponible, el
 documento deberá ajustarse.

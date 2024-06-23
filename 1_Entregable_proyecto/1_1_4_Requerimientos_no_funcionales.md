@@ -7,6 +7,9 @@
 
 En esta cuarta y última parte del análisis de requisitos deben definir todos los
 diferentes tipos de requerimientos no funcionales que apliquen a su proyecto.
+Para ello, deben usar la [plantilla de requerimiento
+atómico](/3_Plantillas/3_1_Requerimiento_atomico.md) en cada requerimiento.
+
 Tengan en cuenta que no todos los requerimientos no funcionales mencionados aquí
 necesariamente aplican, así que deben ser prudentes y analizar cuáles sí que son
 necesarios, así como cuáles no.
@@ -53,34 +56,26 @@ de aceptación -->
 <!-- TAG: Might have -->
 <!-- SECCIÓN: Requerimientos de personalización e internacionalización -->
 Especificar los requerimientos asociados a las preferencias de los usuarios.
-
 Estos requerimientos indican cómo el sistema puede ser modificado o configurado
 por los usuarios para tener en cuenta sus preferencias y selección de lenguaje
-utilizado por el sistema.
-
-En otras culturas, se usan diferentes sistemas de unidades —sistema métrico,
-anglosajón, etcétera—, unidades monetarias,
-
-idiomas, etcétera.
-
-En caso de que el cliente no esté interesado en definir este tipo de
+utilizado por el sistema. En otras culturas, se usan diferentes sistemas de
+unidades —sistema métrico, anglosajón, etcétera—, unidades monetarias, idiomas,
+etcétera. En caso de que el cliente no esté interesado en definir este tipo de
 requerimientos, indicarlo.
 
 <!-- TAG: Might have -->
 <!-- SECCIÓN: Requerimientos de aprendizaje -->
 Detallar las expectativas del cliente en cuanto a qué tanto esfuerzo deberán
 emplear los usuarios finales para poder utilizar el sistema de una forma
-productiva.
-
-Algunos sistemas deben ser muy fáciles de utilizar y por ende intuitivos, otros
-se pueden permitir determinada curva de aprendizaje debido a la complejidad del
-problema. La idea aquí es cuantificar la cantidad de tiempo o esfuerzo que los
-usuarios finales necesitan para aprender a usar el sistema y que esta
-cuantificación sea aceptable para el cliente. Esta clarificación puede incluir
-un plan de capacitación para los usuarios, e incluso un manual de usuario, por
-ejemplo: "Los usuarios deberán ser capaces de usar el sistema tras una semana de
-capacitación" o, "Los usuarios deberán ser capaces de utilizar el sistema tras
-leer el manual de usuario".
+productiva. Algunos sistemas deben ser muy fáciles de utilizar y por ende
+intuitivos, otros se pueden permitir determinada curva de aprendizaje debido a
+la complejidad del problema. La idea aquí es cuantificar la cantidad de tiempo o
+esfuerzo que los usuarios finales necesitan para aprender a usar el sistema y
+que esta cuantificación sea aceptable para el cliente. Esta clarificación puede
+incluir un plan de capacitación para los usuarios, e incluso un manual de
+usuario, por ejemplo: "Los usuarios deberán ser capaces de usar el sistema tras
+una semana de capacitación" o, "Los usuarios deberán ser capaces de utilizar el
+sistema tras leer el manual de usuario".
 
 <!-- TAG: Might have -->
 <!-- SECCIÓN: Requerimientos de accesibilidad -->
@@ -146,10 +141,9 @@ la cantidad de tiempo que estará operativo.
 
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Requerimientos de entorno físico -->
-Detallar los requerimientos del entorno físico en el cual el sistema operará.
-
-En algunos productos, las diferentes condiciones especiales bajo las que operará
-el sistema generan requerimientos que se deben tener en cuenta.
+Detallar los requerimientos del entorno físico en el cual el sistema operará. En
+algunos productos, las diferentes condiciones especiales bajo las que operará el
+sistema generan requerimientos que se deben tener en cuenta.
 
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Requerimientos de interfaz con sistemas adyacentes -->
@@ -267,7 +261,7 @@ distinguir entre el enumerado de calles utilizado en Italia e Inglaterra", o,
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Requerimientos de cumplimiento normativo -->
 Detallar los requerimientos asociados a normas y regulaciones que el proyecto y
-tú como desarrollador del sistema deberán cumplir.
+cada uno de ustedes como desarrolladores del sistema deberán cumplir.
 
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Requerimientos de estándares aplicables -->

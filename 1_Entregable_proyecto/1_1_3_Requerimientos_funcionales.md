@@ -20,9 +20,11 @@ por la solución a desarrollar.
 
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Interfaces pertinentes al trabajo -->
-A alto nivel y mediante un diagrama, explicar las interacciones de la solución
-con entidades adyacentes a la misma (otras personas, organizaciones, hardware y
-software) y el input/output de estas interacciones.
+A alto nivel y mediante un [diagrama de
+contexto](../2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md), explicar
+las interacciones de la solución con entidades adyacentes a la misma (otras
+personas, organizaciones, hardware y software) y el input/output de estas
+interacciones.
 
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Eventos y casos de uso del negocio -->
@@ -51,9 +53,10 @@ diagramas de flujo, diagramas de secuencia o mapas mentales.
 > [!NOTE] Cuando estés especificando el modelo de datos organizacionales y el
 > diccionario de datos, asegúrate de ser consistente con la subsección de
 > [convenciones de denominación y
-> términos](#convenciones-de-denominación-y-términos) —es una buena idea que las
-> entidades del dominio estén definidas en esa sección. A su vez, es una buena
-> práctica el mantener un lenguaje ubicuo a lo largo y ancho del proyecto[^1].
+> términos](./1_1_2_Restricciones_del_proyecto#convenciones-de-denominación-y-términos)
+> —es una buena idea que las entidades del dominio estén definidas en esa
+> sección—. A su vez, es una buena práctica el mantener un lenguaje ubicuo a lo
+> largo y ancho del proyecto[^1].
 
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Modelo de datos organizacionales -->
@@ -105,12 +108,10 @@ de usar al definir requerimientos atómicos detallados.
 <!-- SECCIÓN: Diagrama o tabla de casos de uso -->
 Mediante un [diagrama de casos de
 uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md), definir
-los casos de uso del producto.
-
-Una tabla con la misma información que los diagramas de casos de uso —es decir,
-nombre de los casos de uso, actores participantes, relación de `extends` o
-`includes` con otros casos de uso— suele ser más cómoda cuando la cantidad de
-casos de uso es mayor a 20.
+los casos de uso del producto. Una tabla con la misma información que los
+diagramas de casos de uso —es decir, nombre de los casos de uso, actores
+participantes, relación de `extends` o `includes` con otros casos de uso— suele
+ser más cómoda cuando la cantidad de casos de uso es mayor a 20.
 
 <!-- TAG: Must have -->
 <!-- SECCIÓN: Detalles de los casos de uso del producto -->
@@ -143,10 +144,8 @@ mediante una de las siguientes opciones:
 <!-- TAG: Must have -->
 ## Requerimientos funcionales
 
-En esta subsección se detallan los requerimientos funcionales del producto,
-utilizando el [template de requerimiento
-atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada uno de ellos.
-
-Estos requerimientos emergen de los casos de uso del producto.
+Detallar los requerimientos funcionales del producto utilizando el [template de
+requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada
+uno de ellos. Estos requerimientos emergen de los casos de uso del producto.
 
 [^1]: Evans, E. (2003). Domain-Driven Design. Addison-Wesley Professional.
