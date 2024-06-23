@@ -2,7 +2,6 @@
 
 ## 1.1 Requisitos
 
-<!-- TAG: Must have -->
 ### 1.1.1 Impulsores del proyecto
 
 En esta primera parte del análisis de requisitos deben dejar en claro que están
@@ -10,11 +9,14 @@ familiarizados con el propósito del proyecto, su oportunidad de negocio,
 motivaciones y objetivos, así como también su proyección y cualquier entidad
 interesada en el mismo.
 
-<!-- TAG: Must have -->
 ## Propósito del proyecto
 
-<!-- TAG: Must have -->
 <!-- SECCIÓN: Declaración del problema -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 Sin entrar en detalles, describir el problema que este proyecto intenta
 resolver. Opcionalmente se puede utilizar el siguiente formato:
 
@@ -27,8 +29,12 @@ resolver. Opcionalmente se puede utilizar el siguiente formato:
   clave de una solución exitosa)</i></td></tr>
 </table>
 
-<!-- TAG: Must have -->
 <!-- SECCIÓN: Declaración del posicionamiento del producto -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 Dar un resumen general que indique, a alto nivel y sin entrar en detalles, las
 características del producto a desarrollar. Algunas cosas a mencionar:
 
@@ -50,14 +56,22 @@ solución internamente o simplemente mantener el status quo. **Pregunta
   comparación con las alternativas mencionadas? ¿Por qué el cliente no utiliza
   las alternativas?*
 
-<!-- TAG: Must have -->
 <!-- SECCIÓN: Oportunidad de negocio -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 Describir brevemente la oportunidad de negocio que el cliente trata de alcanzar
 con este proyecto, esto es: explicar por qué el negocio del cliente se beneficia
 de este proyecto y cómo.
 
-<!-- TAG: Must have -->
 <!-- SECCIÓN: Estadísticas del mercado o usuarios -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 Resumir los datos demográficos clave que motivan las decisiones del producto.
 
 **Algunas preguntas disparadoras**: *¿Cuántos usuarios tendrá el producto? ¿Cómo
@@ -65,8 +79,12 @@ se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
 tratando de satisfacer por otros medios las necesidades que el producto podrá
 cubrir?*
 
-<!-- TAG: Must have -->
 <!-- SECCIÓN: Objetivos del proyecto -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 <!-- TODO Agregar definiciones y links para 'objetivos', 'propósito', 'beneficio'
 y 'métricas del beneficio' -->
 Mencionar a alto nivel los objetivos del proyecto. Para ello, describir el
@@ -79,11 +97,14 @@ Se puede usar el siguiente formato:
 | *Título del objetivo* | *Propósito del objetivo* | *Beneficio del objetivo* | *Cuantificación del beneficio* |
 | ...                   | ...                      | ...                      | ...                            |
 
-<!-- TAG: Must have -->
 ## Los interesados o *stakeholders*
 
-<!-- TAG: Must have -->
 <!-- SECCIÓN: Cliente del proyecto -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 <!-- TODO Agregar definición y link para 'cliente' -->
 Mencionar el cliente o clientes del proyecto. Limitarse a mencionar tres como
 máximo. Para cada uno, mencionar su rol en la organización, rol en el proyecto,
@@ -91,15 +112,23 @@ perfil técnico, criterio de éxito (cómo el cliente define el éxito del proye
 o factores clave para que el cliente considere al proyecto exitoso) y otros
 comentarios sobre el cliente.
 
-<!-- TAG: Might have -->
 <!-- SECCIÓN: Comprador o consumidor del producto -->
+<!-- TAG: Opcionalmente requerido -->
+<img
+  alt="OPCIONALMENTE REQUERIDO"
+  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+/>
 Mencionar el arquetipo del comprador o consumidor del producto. Por ejemplo: Si
 el producto a desarrollar fuera una aplicación de gestión de seguimiento de
 horas de empleados, el consumidor podría ser cualquier empresa interesada en
 hacer un seguimiento de horas de sus empleados.
 
-<!-- TAG: Must have -->
 <!-- SECCIÓN: Usuarios -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 Describir a los usuarios del sistema. Se puede usar el siguiente formato como
 guía:
 
@@ -123,8 +152,12 @@ guía:
   <tr><td>Comentarios</td><td><i>Comentarios sobre el usuario.</i></td></tr>
 </table>
 
-<!-- TAG: Must have -->
 <!-- SECCIÓN: Otros interesados -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 Mencionar otras personas u organizaciones interesadas en el proyecto o afectadas
 por él. Estos interesados pueden formar parte de la organización cliente o
 trabajar para ella y sus comentarios pueden ser valiosos para el proyecto, por
@@ -136,8 +169,12 @@ Para cada uno de ellos, mencionar: rol en el proyecto, rol en la organización,
 aporte al proyecto, grado de involucración en el proyecto y nivel de influencia
 en el proyecto.
 
-<!-- TAG: Must have -->
 <!-- SECCIÓN: Identificación de necesidades clave -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 Listar los problemas clave junto con las soluciones existentes, de acuerdo a la
 percepción de los interesados. Aclarar los siguientes elementos de cada
 problema:
