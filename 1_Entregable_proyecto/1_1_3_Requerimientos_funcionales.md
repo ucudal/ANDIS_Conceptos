@@ -53,7 +53,7 @@ diagramas de flujo, diagramas de secuencia o mapas mentales.
 > [!NOTE] Cuando estés especificando el modelo de datos organizacionales y el
 > diccionario de datos, asegúrate de ser consistente con la subsección de
 > [convenciones de denominación y
-> términos](./1_1_2_Restricciones_del_proyecto#convenciones-de-denominación-y-términos)
+> términos](./1_1_2_Restricciones_del_proyecto.md#convenciones-de-denominación-y-términos)
 > —es una buena idea que las entidades del dominio estén definidas en esa
 > sección—. A su vez, es una buena práctica el mantener un lenguaje ubicuo a lo
 > largo y ancho del proyecto[^1].
