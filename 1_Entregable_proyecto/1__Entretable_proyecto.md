@@ -1,4 +1,4 @@
-# 1 Contenido
+# 1 Entregable del proyecto
 
 ## 1.1 [Requisitos](./1_1__Requisitos.md)
 
