@@ -1,18 +1,18 @@
 # 1 Contenido
 
-## 1.1 [Requisitos](./1_Contenido/1_1__Requisitos.md)
+## 1.1 [Requisitos](./1_1__Requisitos.md)
 
 Basado en la plantilla de requisitos de Volere. Las secciones que veníamos
 usando en el documento de visión serían obligatorias aquí, luego definimos bien
 cuáles quedan.
 
-## 1.2 [Diseño y arquitectura](./1_Contenido/1_2__Diseno_y_arquitectura.md)
+## 1.2 [Diseño y arquitectura](./1_2__Diseno_y_arquitectura.md)
 
 Acá va lo que veníamos poniendo en el documento de notas de arquitectura y diseño.
 
-## 1.3 [Calidad](./1_Contenido/1_3__Calidad.md)
+## 1.3 [Calidad](./1_3__Calidad.md)
 
-## 1.4 [Gestión](./1_Contenido/1_4_Gestión.md)
+## 1.4 [Gestión](./1_4__Gestion.md)
 
 Acá van los aspectos metodológicos, de procesos de ingeniería de software, de
 gestión del proyecto.
