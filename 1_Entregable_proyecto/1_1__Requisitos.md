@@ -293,7 +293,7 @@ de modelo de datos organizacionales y el diccionario de datos.
 actualizarlo acá también -->
 
 Mediante un [diagrama de clases
-UML](../2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md) , un [modelo
+UML](../2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md), un [modelo
 entidad-relación](/2_Tecnicas_y_herramientas/2_3_2_Modelos_de_entidad_relacion.md)
 o cualquier otro diagrama de datos, especificar todas las entidades o clases
 relevantes al contexto del trabajo. Lo interesante aquí es mostrar todas las

@@ -116,8 +116,8 @@ primaria propios que los identifican de manera única (`RUT` para `Hotel` y
 fuerte `Hotel`. La clave primaria de `Habitación` es una combinación de `Número`
 —de `Habitación`— y `RUT` —de `Hotel`—.
 
-La relación `Reserva` entre `Cliente` y `Habitación` es una relación fuerte, ya
-que ambos, `Cliente` y `Habitación`, son entidades fuertes.
+La relación `Reserva` entre `Cliente` y `Hotel` es una relación fuerte, ya
+que ambos, `Cliente` y `Hotel`, son entidades fuertes.
 
 La relación `Mantenimiento` entre `Hotel` y `Habitación` es una relación débil,
 ya que involucra la entidad débil `Habitación`.
