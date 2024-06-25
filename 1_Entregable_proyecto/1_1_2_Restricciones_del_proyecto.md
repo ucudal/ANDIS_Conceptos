@@ -46,10 +46,10 @@ sistema con el entorno y otros sistemas con los que la solución deba
 interactuar.
 
 <!-- SECCIÓN: Restricciones de utilización de software externo -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Detallar las restricciones existentes sobre la utilización de software externo.
@@ -57,10 +57,10 @@ Esto es: la obligación de que la solución se integre con con un software exter
 específico.
 
 <!-- SECCIÓN: Restricciones organizacionales -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Especificar aquellas restricciones provenientes de las políticas de la
@@ -80,10 +80,10 @@ explicar el grado de importancia de la restricción y por qué es importante.
 Además, explicar las consecuencias de no cumplir con la restricción.
 
 <!-- SECCIÓN: Restricciones de presupuesto -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Detallar el presupuesto del proyecto expresado en términos monetarios o recursos

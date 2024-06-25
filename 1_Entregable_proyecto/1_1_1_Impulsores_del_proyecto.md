@@ -119,10 +119,10 @@ o factores clave para que el cliente considere al proyecto exitoso) y otros
 comentarios sobre el cliente.
 
 <!-- SECCIÓN: Comprador o consumidor del producto -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Mencionar el arquetipo del comprador o consumidor del producto. Por ejemplo: Si

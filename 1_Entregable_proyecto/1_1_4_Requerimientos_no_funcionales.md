@@ -16,10 +16,10 @@ necesarios, así como cuáles no.
 ## Requerimientos de apariencia
 
 <!-- SECCIÓN: Requerimientos de apariencia -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Detallar los requerimientos asociados a la apariencia del sistema, por ejemplo:
@@ -30,10 +30,10 @@ con ninguna interfaz gráfica de usuario, indicarlo.
 ## Requerimientos de usabilidad y humanidad
 
 <!-- SECCIÓN: Requerimientos de facilidad de uso -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Detallar los requerimientos del cliente en cuanto a la facilidad de uso del
@@ -61,10 +61,10 @@ de aceptación -->
   suelen necesitar un alto nivel de retroalimentación.
 
 <!-- SECCIÓN: Requerimientos de personalización e internacionalización -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Especificar los requerimientos asociados a las preferencias de los usuarios.
@@ -76,10 +76,10 @@ etcétera. En caso de que el cliente no esté interesado en definir este tipo de
 requerimientos, indicarlo.
 
 <!-- SECCIÓN: Requerimientos de aprendizaje -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Detallar las expectativas del cliente en cuanto a qué tanto esfuerzo deberán
@@ -95,10 +95,10 @@ una semana de capacitación" o, "Los usuarios deberán ser capaces de utilizar e
 sistema tras leer el manual de usuario".
 
 <!-- SECCIÓN: Requerimientos de accesibilidad -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Especificar los requerimientos asociados a la accesibilidad del sistema.
@@ -106,10 +106,10 @@ Dependiendo del problema y el producto, este tipo de requerimientos puede ser
 más necesario.
 
 <!-- SECCIÓN: Requerimientos de protección crítica -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Detallar los requerimientos que cuantifican el riesgo de daño percibido a
@@ -223,10 +223,10 @@ software con el cual el sistema va a interactuar, por ejemplo: "El sistema
 deberá poder utilizar datos de la aplicación X en su versión 4.0".
 
 <!-- SECCIÓN: Requerimientos de distribución -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Indicar los requerimientos necesarios para que el sistema sea distribuido o
@@ -236,10 +236,10 @@ distribuida en la App Store y Google Play Store en Uruguay" o, "La aplicación
 debe ser descargable desde el sitio web de la organización".
 
 <!-- SECCIÓN: Requerimientos del ciclo de *releases* -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 En caso de establecer con el cliente un ciclo de releases durante un determinado
@@ -274,10 +274,10 @@ usuarios" o, "Se debe entregar junto al producto un documento con notas de
 arquitectura del sistema que explique cómo está estructurado".
 
 <!-- SECCIÓN: Requerimientos de soporte -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 En caso de que el sistema incluya soporte o ayuda en línea de alguna forma
@@ -295,10 +295,10 @@ Especificar los entornos o plataformas que el sistema deberá soportar, por
 ejemplo: "El sistema deberá ser capaz de correr en Android y iOS".
 
 <!-- SECCIÓN: Manual de usuario -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Describir el propósito y contenido del manual de usuario: extensión, nivel de
@@ -357,10 +357,10 @@ de sus datos personales" o, "El sistema debe notificar sobre cambios en la
 política de privacidad de los datos".
 
 <!-- SECCIÓN: Requerimientos de auditoría -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Especificar lo que el sistema debe de hacer (usualmente, mantener información
@@ -380,10 +380,10 @@ infecciones de software como viruses, gusanos, *malware*, *spyware*, etcétera.
 ## Requerimientos culturales
 
 <!-- SECCIÓN: Requerimientos culturales -->
-<!-- TAG: Opcionalmente requerido -->
+<!-- TAG: Según proyecto -->
 <img
-  alt="OPCIONALMENTE REQUERIDO"
-  src="https://img.shields.io/badge/OPCIONALMENTE%20REQUERIDO-FFD700"
+  alt="SEGÚN PROYECTO"
+  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
 Especificar los requerimientos de carácter sociológico que afectan la
