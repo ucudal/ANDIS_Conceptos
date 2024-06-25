@@ -22,12 +22,6 @@ pertinentes que existen actualmente y que pueden ser reemplazados o cambiados
 por la solución a desarrollar.
 
 <!-- SECCIÓN: Interfaces pertinentes al trabajo -->
-<!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
-
 A alto nivel y mediante un [diagrama de
 contexto](../2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md), explicar
 las interacciones de la solución con entidades adyacentes a la misma (otras
@@ -35,12 +29,6 @@ personas, organizaciones, hardware y software) y el input/output de estas
 interacciones.
 
 <!-- SECCIÓN: Eventos y casos de uso del negocio -->
-<!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
-
 A alto nivel, listar todos los [eventos del
 negocio](/4_Conceptos/4_Evento_del_negocio.md) a los que el trabajo a
 desarrollar responde (es decir, [casos de uso del
@@ -54,18 +42,19 @@ caso de uso del negocio. Se puede utilizar el siguiente formato:
 | *(Nombre del evento del negocio)* | *(Input y output del caso de uso del negocio)* | *(Breve descripción del caso de uso del negocio)* |
 
 <!-- SECCIÓN: Especificación de los casos de uso del negocio -->
-<!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
-
 Detallar el paso a paso de cómo cada caso de uso del negocio identificado
 anteriormente responde al evento del negocio correspondiente. Esto se puede
 realizar mediante diagramas de actividad, escenarios de caso de uso del negocio,
 diagramas de flujo, diagramas de secuencia o mapas mentales.
 
 ## Modelo de datos organizacionales y diccionario de datos
+
+<!-- SECCIÓN: Modelo de datos organizacionales -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 
 > [!NOTE] Cuando estés especificando el modelo de datos organizacionales y el
 > diccionario de datos, asegúrate de ser consistente con la subsección de
@@ -74,13 +63,6 @@ diagramas de flujo, diagramas de secuencia o mapas mentales.
 > —es una buena idea que las entidades del dominio estén definidas en esa
 > sección—. A su vez, es una buena práctica el mantener un lenguaje ubicuo a lo
 > largo y ancho del proyecto[^1].
-
-<!-- SECCIÓN: Modelo de datos organizacionales -->
-<!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
 
 <!-- TODO Agregar definición y link a 'Modelo Entidad-Relación' -->
 Mediante un [diagrama de clases
@@ -93,12 +75,6 @@ mostrar cómo las entidades se relacionan entre sí (para ello es importante
 indicar la cardinalidad en las relaciones).
 
 <!-- SECCIÓN: Diccionario de datos -->
-<!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
-
 Definir el contenido o formato de los siguientes items vistos en el modelo de
 datos organizacionales:
 
@@ -145,12 +121,6 @@ participantes, relación de `extends` o `includes` con otros casos de uso— sue
 ser más cómoda cuando la cantidad de casos de uso es mayor a 20.
 
 <!-- SECCIÓN: Detalles de los casos de uso del producto -->
-<!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
-
 Definir los detalles de cada [caso de uso del
 producto](../4_Conceptos/4_Caso_de_uso_del_producto.md). Esto se puede realizar
 mediante una de las siguientes opciones:
@@ -178,6 +148,13 @@ mediante una de las siguientes opciones:
 > opciones informales, debes contar con la autorización de tu tutor.
 
 ## Requerimientos funcionales
+
+<!-- SECCIÓN: Requerimientos funcionales -->
+<!-- TAG: Requerido -->
+<img
+  alt="REQUERIDO"
+  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
+/>
 
 Detallar los requerimientos funcionales del producto utilizando el [template de
 requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada

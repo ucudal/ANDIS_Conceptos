@@ -31,12 +31,6 @@ desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente
 la versión de las mismas.
 
 <!-- SECCIÓN: Restricciones de entorno de instalación -->
-<!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
-
 Mencionar aquellas restricciones relacionadas al entorno de instalación de la
 solución. Estas pueden ser restricciones en cuanto al lugar físico o virtual en
 el cual la solución final deberá ser instalada.
@@ -44,6 +38,13 @@ el cual la solución final deberá ser instalada.
 Suele ser conveniente utilizar un diagrama para explicar las interacciones del
 sistema con el entorno y otros sistemas con los que la solución deba
 interactuar.
+
+<!-- SECCIÓN: Restricciones de calendario -->
+Mencionar las restricciones temporales o *deadlines* del proyecto. En caso de
+existir alguna ventana temporal de oportunidad, mencionarla también. Para cada
+una de estas restricción de calendario, detallar el momento o fecha claramente,
+explicar el grado de importancia de la restricción y por qué es importante.
+Además, explicar las consecuencias de no cumplir con la restricción.
 
 <!-- SECCIÓN: Restricciones de utilización de software externo -->
 <!-- TAG: Según proyecto -->
@@ -57,35 +58,10 @@ Esto es: la obligación de que la solución se integre con con un software exter
 específico.
 
 <!-- SECCIÓN: Restricciones organizacionales -->
-<!-- TAG: Según proyecto -->
-<img
-  alt="SEGÚN PROYECTO"
-  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
-/>
-
 Especificar aquellas restricciones provenientes de las políticas de la
 organización/empresa cliente.
 
-<!-- SECCIÓN: Restricciones de calendario -->
-<!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
-
-Mencionar las restricciones temporales o *deadlines* del proyecto. En caso de
-existir alguna ventana temporal de oportunidad, mencionarla también. Para cada
-una de estas restricción de calendario, detallar el momento o fecha claramente,
-explicar el grado de importancia de la restricción y por qué es importante.
-Además, explicar las consecuencias de no cumplir con la restricción.
-
 <!-- SECCIÓN: Restricciones de presupuesto -->
-<!-- TAG: Según proyecto -->
-<img
-  alt="SEGÚN PROYECTO"
-  src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
-/>
-
 Detallar el presupuesto del proyecto expresado en términos monetarios o recursos
 disponibles. Los requerimientos no deben exceder el presupuesto, así que esta
 restricción determina qué requerimientos son incluidos en el producto.
