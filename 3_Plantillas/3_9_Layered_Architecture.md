@@ -57,8 +57,8 @@ donde:
   compartidos para la capa `Business Layer` pero ocultos para la capa
   `Presentation Layer`.
 
-![Plantilla de arquitectura en capas con una capa `Service Layer` abierta y
+![Plantilla de layered architecture con una capa `Service Layer` abierta y
 cerradas](/diagrams/Architecture_Layered_Variation_3.svg)
 
-*Figura 4: Plantilla de arquitectura en capas con una capa `Service Layer`
+*Figura 4: Plantilla de layered architecture con una capa `Service Layer`
 abierta y las demás cerradas.*
