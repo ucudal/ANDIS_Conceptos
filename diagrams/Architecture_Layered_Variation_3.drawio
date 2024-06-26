@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="KHN87y3OLuKudrtNCYsX" name="Page-1">
+        <mxGraphModel dx="640" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&amp;lt;&amp;lt;closed&amp;gt;&amp;gt;&lt;br&gt;Presentation Layer" style="shape=folder;fontStyle=0;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&amp;lt;&amp;lt;closed&amp;gt;&amp;gt;&lt;br&gt;Business Layer" style="shape=folder;fontStyle=0;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="160" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&amp;lt;&amp;lt;closed&amp;gt;&amp;gt;&lt;br&gt;Persistence Layer" style="shape=folder;fontStyle=0;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="440.03999999999996" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&amp;lt;&amp;lt;closed&amp;gt;&amp;gt;&lt;br&gt;Database Layer" style="shape=folder;fontStyle=0;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="561.04" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&amp;lt;&amp;lt;access&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;fontColor=#006EAF;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="115" y="120" as="sourcePoint"/>
+                        <mxPoint x="115" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="&amp;lt;&amp;lt;access&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;fontColor=#006EAF;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="125" y="130" as="sourcePoint"/>
+                        <mxPoint x="125" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&amp;lt;&amp;lt;access&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;fontColor=#006EAF;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="125" y="413.03999999999996" as="sourcePoint"/>
+                        <mxPoint x="125" y="453.03999999999996" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&amp;lt;&amp;lt;open&amp;gt;&amp;gt;&lt;br&gt;Services Layer" style="shape=folder;fontStyle=0;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="300" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&amp;lt;&amp;lt;access&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;fontColor=#006EAF;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1" source="3" target="18">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="125" y="250" as="sourcePoint"/>
+                        <mxPoint x="125" y="453.03999999999996" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="&amp;lt;&amp;lt;access&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;fontColor=#006EAF;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1" source="18" target="4">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="179.28571428571433" y="250" as="sourcePoint"/>
+                        <mxPoint x="260.7142857142858" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
