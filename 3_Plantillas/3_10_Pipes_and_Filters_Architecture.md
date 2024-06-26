@@ -17,10 +17,10 @@ típicos de filtros, usando los estereotipos `≪producer≫`, `≪transformer�
 `≪tester≫` y `≪consumer≫` para identificarlos, con sus respectivas tuberías
 conectando esos filtros.
 
-![Plantilla de la arquitectura pipes and
-filters](/diagrams/Architecture_Pipes_And_Filters.svg)
+![Plantilla de pipes and filters
+architecture](/diagrams/Architecture_Pipes_And_Filters.svg)
 
-*Figura 1: Plantilla de la arquitectura pipes and filters.*
+*Figura 1: Plantilla de pipes and filters architecture.*
 
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
       Engineering Approach. O'Reilly.
