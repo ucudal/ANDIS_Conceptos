@@ -53,18 +53,21 @@ Además, explicar las consecuencias de no cumplir con la restricción.
   src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
-Detallar las restricciones existentes sobre la utilización de software externo.
-Esto es: la obligación de que la solución se integre con con un software externo
-específico.
+Puede ser el caso de que para su proyecto exista la obligación de que la
+solución se integre con con un software externo específico, en caso de ser así,
+detallarlo.
 
 <!-- SECCIÓN: Restricciones organizacionales -->
-Especificar aquellas restricciones provenientes de las políticas de la
-organización/empresa cliente.
+Opcionalmente, la organización o empresa cliente puede demandar ciertas
+restricciones provenientes de sus políticas. En caso de aplicar, detallar estas
+restricciones.
 
 <!-- SECCIÓN: Restricciones de presupuesto -->
-Detallar el presupuesto del proyecto expresado en términos monetarios o recursos
-disponibles. Los requerimientos no deben exceder el presupuesto, así que esta
-restricción determina qué requerimientos son incluidos en el producto.
+La organización o empresa cliente puede habilitar ciertos recursos con
+determinado límite —incluidos recursos monetarios—, y como los requerimientos no
+deben exceder el presupuesto, esta restricción determina qué requerimientos son
+incluidos en el producto. En caso de que el cliente establezca un presupuesto
+(expresado en términos monetarios o recursos disponibles), detallarlo.
 
 ## Convenciones de denominación y términos
 

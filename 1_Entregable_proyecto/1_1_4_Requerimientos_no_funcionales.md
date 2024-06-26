@@ -22,10 +22,11 @@ necesarios, así como cuáles no.
   src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
-Detallar los requerimientos asociados a la apariencia del sistema, por ejemplo:
+No todos los proyectos tratan de un producto que necesita una interfaz de
+usuario, pero en el caso de que su producto a desarrollar sí la necesite,
+detallar los requerimientos asociados a la apariencia del sistema, por ejemplo:
 guías de UX/UI a utilizar —quizá brindadas por el cliente—, marca corporativa de
-la organización cliente, qué colores utilizar, etcétera. Si el sistema no cuenta
-con ninguna interfaz gráfica de usuario, indicarlo.
+la organización cliente, qué colores utilizar, etcétera.
 
 ## Requerimientos de usabilidad y humanidad
 
@@ -36,11 +37,13 @@ con ninguna interfaz gráfica de usuario, indicarlo.
   src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
-Detallar los requerimientos del cliente en cuanto a la facilidad de uso del
-sistema por parte de los usuarios finales. Ten en cuenta que esta facilidad es
-derivada de: la habilidad de los previstos usuarios finales y la complejidad del
-producto y sus funcionalidades. Algunas características a tener en cuenta pueden
-ser:
+Similarmente a los requerimientos de apariencia, en caso de que el producto a
+desarrollar necesite de algún tipo de interacción con los usuarios finales,
+detallar los requerimientos del cliente en cuanto a la facilidad de uso del
+sistema por parte de estos usuarios finales. Tengan en cuenta que esta facilidad
+es derivada de la habilidad de los previstos usuarios finales y la complejidad
+del producto y sus funcionalidades. Algunas características a tener en cuenta
+pueden ser:
 
 <!-- TODO Agregar ejemplos de cada tipo de requisito incluyendo además criterio
 de aceptación -->
@@ -60,27 +63,27 @@ de aceptación -->
   correctamente lo que se espera de él. Productos de seguridad o tareas críticas
   suelen necesitar un alto nivel de retroalimentación.
 
+<!-- SECCIÓN: Requerimientos de aprendizaje -->
+Siguiendo el punto anterior, también detallar las expectativas del cliente en
+cuanto a qué tanto esfuerzo deberán emplear los usuarios finales para poder
+utilizar el sistema de una forma productiva. Algunos sistemas deben ser muy
+fáciles de utilizar y por ende intuitivos, otros se pueden permitir determinada
+curva de aprendizaje debido a la complejidad del problema. La idea aquí es
+cuantificar la cantidad de tiempo o esfuerzo que los usuarios finales necesitan
+para aprender a usar el sistema y que esta cuantificación sea aceptable para el
+cliente. Esta clarificación puede incluir un plan de capacitación para los
+usuarios, e incluso un manual de usuario, por ejemplo: "Los usuarios deberán ser
+capaces de usar el sistema tras una semana de capacitación" o, "Los usuarios
+deberán ser capaces de utilizar el sistema tras leer el manual de usuario".
+
 <!-- SECCIÓN: Requerimientos de personalización e internacionalización -->
-Especificar los requerimientos asociados a las preferencias de los usuarios.
-Estos requerimientos indican cómo el sistema puede ser modificado o configurado
-por los usuarios para tener en cuenta sus preferencias y selección de lenguaje
+En caso de que sea establecido por el cliente como una necesidad, especificar
+los requerimientos asociados a las preferencias de los usuarios. Estos
+requerimientos indican cómo el sistema puede ser modificado o configurado por
+los usuarios para tener en cuenta sus preferencias y selección de lenguaje
 utilizado por el sistema. En otras culturas, se usan diferentes sistemas de
 unidades —sistema métrico, anglosajón, etcétera—, unidades monetarias, idiomas,
-etcétera. En caso de que el cliente no esté interesado en definir este tipo de
-requerimientos, indicarlo.
-
-<!-- SECCIÓN: Requerimientos de aprendizaje -->
-Detallar las expectativas del cliente en cuanto a qué tanto esfuerzo deberán
-emplear los usuarios finales para poder utilizar el sistema de una forma
-productiva. Algunos sistemas deben ser muy fáciles de utilizar y por ende
-intuitivos, otros se pueden permitir determinada curva de aprendizaje debido a
-la complejidad del problema. La idea aquí es cuantificar la cantidad de tiempo o
-esfuerzo que los usuarios finales necesitan para aprender a usar el sistema y
-que esta cuantificación sea aceptable para el cliente. Esta clarificación puede
-incluir un plan de capacitación para los usuarios, e incluso un manual de
-usuario, por ejemplo: "Los usuarios deberán ser capaces de usar el sistema tras
-una semana de capacitación" o, "Los usuarios deberán ser capaces de utilizar el
-sistema tras leer el manual de usuario".
+etcétera.
 
 <!-- SECCIÓN: Requerimientos de accesibilidad -->
 Especificar los requerimientos asociados a la accesibilidad del sistema.
@@ -88,9 +91,10 @@ Dependiendo del problema y el producto, este tipo de requerimientos puede ser
 más necesario.
 
 <!-- SECCIÓN: Requerimientos de protección crítica -->
-Detallar los requerimientos que cuantifican el riesgo de daño percibido a
-personas, propiedad y entorno. Estos pueden estar relacionados a estándares de
-seguridad o protección.
+En caso de que usar el producto desarrollado signifique un posible riesgo de
+daño percibido a personas o propiedad dentro del entorno de uso, detallar los
+requerimientos que cuantifican este daño. Estos pueden estar relacionados a
+estándares de seguridad o protección.
 
 ## Requerimientos de *performance*
 
@@ -168,7 +172,8 @@ configuraciones, memoria, periféricos y software adicional necesario.
   src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
-Indicar los requerimientos necesarios para que el sistema sea distribuido o
+En caso de que distribuir el producto esté dentro del alcance del proyecto,
+indicar los requerimientos necesarios para que el sistema sea distribuido o
 vendido como producto. Indicar también las tareas necesarias para que sea
 instalado, en caso de ser pertinente. Por ejemplo: "La aplicación debe ser
 distribuida en la App Store y Google Play Store en Uruguay" o, "La aplicación
@@ -213,14 +218,11 @@ documentos.
 
 En caso de que el sistema incluya soporte o ayuda en línea de alguna forma
 específica —un chatbot, por ejemplo—, detallarlo aquí mediante requerimientos.
-En caso contrario, indicarlo.
 
 <!-- SECCIÓN: Manual de usuario -->
-Describir el propósito y contenido del manual de usuario: extensión, nivel de
-detalle, índices, glosarios, etcétera. Si hay restricciones de formatos o de
-impresión, indicarlo.
-
-En caso de que no haya manual de usuario, indicarlo.
+En caso de que sea necesario desarrollar un manual de usuario, describir su
+propósito y contenido, esto es: extensión, nivel de detalle, índices, glosarios,
+etcétera. Si hay restricciones de formatos o de impresión, indicarlo.
 
 ## Requerimientos de seguridad
 
@@ -259,9 +261,10 @@ infecciones de software como viruses, gusanos, *malware*, *spyware*, etcétera.
   src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
-Especificar lo que el sistema debe de hacer (usualmente, mantener información
-persistida) para permitir controles de auditoría. Por ejemplo: "El sistema debe
-mantener datos sobre X para que sean auditados periódicamente".
+En caso de que el sistema deba soportar controles de auditoría, especificar lo
+que el sistema debe de hacer (usualmente, mantener información persistida) para
+permitirlos. Por ejemplo: "El sistema debe mantener datos sobre X para que sean
+auditados periódicamente".
 
 ## Requerimientos culturales
 
@@ -272,11 +275,12 @@ mantener datos sobre X para que sean auditados periódicamente".
   src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
-Especificar los requerimientos de carácter sociológico que afectan la
-aceptabilidad del sistema. Estos son de particular interés al desarrollar un
-sistema para el mercado extranjero. Por ejemplo: "El sistema deberá ser capaz de
-distinguir entre el enumerado de calles utilizado en Italia e Inglaterra", o,
-"El sistema deberá contemplar los feriados de la Unión Europea".
+Opcionalmente, pueden existir requerimientos de carácter sociológico que afecten
+la aceptabilidad del sistema. Estos son de particular interés al
+desarrollar un sistema para el mercado extranjero. Por ejemplo: "El sistema
+deberá ser capaz de distinguir entre el enumerado de calles utilizado en Italia
+e Inglaterra", o, "El sistema deberá contemplar los feriados de la Unión
+Europea".
 
 ## Requerimientos legales
 

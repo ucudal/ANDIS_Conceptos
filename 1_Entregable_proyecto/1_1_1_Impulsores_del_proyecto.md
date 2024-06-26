@@ -159,7 +159,10 @@ Se puede usar el siguiente formato para cada necesidad:
   src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
-Mencionar el arquetipo del comprador o consumidor del producto. Por ejemplo: Si
-el producto a desarrollar fuera una aplicación de gestión de seguimiento de
-horas de empleados, el consumidor podría ser cualquier empresa interesada en
-hacer un seguimiento de horas de sus empleados.
+Dependiendo de la naturaleza del producto a desarrollar, puede existir un
+comprador o consumidor del mismo. En caso de que su proyecto involucre
+desarrollar un producto que luego será adquirido por un tercero, mencionar el
+arquetipo del comprador o consumidor del producto. Por ejemplo: Si el producto a
+desarrollar fuera una aplicación de gestión de seguimiento de horas de
+empleados, el consumidor podría ser cualquier empresa interesada en hacer un
+seguimiento de horas de sus empleados.
