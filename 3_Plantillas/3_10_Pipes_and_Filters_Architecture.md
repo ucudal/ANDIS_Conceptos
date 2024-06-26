@@ -5,6 +5,8 @@
 Esta es la plantilla para una arquitectura tuberías y filtros o *pipes and
 filters*; esta es una arquitectura monolítica.
 
+Esta plantilla está basada en [^1].
+
 > [!NOTE]
 > En esta plantilla aparecen componentes de ejemplo estereotipados; en
 > un diagrama de arquitectura deberían aparecer los componentes propios del
@@ -19,3 +21,6 @@ conectando esos filtros.
 filters](/diagrams/Architecture_Pipes_And_Filters.svg)
 
 *Figura 1: Plantilla de la arquitectura pipes and filters.*
+
+[^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
+      Engineering Approach. O'Reilly.

@@ -5,6 +5,8 @@
 Esta es la plantilla para una arquitectura en capas o *layered architecture*;
 esta es una arquitectura monolítica.
 
+Esta plantilla está basada en [^1].
+
 > [!NOTE]
 > En esta plantilla no aparecen los componentes en cada capa por simplicidad; en
 > un diagrama de arquitectura deberían aparecer, además de las capas, los
@@ -62,3 +64,6 @@ cerradas](/diagrams/Architecture_Layered_Variation_3.svg)
 
 *Figura 4: Plantilla de layered architecture con una capa `Service Layer`
 abierta y las demás cerradas.*
+
+[^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
+      Engineering Approach. O'Reilly.
