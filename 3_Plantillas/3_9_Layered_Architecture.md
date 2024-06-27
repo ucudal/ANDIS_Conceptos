@@ -7,6 +7,10 @@ esta es una arquitectura monolítica.
 
 Esta plantilla está basada en [^1].
 
+La arquitectura en capas es uno de los estilos de arquitectura más comunes. Es
+la elección predeterminada para muchas aplicaciones debido a su simplicidad,
+familiaridad y bajo costo.
+
 > [!NOTE]
 > En esta plantilla no aparecen los componentes en cada capa por simplicidad; en
 > un diagrama de arquitectura deberían aparecer, además de las capas, los

@@ -7,6 +7,11 @@ architecture*; esta es una arquitectura distribuida.
 
 Esta plantilla está basada en [^1].
 
+El estilo de arquitectura orientada a eventos es ampliamente utilizado para
+crear aplicaciones altamente escalables y de alto rendimiento. Se basa en
+componentes de procesamiento de eventos que operan de manera independiente y
+procesan eventos de forma asíncrona.
+
 > [!NOTE]
 > En esta plantilla aparecen componentes de ejemplo estereotipados; en
 > un diagrama de arquitectura deberían aparecer los componentes propios del

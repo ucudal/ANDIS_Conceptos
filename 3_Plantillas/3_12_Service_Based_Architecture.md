@@ -7,6 +7,11 @@ architecture*; esta es una arquitectura distribuida.
 
 Esta plantilla está basada en [^1].
 
+Aunque la arquitectura basada en servicios es una arquitectura distribuida, no
+tiene el mismo nivel de complejidad y costo que otras arquitecturas
+distribuidas, como los microservicios o la arquitectura orientada a eventos.
+
+
 > [!NOTE]
 > En esta plantilla no aparecen los componentes en cada paquete por simplicidad;
 > en un diagrama de arquitectura deberían aparecer, además de los paquetes, los
