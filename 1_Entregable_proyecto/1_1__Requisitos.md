@@ -289,17 +289,17 @@ de modelo de datos organizacionales y el diccionario de datos.
 
 #### Modelo de datos organizacionales
 
-<!-- TODO Agregar definición y link a 'Modelo Entidad-Relación' -->
-
 <!-- TODO Cuando esté definido qué termino usar para contexto del trabajo,
 actualizarlo acá también -->
 
-Mediante un [diagrama de clases UML](../2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md)
-, Modelo Entidad-Relación o cualquier otro diagrama de datos, especificar todas
-las entidades o clases relevantes al contexto del trabajo. Lo interesante aquí
-es mostrar todas las entidades en cuestión y sus atributos o propiedades, además
-de mostrar cómo las entidades se relacionan entre sí (para ello es importante
-indicar la cardinalidad en las relaciones).
+Mediante un [diagrama de clases
+UML](../2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md), un [modelo
+entidad-relación](/2_Tecnicas_y_herramientas/2_3_2_Modelos_de_entidad_relacion.md)
+o cualquier otro diagrama de datos, especificar todas las entidades o clases
+relevantes al contexto del trabajo. Lo interesante aquí es mostrar todas las
+entidades en cuestión y sus atributos o propiedades, además de mostrar cómo las
+entidades se relacionan entre sí (para ello es importante indicar la
+cardinalidad en las relaciones).
 
 #### Diccionario de datos
 
