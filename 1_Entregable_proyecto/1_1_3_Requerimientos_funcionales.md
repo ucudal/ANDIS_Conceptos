@@ -64,15 +64,14 @@ diagramas de flujo, diagramas de secuencia o mapas mentales.
 > sección—. A su vez, es una buena práctica el mantener un lenguaje ubicuo a lo
 > largo y ancho del proyecto[^1].
 
-<!-- TODO Agregar definición y link a 'Modelo Entidad-Relación' -->
 Mediante un [diagrama de clases
-UML](../2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md), Modelo
-Entidad-Relación o cualquier otro diagrama de datos, especificar todas las
-entidades o clases relevantes al [área del
-trabajo](../4_Conceptos/4_Trabajo_y_area_de_trabajo.md). Lo interesante aquí es
-mostrar todas las entidades en cuestión y sus atributos o propiedades, además de
-mostrar cómo las entidades se relacionan entre sí (para ello es importante
-indicar la cardinalidad en las relaciones).
+UML](../2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md), un [modelo
+entidad-relación](/2_Tecnicas_y_herramientas/2_3_2_Modelos_de_entidad_relacion.md)
+o cualquier otro diagrama de datos, especificar todas las entidades o clases
+relevantes al contexto del trabajo. Lo interesante aquí es mostrar todas las
+entidades en cuestión y sus atributos o propiedades, además de mostrar cómo las
+entidades se relacionan entre sí (para ello es importante indicar la
+cardinalidad en las relaciones).
 
 <!-- SECCIÓN: Diccionario de datos -->
 Definir el contenido o formato de los siguientes items vistos en el modelo de
