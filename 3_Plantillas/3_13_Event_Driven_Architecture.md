@@ -18,9 +18,8 @@ procesan eventos de forma asíncrona.
 > proyecto, usando estos mismos estereotipos.
 
 La figura 1, a continuación, muestra un ejemplo con el orquestador que recibe
-los eventos con el
-estereotipo `≪orchestrator≫` y varios procesadores de eventos con el estereotipo `≪processor≫`.
-
+los eventos con el estereotipo `≪orchestrator≫` y varios procesadores de eventos
+con el estereotipo `≪processor≫`.
 
 ![Plantilla de event-driven
 architecture](/diagrams/Architecture_Event_Driven.svg)
