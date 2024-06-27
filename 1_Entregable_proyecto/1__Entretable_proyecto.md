@@ -2,7 +2,7 @@
 
 > [!Important]
 > Dentro de cada una de las secciones, encontrarán dos tipos de etiquetas —o,
-> *tags*— que marcan la obligatoriedad de cada parte:
+> *tags*— que marcan la obligatoriedad de cada parte.
 >
 > <img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />:
 > Todo lo indicado a continuación hasta la próxima etiqueta es de carácter
@@ -13,7 +13,7 @@
 > indicado a continuación hasta la próxima etiqueta, **puede ser obligatorio** a
 > efectos del entregable del proyecto dependiendo de las cualidades del
 > producto. Para cada uno de los ítems englobados en esta etiqueta, se explica
-> cuándo es de carácter obligatorio. Ante cualquier duda al respecto de la
+> cuándo es de carácter obligatorio. Ante cualquier duda respecto a la
 > obligatoriedad de estos ítems, pueden consultar al tutor.
 
 ## 1.1 [Requisitos](./1_1__Requisitos.md)
