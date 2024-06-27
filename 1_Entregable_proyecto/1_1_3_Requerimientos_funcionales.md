@@ -4,8 +4,8 @@
 
 ### 1.1.3 Requerimientos funcionales
 
-En esta tercera parte del análisis de requisitos deben definir el área de
-trabajo, alcance del proyecto y los requerimientos funcionales del mismo.
+En esta tercera parte deben definir el área de trabajo, alcance del proyecto y
+los requerimientos funcionales del mismo.
 
 ## Área de trabajo
 
@@ -142,10 +142,10 @@ mediante una de las siguientes opciones:
 * Un prototipo de baja o alta fidelidad
 
 > [!WARNING]
-> A efectos de entregas de Proyecto, debes utilizar **al menos una
-> opción formal**, aunque puedes utilizar de forma adicional opciones informales
-> para profundizar en los casos de uso o aclararlos. Para utilizar únicamente
-> opciones informales, debes contar con la autorización de tu tutor.
+> A efectos del entregable del proyecto, deben utilizar **al menos una opción
+> formal**, aunque pueden utilizar de forma adicional opciones informales para
+> profundizar en los casos de uso o aclararlos. Para utilizar únicamente
+> opciones informales, deben contar con la autorización de tu tutor.
 
 ## Requerimientos funcionales
 

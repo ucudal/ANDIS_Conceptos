@@ -4,10 +4,9 @@
 
 ### 1.1.1 Impulsores del proyecto
 
-En esta primera parte del análisis de requisitos deben dejar en claro que están
-familiarizados con el propósito del proyecto, su oportunidad de negocio,
-motivaciones y objetivos, así como también su proyección y cualquier entidad
-interesada en el mismo.
+En esta primera parte deben dejar en claro que están familiarizados con el
+propósito del proyecto, su oportunidad de negocio, motivaciones y objetivos, así
+como también su proyección y cualquier entidad interesada en el mismo.
 
 ## Propósito del proyecto
 
@@ -59,7 +58,6 @@ de este proyecto y cómo.
 
 <!-- SECCIÓN: Estadísticas del mercado o usuarios -->
 Resumir los datos demográficos clave que motivan las decisiones del producto.
-
 **Algunas preguntas disparadoras**: *¿Cuántos usuarios tendrá el producto? ¿Cómo
 se estima que crecerá el número de usuarios? ¿Cuánto dinero gasta el cliente
 tratando de satisfacer por otros medios las necesidades que el producto podrá
@@ -69,9 +67,8 @@ cubrir?*
 <!-- TODO Agregar definiciones y links para 'objetivos', 'propósito', 'beneficio'
 y 'métricas del beneficio' -->
 Mencionar a alto nivel los objetivos del proyecto. Para ello, describir el
-propósito, beneficio y métricas del beneficio para cada objetivo.
-
-Se puede usar el siguiente formato:
+propósito, beneficio y métricas del beneficio para cada objetivo. Se puede usar
+el siguiente formato:
 
 | Objetivo              | Propósito                | Beneficio                | Métrica del beneficio          |
 | --------------------- | ------------------------ | ------------------------ | ------------------------------ |
@@ -124,11 +121,9 @@ por él. Estos interesados pueden formar parte de la organización cliente o
 trabajar para ella y sus comentarios pueden ser valiosos para el proyecto, por
 ejemplo: patrocinadores, expertos del dominio, usuarios del sistema actual,
 expertos en legislación, diseñadores, usuarios encargados del mantenimiento del
-sistema, encargados del servicio técnico, etcétera.
-
-Para cada uno de ellos, mencionar: rol en el proyecto, rol en la organización,
-aporte al proyecto, grado de involucración en el proyecto y nivel de influencia
-en el proyecto.
+sistema, encargados del servicio técnico, etcétera. Para cada uno de ellos,
+detallar: rol en el proyecto, rol en la organización, aporte al proyecto, grado
+de involucración en el proyecto y nivel de influencia en el proyecto.
 
 <!-- SECCIÓN: Identificación de necesidades clave -->
 Listar los problemas clave junto con las soluciones existentes, de acuerdo a la

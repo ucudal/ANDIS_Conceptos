@@ -4,10 +4,10 @@
 
 ### 1.1.4 Requerimientos no funcionales
 
-En esta cuarta y última parte del análisis de requisitos deben definir todos los
-diferentes tipos de requerimientos no funcionales que apliquen a su proyecto.
-Para ello, deben usar la [plantilla de requerimiento
-atómico](/3_Plantillas/3_1_Requerimiento_atomico.md) en cada requerimiento.
+En esta cuarta parte deben definir todos los diferentes tipos de requerimientos
+no funcionales que apliquen a su proyecto. Para ello, deben usar la [plantilla
+de requerimiento atómico](/3_Plantillas/3_1_Requerimiento_atomico.md) en cada
+requerimiento.
 
 Tengan en cuenta que no todos los requerimientos no funcionales mencionados aquí
 necesariamente aplican, así que deben ser prudentes y analizar cuáles sí que son
@@ -106,14 +106,16 @@ estándares de seguridad o protección.
 />
 
 Detallar la cantidad de tiempo disponible para el producto al realizar
-diferentes tareas. Un ejemplo de latencia: "El sistema deberá responder a
-cualquier interacción en un tiempo menor a dos segundos". Un ejemplo de
-velocidad: "El sistema deberá refrescar el estado de cuenta cada 5 minutos".
+diferentes tareas en términos de latencia y velocidad. Un ejemplo de latencia:
+"El sistema deberá responder a cualquier interacción en un tiempo menor a dos
+segundos". Un ejemplo de velocidad: "El sistema deberá refrescar el estado de
+cuenta cada 5 minutos".
 
 <!-- SECCIÓN: Requerimientos de precisión -->
 Especificar los requerimientos asociados a la precisión de los resultados
-mostrados por el producto, por ejemplo: "El sistema deberá mostrar las unidades
-monetarias con una precisión de tres decimales".
+producidos por el producto, por ejemplo: "El sistema deberá mostrar las unidades
+monetarias con una precisión de tres decimales" o, "El sistema deberá calcular
+los grados de temperatura con una precisión de ± 1°C respecto al valor real".
 
 <!-- SECCIÓN: Requerimientos de confiabilidad y disponibilidad -->
 <!-- TODO Mencionar MTBF, MTTF y SLA, agregarlos bajo la carpeta de Conceptos y
@@ -124,7 +126,7 @@ día o qué días ha de estarlo? ¿qué porcentaje de tiempo de actividad deber�
 cumplir? ¿qué tasa de fallos del sistema es aceptable?
 
 <!-- SECCIÓN: Requerimientos de robustez -->
-Indicar los requerimientos de robustez del sistema, esto es, la capacidad del
+Indicar los requerimientos de robustez del sistema, esto es: la capacidad del
 sistema de continuar funcionando de forma aceptable bajo condiciones anormales.
 Por ejemplo: "El sistema deberá seguir proveyendo la funcionalidad X al no tener
 conexión a Internet".
@@ -252,7 +254,7 @@ política de privacidad de los datos".
 
 <!-- SECCIÓN: Requerimientos de inmunidad -->
 Mencionar qué es lo que tiene que hacer el sistema para protegerse de
-infecciones de software como viruses, gusanos, *malware*, *spyware*, etcétera.
+infecciones de software como virus, gusanos, *malware*, *spyware*, etcétera.
 
 <!-- SECCIÓN: Requerimientos de auditoría -->
 <!-- TAG: Según proyecto -->

@@ -4,11 +4,11 @@
 
 ### 1.1.2 Restricciones del proyecto
 
-En esta segunda parte del análisis de requisitos deben mencionar todas las
-restricciones que afecten al proyecto, así como también asunciones que hagan en
-torno al mismo y que su cumplimiento —o, incumplimiento— puedan afectarlo.
-Además, deben definir una convención de denominaciones y términos que serán
-utilizados a lo largo del documento de forma consistente.
+En esta segunda parte deben mencionar todas las restricciones que afecten al
+proyecto, así como también asunciones que hagan en torno al mismo y que su
+cumplimiento —o, incumplimiento— puedan afectarlo. Además, deben definir una
+convención de denominaciones y términos que serán utilizados a lo largo del
+documento de forma consistente.
 
 ## Restricciones obligatorias
 
@@ -33,18 +33,16 @@ la versión de las mismas.
 <!-- SECCIÓN: Restricciones de entorno de instalación -->
 Mencionar aquellas restricciones relacionadas al entorno de instalación de la
 solución. Estas pueden ser restricciones en cuanto al lugar físico o virtual en
-el cual la solución final deberá ser instalada.
-
-Suele ser conveniente utilizar un diagrama para explicar las interacciones del
-sistema con el entorno y otros sistemas con los que la solución deba
-interactuar.
+el cual la solución final deberá ser instalada. Suele ser conveniente utilizar
+un diagrama para explicar las interacciones del sistema con el entorno y otros
+sistemas con los que la solución deba interactuar.
 
 <!-- SECCIÓN: Restricciones de calendario -->
 Mencionar las restricciones temporales o *deadlines* del proyecto. En caso de
 existir alguna ventana temporal de oportunidad, mencionarla también. Para cada
-una de estas restricción de calendario, detallar el momento o fecha claramente,
-explicar el grado de importancia de la restricción y por qué es importante.
-Además, explicar las consecuencias de no cumplir con la restricción.
+una de estas restricciones de calendario, detallar el momento o fecha
+claramente, explicar el grado de importancia de la restricción y por qué es
+importante. Además, explicar las consecuencias de no cumplir con la restricción.
 
 <!-- SECCIÓN: Restricciones de utilización de software externo -->
 <!-- TAG: Según proyecto -->
