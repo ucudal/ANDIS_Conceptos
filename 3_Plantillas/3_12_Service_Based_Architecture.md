@@ -1,6 +1,6 @@
 # 3 Plantillas
 
-## 3.9 Arquitectura basada en servicios
+## 3.12 Arquitectura basada en servicios
 
 Esta es la plantilla para una arquitectura basada en servicios o *service-based
 architecture*; esta es una arquitectura distribuida.
