@@ -1,9 +1,9 @@
 # 3 Plantillas
 
-## 3.13 Arquitectura de microservicios
+## 3.13 Estilo de arquitectura de microservicios
 
-Esta es la plantilla para una arquitectura de microservicios o *microservices
-architecture*; esta es una arquitectura distribuida.
+Esta es la plantilla para un estilo de arquitectura de microservicios o
+*microservices architecture*; este es un estilo de arquitectura distribuida.
 
 Esta plantilla está basada en [^1].
 
@@ -15,10 +15,9 @@ HTTP o colas de mensajes.
 Esta comunicación desacoplada permite que los servicios evolucionen y escalen de
 manera independiente sin afectar a la aplicación completa.
 
-![Plantilla de estilo microservices
-architecture](/diagrams/Architecture_Microservices.svg)
+![Estilo microservices architecture](/diagrams/Architecture_Microservices.svg)
 
-*Figura 1: Plantilla de estilo microservices architecture.*
+*Figura 1: Estilo microservices architecture.*
 
 Cada servicio suele implementar el patrón
 [Sidecar](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar)

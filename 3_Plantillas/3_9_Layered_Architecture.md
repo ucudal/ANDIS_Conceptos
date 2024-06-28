@@ -1,15 +1,15 @@
 # 3 Plantillas
 
-## 3.9 Arquitectura en capas
+## 3.9 Estilo de arquitectura en capas
 
-Esta es la plantilla para una arquitectura en capas o *layered architecture*;
-esta es una arquitectura monolítica.
+Esta es la plantilla para un estilo de arquitectura en capas o *layered
+architecture*; este es un estilo de arquitectura monolítica.
 
 Esta plantilla está basada en [^1].
 
-La arquitectura en capas es uno de los estilos de arquitectura más comunes. Es
-la elección predeterminada para muchas aplicaciones debido a su simplicidad,
-familiaridad y bajo costo.
+El estilo de arquitectura en capas es uno de los estilos de arquitectura más
+comunes. Es la elección predeterminada para muchas aplicaciones debido a su
+simplicidad, familiaridad y bajo costo.
 
 > [!NOTE]
 > En esta plantilla no aparecen los componentes en cada capa por simplicidad; en
@@ -18,12 +18,13 @@ familiaridad y bajo costo.
 
 La figura 1, a continuación, combina las capas `Presentation Layer`, `Business
 Layer`, `Persistence Layer` y `Database Layer` en una sola unidad de despliegue;
-por ejemplo, una aplicación de escritorio con una base embebida o en memoria.
+por ejemplo, una aplicación de escritorio con una base de datos embebida o en
+memoria.
 
-![Plantilla de layered architecture desplegada en una sola
+![Plantilla del estilo layered architecture desplegada en una sola
 unidad de despliegue](/diagrams/Architecture_Layered.svg)
 
-*Figura 1: Plantilla de layered architecture desplegada en una sola unidad de
+*Figura 1: Plantilla del estilo layered architecture desplegada en una sola unidad de
 despliegue.*
 
 La figura 2, a continuación, muestra una variante de despliegue donde la capa
@@ -31,12 +32,12 @@ La figura 2, a continuación, muestra una variante de despliegue donde la capa
 de la del resto de las capas; por ejemplo, una aplicación de escritorio que usa
 un motor de base de datos local.
 
-![Plantilla de layered architecture con la base de datos desplegada en una
-unidad de despliegue físicamente separada del
+![Estilo layered architecture con la base de datos desplegada en una unidad de
+despliegue físicamente separada del
 resto](/diagrams/Architecture_Layered_Variation_1.svg)
 
-*Figura 2: Plantilla de layered architecture con la base de datos desplegada
-en una unidad físicamente separada del resto.*
+*Figura 2: Estilo layered architecture con la base de datos desplegada en una
+unidad físicamente separada del resto.*
 
 La figura 3, a continuación, muestra otra variante de despliegue, donde la capa
 `Presentation Layer` está físicamente separada del resto en una unidad de
@@ -44,13 +45,13 @@ despliegue diferente; también está separada del resto la capa `Database Layer`
 ejemplo, una aplicación de escritorio implementada con un cliente delgado,
 librerías, y un motor de base de datos local.
 
-![Plantilla de layered architecture con la capa de presentación y la de base de
-datos desplegadas en una unidad de despliegue físicamente separada del
+![Estilo layered architecture con la capa de presentación y la de base de datos
+desplegadas en una unidad de despliegue físicamente separada del
 resto](/diagrams/Architecture_Layered_Variation_2.svg)
 
-*Figura 3: Plantilla de layered architecture con la capa de presentación y la
-de base de datos desplegadas en una unidad de despliegue físicamente separada
-del resto*.
+*Figura 3: Estilo layered architecture con la capa de presentación y la de base
+de datos desplegadas en una unidad de despliegue físicamente separada del
+resto*.
 
 La figura 4, a continuación, muestra una variante de la arquitectura en capas
 donde:
@@ -63,11 +64,11 @@ donde:
   compartidos para la capa `Business Layer` pero ocultos para la capa
   `Presentation Layer`.
 
-![Plantilla de layered architecture con una capa `Service Layer` abierta y
+![Estilo layered architecture con una capa `Service Layer` abierta y
 cerradas](/diagrams/Architecture_Layered_Variation_3.svg)
 
-*Figura 4: Plantilla de layered architecture con una capa `Service Layer`
-abierta y las demás cerradas.*
+*Figura 4: Estilo layered architecture con una capa `Service Layer` abierta y
+las demás cerradas.*
 
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
       Engineering Approach. O'Reilly.

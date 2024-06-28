@@ -1,9 +1,9 @@
 # 3 Plantillas
 
-## 3.12 Arquitectura basada en servicios
+## 3.12 Estilo de arquitectura basada en servicios
 
-Esta es la plantilla para una arquitectura basada en servicios o *service-based
-architecture*; esta es una arquitectura distribuida.
+Esta es la plantilla para un estilo de arquitectura basada en servicios o
+*service-based architecture*; este es un estilo de arquitectura distribuida.
 
 Esta plantilla está basada en [^1].
 
@@ -19,10 +19,9 @@ distribuidas, como los microservicios o la arquitectura orientada a eventos.
 La figura 1, a continuación, muestra la interfaz de usuario, los servicios, y la
 base de datos, desplegados en unidades de despliegue independientes.
 
-![Plantilla de service-based
-architecture](/diagrams/Architecture_Service_Based.svg)
+![Estilo service-based architecture](/diagrams/Architecture_Service_Based.svg)
 
-*Figura 1: Plantilla de service-based architecture.*
+*Figura 1: Estilo service-based architecture.*
 
 <!-- TODO: Agregar las variantes que aparecen en la referencia abajo -->
 

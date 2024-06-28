@@ -1,9 +1,9 @@
 # 3 Plantillas
 
-## 3.11 Arquitectura micro kernel
+## 3.11 Estilo de arquitectura micro kernel
 
-Esta es la plantilla para una arquitectura micronúcleo o *microkernel
-architecture*; esta es una arquitectura monolítica.
+Esta es la plantilla para un estilo de arquitectura micronúcleo o *microkernel
+architecture*; esta es un estilo de arquitectura monolítica.
 
 Esta plantilla está basada en [^1].
 
@@ -19,9 +19,9 @@ implementación monolítica, generalmente instalada en el sitio del cliente—.
 La figura 1, a continuación, muestra un ejemplo con el núcleo del sistema con el
 estereotipo `≪core≫` y los complementos con el estereotipo `≪plugin≫`.
 
-![Plantilla de microkernel architecture](/diagrams/Architecture_Microkernel.svg)
+![Estilo microkernel architecture](/diagrams/Architecture_Microkernel.svg)
 
-*Figura 1: Plantilla de microkernel architecture.*
+*Figura 1: Estilo microkernel architecture.*
 
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
       Engineering Approach. O'Reilly.

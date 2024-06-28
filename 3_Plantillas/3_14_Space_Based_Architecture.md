@@ -1,9 +1,9 @@
 # 3 Plantillas
 
-## 3.13 Arquitectura basada en espacios
+## 3.13 Estilo de arquitectura basada en espacios
 
-Esta es la plantilla para una arquitectura basada en espacios o *space-based
-architecture*; esta es una arquitectura distribuida.
+Esta es la plantilla para un estilo de arquitectura basada en espacios o
+*space-based architecture*; este es un estilo de arquitectura distribuida.
 
 Esta plantilla está basada en [^1].
 
@@ -60,10 +60,9 @@ En la figura 1, a continuación, aparecen los siguientes elementos:
   encargado de leer desde la base de datos y poner el resultado en otra cola
   `Reverse Data Pump`.
 
-![Plantilla de space-based
-architecture](/diagrams/Architecture_Space_Based.svg)
+![Estilo space-based architecture](/diagrams/Architecture_Space_Based.svg)
 
-*Figura 1: Plantilla de space-based architecture.*
+*Figura 1: Estilo space-based architecture.*
 
 <!-- TODO: Agregar las variantes y ejemplos que aparecen en la referencia abajo -->
 
