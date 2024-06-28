@@ -10,7 +10,7 @@ de requerimiento atómico](/3_Plantillas/3_1_Requerimiento_atomico.md) en cada
 requerimiento.
 
 Tengan en cuenta que no todos los requerimientos no funcionales mencionados aquí
-necesariamente aplican, así que deben ser prudentes y analizar cuáles sí que son
+necesariamente aplican, así que deben ser prudentes y analizar cuáles sí son
 necesarios, así como cuáles no.
 
 ## Requerimientos de apariencia
@@ -96,7 +96,7 @@ daño percibido a personas o propiedad dentro del entorno de uso, detallar los
 requerimientos que cuantifican este daño. Estos pueden estar relacionados a
 estándares de seguridad o protección.
 
-## Requerimientos de *performance*
+## Requerimientos de performance
 
 <!-- SECCIÓN: Requerimientos de velocidad y latencia -->
 <!-- TAG: Requerido -->

@@ -4,8 +4,8 @@
 
 ### 1.1.3 Requerimientos funcionales
 
-En esta tercera parte deben definir el área de trabajo, alcance del proyecto y
-los requerimientos funcionales del mismo.
+En esta tercera parte deben definir el [área de trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md), alcance del proyecto y
+sus requerimientos funcionales.
 
 ## Área de trabajo
 
@@ -24,8 +24,8 @@ por la solución a desarrollar.
 <!-- SECCIÓN: Interfaces pertinentes al trabajo -->
 A alto nivel y mediante un [diagrama de
 contexto](../2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md), explicar
-las interacciones de la solución con entidades adyacentes a la misma (otras
-personas, organizaciones, hardware y software) y el input/output de estas
+las interacciones de la solución con sus sistemas [adyacentes](/4_Conceptos/4_Sistema_adyacente.md) —otras
+personas, organizaciones, hardware y software— y el input/output de estas
 interacciones.
 
 <!-- SECCIÓN: Eventos y casos de uso del negocio -->
@@ -56,7 +56,8 @@ diagramas de flujo, diagramas de secuencia o mapas mentales.
   src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
 />
 
-> [!NOTE] Cuando estés especificando el modelo de datos organizacionales y el
+> [!NOTE]
+> Cuando estés especificando el modelo de datos organizacionales y el
 > diccionario de datos, asegúrate de ser consistente con la subsección de
 > [convenciones de denominación y
 > términos](./1_1_2_Restricciones_del_proyecto.md#convenciones-de-denominación-y-términos)

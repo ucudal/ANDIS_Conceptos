@@ -5,7 +5,7 @@
 ### 1.1.2 Restricciones del proyecto
 
 En esta segunda parte deben mencionar todas las restricciones que afecten al
-proyecto, así como también asunciones que hagan en torno al mismo y que su
+proyecto, así como también asunciones que hagan acerca de él y que su
 cumplimiento —o, incumplimiento— puedan afectarlo. Además, deben definir una
 convención de denominaciones y términos que serán utilizados a lo largo del
 documento de forma consistente.

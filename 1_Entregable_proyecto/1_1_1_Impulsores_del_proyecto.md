@@ -155,9 +155,9 @@ Se puede usar el siguiente formato para cada necesidad:
 />
 
 Dependiendo de la naturaleza del producto a desarrollar, puede existir un
-comprador o consumidor del mismo. En caso de que su proyecto involucre
+comprador o consumidor de ese producto. En caso de que su proyecto involucre
 desarrollar un producto que luego será adquirido por un tercero, mencionar el
-arquetipo del comprador o consumidor del producto. Por ejemplo: Si el producto a
+arquetipo del comprador o consumidor del producto. Por ejemplo, si el producto a
 desarrollar fuera una aplicación de gestión de seguimiento de horas de
 empleados, el consumidor podría ser cualquier empresa interesada en hacer un
 seguimiento de horas de sus empleados.
