@@ -14,10 +14,7 @@ documento de forma consistente.
 
 <!-- SECCIÓN: Restricciones de diseño y tecnologías -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Cada una de las restricciones mencionadas en esta parte debe usar la [plantilla
 de requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md).
@@ -71,10 +68,7 @@ incluidos en el producto. En caso de que el cliente establezca un presupuesto
 
 <!-- SECCIÓN: Glosario -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Explicar todas las abreviaturas, términos y acrónimos particulares empleados en
 el contexto del proyecto y del problema que son utilizados en el documento.
@@ -83,10 +77,7 @@ el contexto del proyecto y del problema que son utilizados en el documento.
 
 <!-- SECCIÓN: Asunciones y dependencias -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Listar los asunciones que, si fueran cambiadas, cambiarían las capacidades del
 producto tal y como están descritas en este documento. Por ejemplo, una asunción

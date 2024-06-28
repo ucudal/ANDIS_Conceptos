@@ -100,10 +100,7 @@ estándares de seguridad o protección.
 
 <!-- SECCIÓN: Requerimientos de velocidad y latencia -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Detallar la cantidad de tiempo disponible para el producto al realizar
 diferentes tareas en términos de latencia y velocidad. Un ejemplo de latencia:
@@ -147,10 +144,7 @@ la cantidad de tiempo que estará operativo.
 
 <!-- SECCIÓN: Requerimientos de entorno físico -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Detallar los requerimientos del entorno físico en el cual el sistema operará. En
 algunos productos, las diferentes condiciones especiales bajo las que operará el
@@ -189,10 +183,7 @@ período, indicarlo aquí como un requerimiento.
 
 <!-- SECCIÓN: Requerimientos de mantenimiento -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Especificar aquellos requerimientos relacionados al mantenimiento del sistema
 por parte de los usuarios finales, administradores e incluso otros futuros
@@ -230,10 +221,7 @@ etcétera. Si hay restricciones de formatos o de impresión, indicarlo.
 
 <!-- SECCIÓN: Requerimientos de acceso -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Detallar quiénes tienen acceso a las diferentes partes del producto (tanto en
 términos de funcionalidades como en términos de datos) y bajo qué
@@ -248,9 +236,9 @@ malintencionado".
 <!-- SECCIÓN: Requerimientos de privacidad -->
 Describir aquellos requerimientos que definen qué debe hacer o con qué debe
 cumplir el sistema para asegurar la privacidad de los datos compartidos por los
-usuarios. Por ejemplo: "El sistema debe notificar a los usuarios sobre el uso
-de sus datos personales" o, "El sistema debe notificar sobre cambios en la
-política de privacidad de los datos".
+usuarios. Por ejemplo: "El sistema debe notificar a los usuarios sobre el uso de
+sus datos personales" o, "El sistema debe notificar sobre cambios en la política
+de privacidad de los datos".
 
 <!-- SECCIÓN: Requerimientos de inmunidad -->
 Mencionar qué es lo que tiene que hacer el sistema para protegerse de
@@ -278,20 +266,16 @@ auditados periódicamente".
 />
 
 Opcionalmente, pueden existir requerimientos de carácter sociológico que afecten
-la aceptabilidad del sistema. Estos son de particular interés al
-desarrollar un sistema para el mercado extranjero. Por ejemplo: "El sistema
-deberá ser capaz de distinguir entre el enumerado de calles utilizado en Italia
-e Inglaterra", o, "El sistema deberá contemplar los feriados de la Unión
-Europea".
+la aceptabilidad del sistema. Estos son de particular interés al desarrollar un
+sistema para el mercado extranjero. Por ejemplo: "El sistema deberá ser capaz de
+distinguir entre el enumerado de calles utilizado en Italia e Inglaterra", o,
+"El sistema deberá contemplar los feriados de la Unión Europea".
 
 ## Requerimientos legales
 
 <!-- SECCIÓN: Requerimientos de cumplimiento normativo -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Detallar los requerimientos asociados a normas y regulaciones que el proyecto y
 cada uno de ustedes como desarrolladores del sistema deberán cumplir.

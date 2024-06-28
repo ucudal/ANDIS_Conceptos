@@ -4,17 +4,15 @@
 
 ### 1.1.3 Requerimientos funcionales
 
-En esta tercera parte deben definir el [área de trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md), alcance del proyecto y
+En esta tercera parte deben definir el [área de
+trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md), alcance del proyecto y
 sus requerimientos funcionales.
 
 ## Área de trabajo
 
 <!-- SECCIÓN: Situación actual -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 <!-- TODO Agregar definición y link para 'modelo de procesos de negocio' -->
 Mediante un modelo de procesos de negocio, denotar los procesos de negocio
@@ -24,9 +22,9 @@ por la solución a desarrollar.
 <!-- SECCIÓN: Interfaces pertinentes al trabajo -->
 A alto nivel y mediante un [diagrama de
 contexto](../2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md), explicar
-las interacciones de la solución con sus sistemas [adyacentes](/4_Conceptos/4_Sistema_adyacente.md) —otras
-personas, organizaciones, hardware y software— y el input/output de estas
-interacciones.
+las interacciones de la solución con sus sistemas
+[adyacentes](/4_Conceptos/4_Sistema_adyacente.md) —otras personas,
+organizaciones, hardware y software— y el input/output de estas interacciones.
 
 <!-- SECCIÓN: Eventos y casos de uso del negocio -->
 A alto nivel, listar todos los [eventos del
@@ -51,10 +49,7 @@ diagramas de flujo, diagramas de secuencia o mapas mentales.
 
 <!-- SECCIÓN: Modelo de datos organizacionales -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 > [!NOTE]
 > Cuando estés especificando el modelo de datos organizacionales y el
@@ -108,10 +103,7 @@ de usar al definir requerimientos atómicos detallados.
 
 <!-- SECCIÓN: Diagrama o tabla de casos de uso -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Mediante un [diagrama de casos de
 uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md), definir
@@ -151,10 +143,7 @@ mediante una de las siguientes opciones:
 
 <!-- SECCIÓN: Requerimientos funcionales -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Detallar los requerimientos funcionales del producto utilizando el [template de
 requerimiento atómico](../3_Plantillas/3_1_Requerimiento_atomico.md) para cada

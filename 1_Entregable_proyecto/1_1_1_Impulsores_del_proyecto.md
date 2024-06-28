@@ -12,10 +12,7 @@ como también su proyección y cualquier entidad interesada en el mismo.
 
 <!-- SECCIÓN: Declaración del problema -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Sin entrar en detalles, describir el problema que este proyecto intenta
 resolver. Opcionalmente se puede utilizar el siguiente formato:
@@ -36,14 +33,14 @@ características del producto a desarrollar. Algunas cosas a mencionar:
 * Organización cliente (opcional, si ya se mencionó antes)
 
 * Categoría del producto y opcionalmente nombre, en caso de tenerlo definido.
-  **Preguntas disparadoras**: *¿Qué es el producto que voy a desarrollar?
-  ¿Cómo se llama?*
+  **Preguntas disparadoras**: *¿Qué es el producto que voy a desarrollar? ¿Cómo
+  se llama?*
 
 * Beneficios del producto
 
 * Productos alternativos. Estas alternativas compiten con la realización de este
-proyecto y pueden incluir comprar un producto de la competencia, construir una
-solución internamente o simplemente mantener el status quo. **Pregunta
+  proyecto y pueden incluir comprar un producto de la competencia, construir una
+  solución internamente o simplemente mantener el status quo. **Pregunta
   disparadora**: *¿Qué otros productos similares existen actualmente?*
 
 * Diferenciación del producto en comparación con las alternativas. **Preguntas
@@ -79,10 +76,7 @@ el siguiente formato:
 
 <!-- SECCIÓN: Cliente del proyecto -->
 <!-- TAG: Requerido -->
-<img
-  alt="REQUERIDO"
-  src="https://img.shields.io/badge/REQUERIDO-FF4D4D"
-/>
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 <!-- TODO Agregar definición y link para 'cliente' -->
 Mencionar el cliente o clientes del proyecto. Limitarse a mencionar tres como
