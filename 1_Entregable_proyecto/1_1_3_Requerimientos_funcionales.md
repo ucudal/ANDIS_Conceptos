@@ -14,10 +14,10 @@ sus requerimientos funcionales.
 <!-- TAG: Requerido -->
 <img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
-<!-- TODO Agregar definición y link para 'modelo de procesos de negocio' -->
-Mediante un modelo de procesos de negocio, denotar los procesos de negocio
-pertinentes que existen actualmente y que pueden ser reemplazados o cambiados
-por la solución a desarrollar.
+Utilizando un [diagrama
+BPMN](../2_Tecnicas_y_herramientas/2_4_4_Diagramas_BPMN.md), denotar los
+procesos de negocio pertinentes que existen actualmente y que pueden ser
+reemplazados o cambiados por la solución a desarrollar.
 
 <!-- SECCIÓN: Interfaces pertinentes al trabajo -->
 A alto nivel y mediante un [diagrama de
