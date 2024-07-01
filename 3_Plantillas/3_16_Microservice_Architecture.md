@@ -1,6 +1,6 @@
 # 3 Plantillas
 
-## 3.13 Estilo de arquitectura de microservicios
+## 3.16 Estilo de arquitectura de microservicios
 
 Esta es la plantilla para un estilo de arquitectura de microservicios o
 *microservices architecture*; este es un estilo de arquitectura distribuida.

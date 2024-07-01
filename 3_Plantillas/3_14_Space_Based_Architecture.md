@@ -1,6 +1,6 @@
 # 3 Plantillas
 
-## 3.13 Estilo de arquitectura basada en espacios
+## 3.14 Estilo de arquitectura basada en espacios
 
 Esta es la plantilla para un estilo de arquitectura basada en espacios o
 *space-based architecture*; este es un estilo de arquitectura distribuida.
@@ -44,7 +44,7 @@ En la figura 1, a continuación, aparecen los siguientes elementos:
   Memory Data Grid` de los nodos de procesamiento, en caso de que esos caché no
   se sincronicen entre sí —por eso es opcional—. El componente `Processing Grid`
   estereotipado como `≪orchestrator≫` es encargado de orquestar el procesamiento
-  de eventos entre varios nodos de procesamiento si fuera necesario —por es es
+  de eventos entre varios nodos de procesamiento si fuera necesario —por eso es
   opcional—. El componente `Deployment Manager` estereotipado como `≪agent≫`
   monitorea los nodos de procesamiento e inicia —o detiene— instancias de estos
   nodos si fuera necesario.

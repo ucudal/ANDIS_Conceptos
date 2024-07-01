@@ -1,6 +1,6 @@
 # 3 Plantillas
 
-## 3.13 Estilo de arquitectura orientada a servicios dirigida por la orquestación
+## 3.15 Estilo de arquitectura orientada a servicios dirigida por la orquestación
 
 Esta es la plantilla para un estilo de arquitectura orientada a servicios
 dirigida por la orquestación u *orchestration-driven service-oriented
