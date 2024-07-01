@@ -1,4 +1,4 @@
-# 1 Contenido
+# 1 Entregable del proyecto
 
 ## 1.4 Gestión
 
@@ -361,7 +361,7 @@ Los objetivos de esta etapa son:
   producto](/4_Conceptos/4_Caso_de_uso_del_producto.md) para los casos de uso
   del negocio más significativos que serán parte del MVP.
 
-* Usando la plantilla de [requerimiento
+* Usando la [plantilla de requerimiento
   atómico](/3_Plantillas/3_1_Requerimiento_atomico.md) especificar la versión
   inicial de los requisitos funcionales y no funcionales de los casos de uso del
   producto.
