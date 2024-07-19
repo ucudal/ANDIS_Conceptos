@@ -2,7 +2,7 @@
 
 ## 2.2 Modelos de arquitectura
 
-### 2.2.1 Modelo C4
+### 2.2.2 Modelo C4
 
 El modelo C4 se creó como una forma de ayudar a los equipos de desarrollo de
 software a describir y comunicar la arquitectura del software, tanto durante las
@@ -89,8 +89,8 @@ utilizar UML. Estos son los diagramas en un modelo C4:
 
 <!-- TODO: Agregar ejemplos de cada uno de estos diagramas, tomados de https://c4model.com -->
 
-[^1] Brown, S. (2024). The C4 model for visualizing software architecture-
+[^1]: Brown, S. (2024). The C4 model for visualizing software architecture-
      Context, Containers, Components, and Code. Disponible
      [aquí](https://c4model.com).
 
-[^2] No confundir con contenedores en el contexto de Docker.
+[^2]: No confundir con contenedores en el contexto de Docker.
