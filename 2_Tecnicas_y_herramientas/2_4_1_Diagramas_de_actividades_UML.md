@@ -167,7 +167,7 @@ acciones](/diagrams/Activity_Diagram_Send_Receive_Signals.svg)
 señales, acciones temporizadas, y acciones de envío de señales.*
 
 Los diagramas de actividades tienen otros elementos que no cubrimos en este
-documento; puedes ver las páginas sobre diagramas de actividades de las
+documento; puedes ver los documentos sobre diagramas de actividades de las
 herramientas de modelado [IBM Software
 Architect](https://www.ibm.com/docs/en/rational-soft-arch/9.7.0?topic=diagrams-activity),
 [Visual

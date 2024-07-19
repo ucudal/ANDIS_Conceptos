@@ -28,13 +28,12 @@ Los diagramas BPMN tienen típicamente los siguientes elementos gráficos:
 
 * **Andarivel**: piscinas y carriles.
 
-Un evento es algo que sucede durante el curso de un proceso (ver página 235) o
-una coreografía (ver página 339). Estos eventos afectan el flujo del modelo y
-generalmente tienen una causa —desencadenante— o un impacto —resultado—. Los
-eventos se representan con círculos con centros en blanco para permitir agregar
-marcadores en el interior para diferenciar diferentes desencadenantes o
-resultados. Hay tres tipos de eventos, según cuándo afectan el flujo: inicio,
-intermedio y final.
+Un evento es algo que sucede durante el curso de un proceso o una coreografía.
+Estos eventos afectan el flujo del modelo y generalmente tienen una causa
+—desencadenante— o un impacto —resultado—. Los eventos se representan con
+círculos con centros en blanco para permitir agregar marcadores en el interior
+para diferenciar diferentes desencadenantes o resultados. Hay tres tipos de
+eventos, según cuándo afectan el flujo: inicio, intermedio y final.
 
 ![Eventos de inicio, intermedio y final](/diagrams/BPMN_Diagram_Events.svg)
 

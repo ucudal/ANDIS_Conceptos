@@ -37,7 +37,7 @@ comunidad Python](https://www.python.org/psf/codeofconduct/).
 
 ¿Aún no sabes como empezar a contribuir? Puedes empezar revisando los
 
-*issues* con etiquetas `good first issue` —principiante— y `help wanted`
+*issues* con etiquetas `good first issue` ‑principiante‑ y `help wanted`
 
 * Etiqueta `good first issue`: los *issues* con esta etiqueta deberían ser
 triviales de resolver, por ejemplo, un error ortográfico, o un error de formato.
@@ -99,13 +99,12 @@ La rama `main` está configurada con una regla de protección de requiere:
 > [!TIP]
 > Para obtener más información sobre las reglas de protección de
 > las ramas mira [este link](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging).
-
-> [!TIP]
+>
 > Para obtener más información sobre los *code owners* mira [este
 > link](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+</br>
 
 Para cualquier cosa que sea mayor a una o dos líneas para corregir:
-
 
 1. Crea tu propio *fork* del código
 2. Haz los cambios en tu *fork*
@@ -154,7 +153,6 @@ de un *issue*.
 Al crear un *issue* para pedir que se agregue el contenido que te gustaría ver,
 asegúrate de que incluya las respuesta a las siguientes preguntas:
 
-
 1. ¿Qué contenido está faltando? Incluye referencias a libros, sitios web, u
 otros recursos útiles para encontrar lo que estás sugiriendo
 2. ¿Por qué es necesario?
@@ -166,13 +164,12 @@ TODO: Revisar estas fuentes
 [fuente: [Elasticsearch](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#feature-requests)] **Necesitas más inspiración?** [1] [Hoodie](https://github.com/hoodiehq/hoodie/blob/master/CONTRIBUTING.md#feature-requests) [2] [Ember.js](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md#requesting-a-feature)
 -->
 
-
 <!-- TODO: Definir si vamos a tener un proceso de revisión>
 # Proceso de Revisión del código
 ### Explica que necesita una contribución para ser aceptada luego de que se hace el submit.
 Quién la revisa? Quien necesita firmar antes de que sea aceptada? Cuando debería esperar el contribuidor que le respondas? Cómo puede tener un contribuidor acceso a hacer commits, si fuese necesario?
 
-> El core team revisa los Pull Requests semanalmente en una junta tripartita que se lleva a cabo en un Google Hangout público. El hangout se anuncia en las actualizaciones semanales y son enviados a la lista puppet-dev. Las notas son posteadas en el repo de Puppet Community community-triage e incluye un enlace a la grabacíon del hangout en YouTube.
+> El core team revisa los Pull Requests semanalmente en una junta tripartita que se lleva a cabo en un Google Hangout público. El hangout se anuncia en las actualizaciones semanales y son enviados a la lista puppet-dev. Las notas son publicadas en el repo de Puppet Community community-triage e incluye un enlace a la grabación del hangout en YouTube.
 > Luego de que se da la retroalimentación se esperan respuestas en las siguientes dos semanas. Luego de ello puede que se cierre el pull request debido a la inactividad.
 
 [fuente: [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#submitting-changes)] **Necesitas más inspiración?** [1] [Meteor](https://meteor.hackpad.com/Responding-to-GitHub-Issues-SKE2u3tkSiH ) [2] [Express.js](https://github.com/expressjs/express/blob/master/Contributing.md#becoming-a-committer)
@@ -280,10 +277,10 @@ El contenido está organizado en estas carpetas:
 4. Conceptos
 5. Unidades temáticas
 
-Cada carpeta tiene un archivo Markdown —con extensión `.md`— cuyo nombre
+Cada carpeta tiene un archivo Markdown ‑con extensión `.md`‑ cuyo nombre
 coincide con el de la carpeta y sirve como tabla de contenido de la carpeta
-—excepto que usa dos guiones bajos `__` en lugar de uno para separar el número
-del resto de nombre; esto para que quede ordenado antes de los demás archivos—:
+‑excepto que usa dos guiones bajos `__` en lugar de uno para separar el número
+del resto de nombre; esto para que quede ordenado antes de los demás archivos‑:
 por ejemplo, la carpeta `4_Conceptos` tiene un archivo `4__Conceptos.md`.
 
 > [!IMPORTANT]
@@ -324,12 +321,14 @@ Los nombres de los archivos en la carpeta `5_Unidades_tematicas` comienzan con:
 Respetamos la propiedad intelectual dando atribución al origen del contenido
 incluido en los documentos.
 
-Cuando el contenido de un documento fue tomado de una fuente,
-incluimos el texto "Tomado de", seguido de una notas al pie, al final de la primera frase del documento.
+Cuando el contenido de un documento fue tomado de una fuente, incluimos el texto
+"Tomado de", seguido de una notas al pie, al final de la primera frase del
+documento.
 
 #### Ejemplo
 
-> Esta es la plantilla para un requerimiento funcional o no funcional. Tomado de [^1].
+> Esta es la plantilla para un requerimiento funcional o no funcional. Tomado de
+> [^1].
 
 [^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
 Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
@@ -343,7 +342,8 @@ Esta es la plantilla para un requerimiento funcional o no funcional. Tomado de [
 Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
 ```
 
-En el caso de una imagen, el texto "Tomado de" va al final del pie de foto, seguido de una nota al pie.
+En el caso de una imagen, el texto "Tomado de" va al final del pie de foto,
+seguido de una nota al pie.
 
 > [!TIP]
 > Mira [este link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes)
@@ -393,16 +393,17 @@ Usamos el símbolo `*` para las viñetas; no usamos `-`.
 ### Incisos
 
 Cuando queremos incluir en una frase un texto en forma de aclaración o
-explicación —lo que en gramática se conoce como
-[inciso](https://www.rae.es/drae2001/inciso#)—, usamos `—` que corresponde con
+explicación ‑lo que en gramática se conoce como
+[inciso](https://www.rae.es/drae2001/inciso#)‑, usamos `‑` que corresponde con
 la [raya](https://www.rae.es/dpd/raya) o `EM DASH`, código Unicode `U+2014` o
-UTF-8 `E28094`; no usamos `-` o guión.
+UTF-8 `E28094`; no usamos `-` o guión; una [Github
+Action](https://github.com/marketplace/actions/find-and-replace) reemplaza ese
+carácter por `NON-BREAKING HYPHEN`, código Unicode `U+2011` o UTF-8 `E28091`.
 
 Puedes generar una raya:
 
 * En Windows: con <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>-</kbd>
 * En Mac: con <kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>-</kbd>
-
 
 ### Palabras en inglés u otros idiomas
 
@@ -410,9 +411,9 @@ Cuando no existe una traducción ampliamente aceptada de una palabra en inglés
 u otro idioma al español, preferimos usar la palabra original; esa palabra la
 escribimos *en cursiva*.
 
-### Notas, consejos, avisos, etc.
+### Notas, consejos, avisos, etcétera
 
-Incluimos notas —*notes*—, consejos —*tips*—, avisos —*warnings*—, etc. usando
+Incluimos notas ‑*notes*‑, consejos ‑*tips*‑, avisos ‑*warnings*‑, etc. usando
 la notación de citas en bloque según se describe
 [aquí](https://github.com/orgs/community/discussions/16925).
 
@@ -432,6 +433,7 @@ la notación de citas en bloque según se describe
 
 > [!CAUTION]
 > Consecuencias potenciales negativas de una acción.
+</br>
 
 #### Fuente
 
@@ -459,8 +461,7 @@ No usamos caracteres especiales o letras con tilde en los nombres de archivos.
 Tampoco usamos espacios, separamos las palabras que componen el nombre con guión
 bajo `_`.
 
-Cada palabra del nombre comienza con mayúscula, excepto conectores como `y`, `a`
-o `de`.
+El nombre comienza con mayúscula.
 
 <!-- TODO: evaluar incluir otras convenciones para commits, issues, etc.
 

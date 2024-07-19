@@ -117,7 +117,7 @@ ejemplo: patrocinadores, expertos del dominio, usuarios del sistema actual,
 expertos en legislación, diseñadores, usuarios encargados del mantenimiento del
 sistema, encargados del servicio técnico, etcétera. Para cada uno de ellos,
 detallar: rol en el proyecto, rol en la organización, aporte al proyecto, grado
-de involucración en el proyecto y nivel de influencia en el proyecto.
+de involucramiento en el proyecto y nivel de influencia en el proyecto.
 
 <!-- SECCIÓN: Identificación de necesidades clave -->
 Listar los problemas clave junto con las soluciones existentes, de acuerdo a la
