@@ -107,7 +107,7 @@ Cada una de estas fases puede tener una o más iteraciones o *sprints*.
 Tomado de [PMI](https://www.pmi.org/disciplined-agile/lifecycle).*
 
 > [!TIP]
-> Puedes ver las actividades en cada una de las fases de DAD en el [DA
+> Pueden ver las actividades en cada una de las fases de DAD en el [DA
 > Browser](https://dabrowser.pmi.org).
 
 El anteproyecto y proyecto final de grado tienen las siguientes etapas, donde
@@ -197,7 +197,7 @@ Para ello deberán mantener reuniones con la contraparte del proyecto, es decir,
 quién actúe como cliente. Esperamos que se familiaricen lo suficiente con la
 necesidad que les planteen y con el dominio del problema o del [área de
 trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md), como para formular la
-propuesta; puedes ver [aquí](#propuesta-de-proyecto) qué contiene la propuesta a
+propuesta; pueden ver [aquí](#propuesta-de-proyecto) qué contiene la propuesta a
 entregar al final de esta etapa.
 
 También deberán determinar qué es lo que se necesita construir para resolver la
@@ -276,10 +276,10 @@ Los objetivos en esta etapa son:
   el plan del proyecto.
 
 * Compartir con el cliente el plan del proyecto y validar expectativas sobre el
-  alcance del proyecto y las soluciones arquitectónicas que incluiste
-  oportunamente en la propuesta de proyecto ‑si no lo hubieras hecho todavía‑.
+  alcance del proyecto y las soluciones arquitectónicas que incluyeron
+  oportunamente en la propuesta de proyecto ‑si no lo hubieran hecho todavía‑.
 
-* Comenzar a escribir el documento entregable; puedes ver a continuación qué
+* Comenzar a escribir el documento entregable; pueden ver a continuación qué
   productos se generan en esta etapa para cada dimensión del proyecto.
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
@@ -302,18 +302,18 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
 * **Desarrollo**. Aunque no es requerido, sí es recomendable tener un esqueleto
   de la arquitectura de la solución en código. Por ejemplo, si el producto final
-  será una aplicación *mobile* con un *backend*, puedes tener un servicio web
+  será una aplicación *mobile* con un *backend*, pueden tener un servicio web
   REST para el *backend* con un *endpoint* de chequeo de salud[^1] que retorne
   siempre `200 OK` y el cliente *mobile* puede ser simplemente una pantalla de
   bienvenida que muestre el resultado del chequeo de salud del *backend*, todo
   corriendo en ambiente de desarrollo. Aunque esto pueda cambiar en el futuro,
-  te obligará a crear los proyectos, ponerlos en un repositorio de control de
+  les obligará a crear los proyectos, ponerlos en un repositorio de control de
   configuración en línea, asignar los permisos, etc.
 
-  > [!IMPORTANT]
-  > Todos los miembros del equipo, independientemente de su rol, deberán conocer
-  > y estar en condiciones de ejecutar el código desarrollado a lo largo de todo
-  > el proyecto.
+> [!IMPORTANT]
+> Todos los miembros del equipo, independientemente de su rol, deberán conocer
+> y estar en condiciones de ejecutar el código desarrollado a lo largo de todo
+> el proyecto.
 
 * **Aseguramiento de la calidad**. Completen la sección de resultado esperado de
   cada caso de uso, y asegúrense de que es verificable.
@@ -377,7 +377,7 @@ Los objetivos de esta etapa son:
   prueba](/3_Plantillas/3_4_Casos_de_prueba_de_usuario_final.md) en aquellos
   casos que sea posible.
 
-* Definir la arquitectura detallada y las tecnologías que vas a utilizar.
+* Definir la arquitectura detallada y las tecnologías que van a utilizar.
 
 * Implementar la mínima cantidad de requerimientos ‑puede ser uno‑ que permita
   validar la arquitectura planteada.
@@ -393,11 +393,12 @@ Los objetivos de esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los casos de uso del producto para los casos del negocio
-  más significativos identificados en la etapa anterior. Incluyan en cada caso
-  de uso al menos su disparador, su nombre, el actor, el curso básico y el
-  resultado esperado; excepto para el o los casos de uso del producto que hayan
-  elegido para validar la arquitectura, que tendrán que estar completo.
+* **Requerimientos**. Los casos de uso del producto para los casos de uso del
+  negocio más significativos identificados en la etapa anterior. Incluyan en
+  cada caso de uso del producto al menos su disparador, su nombre, el actor, el
+  curso básico y el resultado esperado; excepto para el o los casos de uso del
+  producto que hayan elegido para validar la arquitectura, que tendrán que estar
+  completos.
 
   Los requerimientos funcionales y no funcionales para el o los casos de uso del
   producto que hayan incluido.
@@ -445,7 +446,7 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 La tercera etapa del proyecto es el primer *release*. Dura entre doce y catorce
 semanas.
 
-Más allá de que en cada iteración produzcas una [solución
+Más allá de que en cada iteración produzcan una [solución
 consumible](/4_Conceptos/4_Solucion_consumible.md), en el primer *release* sí o
 sí deberías tener una solución similar a la final, aunque obviamente sólo
 implementará los requerimientos asignados a esta etapa. Excepto por el hecho de
@@ -466,7 +467,7 @@ Los objetivos de esta etapa son:
 
 * Liberar una primera versión del MVP funcionando.
 
-De nuevo, aunque en cada iteración ya vengas usando una forma de compilación,
+De nuevo, aunque en cada iteración ya vengan usando una forma de compilación,
 despliegue y prueba automatizada, en este *release* sí o sí deberás tenerla.
 Esto puede ser implementado con [GitHub
 Actions](https://github.com/features/actions), [Azure
@@ -683,11 +684,11 @@ Contenido de la propuesta:
     Monitoring](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring)
     por ejemplo.
 
-[^2]: Ten en cuenta la seguridad y privacidad de la información que almacenes en
-    estos repositorios; si tienes un acuerdo de confidencialidad con el cliente,
-    deberías usar las herramientas recomendadas. También deberás considerar que
-    otras herramientas pueden tener costos asociados o limitar la cantidad de
-    usuarios o de archivos en las versiones gratuitas.
+[^2]: Tengan en cuenta la seguridad y privacidad de la información que almacenen
+    en estos repositorios; si tienen un acuerdo de confidencialidad con el
+    cliente, deberían usar las herramientas recomendadas. También deberán
+    considerar que otras herramientas pueden tener costos asociados o limitar la
+    cantidad de usuarios o de archivos en las versiones gratuitas.
 
 [^3]: Estos reportes pueden ser generados automáticamente con la herramienta
     Azure DevOps recomendada, no tienen porqué hacerlos a mano si la usan para
