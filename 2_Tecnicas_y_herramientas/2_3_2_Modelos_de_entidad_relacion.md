@@ -95,9 +95,11 @@ máximo.
 * Anillo y pata de gallo → mínimo cero, máximo muchos (opcional)
 * Guión y pata de gallo → mínimo uno, máximo muchos (obligatorio)
 
-![](/diagrams/Entity_Relationship_Diagram_Cardinality.svg)
+![Ejemplos de cardinalidad](/diagrams/Entity_Relationship_Diagram_Cardinality.svg)
 
 *Figura 1. Ejemplos de cardinalidad*
+
+#### *Figura 1. Ejemplos de cardinalidad*
 
 El ejemplo en la figura 2, a continuación, muestra una versión simplificada de
 un sistema de reservas de hotel donde los clientes pueden reservar habitaciones

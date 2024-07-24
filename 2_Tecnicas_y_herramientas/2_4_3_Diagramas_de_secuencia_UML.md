@@ -76,7 +76,7 @@ Existen varios tipos de mensajes:
   recibido por un receptor pero que se desconoce o no interesa modelar el
   emisor.
 
-![](/diagrams/Activity_Diagram_Found.svg)
+![Mensaje encontrado en diagramas de actividad](/diagrams/Activity_Diagram_Found.svg)
 
 Los diagramas de secuencia pueden tener regiones, que contienen un subconjunto
 de los mensajes del diagrama. Las regiones se representan con un rectángulo con

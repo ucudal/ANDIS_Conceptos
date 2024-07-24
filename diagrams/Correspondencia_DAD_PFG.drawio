@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="6vnPT8SOYSNTvB06dZvl" name="Page-1">
+        <mxGraphModel dx="590" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Etapas en PFG" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Anteproyecto" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="80" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Descubrimiento e inicio" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="120" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Prueba de concepto" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="160" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Primer &lt;i&gt;release&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Segundo&amp;nbsp;&lt;i&gt;release&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="240" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Delivery al cliente y tercer&amp;nbsp;&lt;i&gt;release&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="280" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Entregas en PFG" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="40" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Propuesta de proyecto" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="80" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Primera entrega" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="120" width="140" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Segunda entrega" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="240" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Entrega final" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="280" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Fases en DAD" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="40" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Inicio" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="80" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Construcción" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="160" width="140" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Transición" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="320" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Defensa" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="360" width="480" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
