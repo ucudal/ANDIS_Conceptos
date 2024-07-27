@@ -13,7 +13,7 @@ como para el componente de construcción de los proyectos de emprendimiento
 El documento entregable tiene un capítulo para cada una de las
 dimensiones del proyecto:
 
-* Requerimientos
+* Requisitos
 
 * Diseño y arquitectura
 
@@ -46,7 +46,7 @@ sucesivas entregas a medida que avanza el proyecto.
 > cuándo es de carácter obligatorio. Ante cualquier duda respecto a la
 > obligatoriedad de estos ítems, pueden consultar al tutor.
 
-## 1.1 [Requerimientos](./1_1__Requerimientos.md)
+## 1.1 [Requisitos](./1_1__Requisitos.md)
 
 Basado en la plantilla de requisitos utilizada en el curso de Análisis y diseño
 de aplicaciones I. Incluye aspectos del documento de casos de uso de ediciones
@@ -131,7 +131,7 @@ Las siguientes son las diferentes dimensiones en las que los equipos trabajan a
 lo largo del proyecto; en algunas etapas trabajan más en una dimensión que en
 otras.
 
-* Requerimientos
+* Requisitos
 
 * Diseño y arquitectura
 
@@ -217,7 +217,7 @@ carrera](https://webasignatura.ucu.edu.uy/course/view.php?id=3751).
 
 El contenido esperado de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los [eventos de
+* **Requisitos**. Los [eventos de
   negocio](/4_Conceptos/4_Evento_del_negocio.md) más significativos. Incluyan
   para cada evento del negocio al menos su descripción, sus datos, y si es de
   entrada o de salida.
@@ -280,7 +280,7 @@ Los objetivos en esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Todos los eventos del negocio; incluyan para cada evento
+* **Requisitos**. Todos los eventos del negocio; incluyan para cada evento
   de negocio al menos la misma información que incluyeron en la propuesta.
 
   Todos los casos de uso del negocio para los eventos del negocio identificados;
@@ -389,7 +389,7 @@ Los objetivos de esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los casos de uso del producto para los casos de uso del
+* **Requisitos**. Los casos de uso del producto para los casos de uso del
   negocio más significativos identificados en la etapa anterior. Incluyan en
   cada caso de uso del producto al menos su disparador, su nombre, el actor, el
   curso básico y el resultado esperado; excepto para el o los casos de uso del
@@ -472,7 +472,7 @@ alguna otra herramienta equivalente.
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los casos de uso del producto completos que correspondan a
+* **Requisitos**. Los casos de uso del producto completos que correspondan a
   la funcionalidad incluida en esta etapa; las actualizaciones de los
   previamente entregados si correspondiera.
 
@@ -546,7 +546,7 @@ Los objetivos de esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los casos de uso del producto completos que corresponden a
+* **Requisitos**. Los casos de uso del producto completos que corresponden a
   las funcionalidades incluidas en esta etapa; incluyan actualizaciones de los
   previamente entregados si corresponde.
 
@@ -584,7 +584,7 @@ Esta es la quinta y última etapa del proyecto. Dura entre tres y cuatro semanas
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los casos de uso del producto completos para toda la
+* **Requisitos**. Los casos de uso del producto completos para toda la
   solución.
 
   Los requerimientos atómicos completos para toda la solución.
