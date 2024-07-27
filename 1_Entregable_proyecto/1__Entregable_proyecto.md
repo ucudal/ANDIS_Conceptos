@@ -147,10 +147,6 @@ De la combinación entre las etapas y las dimensiones surgen las actividades y
 los productos que se generan a lo largo del proyecto final de grado, como se
 detalla más adelante.
 
-A partir de 2024 toda la documentación se entrega en un solo archivo o
-repositorio siguiendo la estructura detallada en la sección [Entregable
-proyecto](/1_Entregable_proyecto/1__Entregable_proyecto.md) de este repositorio.
-
 ### Correspondencia entre el marco metodológico y el proyecto final de grado
 
 A continuación detallamos la correspondencia entre las etapas y entregas del
@@ -242,7 +238,7 @@ El contenido esperado de esta etapa para cada dimensión son los siguientes:
 * **Desarrollo**. No es necesario que desarrollen código en esta etapa.
 
 * **Aseguramiento de la calidad**. Pueden usar la [rúbrica de propuestas de
-  proyecto](/1_Entregable_proyecto/1_5_1_Rubrica_propuesta.md) final de grado
+  proyecto](/1_Entregable_proyecto/1_5_A_Rubrica_propuesta.md) final de grado
   para evaluar el producto que van a entregar; sin embargo, no es necesario que
   entreguen esta evaluación.
 
@@ -678,6 +674,11 @@ Contenido de la propuesta:
 * [Carta de aceptación](/3_Plantillas/3_5_Carta_aceptacion_cliente.md)
 
 * <!-- TODO: enumerar las secciones aplicables -->
+
+### Defensa
+
+* Presentación oral de 15 minutos, evaluada según [rúbrica de la
+  defensa](./1_5_B_Rubrica_defensa.md)
 
 [^1]: Ese *endpoint* será la semilla para implementar en el futuro el patrón
     [Health Endpoint
