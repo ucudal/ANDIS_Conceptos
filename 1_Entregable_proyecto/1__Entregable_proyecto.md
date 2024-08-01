@@ -13,7 +13,7 @@ como para el componente de construcción de los proyectos de emprendimiento
 El documento entregable tiene un capítulo para cada una de las
 dimensiones del proyecto:
 
-* Requerimientos
+* Requisitos
 
 * Diseño y arquitectura
 
@@ -46,7 +46,7 @@ sucesivas entregas a medida que avanza el proyecto.
 > cuándo es de carácter obligatorio. Ante cualquier duda respecto a la
 > obligatoriedad de estos ítems, pueden consultar al tutor.
 
-## 1.1 [Requerimientos](./1_1__Requerimientos.md)
+## 1.1 [Requisitos](./1_1__Requisitos.md)
 
 Basado en la plantilla de requisitos utilizada en el curso de Análisis y diseño
 de aplicaciones I. Incluye aspectos del documento de casos de uso de ediciones
@@ -107,7 +107,7 @@ Cada una de estas fases puede tener una o más iteraciones o *sprints*.
 Tomado de [PMI](https://www.pmi.org/disciplined-agile/lifecycle).*
 
 > [!TIP]
-> Puedes ver las actividades en cada una de las fases de DAD en el [DA
+> Pueden ver las actividades en cada una de las fases de DAD en el [DA
 > Browser](https://dabrowser.pmi.org).
 
 El anteproyecto y proyecto final de grado tienen las siguientes etapas, donde
@@ -131,7 +131,7 @@ Las siguientes son las diferentes dimensiones en las que los equipos trabajan a
 lo largo del proyecto; en algunas etapas trabajan más en una dimensión que en
 otras.
 
-* Requerimientos
+* Requisitos
 
 * Diseño y arquitectura
 
@@ -193,7 +193,7 @@ Para ello deberán mantener reuniones con la contraparte del proyecto, es decir,
 quién actúe como cliente. Esperamos que se familiaricen lo suficiente con la
 necesidad que les planteen y con el dominio del problema o del [área de
 trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md), como para formular la
-propuesta; puedes ver [aquí](#propuesta-de-proyecto) qué contiene la propuesta a
+propuesta; pueden ver [aquí](#propuesta-de-proyecto) qué contiene la propuesta a
 entregar al final de esta etapa.
 
 También deberán determinar qué es lo que se necesita construir para resolver la
@@ -217,7 +217,7 @@ carrera](https://webasignatura.ucu.edu.uy/course/view.php?id=3751).
 
 El contenido esperado de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los [eventos de
+* **Requisitos**. Los [eventos de
   negocio](/4_Conceptos/4_Evento_del_negocio.md) más significativos. Incluyan
   para cada evento del negocio al menos su descripción, sus datos, y si es de
   entrada o de salida.
@@ -272,15 +272,15 @@ Los objetivos en esta etapa son:
   el plan del proyecto.
 
 * Compartir con el cliente el plan del proyecto y validar expectativas sobre el
-  alcance del proyecto y las soluciones arquitectónicas que incluiste
-  oportunamente en la propuesta de proyecto ‑si no lo hubieras hecho todavía‑.
+  alcance del proyecto y las soluciones arquitectónicas que incluyeron
+  oportunamente en la propuesta de proyecto ‑si no lo hubieran hecho todavía‑.
 
-* Comenzar a escribir el documento entregable; puedes ver a continuación qué
+* Comenzar a escribir el documento entregable; pueden ver a continuación qué
   productos se generan en esta etapa para cada dimensión del proyecto.
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Todos los eventos del negocio; incluyan para cada evento
+* **Requisitos**. Todos los eventos del negocio; incluyan para cada evento
   de negocio al menos la misma información que incluyeron en la propuesta.
 
   Todos los casos de uso del negocio para los eventos del negocio identificados;
@@ -298,18 +298,18 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
 * **Desarrollo**. Aunque no es requerido, sí es recomendable tener un esqueleto
   de la arquitectura de la solución en código. Por ejemplo, si el producto final
-  será una aplicación *mobile* con un *backend*, puedes tener un servicio web
+  será una aplicación *mobile* con un *backend*, pueden tener un servicio web
   REST para el *backend* con un *endpoint* de chequeo de salud[^1] que retorne
   siempre `200 OK` y el cliente *mobile* puede ser simplemente una pantalla de
   bienvenida que muestre el resultado del chequeo de salud del *backend*, todo
   corriendo en ambiente de desarrollo. Aunque esto pueda cambiar en el futuro,
-  te obligará a crear los proyectos, ponerlos en un repositorio de control de
+  les obligará a crear los proyectos, ponerlos en un repositorio de control de
   configuración en línea, asignar los permisos, etc.
 
-  > [!IMPORTANT]
-  > Todos los miembros del equipo, independientemente de su rol, deberán conocer
-  > y estar en condiciones de ejecutar el código desarrollado a lo largo de todo
-  > el proyecto.
+> [!IMPORTANT]
+> Todos los miembros del equipo, independientemente de su rol, deberán conocer
+> y estar en condiciones de ejecutar el código desarrollado a lo largo de todo
+> el proyecto.
 
 * **Aseguramiento de la calidad**. Completen la sección de resultado esperado de
   cada caso de uso, y asegúrense de que es verificable.
@@ -373,7 +373,7 @@ Los objetivos de esta etapa son:
   prueba](/3_Plantillas/3_4_Casos_de_prueba_de_usuario_final.md) en aquellos
   casos que sea posible.
 
-* Definir la arquitectura detallada y las tecnologías que vas a utilizar.
+* Definir la arquitectura detallada y las tecnologías que van a utilizar.
 
 * Implementar la mínima cantidad de requerimientos ‑puede ser uno‑ que permita
   validar la arquitectura planteada.
@@ -389,11 +389,12 @@ Los objetivos de esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los casos de uso del producto para los casos del negocio
-  más significativos identificados en la etapa anterior. Incluyan en cada caso
-  de uso al menos su disparador, su nombre, el actor, el curso básico y el
-  resultado esperado; excepto para el o los casos de uso del producto que hayan
-  elegido para validar la arquitectura, que tendrán que estar completo.
+* **Requisitos**. Los casos de uso del producto para los casos de uso del
+  negocio más significativos identificados en la etapa anterior. Incluyan en
+  cada caso de uso del producto al menos su disparador, su nombre, el actor, el
+  curso básico y el resultado esperado; excepto para el o los casos de uso del
+  producto que hayan elegido para validar la arquitectura, que tendrán que estar
+  completos.
 
   Los requerimientos funcionales y no funcionales para el o los casos de uso del
   producto que hayan incluido.
@@ -441,7 +442,7 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 La tercera etapa del proyecto es el primer *release*. Dura entre doce y catorce
 semanas.
 
-Más allá de que en cada iteración produzcas una [solución
+Más allá de que en cada iteración produzcan una [solución
 consumible](/4_Conceptos/4_Solucion_consumible.md), en el primer *release* sí o
 sí deberías tener una solución similar a la final, aunque obviamente sólo
 implementará los requerimientos asignados a esta etapa. Excepto por el hecho de
@@ -462,7 +463,7 @@ Los objetivos de esta etapa son:
 
 * Liberar una primera versión del MVP funcionando.
 
-De nuevo, aunque en cada iteración ya vengas usando una forma de compilación,
+De nuevo, aunque en cada iteración ya vengan usando una forma de compilación,
 despliegue y prueba automatizada, en este *release* sí o sí deberás tenerla.
 Esto puede ser implementado con [GitHub
 Actions](https://github.com/features/actions), [Azure
@@ -471,7 +472,7 @@ alguna otra herramienta equivalente.
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los casos de uso del producto completos que correspondan a
+* **Requisitos**. Los casos de uso del producto completos que correspondan a
   la funcionalidad incluida en esta etapa; las actualizaciones de los
   previamente entregados si correspondiera.
 
@@ -545,7 +546,7 @@ Los objetivos de esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los casos de uso del producto completos que corresponden a
+* **Requisitos**. Los casos de uso del producto completos que corresponden a
   las funcionalidades incluidas en esta etapa; incluyan actualizaciones de los
   previamente entregados si corresponde.
 
@@ -583,7 +584,7 @@ Esta es la quinta y última etapa del proyecto. Dura entre tres y cuatro semanas
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los casos de uso del producto completos para toda la
+* **Requisitos**. Los casos de uso del producto completos para toda la
   solución.
 
   Los requerimientos atómicos completos para toda la solución.
@@ -642,13 +643,16 @@ Contenido de la propuesta:
   quién de los interesados actuará como encargado del proyecto de la contraparte
   y quién hace las veces de patrocinador.
 
-* El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes.
+* El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes. Esto
+  se ve resumido en la siguiente tabla:
+
+| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+|-|-|-|-|-|-|
+| Eventos de negocio más significativos | Arquitectura tentativa a alto nivel |  |  |  | Versión de DAD a usar y roles de los miembros del equipo |
+| Casos de uso del negocio para los eventos de negocio |  |  |  |  |  |
+| Requerimientos relacionados a UX/UI |  |  |  |  |  |
 
 ### Primera entrega
-
-* Documento entregable, con el contenido indicado para las etapas
-  [descubrimiento e inicio](#descubrimiento-e-inicio), [prueba de
-  concepto](#prueba-de-concepto) y [primer *release*](#primer-release).
 
 * [Carta de
   confidencialidad](/3_Plantillas/3_6_Carta_confidencialidad_simple.md) o
@@ -656,23 +660,44 @@ Contenido de la propuesta:
   confidencialidad](/3_Plantillas/3_7_Compromiso_confidencialidad.md) según
   corresponda.
 
-* <!-- TODO: enumerar las secciones aplicables -->
+* Documento entregable, con el contenido indicado para las etapas
+  [descubrimiento e inicio](#descubrimiento-e-inicio), [prueba de
+  concepto](#prueba-de-concepto) y [primer *release*](#primer-release). La
+  siguiente tabla resume lo agregado al documento para esta entrega:
+
+| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+|-|-|-|-|-|-|
+| Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código funcionando con lo implementado hasta el momento | Tests unitarios para las funcionalidades desarrolladas | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
+| Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
+| Los casos de uso del producto y requerimientos atómicos para los casos de uso implementados  | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  |  |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
 
 ### Segunda entrega
 
 * Documento entregable, con el contenido indicado para la etapa de [segundo
-  *release*](#segundo-release).
+  *release*](#segundo-release). La siguiente tabla resume lo agregado al
+  documento para esta entrega:
 
-* <!-- TODO: enumerar las secciones aplicables -->
+| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+|-|-|-|-|-|-|
+| Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código funcionando con lo implementado hasta el momento | Tests unitarios para las funcionalidades desarrolladas | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
+| Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
+| Los casos de uso del producto y requerimientos atómicos para los casos de uso implementados  | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  | Pruebas de regresión |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
+|  |  |  | Casos de prueba de usuario final para los casos de uso del producto implementados hasta el momento, incluyendo los datos de prueba utilizados y los resultados de las pruebas |  |  |
 
 ### Entrega final
 
-* Documento entregable, con el contenido indicado para la etapa de [delivery al
-  cliente y tercer *release*](#delivery-al-cliente-y-tercer-release)
-
 * [Carta de aceptación](/3_Plantillas/3_5_Carta_aceptacion_cliente.md)
 
-* <!-- TODO: enumerar las secciones aplicables -->
+* Documento entregable, con el contenido indicado para la etapa de [delivery al
+  cliente y tercer *release*](#delivery-al-cliente-y-tercer-release). La
+  siguiente tabla resume lo agregado al documento para esta entrega:
+
+| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+|-|-|-|-|-|-|
+| Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código completo de la solución | Tests unitarios para el código entregado | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
+| Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | *Pipeline* de CI/CD actualizado para despliegue en ambiente de pruebas | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
+| Los casos de uso del producto y requerimientos atómicos para toda la solución  | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  | Pruebas de regresión |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
+|  |  |  | Casos de prueba de usuario final y pruebas de integración, ambos para un conjunto significativo de la funcionalidad de la solución, incluyendo los datos de prueba utilizados y los resultados de las pruebas |  | Retrospectiva |
 
 ### Defensa
 
@@ -684,11 +709,11 @@ Contenido de la propuesta:
     Monitoring](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring)
     por ejemplo.
 
-[^2]: Ten en cuenta la seguridad y privacidad de la información que almacenes en
-    estos repositorios; si tienes un acuerdo de confidencialidad con el cliente,
-    deberías usar las herramientas recomendadas. También deberás considerar que
-    otras herramientas pueden tener costos asociados o limitar la cantidad de
-    usuarios o de archivos en las versiones gratuitas.
+[^2]: Tengan en cuenta la seguridad y privacidad de la información que almacenen
+    en estos repositorios; si tienen un acuerdo de confidencialidad con el
+    cliente, deberían usar las herramientas recomendadas. También deberán
+    considerar que otras herramientas pueden tener costos asociados o limitar la
+    cantidad de usuarios o de archivos en las versiones gratuitas.
 
 [^3]: Estos reportes pueden ser generados automáticamente con la herramienta
     Azure DevOps recomendada, no tienen porqué hacerlos a mano si la usan para
