@@ -58,7 +58,7 @@ proyecto.
     </tr>
 </table>
 
-Un ejemplo de eventos de negocio, correspondiente al siguiente diagrama de
+Un ejemplo de eventos del negocio, correspondiente al siguiente diagrama de
 contexto de la figura 1, aparece luego, en la tabla 1:
 
 ![Ejemplo de diagrama de contexto](/diagrams/Context_Diagram_Example.svg)
