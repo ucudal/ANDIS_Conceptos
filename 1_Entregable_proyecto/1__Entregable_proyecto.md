@@ -643,13 +643,16 @@ Contenido de la propuesta:
   quién de los interesados actuará como encargado del proyecto de la contraparte
   y quién hace las veces de patrocinador.
 
-* El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes.
+* El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes. Esto
+  se ve resumido en la siguiente tabla:
+
+| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+|-|-|-|-|-|-|
+| Eventos de negocio más significativos | Arquitectura tentativa a alto nivel |  |  |  | Versión de DAD a usar y roles de los miembros del equipo |
+| Casos de uso del negocio para los eventos de negocio |  |  |  |  |  |
+| Requerimientos relacionados a UX/UI |  |  |  |  |  |
 
 ### Primera entrega
-
-* Documento entregable, con el contenido indicado para las etapas
-  [descubrimiento e inicio](#descubrimiento-e-inicio), [prueba de
-  concepto](#prueba-de-concepto) y [primer *release*](#primer-release).
 
 * [Carta de
   confidencialidad](/3_Plantillas/3_6_Carta_confidencialidad_simple.md) o
@@ -657,23 +660,44 @@ Contenido de la propuesta:
   confidencialidad](/3_Plantillas/3_7_Compromiso_confidencialidad.md) según
   corresponda.
 
-* <!-- TODO: enumerar las secciones aplicables -->
+* Documento entregable, con el contenido indicado para las etapas
+  [descubrimiento e inicio](#descubrimiento-e-inicio), [prueba de
+  concepto](#prueba-de-concepto) y [primer *release*](#primer-release). La
+  siguiente tabla resume lo agregado al documento para esta entrega:
+
+| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+|-|-|-|-|-|-|
+| Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código funcionando con lo implementado hasta el momento | Tests unitarios para las funcionalidades desarrolladas | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
+| Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
+| Los casos de uso del producto y requerimientos atómicos para los casos de uso implementados  | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  |  |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
 
 ### Segunda entrega
 
 * Documento entregable, con el contenido indicado para la etapa de [segundo
-  *release*](#segundo-release).
+  *release*](#segundo-release). La siguiente tabla resume lo agregado al
+  documento para esta entrega:
 
-* <!-- TODO: enumerar las secciones aplicables -->
+| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+|-|-|-|-|-|-|
+| Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código funcionando con lo implementado hasta el momento | Tests unitarios para las funcionalidades desarrolladas | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
+| Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
+| Los casos de uso del producto y requerimientos atómicos para los casos de uso implementados  | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  | Pruebas de regresión |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
+|  |  |  | Casos de prueba de usuario final para los casos de uso del producto implementados hasta el momento, incluyendo los datos de prueba utilizados y los resultados de las pruebas |  |  |
 
 ### Entrega final
 
-* Documento entregable, con el contenido indicado para la etapa de [delivery al
-  cliente y tercer *release*](#delivery-al-cliente-y-tercer-release)
-
 * [Carta de aceptación](/3_Plantillas/3_5_Carta_aceptacion_cliente.md)
 
-* <!-- TODO: enumerar las secciones aplicables -->
+* Documento entregable, con el contenido indicado para la etapa de [delivery al
+  cliente y tercer *release*](#delivery-al-cliente-y-tercer-release). La
+  siguiente tabla resume lo agregado al documento para esta entrega:
+
+| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+|-|-|-|-|-|-|
+| Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código completo de la solución | Tests unitarios para el código entregado | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
+| Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | *Pipeline* de CI/CD actualizado para despliegue en ambiente de pruebas | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
+| Los casos de uso del producto y requerimientos atómicos para toda la solución  | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  | Pruebas de regresión |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
+|  |  |  | Casos de prueba de usuario final y pruebas de integración, ambos para un conjunto significativo de la funcionalidad de la solución, incluyendo los datos de prueba utilizados y los resultados de las pruebas |  | Retrospectiva |
 
 ### Defensa
 
