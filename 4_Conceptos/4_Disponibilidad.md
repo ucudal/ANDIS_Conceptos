@@ -15,6 +15,32 @@ dado. Este atributo es relevante para sistemas, productos o componentes que
 deben estar continuamente disponibles, como servicios de emergencia, sistemas
 bancarios, plataformas de comercio electrónico, entre otros.
 
+Bass y otros[^2] incluyen dentro del atributo de disponibilidad conceptos de prevención
+de fallos y recuperación de los fallos, que en ISO/IEC 25010[^1] pueden estar
+también relacionados con los atributos de [tolerancia a
+fallos](./4_Atributos_de_calidad.md#tolerancia-a-fallos) y [capacidad de
+recuperación](./4_Atributos_de_calidad.md#capacidad-de-recuperación)
+respectivamente.
+
+
+[^2]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+    Practice, 4<sup>th</sup> edition. Addison-Wesley.
+
+Algo similar sucede en el Azure Well-Architected Framework[^3] donde el pilar es
+[fiabilidad](https://learn.microsoft.com/en-us/azure/well-architected/reliability/)
+que incluye
+[resiliencia](https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles#design-for-resilience)
+y
+[recuperación](https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles#design-for-recovery)
+que están también relacionados con los atributos de [tolerancia a
+fallos](./4_Atributos_de_calidad.md#tolerancia-a-fallos) y [capacidad de
+recuperación](./4_Atributos_de_calidad.md#capacidad-de-recuperación)
+respectivamente.
+
+[^3]: Microsoft. (2023). Reliability design principles. Disponible
+    [aquí](https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles).
+
+
 ### Medición de la disponibilidad
 
 La disponibilidad se mide generalmente como una proporción del tiempo en que el
@@ -212,4 +238,4 @@ requiere alta confiabilidad y accesibilidad constante.
 
 Ver [Cloud design patterns that support
 reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/design-patterns)
-en Azure Well Architected Framework.
+en Azure Well-Architected Framework.
