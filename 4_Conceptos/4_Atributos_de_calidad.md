@@ -17,6 +17,9 @@ atributos de calidad en inglés se conocen tabién como *"ilities"* porque suele
 terminar con el sufijo *-ility*: *availability*, *deployability*,
 *integrability*, etc.
 
+[^2]: Richards, M., Ford, N. (2020). Fundamentals of Software Architecture-An
+    Engineering Approach. O'Reilly.
+
 Los arquitectos pueden colaborar en el análisis de requerimientos, pero tienen
 la responsabilidad clave de definir, descubrir y analizar todas las cosas que el
 software debe hacer que no están directamente relacionadas con el dominio del
@@ -346,12 +349,12 @@ Facilidad con la que se puede evaluar el impacto de un determinado cambio sobre
 el resto del software, diagnosticar las deficiencias o causas de fallos en el
 software, o identificar las partes a modificar.
 
-#### Capacidad para ser modificado
+#### Facilidad de modificación
 
 Capacidad del producto que permite que sea modificado de forma efectiva y
 eficiente sin introducir defectos o degradar su calidad.
 
-#### Capacidad para ser probado
+#### Facilidad de ser probado
 
 Facilidad con la que se pueden establecer criterios de prueba para un sistema o
 componente y con la que se pueden llevar a cabo las pruebas para determinar si
@@ -422,5 +425,3 @@ Nos enfocaremos en los siguientes:
 * [Disponibilidad](./4_Disponibilidad.md)
 * [Performance](./4_Rendimiento.md)
 
-[^2]: Richards, M., Ford, N. (2020). Fundamentals of Software Architecture-An
-    Engineering Approach. O'Reilly.
