@@ -75,11 +75,9 @@ tiempo de bloqueo —cuando el sistema no puede responder—.
 
 * Tiempo de procesamiento y uso de los recursos
 * Tiempo de bloqueo y contención de recursos
-   * Contención de los recursos
-   * Disponibilidad de recursos
-   * Dependencia de otras operaciones
-
-
+ * Contención de los recursos
+  * Disponibilidad de recursos
+  * Dependencia de otras operaciones
 
 <table>
   <tr>
