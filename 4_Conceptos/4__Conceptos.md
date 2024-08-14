@@ -40,6 +40,8 @@
 
 ## [Requerimiento no-funcional](./4_Requerimiento_no_funcional.md)
 
+## [Seguridad](./4_Seguridad.md)
+
 ## [Sistema adyacente](./4_Sistema_adyacente.md)
 
 ## [Solución consumible](./4_Solucion_consumible.md)

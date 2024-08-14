@@ -291,7 +291,9 @@ fallos hardware o software.
 Capacidad del producto software para recuperar los datos directamente afectados
 y restablecer el estado deseado del sistema en caso de interrupción o fallo.
 
-### Seguridad
+###
+
+Ver además el artículo completo sobre [seguridad](./4_Seguridad.md).
 
 Capacidad de protección de la información y los datos de manera que las personas
 u otros productos tengan el grado de acceso a los datos adecuado a sus tipos y
