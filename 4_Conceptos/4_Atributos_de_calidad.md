@@ -93,7 +93,7 @@ siguientes[^3]:
       <a href="#protección">Protección</a>
     </td>
   </tr>
-  <tr>
+  <tr style="vertical-align:top">
     <td>
       Completitud funcional<br>
       Corrección funcional<br>
