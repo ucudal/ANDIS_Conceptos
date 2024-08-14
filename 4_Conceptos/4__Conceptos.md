@@ -26,6 +26,8 @@
 
 ## [Evento del negocio](./4_Evento_del_negocio.md)
 
+## [Facilidad de despliegue](./4_Facilidad_de_despliegue.md)
+
 ## [Historia de usuario](./4_Historia_de_usuario.md)
 
 ## [Jerarquía de requerimientos](./4_Jerarquia_de_requerimientos.md)

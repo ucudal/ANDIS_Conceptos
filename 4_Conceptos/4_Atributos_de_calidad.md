@@ -381,8 +381,10 @@ decrecientes y para adaptar su capacidad a la variabilidad.
 
 #### Facilidad de instalación
 
-Facilidad con la que el producto se puede instalar y/o desinstalar de forma
+Facilidad con la que el producto se puede instalar o desinstalar de forma
 exitosa en un determinado entorno.
+
+Ver también [facilidad de despliegue](./4_Facilidad_de_despliegue.md)
 
 #### Facilidad de reemplazo
 
