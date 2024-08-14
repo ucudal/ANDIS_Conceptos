@@ -22,7 +22,6 @@ fallos](./4_Atributos_de_calidad.md#tolerancia-a-fallos) y [capacidad de
 recuperación](./4_Atributos_de_calidad.md#capacidad-de-recuperación)
 respectivamente.
 
-
 [^2]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 

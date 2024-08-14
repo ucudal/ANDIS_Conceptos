@@ -136,7 +136,7 @@ siguientes[^3]:
       Modularidad<br>
       Facilidad de reúso<br>
       Facilidad de análisis<br>
-      Capacidad para ser modificado<br>
+      <a href="./4_Facilidad_de_modificacion.md">Facilidad de modificación</a><br>
       Capacidad para ser probado<br>
     </td>
     <td>
@@ -291,7 +291,7 @@ fallos hardware o software.
 Capacidad del producto software para recuperar los datos directamente afectados
 y restablecer el estado deseado del sistema en caso de interrupción o fallo.
 
-###
+### Seguridad
 
 Ver además el artículo completo sobre [seguridad](./4_Seguridad.md).
 
