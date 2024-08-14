@@ -142,3 +142,8 @@ Algunas categorías de modificaciones tienen nombres propios[^1]:
 Bachmann, F., Bass, L. & Nord, R. (2007). Modifiability Tactics.
 CMU/SEI-2007-TR-002 disponible
 [aquí](https://insights.sei.cmu.edu/documents/778/2007_005_001_14858.pdf)
+
+Kazman, R. (2022). Two Categories of Architecture Patterns for Deployability.
+Carnegie Mellon University, Software Engineering Institute's Insights Blog.
+Disponible
+[aquí](https://insights.sei.cmu.edu/blog/two-categories-of-architecture-patterns-for-deployability/)

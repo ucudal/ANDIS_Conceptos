@@ -28,10 +28,13 @@ Esta característica se subdivide a su vez en las siguientes sub-característica
 * **Autenticidad**. Es la capacidad de un sistema, producto o componente para
   demostrar que la identidad de un sujeto o recurso es la que dice ser.
 
-La definición es similar en [^2], que define la seguridad como la medida de la
-capacidad del sistema para proteger los datos y la información del acceso no
+La definición es similar en [^2], donde se define la seguridad como la medida de
+la capacidad del sistema para proteger los datos y la información del acceso no
 autorizado y, al mismo tiempo, proporcionar acceso a las personas y los sistemas
 que están autorizados.
+
+[^2]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+    Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Un ataque, es decir, una acción que se lleva a cabo contra un sistema con la
 intención de causar daño, puede adoptar diversas formas. Puede ser un intento no
@@ -181,3 +184,6 @@ The Open Group. (2004). Security Design Patterns. Disponible
 
 Microsoft. (2024). Microsoft Security Development Lifecycle. Disponible
 [aquí](https://www.microsoft.com/en-us/securityengineering/sdl/)
+
+Delange, J. (2016). Security Modeling Tools. Carnegie Mellon University,
+Software Engineering Institute's Insights Blog. Disponible [aquí](https://insights.sei.cmu.edu/blog/security-modeling-tools/)

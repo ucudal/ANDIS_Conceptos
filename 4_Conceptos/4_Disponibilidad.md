@@ -238,3 +238,7 @@ requiere alta confiabilidad y accesibilidad constante.
 Ver [Cloud design patterns that support
 reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/design-patterns)
 en Azure Well-Architected Framework.
+
+Kazman, R. (2022). Tactics and Patterns for Software Robustness. Carnegie Mellon
+University, Software Engineering Institute's Insights Blog. Disponible
+[aquí](https://insights.sei.cmu.edu/blog/tactics-and-patterns-for-software-robustness/)
