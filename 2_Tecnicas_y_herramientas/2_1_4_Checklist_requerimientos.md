@@ -43,4 +43,4 @@ engineering—Life cycle processes—Requirements engineering.
    de la plantilla de [requerimiento
    atómico](/3_Plantillas/3_1_Requerimiento_atomico.md) está relacionado con
    este punto.
-11. **Correcto**: Debe estar libre de errores ortográficos o gramaticales
+11. **Correcto**: Debe estar libre de errores ortográficos o gramaticales.

@@ -56,7 +56,7 @@ El modelo de calidad de la norma ISO/IEC 25010[^3] define el concepto de
 producto o componente se puede instalar o desinstalar de forma exitosa en un
 determinado entorno.
 
-[^2]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
+[^3]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
     engineering—Systems and software Quality Requirements and Evaluation
     (SQuaRE) — System and software quality models.
 

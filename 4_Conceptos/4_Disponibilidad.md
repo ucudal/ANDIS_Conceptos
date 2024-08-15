@@ -133,7 +133,7 @@ Esto significa que la disponibilidad del sistema es aproximadamente 99.01%.
 
 Las organizaciones a menudo establecen objetivos de disponibilidad específicos,
 conocidos como **acuerdos de nivel de servicio** o **SLA** por sus siglas en
-inglés —*service level agreement-, que pueden ser del 99.9%
+inglés —*service level agreement*-, que pueden ser del 99.9%
 —conocido como "tres nueves"—, 99.99% —"cuatro nueves"— o incluso más altos,
 dependiendo de la criticidad del sistema.
 
