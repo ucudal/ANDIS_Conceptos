@@ -51,7 +51,7 @@ que nos interesa unificar.
 > No numeramos estas entradas en esta sección para poder ordenarlas
 > alfabéticamente en el futuro
 
-# 5 [Unidades temáticas](./5_Unidades_tematicas/5_Unidades_tematicas.md)
+# 5 [Unidades temáticas](./5_Unidades_tematicas/5_.Unidades_tematicas.md)
 
 Agrupamos contenido en estos documentos según las necesidades de los cursos en
 los que se usan.
