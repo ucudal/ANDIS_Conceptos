@@ -7,5 +7,3 @@
 ### 2.1.2 [Diagramas de contexto](./2_1_2_Diagramas_de_contexto.md)
 
 ### 2.1.3 [Personas](./2_1_3_Personas.md)
-
-### 2.1.4 [Checklist requerimientos](./2_1_4_Checklist_requerimientos.md)
