@@ -150,7 +150,7 @@ requiere alta confiabilidad y accesibilidad constante.
   <tr>
     <td rowspan="26">Tácticas de disponibilidad</td>
     <td rowspan="9" colspan="2">Detectar fallas</td>
-    <td>Monitorear</td>
+    <td>Monitoreo</td>
   </tr>
   <tr>
     <td>Ping/echo</td>
@@ -162,7 +162,7 @@ requiere alta confiabilidad y accesibilidad constante.
     <td>Timestamp</td>
   </tr>
   <tr>
-    <td>Monitorear condiciones</td>
+    <td>Monitoreo de condiciones</td>
   </tr>
   <tr>
     <td>Chequeo de salud</td>
@@ -174,7 +174,7 @@ requiere alta confiabilidad y accesibilidad constante.
     <td>Detección de excepciones</td>
   </tr>
   <tr>
-    <td>Self-test</td>
+    <td>Auto-diagnóstico</td>
   </tr>
   <tr>
     <td rowspan="12">Recuperarse de las fallas</td>
