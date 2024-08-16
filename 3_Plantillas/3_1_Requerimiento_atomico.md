@@ -109,7 +109,7 @@ y el texto a completar en el color normal. Tomado de [^1].
         </td>
     </tr>
     <tr>
-        <td td style="color:#0969DA">
+        <td style="color:#0969DA">
             <b>Material de soporte</b>
         </td>
         <td colspan="5">
