@@ -79,6 +79,9 @@ tiempo de bloqueo —cuando el sistema no puede responder—.
 * Disponibilidad de recursos
 * Dependencia de otras operaciones
 
+Ver más detalles estas las tácticas de rendimiento
+[aquí](/2_Tecnicas_y_herramientas/2_5_2_Tacticas_rendimiento.md).
+
 <table>
   <tr>
     <td rowspan="12">Tácticas de rendimiento</td>
@@ -105,7 +108,7 @@ tiempo de bloqueo —cuando el sistema no puede responder—.
     <td>Limitar los tiempos de ejecución</td>
   </tr>
   <tr>
-    <td>Incrementar la eficiencia</td>
+    <td>Incrementar la eficiencia en el uso de recursos</td>
   </tr>
   <tr>
     <td rowspan="6">Gestionar los recursos</td>
