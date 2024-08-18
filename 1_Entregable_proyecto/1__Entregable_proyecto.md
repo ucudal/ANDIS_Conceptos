@@ -668,8 +668,8 @@ Contenido de la propuesta:
 | Requerimientos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
 |-|-|-|-|-|-|
 | Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código funcionando con lo implementado hasta el momento | Tests unitarios para las funcionalidades desarrolladas | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
-| Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
-| Los casos de uso del producto y requerimientos atómicos para los casos de uso implementados  | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  |  |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
+| Los casos de uso del negocio de las funcionalidades implementadas hasta la fecha | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
+| Los casos de uso del producto correspondientes a las funcionalidades implementadas y requerimientos atómicos para los casos de uso implementados | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  |  |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
 
 ### Segunda entrega
 
@@ -680,8 +680,8 @@ Contenido de la propuesta:
 | Requerimientos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
 |-|-|-|-|-|-|
 | Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código funcionando con lo implementado hasta el momento | Tests unitarios para las funcionalidades desarrolladas | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
-| Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
-| Los casos de uso del producto y requerimientos atómicos para los casos de uso implementados  | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  | Pruebas de regresión |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
+| Los casos de uso del negocio de las funcionalidades implementadas hasta la fecha | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
+| Los casos de uso del producto correspondientes a las funcionalidades implementadas y requerimientos atómicos para los casos de uso implementados | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  | Pruebas de regresión |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
 |  |  |  | Casos de prueba de usuario final para los casos de uso del producto implementados hasta el momento, incluyendo los datos de prueba utilizados y los resultados de las pruebas |  |  |
 
 ### Entrega final
