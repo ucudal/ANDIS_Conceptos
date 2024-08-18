@@ -646,11 +646,44 @@ Contenido de la propuesta:
 * El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes. Esto
   se ve resumido en la siguiente tabla:
 
-| Requerimientos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
-|-|-|-|-|-|-|
-| Eventos de negocio más significativos | Arquitectura tentativa a alto nivel |  |  |  | Versión de DAD a usar y roles de los miembros del equipo |
-| Casos de uso del negocio para los eventos de negocio |  |  |  |  |  |
-| Requerimientos relacionados a UX/UI |  |  |  |  |  |
+<table>
+  <tr>
+    <td><b>Requerimientos</b></td>
+    <td>Eventos de negocio más significativos</td>
+    <td>Casos de uso del negocio para los eventos de negocio</td>
+    <td>Requerimientos relacionados a UX/UI</td>
+  </tr>
+  <tr>
+    <td><b>Diseño y Arquitectura</b></td>
+    <td>Arquitectura tentativa a alto nivel</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Desarrollo</b></td>
+    <td>No aplica</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Aseguramiento de la Calidad</b></td>
+    <td>No aplica</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>UX/UI</b></td>
+    <td>No aplica</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Gestión y Proceso</b></td>
+    <td>Versión de DAD a usar y roles de los miembros del equipo</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ### Primera entrega
 
@@ -665,11 +698,50 @@ Contenido de la propuesta:
   concepto](#prueba-de-concepto) y [primer *release*](#primer-release). La
   siguiente tabla resume lo agregado al documento para esta entrega:
 
-| Requerimientos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
-|-|-|-|-|-|-|
-| Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código funcionando con lo implementado hasta el momento | Tests unitarios para las funcionalidades desarrolladas | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
-| Los casos de uso del negocio de las funcionalidades implementadas hasta la fecha | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
-| Los casos de uso del producto correspondientes a las funcionalidades implementadas y requerimientos atómicos para los casos de uso implementados | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  |  |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
+<table>
+  <tr>
+    <td><b>Requerimientos</b></td>
+    <td>Todos los eventos del negocio</td>
+    <td>Los casos de uso del negocio de las funcionalidades implementadas hasta
+    la fecha</td>
+    <td>Los casos de uso del producto correspondientes a las funcionalidades
+    implementadas y requerimientos atómicos para los casos de uso implementados</td>
+  </tr>
+  <tr>
+    <td><b>Diseño y Arquitectura</b></td>
+    <td>Arquitectura detallada con tecnologías usadas por cada componente</td>
+    <td>Diagramas de despliegue, de clases y cualquier otro pertinente para lo
+    desarrollado completos</td>
+    <td>En caso de que hayan habido cambios a la arquitectura propuesta
+    inicialmente, justificación de los mismos</td>
+  </tr>
+  <tr>
+    <td><b>Desarrollo</b></td>
+    <td>Código funcionando con lo implementado hasta el momento</td>
+    <td>Instrucciones para ejecutar la aplicación en entorno de desarrollo</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Aseguramiento de la Calidad</b></td>
+    <td>Tests unitarios para las funcionalidades desarrolladas</td>
+    <td>Si corresponde, pruebas de carga para validar la arquitectura</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>UX/UI</b></td>
+    <td>Maquetas de UX/UI para las funcionalidades desarrolladas</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Gestión y Proceso</b></td>
+    <td>Versión de DAD utilizada y roles de los miembros del equipo</td>
+    <td>Herramientas de gestión del proyecto utilizadas en su cotidianidad</td>
+    <td>Plan del proyecto actualizado e indicadores del proceso hasta el momento
+    (velocidad, <i>burn down</i>, <i>cumulative flow</i>, <i>build status</i>,
+    <i>test failures</i>, etc.)</td>
+  </tr>
+</table>
 
 ### Segunda entrega
 
@@ -677,12 +749,58 @@ Contenido de la propuesta:
   *release*](#segundo-release). La siguiente tabla resume lo agregado al
   documento para esta entrega:
 
-| Requerimientos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
-|-|-|-|-|-|-|
-| Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código funcionando con lo implementado hasta el momento | Tests unitarios para las funcionalidades desarrolladas | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
-| Los casos de uso del negocio de las funcionalidades implementadas hasta la fecha | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
-| Los casos de uso del producto correspondientes a las funcionalidades implementadas y requerimientos atómicos para los casos de uso implementados | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  | Pruebas de regresión |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
-|  |  |  | Casos de prueba de usuario final para los casos de uso del producto implementados hasta el momento, incluyendo los datos de prueba utilizados y los resultados de las pruebas |  |  |
+<table>
+  <tr>
+    <td><b>Requerimientos</b></td>
+    <td>Todos los eventos del negocio</td>
+    <td>Los casos de uso del negocio de las funcionalidades implementadas hasta
+    la fecha</td>
+    <td>Los casos de uso del producto correspondientes a las funcionalidades
+    implementadas y requerimientos atómicos para los casos de uso implementados</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Diseño y Arquitectura</b></td>
+    <td>Arquitectura detallada con tecnologías usadas por cada componente</td>
+    <td>Diagramas de despliegue, de clases y cualquier otro pertinente para lo
+    desarrollado completos</td>
+    <td>En caso de que hayan habido cambios a la arquitectura propuesta
+    inicialmente, justificación de los mismos</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Desarrollo</b></td>
+    <td>Código funcionando con lo implementado hasta el momento</td>
+    <td>Instrucciones para ejecutar la aplicación en entorno de desarrollo</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Aseguramiento de la Calidad</b></td>
+    <td>Tests unitarios para las funcionalidades desarrolladas</td>
+    <td>Si corresponde, pruebas de carga para validar la arquitectura</td>
+    <td>Pruebas de regresión</td>
+    <td>Casos de prueba de usuario final para los casos de uso del producto
+    implementados hasta el momento, incluyendo los datos de prueba utilizados y
+    los resultados de las pruebas</td>
+  </tr>
+  <tr>
+    <td><b>UX/UI</b></td>
+    <td>Maquetas de UX/UI para las funcionalidades desarrolladas</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Gestión y Proceso</b></td>
+    <td>Versión de DAD utilizada y roles de los miembros del equipo</td>
+    <td>Herramientas de gestión del proyecto utilizadas en su cotidianidad</td>
+    <td>Plan del proyecto actualizado e indicadores del proceso hasta el momento
+    (velocidad, <i>burn down</i>, <i>cumulative flow</i>, <i>build status</i>,
+    <i>test failures</i>, etc.)</td>
+    <td></td>
+  </tr>
+</table>
 
 ### Entrega final
 
@@ -692,12 +810,56 @@ Contenido de la propuesta:
   cliente y tercer *release*](#delivery-al-cliente-y-tercer-release). La
   siguiente tabla resume lo agregado al documento para esta entrega:
 
-| Requerimientos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
-|-|-|-|-|-|-|
-| Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código completo de la solución | Tests unitarios para el código entregado | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
-| Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | *Pipeline* de CI/CD actualizado para despliegue en ambiente de pruebas | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
-| Los casos de uso del producto y requerimientos atómicos para toda la solución  | En caso de que hayan habido cambios a la arquitectura propuesta inicialmente, justificación de los mismos |  | Pruebas de regresión |  | Plan del proyecto actualizado e indicadores del proceso hasta el momento (velocidad, *burn down*, *cumulative flow*, *build status*, *test failures*, etc.) |
-|  |  |  | Casos de prueba de usuario final y pruebas de integración, ambos para un conjunto significativo de la funcionalidad de la solución, incluyendo los datos de prueba utilizados y los resultados de las pruebas |  | Retrospectiva |
+<table>
+  <tr>
+    <td><b>Requerimientos</b></td>
+    <td>Todos los eventos del negocio</td>
+    <td>Todos los casos de uso del negocio</td>
+    <td>Los casos de uso del producto y requerimientos atómicos para toda la solución</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Diseño y Arquitectura</b></td>
+    <td>Arquitectura detallada con tecnologías usadas por cada componente</td>
+    <td>Diagramas de despliegue, de clases y cualquier otro pertinente para lo
+    desarrollado completos</td>
+    <td>En caso de que hayan habido cambios a la arquitectura propuesta
+    inicialmente, justificación de los mismos</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Desarrollo</b></td>
+    <td>Código completo de la solución</td>
+    <td><i>Pipeline</i> de CI/CD actualizado para despliegue en ambiente de pruebas</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Aseguramiento de la Calidad</b></td>
+    <td>Tests unitarios para el código entregado</td>
+    <td>Si corresponde, pruebas de carga para validar la arquitectura</td>
+    <td>Pruebas de regresión</td>
+    <td>Casos de prueba de usuario final y pruebas de integración, ambos para un
+    conjunto significativo de la funcionalidad de la solución, incluyendo los
+    datos de prueba utilizados y los resultados de las pruebas</td>
+  </tr>
+  <tr>
+    <td><b>UX/UI</b></td>
+    <td>Maquetas de UX/UI para las funcionalidades desarrolladas</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Gestión y Proceso</b></td>
+    <td>Versión de DAD utilizada y roles de los miembros del equipo</td>
+    <td>Herramientas de gestión del proyecto utilizadas en su cotidianidad</td>
+    <td>Plan del proyecto actualizado e indicadores del proceso hasta el momento
+    (velocidad, <i>burn down</i>, <i>cumulative flow</i>, <i>build status</i>,
+    <i>test failures</i>, etc.)</td>
+    <td>Retrospectiva</td>
+  </tr>
+</table>
 
 ### Defensa
 
