@@ -13,7 +13,7 @@ como para el componente de construcción de los proyectos de emprendimiento
 El documento entregable tiene un capítulo para cada una de las
 dimensiones del proyecto:
 
-* Requisitos
+* Requerimientos
 
 * Diseño y arquitectura
 
@@ -46,9 +46,9 @@ sucesivas entregas a medida que avanza el proyecto.
 > cuándo es de carácter obligatorio. Ante cualquier duda respecto a la
 > obligatoriedad de estos ítems, pueden consultar al tutor.
 
-## 1.1 [Requisitos](./1_1__Requisitos.md)
+## 1.1 [Requerimientos](./1_1__Requerimientos.md)
 
-Basado en la plantilla de requisitos utilizada en el curso de Análisis y diseño
+Basado en la plantilla de requerimientos utilizada en el curso de Análisis y diseño
 de aplicaciones I. Incluye aspectos del documento de casos de uso de ediciones
 del proyecto anteriores a 2024.
 
@@ -131,7 +131,7 @@ Las siguientes son las diferentes dimensiones en las que los equipos trabajan a
 lo largo del proyecto; en algunas etapas trabajan más en una dimensión que en
 otras.
 
-* Requisitos
+* Requerimientos
 
 * Diseño y arquitectura
 
@@ -217,7 +217,7 @@ carrera](https://webasignatura.ucu.edu.uy/course/view.php?id=3751).
 
 El contenido esperado de esta etapa para cada dimensión son los siguientes:
 
-* **Requisitos**. Los [eventos de
+* **Requerimientos**. Los [eventos de
   negocio](/4_Conceptos/4_Evento_del_negocio.md) más significativos. Incluyan
   para cada evento del negocio al menos su descripción, sus datos, y si es de
   entrada o de salida.
@@ -280,7 +280,7 @@ Los objetivos en esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requisitos**. Todos los eventos del negocio; incluyan para cada evento
+* **Requerimientos**. Todos los eventos del negocio; incluyan para cada evento
   de negocio al menos la misma información que incluyeron en la propuesta.
 
   Todos los casos de uso del negocio para los eventos del negocio identificados;
@@ -362,8 +362,8 @@ Los objetivos de esta etapa son:
 
 * Usando la [plantilla de requerimiento
   atómico](/3_Plantillas/3_1_Requerimiento_atomico.md) especificar la versión
-  inicial de los requisitos funcionales y no funcionales de los casos de uso del
-  producto.
+  inicial de los requerimientos funcionales y no funcionales de los casos de uso
+  del producto.
 
   Pueden usar [historias de usuario](/4_Conceptos/4_Historia_de_usuario.md) para
   especificar los requerimientos.
@@ -389,7 +389,7 @@ Los objetivos de esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requisitos**. Los casos de uso del producto para los casos de uso del
+* **Requerimientos**. Los casos de uso del producto para los casos de uso del
   negocio más significativos identificados en la etapa anterior. Incluyan en
   cada caso de uso del producto al menos su disparador, su nombre, el actor, el
   curso básico y el resultado esperado; excepto para el o los casos de uso del
@@ -472,7 +472,7 @@ alguna otra herramienta equivalente.
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requisitos**. Los casos de uso del producto completos que correspondan a
+* **Requerimientos**. Los casos de uso del producto completos que correspondan a
   la funcionalidad incluida en esta etapa; las actualizaciones de los
   previamente entregados si correspondiera.
 
@@ -546,7 +546,7 @@ Los objetivos de esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requisitos**. Los casos de uso del producto completos que corresponden a
+* **Requerimientos**. Los casos de uso del producto completos que corresponden a
   las funcionalidades incluidas en esta etapa; incluyan actualizaciones de los
   previamente entregados si corresponde.
 
@@ -584,7 +584,7 @@ Esta es la quinta y última etapa del proyecto. Dura entre tres y cuatro semanas
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requisitos**. Los casos de uso del producto completos para toda la
+* **Requerimientos**. Los casos de uso del producto completos para toda la
   solución.
 
   Los requerimientos atómicos completos para toda la solución.
@@ -646,7 +646,7 @@ Contenido de la propuesta:
 * El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes. Esto
   se ve resumido en la siguiente tabla:
 
-| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+| Requerimientos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
 |-|-|-|-|-|-|
 | Eventos de negocio más significativos | Arquitectura tentativa a alto nivel |  |  |  | Versión de DAD a usar y roles de los miembros del equipo |
 | Casos de uso del negocio para los eventos de negocio |  |  |  |  |  |
@@ -665,7 +665,7 @@ Contenido de la propuesta:
   concepto](#prueba-de-concepto) y [primer *release*](#primer-release). La
   siguiente tabla resume lo agregado al documento para esta entrega:
 
-| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+| Requerimientos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
 |-|-|-|-|-|-|
 | Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código funcionando con lo implementado hasta el momento | Tests unitarios para las funcionalidades desarrolladas | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
 | Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
@@ -677,7 +677,7 @@ Contenido de la propuesta:
   *release*](#segundo-release). La siguiente tabla resume lo agregado al
   documento para esta entrega:
 
-| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+| Requerimientos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
 |-|-|-|-|-|-|
 | Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código funcionando con lo implementado hasta el momento | Tests unitarios para las funcionalidades desarrolladas | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
 | Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | Instrucciones para ejecutar la aplicación en entorno de desarrollo | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |
@@ -692,7 +692,7 @@ Contenido de la propuesta:
   cliente y tercer *release*](#delivery-al-cliente-y-tercer-release). La
   siguiente tabla resume lo agregado al documento para esta entrega:
 
-| Requisitos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
+| Requerimientos | Diseño y Arquitectura | Desarrollo | Aseguramiento de la Calidad | UX/UI | Gestión y Proceso |
 |-|-|-|-|-|-|
 | Todos los eventos del negocio  | Arquitectura detallada con tecnologías usadas por cada componente | Código completo de la solución | Tests unitarios para el código entregado | Maquetas de UX/UI para las funcionalidades desarrolladas | Versión de DAD utilizada y roles de los miembros del equipo |
 | Todos los casos de uso del negocio  | Diagramas de despliegue, de clases y cualquier otro pertinente para lo desarrollado completos | *Pipeline* de CI/CD actualizado para despliegue en ambiente de pruebas | Si corresponde, pruebas de carga para validar la arquitectura |  | Herramientas de gestión del proyecto utilizadas en su cotidianidad |

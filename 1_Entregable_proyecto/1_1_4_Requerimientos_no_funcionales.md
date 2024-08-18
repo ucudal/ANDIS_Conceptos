@@ -1,6 +1,6 @@
 # 1 Entregable del proyecto
 
-## 1.1 Requisitos
+## 1.1 Requerimientos
 
 ### 1.1.4 Requerimientos no funcionales
 
@@ -45,7 +45,7 @@ es derivada de la habilidad de los previstos usuarios finales y la complejidad
 del producto y sus funcionalidades. Algunas características a tener en cuenta
 pueden ser:
 
-<!-- TODO Agregar ejemplos de cada tipo de requisito incluyendo además criterio
+<!-- TODO Agregar ejemplos de cada tipo de requerimiento incluyendo además criterio
 de aceptación -->
 
 * Eficiencia de uso: Qué tan rápido o con qué precisión el usuario puede usar el

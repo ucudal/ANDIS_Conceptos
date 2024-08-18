@@ -4,7 +4,7 @@
 
 El [contexto del
 trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md) es la
-declaración de requisitos de más alto nivel; se descompone en el siguiente
+declaración de requerimientos de más alto nivel; se descompone en el siguiente
 nivel, los [eventos del negocio](/4_Conceptos/4_Evento_del_negocio.md). El nivel
 debajo de los eventos del negocio comprende los [casos de uso del
 producto](/4_Conceptos/4_Caso_de_uso_del_producto.md), cada uno de los cuales se

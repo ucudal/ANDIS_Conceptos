@@ -24,10 +24,10 @@ historias de usuario solo deben proporcionar suficientes detalles para hacer una
 estimación de riesgo razonablemente bajo de cuánto tiempo llevará implementar la
 historia. Cuando llegue el momento de implementar la historia, los
 desarrolladores acudirán al cliente y recibirán una descripción detallada de los
-requisitos cara a cara.
+requerimientos cara a cara.
 
 La estimación temprana es una diferencia clave entre las historias y otras
-prácticas de requisitos. La estimación brinda a las perspectivas técnica y
+prácticas de requerimientos. La estimación brinda a las perspectivas técnica y
 de negocio la oportunidad de interactuar, lo que crea valor desde el principio,
 cuando una idea tiene el mayor potencial. Cuando el equipo conoce el costo de
 las funciones, puede dividirlas, combinarlas o ampliarlas[^2].
