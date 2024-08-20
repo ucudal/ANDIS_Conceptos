@@ -38,7 +38,7 @@ daños, lesiones o pérdida de vidas a los actores de su entorno.
 
 Estos estados inseguros pueden ser causados ​​por una variedad de factores:
 
-* **Omisiones**. El hecho de que un evento no ocurra.
+* **Omisión**. El hecho de que un evento no ocurra.
 * **Comisión**. La ocurrencia espuria de un evento indeseable. El evento puede
   ser aceptable en algunos estados del sistema, pero indeseable en otros.
 * **Tiempo**. Tanto el tiempo temprano —la ocurrencia de un evento antes del
@@ -87,7 +87,7 @@ Además, el estado inseguro debe ser registrado e informado.
       Detección de estados desprotegidos
     </td>
     <td>
-      Control de salud
+      Control de cordura
     </td>
   </tr>
   <tr>

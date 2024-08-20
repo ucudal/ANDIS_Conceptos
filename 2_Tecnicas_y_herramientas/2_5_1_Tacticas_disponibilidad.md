@@ -189,10 +189,11 @@ La lista de tácticas está tomada de[^1]:
   que todas se completen o ninguna lo haga. Las transacciones garantizan la
   consistencia del sistema en caso de fallos durante operaciones complejas.
 
-* <span id="modelo_predictivo">**Modelo predictivo**. Es usar técnicas de aprendizaje automático y análisis
-  predictivo para anticipar fallas antes de que ocurran a partir de los datos de
-  monitoreo. Permite tomar acciones proactivas basadas en patrones y tendencias
-  identificadas en los *logs*.</span>
+* <span id="modelo_predictivo">**Modelo predictivo**. Es usar técnicas de
+  aprendizaje automático y análisis predictivo para anticipar fallas antes de
+  que ocurran a partir de los datos de monitoreo. Permite tomar acciones
+  proactivas basadas en patrones y tendencias identificadas en los
+  *logs*.</span>
 
 * **Prevención de excepciones**. Consiste en implementar medidas para evitar que
   ocurran errores o fallas en primer lugar. El uso de bits de control de paridad

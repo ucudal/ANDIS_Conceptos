@@ -244,4 +244,4 @@ en Azure Well-Architected Framework.
 
 Kazman, R. (2022). Tactics and Patterns for Software Robustness. Carnegie Mellon
 University, Software Engineering Institute's Insights Blog. Disponible
-[aquí](https://insights.sei.cmu.edu/blog/tactics-and-patterns-for-software-robustness/)
+(https://insights.sei.cmu.edu/blog/tactics-and-patterns-for-software-robustness/).

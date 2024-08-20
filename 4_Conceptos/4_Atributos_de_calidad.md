@@ -384,7 +384,7 @@ decrecientes y para adaptar su capacidad a la variabilidad.
 Facilidad con la que el producto se puede instalar o desinstalar de forma
 exitosa en un determinado entorno.
 
-Ver también [facilidad de despliegue](./4_Facilidad_de_despliegue.md)
+Ver también [facilidad de despliegue](./4_Facilidad_de_despliegue.md).
 
 #### Facilidad de reemplazo
 
@@ -430,4 +430,3 @@ Nos enfocaremos en los siguientes:
 
 * [Disponibilidad](./4_Disponibilidad.md)
 * [Performance](./4_Rendimiento.md)
-

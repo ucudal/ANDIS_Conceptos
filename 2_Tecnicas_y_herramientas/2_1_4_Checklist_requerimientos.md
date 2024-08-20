@@ -4,8 +4,8 @@
 
 ### 2.1.4 Checklist requerimientos
 
-La siguiente lista de verificación —basada en [^1] y [^2]— incluye una serie de ítems
-que pueden ser usados para comprobar los requerimientos.
+La siguiente lista de verificación —basada en [^1] y [^2]— incluye una serie de
+ítems que pueden ser usados para comprobar los requerimientos.
 
 [^1]: ISO/IEC/IEEE. (2018). ISO/IEC/IEEE 29148:2018 Systems and software
 engineering—Life cycle processes—Requirements engineering.
