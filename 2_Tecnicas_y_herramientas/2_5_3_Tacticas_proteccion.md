@@ -49,18 +49,25 @@ La lista a continuación está tomada de [^1]:
   se toman medidas para evitar entrar en estados inseguros causados por factores
   relacionados con el tiempo.
 
-* **Monitoreo de condiciones**. Ver <a rel="noopener" href="./2_5_1_Tacticas_disponibilidad.md#monitoreo_condiciones:~:text=Monitoreo%20de%20condiciones,táctica.">aquí</a>.
+* **Monitoreo de condiciones**. Abre <a rel="noopener"
+  href="./2_5_1_Tacticas_disponibilidad.md#monitoreo_condiciones:~:text=Monitoreo%20de%20condiciones,táctica.">esta
+  página</a> en una nueva solapa o ventana.
 
-* **Timestamp**. Ver <a rel="noopener" href="./2_5_1_Tacticas_disponibilidad.md#timestamp:~:text=Timestamp,secuenciales.">aquí</a>.
+* **Timestamp**. Abre <a rel="noopener"
+  href="./2_5_1_Tacticas_disponibilidad.md#timestamp:~:text=Timestamp,secuenciales.">esta
+  página</a> en una nueva solapa o ventana.
 
-* **Replicación**. <a rel="noopener"
-  href="./2_5_1_Tacticas_disponibilidad.md#replicacion:~:text=Voto%E2%80%94Replicaci%C3%B3n,Framework.">aquí</a>.
+* **Replicación**. Abre <a rel="noopener"
+  href="./2_5_1_Tacticas_disponibilidad.md#replicacion:~:text=Voto%E2%80%94Replicaci%C3%B3n,Framework.">esta
+  página</a> en una nueva solapa o ventana.
 
-* **Redundancia analítica**. <a rel="noopener"
-  href="./2_5_1_Tacticas_disponibilidad.md#redundancia_analitica:~:text=Voto-Redundancia+anal%C3%ADtica,industrial.">aquí</a>.
+* **Redundancia analítica**. Abre <a rel="noopener"
+  href="./2_5_1_Tacticas_disponibilidad.md#redundancia_analitica:~:text=Voto-Redundancia+anal%C3%ADtica,industrial.">esta
+  página</a> en una nueva solapa o ventana.
 
-* ***Redundancia funcional**. <a rel="noopener"
-  href="./2_5_1_Tacticas_disponibilidad.md#redundancia_funcional:~:text=Voto-Redundancia%20funcional,servicio.">aquí</a>.
+* ***Redundancia funcional**. Agre <a rel="noopener"
+  href="./2_5_1_Tacticas_disponibilidad.md#redundancia_funcional:~:text=Voto-Redundancia%20funcional,servicio.">esta
+  página</a> en una nueva solapa o ventana.
 
 * **Enmascaramiento** —o *masking*—. Oculta un error comparando el resultado de
   varios componentes redundantes usando un criterio de votación en caso de
@@ -79,11 +86,13 @@ La lista a continuación está tomada de [^1]:
 * ***Interlock***. Protege contra fallas por la ocurrencia de eventos en un
   orden incorrecto. Ver sustitución más arriba.
 
-* **Rollback**. <a rel="noopener"
-  href="./2_5_1_Tacticas_disponibilidad.md#rollback:~:text=Rollback,Framework.">aquí</a>.
+* **Rollback**. Abre <a rel="noopener"
+  href="./2_5_1_Tacticas_disponibilidad.md#rollback:~:text=Rollback,Framework.">esta
+  página</a> en una nueva solapa o ventana.
 
-* **Re-configuración**. <a rel="noopener"
-  href="./2_5_1_Tacticas_disponibilidad.md#reconfiguracion:~:text=Re-configuraci%C3%B3n,trabajo.">aquí</a>.
+* **Re-configuración**. Abre <a rel="noopener"
+  href="./2_5_1_Tacticas_disponibilidad.md#reconfiguracion:~:text=Re-configuraci%C3%B3n,trabajo.">esta
+  página</a> en una nueva solapa o ventana.
 
 * **Reparación del estado** —o *repair state*—. Consiste en tomar acciones para
   volver a un estado seguro.
