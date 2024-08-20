@@ -65,7 +65,7 @@ La lista a continuación está tomada de [^1]:
   href="./2_5_1_Tacticas_disponibilidad.md#redundancia_analitica:~:text=Voto-Redundancia+anal%C3%ADtica,industrial.">esta
   página</a> en una nueva solapa o ventana.
 
-* ***Redundancia funcional**. Agre <a rel="noopener"
+* **Redundancia funcional**. Abre <a rel="noopener"
   href="./2_5_1_Tacticas_disponibilidad.md#redundancia_funcional:~:text=Voto-Redundancia%20funcional,servicio.">esta
   página</a> en una nueva solapa o ventana.
 
