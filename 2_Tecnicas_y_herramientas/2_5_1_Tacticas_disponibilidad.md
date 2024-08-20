@@ -45,28 +45,29 @@ La lista de tácticas está tomada de[^1]:
   workloads](https://learn.microsoft.com/en-us/azure/well-architected/cross-cutting-guides/health-modeling)
   en Azure Well-Architected Framework.
 
-* **Timestamp**. Consiste en asociar una marca de tiempo o *timestamp* a eventos
-  o mensajes. Permite rastrear la ocurrencia de eventos en un sistema, para
-  identificar cuándo ocurrió una falla. Por ejemplo, todas las entras de un
-  sistema de registro —*log*— deben estar marcadas con la fecha y hora para
-  facilitar el análisis de errores. En los sistemas distribuidos es complejo
-  sincronizar los relojes; si eso no fuera posible, se puede usar números
-  secuenciales.
+* <span id="timestamp">**Timestamp**. Consiste en asociar una marca de tiempo o
+  *timestamp* a eventos o mensajes. Permite rastrear la ocurrencia de eventos en
+  un sistema, para identificar cuándo ocurrió una falla. Por ejemplo, todas las
+  entras de un sistema de registro —*log*— deben estar marcadas con la fecha y
+  hora para facilitar el análisis de errores. En los sistemas distribuidos es
+  complejo sincronizar los relojes; si eso no fuera posible, se puede usar
+  números secuenciales.</span>
 
-* **Monitoreo de condiciones**. Es verificar condiciones específicas de
-  operación para identificar anomalías. Las condiciones en tiempo de ejecución
-  deben ser consistentes con las asumidas durante el diseño. Por ejemplo, el uso
-  de *checksums* —sumas de verificación— es una implementación de esta táctica.
+* <span id="monitoreo_condiciones">**Monitoreo de condiciones**. Es verificar
+  condiciones específicas de operación para identificar anomalías. Las
+  condiciones en tiempo de ejecución deben ser consistentes con las asumidas
+  durante el diseño. Por ejemplo, el uso de *checksums* —sumas de verificación—
+  es una implementación de esta táctica.</span>
 
-* **Control de cordura** —o *sanity check*. Es una verificación simple y rápida
+* <span id="control_cordura">**Control de cordura** —o *sanity check*. Es una verificación simple y rápida
   para asegurar que los valores recibidos o calculados por un componente de la
-  arquitectura de software, o su estado, son razonables.
+  arquitectura de software, o su estado, son razonables.</span>
 
-* **Voto—Replicación**. La replicación es una táctica de disponibilidad en la
-  que se crean copias exactas —instancias o réplicas— de un componente para
-  garantizar que, en caso de fallo de una instancia, otra esté disponible para
-  tomar su lugar inmediatamente. Este enfoque asegura que la falla de una
-  réplica no afecte la disponibilidad del servicio global.
+* <span id="replicacion">**Voto—Replicación**. La replicación es una táctica de
+  disponibilidad en la que se crean copias exactas —instancias o réplicas— de un
+  componente para garantizar que, en caso de fallo de una instancia, otra esté
+  disponible para tomar su lugar inmediatamente. Este enfoque asegura que la
+  falla de una réplica no afecte la disponibilidad del servicio global.
 
   Hay dos tipos de replicación:
   * **Sincrónica:** Las réplicas están constantemente actualizadas y cualquier
@@ -77,19 +78,21 @@ La lista de tácticas está tomada de[^1]:
 
   Ver también [Recommendations for designing for
   redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy)
-  en Azure Well-Architected Framework.
+  en Azure Well-Architected Framework.</span>
 
-* **Voto-Redundancia funcional**. La redundancia funcional se refiere a la
-  implementación de varias funciones que cumplen la misma tarea, pero de manera
-  diferente; es decir, a las mismas entradas producen la misma salida, pero la
-  computan de forma diferente. Esto permite que si una función falla, otra pueda realizar la
-  misma tarea, garantizando la continuidad del servicio.
+* <span id="redundancia_funcional">**Voto-Redundancia funcional**. La
+  redundancia funcional se refiere a la implementación de varias funciones que
+  cumplen la misma tarea, pero de manera diferente; es decir, a las mismas
+  entradas producen la misma salida, pero la computan de forma diferente. Esto
+  permite que si una función falla, otra pueda realizar la misma tarea,
+  garantizando la continuidad del servicio.</span>
 
-* **Voto-Redundancia analítica**. La redundancia analítica implica el uso de
-  diferentes métodos o algoritmos para analizar el mismo conjunto de datos y
-  obtener un resultado consensuado. Esta táctica es especialmente útil en
-  sistemas que requieren alta precisión y fiabilidad, como en análisis de datos
-  críticos o en sistemas de control industrial.
+* <span id="redundancia_analitica">**Voto-Redundancia analítica**. La
+  redundancia analítica implica el uso de diferentes métodos o algoritmos para
+  analizar el mismo conjunto de datos y obtener un resultado consensuado. Esta
+  táctica es especialmente útil en sistemas que requieren alta precisión y
+  fiabilidad, como en análisis de datos críticos o en sistemas de control
+  industrial.</span>
 
 * **Detección de excepciones**. Consiste en identificar y manejar condiciones
   excepcionales que podrían causar fallos en los componentes de la arquitectura
@@ -112,14 +115,14 @@ La lista de tácticas está tomada de[^1]:
   redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy)
   en Azure Well-Architected Framework.
 
-* **Rollback**. Consiste en volver a un estado anterior conocido y correcto en
+* <span id="rollback">**Rollback**. Consiste en volver a un estado anterior conocido y correcto en
   caso de error o falla. Es una táctica crucial en la implementación de
   actualizaciones y cambios de los componentes. Por ejemplo, deshacer una
   actualización de software que causó problemas operativos.
 
   Ver también [Recommendations for designing a deployment failure mitigation
   strategy](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/mitigation-strategy)
-  en Azure Well-Architected Framework.
+  en Azure Well-Architected Framework.</span>
 
 * **Manejo de excepciones**. Es la gestión adecuada de condiciones anómalas para
   evitar que el componente se detenga. Implica capturar y manejar excepciones en
@@ -155,10 +158,11 @@ La lista de tácticas está tomada de[^1]:
   Por ejemplo, un sitio web puede desactivar funciones avanzadas cuando detecta
   alta carga para seguir funcionando.
 
-* **Re-configuración**. Consiste en ajustar la configuración del sistema
-  en forma dinámica para reasignar responsabilidades a otros componentes que todavía
-  estén funcionando. La re-configuración puede ser manual o automática, en
-  respuesta a fallas o cambios en la carga de trabajo.
+* <span id="reconfiguracion">**Re-configuración**. Consiste en ajustar la
+  configuración del sistema en forma dinámica para reasignar responsabilidades a
+  otros componentes que todavía estén funcionando. La re-configuración puede ser
+  manual o automática, en respuesta a fallas o cambios en la carga de
+  trabajo.</span>
 
 * **Sombra** —o *shadow*—. Es ejecutar una instancia o réplica en paralelo
   recién iniciada para probar que funcione correctamente antes de asignarle un
