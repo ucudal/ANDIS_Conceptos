@@ -35,11 +35,15 @@ La lista de tácticas está tomada de[^1]:
   ejemplo, el comando `ping` en sistemas operativos para verificar la
   conectividad con una dirección IP.
 
-* **Hearbeat** -o latido—. Es un mecanismo en el cual un componente de la
+* **Heartbeat** -o latido—. Es un mecanismo en el cual un componente de la
   arquitectura de software envía señales periódicas para indicar que está
   funcionando correctamente. Si la señal no es recibida dentro de un tiempo
   establecido, se asume que el sistema ha fallado. Por ejemplo, en los sistemas de alta
    disponibilidad que envían señales de vida entre los nodos de un clúster.
+
+  Ver también [Health modeling for
+  workloads](https://learn.microsoft.com/en-us/azure/well-architected/cross-cutting-guides/health-modeling)
+  en Azure Well-Architected Framework.
 
 * **Timestamp**. Consiste en asociar una marca de tiempo o *timestamp* a eventos
   o mensajes. Permite rastrear la ocurrencia de eventos en un sistema, para
@@ -54,15 +58,9 @@ La lista de tácticas está tomada de[^1]:
   deben ser consistentes con las asumidas durante el diseño. Por ejemplo, el uso
   de *checksums* —sumas de verificación— es una implementación de esta táctica.
 
-* **Chequeo de salud**. Consiste en la evaluación periódica del estado de los
-  componentes de un sistema. Los chequeos de salud son realizados para
-  asegurarse de que cada componente funciona correctamente. Por ejemplo,un
-  microservicio que periódicamente verifica la disponibilidad de sus
-  dependencias mediante peticiones de health check.
-
-  Ver también [Health modeling for
-  workloads](https://learn.microsoft.com/en-us/azure/well-architected/cross-cutting-guides/health-modeling)
-  en Azure Well-Architected Framework.
+* **Control de cordura** —o *sanity check*. Es una verificación simple y rápida
+  para asegurar que los valores recibidos o calculados por un componente de la
+  arquitectura de software, o su estado, son razonables.
 
 * **Voto—Replicación**. La replicación es una táctica de disponibilidad en la
   que se crean copias exactas —instancias o réplicas— de un componente para
@@ -191,17 +189,18 @@ La lista de tácticas está tomada de[^1]:
   que todas se completen o ninguna lo haga. Las transacciones garantizan la
   consistencia del sistema en caso de fallos durante operaciones complejas.
 
-* **Modelo predictivo**. Es usar técnicas de aprendizaje automático y análisis
+* **Modelo predictivo**<p id="modelo_predictivo">. Es usar técnicas de aprendizaje automático y análisis
   predictivo para anticipar fallas antes de que ocurran a partir de los datos de
   monitoreo. Permite tomar acciones proactivas basadas en patrones y tendencias
-  identificadas en los *logs*.
+  identificadas en los *logs*.</p>
 
-### 25. **Prevención de excepciones**
-   **Definición:** Implementar medidas para evitar que ocurran errores o fallas en primer lugar.
-   **Detalles:** Se enfoca en eliminar las causas raíz de las excepciones antes de que impacten al sistema.
-   **Ejemplo:** Validar todas las entradas de usuario para prevenir errores de formato que podrían causar fallos.
+* **Prevención de excepciones**. Consiste en implementar medidas para evitar que
+  ocurran errores o fallas en primer lugar. El uso de bits de control de paridad
+  o la verificación de redundancia cíclica son ejemplos de prevención de
+  excepciones.
 
-### 26. **Aumentar el conjunto de competencia**
-   **Definición:** Mejorar las habilidades del equipo y la capacidad del sistema para manejar situaciones inesperadas.
-   **Detalles:** Implica la capacitación continua y la mejora de las herramientas y procesos para enfrentar problemas.
-   **Ejemplo:** Entrenamientos regulares para el equipo de operaciones en la respuesta a incidentes críticos.
+* **Aumentar el conjunto de competencia**. El conjunto de competencia es el
+  conjunto de estados en los que un componente de la arquitectura de software
+  puede operar —es competente—. Una excepción es la entrada a un estado fuera
+  del conjunto de competencia. Aumentar el conjunto de estados en los que un
+  componente puede operar es una forma de aumentar la disponibilidad.
