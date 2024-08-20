@@ -33,7 +33,7 @@ La lista a continuación está tomada de [^1]:
   Proton Synchrotron en el CERN. Caen dentro de esta categoría componentes como
   *watchdogs*, *interlocks* y monitores.
 
-* **Modelo predictivo** —o *predictive model*—. Ver <a rel="noopener" href="./2_5_1_Tacticas_disponibilidad.md#modelo_predictivo:~:text=Modelo%20predictivo,logs.">aquí</a>.
+* **Modelo predictivo** —o *predictive model*—. Ver <a rel="noopener" href="./2_5_1_Tacticas_disponibilidad.md#modelo_predictivo:~:text=Modelo%20predictivo,logs." target="_blank">aquí</a>.
 
 * **Control de cordura** —o *sanity check*. Ver <a rel="noopener" href="./2_5_1_Tacticas_disponibilidad.md#control_cordura:~:text=Control%20de%20cordura,razonables.">aquí</a>.
 
