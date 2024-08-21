@@ -59,12 +59,12 @@ Donde:
 
 Por ejemplo:
 
-Si un sistema estuvo operativo durante 864 horas en un mes —que tiene 720 horas—
+Si un sistema estuvo operativo durante 696 horas en un mes —que tiene 720 horas—
 y tuvo 24 horas de inactividad no planificada, la disponibilidad se calcularía
 de la siguiente manera:
 
-$\text{Disponibilidad} = \frac{864 - 24}{864} \times 100 = \frac{840}{864}
-\times 100 \approx 97.22\%$
+$\text{Disponibilidad} = \frac{720 - 24}{720} \times 100 = \frac{696}{720}
+\times 100 \approx 96.67\%$
 
 La fórmula de disponibilidad también se puede expresar en términos de tiempo
 medio entre fallos —o MTBF por sus siglas en inglés, que significa *mean time to
@@ -159,7 +159,7 @@ Ver más detalles sobre estas tácticas de disponibilidad
     <td>Ping/echo</td>
   </tr>
   <tr>
-    <td>Hearbeat</td>
+    <td>Heartbeat</td>
   </tr>
   <tr>
     <td>Timestamp</td>
@@ -242,6 +242,5 @@ Ver [Cloud design patterns that support
 reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/design-patterns)
 en Azure Well-Architected Framework.
 
-Kazman, R. (2022). Tactics and Patterns for Software Robustness. Carnegie Mellon
-University, Software Engineering Institute's Insights Blog. Disponible
-(https://insights.sei.cmu.edu/blog/tactics-and-patterns-for-software-robustness/).
+Ver [Tactics and Patterns for Software Robustness](https://insights.sei.cmu.edu/blog/tactics-and-patterns-for-software-robustness/) en Carnegie Mellon
+University, Software Engineering Institute's Insights Blog.

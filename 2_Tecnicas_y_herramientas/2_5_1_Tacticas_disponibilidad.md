@@ -38,8 +38,9 @@ La lista de tácticas está tomada de[^1]:
 * **Heartbeat** -o latido—. Es un mecanismo en el cual un componente de la
   arquitectura de software envía señales periódicas para indicar que está
   funcionando correctamente. Si la señal no es recibida dentro de un tiempo
-  establecido, se asume que el sistema ha fallado. Por ejemplo, en los sistemas de alta
-   disponibilidad que envían señales de vida entre los nodos de un clúster.
+  establecido, se asume que el sistema ha fallado. Por ejemplo, en los sistemas
+   de alta disponibilidad que envían señales de vida entre los nodos de un
+   clúster.
 
   Ver también [Health modeling for
   workloads](https://learn.microsoft.com/en-us/azure/well-architected/cross-cutting-guides/health-modeling)
@@ -48,7 +49,7 @@ La lista de tácticas está tomada de[^1]:
 * <span id="timestamp">**Timestamp**. Consiste en asociar una marca de tiempo o
   *timestamp* a eventos o mensajes. Permite rastrear la ocurrencia de eventos en
   un sistema, para identificar cuándo ocurrió una falla. Por ejemplo, todas las
-  entras de un sistema de registro —*log*— deben estar marcadas con la fecha y
+  entradas de un sistema de registro —*log*— deben estar marcadas con la fecha y
   hora para facilitar el análisis de errores. En los sistemas distribuidos es
   complejo sincronizar los relojes; si eso no fuera posible, se puede usar
   números secuenciales.</span>
@@ -186,7 +187,7 @@ La lista de tácticas está tomada de[^1]:
 * **Remoción del servicio o rejuvenecimiento de software o reinicio
   terapéutico** Es reiniciar componentes periódicamente para evitar fallas
   debido a degradación o problemas de software como *memory leaks* u *open
-  connections*. Por ejemplo, rReiniciar un servidor web cada cierto tiempo para
+  connections*. Por ejemplo, reiniciar un servidor web cada cierto tiempo para
   evitar problemas de memoria que podrían acumularse.
 
 * **Transacciones**. Es agrupar operaciones en unidades atómicas para asegurar

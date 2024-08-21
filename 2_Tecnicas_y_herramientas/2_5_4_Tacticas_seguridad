@@ -3,3 +3,92 @@
 ## 2.5 Tácticas de arquitectura
 
 ### 2.5.4 Tácticas para seguridad
+
+Una forma de pensar acerca de la seguridad en un sistema es mirar la seguridad
+física. Las instalaciones seguras limitan el acceso a su interior —por ejemplo,
+mediante el uso de vallas y puntos de control de acceso—, cuentan con métodos para
+detectar intrusos —como exigir a los visitantes autorizados que porten tarjetas
+de identificación—, poseen mecanismos disuasorios —como la presencia de cámaras
+de vigilancia—, tienen sistemas de respuesta —por ejemplo, activación automática
+de alarmas— y disponen de mecanismos de recuperación —como sistemas de respaldo
+en ubicaciones remotas—. Estas medidas se agrupan en cuatro categorías de
+tácticas: detección, resistencia, reacción y recuperación[^1].
+
+[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+    Practice, 4<sup>th</sup> edition. Addison-Wesley.
+
+La lista de tácticas está tomada de [^1]:
+
+1. **Detectar la intrusión**
+   - **Definición:** Capacidad del sistema para identificar cuando un actor no autorizado intenta acceder al sistema.
+   - **Ejemplo:** Un sistema de monitoreo que genera alertas cuando se detecta un intento de acceso no autorizado en una base de datos.
+
+2. **Detectar la denegación del servicio**
+   - **Definición:** Capacidad del sistema para identificar cuando se está llevando a cabo un ataque que intenta hacer que el sistema sea inaccesible para los usuarios legítimos.
+   - **Ejemplo:** Un sistema que monitorea el tráfico de red para identificar un aumento inusual en las solicitudes que podrían indicar un ataque DDoS (Denegación de Servicio Distribuida).
+
+3. **Verificar la integridad de los mensajes**
+   - **Definición:** Capacidad del sistema para asegurar que los mensajes no han sido alterados durante la transmisión.
+   - **Ejemplo:** El uso de sumas de verificación (hashes) o firmas digitales para verificar que un mensaje recibido es el mismo que se envió.
+
+4. **Detectar anomalías en la entrega de mensajes**
+   - **Definición:** Capacidad del sistema para identificar comportamientos inusuales o anómalos en la entrega de mensajes, lo que podría indicar un ataque o un fallo.
+   - **Ejemplo:** Un sistema de mensajería que detecta retrasos inesperados o repetidos intentos fallidos de entrega, lo que podría sugerir un ataque de intermediario (man-in-the-middle).
+
+5. **Identificar actores**
+   - **Definición:** Capacidad del sistema para reconocer y distinguir a los diferentes actores (usuarios o componentes) que interactúan con él.
+   - **Ejemplo:** El uso de direcciones IP, certificados digitales, o nombres de usuario únicos para identificar a cada actor que accede al sistema.
+
+6. **Autenticar actores**
+   - **Definición:** Proceso de verificar la identidad de los actores para asegurar que son quienes dicen ser.
+   - **Ejemplo:** El uso de contraseñas, tokens de autenticación, o sistemas biométricos para verificar la identidad de un usuario antes de permitirle acceso.
+
+7. **Autorizar actores**
+   - **Definición:** Proceso de determinar qué acciones o recursos tiene permitido acceder un actor autenticado.
+   - **Ejemplo:** Un sistema que solo permite a los administradores de la red modificar la configuración del servidor, mientras que los usuarios regulares solo pueden ver ciertos datos.
+
+8. **Limitar el acceso**
+   - **Definición:** Proceso de restringir las capacidades de acceso de los actores para reducir el riesgo de comprometer el sistema.
+   - **Ejemplo:** Implementación de controles de acceso basados en roles (RBAC) que limitan el acceso a funciones y datos según el rol del usuario.
+
+9. **Limitar la exposición**
+   - **Definición:** Capacidad del sistema para minimizar la cantidad de información o servicios que se exponen a actores no autorizados.
+   - **Ejemplo:** Ocultar ciertas interfaces de programación de aplicaciones (API) que solo están disponibles para los actores internos y no para el público.
+
+10. **Cifrar los datos**
+    - **Definición:** Proceso de transformar los datos en un formato que solo pueda ser leído por aquellos que posean la clave de descifrado.
+    - **Ejemplo:** Cifrado de datos sensibles en tránsito utilizando HTTPS para proteger la información de tarjetas de crédito durante una transacción en línea.
+
+11. **Separar entidades**
+    - **Definición:** Capacidad de un sistema para aislar diferentes partes o componentes para evitar que un compromiso en una parte afecte a otra.
+    - **Ejemplo:** Usar contenedores o máquinas virtuales para aislar aplicaciones críticas, de manera que un fallo en una no afecte a las demás.
+
+12. **Validar la entrada**
+    - **Definición:** Proceso de verificar que los datos proporcionados al sistema cumplen con los formatos y valores esperados para prevenir ataques como la inyección SQL.
+    - **Ejemplo:** Un sistema que valida que las entradas de los formularios web no contengan scripts maliciosos antes de procesarlas.
+
+13. **Cambiar la configuración de las credenciales**
+    - **Definición:** Capacidad del sistema para modificar credenciales como contraseñas o claves en respuesta a un incidente de seguridad.
+    - **Ejemplo:** Forzar a los usuarios a cambiar sus contraseñas después de un intento fallido de inicio de sesión.
+
+14. **Revocar el acceso**
+    - **Definición:** Proceso de eliminar o desactivar las credenciales de acceso de un actor que ya no debe tener acceso al sistema.
+    - **Ejemplo:** Desactivar la cuenta de un empleado que ha dejado la empresa para evitar que pueda acceder a los sistemas internos.
+
+15. **Restringir el ingreso**
+    - **Definición:** Limitar la capacidad de actores no autorizados para acceder al sistema o partes específicas de él.
+    - **Ejemplo:** Implementar políticas de listas blancas (whitelisting) para permitir solo el acceso de direcciones IP específicas.
+
+16. **Informar a los actores**
+    - **Definición:** Proceso de notificar a los usuarios sobre eventos relevantes relacionados con la seguridad del sistema.
+    - **Ejemplo:** Enviar un correo electrónico a los usuarios cuando se detecta un intento de acceso no autorizado a sus cuentas.
+
+17. **Auditar**
+    - **Definición:** Proceso de registrar y revisar las acciones de los actores dentro del sistema para detectar y prevenir actividades maliciosas.
+    - **Ejemplo:** Mantener un registro de auditoría que capture todas las acciones realizadas por usuarios con privilegios elevados y revisarlo regularmente para identificar actividades sospechosas.
+
+18. **No-repudio**
+    - **Definición:** Asegurar que un actor no pueda negar haber realizado una acción específica en el sistema.
+    - **Ejemplo:** Usar firmas digitales para garantizar que un usuario no pueda negar haber enviado un correo electrónico específico.
+
+Estos atributos de calidad son fundamentales para diseñar arquitecturas de software que sean resilientes a diversas amenazas y que cumplan con los requisitos de seguridad.
