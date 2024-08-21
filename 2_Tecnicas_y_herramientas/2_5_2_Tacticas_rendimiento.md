@@ -2,7 +2,7 @@
 
 ## 2.5 Tácticas de arquitectura
 
-### 2.5.2 Tácticas para rendimiento
+### 2.5.2 Tácticas para el rendimiento
 
 El objetivo de las tácticas de [rendimiento](/4_Conceptos/4_Rendimiento.md) es
 generar una respuesta a los eventos que llegan al sistema bajo alguna

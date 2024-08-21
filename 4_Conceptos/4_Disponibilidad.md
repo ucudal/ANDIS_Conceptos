@@ -146,7 +146,7 @@ requiere alta confiabilidad y accesibilidad constante.
 
 ### Tácticas para la disponibilidad
 
-Ver más detalles sobre estas tácticas para la disponibilidad
+Vean más detalles sobre estas tácticas para la disponibilidad
 [aquí](/2_Tecnicas_y_herramientas/2_5_1_Tacticas_disponibilidad.md).
 
 <table>

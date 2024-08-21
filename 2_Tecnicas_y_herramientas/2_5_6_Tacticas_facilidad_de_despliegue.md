@@ -2,4 +2,4 @@
 
 ## 2.5 Tácticas de arquitectura
 
-### 2.5.5 Tácticas para facilidad de despliegue
+### 2.5.5 Tácticas para la facilidad de despliegue

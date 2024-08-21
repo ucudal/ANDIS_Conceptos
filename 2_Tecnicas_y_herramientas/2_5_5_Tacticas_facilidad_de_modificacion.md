@@ -2,7 +2,7 @@
 
 ## 2.5 Tácticas de arquitectura
 
-### 2.5.5 Tácticas para facilidad de modificación
+### 2.5.5 Tácticas para la facilidad de modificación
 
 La lista de tácticas está tomada de [^1]:
 

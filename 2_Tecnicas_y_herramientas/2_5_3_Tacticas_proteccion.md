@@ -2,7 +2,7 @@
 
 ## 2.5 Tácticas de arquitectura
 
-### 2.5.1 Tácticas para protección
+### 2.5.1 Tácticas para la protección
 
 Las tácticas para [protección](/4_Conceptos/4_Proteccion.md) pueden clasificarse
 ampliamente como prevención de estados inseguros, detección de estados inseguros

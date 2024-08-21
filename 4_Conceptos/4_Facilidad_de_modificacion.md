@@ -42,7 +42,7 @@ Algunas categorías de modificaciones tienen nombres propios[^1]:
 
 ### Tácticas para la facilidad de modificación
 
-Ver más detalles sobre estas tácticas para la facilidad de modificación
+Vean más detalles sobre estas tácticas para la facilidad de modificación
 [aquí](/2_Tecnicas_y_herramientas/2_5_5_Tacticas_facilidad_de_modificacion.md).
 
 <table>

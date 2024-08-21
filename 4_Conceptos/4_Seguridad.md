@@ -62,7 +62,7 @@ inglés. Pueden ver más información sobre qué es y cómo usar un árbol de at
 
 ## Tácticas para la seguridad
 
-Ver más detalles sobre estas tácticas para la seguridad
+Vean más detalles sobre estas tácticas para la seguridad
 [aquí](/2_Tecnicas_y_herramientas/2_5_4_Tacticas_seguridad.md).
 
 <table>

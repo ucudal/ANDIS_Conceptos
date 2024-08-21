@@ -2,6 +2,8 @@
 
 ## [Acoplamiento](./4_Acoplamiento.md)
 
+## [ADR](./4_ADR.md)
+
 ## [Atributos de calidad](./4_Atributos_de_calidad.md)
 
 ## [Calidad de software](./4_Calidad_de_software.md)
@@ -24,9 +26,13 @@
 
 ## [Enfoques de pruebas](./4_Enfoques_de_pruebas.md)
 
+## [Épicas](./4_Epica.md)
+
 ## [Evento del negocio](./4_Evento_del_negocio.md)
 
 ## [Facilidad de despliegue](./4_Facilidad_de_despliegue.md)
+
+## [Facilidad de modificación](./4_Facilidad_de_modificacion.md)
 
 ## [Historia de usuario](./4_Historia_de_usuario.md)
 
@@ -38,7 +44,7 @@
 
 ## [Rendimiento](./4_Rendimiento.md)
 
-## [Requerimientos arquitectónicamente significativos](./4_Requerimiento_arquitectonicamente_significativo.md)
+## [Requerimiento arquitectónicamente significativos](./4_Requerimiento_arquitectonicamente_significativo.md)
 
 ## [Requerimiento no-funcional](./4_Requerimiento_no_funcional.md)
 

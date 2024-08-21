@@ -134,7 +134,7 @@ La calidad del *deployment pipeline* se mide considerando tres factores:
 
 ## Tácticas para la facilidad de despliegue
 
-Ver más detalles sobre estas tácticas para la facilidad de despliegue
+Vean más detalles sobre estas tácticas para la facilidad de despliegue
 [aquí](/2_Tecnicas_y_herramientas/2_5_6_Tacticas_facilidad_de_despliegue.md).
 
 <table>
@@ -197,4 +197,3 @@ en Azure Well-Architected Framework.
 * Canary testing<br>
   Sato, D. (2014). Canary Release. Disponible [aquí](https://martinfowler.com/bliki/CanaryRelease.html?ref=wellarchitected)
 * A/B testing
-

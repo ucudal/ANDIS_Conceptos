@@ -79,7 +79,7 @@ tiempo de bloqueo —cuando el sistema no puede responder—.
 * Disponibilidad de recursos
 * Dependencia de otras operaciones
 
-Ver más detalles sobre estas las tácticas para el rendimiento
+Vean más detalles sobre estas las tácticas para el rendimiento
 [aquí](/2_Tecnicas_y_herramientas/2_5_2_Tacticas_rendimiento.md).
 
 <table>

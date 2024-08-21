@@ -2,7 +2,7 @@
 
 ## 2.5 Tácticas de arquitectura
 
-### 2.5.4 Tácticas para seguridad
+### 2.5.4 Tácticas para la seguridad
 
 Una forma de pensar acerca de la seguridad en un sistema es mirar la seguridad
 física. Las instalaciones seguras limitan el acceso a su interior —por ejemplo,

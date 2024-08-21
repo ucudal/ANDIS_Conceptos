@@ -2,7 +2,7 @@
 
 ## 2.5 Tácticas de arquitectura
 
-### 2.5.1 Tácticas para disponibilidad
+### 2.5.1 Tácticas para la disponibilidad
 
 Las tácticas para lograr satisfacer el atributo de calidad de
 [disponibilidad](/4_Conceptos/4_Disponibilidad.md) en arquitectura de software
