@@ -175,7 +175,7 @@ Vean más detalles sobre estas tácticas para la seguridad
 
 ## Patrones para seguridad
 
-Ver [Cloud design patterns that support
+Vean [Cloud design patterns that support
 security](https://learn.microsoft.com/en-us/azure/well-architected/security/design-patterns)
 en Microsoft Well-Architected Framework.
 

@@ -238,9 +238,9 @@ Vean más detalles sobre estas tácticas para la disponibilidad
 
 ### Patrones para disponibilidad
 
-Ver [Cloud design patterns that support
+Vean [Cloud design patterns that support
 reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/design-patterns)
 en Azure Well-Architected Framework.
 
-Ver [Tactics and Patterns for Software Robustness](https://insights.sei.cmu.edu/blog/tactics-and-patterns-for-software-robustness/) en Carnegie Mellon
+Vean [Tactics and Patterns for Software Robustness](https://insights.sei.cmu.edu/blog/tactics-and-patterns-for-software-robustness/) en Carnegie Mellon
 University, Software Engineering Institute's Insights Blog.

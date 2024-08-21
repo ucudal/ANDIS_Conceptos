@@ -133,6 +133,6 @@ Vean más detalles sobre estas las tácticas para el rendimiento
 
 ### Patrones para rendimiento y eficiencia
 
-Ver [Cloud design patterns that support performance
+Vean [Cloud design patterns that support performance
 efficiency](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/design-patterns)
 en Azure Well Architected Framework.

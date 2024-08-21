@@ -18,13 +18,13 @@ y el texto a completar en el color normal. Tomado de [^1].
             <b>Tipo del requerimiento</b>
         </td>
         <td>
-            Ver debajo <span id="back_ref_1"><a href="#ref_1">↓</a></span>
+            Vean debajo <span id="back_ref_1"><a href="#ref_1">↓</a></span>
         </td>
         <td td style="color:#0969DA">
             <b># Evento/Caso de uso</b>
         </td>
         <td>
-            Ver debajo <span id="back_ref_2"><a href="#ref_2">↓</a></span>
+            Vean debajo <span id="back_ref_2"><a href="#ref_2">↓</a></span>
         </td>
     </tr>
     <tr>
@@ -88,7 +88,7 @@ y el texto a completar en el color normal. Tomado de [^1].
         </td>
         <td colspan="5">
             Una calificación del valor de este requerimiento para los usuarios
-            finales. Ver debajo <span id="back_ref_3"><a href="#ref_3">↓</a>
+            finales. Vean debajo <span id="back_ref_3"><a href="#ref_3">↓</a>
             </span>
         </td>
     </tr>

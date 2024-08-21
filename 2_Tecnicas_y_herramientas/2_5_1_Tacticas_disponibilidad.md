@@ -24,7 +24,7 @@ La lista de tácticas está tomada de[^1]:
   recursos o el desempeño en un servidor para evitar sobrecargas y tomar acción
   antes de que se caiga.
 
-  Ver también [Recommendations for designing a reliable monitoring and alerting
+  Vean también [Recommendations for designing a reliable monitoring and alerting
   strategy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/monitoring-alerting-strategy)
   en Azure Well-Architected Framework.
 
@@ -42,7 +42,7 @@ La lista de tácticas está tomada de[^1]:
    de alta disponibilidad que envían señales de vida entre los nodos de un
    clúster.
 
-  Ver también [Health modeling for
+  Vean también [Health modeling for
   workloads](https://learn.microsoft.com/en-us/azure/well-architected/cross-cutting-guides/health-modeling)
   en Azure Well-Architected Framework.
 
@@ -77,7 +77,7 @@ La lista de tácticas está tomada de[^1]:
     puede ser más eficiente pero introduce un riesgo de pérdida de datos
     recientes en caso de falla.
 
-  Ver también [Recommendations for designing for
+  Vean también [Recommendations for designing for
   redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy)
   en Azure Well-Architected Framework.</span>
 
@@ -112,7 +112,7 @@ La lista de tácticas está tomada de[^1]:
   servidores en un clúster de alta disponibilidad que pueden asumir el control
   en caso de que uno falle.
 
-  Ver también [Recommendations for designing for
+  Vean también [Recommendations for designing for
   redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy)
   en Azure Well-Architected Framework.
 
@@ -121,7 +121,7 @@ La lista de tácticas está tomada de[^1]:
   actualizaciones y cambios de los componentes. Por ejemplo, deshacer una
   actualización de software que causó problemas operativos.
 
-  Ver también [Recommendations for designing a deployment failure mitigation
+  Vean también [Recommendations for designing a deployment failure mitigation
   strategy](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/mitigation-strategy)
   en Azure Well-Architected Framework.</span>
 
@@ -143,7 +143,7 @@ La lista de tácticas está tomada de[^1]:
   tenga éxito en un segundo intento. Los re-intentos son útiles para manejar
   fallas transitorias.
 
-  Ver también [Recommendations for handling transient
+  Vean también [Recommendations for handling transient
   faults](https://learn.microsoft.com/en-us/azure/well-architected/reliability/handle-transient-faults)
   en Azure Well-Architected Framework.
 

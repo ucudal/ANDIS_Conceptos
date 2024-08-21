@@ -2,7 +2,7 @@
 
 ## Enfoques de pruebas
 
-Ver también [conceptos de calidad de
+Vean también [conceptos de calidad de
 software](/4_Conceptos/4_Calidad_de_software.md); y la [plantilla de
 pruebas](/3_Plantillas/3_4_Casos_de_prueba_de_usuario_final.md) donde se indican
 los enfoques de pruebas en un proyecto.

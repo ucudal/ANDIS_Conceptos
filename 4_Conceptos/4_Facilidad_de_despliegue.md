@@ -181,7 +181,7 @@ Vean más detalles sobre estas tácticas para la facilidad de despliegue
 
 ## Patrones para la facilidad de despliegue
 
-Ver [Cloud design patterns that support operational
+Vean [Cloud design patterns that support operational
 excellence](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/design-patterns)
 en Azure Well-Architected Framework.
 
@@ -193,7 +193,11 @@ en Azure Well-Architected Framework.
 * Blue/green deployment<br>
   Fowler, M. (2010). Blue Green Deployment. Disponible
   [aquí](https://martinfowler.com/bliki/BlueGreenDeployment.html)
-* Rolling upgrade
+* Rolling upgrade<br>
+  Wolski, A. & Laiho, K. (2004). Rolling Upgrades for Continuous Services.
+  Disponible
+  [aquí](https://link-springer-com.proxy.timbo.org.uy/chapter/10.1007/978-3-540-30225-4_13)
+  vía Timbó.
 * Canary testing<br>
   Sato, D. (2014). Canary Release. Disponible [aquí](https://martinfowler.com/bliki/CanaryRelease.html?ref=wellarchitected)
 * A/B testing
