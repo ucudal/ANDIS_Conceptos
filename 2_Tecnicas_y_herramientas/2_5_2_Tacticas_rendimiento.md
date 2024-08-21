@@ -34,7 +34,7 @@ La lista de tácticas está tomada de[^1]:
   demás. Un ejemplo es un sistema de colas donde las solicitudes de alta
   prioridad son atendidas antes que las de baja prioridad.
 
-  Ver además [Recommendations for prioritizing the performance of critical
+  Vean además [Recommendations for prioritizing the performance of critical
   flows](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/prioritize-critical-flows)
   en Azure Well-Architected Framework.
 
@@ -61,7 +61,7 @@ La lista de tácticas está tomada de[^1]:
   las estructuras de datos para que las tareas se realicen de la manera más
   eficiente posible.
 
-  Ver además [Recommendations for optimizing code and
+  Vean además [Recommendations for optimizing code and
   infrastructure](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/optimize-code-infrastructure)
   en Azure Well-Architected Framework.
 
@@ -93,7 +93,7 @@ La lista de tácticas está tomada de[^1]:
     es decidir qué datos van al caché, y el otro es cómo mantener el caché
     consistente con la fuente de datos de origen.
 
-  Ver además [Recommendations for optimizing data
+  Vean además [Recommendations for optimizing data
   performance](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/optimize-data-performance)
   en Azure Well-Architected Framework.
 

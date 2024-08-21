@@ -20,7 +20,7 @@ Esta característica se subdivide a su vez en las siguientes sub-característica
   de un sistema, producto o componente y sus datos están protegidos frente a
   modificaciones o eliminaciones no autorizadas, ya sea por acciones
   malintencionadas o por errores informáticos.
-* **No repudio**. Es la capacidad de demostrar las acciones o eventos que han
+* **No-repudio**. Es la capacidad de demostrar las acciones o eventos que han
   tenido lugar, de manera que dichas acciones o eventos no puedan ser
   repudiados —rechazados, no aceptados— posteriormente.
 * **Responsabilidad**. Es la capacidad de rastrear de forma inequívoca las
@@ -61,6 +61,9 @@ inglés. Pueden ver más información sobre qué es y cómo usar un árbol de at
 [aquí](https://www.ncsc.gov.uk/collection/risk-management/using-attack-trees-to-understand-cyber-security-risk).
 
 ## Tácticas para la seguridad
+
+Ver más detalles sobre estas tácticas para la seguridad
+[aquí](/2_Tecnicas_y_herramientas/2_5_4_Tacticas_seguridad.md).
 
 <table>
   <tr>

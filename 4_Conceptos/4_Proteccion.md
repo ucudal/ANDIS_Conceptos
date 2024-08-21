@@ -65,6 +65,9 @@ Además, el estado inseguro debe ser registrado e informado.
 
 ## Tácticas para la protección
 
+Ver más detalles sobre estas tácticas para la protección
+[aquí](/2_Tecnicas_y_herramientas/2_5_3_Tacticas_proteccion.md).
+
 <table>
   <tr>
     <td rowspan="18">

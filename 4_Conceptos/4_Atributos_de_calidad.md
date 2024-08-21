@@ -179,7 +179,7 @@ facilitan la consecución de tareas y objetivos de usuario especificados.
 
 ### Eficiencia de desempeño
 
-Ver además el artículo completo sobre [rendimiento](./4_Rendimiento.md).
+Vean además el artículo completo sobre [rendimiento](./4_Rendimiento.md).
 
 Esta característica representa el desempeño de un producto en la realización de
 sus funciones dentro de unos parámetros de tiempo y rendimiento especificados y
@@ -293,7 +293,7 @@ y restablecer el estado deseado del sistema en caso de interrupción o fallo.
 
 ### Seguridad
 
-Ver además el artículo completo sobre [seguridad](./4_Seguridad.md).
+Vean además el artículo completo sobre [seguridad](./4_Seguridad.md).
 
 Capacidad de protección de la información y los datos de manera que las personas
 u otros productos tengan el grado de acceso a los datos adecuado a sus tipos y
@@ -393,7 +393,7 @@ determinado con el mismo propósito y en el mismo entorno.
 
 ### Protección
 
-Ver además el artículo completo sobre [protección](./4_Proteccion.md).
+Vean además el artículo completo sobre [protección](./4_Proteccion.md).
 
 Esta característica representa la capacidad del producto, en condiciones
 definidas, de evitar un estado en el que se ponga en peligro la vida humana, la

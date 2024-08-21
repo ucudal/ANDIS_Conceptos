@@ -24,7 +24,7 @@ La lista de tácticas está tomada de [^1]:
   Los patrones puede estar basados en características del protocolo, de los
   llamados, del contenido de los mensajes —*payload*—, origen, destino, etc.
 
-  Ver además [Recommendations for monitoring and threat
+  Vean además [Recommendations for monitoring and threat
   detection](https://learn.microsoft.com/en-us/azure/well-architected/security/monitor-threats)
   en Azure Well-Architected Framework.
 
@@ -35,7 +35,7 @@ La lista de tácticas está tomada de [^1]:
   ataque DDoS —denegación de servicio distribuida, o *distributed denial or
   service*—.
 
-  Ver además [Recommendations for networking and
+  Vean además [Recommendations for networking and
   connectivity](https://learn.microsoft.com/en-us/azure/well-architected/security/networking)
   en Azure Well-Architected Framework.
 
@@ -44,7 +44,7 @@ La lista de tácticas está tomada de [^1]:
   sumas de verificación —*hashes*— o firmas digitales para verificar la
   integridad de los mensajes.
 
-  Ver además [Recommendations for data
+  Vean además [Recommendations for data
   encryption](https://learn.microsoft.com/en-us/azure/well-architected/security/encryption)
   en Azure Well-Architected Framework.
 
@@ -58,7 +58,7 @@ La lista de tácticas está tomada de [^1]:
   mediante un identificador de usuario —o *user id*—, pero también se puede usar
   direcciones IP u otros mecanismos.
 
-  Ver además [Recommendations for identity and access
+  Vean además [Recommendations for identity and access
   management](https://learn.microsoft.com/en-us/azure/well-architected/security/identity-access)
   en Azure Well-Architected Framework.
 
@@ -68,7 +68,7 @@ La lista de tácticas está tomada de [^1]:
   autenticación de dos factores —2FA o *two factors authentication*— y
   la identificación biométrica proporcionan un medio para la autenticación.
 
-  Ver además [Recommendations for identity and access
+  Vean además [Recommendations for identity and access
   management](https://learn.microsoft.com/en-us/azure/well-architected/security/identity-access)
   en Azure Well-Architected Framework.
 
@@ -76,7 +76,7 @@ La lista de tácticas está tomada de [^1]:
   tiene permitido acceder un actor autenticado. El acceso puede ser limitado por
   actor o por rol.
 
-  Ver además [Recommendations for identity and access
+  Vean además [Recommendations for identity and access
   management](https://learn.microsoft.com/en-us/azure/well-architected/security/identity-access)
   en Azure Well-Architected Framework.
 
@@ -85,7 +85,7 @@ La lista de tácticas está tomada de [^1]:
   permitido a través de los puntos de acceso; en ambos casos de reduce la
   superficie de ataque del componente arquitectónico. Un ejemplo es la DMZ.
 
-  Ver además [Recommendations for building a segmentation
+  Vean además [Recommendations for building a segmentation
   strategy](https://learn.microsoft.com/en-us/azure/well-architected/security/segmentation)
   en Azure Well-Architected Framework y [Implement a secure hybrid
   network](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/dmz/secure-vnet-dmz)
@@ -100,7 +100,7 @@ La lista de tácticas está tomada de [^1]:
   puede ser simétrico —ambas partes tienen la misma clave— o asimétrico
   —mediante un mecanismo de clave pública y privada—.
 
-  Ver además [Recommendations for data
+  Vean además [Recommendations for data
   encryption](https://learn.microsoft.com/en-us/azure/well-architected/security/encryption)
   en Azure Well-Architected Framework.
 
@@ -114,7 +114,7 @@ La lista de tácticas está tomada de [^1]:
   con los formatos y valores esperados para prevenir ataques como la inyección
   SQL o *cross-site scripting*.
 
-  Ver además [Recommendations for hardening
+  Vean además [Recommendations for hardening
   resources](https://learn.microsoft.com/en-us/azure/well-architected/security/harden-resources)
   en Azure Well-Architected Framework.
 

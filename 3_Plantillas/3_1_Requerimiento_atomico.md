@@ -127,7 +127,7 @@ y el texto a completar en el color normal. Tomado de [^1].
     </tr>
 </table>
 
-Ver además la [checklist de requerimientos](/2_Tecnicas_y_herramientas/2_1_4_Checklist_requerimientos.md).
+Vean además la [checklist de requerimientos](/2_Tecnicas_y_herramientas/2_1_4_Checklist_requerimientos.md).
 
 -----
 <span id="ref_1">Tipos de requerimiento</span>:

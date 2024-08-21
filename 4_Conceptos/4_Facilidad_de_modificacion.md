@@ -42,6 +42,9 @@ Algunas categorías de modificaciones tienen nombres propios[^1]:
 
 ### Tácticas para la facilidad de modificación
 
+Ver más detalles sobre estas tácticas para la facilidad de modificación
+[aquí](/2_Tecnicas_y_herramientas/2_5_5_Tacticas_facilidad_de_modificacion.md).
+
 <table>
   <tr>
     <td rowspan="15">
@@ -64,7 +67,7 @@ Algunas categorías de modificaciones tienen nombres propios[^1]:
       Reducir el <a href="./4_Acoplamiento.md">acoplamiento</a>
     </td>
     <td>
-      Encapsulación
+      Encapsulamiento
     </td>
   </tr>
   <tr>
