@@ -48,7 +48,7 @@ sucesivas entregas a medida que avanza el proyecto.
 
 ## 1.1 [Requerimientos](./1_1__Requerimientos.md)
 
-Basado en la plantilla de requisitos utilizada en el curso de Análisis y diseño
+Basado en la plantilla de requerimientos utilizada en el curso de Análisis y diseño
 de aplicaciones I. Incluye aspectos del documento de casos de uso de ediciones
 del proyecto anteriores a 2024.
 
@@ -107,7 +107,7 @@ Cada una de estas fases puede tener una o más iteraciones o *sprints*.
 Tomado de [PMI](https://www.pmi.org/disciplined-agile/lifecycle).*
 
 > [!TIP]
-> Puedes ver las actividades en cada una de las fases de DAD en el [DA
+> Pueden ver las actividades en cada una de las fases de DAD en el [DA
 > Browser](https://dabrowser.pmi.org).
 
 El anteproyecto y proyecto final de grado tienen las siguientes etapas, donde
@@ -193,7 +193,7 @@ Para ello deberán mantener reuniones con la contraparte del proyecto, es decir,
 quién actúe como cliente. Esperamos que se familiaricen lo suficiente con la
 necesidad que les planteen y con el dominio del problema o del [área de
 trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md), como para formular la
-propuesta; puedes ver [aquí](#propuesta-de-proyecto) qué contiene la propuesta a
+propuesta; pueden ver [aquí](#propuesta-de-proyecto) qué contiene la propuesta a
 entregar al final de esta etapa.
 
 También deberán determinar qué es lo que se necesita construir para resolver la
@@ -272,10 +272,10 @@ Los objetivos en esta etapa son:
   el plan del proyecto.
 
 * Compartir con el cliente el plan del proyecto y validar expectativas sobre el
-  alcance del proyecto y las soluciones arquitectónicas que incluiste
-  oportunamente en la propuesta de proyecto ‑si no lo hubieras hecho todavía‑.
+  alcance del proyecto y las soluciones arquitectónicas que incluyeron
+  oportunamente en la propuesta de proyecto ‑si no lo hubieran hecho todavía‑.
 
-* Comenzar a escribir el documento entregable; puedes ver a continuación qué
+* Comenzar a escribir el documento entregable; pueden ver a continuación qué
   productos se generan en esta etapa para cada dimensión del proyecto.
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
@@ -298,18 +298,18 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
 * **Desarrollo**. Aunque no es requerido, sí es recomendable tener un esqueleto
   de la arquitectura de la solución en código. Por ejemplo, si el producto final
-  será una aplicación *mobile* con un *backend*, puedes tener un servicio web
+  será una aplicación *mobile* con un *backend*, pueden tener un servicio web
   REST para el *backend* con un *endpoint* de chequeo de salud[^1] que retorne
   siempre `200 OK` y el cliente *mobile* puede ser simplemente una pantalla de
   bienvenida que muestre el resultado del chequeo de salud del *backend*, todo
   corriendo en ambiente de desarrollo. Aunque esto pueda cambiar en el futuro,
-  te obligará a crear los proyectos, ponerlos en un repositorio de control de
+  les obligará a crear los proyectos, ponerlos en un repositorio de control de
   configuración en línea, asignar los permisos, etc.
 
-  > [!IMPORTANT]
-  > Todos los miembros del equipo, independientemente de su rol, deberán conocer
-  > y estar en condiciones de ejecutar el código desarrollado a lo largo de todo
-  > el proyecto.
+> [!IMPORTANT]
+> Todos los miembros del equipo, independientemente de su rol, deberán conocer
+> y estar en condiciones de ejecutar el código desarrollado a lo largo de todo
+> el proyecto.
 
 * **Aseguramiento de la calidad**. Completen la sección de resultado esperado de
   cada caso de uso, y asegúrense de que es verificable.
@@ -362,8 +362,8 @@ Los objetivos de esta etapa son:
 
 * Usando la [plantilla de requerimiento
   atómico](/3_Plantillas/3_1_Requerimiento_atomico.md) especificar la versión
-  inicial de los requisitos funcionales y no funcionales de los casos de uso del
-  producto.
+  inicial de los requerimientos funcionales y no funcionales de los casos de uso
+  del producto.
 
   Pueden usar [historias de usuario](/4_Conceptos/4_Historia_de_usuario.md) para
   especificar los requerimientos.
@@ -373,7 +373,7 @@ Los objetivos de esta etapa son:
   prueba](/3_Plantillas/3_4_Casos_de_prueba_de_usuario_final.md) en aquellos
   casos que sea posible.
 
-* Definir la arquitectura detallada y las tecnologías que vas a utilizar.
+* Definir la arquitectura detallada y las tecnologías que van a utilizar.
 
 * Implementar la mínima cantidad de requerimientos ‑puede ser uno‑ que permita
   validar la arquitectura planteada.
@@ -389,11 +389,12 @@ Los objetivos de esta etapa son:
 
 Los productos esperados de esta etapa para cada dimensión son los siguientes:
 
-* **Requerimientos**. Los casos de uso del producto para los casos del negocio
-  más significativos identificados en la etapa anterior. Incluyan en cada caso
-  de uso al menos su disparador, su nombre, el actor, el curso básico y el
-  resultado esperado; excepto para el o los casos de uso del producto que hayan
-  elegido para validar la arquitectura, que tendrán que estar completo.
+* **Requerimientos**. Los casos de uso del producto para los casos de uso del
+  negocio más significativos identificados en la etapa anterior. Incluyan en
+  cada caso de uso del producto al menos su disparador, su nombre, el actor, el
+  curso básico y el resultado esperado; excepto para el o los casos de uso del
+  producto que hayan elegido para validar la arquitectura, que tendrán que estar
+  completos.
 
   Los requerimientos funcionales y no funcionales para el o los casos de uso del
   producto que hayan incluido.
@@ -441,7 +442,7 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
 La tercera etapa del proyecto es el primer *release*. Dura entre doce y catorce
 semanas.
 
-Más allá de que en cada iteración produzcas una [solución
+Más allá de que en cada iteración produzcan una [solución
 consumible](/4_Conceptos/4_Solucion_consumible.md), en el primer *release* sí o
 sí deberías tener una solución similar a la final, aunque obviamente sólo
 implementará los requerimientos asignados a esta etapa. Excepto por el hecho de
@@ -462,7 +463,7 @@ Los objetivos de esta etapa son:
 
 * Liberar una primera versión del MVP funcionando.
 
-De nuevo, aunque en cada iteración ya vengas usando una forma de compilación,
+De nuevo, aunque en cada iteración ya vengan usando una forma de compilación,
 despliegue y prueba automatizada, en este *release* sí o sí deberás tenerla.
 Esto puede ser implementado con [GitHub
 Actions](https://github.com/features/actions), [Azure
@@ -642,13 +643,49 @@ Contenido de la propuesta:
   quién de los interesados actuará como encargado del proyecto de la contraparte
   y quién hace las veces de patrocinador.
 
-* El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes.
+* El producto de la [etapa de anteproyecto](#anteproyecto) descrita antes. Esto
+  se ve resumido en la siguiente tabla:
+
+<table>
+  <tr>
+    <td><b>Requerimientos</b></td>
+    <td>Eventos de negocio más significativos</td>
+    <td>Casos de uso del negocio para los eventos de negocio</td>
+    <td>Requerimientos relacionados a UX/UI</td>
+  </tr>
+  <tr>
+    <td><b>Diseño y Arquitectura</b></td>
+    <td>Arquitectura tentativa a alto nivel</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Desarrollo</b></td>
+    <td>No aplica</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Aseguramiento de la Calidad</b></td>
+    <td>No aplica</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>UX/UI</b></td>
+    <td>No aplica</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Gestión y Proceso</b></td>
+    <td>Versión de DAD a usar y roles de los miembros del equipo</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ### Primera entrega
-
-* Documento entregable, con el contenido indicado para las etapas
-  [descubrimiento e inicio](#descubrimiento-e-inicio), [prueba de
-  concepto](#prueba-de-concepto) y [primer *release*](#primer-release).
 
 * [Carta de
   confidencialidad](/3_Plantillas/3_6_Carta_confidencialidad_simple.md) o
@@ -656,23 +693,173 @@ Contenido de la propuesta:
   confidencialidad](/3_Plantillas/3_7_Compromiso_confidencialidad.md) según
   corresponda.
 
-* <!-- TODO: enumerar las secciones aplicables -->
+* Documento entregable, con el contenido indicado para las etapas
+  [descubrimiento e inicio](#descubrimiento-e-inicio), [prueba de
+  concepto](#prueba-de-concepto) y [primer *release*](#primer-release). La
+  siguiente tabla resume lo agregado al documento para esta entrega:
+
+<table>
+  <tr>
+    <td><b>Requerimientos</b></td>
+    <td>Todos los eventos del negocio</td>
+    <td>Los casos de uso del negocio de las funcionalidades implementadas hasta
+    la fecha</td>
+    <td>Los casos de uso del producto correspondientes a las funcionalidades
+    implementadas y requerimientos atómicos para los casos de uso implementados</td>
+  </tr>
+  <tr>
+    <td><b>Diseño y Arquitectura</b></td>
+    <td>Arquitectura detallada con tecnologías usadas por cada componente</td>
+    <td>Diagramas de despliegue, de clases y cualquier otro pertinente para lo
+    desarrollado completos</td>
+    <td>En caso de que hayan habido cambios a la arquitectura propuesta
+    inicialmente, justificación de los mismos</td>
+  </tr>
+  <tr>
+    <td><b>Desarrollo</b></td>
+    <td>Código funcionando con lo implementado hasta el momento</td>
+    <td>Instrucciones para ejecutar la aplicación en entorno de desarrollo</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Aseguramiento de la Calidad</b></td>
+    <td>Tests unitarios para las funcionalidades desarrolladas</td>
+    <td>Si corresponde, pruebas de carga para validar la arquitectura</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>UX/UI</b></td>
+    <td>Maquetas de UX/UI para las funcionalidades desarrolladas</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Gestión y Proceso</b></td>
+    <td>Versión de DAD utilizada y roles de los miembros del equipo</td>
+    <td>Herramientas de gestión del proyecto utilizadas en su cotidianidad</td>
+    <td>Plan del proyecto actualizado e indicadores del proceso hasta el momento
+    (velocidad, <i>burn down</i>, <i>cumulative flow</i>, <i>build status</i>,
+    <i>test failures</i>, etc.)</td>
+  </tr>
+</table>
 
 ### Segunda entrega
 
 * Documento entregable, con el contenido indicado para la etapa de [segundo
-  *release*](#segundo-release).
+  *release*](#segundo-release). La siguiente tabla resume lo agregado al
+  documento para esta entrega:
 
-* <!-- TODO: enumerar las secciones aplicables -->
+<table>
+  <tr>
+    <td><b>Requerimientos</b></td>
+    <td>Todos los eventos del negocio</td>
+    <td>Los casos de uso del negocio de las funcionalidades implementadas hasta
+    la fecha</td>
+    <td>Los casos de uso del producto correspondientes a las funcionalidades
+    implementadas y requerimientos atómicos para los casos de uso implementados</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Diseño y Arquitectura</b></td>
+    <td>Arquitectura detallada con tecnologías usadas por cada componente</td>
+    <td>Diagramas de despliegue, de clases y cualquier otro pertinente para lo
+    desarrollado completos</td>
+    <td>En caso de que hayan habido cambios a la arquitectura propuesta
+    inicialmente, justificación de los mismos</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Desarrollo</b></td>
+    <td>Código funcionando con lo implementado hasta el momento</td>
+    <td>Instrucciones para ejecutar la aplicación en entorno de desarrollo</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Aseguramiento de la Calidad</b></td>
+    <td>Tests unitarios para las funcionalidades desarrolladas</td>
+    <td>Si corresponde, pruebas de carga para validar la arquitectura</td>
+    <td>Pruebas de regresión</td>
+    <td>Casos de prueba de usuario final para los casos de uso del producto
+    implementados hasta el momento, incluyendo los datos de prueba utilizados y
+    los resultados de las pruebas</td>
+  </tr>
+  <tr>
+    <td><b>UX/UI</b></td>
+    <td>Maquetas de UX/UI para las funcionalidades desarrolladas</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Gestión y Proceso</b></td>
+    <td>Versión de DAD utilizada y roles de los miembros del equipo</td>
+    <td>Herramientas de gestión del proyecto utilizadas en su cotidianidad</td>
+    <td>Plan del proyecto actualizado e indicadores del proceso hasta el momento
+    (velocidad, <i>burn down</i>, <i>cumulative flow</i>, <i>build status</i>,
+    <i>test failures</i>, etc.)</td>
+    <td></td>
+  </tr>
+</table>
 
 ### Entrega final
 
-* Documento entregable, con el contenido indicado para la etapa de [delivery al
-  cliente y tercer *release*](#delivery-al-cliente-y-tercer-release)
-
 * [Carta de aceptación](/3_Plantillas/3_5_Carta_aceptacion_cliente.md)
 
-* <!-- TODO: enumerar las secciones aplicables -->
+* Documento entregable, con el contenido indicado para la etapa de [delivery al
+  cliente y tercer *release*](#delivery-al-cliente-y-tercer-release). La
+  siguiente tabla resume lo agregado al documento para esta entrega:
+
+<table>
+  <tr>
+    <td><b>Requerimientos</b></td>
+    <td>Todos los eventos del negocio</td>
+    <td>Todos los casos de uso del negocio</td>
+    <td>Los casos de uso del producto y requerimientos atómicos para toda la solución</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Diseño y Arquitectura</b></td>
+    <td>Arquitectura detallada con tecnologías usadas por cada componente</td>
+    <td>Diagramas de despliegue, de clases y cualquier otro pertinente para lo
+    desarrollado completos</td>
+    <td>En caso de que hayan habido cambios a la arquitectura propuesta
+    inicialmente, justificación de los mismos</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Desarrollo</b></td>
+    <td>Código completo de la solución</td>
+    <td><i>Pipeline</i> de CI/CD actualizado para despliegue en ambiente de pruebas</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Aseguramiento de la Calidad</b></td>
+    <td>Tests unitarios para el código entregado</td>
+    <td>Si corresponde, pruebas de carga para validar la arquitectura</td>
+    <td>Pruebas de regresión</td>
+    <td>Casos de prueba de usuario final y pruebas de integración, ambos para un
+    conjunto significativo de la funcionalidad de la solución, incluyendo los
+    datos de prueba utilizados y los resultados de las pruebas</td>
+  </tr>
+  <tr>
+    <td><b>UX/UI</b></td>
+    <td>Maquetas de UX/UI para las funcionalidades desarrolladas</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Gestión y Proceso</b></td>
+    <td>Versión de DAD utilizada y roles de los miembros del equipo</td>
+    <td>Herramientas de gestión del proyecto utilizadas en su cotidianidad</td>
+    <td>Plan del proyecto actualizado e indicadores del proceso hasta el momento
+    (velocidad, <i>burn down</i>, <i>cumulative flow</i>, <i>build status</i>,
+    <i>test failures</i>, etc.)</td>
+    <td>Retrospectiva</td>
+  </tr>
+</table>
 
 ### Defensa
 
@@ -684,11 +871,11 @@ Contenido de la propuesta:
     Monitoring](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring)
     por ejemplo.
 
-[^2]: Ten en cuenta la seguridad y privacidad de la información que almacenes en
-    estos repositorios; si tienes un acuerdo de confidencialidad con el cliente,
-    deberías usar las herramientas recomendadas. También deberás considerar que
-    otras herramientas pueden tener costos asociados o limitar la cantidad de
-    usuarios o de archivos en las versiones gratuitas.
+[^2]: Tengan en cuenta la seguridad y privacidad de la información que almacenen
+    en estos repositorios; si tienen un acuerdo de confidencialidad con el
+    cliente, deberían usar las herramientas recomendadas. También deberán
+    considerar que otras herramientas pueden tener costos asociados o limitar la
+    cantidad de usuarios o de archivos en las versiones gratuitas.
 
 [^3]: Estos reportes pueden ser generados automáticamente con la herramienta
     Azure DevOps recomendada, no tienen porqué hacerlos a mano si la usan para
