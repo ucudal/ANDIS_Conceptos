@@ -146,7 +146,7 @@ Vean más detalles sobre estas tácticas para la facilidad de despliegue
       Gestionar el <i>pipeline</i> de despliegue
     </td>
     <td>
-      Despliegue en escala
+      Despliegue escalonado
     </td>
   </tr>
   <tr>

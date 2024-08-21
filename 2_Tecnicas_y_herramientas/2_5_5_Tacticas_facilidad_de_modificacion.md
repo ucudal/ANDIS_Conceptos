@@ -4,6 +4,11 @@
 
 ### 2.5.5 Tácticas para la facilidad de modificación
 
+Las tácticas para lograr satisfacer el atributo de calidad de [facilidad de
+modificación](/4_Conceptos/4_Facilidad_de_modificacion.md) en arquitectura de
+software tienen como objetivo aumentar la cohesión, reducir el acoplamiento y
+diferir el *binding*.
+
 La lista de tácticas está tomada de [^1]:
 
 [^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
