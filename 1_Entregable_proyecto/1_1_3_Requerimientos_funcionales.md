@@ -1,6 +1,6 @@
 # 1 Entregable del proyecto
 
-## 1.1 Requisitos
+## 1.1 Requerimientos
 
 ### 1.1.3 Requerimientos funcionales
 
