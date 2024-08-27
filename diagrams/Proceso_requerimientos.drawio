@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="kLxlBWsfmVm-SWqDWMv2" name="Page-1">
+        <mxGraphModel dx="590" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Despegue del proyecto" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="120" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="90" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Plan estratégico del producto" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;verticalAlign=top;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="10" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" edge="1" parent="1" source="5" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Necesidades del negocio" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;align=center;verticalAlign=top;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="10" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" edge="1" parent="1" source="4" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="86.15384615384619" y="80" as="sourcePoint"/>
+                        <mxPoint x="113.0769230769231" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Owner" style="shape=actor;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;verticalAlign=bottom;fontColor=#006EAF;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="60" width="50" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Costos iniciales" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" edge="1" parent="1" source="2" target="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="183.63636363636363" y="80" as="sourcePoint"/>
+                        <mxPoint x="156.36363636363637" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Alcance del trabajo" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;align=center;verticalAlign=top;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="230" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" edge="1" parent="1" source="2" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="89.09090909090912" y="80" as="sourcePoint"/>
+                        <mxPoint x="120.90909090909088" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Elicitar el conocimiento" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="230" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" edge="1" parent="1" source="12" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120.90909090909088" y="190" as="sourcePoint"/>
+                        <mxPoint x="89.09090909090912" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Metas del proyecto" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" edge="1" parent="1" source="2" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120.90909090909088" y="190" as="sourcePoint"/>
+                        <mxPoint x="89.09090909090912" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
