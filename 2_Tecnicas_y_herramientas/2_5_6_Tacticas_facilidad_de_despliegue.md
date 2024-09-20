@@ -2,7 +2,7 @@
 
 ## 2.5 Tácticas de arquitectura
 
-### 2.5.5 Tácticas para la facilidad de despliegue
+### 2.5.6 Tácticas para la facilidad de despliegue
 
 Las tácticas para lograr satisfacer el atributo de calidad de [facilidad de
 despliegue](/4_Conceptos/4_Facilidad_de_despliegue.md) en arquitectura de
