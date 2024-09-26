@@ -24,4 +24,3 @@ dolorosas[^1]:
 6. Hay un administrador
 7. El costo de transporte es cero
 8. La red es homogénea
-
