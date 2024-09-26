@@ -11,3 +11,4 @@ Interfaces de software
 Virtualización
 Computación en la nube y distribuida
 Sistemas móviles -->
+<!-- formas de comunicación podría ir aquí, al igual que workflow-->
