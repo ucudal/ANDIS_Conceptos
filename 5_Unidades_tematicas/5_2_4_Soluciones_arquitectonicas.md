@@ -6,6 +6,7 @@
 
 #### Lecturas
 
+<!-- Componentes de software de -->
 <!-- TBD. Incluir la parte III de Bass
 Interfaces de software
 Virtualización
