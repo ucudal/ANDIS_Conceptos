@@ -2,10 +2,15 @@
 
 ## 3.2 Escenarios
 
-Esta es la plantilla para el escenario de un caso de uso del negocio o de un
-caso de uso del producto. Las entradas
-de la plantilla están marcadas <span style="color:#0969DA;font-weight: bold;">así</span>
-y el texto a completar en el color normal. Tomado de [^1].
+Esta es la plantilla para el [escenario](/4_Conceptos/4_Escenario.md) de un
+[caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md) o de un
+[caso de uso del producto](/4_Conceptos/4_Caso_de_uso_del_producto.md). Las
+entradas de la plantilla están marcadas
+<span style="color:#0969DA;font-weight: bold;">así</span>
+y el texto a completar en el color normal. Esta plantilla está tomada de [^1].
+
+[^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
+Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
 
 Los escenarios muestran la funcionalidad de un caso de uso dividiéndolo en una
 serie de pasos fácilmente reconocibles, escritos en lenguaje natural para que
@@ -110,5 +115,3 @@ sean accesibles para todos los interesados.
     </tr>
 </table>
 
-[^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
-Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.

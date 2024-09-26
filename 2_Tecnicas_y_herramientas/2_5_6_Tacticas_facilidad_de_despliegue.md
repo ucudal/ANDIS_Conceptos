@@ -29,7 +29,13 @@ La lista de tácticas está tomada de [^1]:
   manejar el proceso de despliegue, incluyendo la configuración del entorno, la
   instalación de dependencias y la activación de servicios. De esta forma mejora
   la consistencia, se reducen los errores humanos, y se facilita la repetibilidad
-  del proceso de despliegue .
+  del proceso de despliegue.
+
+  Vean además [Infrastructure as
+  Code](https://www.linode.com/docs/guides/introduction-to-infrastructure-as-code/)
+  en el blog de Akamai y [What is infrastructure as
+  code?](https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code)
+  en el sitio de DevOps de Microsoft.
 
 * **Vuelta atrás** —o *rollback*—. Es la capacidad de revertir un despliegue a
   una versión anterior en caso de que se detecten problemas durante o después
