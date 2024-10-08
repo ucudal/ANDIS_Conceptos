@@ -18,6 +18,8 @@
 
 ## [Cohesión](./4_Cohesion.md)
 
+## [Componentes](./4_Componente.md)
+
 ## [Co-nascencia o *connascence*](./4_Connascence.md)
 
 ## [Disponibilidad](./4_Disponibilidad.md)
@@ -28,11 +30,15 @@
 
 ## [Épicas](./4_Epica.md)
 
+## [Escenario](./4_Escenario.md)
+
 ## [Evento del negocio](./4_Evento_del_negocio.md)
 
 ## [Facilidad de despliegue](./4_Facilidad_de_despliegue.md)
 
 ## [Facilidad de modificación](./4_Facilidad_de_modificacion.md)
+
+## [Falacias de la computación distribuida](./4_Falacias_computacion_distribuida.md)
 
 ## [Historia de usuario](./4_Historia_de_usuario.md)
 
