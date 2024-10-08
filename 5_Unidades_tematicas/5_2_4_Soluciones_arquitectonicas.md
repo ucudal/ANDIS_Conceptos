@@ -6,8 +6,10 @@
 
 #### Lecturas
 
+<!-- Componentes de software de Ford -->
 <!-- TBD. Incluir la parte III de Bass
 Interfaces de software
 Virtualización
 Computación en la nube y distribuida
 Sistemas móviles -->
+<!-- Formas de comunicación y workflow -->
