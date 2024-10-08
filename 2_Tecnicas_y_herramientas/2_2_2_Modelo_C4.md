@@ -1,6 +1,6 @@
 # 2 Técnicas y herramientas
 
-## 2.2 Modelos de arquitectura
+## 2.2 Arquitectura
 
 ### 2.2.2 Modelo C4
 
