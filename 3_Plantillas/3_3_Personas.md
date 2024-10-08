@@ -23,8 +23,9 @@ resultar útil.
             Foto de la persona
         </td>
         <td>
-            Datos personales relevantes para el <a href="" tales como edad,
-            género, estudios, lugar donde vive, etc.
+            Datos personales relevantes para el
+            <a href="/4_Conceptos/4_Trabajo_y_area_de_trabajo.md">trabajo</a>
+            tales como edad, género, estudios, lugar donde vive, etc.
         </td>
         <td>
             Las cosas que motivan a la persona o que guían sus decisiones.
@@ -86,5 +87,5 @@ resultar útil.
 > Pueden ver plantillas para personas en
 > [Canva](https://www.canva.com/templates/s/user-persona/),
 > [Miro](https://miro.com/templates/personas/) o
-> [Figma](https://www.figma.com/community/file/881830156311997001). 
+> [Figma](https://www.figma.com/community/file/881830156311997001).
 
