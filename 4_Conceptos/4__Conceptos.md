@@ -42,6 +42,8 @@
 
 ## [Historia de usuario](./4_Historia_de_usuario.md)
 
+## [Interfaz](./4_Interfaz.md)
+
 ## [Jerarquía de requerimientos](./4_Jerarquia_de_requerimientos.md)
 
 ## [MVP](./4_MVP.md)
