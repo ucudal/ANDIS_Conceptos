@@ -53,7 +53,7 @@ ejemplo, el `Anunciante` recibe de la comunidad `Slots de publicidad` y envía
 Con el diagrama de contexto es posible derivar los [eventos del
 negocio](/4_Conceptos/4_Evento_del_negocio.md), aunque durante el relevamiento
 la identificación de los eventos del negocio puede modificar el diagrama de
-contexto y viceversa. Los eventos del negocio se especifican usando la [plantilla
+contexto y viceversa. Los eventos del negocio se especifican usando la [plantilla/3_Plantillas/3_17_Eventos_del_negocio.md
 de eventos del negocio](/3_Plantillas/3_8_Eventos_del_negocio.md).
 
 [^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
