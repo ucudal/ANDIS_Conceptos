@@ -227,6 +227,6 @@ así con la partición técnica.
 ### Flujo de identificación de componentes
 
 Una forma iterativa de identificar los componentes de la arquitectura de
-software es el [Ciclo de identificación de
+software es el [Ciclo de identificación de/2_Tecnicas_y_herramientas/2_2_2_Ciclo_identificacion_componentes.md
 componentes](/2_Tecnicas_y_herramientas/2_2_3_Ciclo_identificacion_componentes.md)
 definido en [^1].
