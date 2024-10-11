@@ -8,4 +8,4 @@
 
 <!-- TBD. Capítulo 20 de Bass -->
 
-* [ADR](/4_Conceptos/4_ADR.md) y [plantillas de ADR](/3_Plantillas/3_17_ADR.md)
+* [ADR](/4_Conceptos/4_ADR.md) y [plantillas de ADR](/3_Plantillas/3_18_ADR.md)
