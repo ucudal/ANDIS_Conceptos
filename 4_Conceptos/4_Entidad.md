@@ -4,6 +4,9 @@
 
 Este documento está basado en el libro "Domain-Driven Design Quickly" [^1].
 
+[^1]: Avram, A; Marinescu, F. Domain-Driven Design Quickly. InfoQ. Disponible
+    [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
+
 Bajo el punto de vista de *Domain-Driven Design* —DDD, por sus siglas—, una
 entidad es un objeto cuya identidad se mantiene constante durante los diferentes
 estados de un sistema, de hecho, las entidades tienen una identidad que abarca
@@ -41,6 +44,3 @@ debe definir qué significa ser la misma cosa.
 
 Las entidades son objetos importantes para el modelo del dominio, y deben ser
 consideradas desde el comienzo del proceso de modelado.
-
-[^1]: Avram, A; Marinescu, F. Domain-Driven Design Quickly. InfoQ. Disponible
-    [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
