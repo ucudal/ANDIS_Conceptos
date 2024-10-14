@@ -1,6 +1,6 @@
 # 3 Plantillas
 
-## 3.18 Minuta de reunión
+## 3.19 Minuta de reunión
 
 Esta es la plantilla para las minutas de reunión. Pueden utilizarla para las
 reuniones con el cliente, con interesados dentro de la organización del cliente,
