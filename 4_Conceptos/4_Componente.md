@@ -228,5 +228,5 @@ así con la partición técnica.
 
 Una forma iterativa de identificar los componentes de la arquitectura de
 software es el [Ciclo de identificación de
-componentes](/2_Tecnicas_y_herramientas/2_2_3_Ciclo_identificacion_componentes.md)
+componentes](/2_Tecnicas_y_herramientas/2_2_2_Ciclo_identificacion_componentes.md)
 definido en [^1].
