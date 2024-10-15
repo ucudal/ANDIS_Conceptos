@@ -27,8 +27,8 @@ interfaces:
   flujos de datos, memoria compartida, o envío de mensajes, son formas de
   interacción.
 
-* **Recursos**. Son las construcciones que proveen puntos de interacción directa
-  con un componente. <a name="recurso"></a>
+* **Recursos**. Son las construcciones que proveen puntos de
+  interacción directa con un componente.
 
 Lo anterior tiene algunas implicaciones clave:
 
@@ -211,3 +211,5 @@ acuerdo sobre los siguientes aspectos:
 * **Representación y estructura de los datos intercambiados**
 
 * **Manejo de errores**
+
+<a id="recurso">TEST.</a>
