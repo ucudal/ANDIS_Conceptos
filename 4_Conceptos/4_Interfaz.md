@@ -3,7 +3,10 @@
 ## Interfaz
 
 Las interfaces son un mecanismo de abstracción fundamental necesario para
-conectar [componentes](./4_Componente.md) en una arquitectura de software[^1].
+conectar [componentes](./4_Componente.md) en una arquitectura de software.
+
+Las definiciones y conceptos en este documento están tomados de [^1] a menos que
+se indique lo contrario.
 
 [^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
@@ -25,7 +28,7 @@ interfaces:
   interacción.
 
 * **Recursos**. Son las construcciones que proveen puntos de interacción directa
-  con un componente.
+  con un componente. <a name="recurso"></a>
 
 Lo anterior tiene algunas implicaciones clave:
 
@@ -87,5 +90,124 @@ Lo anterior tiene algunas implicaciones clave:
 * **Eventos**. Los eventos normalmente son asíncronos y representan la recepción
   de un mensaje; también son parte de la interfaz. Los elementos activos,
   aquellos que no esperan pasivamente a ser invocados por otros elementos,
-  producen eventos salientes que se utilizan para notificar a los oyentes (o
-  suscriptores) sobre cosas interesantes que suceden dentro del elemento.
+  producen eventos salientes que se utilizan para notificar a los observadores,
+  *listeners*, o suscriptores sobre cosas interesantes que suceden dentro del
+  componente.
+
+* **Metadata**. Además de los datos transferidos vía operaciones y eventos, otro
+  aspecto importante de las interfaces es la metadata: permisos de acceso,
+  unidades de los parámetros o resultados, formatos —por ejemplo, el punto en
+  los decimales—. A esta metadata se le llama también **propiedades**.
+
+* **Evolución de las interfaces**. El componente que está implementando una
+  interfaz debería poder evolucionar sin afectar a los demás componentes que
+  utilizan esta interfaz para consumir el componente, siempre y cuando la
+  interfaz en sí no cambie.
+
+  En algunas situaciones puede llegar a ser necesario cambiar también la
+  interfaz. En esos casos es posible usar alguna de las siguientes técnicas:
+
+  * **Deprecación**. Es eliminar la interfaz. Una buena práctica es avisar con
+    antelación que una interfaz va a ser deprecada a partir de cierto momento.
+    Otra es introducir un código de error que indique que la interfaz va a ser
+    deprecada —y cuándo— o que indique que la interfaz ya ha sido deprecada.
+
+  * **Versionado**. Es posible soportar la evolución de una interfaz
+    introduciendo una nueva versión manteniendo la anterior. La anterior puede
+    ser deprecada luego de cierto tiempo. Esto puede implicar que el actor deba
+    indicar qué versión de la interfaz quiere utilizar. También puede implicar
+    mantener en simultáneo varias versiones del componente o introducir un
+    [adaptador](https://refactoring.guru/design-patterns/adapter) o un
+    [mediador](https://refactoring.guru/design-patterns/mediator) para que la
+    vieja interfaz pueda permitir el acceso a  un nuevo componente.
+
+  * **Extensión**. Es dejar la interfaz original sin cambios pero agregar nuevos
+    recursos con los cambios deseados. En caso de que eso implique
+    incompatibilidades con algunos actores, al igual que en el caso anterior,
+    puede ser necesario introducir un
+    [adaptador](https://refactoring.guru/design-patterns/adapter) o un
+    [mediador](https://refactoring.guru/design-patterns/mediator).
+
+## Diseño de una interfaz
+
+Añadir recursos a una interfaz implica un compromiso de mantener esos recursos
+como parte de la interfaz mientras el componente esté en uso. La arquitectura
+se ve afectada cuando se rompe el contrato de interfaz entre componentes.
+
+Algunos principios para el diseño de interfaces son:
+
+* **Principio de la mínima sorpresa**. Las interfaces deben comportarse de
+  manera consistente con las expectativas del actor. Los nombres juegan un
+  papel aquí: un recurso con un nombre apropiado les da a los actores una
+  buena pista sobre para qué se puede usar el recurso.
+
+* **Principio de interfaces pequeñas**. Cuando dos elementos necesitan
+  interactuar, que intercambien la menor cantidad de información posible.
+
+* **Principio de acceso uniforme**. Evitar filtrar detalles de implementación
+  a través de la interfaz. Un recurso debe ser accesible para sus actores de
+  la misma manera independientemente de cómo se implemente. Un actor no debe
+  saber —por ejemplo— si un valor se devuelve desde un caché, desde un cálculo
+  o desde una nueva búsqueda del valor desde alguna fuente externa.
+
+* **Principio DRY —*don't repeat yourself*— o principio de no repetirse**. Las
+  interfaces deben ofrecer un conjunto de primitivas que se puedan componer en
+  lugar de muchas formas diferentes de lograr el mismo objetivo.
+
+La consistencia es un aspecto clave para diseñar interfaces limpias. Algunos
+aspectos a tener en cuenta incluyen cómo se asignan nombres a los recursos, cómo
+se ordenan los parámetros, o como se notifican los errores.
+
+Para que una interacción con una interfaz sea exitosa es necesario llegar a un
+acuerdo sobre los siguientes aspectos:
+
+* **Alcance de la interfaz**. El alcance de una interfaz define el conjunto de
+  recursos directamente disponibles para los actores. Todos los actores podrían
+  acceder a todos los recursos, o ciertos actores podrían acceder a ciertos
+  recursos y no a otros, por cuestiones de seguridad, desempeño o facilidad de
+  modificación.
+
+  Un patrón común para limitar y mediar el acceso a los recursos de un
+  componente —o un grupo de componentes— es establecer un *gateway* o puerta de
+  enlace. Una puerta de enlace traduce las solicitudes de los actores en
+  solicitudes a los recursos del componente —o componente— de destino, que de
+  esta forma se convierte en un actor para el elemento —o elementos— de destino.
+  Las puertas de enlace son útiles por las siguientes razones:
+
+  * La granularidad de los recursos proporcionados por un componente puede ser
+    diferente a la que necesita un actor.
+
+  * Una puerta de enlace puede traducir entre elementos y actores.
+
+  * Los actores pueden necesitar acceso a subconjuntos específicos de los
+    recursos o estar restringidos a ellos.
+
+  * Los detalles de los recursos pueden cambiar con el tiempo y la puerta de
+    enlace puede proporcionar una interfaz más estable.
+
+* **Estilo de interacción**. Las interfaces están pensadas para estar conectadas
+  entre sí de modo que los diferentes elementos puedan comunicarse —transferir
+  datos— y coordinarse —transferir control—. Hay muchas formas en que se
+  producen esas interacciones, dependiendo de la combinación entre
+  comunicación y coordinación y de si los elementos estarán ubicados en el
+  mismo lugar —co-ubicados— o se implementarán de forma remota.
+
+  * Las interfaces de componentes co-ubicados pueden proporcionar acceso
+    eficiente a grandes cantidades de datos a través de memoria compartida
+    local.
+
+  * Los componentes que se espera que estén disponibles al mismo tiempo pueden
+    utilizar llamadas sincrónicas para invocar las operaciones que requieren.
+
+  * Los elementos implementados en un entorno distribuido no fiable —ver las
+    [falacias de la computación
+    distribuida](/4_Conceptos/4_Falacias_computacion_distribuida.md)— necesitarán
+    depender de interacciones asíncronas basadas en el consumo y la producción de
+    eventos, intercambiados a través de colas de mensajes o flujos de datos.
+
+  Los dos estilos de interacción más comunes son [RPC](/4_Conceptos/4_RPC.md) y
+  [REST](/4_Conceptos/4_REST.md).
+
+* **Representación y estructura de los datos intercambiados**
+
+* **Manejo de errores**
