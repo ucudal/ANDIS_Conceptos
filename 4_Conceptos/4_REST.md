@@ -8,5 +8,5 @@ Web. Está basado en seis restricciones impuestas sobre las interacciones entre
 los [componentes](/4_Conceptos/4_Componente.md):
 
 * [Interfaz](/4_Conceptos/4_Interfaz.md) uniforme. Todas las interacciones son de la misma forma, típicamente
-  HTTP. Los <a rel="noopener" href="/4_Conceptos/4_Interfaz.md#recurso:~:text=Recurso,componente." target="_blank">recursos</a> provistos a través de la interfaz se especifican mediante
+  HTTP. Los <a rel="noopener" href="/4_Conceptos/4_Interfaz.md#:~:text=Recurso,componente." target="_blank">recursos</a> provistos a través de la interfaz se especifican mediante
   URI.
