@@ -11,6 +11,8 @@ se indique lo contrario.
 [^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
+### Términos relacionados
+
 En este documento usaremos los siguientes términos relacionados con las
 interfaces:
 
@@ -20,15 +22,11 @@ interfaces:
 * **Entorno** o —*environment*—. Es el conjunto de clientes con los que
   interactúa un componente.
 
-* **Interacciones**. Aunque pueden tomar múltiples formas, las más relevantes
-  son las transferencias de control —*calls*— o de datos. Por ejemplo la
-  invocación local de procedimientos, funciones o métodos usando construcciones
-  de un lenguaje de programación, la llamada a procedimientos remotos –RPC–,
-  flujos de datos, memoria compartida, o envío de mensajes, son formas de
-  interacción.
+* **Interacciones**. Son las transferencias de control —*calls*— o de
+  datos entre componentes. Ver más información [aquí](./4_Interaccion.md).
 
-* **Recursos**. Son las construcciones que proveen puntos de
-  interacción directa con un componente.
+* **Recursos**. Son las construcciones que proveen puntos de interacción directa
+  con un componente. Ver más información [aquí](./4_Recurso.md).
 
 Lo anterior tiene algunas implicaciones clave:
 
@@ -208,8 +206,46 @@ acuerdo sobre los siguientes aspectos:
   Los dos estilos de interacción más comunes son [RPC](/4_Conceptos/4_RPC.md) y
   [REST](/4_Conceptos/4_REST.md).
 
-* **Representación y estructura de los datos intercambiados**
+* **Representación y estructura de los datos intercambiados**. Cada interfaz
+  ofrece la oportunidad de abstraer la representación de datos interna,
+  dependiente de las tecnologías utilizada para implementar el componente detrás
+  de la interfaz, en una representación diferente, más adecuada para ser
+  intercambiada entre diferentes componentes, implementados eventualmente en
+  otras tecnologías, y transmitida a través de la red. La conversión de la
+  representación interna a la externa se denomina "serialización",
+  "*marshaling*" o "traducción".
 
-* **Manejo de errores**
+  Los estilos de representación de datos más comunes, independientes del
+  lenguaje de programación, se pueden dividir entre textuales
+  —[XML](https://www.w3.org/TR/xml/) o
+  [JSON](https://www.json.org/json-en.html)— y binarias —[*protocol
+  buffers*](https://protobuf.dev/reference/protobuf/proto3-spec/)—.
 
-<a id="recurso">TEST.</a>
+* **Manejo de errores**. Un sistema bien diseñado debe saber cómo tomar las
+  medidas adecuadas ante circunstancias no deseadas. Los actores necesitan saber
+  si un componente está funcionando correctamente, si su interacción es exitosa
+  y si se ha producido un error.
+
+  Las estrategias para hacerlo incluyen las siguientes:
+
+  * Las operaciones fallidas pueden generar una excepción.
+
+  * Las operaciones pueden devolver un indicador de estado con códigos
+    predefinidos.
+
+  * Una propiedad se puede utilizar para almacenar un estado que indiquen si la
+    última operación fue exitosa o no.
+
+Se pueden activar eventos de error, como un tiempo de espera, para
+interacciones asincrónicas fallidas. El registro de errores se puede leer
+conectándose a un flujo de datos de salida específico. La especificación de qué
+excepciones, qué códigos de estado, qué eventos y qué información se utilizan
+para describir resultados erróneos se convierte en parte de la interfaz de un
+elemento. Las fuentes de error más comunes (que la interfaz debería gestionar
+correctamente) incluyen las siguientes: Se envió información incorrecta, no
+válida o ilegal a la interfaz. El elemento está en el estado incorrecto para
+gestionar la solicitud. Se produjo un error de hardware o software que impidió
+que el elemento se ejecutara correctamente. El elemento no está configurado
+correctamente.
+
+
