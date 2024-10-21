@@ -45,13 +45,13 @@ al objeto o a una copia.
 
 En ocasiones, la creación de un objeto puede ser más compleja e incluso
 necesitar la creación de una serie de otros objetos, un claro ejemplo es la
-creación de un agregado. En estas ocasiones, se puede crear un objeto *Factory*
+creación de un agregado. En estas ocasiones, se puede crear un objeto fábrica
 diferente que se encarga específicamente de esta tarea.
 
 > [!IMPORTANT]
-> Al crear una *Factory*, se rompe la encapsulación del objeto, con lo cual se
+> Al crear una fábrica, se rompe la encapsulación del objeto, con lo cual se
 > debe tener cuidado. Cuando se da un cambio en el objeto y se rompen las reglas
-> de creación del mismo, es importante que la *Factory* se actualice acorde al
+> de creación del mismo, es importante que la fábrica se actualice acorde al
 > cambio para soportarlo.
 
 Las *Factories* de entidades son diferentes a las de objetos valor. Los objetos
@@ -60,7 +60,7 @@ ser producidos en el tiempo de creación del objeto, esto implica que cuando el
 objeto valor es creado, deber ser válido y final. Por otro lado, las entidades
 son mutables y además necesitan una **identidad**.
 
-No siempre es necesario una *Factory*, por ejemplo, si se cumple alguna de las
+No siempre es necesario una fábrica, por ejemplo, si se cumple alguna de las
 siguientes condiciones:
 
 * La construcción del objeto no es complicada.
