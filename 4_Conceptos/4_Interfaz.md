@@ -126,7 +126,7 @@ Lo anterior tiene algunas implicaciones clave:
     [adaptador](https://refactoring.guru/design-patterns/adapter) o un
     [mediador](https://refactoring.guru/design-patterns/mediator).
 
-## Diseño de una interfaz
+### Diseño de una interfaz
 
 Añadir recursos a una interfaz implica un compromiso de mantener esos recursos
 como parte de la interfaz mientras el componente esté en uso. La arquitectura
@@ -236,16 +236,63 @@ acuerdo sobre los siguientes aspectos:
   * Una propiedad se puede utilizar para almacenar un estado que indiquen si la
     última operación fue exitosa o no.
 
-Se pueden activar eventos de error, como un tiempo de espera, para
-interacciones asincrónicas fallidas. El registro de errores se puede leer
-conectándose a un flujo de datos de salida específico. La especificación de qué
-excepciones, qué códigos de estado, qué eventos y qué información se utilizan
-para describir resultados erróneos se convierte en parte de la interfaz de un
-elemento. Las fuentes de error más comunes (que la interfaz debería gestionar
-correctamente) incluyen las siguientes: Se envió información incorrecta, no
-válida o ilegal a la interfaz. El elemento está en el estado incorrecto para
-gestionar la solicitud. Se produjo un error de hardware o software que impidió
-que el elemento se ejecutara correctamente. El elemento no está configurado
-correctamente.
+Se pueden activar eventos de error, como un tiempo de espera, para interacciones
+asíncronas fallidas. El registro de errores se puede leer conectándose a un
+flujo de datos de salida específico. La especificación de qué excepciones, qué
+códigos de estado, qué eventos y qué información se utilizan para describir
+resultados erróneos se convierte en parte de la interfaz de un elemento.
 
+Las fuentes de error más comunes, que la interfaz debería gestionar
+correctamente, incluyen las siguientes:
+
+* Se envió información incorrecta, no válida o ilegal a la interfaz.
+
+* El elemento está en el estado incorrecto para gestionar la solicitud.
+
+* Se produjo un error de hardware o software que impidió que el elemento se
+  ejecutara correctamente.
+
+* El elemento no está configurado correctamente.
+
+### Documentación de la interfaz
+
+Mientras que una interfaz comprende todos los aspectos de las interacciones de
+un componente con su entorno, lo que se documenta de la interfaz es más
+limitado. Documentar todos los aspectos de todas las interacciones no es
+práctico y casi nunca sería deseable; en su lugar, la documentación debe incluir
+lo que los actores **deben** conocer para interactuar con la interfaz.
+
+Diferentes personas tienen diferentes necesidades de información. Considera los
+siguientes interesados cuando documentes una interfaz, probablemente incluyendo
+información para cada uno en secciones diferentes de la documentación:
+
+* **Desarrollador del componente**. Debe conocer el contrato que debe cumplir su
+  interfaz. Los desarrolladores solo pueden probar la información incorporada en
+  la descripción de la interfaz.
+
+* **Mantenedor**. Un tipo especial de desarrollador que realiza cambios
+  asignados al componente y su interfaz mientras minimiza la interrupción de los
+  actores existentes.
+
+* **Desarrollador de un componente que utiliza la interfaz**. Debe comprender el
+  contrato de la interfaz y cómo usarlo. Dichos desarrolladores pueden
+  proporcionar información a la interfaz que debe respaldar.
+
+* **Integrador y probador de sistemas**. Une el sistema a partir de sus elementos
+  constituyentes y tiene un fuerte interés en el comportamiento del ensamblaje
+  resultante. Este rol necesita información detallada sobre todos los recursos y
+  la funcionalidad que proporciona y requiere un componente.
+
+* **Analista**. Este rol depende de los tipos de análisis realizados. Para un
+  analista de rendimiento, por ejemplo, la documentación de la interfaz debe
+  incluir una garantía de acuerdo de nivel de servicio —SLA—, de modo que los
+  actores puedan ajustar sus solicitudes de manera adecuada.
+
+* **Arquitecto que busca activos para reutilizar en un nuevo sistema**. A menudo
+  comienza examinando las interfaces de los elementos de un sistema anterior.
+  El arquitecto también puede buscar en el mercado comercial elementos listos
+  para usar que se puedan comprar y que hagan el trabajo. Para ver si un
+  elemento es un candidato, el arquitecto se interesa por las capacidades de los
+  recursos de la interfaz, sus atributos de calidad y cualquier variabilidad que
+  proporcione el elemento.
 
