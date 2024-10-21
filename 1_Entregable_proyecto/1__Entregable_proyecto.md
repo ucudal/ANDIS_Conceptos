@@ -481,7 +481,7 @@ Los productos esperados de esta etapa para cada dimensión son los siguientes:
   hayan entregado antes.
 
 * **Diseño y arquitectura**. Los [diagramas de
-  despliegue](/2_Tecnicas_y_herramientas/2_2_1_Diagramas_de_despliegue_UML.md)
+  despliegue](/2_Tecnicas_y_herramientas/2_3_4_Diagramas_de_despliegue_UML.md)
   completos. Los [diagramas de
   clases](/2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md) al menos
   con las clases del dominio. En caso de que corresponda, otros [diagramas de

@@ -1,6 +1,6 @@
 # 3 Plantillas
 
-## 3.11 Estilo de arquitectura micro kernel
+## 3.11 Estilo de arquitectura micro-kernel
 
 Esta es la plantilla para un estilo de arquitectura micronúcleo o *microkernel
 architecture*; esta es un estilo de arquitectura monolítica.

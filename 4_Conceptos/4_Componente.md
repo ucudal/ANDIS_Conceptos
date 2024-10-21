@@ -66,8 +66,9 @@ Los componentes pueden ser definidos en múltiples factores, algunos de los
 cuales aparecen a continuación[^1]:
 
 * El componente envuelve el código a un nivel superior de
-  [modularidad](/4_Conceptos/) que las clases en los lenguajes de programación
-  orientada a objetos o las funciones y procedimientos en otros lenguajes.
+  [modularidad](/4_Conceptos/4_Modularidad.md) que las clases en los lenguajes
+  de programación orientada a objetos o las funciones y procedimientos en otros
+  lenguajes.
 
   Habitualmente nos referimos a este envoltorio como biblioteca o *library* y
   los diferentes elementos del código que contiene se ejecutan en el mismo
@@ -127,7 +128,7 @@ arquitectura de software:
 
   ![Partición técnica](/diagrams/Components_Technical_Partitioning.svg)
 
-  #### Figura 1: Partición técnica
+  #### *Figura 1: Partición técnica*
 
 * Partición por el dominio: El criterio para repartir los componentes de alto
   nivel está inspirado en la metodología de Domain Driven Design de Eric Evans,
@@ -136,7 +137,9 @@ arquitectura de software:
 
   ![Partición por el dominio](/diagrams/Components_Domain_Partitioining.svg)
 
-  #### Figura 2: Partición por el dominio
+  #### *Figura 2: Partición por el dominio*
+
+<!-- TODO: Cambiar todos a este nuevo estilo y aclararlo en el CONTRIBUTING.md -->
 
 Como los componentes pueden estar a su vez compuestos por componentes, los
 componentes correspondientes a los dominios en la [Figura
@@ -225,5 +228,5 @@ así con la partición técnica.
 
 Una forma iterativa de identificar los componentes de la arquitectura de
 software es el [Ciclo de identificación de
-componentes](/2_Tecnicas_y_herramientas/2_2_3_Ciclo_identificacion_componentes.md)
+componentes](/2_Tecnicas_y_herramientas/2_2_2_Ciclo_identificacion_componentes.md)
 definido en [^1].

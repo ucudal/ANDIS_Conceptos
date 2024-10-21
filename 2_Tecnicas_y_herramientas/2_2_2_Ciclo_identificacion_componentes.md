@@ -10,8 +10,8 @@ componentes de distintas maneras. El ciclo de identificación de componentes [^1
 es un proceso estructurado para descomponer un sistema en componentes
 individuales. Estos cinco pasos guían el desarrollo y refinamiento de los
 componentes para asegurarse de que estén alineados con los [requerimientos
-funcionales](/4_Conceptos/4_Rendimiento.md) y los [atributos de
-calidad](/4_Conceptos/4_Atributos_de_calidad.md).
+funcionales](/4_Conceptos/4_Requerimiento_arquitectonicamente_significativo.md)
+y los [atributos de calidad](/4_Conceptos/4_Atributos_de_calidad.md).
 
 [^1]: Richards, M.; Ford, N. (2020). Fundamentals of software architecture.
     O'Reilly Media.
@@ -19,7 +19,7 @@ calidad](/4_Conceptos/4_Atributos_de_calidad.md).
 ![Ciclo de identificación de
 componentes](/diagrams/Component_Identification_Cycle.svg)
 
-#### Figura 1: Ciclo de identificación de componentes
+#### *Figura 1: Ciclo de identificación de componentes*
 
 Las etapas del ciclo se definen a continuación.
 

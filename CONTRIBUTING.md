@@ -342,6 +342,11 @@ Esta es la plantilla para un requerimiento funcional o no funcional. Tomado de [
 Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
 ```
 
+> [!NOTE]
+> Aunque las notas al pie aparecen al final del documento, en el documento en
+> Markdown ponemos la referencia inmediatamente después de donde de usa, y no al
+> final para que sea más fácil editar el documento.
+
 En el caso de una imagen, el texto "Tomado de" va al final del pie de foto,
 seguido de una nota al pie.
 
