@@ -31,4 +31,4 @@ identificador (`id`), `nombre`, `calle`, `ciudad` y `Estado`, o mejor aún, `id`
 
 ![Objetos valor anidados](../diagrams/Value_Object.svg)
 
-#### *Figura 1 Objetos valor anidados*
+#### *Figura 1: Objetos valor anidados*
