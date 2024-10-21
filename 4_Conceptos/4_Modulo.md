@@ -26,19 +26,19 @@ directamente.
 
 > [!TIP]
 > Elije módulos que cuenten la historia del sistema y contengan un conjunto de
-> conceptos cohesivos
+> conceptos cohesivos.
 
 > [!TIP]
 > Busca reducir el acoplamiento entre módulos creando módulos que puedan ser
-> razonados de forma independiente entre ellos
+> razonados de forma independiente entre ellos.
 
 > [!TIP]
 > Refina el modelo hasta que sea particionado en conceptos de alto nivel y su
-> código sea desacoplado
+> código sea desacoplado.
 
 > [!TIP]
-> Nombra los módulos utilizando el lenguaje ubicuo
+> Nombra los módulos utilizando el lenguaje ubicuo.
 
-> [TIP]
+> [!TIP]
 > Es recomendado que los módulos sean algo flexibles para que puedan evolucionar
-> junto al proyecto
+> junto al proyecto.
