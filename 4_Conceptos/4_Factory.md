@@ -4,7 +4,8 @@
 
 Este documento está basado en [^1].
 
-[^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ. Disponible
+[^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ.
+    Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 Las [entidades](./4_Entidad.md) y los [agregados](./4_Agregado.md) pueden ser
@@ -52,12 +53,12 @@ diferente que se encarga específicamente de esta tarea.
 > [!IMPORTANT]
 > Al crear una fábrica, se rompe la encapsulación del objeto, con lo cual se
 > debe tener cuidado. Cuando se da un cambio en el objeto y se rompen sus reglas
-> de creación, es importante que la fábrica se actualice acorde al
-> cambio para soportarlo.
+> de creación, es importante que la fábrica se actualice acorde al cambio para
+> soportarlo.
 
 Las *Factories* de entidades son diferentes a las de objetos valor. Los objetos
-valor son usualmente inmutables, por lo que todos sus atributos deben
-ser producidos en el tiempo de creación del objeto, esto implica que cuando el
+valor son usualmente inmutables, por lo que todos sus atributos deben ser
+producidos en el tiempo de creación del objeto, esto implica que cuando el
 objeto valor es creado, deber ser válido y final. Por otro lado, las entidades
 son mutables y además necesitan una **identidad**.
 

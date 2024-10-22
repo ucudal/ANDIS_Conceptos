@@ -4,7 +4,8 @@
 
 Este documento está basado en [^1].
 
-[^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ. Disponible
+[^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ.
+    Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 En el contexto de *Domain-Driven Design* —DDD, por sus siglas—, un objeto valor
@@ -19,8 +20,8 @@ por ejemplo—, lo que simplifica el diseño.
 Una cualidad deseable e importante de los objetos valor es que sean inmutables,
 esto es, que sean creados a través de un constructor y nunca modificados en su
 tiempo de vida. De necesitar un nuevo valor, simplemente se crea un nuevo objeto
-valor. Si un objeto valor cumple con esta cualidad de inmutabilidad,
-puede ser compartido.
+valor. Si un objeto valor cumple con esta cualidad de inmutabilidad, puede ser
+compartido.
 
 Los objetos valores pueden contener otros objetos valor, e incluso contener
 referencias a entidades. Algo que favorece a la expresabilidad del diseño es

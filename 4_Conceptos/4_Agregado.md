@@ -4,7 +4,8 @@
 
 Este documento está basado en [^1].
 
-[^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ. Disponible
+[^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ.
+    Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 Un modelo puede contener una gran cantidad de objetos del
@@ -17,8 +18,8 @@ entendible. Una técnica para simplificar un modelo es la de utilizar agregados.
 Un agregado es un grupo de objetos asociados que son considerados como una
 unidad a la hora de realizar cambios en los datos. Cada agregado está compuesto
 por una [entidad](./4_Entidad.md) que es denominada la **raíz** del agregado, y
-esta es el único objeto del agregado que es accesible desde el exterior
-—esto es, por objetos que no forman parte del agregado—.
+esta es el único objeto del agregado que es accesible desde el exterior —esto
+es, por objetos que no forman parte del agregado—.
 
 La raíz puede mantener referencias a cualquiera de los objetos del agregado, y
 los otros objetos del agregado pueden mantener referencias entre ellos, pero un
@@ -27,13 +28,12 @@ del agregado. En caso de que haya otras entidades dentro del agregado, la
 identidad de estas entidades es local al agregado.
 
 Al evitar que objetos externos tengan referencias a objetos internos del
-agregado, se asegura la integridad de los datos del agregado, ya que
-los objetos externos no pueden modificar los objetos internos del agregado, solo
-pueden modificar el objeto raíz o pedirle al objeto raíz que modifique un objeto
-interno, lo cual permite que esta operación sea controlable. Al
-mismo tiempo, si el objeto raíz es eliminado, el resto de objetos del agregado
-serán eliminados también, ya que no hay ningún otro objeto que mantenga una
-referencia a ellos.
+agregado, se asegura la integridad de los datos del agregado, ya que los objetos
+externos no pueden modificar los objetos internos del agregado, solo pueden
+modificar el objeto raíz o pedirle al objeto raíz que modifique un objeto
+interno, lo cual permite que esta operación sea controlable. Al mismo tiempo, si
+el objeto raíz es eliminado, el resto de objetos del agregado serán eliminados
+también, ya que no hay ningún otro objeto que mantenga una referencia a ellos.
 
 Para implementar un agregado, puedes seguir los siguientes pasos:
 

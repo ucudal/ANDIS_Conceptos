@@ -15,9 +15,9 @@ de modelado; todo software pertenece a un dominio, y es complicado crear
 software que cubra una necesidad en un dominio si no se tiene suficiente
 conocimiento sobre este último.
 
-El software está relacionado con el dominio, entonces debe incluir los
-conceptos fundamentales pertenecientes al dominio y ser un reflejo de él, de
-forma que pueda encajar armónicamente en el dominio y mejorarlo.
+El software está relacionado con el dominio, entonces debe incluir los conceptos
+fundamentales pertenecientes al dominio y ser un reflejo de él, de forma que
+pueda encajar armónicamente en el dominio y mejorarlo.
 
 Para bajar el dominio a tierra, primero se crea una abstracción del mismo, la
 cual puede ser creada solo luego de haber hablado con los expertos del dominio,

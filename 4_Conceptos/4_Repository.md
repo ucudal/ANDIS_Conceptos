@@ -4,7 +4,8 @@
 
 Este documento está basado en [^1].
 
-[^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ. Disponible
+[^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ.
+    Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 En la programación orientada a objetos, uno debe tener referencias a objetos
