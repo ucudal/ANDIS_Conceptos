@@ -10,10 +10,10 @@ Este documento está basado en [^1].
 Las [entidades](./4_Entidad.md) y los [agregados](./4_Agregado.md) pueden ser
 muy complejos como para que sean creados por la entidad raíz, y dejar en la raíz
 la responsabilidad de crear un agregado complejo va usualmente en contradicción
-de lo que pasa en el dominio. Además, cuando el proceso de crear otro objeto es
-laborioso, involucra tener conocimiento sobre la estructura interna del objeto a
-crear y sus relaciones con otros objetos, rompiendo el encapsulamiento de los
-objetos y agregados del dominio.
+de lo que pasa en el [dominio](./4_Dominio.md). Además, cuando el proceso de
+crear otro objeto es laborioso, involucra tener conocimiento sobre la estructura
+interna del objeto a crear y sus relaciones con otros objetos, rompiendo el
+encapsulamiento de los objetos y agregados del dominio.
 
 Una *Factory* —fábrica, en español— es un concepto utilizado para encapsular el
 conocimiento necesario para la creación de objetos, y es especialmente útil para

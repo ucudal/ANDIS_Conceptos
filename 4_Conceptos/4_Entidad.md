@@ -42,5 +42,6 @@ requerimientos que necesitan reconocer diferentes objetos como la misma entidad
 a través de sus atributos. También es importante tener en cuenta que el modelo
 debe definir qué significa ser la misma cosa.
 
-Las entidades son objetos importantes para el modelo del dominio, y deben ser
-consideradas desde el comienzo del proceso de modelado.
+Las entidades son objetos importantes para el modelo del
+[dominio](./4_Dominio.md), y deben ser consideradas desde el comienzo del
+proceso de modelado.

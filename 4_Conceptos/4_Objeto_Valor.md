@@ -7,9 +7,10 @@ Este documento está basado en [^1].
 [^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ. Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
-En el contexto de *Domain-Driven Design* —DDD, por sus siglas—, un objeto valor es un
-objeto que, a diferencia de una [entidad](./4_Entidad.md), no tiene identidad ni
-continuidad y se utiliza para describir ciertos aspectos del dominio.
+En el contexto de *Domain-Driven Design* —DDD, por sus siglas—, un objeto valor
+es un objeto que, a diferencia de una [entidad](./4_Entidad.md), no tiene
+identidad ni continuidad y se utiliza para describir ciertos aspectos del
+[dominio](./4_Dominio.md).
 
 Al no tener una identidad, los objetos valor se pueden crear y descartar
 fácilmente —a través del *garbage collector* cuando dejan de ser referenciados,

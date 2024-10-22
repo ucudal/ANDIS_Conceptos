@@ -7,12 +7,12 @@ Este documento está basado en [^1].
 [^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ. Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
-Un modelo puede contener una gran cantidad de objetos del dominio, lo que
-implica una gran cantidad de asociaciones, creando una complicada red de
-relaciones. El desafío principal de realizar un buen modelo va de la mano de
-esta idea, y es que la labor más complicada no es que el modelo sea completo,
-sino que el modelo sea lo suficientemente simple y entendible. Una técnica para
-simplificar un modelo es la de utilizar agregados.
+Un modelo puede contener una gran cantidad de objetos del
+[dominio](./4_Dominio.md), lo que implica una gran cantidad de asociaciones,
+creando una complicada red de relaciones. El desafío principal de realizar un
+buen modelo va de la mano de esta idea, y es que la labor más complicada no es
+que el modelo sea completo, sino que el modelo sea lo suficientemente simple y
+entendible. Una técnica para simplificar un modelo es la de utilizar agregados.
 
 Un agregado es un grupo de objetos asociados que son considerados como una
 unidad a la hora de realizar cambios en los datos. Cada agregado está compuesto
