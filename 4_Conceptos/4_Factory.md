@@ -36,12 +36,13 @@ apropiadamente.
 > cumpliendo entonces sus invariantes.
 
 Existen varios patrones de diseño para implementar *Factories*, por ejemplo:
-*Factory Method* y *Abstract Factory*. *Factory Method* es un método de objeto
-que encapsula la lógica y el conocimiento necesarios para crear otro objeto, y
-es muy útil cuando el objeto cliente quiere construir un objeto interno a un
-agregado. La solución consiste en agregar a la entidad raíz del agregado un
-método que se encarga de la creación atómica del objeto y retorna una referencia
-al objeto o a una copia.
+[*Factory Method*](https://refactoring.guru/design-patterns/factory-method) y
+[*Abstract Factory*](https://refactoring.guru/design-patterns/abstract-factory).
+*Factory Method* es un método de objeto que encapsula la lógica y el
+conocimiento necesarios para crear otro objeto, y es muy útil cuando el objeto
+cliente quiere construir un objeto interno a un agregado. La solución consiste
+en agregar a la entidad raíz del agregado un método que se encarga de la
+creación atómica del objeto y retorna una referencia al objeto o a una copia.
 
 En ocasiones, la creación de un objeto puede ser más compleja e incluso
 necesitar la creación de una serie de otros objetos, un claro ejemplo es la
