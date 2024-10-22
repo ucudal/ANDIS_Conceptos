@@ -1,6 +1,6 @@
 # 4 Conceptos
 
-## Servicio
+## Servicio en *Domain-Driven Design*
 
 Este documento está basado en [^1].
 

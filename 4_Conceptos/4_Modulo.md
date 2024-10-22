@@ -1,6 +1,6 @@
 # 4 Conceptos
 
-## Módulo
+## Módulo en *Domain-Driven Design*
 
 Este documento está basado en [^1].
 
