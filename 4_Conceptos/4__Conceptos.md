@@ -4,6 +4,8 @@
 
 ## [ADR](./4_ADR.md)
 
+## [Agregado](./4_Agregado.md)
+
 ## [Atributos de calidad](./4_Atributos_de_calidad.md)
 
 ## [Calidad de software](./4_Calidad_de_software.md)
@@ -24,9 +26,13 @@
 
 ## [Disponibilidad](./4_Disponibilidad.md)
 
+## [Dominio](./4_Dominio.md)
+
 ## [EDT](./4_EDT.md)
 
 ## [Enfoques de pruebas](./4_Enfoques_de_pruebas.md)
+
+## [Entidad](./4_Entidad.md)
 
 ## [Épicas](./4_Epica.md)
 
@@ -37,6 +43,8 @@
 ## [Facilidad de despliegue](./4_Facilidad_de_despliegue.md)
 
 ## [Facilidad de modificación](./4_Facilidad_de_modificacion.md)
+
+## [Factory](./4_Factory.md)
 
 ## [Falacias de la computación distribuida](./4_Falacias_computacion_distribuida.md)
 
@@ -50,13 +58,19 @@
 
 ## [Modularidad](./4_Modularidad.md)
 
+## [Módulo](./4_Modulo.md)
+
 ## [MVP](./4_MVP.md)
+
+## [Objeto valor](./4_Objeto_Valor.md)
 
 ## [Protección](./4_Proteccion.md)
 
 ## [Recurso](./4_Recurso.md)
 
 ## [Rendimiento](./4_Rendimiento.md)
+
+## [Repository](./4_Repository.md)
 
 ## [Requerimiento arquitectónicamente significativos](./4_Requerimiento_arquitectonicamente_significativo.md)
 
@@ -67,6 +81,8 @@
 ## [RCP](./4_RPC.md)
 
 ## [Seguridad](./4_Seguridad.md)
+
+## [Servicio](./4_Servicio.md)
 
 ## [Sistema adyacente](./4_Sistema_adyacente.md)
 
