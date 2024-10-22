@@ -2,7 +2,7 @@
 
 ## *Repository*
 
-Este documento está basado en el libro "Domain-Driven Design Quickly" [^1].
+Este documento está basado en [^1].
 
 [^1]: Avram, A; Marinescu, F. Domain-Driven Design Quickly. InfoQ. Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
