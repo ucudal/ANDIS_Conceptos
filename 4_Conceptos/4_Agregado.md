@@ -14,17 +14,17 @@ esta idea, y es que la labor más complicada no es que el modelo sea completo,
 sino que el modelo sea lo suficientemente simple y entendible. Una técnica para
 simplificar un modelo es la de utilizar agregados.
 
-Un agregado es un grupo de objetos asociados y que son considerados como una
+Un agregado es un grupo de objetos asociados que son considerados como una
 unidad a la hora de realizar cambios en los datos. Cada agregado está compuesto
 por una [entidad](./4_Entidad.md) que es denominada la **raíz** del agregado, y
-esta es el único objeto del agregado que es accesible desde fuera del mismo
+esta es el único objeto del agregado que es accesible desde el exterior
 —esto es, por objetos que no forman parte del agregado—.
 
 La raíz puede mantener referencias a cualquiera de los objetos del agregado, y
 los otros objetos del agregado pueden mantener referencias entre ellos, pero un
 objeto no perteneciente al agregado solo puede mantener referencias a la raíz
 del agregado. En caso de que haya otras entidades dentro del agregado, la
-identidad de estas entidades es local al mismo.
+identidad de estas entidades es local al agregado.
 
 Al evitar que objetos externos tengan referencias a objetos internos del
 agregado, se asegura la integridad de los datos del agregado, ya que
@@ -39,10 +39,10 @@ Para implementar un agregado, puedes seguir los siguientes pasos:
 
 * Agrupa las entidades y los [objetos valor](./4_Objeto_Valor.md) en agregados.
 
-* Denomina una entidad del agregado como la raíz del mismo y controla todos los
+* Elije una entidad del agregado para que sea su raíz y controla todos los
   accesos a los objetos internos del agregado a través de la raíz.
 
-* Permite que los objetos externos del agregado mantengan una referencia a la
+* Permite que los objetos externos al agregado mantengan una referencia a la
   raíz exclusivamente.
 
 * Referencias transitorias a los objetos internos pueden ser pasadas fuera del

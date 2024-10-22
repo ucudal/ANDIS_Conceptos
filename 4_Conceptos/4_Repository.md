@@ -16,7 +16,7 @@ referencias a objetos que son accesibles globalmente.
 Para desacoplar la capa del dominio de la capa de infraestructura, el
 repositorio provee una interfaz amigable para el dominio, por más que usualmente
 esté asociado internamente a la capa de infraestructura para poder recuperar
-objetos existentes en la misma, por ejemplo: en la base de datos.
+objetos existentes, por ejemplo, en la base de datos.
 
 Para implementar un repositorio, puedes seguir los siguientes pasos:
 

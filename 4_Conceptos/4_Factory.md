@@ -50,12 +50,12 @@ diferente que se encarga específicamente de esta tarea.
 
 > [!IMPORTANT]
 > Al crear una fábrica, se rompe la encapsulación del objeto, con lo cual se
-> debe tener cuidado. Cuando se da un cambio en el objeto y se rompen las reglas
-> de creación del mismo, es importante que la fábrica se actualice acorde al
+> debe tener cuidado. Cuando se da un cambio en el objeto y se rompen sus reglas
+> de creación, es importante que la fábrica se actualice acorde al
 > cambio para soportarlo.
 
 Las *Factories* de entidades son diferentes a las de objetos valor. Los objetos
-valor son usualmente inmutables, por lo que todos los atributos del mismo deben
+valor son usualmente inmutables, por lo que todos sus atributos deben
 ser producidos en el tiempo de creación del objeto, esto implica que cuando el
 objeto valor es creado, deber ser válido y final. Por otro lado, las entidades
 son mutables y además necesitan una **identidad**.
