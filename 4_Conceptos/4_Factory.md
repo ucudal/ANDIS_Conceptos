@@ -4,7 +4,7 @@
 
 Este documento está basado en [^1].
 
-[^1]: Avram, A; Marinescu, F. Domain-Driven Design Quickly. InfoQ. Disponible
+[^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ. Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 Las [entidades](./4_Entidad.md) y los [agregados](./4_Agregado.md) pueden ser
