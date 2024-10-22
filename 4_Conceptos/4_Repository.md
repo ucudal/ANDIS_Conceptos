@@ -13,10 +13,10 @@ utilizado con el fin de encapsular la lógica de obtener estas referencias a
 objetos. El repositorio actúa como el lugar centralizado en el cual obtener
 referencias a objetos que son accesibles globalmente.
 
-Para desacoplar la capa del [dominio](./4_Dominio.md) de la capa de
-infraestructura, el repositorio provee una interfaz amigable para el dominio,
-por más que usualmente esté asociado internamente a la capa de infraestructura
-para poder recuperar objetos existentes, por ejemplo, en la base de datos.
+Para desacoplar la capa del [dominio](./4_Dominio.md) de la capa de acceso a
+datos, el repositorio provee una interfaz amigable para el dominio, por más que
+usualmente esté asociado internamente a la capa de infraestructura para poder
+recuperar objetos existentes, por ejemplo, en la base de datos.
 
 Para implementar un repositorio, puedes seguir los siguientes pasos:
 
