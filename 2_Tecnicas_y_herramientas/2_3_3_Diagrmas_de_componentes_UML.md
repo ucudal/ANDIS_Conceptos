@@ -28,8 +28,12 @@ Los diagramas de componentes tienen principalmente:
   componente proporciona comportamiento a través de interfaces provistas y
   consume comportamiento a través de interfaces requeridas.
 
+  ![Componente](/diagrams/Component_Diagram_Component.svg)
+
 * Paquetes, agrupan elementos del modelo, en este caso componentes, pero también
   otros paquetes.
+
+  ![Paquete](/diagrams/Component_Diagram_Package.svg)
 
 * Artefactos, que se representan con un rectángulo con el estereotipo
   `≪artifact≫`, y son elementos del modelo que representan las entidades físicas
@@ -37,12 +41,16 @@ Los diagramas de componentes tienen principalmente:
   como archivos ejecutables, bibliotecas, componentes de software, documentos y
   bases de datos.
 
+  ![Artefacto](/diagrams/Component_Diagram_Artifact.svg)
+
 * Interfaces, que definen conjuntos de operaciones proporcionadas —en el caso de
   las interfaces provistas— o requeridas —en el caso de las consumidas—. Las
   interfaces provistas se representan con el símbolo de *lollipop* y las
   consumidas por el símbolo de medio círculo o con una flecha punteada, aunque
   también se pueden representar con un rectángulo con el estereotipo
   `≪interface≫`, pues también son clasificadores.
+
+  ![Interfaz](/diagrams/Component_Diagram_Interfaces.svg)
 
 * Relaciones, una relación es una conexión entre elementos del modelo, en este
   caso, que un componente implementa una interfaz, o requiere una interfaz, o es
