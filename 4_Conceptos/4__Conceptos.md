@@ -20,7 +20,7 @@
 
 ## [Cohesión](./4_Cohesion.md)
 
-## [Componentes](./4_Componente.md)
+## [Componente](./4_Componente.md)
 
 ## [Co-nascencia o *connascence*](./4_Connascence.md)
 
@@ -50,7 +50,13 @@
 
 ## [Historia de usuario](./4_Historia_de_usuario.md)
 
+## [Interacción](./4_Interaccion.md)
+
+## [Interfaz](./4_Interfaz.md)
+
 ## [Jerarquía de requerimientos](./4_Jerarquia_de_requerimientos.md)
+
+## [Modularidad](./4_Modularidad.md)
 
 ## [Módulo](./4_Modulo.md)
 
@@ -60,6 +66,8 @@
 
 ## [Protección](./4_Proteccion.md)
 
+## [Recurso](./4_Recurso.md)
+
 ## [Rendimiento](./4_Rendimiento.md)
 
 ## [Repository](./4_Repository.md)
@@ -67,6 +75,10 @@
 ## [Requerimiento arquitectónicamente significativos](./4_Requerimiento_arquitectonicamente_significativo.md)
 
 ## [Requerimiento no-funcional](./4_Requerimiento_no_funcional.md)
+
+## [REST](./4_REST.md)
+
+## [RCP](./4_RPC.md)
 
 ## [Seguridad](./4_Seguridad.md)
 
