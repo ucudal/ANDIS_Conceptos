@@ -2,39 +2,43 @@
 
 ## *Factory*
 
-Este documento está basado en [^1].
+Este documento está basado en [^2] y [^1].
+
+[^2]: Evans, E. (2015). Domain-DrivenDesign Reference: Definitions and Pattern
+    Summaries. Domain Language, Inc. Disponible
+    [aquí](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf).
 
 [^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ.
     Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 Las [entidades](./4_Entidad.md) y los [agregados](./4_Agregado.md) pueden ser
-muy complejos como para que sean creados por la entidad raíz, y dejar en la raíz
-la responsabilidad de crear un agregado complejo va usualmente en contradicción
-de lo que pasa en el [dominio](./4_Dominio.md). Además, cuando el proceso de
-crear otro objeto es laborioso, involucra tener conocimiento sobre la estructura
-interna del objeto a crear y sus relaciones con otros objetos, rompiendo el
-encapsulamiento de los objetos y agregados del dominio.
+muy complejos como para que sean creados por la entidad raíz; o crear y
+ensamblar objetos complejos no es una responsabilidad que pueda ser asignada a
+los objetos creados, o puede producir diseños poco elegantes y difíciles de
+entender. Hacer que el cliente dirija la construcción de esos objetos enturbia
+el diseño del cliente, viola el encapsulamiento del objeto ensamblado o agregado
+—requiere que el cliente conozca la estructura interna y las relaciones con
+otros objetos— y vincula excesivamente al cliente con la implementación del
+objeto creado.
 
-Una *Factory* —fábrica, en español— es un concepto utilizado para encapsular el
+Una *Factory* —fábrica, en español— es una clase utilizada para encapsular el
 conocimiento necesario para la creación de objetos, y es especialmente útil para
-la creación de agregados.
+la creación de agregados y objetos complejos. En una *Factory* se desplaza la
+responsabilidad de crear agregados y objetos complejos a un nuevo objeto que
+puede no tener responsabilidad alguna en el modelo del dominio pero aún así
+forma parte del diseño del dominio. Provee una interfaz que encapsula la lógica
+compleja del ensamblado y crea agregados enteros como una unidad, cumpliendo
+entonces con sus invariantes.
 
-Es importante que el proceso de creación de objetos sea atómico para evitar que
-los objetos creados estén incompletos. Para los agregados, esto significa que
-cuando la raíz sea creada, todos los objetos del agregado sujetos a invariantes,
-deben ser creados también para que las mismas se puedan cumplir. Para los
+Es importante que el proceso de creación de objetos sea atómico —todo o nada—
+para evitar que los objetos creados estén incompletos. Para los agregados, esto
+significa que cuando la raíz sea creada, todos los objetos también deben ser
+creados de forma tal que se cumplan las invariantes que hubiera. Para los
 [objetos valor](./4_Objeto_Valor.md), esto significa que todos los atributos son
-inicializados en su estado válido. Para evitar que un valor inválido sea creado,
+inicializados en su estado válido. Para evitar que sea creado un valor inválido,
 se debe arrojar una excepción cuando un objeto no puede ser creado
 apropiadamente.
-
-> [!NOTE]
-> Desplaza la responsabilidad de crear agregados y objetos complejos a un nuevo
-> objeto que puede no tener responsabilidad alguna en el modelo del dominio pero
-> aún así forma parte del diseño del dominio. Provee una interfaz que encapsula
-> la lógica compleja del ensamblado y crea agregados enteros como una unidad,
-> cumpliendo entonces sus invariantes.
 
 Existen varios patrones de diseño para implementar *Factories*, por ejemplo:
 [*Factory Method*](https://refactoring.guru/design-patterns/factory-method) y
