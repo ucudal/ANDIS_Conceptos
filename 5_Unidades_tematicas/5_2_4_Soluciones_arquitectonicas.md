@@ -11,8 +11,13 @@
 * [Ciclo de identificación de
   componentes](/2_Tecnicas_y_herramientas/2_2_2_Ciclo_identificacion_componentes.md)
 
+* [Interfaces](/4_Conceptos/4_Interfaz.md)
+
+* [Interacción](/4_Conceptos/4_Interaccion.md)
+
+* [Componentes](/4_Conceptos/com)
+
 <!-- TBD. Incluir la parte III de Bass
-Interfaces de software
 Virtualización
 Computación en la nube y distribuida
 Sistemas móviles -->
