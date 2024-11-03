@@ -15,8 +15,6 @@
 
 * [Interacción](/4_Conceptos/4_Interaccion.md)
 
-* [Componentes](/4_Conceptos/com)
-
 <!-- TBD. Incluir la parte III de Bass
 Virtualización
 Computación en la nube y distribuida
