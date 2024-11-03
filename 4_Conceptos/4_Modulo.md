@@ -2,7 +2,11 @@
 
 ## Módulo en *Domain-Driven Design*
 
-Este documento está basado en [^1].
+Este documento está basado en [^2] y [^1].
+
+[^2]: Evans, E. (2015). Domain-Driven Design Reference: Definitions and Pattern
+    Summaries. Domain Language, Inc. Disponible
+    [aquí](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf).
 
 [^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ.
     Disponible
@@ -15,7 +19,7 @@ conceptos y tareas relacionadas con el fin de reducir la complejidad del modelo.
 
 Los módulos son una forma sencilla y eficaz de manejar la complejidad y se usan
 en la mayoría de proyectos. Para entender un modelo con módulos, primero se
-obtiene una imagen general observando los módulos y sus relaciones y luego se
+obtiene una imagen general observando los módulos y sus relaciones, y luego se
 puede entrar en más detalle adentrándose en un módulo específicamente.
 
 Los módulos también favorecen a la calidad del código al proveer mayor
@@ -25,21 +29,18 @@ definen interfaces bien definidas para los módulos, de modo que los módulos
 interactúan a través de ellas, en vez de interactuar con varias clases
 directamente.
 
-> [!TIP]
-> Elije módulos que cuenten la historia del sistema y contengan un conjunto de
-> conceptos cohesivos.
+Para definir módulos, puedes considerar las siguientes recomendaciones:
 
-> [!TIP]
-> Busca reducir el acoplamiento entre módulos creando módulos que puedan ser
-> razonados de forma independiente entre ellos.
+* Elije módulos que cuenten la historia del sistema y contengan un conjunto de
+  conceptos cohesivos.
 
-> [!TIP]
-> Refina el modelo hasta que sea particionado en conceptos de alto nivel y su
-> código sea desacoplado.
+* Busca reducir el acoplamiento entre módulos creando módulos que puedan ser
+  razonados de forma independiente entre ellos.
 
-> [!TIP]
-> Nombra los módulos utilizando el lenguaje ubicuo.
+* Refina el modelo hasta que sea particionado en conceptos de alto nivel y su
+  código sea desacoplado.
 
-> [!TIP]
-> Es recomendado que los módulos sean algo flexibles para que puedan evolucionar
-> junto al proyecto.
+* Nombra los módulos utilizando el lenguaje ubicuo.
+
+* Es recomendado que los módulos sean algo flexibles para que puedan evolucionar
+  junto al proyecto.

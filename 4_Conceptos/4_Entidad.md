@@ -2,40 +2,47 @@
 
 ## Entidad
 
-Este documento está basado en [^1].
+Este documento está basado en [^2] y [^1].
+
+[^2]: Evans, E. (2015). Domain-Driven Design Reference: Definitions and Pattern
+    Summaries. Domain Language, Inc. Disponible
+    [aquí](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf).
 
 [^1]: Avram, A; Marinescu, F. (2006). Domain-Driven Design Quickly. InfoQ.
     Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 En el contexto de *Domain-Driven Design* —DDD, por sus siglas—, una entidad es
-un objeto cuya identidad se mantiene constante durante los diferentes estados de
-un sistema, de hecho, las entidades tienen una identidad que abarca la vida de
-un sistema y puede extenderse más allá del mismo.
+un objeto que se distingue por su identidad, en lugar de por sus atributos. Es
+necesario un mecanismo para diferenciar un objeto de otro independientemente de
+su forma[^3] o su historia.
+
+[^3]: Por ejemplo cuando se transforma a una representación para almacenamiento
+    persistente o para ser enviado a través de la red.
 
 Así es que implementar entidades en software implica crear identidades, por lo
-que la capacidad de identificar estas últimas es crucial. Por ejemplo, si
-quisieras implementar la entidad `Persona`, podrías plantearte utilizar algún
-atributo en particular como su nombre, o incluso un conjunto de ellos, ya que no
-sería suficiente con simplemente usar su nombre y su fecha de nacimiento, por
-mencionar una combinación. Tampoco sería suficiente utilizar su lugar de
-nacimiento, ya que diferentes personas podrían tener el mismo lugar de
-nacimiento; lo importante aquí es encontrar el atributo o combinación de
-atributos que garantizan la identidad de la entidad `Persona`, ya que la mala
-identificación de una entidad puede llevar a la corrupción de datos.
+que la capacidad de identificar estas últimas es crucial. El atributo —o
+combinación de atributos— utilizado para lograr la identidad puede ser propio
+del objeto, asignado por alguien externo a la aplicación o incluso al
+[dominio](./4_Dominio.md). Pero a veces no hay ninguna combinación de atributos
+que permita identificar los objetos de forma única, por lo que se puede utilizar
+un sistema arbitrario creado por la aplicación.
 
-La cédula de identidad es un atributo que garantiza al identidad de una
-`Persona`, por lo que puede ser utilizado para crear la identidad de `Persona`.
-Usualmente, la identidad es un atributo del objeto, una combinación de
-atributos, un atributo generado automática y específicamente para expresar la
-identidad —un atributo `id`, por ejemplo—, o incluso un comportamiento. Para
-evitar que todo el sistema se vuelva corrupto, es importante que se cumplan las
+Por ejemplo, para una entidad `Persona`, es casi seguro que ninguna combinación
+de los atributos nombre, fecha y lugar de nacimiento, permita identificar en
+forma única a una persona, pues diferentes personas pueden tener el mismo
+nombre, la misma fecha, y el mismo lugar de nacimiento. En cambio, la cédula de
+identidad, asignada por la autoridad de identificación civil, que es externa a
+la aplicación, garantiza que no hay dos personas con la misma cédula, por lo que
+podría ser utilizado para lograr la identidad.
+
+Una mala elección del mecanismo para lograr identificar a una entidad puede
+llevar a la corrupción de datos. Para evitarlo, es importante que se cumplan las
 siguientes dos condiciones:
 
-* Dos objetos con diferentes identidades son considerados diferentes por el
-  sistema
+* Dos objetos con diferentes identidades son considerados diferentes
 
-* Dos objetos con la misma identidad son considerados el mismo por el sistema
+* Dos objetos con la misma identidad son considerados el mismo
 
 Cuando un objeto es diferenciado por su identidad, debes hacerla primaria en la
 definición de la entidad en el modelo. Además, debes estar pendiente a los

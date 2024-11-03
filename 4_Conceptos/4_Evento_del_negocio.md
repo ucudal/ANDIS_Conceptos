@@ -5,7 +5,9 @@
 
 Los eventos del negocio son cosas que suceden y —a su vez— hacen que el
 [trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md) responda de alguna
-manera[^1]. Un evento puede ocurrir fuera del alcance del trabajo —un evento
+manera[^1]. Compáralo con [evento del dominio](./4_Evento_del_dominio.md).
+
+Un evento puede ocurrir fuera del alcance del trabajo —un evento
 externo—, o puede suceder porque es el momento de que el trabajo haga algo —un
 evento desencadenado por el tiempo—.
 
