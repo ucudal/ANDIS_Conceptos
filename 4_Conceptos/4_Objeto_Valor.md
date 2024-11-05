@@ -4,7 +4,7 @@
 
 Este documento está basado en [^2] y [^1].
 
-[^2]: Evans, E. (2015). Domain-DrivenDesign Reference: Definitions and Pattern
+[^2]: Evans, E. (2015). Domain-Driven Design Reference: Definitions and Pattern
     Summaries. Domain Language, Inc. Disponible
     [aquí](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf).
 
