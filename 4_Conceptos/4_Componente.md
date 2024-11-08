@@ -10,7 +10,7 @@ independencia en la construcción y el despliegue.
 
 ### Definiciones
 
-**Richards**
+#### Richards
 
 Un **componente** es la manifestación física de un módulo, el empaquetado físico
 de un módulo, como los `.jar` en Java, `.dll` en .NET, `.gem` en Ruby, etc. Un
@@ -19,7 +19,7 @@ de un módulo, como los `.jar` en Java, `.dll` en .NET, `.gem` en Ruby, etc. Un
 [^1]: Richards, M.; Ford, N. (2020). Fundamentals of software architecture.
     O'Reilly Media.
 
-**Bass, Clements, Kazman**
+#### Bass, Clements, Kazman
 
 Un **componente** es un módulo de software que tiene una interfaz claramente
 definida, que interactúa con otros componentes a través de conexiones
@@ -30,7 +30,7 @@ manera independiente[^2].
 [^2]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> Edition. Addison-Wesley Professional.
 
-**ISO/IEC/IEEE 42010**
+#### ISO/IEC/IEEE 42010
 
 Un **componente** es una parte de un sistema que interactúa con otras partes a
 través de interfaces. Es la unidad que implementa una función específica dentro
@@ -39,7 +39,7 @@ de un sistema más grande[^3].
 [^3]: IEEE. (2O22). ISO/IEC/IEEE 42010:2022 Software, systems and enterprise —
     Architecture description. ISO.
 
-**Rozanski & Woods**
+#### Rozanski & Woods
 
 Un **componente** es una unidad de software que encapsula una funcionalidad y
 que puede ser reemplazada, reutilizada o modificada independientemente dentro de
@@ -50,7 +50,7 @@ definidas[^4].
     Stakeholders Using Viewpoints and Perspectives, 2<sup>nd</sup> Edition.
     Addison-Wesley
 
-**Fielding**
+#### Fielding
 
 En el contexto de arquitecturas REST, un **componente** es una
 unidad abstracta que interactúa con otros componentes a través de una interfaz
