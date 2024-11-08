@@ -21,7 +21,7 @@ base de datos, desplegados en unidades de despliegue independientes.
 
 ![Estilo service-based architecture](/diagrams/Architecture_Service_Based.svg)
 
-*Figura 1: Estilo service-based architecture.*
+#### *Figura 1: Estilo service-based architecture.*
 
 <!-- TODO: Agregar las variantes que aparecen en la referencia abajo -->
 

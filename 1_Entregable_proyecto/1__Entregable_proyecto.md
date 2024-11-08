@@ -103,7 +103,8 @@ Cada una de estas fases puede tener una o más iteraciones o *sprints*.
 
 ![El ciclo de vida DAD](/diagrams/DAD_Lifecycle.svg)
 
-*Figura 1: Una vista de alto nivel del ciclo de vida de la entrega en DAD.
+#### *Figura 1: Una vista de alto nivel del ciclo de vida de la entrega en DAD.*
+
 Tomado de [PMI](https://www.pmi.org/disciplined-agile/lifecycle).*
 
 > [!TIP]

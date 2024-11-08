@@ -62,7 +62,7 @@ En la figura 1, a continuación, aparecen los siguientes elementos:
 
 ![Estilo space-based architecture](/diagrams/Architecture_Space_Based.svg)
 
-*Figura 1: Estilo space-based architecture.*
+#### *Figura 1: Estilo space-based architecture.*
 
 <!-- TODO: Agregar las variantes y ejemplos que aparecen en la referencia abajo -->
 

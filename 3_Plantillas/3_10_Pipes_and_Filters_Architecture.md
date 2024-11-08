@@ -26,7 +26,7 @@ conectando esos filtros.
 ![Estilo pipes and filters
 architecture](/diagrams/Architecture_Pipes_And_Filters.svg)
 
-*Figura 1: Estilo pipes and filters architecture.*
+#### *Figura 1: Estilo pipes and filters architecture.*
 
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
       Engineering Approach. O'Reilly.

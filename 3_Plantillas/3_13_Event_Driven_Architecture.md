@@ -23,7 +23,7 @@ con el estereotipo `≪processor≫`.
 
 ![Estilo event-driven architecture](/diagrams/Architecture_Event_Driven.svg)
 
-*Figura 1: Estilo event-driven architecture.*
+#### *Figura 1: Estilo event-driven architecture.*
 
 <!-- TODO: Agregar las variantes y ejemplos que aparecen en la referencia abajo -->
 

@@ -84,7 +84,7 @@ La siguiente figura muestra el modelo de calidad de McCall:
 
 ![Modelo de calidad de McCall](/diagrams/Quality_Model_McCall.svg)
 
-*Figura 1: Modelo de calidad de McCall.*
+#### *Figura 1: Modelo de calidad de McCall.*
 
 #### Boehm
 
@@ -101,7 +101,7 @@ derecha.
 
 ![Modelo de calidad de Boehm](/diagrams/Quality_Model_Boehm.svg)
 
-*Figura 2: Modelo de calidad de Boehm*. [^2]
+#### *Figura 2: Modelo de calidad de Boehm*. [^2]
 
 #### ISO 9126
 
@@ -115,7 +115,7 @@ La siguiente figura muestra el modelo de calidad de la norma ISO 9126:
 
 ![Modelo de calidad de la norma ISO 9126](/diagrams/Quality_Model_ISO_9126.svg)
 
-*Figura 3: Modelo de calidad de la norma ISO 9126.*
+#### *Figura 3: Modelo de calidad de la norma ISO 9126.*
 
 ### Normas de calidad y de procesos
 
@@ -183,8 +183,7 @@ procesos de la norma ISO 9000:
 ![Modelo del sistema de gestión de la calidad basado en los procesos de la norma
 ISO 9000](/diagrams/Quality_Management_Model_ISO_9000.svg)
 
-*Figura 4. Modelo del sistema de gestión de la calidad basado en los procesos de
-la norma ISO 9000.*
+#### *Figura 4. Modelo del sistema de gestión de la calidad basado en los procesos de la norma ISO 9000.*
 
 #### CMMI
 

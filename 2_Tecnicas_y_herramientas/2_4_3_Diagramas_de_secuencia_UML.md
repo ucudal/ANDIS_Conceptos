@@ -48,7 +48,7 @@ envía el mensaje `Guardar` a `Carrito`.
 ![Un diagrama se secuencia con líneas de vida y
 mensajes](/diagrams/Sequence_Diagram_Lifelines_Messages.svg)
 
-*Figura 1: Un diagrama de secuencia con tres instancias y varios mensajes*
+#### *Figura 1: Un diagrama de secuencia con tres instancias y varios mensajes.*
 
 Existen varios tipos de mensajes:
 
