@@ -76,9 +76,8 @@ Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-squ
 > serie *gratuita* [How to Contribute to an Open Source Project on
 > GitHub](https://kcd.im/pull-request)
 
-En este punto, ¡ya estás preparada o preparado para hacer cambios! Siéntete libre
-
-de pedir ayuda; todos fuimos principiantes una vez :smile_cat:
+En este punto, ¡ya estás preparada o preparado para hacer cambios! Siéntete
+libre de pedir ayuda; todos fuimos principiantes una vez :smile_cat:
 
 > [!IMPORTANT]
 > Si un colaborador te pide que hagas un *rebase* al *pull request*, se refiere
@@ -271,7 +270,7 @@ Además, esta es la configuración sugerida del editor y sus extensiones:
 
 El contenido está organizado en estas carpetas:
 
-1. Contenido
+1. Entregable proyecto
 2. Técnicas y herramientas
 3. Plantillas
 4. Conceptos
@@ -389,6 +388,35 @@ Addison-Wesley Professional.</span><a href="#back_ref_1" title="Volver...">↩�
 <span id="ref_1">Robertson, S. & Robertson, J. (2012). Mastering the
 Requirements Process: Getting Requirements Right, 3<sup>rd</sup> Edition.
 Addison-Wesley Professional.</span><a href="#back_ref_1" title="Volver...">↩︎</a>
+```
+
+### Leyendas de figuras
+
+Al incluir figuras en un documento las acompañamos de una pequeña leyenda debajo
+que explica o complementa brevemente la figura. Lo mismo hacemos con las tablas
+cuando resulta necesario o conveniente.
+
+Estas leyendas las incluimos como un *heading 4* —h4 o ####— y en itálica,
+asegurándonos de asociarles un número según la cantidad de figuras presentes
+hasta el momento en el documento, empezando por uno (1). Si hay figuras y tablas
+en un mismo documento, las contamos por separado, por lo que puede haber una
+*tabla 1* y una *figura 1* en un mismo documento.
+
+Al incluir las leyendas de las figuras y tablas de esta forma, podemos
+referenciarlas desde dentro y fuera del documento.
+
+#### Ejemplo
+
+![El ciclo de vida DAD](/diagrams/DAD_Lifecycle.svg)
+
+#### *Figura 1: Una vista de alto nivel del ciclo de vida de la entrega en DAD.*
+
+#### Fuente
+
+```markdown
+![El ciclo de vida DAD](/diagrams/DAD_Lifecycle.svg)
+
+#### *Figura 1: Una vista de alto nivel del ciclo de vida de la entrega en DAD.*
 ```
 
 ### Viñetas
