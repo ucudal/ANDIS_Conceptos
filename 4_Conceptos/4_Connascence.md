@@ -7,7 +7,7 @@
 > acción y efecto de nacer. Por lo tanto, co-nascencia sería algo así como la
 > acción y efecto de nacer al mismo tiempo. Sin embargo, este término no es muy
 > común en español y en algunos casos se prefiere simplemente usar el término en
-> inglés _connascence_.
+> inglés *connascence*.
 
 La co-nascencia es una de las formas con las que se mide la modularidad en
 ingeniería de software —las otras son el [acoplamiento](./4_Acoplamiento.md) y
@@ -24,7 +24,7 @@ Existen dos tipos de co-nascencia:
   Puede ser:
 
   * De nombres. Múltiples partes deben ponerse de acuerdo en el nombre de una
-    entidad, por ejemplo, un identificador. Consideren el _refactoring_ que
+    entidad, por ejemplo, un identificador. Consideren el *refactoring* que
     tienen varios IDE de renombrar identificadores, para que lidiar con este
     tipo de acoplamiento sea trivial.
 

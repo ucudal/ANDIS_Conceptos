@@ -56,11 +56,11 @@ imágenes o dibujos, ¡incluso pueden parecer una obra de arte!
 
 ![Ejemplo de mapa mental con actividades semanales](https://www.tonybuzan.edu.sg/wp-content/uploads/2017/10/mm_week.jpg)
 
-_[Fuente](https://www.tonybuzan.edu.sg/about/mind-maps/)_
+*[Fuente](https://www.tonybuzan.edu.sg/about/mind-maps/)*
 
 ![Ejemplo de mapa mental de las reglas de un mapa mental](https://www.tonybuzan.edu.sg/wp-content/uploads/2017/10/mm_laws.jpg)
 
-_[Fuente](https://www.tonybuzan.edu.sg/about/mind-maps/)_
+*[Fuente](https://www.tonybuzan.edu.sg/about/mind-maps/)*
 
 ## Cómo dibujar un mapa mental básico
 
@@ -76,7 +76,7 @@ mindmap
   root((Hacer una presentación))
 ```
 
-_[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
+*[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)*
 
 **Paso 2**. Dibujar líneas desde este círculo pensando en subtítulos del tema o
 en datos o tareas importantes que se relacionen con el tema. Etiquetar estas
@@ -92,7 +92,7 @@ mindmap
     Visual
 ```
 
-_[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
+*[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)*
 
 **Paso 3**. Sumergirse más en el tema para descubrir el siguiente nivel de
 información -subtemas relacionados, tareas o datos, por ejemplo-. Luego,
@@ -125,7 +125,7 @@ mindmap
       Imágenes
 ```
 
-_[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
+*[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)*
 
 **Paso 4**. Repetir el proceso para el siguiente nivel de datos, tareas o ideas.
 Dibujar líneas desde los encabezados apropiados y etiquetarlos, como se muestra
@@ -170,7 +170,7 @@ mindmap
         Fotos
 ```
 
-_[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
+*[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)*
 
 **Paso 5**. A medida que se descubre nueva información o aparecen tareas
 adicionales, agregarlas al mapa mental en los lugares apropiados.
@@ -180,7 +180,7 @@ direcciones desde el centro, con subtemas ramificándose de estas líneas como
 ramas y ramitas del tronco de un árbol. No es necesario preocuparse por la
 estructura que se produce, esta evolucionará por sí sola.
 
-_[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)_
+*[Fuente](https://www.mindtools.com/ahlezc4/mind-maps)*
 
 💡 **Consejo**: Si bien dibujar mapas mentales a mano es apropiado en muchos
 casos, herramientas y aplicaciones como
