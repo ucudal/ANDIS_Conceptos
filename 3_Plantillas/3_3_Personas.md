@@ -88,4 +88,3 @@ resultar útil.
 > [Canva](https://www.canva.com/templates/s/user-persona/),
 > [Miro](https://miro.com/templates/personas/) o
 > [Figma](https://www.figma.com/community/file/881830156311997001).
-

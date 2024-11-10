@@ -23,4 +23,3 @@ Hay muchos formatos para escribir los ADR, algunos están incluidos como
 [^2]: Nygard, M. (2011). Documenting Architecture Decisions. Cogniteg blog.
       Disponible
  [aquí](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
-

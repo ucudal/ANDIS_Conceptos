@@ -182,7 +182,6 @@ en Microsoft Well-Architected Framework.
 The Open Group. (2004). Security Design Patterns. Disponible
 [aquí](https://pubs.opengroup.org/onlinepubs/9299969899/toc.pdf)
 
-
 ## Referencias adicionales
 
 Microsoft. (2024). Microsoft Security Development Lifecycle. Disponible

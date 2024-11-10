@@ -39,7 +39,6 @@ respectivamente.
 [^3]: Microsoft. (2023). Reliability design principles. Disponible
     [aquí](https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles).
 
-
 ### Medición de la disponibilidad
 
 La disponibilidad se mide generalmente como una proporción del tiempo en que el
