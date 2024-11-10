@@ -51,9 +51,9 @@ $\text{Disponibilidad} = \frac{\text{Tiempo de Operación}}{\text{Tiempo Total}}
 
 Donde:
 
-- $\text{Tiempo de Operación}$ o *uptime*: es el tiempo durante el cual el
+* $\text{Tiempo de Operación}$ o *uptime*: es el tiempo durante el cual el
   sistema está funcionando correctamente.
-- $\text{Tiempo Total}$: es la suma del tiempo de operación y el tiempo de
+* $\text{Tiempo Total}$: es la suma del tiempo de operación y el tiempo de
   inactividad —o *downtime*—, que incluye tanto el tiempo planificado para
   mantenimiento como el tiempo no planificado debido a fallos o interrupciones.
 
@@ -117,9 +117,9 @@ Esto significa que la disponibilidad del sistema es aproximadamente 99.01%.
 
 ### Importancia de MTBF y MTTR
 
-- **MTBF**: Un mayor MTBF indica que el sistema es más fiable y tiene menos
+* **MTBF**: Un mayor MTBF indica que el sistema es más fiable y tiene menos
   fallas en un período de tiempo determinado, lo que aumenta la disponibilidad.
-- **MTTR**: Un menor MTTR indica que el sistema se repara más rápidamente cuando
+* **MTTR**: Un menor MTTR indica que el sistema se repara más rápidamente cuando
   ocurre una falla, lo que también aumenta la disponibilidad.
 
 <!-- ### Factores que Afectan la Disponibilidad
@@ -137,9 +137,9 @@ inglés —*service level agreement*-, que pueden ser del 99.9%
 —conocido como "tres nueves"—, 99.99% —"cuatro nueves"— o incluso más altos,
 dependiendo de la criticidad del sistema.
 
-- **99.9% o tres nueves**: Aproximadamente 8.76 horas de inactividad al año.
-- **99.99% o cuatro nueves**: Aproximadamente 52.56 minutos de inactividad al año.
-- **99.999% o cinco nueves**: Aproximadamente 5.26 minutos de inactividad al año.
+* **99.9% o tres nueves**: Aproximadamente 8.76 horas de inactividad al año.
+* **99.99% o cuatro nueves**: Aproximadamente 52.56 minutos de inactividad al año.
+* **99.999% o cinco nueves**: Aproximadamente 5.26 minutos de inactividad al año.
 
 La disponibilidad es un aspecto crucial de la arquitectura de un producto que
 requiere alta confiabilidad y accesibilidad constante.
