@@ -251,7 +251,7 @@ calidad —características arquitectónicas en su terminología—[^2]:
 |Ventaja competitiva|Agilidad, facilidad de ser probado, capacidad de implementación, escalabilidad, disponibilidad, tolerancia a fallas|
 |Tiempo y presupuesto|Simplicidad, viabilidad|
 
-#### Tabla 1. Traducción de las preocupaciones del dominio a características de la arquitectura. Tomado de [^2].
+#### *Tabla 1. Traducción de las preocupaciones del dominio a características de la arquitectura. Tomado de [^2].*
 
 Por último, los requerimientos arquitectónicamente significativos no son todos:
 

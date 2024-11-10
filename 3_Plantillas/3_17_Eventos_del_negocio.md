@@ -65,7 +65,7 @@ contexto de la figura 1, aparece luego, en la tabla 1:
 
 #### *Figura 1: Ejemplo de un diagrama de contexto.*
 
-#### *Tabla 1: Ejemplo de eventos del negocio*
+#### *Tabla 1: Ejemplo de eventos del negocio.*
 
 <table>
     <tr>
