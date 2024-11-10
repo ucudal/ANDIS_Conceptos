@@ -84,22 +84,19 @@ Donde:
 
 Para entender cómo ambas fórmulas están relacionadas, considera lo siguiente:
 
-1. Tiempo total de operación y reparación:
+* Tiempo total de operación y reparación:
+  * El tiempo total de operación entre dos fallas es MTBF.
+  * El tiempo total para reparar y volver a la operación es MTTR.
 
-* El tiempo total de operación entre dos fallas es MTBF.
-* El tiempo total para reparar y volver a la operación es MTTR.
-
-2. Ciclo completo:
-
-* Un ciclo completo incluye el tiempo de operación o MTBF y el tiempo de
+* Ciclo completo:
+  * Un ciclo completo incluye el tiempo de operación o MTBF y el tiempo de
     reparación o MTTR.
-* Entonces, el tiempo total de un ciclo es $\text{MTBF} + \text{MTTR}$.
+  * Entonces, el tiempo total de un ciclo es $\text{MTBF} + \text{MTTR}$.
 
-3. Proporción del tiempo de operación:
-
-* La disponibilidad es la proporción del tiempo de operación en relación con el
+* Proporción del tiempo de operación:
+  * La disponibilidad es la proporción del tiempo de operación en relación con el
   tiempo total.
-* Por lo tanto, se calcula como la fracción del tiempo de operación sobre el
+  * Por lo tanto, se calcula como la fracción del tiempo de operación sobre el
   tiempo total del ciclo.
 
 $\text{Disponibilidad} = \frac{\text{Tiempo de Operación}}{\text{Tiempo Total}}
