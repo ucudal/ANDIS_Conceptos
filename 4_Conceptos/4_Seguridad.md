@@ -4,9 +4,9 @@
 
 La seguridad —o *security* en inglés— es un atributo de la calidad de software
 que define la capacidad de protección de la información y los datos de manera
-que las personas u otros sistemas, productos o componentes tengan el grado de acceso a los datos
-adecuado a sus tipos y niveles de autorización, y para defenderse de los
-patrones de ataque de agentes malintencionados[^1].
+que las personas u otros sistemas, productos o componentes tengan el grado de
+acceso a los datos adecuado a sus tipos y niveles de autorización, y para
+defenderse de los patrones de ataque de agentes malintencionados[^1].
 
 [^1]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
     engineering—Systems and software Quality Requirements and Evaluation

@@ -123,10 +123,15 @@ Esto significa que la disponibilidad del sistema es aproximadamente 99.01%.
 
 <!-- ### Factores que Afectan la Disponibilidad
 
-1. **Redundancia**: Implementación de componentes redundantes que pueden asumir el funcionamiento en caso de falla de un componente principal.
-2. **Mantenimiento y Soporte**: Programación de mantenimientos regulares y soporte técnico eficaz para reducir el tiempo de inactividad.
-3. **Monitoreo y Alertas**: Uso de sistemas de monitoreo para detectar y responder rápidamente a problemas.
-4. **Sistemas de Recuperación**: Planes de recuperación ante desastres y copias de seguridad para restaurar el servicio rápidamente después de una interrupción. -->
+1. **Redundancia**: Implementación de componentes redundantes que pueden asumir
+   el funcionamiento en caso de falla de un componente principal.
+2. **Mantenimiento y Soporte**: Programación de mantenimientos regulares y
+   soporte técnico eficaz para reducir el tiempo de inactividad.
+3. **Monitoreo y Alertas**: Uso de sistemas de monitoreo para detectar y
+   responder rápidamente a problemas.
+4. **Sistemas de Recuperación**: Planes de recuperación ante desastres y copias
+   de seguridad para restaurar el servicio rápidamente después de una
+   interrupción. -->
 
 ### Objetivos de disponibilidad
 

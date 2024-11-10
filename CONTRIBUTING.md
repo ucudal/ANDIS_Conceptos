@@ -53,20 +53,32 @@ equivocarte, todos podemos equivocarnos, lo que no podemos hacer es dejar de
 aprender de nuestros errores, o ser negligentes; pero por lo demás, te alentamos
 a que pruebes.
 
-<!--
+<!-- 
 TODO: Ver qué de esto es interesante para agregar, el de Django me gustó.
-[source: [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#your-first-code-contribution)] **Necesitas más inspiración?** [1] [Read the Docs](http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-development) [2] [Django](https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#first-steps) (baja en el scroll hasta "Guidelines" también)
+[source:
+[Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#your-first-code-contribution)]
+**Necesitas más inspiración?** [1] [Read the
+Docs](http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-development)
+[2]
+[Django](https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#first-steps)
+(baja en el scroll hasta "Guidelines" también)
 
-### Puntos de Bonus: Agrega un enlace a recursos para personas que nunca han contribuido anteriormente.
-Aquí hay algunos tutoriales que puedes incluir: http://makeapullrequest.com/ y http://www.firsttimersonly.com/
+### Puntos de Bonus: Agrega un enlace a recursos para personas que nunca han contribuido anteriormente
 
-> Trabajando en tu primer Pull Request? Puedes aprender como en esta *free* series, [Cómo contribuir a un proyecto de Código abierto en GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
+Aquí hay algunos tutoriales que puedes incluir: http://makeapullrequest.com/ y
+http://www.firsttimersonly.com/
 
-[fuente: [React](https://github.com/facebook/react/blob/master/CONTRIBUTING.md#pull-requests)]
+> Trabajando en tu primer Pull Request? Puedes aprender como en esta *free*
+> series, [Cómo contribuir a un proyecto de Código abierto en
+> GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
-Como nota, es bastante útil usar lenguaje amigable con las personas recién llegadas en todo el documento. Aquí algunos ejemplos de [Active Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md):
+[fuente:
+[React](https://github.com/facebook/react/blob/master/CONTRIBUTING.md#pull-requests)]
 
--->
+Como nota, es bastante útil usar lenguaje amigable con las personas recién
+llegadas en todo el documento. Aquí algunos ejemplos de [Active
+Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md):
+ -->
 
 [![PRs
 Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
@@ -165,14 +177,22 @@ TODO: Revisar estas fuentes
 
 <!-- TODO: Definir si vamos a tener un proceso de revisión>
 # Proceso de Revisión del código
+
 ### Explica que necesita una contribución para ser aceptada luego de que se hace el submit.
-Quién la revisa? Quien necesita firmar antes de que sea aceptada? Cuando debería esperar el contribuidor que le respondas? Cómo puede tener un contribuidor acceso a hacer commits, si fuese necesario?
 
-> El core team revisa los Pull Requests semanalmente en una junta tripartita que se lleva a cabo en un Google Hangout público. El hangout se anuncia en las actualizaciones semanales y son enviados a la lista puppet-dev. Las notas son publicadas en el repo de Puppet Community community-triage e incluye un enlace a la grabación del hangout en YouTube.
-> Luego de que se da la retroalimentación se esperan respuestas en las siguientes dos semanas. Luego de ello puede que se cierre el pull request debido a la inactividad.
+Quién la revisa? Quien necesita firmar antes de que sea aceptada? Cuando debería
+esperar el contribuidor que le respondas? Cómo puede tener un contribuidor
+acceso a hacer commits, si fuese necesario?
 
-[fuente: [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#submitting-changes)] **Necesitas más inspiración?** [1] [Meteor](https://meteor.hackpad.com/Responding-to-GitHub-Issues-SKE2u3tkSiH ) [2] [Express.js](https://github.com/expressjs/express/blob/master/Contributing.md#becoming-a-committer)
--->
+> El core team revisa los Pull Requests semanalmente en una junta tripartita que
+> se lleva a cabo en un Google Hangout público. El hangout se anuncia en las
+> actualizaciones semanales y son enviados a la lista puppet-dev. Las notas son
+> publicadas en el repo de Puppet Community community-triage e incluye un enlace
+> a la grabación del hangout en YouTube. Luego de que se da la retroalimentación
+> se esperan respuestas en las siguientes dos semanas. Luego de ello puede que
+> se cierre el pull request debido a la inactividad.
+
+[fuente: [Puppet](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#submitting-changes)] **Necesitas más inspiración?** [1] [Meteor](https://meteor.hackpad.com/Responding-to-GitHub-Issues-SKE2u3tkSiH ) [2] [Express.js](https://github.com/expressjs/express/blob/master/Contributing.md#becoming-a-committer) -->
 
 ## Convenciones
 
