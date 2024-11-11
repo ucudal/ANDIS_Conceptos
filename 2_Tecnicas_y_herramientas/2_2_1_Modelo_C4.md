@@ -87,7 +87,8 @@ utilizar UML. Estos son los diagramas en un modelo C4:
   UML](/2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md) para crear
   los diagramas de código. Estos diagramas también son opcionales.
 
-<!-- TODO: Agregar ejemplos de cada uno de estos diagramas, tomados de https://c4model.com -->
+<!-- TODO: Agregar ejemplos de cada uno de estos diagramas, tomados de
+https://c4model.com -->
 
 [^1]: Brown, S. (2024). The C4 model for visualizing software architecture-
      Context, Containers, Components, and Code. Disponible

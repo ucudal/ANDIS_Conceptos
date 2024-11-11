@@ -48,7 +48,7 @@ ejemplo, el `Anunciante` recibe de la comunidad `Slots de publicidad` y envía
 
 ![Ejemplo de diagrama de contexto](/diagrams/Context_Diagram_Example.svg)
 
-*Figura 1: Ejemplo de un diagrama de contexto.*
+#### *Figura 1: Ejemplo de un diagrama de contexto.*
 
 Con el diagrama de contexto es posible derivar los [eventos del
 negocio](/4_Conceptos/4_Evento_del_negocio.md), aunque durante el relevamiento

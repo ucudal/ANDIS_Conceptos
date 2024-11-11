@@ -60,9 +60,10 @@ La lista de tácticas está tomada de[^1]:
   durante el diseño. Por ejemplo, el uso de *checksums* —sumas de verificación—
   es una implementación de esta táctica.</span>
 
-* <span id="control_cordura">**Control de cordura** —o *sanity check*. Es una verificación simple y rápida
-  para asegurar que los valores recibidos o calculados por un componente de la
-  arquitectura de software, o su estado, son razonables.</span>
+* <span id="control_cordura">**Control de cordura** —o *sanity check*. Es una
+  verificación simple y rápida para asegurar que los valores recibidos o
+  calculados por un componente de la arquitectura de software, o su estado, son
+  razonables.</span>
 
 * <span id="replicacion">**Voto—Replicación**. La replicación es una táctica de
   disponibilidad en la que se crean copias exactas —instancias o réplicas— de un
@@ -116,10 +117,10 @@ La lista de tácticas está tomada de[^1]:
   redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy)
   en Azure Well-Architected Framework.
 
-* <span id="rollback">**Rollback**. Consiste en volver a un estado anterior conocido y correcto en
-  caso de error o falla. Es una táctica crucial en la implementación de
-  actualizaciones y cambios de los componentes. Por ejemplo, deshacer una
-  actualización de software que causó problemas operativos.
+* <span id="rollback">**Rollback**. Consiste en volver a un estado anterior
+  conocido y correcto en caso de error o falla. Es una táctica crucial en la
+  implementación de actualizaciones y cambios de los componentes. Por ejemplo,
+  deshacer una actualización de software que causó problemas operativos.
 
   Vean también [Recommendations for designing a deployment failure mitigation
   strategy](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/mitigation-strategy)

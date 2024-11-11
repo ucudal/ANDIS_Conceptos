@@ -295,4 +295,3 @@ información para cada uno en secciones diferentes de la documentación:
   elemento es un candidato, el arquitecto se interesa por las capacidades de los
   recursos de la interfaz, sus atributos de calidad y cualquier variabilidad que
   proporcione el elemento.
-

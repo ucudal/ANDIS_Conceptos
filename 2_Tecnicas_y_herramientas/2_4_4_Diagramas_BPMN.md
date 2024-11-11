@@ -37,7 +37,7 @@ eventos, según cuándo afectan el flujo: inicio, intermedio y final.
 
 ![Eventos de inicio, intermedio y final](/diagrams/BPMN_Diagram_Events.svg)
 
-*Figura 1: Eventos de inicio, intermedio y final.*
+#### *Figura 1: Eventos de inicio, intermedio y final.*
 
 Una actividad es un término genérico para el trabajo que realiza el negocio en
 un proceso. Una actividad puede ser atómica o no atómica —compuesta—. Los tipos
@@ -47,7 +47,7 @@ utilizan tanto en procesos estándar como en coreografías.
 
 ![Tareas y sub-procesos](/diagrams/BMPN_Diagram_Activities.svg)
 
-*Figura 2: Tareas y sub-procesos*
+#### *Figura 2: Tareas y sub-procesos.*
 
 Una pasarela —*gateway*— se utiliza para controlar la divergencia y convergencia
 de los flujos de secuencia en un proceso y en una coreografía. Por lo tanto,
@@ -57,7 +57,7 @@ comportamiento.
 
 ![Algunas pasarelas](/diagrams/BPMN_Diagram_Gateways.svg)
 
-*Figura 3: Algunas pasarelas*
+#### *Figura 3: Algunas pasarelas.*
 
 Algunos tipos de pasarelas son:
 
@@ -91,7 +91,7 @@ las actividades en un proceso o en una coreografía.
 
 ![Algunos flujos de secuencia](/diagrams/BPMN_Diagram_Sequence_Flows.svg)
 
-*Figura 4: Algunos flujos de secuencia*
+#### *Figura 4: Algunos flujos de secuencia.*
 
 Algunos tipos de flujos de secuencia son:
 
@@ -124,7 +124,6 @@ Algunos tipos de flujos de secuencia son:
 * Flujo de mensaje: Se utiliza para mostrar el flujo de mensajes entre dos
   participantes que están preparados para enviarlos y recibirlos en una
   colaboración.
-
 
 [^1]: OMG. (2013). Business Process Model and Notation (BPMN). Disponible
     [aquí](https://www.omg.org/spec/BPMN/2.0.2/PDF).

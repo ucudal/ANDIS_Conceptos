@@ -24,8 +24,7 @@ memoria.
 ![Plantilla del estilo layered architecture desplegada en una sola
 unidad de despliegue](/diagrams/Architecture_Layered.svg)
 
-*Figura 1: Plantilla del estilo layered architecture desplegada en una sola unidad de
-despliegue.*
+#### *Figura 1: Plantilla del estilo layered architecture desplegada en una sola unidad de despliegue.*
 
 La figura 2, a continuación, muestra una variante de despliegue donde la capa
 `Database Layer` está físicamente separada en una unidad de despliegue diferente
@@ -36,8 +35,7 @@ un motor de base de datos local.
 despliegue físicamente separada del
 resto](/diagrams/Architecture_Layered_Variation_1.svg)
 
-*Figura 2: Estilo layered architecture con la base de datos desplegada en una
-unidad físicamente separada del resto.*
+#### *Figura 2: Estilo layered architecture con la base de datos desplegada en una unidad físicamente separada del resto.*
 
 La figura 3, a continuación, muestra otra variante de despliegue, donde la capa
 `Presentation Layer` está físicamente separada del resto en una unidad de
@@ -49,9 +47,7 @@ librerías, y un motor de base de datos local.
 desplegadas en una unidad de despliegue físicamente separada del
 resto](/diagrams/Architecture_Layered_Variation_2.svg)
 
-*Figura 3: Estilo layered architecture con la capa de presentación y la de base
-de datos desplegadas en una unidad de despliegue físicamente separada del
-resto*.
+#### *Figura 3: Estilo layered architecture con la capa de presentación y la de base de datos desplegadas en una unidad de despliegue físicamente separada del resto.*
 
 La figura 4, a continuación, muestra una variante de la arquitectura en capas
 donde:
@@ -67,8 +63,7 @@ donde:
 ![Estilo layered architecture con una capa `Service Layer` abierta y
 cerradas](/diagrams/Architecture_Layered_Variation_3.svg)
 
-*Figura 4: Estilo layered architecture con una capa `Service Layer` abierta y
-las demás cerradas.*
+#### *Figura 4: Estilo layered architecture con una capa `Service Layer` abierta y las demás cerradas.*
 
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
       Engineering Approach. O'Reilly.

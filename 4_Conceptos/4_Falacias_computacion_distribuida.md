@@ -1,6 +1,6 @@
 # Conceptos
 
-# Falacias de la computación distribuida
+## Falacias de la computación distribuida
 
 Una [falacia](https://dle.rae.es/falacia) es algo que se cree o se supone que es
 cierto pero no lo es. Las ocho falacias de la computación distribuida se aplican

@@ -99,7 +99,7 @@ mediante una conexión SOAP sobre HTTP.
 
 ![Ejemplo de diagrama de despliegue](/diagrams/Deployment_Diagram_Example.svg)
 
-*Figura 1: ejemplo de diagrama de despliegue.*
+#### *Figura 1: ejemplo de diagrama de despliegue.*
 
 Puedes ver más información sobre diagramas de despliegue en las herramientas de
 modelado [IBM Software

@@ -97,9 +97,7 @@ máximo.
 
 ![Ejemplos de cardinalidad](/diagrams/Entity_Relationship_Diagram_Cardinality.svg)
 
-*Figura 1. Ejemplos de cardinalidad*
-
-#### *Figura 1. Ejemplos de cardinalidad*
+#### *Figura 1. Ejemplos de cardinalidad.*
 
 El ejemplo en la figura 2, a continuación, muestra una versión simplificada de
 un sistema de reservas de hotel donde los clientes pueden reservar habitaciones
@@ -108,7 +106,7 @@ y los hoteles llevan un registro del mantenimiento de las habitaciones.
 ![Ejemplo de un diagrama de entidad relación con la notación de
 Chen](/diagrams/Entity_Relationship_Model_Example_Chen.svg)
 
-*Figura 2: Ejemplo de un diagrama de entidad relación con la notación de Chen*
+#### *Figura 2: Ejemplo de un diagrama de entidad relación con la notación de Chen.*
 
 `Hotel` y `Cliente` son entidades fuertes porque tienen atributos que son clave
 primaria propios que los identifican de manera única (`RUT` para `Hotel` y
@@ -130,8 +128,7 @@ de "pata de gallo".
 ![Ejemplo de un diagrama de entidad relación con la notación pata de
 gallo](/diagrams/Entity_Relationship_Model_Example_Crows_Foot.svg)
 
-*Figura 3: Ejemplo de un diagrama de entidad relación con la notación pata de
-gallo*
+#### *Figura 3: Ejemplo de un diagrama de entidad relación con la notación pata de gallo.*
 
 [^1]: Chen, P. (1976). The Entity-Relationship Model-Toward a Unified View of
       Data. ACM Transactions on Database Systems, 1 (1): 9-36. Disponible

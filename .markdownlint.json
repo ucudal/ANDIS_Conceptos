@@ -1,14 +1,16 @@
 {
+  "MD001": false, 
   "MD004": {
     "style": "asterisk"
   },
   "MD013": {
-    "tables": false
+    "tables": false,
+    "headings": false
   },
-  "MD033": false,
   "MD024": {
     "siblings_only": true
   },
+  "MD033": false,
   "MD041": false,
   "MD049": {
     "style": "asterisk"

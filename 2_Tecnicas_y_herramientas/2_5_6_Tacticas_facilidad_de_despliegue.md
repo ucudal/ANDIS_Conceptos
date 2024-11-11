@@ -55,7 +55,7 @@ La lista de tácticas está tomada de [^1]:
   consistente independientemente del entorno en el que se despliegue.
 
 * **Apagar y encender características**. Permite habilitar o deshabilitar las
-  nuevas funcionalidades o características del componente desplegado en tiempo de ejecución, sin
-  necesidad de volver a desplegar o detener componente. Esto proporciona
-  flexibilidad para activar nuevas características o desactivar las
+  nuevas funcionalidades o características del componente desplegado en tiempo
+  de ejecución, sin necesidad de volver a desplegar o detener componente. Esto
+  proporciona flexibilidad para activar nuevas características o desactivar las
   problemáticas.
