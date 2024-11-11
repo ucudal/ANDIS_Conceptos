@@ -15,6 +15,32 @@
 
 * [Interacción](/4_Conceptos/4_Interaccion.md)
 
+* [Componentes](/4_Conceptos/com)
+
+<!-- * Mensajes: -->
+
+<!-- IntegrationStylesIntro
+File Transfer
+Shared Database
+Remote Procedure Invocation
+Messaging
+Request-Reply
+CorrelationIdentifier
+MessageExpiration
+MessageEndpoint
+MessagingGatway
+TransactionalClient
+PollingConsumer
+EventDrivenConsumer
+CompetingConsumers
+MessageSelector
+DurableSubscription
+IdempotentReceiver
+PointToPointChannel
+Publish-Subscr. Channel
+Guaranteed Delivery
+Message Bus -->
+
 <!-- TBD. Incluir la parte III de Bass
 Virtualización
 Computación en la nube y distribuida
