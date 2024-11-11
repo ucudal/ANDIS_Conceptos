@@ -17,6 +17,8 @@ BASE[^1].
     January 2009, 52(1). Disponible
     [aquí](https://dl.acm.org/doi/pdf/10.1145/1435417.1435432).
 
+https://dl.acm.org/doi/pdf/10.1145/1466443.1466448
+
 BASE en un acrónimo [acrónimo](https://dle.rae.es/acrónimo) que referencia las
 características de este tipo de sistemas: disponibilidad básica —***b**asic
 **a**vailability* en inglés—, estado blando —***s**oft state* en inglés— y
@@ -171,4 +173,22 @@ réplicas.
 
 La forma de configurar N, W y R depende de cuál sea el caso común y qué ruta de rendimiento se necesita optimizar. En R=1 y N=W optimizamos para el caso de lectura, y en W=1 y R=N optimizamos para una escritura muy rápida.
 Por supuesto, en el último caso, la durabilidad no está garantizada en presencia de fallas, y si W < (N+1)/2, existe la posibilidad de escrituras conflictivas cuando los conjuntos de escritura no se superponen.
-La consistencia débil/eventual surge cuando W+R <= N, lo que significa que existe la posibilidad de que el conjunto de lectura y escritura no se superpongan. Si esta es una configuración deliberada y no se basa en un caso de falla, entonces casi no tiene sentido establecer R en algo que no sea 1. Esto sucede en dos casos muy comunes: el primero es la replicación masiva para el escalamiento de lectura mencionado anteriormente; El segundo es donde el acceso a los datos es más complicado. En un modelo clave-valor simple es fácil comparar versiones para determinar el último valor escrito en el sistema, pero en sistemas que devuelven conjuntos de objetos es más difícil determinar cuál debería ser el último conjunto correcto. En la mayoría de estos sistemas donde el conjunto de escritura es más pequeño que el conjunto de réplicas, existe un mecanismo que aplica las actualizaciones de manera diferida a los nodos restantes en el conjunto de la réplica. El período hasta que se hayan actualizado todas las réplicas es la ventana de inconsistencia discutida anteriormente. Si W+R <= N, entonces el sistema es vulnerable a la lectura de nodos que aún no han recibido las actualizaciones.
+La consistencia débil/eventual surge cuando W+R <= N, lo que significa que
+existe la posibilidad de que el conjunto de lectura y escritura no se
+superpongan. Si esta es una configuración deliberada y no se basa en un caso de
+falla, entonces casi no tiene sentido establecer R en algo que no sea 1. Esto
+sucede en dos casos muy comunes: el primero es la replicación masiva para el
+escalamiento de lectura mencionado anteriormente; El segundo es donde el acceso
+a los datos es más complicado. En un modelo clave-valor simple es fácil comparar
+versiones para determinar el último valor escrito en el sistema, pero en
+sistemas que devuelven conjuntos de objetos es más difícil determinar cuál
+debería ser el último conjunto correcto. En la mayoría de estos sistemas donde
+el conjunto de escritura es más pequeño que el conjunto de réplicas, existe un
+mecanismo que aplica las actualizaciones de manera diferida a los nodos
+restantes en el conjunto de la réplica. El período hasta que se hayan
+actualizado todas las réplicas es la ventana de inconsistencia discutida
+anteriormente. Si W+R <= N, entonces el sistema es vulnerable a la lectura de
+nodos que aún no han recibido las actualizaciones.
+
+Ver también
+https://learn.microsoft.com/en-us/previous-versions/msp-n-p/dn589800(v=pandp.10)

@@ -15,6 +15,10 @@
 
 * [Interacción](/4_Conceptos/4_Interaccion.md)
 
+* Virtualización
+
+* ACID, BASE, CAP
+
 <!-- TBD. Incluir la parte III de Bass
 Virtualización
 Computación en la nube y distribuida

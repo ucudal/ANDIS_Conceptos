@@ -11,3 +11,9 @@
 ## 2.5 [Tácticas de arquitectura](./2_5_.Tacticas_arquitectura.md)
 
 ## 2.6 [Modelos de proceso](./2_6_.Modelos_de_proceso.md)
+
+## 2.7 [Estilos de arquitectura](./2_7_.Estilos_arquitectura.md)
+
+## 2.8 [Patrones de diseño](./2_8_Patrones_de_diseno.md)
+
+## 2.9 [Patrones de arquitectura](./2_9_Patrones_de_arquitectura.md)
