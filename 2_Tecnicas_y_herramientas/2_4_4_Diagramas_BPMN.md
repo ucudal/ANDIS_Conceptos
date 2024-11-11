@@ -125,7 +125,6 @@ Algunos tipos de flujos de secuencia son:
   participantes que están preparados para enviarlos y recibirlos en una
   colaboración.
 
-
 [^1]: OMG. (2013). Business Process Model and Notation (BPMN). Disponible
     [aquí](https://www.omg.org/spec/BPMN/2.0.2/PDF).
 [^2]: OASIS. (2007). Web Services Business Process Execution Language Version

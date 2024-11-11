@@ -143,13 +143,13 @@ arquitectura de software:
 
 Como los componentes pueden estar a su vez compuestos por componentes, los
 componentes correspondientes a los dominios en la [Figura
-2](#figura-2-reparto-por-el-dominio) pueden estar implementados internamente con
-los componentes de la [Figura 1](#figura-1-reparto-técnico) —pero no al revés—.
+2](#figura-2-partición-por-el-dominio) pueden estar implementados internamente con
+los componentes de la [Figura 1](#figura-1-partición-técnica) —pero no al revés—.
 
 La partición por el domino es la apropiada para un estilo de arquitectura de
 [microservicios](/2_Tecnicas_y_herramientas/2_7_8_Microservices_Architecture.md);
 cada componente será un micro-servicio, aunque en ese caso, a diferencia de la
-[Figura 2](#figura-2-reparto-por-el-dominio), cada micro-servicio tiene su
+[Figura 2](#figura-2-partición-por-el-dominio), cada micro-servicio tiene su
 propia base de datos.
 
 En el caso de la partición técnica, la implementación de una funcionalidad
