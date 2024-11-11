@@ -41,7 +41,6 @@ Publish-Subscr. Channel
 Guaranteed Delivery
 Message Bus -->
 
-
 <!-- TBD. Incluir la parte III de Bass
 Virtualización
 Computación en la nube y distribuida
