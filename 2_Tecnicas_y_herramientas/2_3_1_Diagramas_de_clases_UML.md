@@ -100,15 +100,12 @@ clase con las secciones para los atributos y las operaciones.
 ![Diagrama con dos clases, una de ella con atributos y
 operaciones](/diagrams/Class_Diagram_Classes.svg)
 
-*Figura 1: Un diagrama de clases con dos clases, una de ellas con atributos y
-operaciones.*
+#### *Figura 1: Un diagrama de clases con dos clases, una de ellas con atributos y operaciones.*
 
 ![Diagrama con un estereotipo de
 interfaz](/diagrams/Class_Diagram_Interfaces.svg)
 
-*Figura 2: Un diagrama de clases con una interfaz; noten el estereotipo
-`≪interface≫` utilizado para indicar que el símbolo representa una interfaz, y
-no una clase.*
+#### *Figura 2: Un diagrama de clases con una interfaz; noten el estereotipo `≪interface≫` utilizado para indicar que el símbolo representa una interfaz, y no una clase.*
 
 Las asociaciones, agregaciones y composiciones pueden tener un nombre; en caso
 de que el nombre de la relación tenga una semántica diferente según la dirección
@@ -133,8 +130,7 @@ persona que trabaja para una empresa.
 ![Diagrama de clases mostrando asociaciones entre clases y una clase
 de asociación](/diagrams/Class_Diagram_Associations.svg)
 
-*Figura 3: Un diagrama de clases mostrando asociaciones entre clases y una clase
-de asociación.*
+#### *Figura 3: Un diagrama de clases mostrando asociaciones entre clases y una clase de asociación.*
 
 Las asociaciones, agregaciones y composiciones pueden tener una sola dirección
 —una clase conoce a la otra, pero no al revés— o ambas direcciones; en caso de
@@ -150,7 +146,7 @@ la zorra que arrastra, pero la zorra no conoce el camión que la arrastra.
 ![Diagrama de clases con una asociación
 dirigida](/diagrams/Class_Diagram_Directed_Association.svg)
 
-*Figura 4: Un diagrama de clases mostrando una asociación dirigida.*
+#### *Figura 4: Un diagrama de clases mostrando una asociación dirigida.*
 
 Las asociaciones, agregaciones y composiciones pueden tener o no multiplicidad,
 es decir, el rango válido de instancias que pueden estar relacionadas.
@@ -195,8 +191,7 @@ asociaciones:
 ![Diagrama de clases con
 multiplicidades](/diagrams/Class_Diagram_Multiplicity.svg)
 
-*Figura 6: Un diagrama de clases con varios ejemplos de multiplicidad en las
-asociaciones.*
+#### *Figura 6: Un diagrama de clases con varios ejemplos de multiplicidad en las asociaciones.*
 
 En la figura 7, a continuación, vemos ejemplos de agregaciones:
 
@@ -212,7 +207,7 @@ En la figura 7, a continuación, vemos ejemplos de agregaciones:
 
 ![Diagrama de clases con agregaciones](/diagrams/Class_Diagram_Agregations.svg)
 
-*Figura 7: Un diagrama de clases con ejemplos de agregaciones.*
+#### *Figura 7: Un diagrama de clases con ejemplos de agregaciones.*
 
 En la figura 8, a continuación, vemos ejemplos de composiciones:
 
@@ -226,7 +221,7 @@ En la figura 8, a continuación, vemos ejemplos de composiciones:
 ![Diagrama de clases con
 composiciones](/diagrams/Class_Diagram_Compositions.svg)
 
-*Figura 8: Un diagrama de clases con ejemplos de composiciones.*
+#### *Figura 8: Un diagrama de clases con ejemplos de composiciones.*
 
 En la composición, se aplican las siguientes reglas:
 
@@ -263,8 +258,7 @@ especialización:
 generalizaciones y
 especializaciones](/diagrams/Class_Diagram_Generalization.svg)
 
-*Figura 9: Un diagrama de clases con ejemplos de generalización y
-especialización.*
+#### *Figura 9: Un diagrama de clases con ejemplos de generalización y especialización.*
 
 Para modelar una clase abstracta o una interfaz se utilizan los estereotipos
 `≪abstract≫` e `≪interface≫` debajo del nombre de la clase abstracta o de la
@@ -296,7 +290,7 @@ terrestre`.
 ![Diagrama de clases con herencia
 múltiple](/diagrams/Class_Diagram_Multiple_Inheritance.svg)
 
-*Figura 10: Un diagrama de clases con ejemplo de herencia múltiple.*
+#### *Figura 10: Un diagrama de clases con ejemplo de herencia múltiple.*
 
 Tengan en cuenta que algunos lenguajes de programación no soportan herencia
 múltiple. Una alternativa es usar composición y delegación, como se muestra en
@@ -334,8 +328,7 @@ acciones del usuario a la vista si corresponde.
 ![Diagrama de clases mostrando paquetes del patrón de arquitectura
 MVC](/diagrams/Class_Diagram_Dependency.svg)
 
-*Figura 11: Diagrama de clases mostrando paquetes del patrón de arquitectura
-MVC.*
+#### *Figura 11: Diagrama de clases mostrando paquetes del patrón de arquitectura MVC.*
 
 Existen estereotipos para las dependencias más comunes:
 
@@ -372,7 +365,7 @@ edificio, el departamento ocupa ese edificio.
 ![Diagrama de clases con elementos
 derivados](../diagrams/Class_Diagram_Derived.svg)
 
-*Figura 12: Diagrama de clases con elementos derivados.*
+#### *Figura 12: Diagrama de clases con elementos derivados.*
 
 [^1]: OMG. (2017). OMG® Unified Modeling Language®. Disponible
     [aquí](https://www.omg.org/spec/UML/2.5.1/PDF).

@@ -21,7 +21,7 @@ estereotipo `≪core≫` y los complementos con el estereotipo `≪plugin≫`.
 
 ![Estilo microkernel architecture](/diagrams/Architecture_Microkernel.svg)
 
-*Figura 1: Estilo microkernel architecture.*
+#### *Figura 1: Estilo microkernel architecture.*
 
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
       Engineering Approach. O'Reilly.

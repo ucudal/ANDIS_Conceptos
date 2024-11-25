@@ -45,8 +45,7 @@ muestra también los límites del sistema.
 ![Diagrama de casos de uso con actores, casos y de uso, y limite del
 sistema](/diagrams/Use_Case_Diagram_Actors_Use_Cases_System_Boundary.svg)
 
-*Figura 1: Un diagrama de casos de uso con casos de uso, actores, y límite del
-sistema.*
+#### *Figura 1: Un diagrama de casos de uso con casos de uso, actores, y límite del sistema.*
 
 Aunque los casos de uso en el diagrama de casos de uso no muestran detalle de
 cómo se implementan, es posible modelar el comportamiento de un caso de uso
@@ -80,7 +79,7 @@ sólo lo que es diferente en el punto de extensión.
 ![Diagrama de casos de uso con relaciones de inclusión y
 extensión](/diagrams/Use_Case_Diagram_Extends_Includes.svg)
 
-*Figura 2: Un diagrama de casos de uso con relaciones de inclusión y extensión.*
+#### *Figura 2: Un diagrama de casos de uso con relaciones de inclusión y extensión.*
 
 Un actor puede ser primario o secundario. Los actores primarios son aquellos que
 inician casos de uso e interactúan con el sistema, se suele colocarlos del lado

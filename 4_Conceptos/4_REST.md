@@ -1,6 +1,6 @@
 # 4 Conceptos
 
-# REST o *representational state transfer*
+## REST o *representational state transfer*
 
 REST —o transferencia de estado representacional— es un estilo arquitectónico
 creado por [Roy Fielding](https://en.wikipedia.org/wiki/Roy_Fielding) para guiar

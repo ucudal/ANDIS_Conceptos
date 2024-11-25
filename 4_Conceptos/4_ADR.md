@@ -19,8 +19,3 @@ diseño y otras decisiones ("cualquier registro de decisión") [^1].
 
 Hay muchos formatos para escribir los ADR, algunos están incluidos como
 [plantillas](/3_Plantillas/3_18_ADR.md) en este sitio.
-
-[^2]: Nygard, M. (2011). Documenting Architecture Decisions. Cogniteg blog.
-      Disponible
- [aquí](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
-

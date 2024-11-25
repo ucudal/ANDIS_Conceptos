@@ -19,6 +19,31 @@
 
 * ACID, BASE, CAP
 
+<!-- * Mensajes: -->
+
+<!-- IntegrationStylesIntro
+File Transfer
+Shared Database
+Remote Procedure Invocation
+Messaging
+Request-Reply
+CorrelationIdentifier
+MessageExpiration
+MessageEndpoint
+MessagingGatway
+TransactionalClient
+PollingConsumer
+EventDrivenConsumer
+CompetingConsumers
+MessageSelector
+DurableSubscription
+IdempotentReceiver
+PointToPointChannel
+Publish-Subscr. Channel
+Guaranteed Delivery
+Message Bus -->
+>>>>>>> main
+
 <!-- TBD. Incluir la parte III de Bass
 Virtualización
 Computación en la nube y distribuida

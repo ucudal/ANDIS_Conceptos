@@ -17,7 +17,7 @@ acomodar este crecimiento.
 ![Estilo orchestration-driven
 service-oriented](/diagrams/Architecture_Orchestration_Driven_Service_Oriented.svg)
 
-*Figura 1: Estilo orchestration-driven service-oriented architecture.*
+#### *Figura 1: Estilo orchestration-driven service-oriented architecture.*
 
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
       Engineering Approach. O'Reilly.

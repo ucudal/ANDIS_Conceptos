@@ -57,7 +57,8 @@ y el texto a completar en el color normal. Tomado de [^1].
     <tr>
         <td td style="color:#0969DA">
             <b>Criterio de ajuste</b>
-            <!-- @abadiejosse, definir si lo llamamos así o criterio de aceptación que es más común -->
+            <!-- @abadiejosse, definir si lo llamamos así o criterio de aceptación
+            que es más común -->
         </td>
         <td colspan="5">
             Una medida del requerimiento de forma tal que sea posible probar que

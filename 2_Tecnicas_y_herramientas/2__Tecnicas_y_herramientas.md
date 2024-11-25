@@ -16,4 +16,4 @@
 
 ## 2.8 [Patrones de diseño](./2_8_Patrones_de_diseno.md)
 
-## 2.9 [Patrones de arquitectura](./2_9_Patrones_de_arquitectura.md)
+## 2.9 [Patrones de arquitectura](./2_9__Patrones_de_arquitectura.md)

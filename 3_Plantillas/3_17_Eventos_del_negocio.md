@@ -63,9 +63,10 @@ contexto de la figura 1, aparece luego, en la tabla 1:
 
 ![Ejemplo de diagrama de contexto](/diagrams/Context_Diagram_Example.svg)
 
-*Figura 1: Ejemplo de un diagrama de contexto.*
+#### *Figura 1: Ejemplo de un diagrama de contexto.*
 
-*Tabla 1: Ejemplo de eventos del negocio*
+#### *Tabla 1: Ejemplo de eventos del negocio.*
+
 <table>
     <tr>
         <td style="color:#0969DA">
