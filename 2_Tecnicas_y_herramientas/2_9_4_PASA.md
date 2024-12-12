@@ -1,0 +1,193 @@
+# 2 Técnicas y herramientas
+
+## 2.9 Evaluación de la arquitectura
+
+### 2.9.4 PASA
+
+El método PASA —por su sigla en inglés *Performance Assessment of Software
+Architecture* o evaluación del rendimiento de la arquitectura de software— es un
+método para evaluar el rendimiento de arquitecturas de software, enfocado en la
+identificación de problemas de [rendimiento](/4_Conceptos/4_Rendimiento.md) y el
+análisis de cómo estos afectan la capacidad de la arquitectura para cumplir con
+los objetivos de rendimiento establecidos.
+
+Este documento está basado en [^1].
+
+[^1]: Williams, L. & Smith, C. (2002). PASA℠: A method for the performance
+    assessment of software architectures. 3<sup>rd</sup> International Workshop
+    on Software and Performance (WOSP), 179-189. Disponible
+    [aquí](https://www.researchgate.net/profile/Connie_Smith5/publication/234792513_PASASM_A_method_for_the_performance_assessment_of_software_architectures/links/02e7e52b25ec295c19000000/PASASM-A-method-for-the-performance-assessment-of-software-architectures.pdf).
+
+La metodología de PASA se fundamenta en un análisis basado en escenarios. Se
+identifican y registran los escenarios correspondientes a cargas de trabajo
+significativas. Estos escenarios actúan como herramienta para analizar el
+rendimiento del software y otros atributos de calidad.
+
+### Pasos de PASA
+
+Los pasos del método son los siguientes:
+
+1. **Descripción general del proceso**: El proceso de evaluación comienza con
+   una presentación diseñada para familiarizar a las partes interesadas
+   participantes de las razones para una evaluación arquitectónica, el proceso
+   de evaluación y los resultados.
+
+   Es importante que todos los participantes comprendan el propósito de la
+   evaluación de la arquitectura, el proceso que se utilizará, la información
+   arquitectónica y de procesamiento necesaria, y los posibles resultados. Por
+   ello, la evaluación comienza con una presentación que incluye:
+
+   * La justificación de realizar una evaluación de la arquitectura.
+
+   * Una visión general de los objetivos de SPE —Software Performance
+     Engineering—, el enfoque basado en modelos, los datos requeridos y los
+     resultados esperados.
+
+   * Los pasos del proceso PASA.
+
+   * La información arquitectónica necesaria para llevar a cabo la evaluación.
+
+   * Los compromisos entre el rendimiento y otros atributos de calidad.
+
+   Además, se proporciona un espacio para que los gerentes y desarrolladores
+   puedan hacer preguntas y expresar sus preocupaciones.
+
+2. **Descripción general de la arquitectura**. La finalidad de esta etapa es que
+   el grupo evaluador obtenga una visión general de la arquitectura antes de
+   sumergirse en sus detalles. Se inicia con una presentación de la arquitectura
+   actual o proyectada por parte de uno o más integrantes del equipo de
+   desarrollo. Habitualmente, los evaluadores ya han examinado la documentación
+   disponible, por lo que la sesión típicamente comprende un recorrido breve
+   seguido de una fase de intercambio de preguntas para disipar dudas y
+   confirmar la comprensión.
+
+   Frecuentemente, este paso implica un proceso sustancial de descubrimiento,
+   especialmente cuando la arquitectura carece de documentación o esta resulta
+   imprecisa debido a transformaciones ocurridas durante la implementación o
+   evolución del sistema. La documentación arquitectónica suele ser
+   predominantemente informal, limitándose a diagramas esquemáticos que
+   representan infraestructura técnica sin profundizar en componentes,
+   interrelaciones o aspectos dinámicos.
+
+   Para compensar estas limitaciones, habitualmente es necesario inferir la
+   arquitectura mediante entrevistas con desarrolladores, análisis de código y
+   revisión de otros artefactos. Una estrategia particularmente efectiva para
+   extraer información consiste en identificar escenarios fundamentales de uso
+   del sistema, lo cual puede revelar aspectos importantes tanto para el equipo
+   evaluador como para los desarrolladores, quienes a menudo encuentran estos
+   hallazgos sorprendentemente reveladores.
+
+3. **Identificación de casos de uso críticos**. Los casos de uso describen los
+   comportamientos del software visibles externamente. Los casos de uso críticos
+   son los más importantes para la capacidad de respuesta o la escalabilidad.
+   Estos casos de uso son aquellos esenciales para el funcionamiento del sistema
+   o que afectan directamente la percepción de la capacidad de respuesta por
+   parte del usuario. También incluyen escenarios donde existen riesgos
+   significativos de rendimiento, como aquellos en los que no cumplir con los
+   objetivos de rendimiento podría llevar al fracaso o afectar el éxito del
+   sistema. Generalmente, los casos críticos representan solo un subconjunto de
+   todos los usos del sistema.
+
+   Aunque los casos de uso suelen describirse desde el punto de vista del
+   usuario final, para evaluaciones arquitectónicas es fundamental incluir a
+   otros interesados. Un caso de uso crítico podría ser la descarga masiva de
+   código para actualizaciones de mantenimiento —por ejemplo—, lo que podría
+   requerir transferencias eficientes a través de redes locales —LAN— o de área
+   amplia —WAN—, algo crucial para los encargados del mantenimiento. Esto
+   asegura que todas las perspectivas relevantes sean consideradas en el
+   análisis.
+
+4. **Selección de escenarios de rendimiento clave**. Para cada caso de uso
+   crítico, se identifican los escenarios que son importantes para el
+   rendimiento. En cada uno de estos casos de uso el análisis se concentra en
+   los escenarios que se ejecutan frecuentemente y aquellos que resultan
+   críticos para la percepción del rendimiento por parte del usuario. En ciertos
+   sistemas, también puede resultar relevante incorporar escenarios de baja
+   frecuencia pero con un rendimiento crucial durante su ejecución: procesos
+   como la recuperación de fallas o las actualizaciones de mantenimiento —por
+   ejemplo—, aunque no sean habituales, pueden requerir una ejecución ágil y
+   eficiente.
+
+   La documentación de estos escenarios se realiza mediante [diagramas de
+   secuencia
+   UML](/2_Tecnicas_y_herramientas/2_4_3_Diagramas_de_secuencia_UML.md)
+   enriquecidos con información adicional. En los lenguajes que no son
+   orientados a objetos —y en los orientados a objetos eventualmente también—
+   los participantes en los diagramas de secuencia son los
+   [componentes](/4_Conceptos/4_Componente.md) de software que realizan alguna
+   función.
+
+5. **Identificación de objetivos de rendimiento**. Se identifican objetivos de
+   rendimiento precisos, cuantitativos y mensurables para cada escenario clave
+   para cada situación o estudio de rendimiento de interés.
+
+   Cada escenario clave debe tener al menos un objetivo de rendimiento asociado.
+   Los objetivos de rendimiento pueden expresarse de varias maneras diferentes,
+   incluido el tiempo de respuesta, el rendimiento o las limitaciones en el uso
+   de los recursos. En cada caso, el objetivo debe ser cuantitativo y medible.
+   También es importante especificar las condiciones en las que se debe lograr
+   el rendimiento requerido para cada combinación de escenario y objetivo. Las
+   condiciones incluyen la combinación y la intensidad de la carga de trabajo.
+
+6. **Aclaración y discusión de la arquitectura**. Los participantes realizan una
+   discusión más detallada de la arquitectura y las características específicas
+   que respaldan los escenarios de rendimiento clave. Las áreas problemáticas se
+   exploran con más profundidad.
+
+7. **Análisis de la arquitectura**. Los arquitectos analizan la arquitectura
+   para determinar si respaldará los objetivos de rendimiento. Esto incluye:
+
+   * Identificación de los estilos arquitectónicos subyacentes. Si la
+     arquitectura es representativa de uno de los
+     [estilos](/2_Tecnicas_y_herramientas/2_7_.Estilos_arquitectura.md) o
+     patrones de arquitectura comunes, podemos usar las características
+     generales de rendimiento del estilo o del patrón respectivo para razonar
+     sobre el rendimiento de la arquitectura.
+
+   * Identificación de anti-patrones de rendimiento. Los anti-patrones son
+     conocidos porque su uso —o mal uso— produce consecuencias negativas. Los
+     anti-patrones documentan errores comunes que se cometen durante el
+     desarrollo de software y también documentan soluciones para esos errores.
+     Ver por ejemplo [Performance testing and antipatterns for cloud
+     applications](https://learn.microsoft.com/en-us/azure/architecture/antipatterns/)
+     en Azure Architecture Center.
+
+   * Modelado y análisis del rendimiento. Algunas partes de la arquitectura pueden
+     requerir un análisis más cuantitativo. Inicialmente, un simple análisis de
+     los límites de rendimiento es suficiente para identificar las áreas
+     problemáticas. Si un objetivo de rendimiento es procesar 100 transacciones
+     por segundo —por ejemplo—, entonces cada transacción debe tardar menos de 0.01 segundos
+     en completarse. El uso de modelos permite evaluar de forma cuantitativa el
+     rendimiento detallado del software. Los modelos también permiten a los
+     arquitectos explorar rápida y fácilmente alternativas arquitectónicas si se
+     descubren problemas. Los modelos utilizados son deliberadamente simples
+     para que se pueda obtener retroalimentación sobre las características de
+     rendimiento de la arquitectura de manera rápida y económica. El objetivo es
+     utilizar el modelo más simple posible que identifique los problemas con la
+     arquitectura propuesta. Estos modelos también se pueden trasladar a la fase
+     de desarrollo y elaborar para representar con mayor precisión el
+     rendimiento del software que se está construyendo.
+
+8. **Identificación de alternativas**. Si se encuentra un problema, se
+   identifican alternativas para cumplir con los objetivos de rendimiento. Esto
+   incluye:
+
+   * Desviación de los estilos arquitectónicos. En algunos casos la arquitectura
+     puede resultar similar a un estilo o patrón arquitectónico, pero las
+     diferencias con ese estilo o patrón pueden hacer perder las propiedades
+     relacionadas con el rendimiento.
+
+   * Interacciones alternativas entre los componentes. Algunas veces la
+     interacción entre dos componentes puede ser una fuente de problemas de
+     rendimiento. En estos casos, es posible cambiar la interacción para mejorar
+     la capacidad de respuesta o el rendimiento.
+
+   * Re-factorización —*refactoring*— para remover anti-patrones. Si se
+     encuentra un anti-patrón de rendimiento durante el paso de análisis,
+     re-factorizar la arquitectura para eliminar ese anti-patrón mejorará el
+     rendimiento.
+
+9. **Presentación de resultados**. Los resultados se presentan a las partes
+   interesadas en un documento que contiene la razón por la cual se realizó este
+   proceso, los hallazgos resultantes, los pasos específicos a seguir para
+   resolver los hallazgos, la prioridad de los pasos y su importancia relativa.

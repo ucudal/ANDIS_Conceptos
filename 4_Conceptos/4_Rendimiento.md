@@ -136,3 +136,7 @@ Vean más detalles sobre estas las tácticas para el rendimiento
 Vean [Cloud design patterns that support performance
 efficiency](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/design-patterns)
 en Azure Well Architected Framework.
+
+> [!TIP]
+> Vean además el método [PASA](/2_Tecnicas_y_herramientas/2_9_4_PASA.md) de
+> evaluación del rendimiento de la arquitectura de software.
