@@ -11,7 +11,7 @@ diferir el *binding*.
 
 La lista de tácticas está tomada de [^1]:
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 * **Separar módulos**. Consiste en dividir un componente de la arquitectura de

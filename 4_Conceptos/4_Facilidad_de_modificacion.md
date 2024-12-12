@@ -6,7 +6,7 @@ La facilidad de modificación —o *modifiability* en inglés— es un atributo 
 calidad de la arquitectura de software que baja el costo y el riesgo de hacer
 cambios[^1].
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 En ISO/IEC 25010 la facilidad de modificación es una sub-característica de la

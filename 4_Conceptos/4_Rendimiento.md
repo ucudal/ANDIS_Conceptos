@@ -7,7 +7,7 @@ arquitectura de software que define la capacidad de un sistema, producto o
 componente para cumplir con sus funciones dentro de los límites de tiempo
 aceptables[^1].
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Las operaciones en las computadoras llevan tiempo. Los cálculos en el procesador
