@@ -150,3 +150,6 @@ Kazman, R. (2022). Two Categories of Architecture Patterns for Deployability.
 Carnegie Mellon University, Software Engineering Institute's Insights Blog.
 Disponible
 [aquí](https://insights.sei.cmu.edu/blog/two-categories-of-architecture-patterns-for-deployability/)
+
+> [!TIP] Vean además el método [ALMA](/2_Tecnicas_y_herramientas/2_9_3_ALMA.md)
+> de análisis de la facilidad de modificación con respecto a la arquitectura.
