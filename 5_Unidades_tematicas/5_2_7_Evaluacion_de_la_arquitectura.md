@@ -13,7 +13,7 @@
 [^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
-* [Evaluación de la
+* [Evaluación de la/2_Tecnicas_y_herramientas/2_9_.Evaluacion_arquitectura.md
   arquitectura](/2_Tecnicas_y_herramientas/2_9__Evaluacion_arquitectura.md) como
   introducción y los siguientes métodos de evaluación de la arquitectura:
 
