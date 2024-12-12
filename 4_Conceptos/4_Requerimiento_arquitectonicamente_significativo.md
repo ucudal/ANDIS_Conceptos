@@ -7,7 +7,7 @@ significant requirement* por sus siglas en inglés— es un requerimiento que
 tendrá un efecto profundo en la arquitectura, es decir, la arquitectura podría
 ser radicalmente diferente si no existiera ese requerimiento[^1].
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Los requerimientos arquitectónicamente significativos a menudo —pero no siempre—

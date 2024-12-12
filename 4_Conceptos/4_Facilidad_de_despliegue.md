@@ -9,7 +9,7 @@ usuarios finales. Este proceso abarca desde la compilación y prueba del softwar
 hasta su configuración, instalación, y activación en un entorno de
 producción[^1].
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Las etapas principales del proceso de despliegue incluyen:

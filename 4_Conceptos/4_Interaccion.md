@@ -7,7 +7,7 @@ En el contexto de [componentes](./4_Componente.md) e
 relevantes son las transferencias de control —*calls*— o las transferencias de
 datos [^1].
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Por ejemplo, la invocación local de procedimientos, funciones o métodos usando

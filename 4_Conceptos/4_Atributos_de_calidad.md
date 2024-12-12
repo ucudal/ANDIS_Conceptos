@@ -8,7 +8,7 @@ sistema que se utilizan para indicar qué tan bien el sistema satisface las
 necesidades de los interesados más allá de la funcionalidad básica del
 sistema[^1].
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Algunos autores prefieren usar el término características arquitectónicas, en

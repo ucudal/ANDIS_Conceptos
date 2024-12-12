@@ -33,7 +33,7 @@ La definición de protección es similar en[^2], que la define como la capacidad
 de un sistema para evitar desviarse hacia estados que causen o conduzcan a
 daños, lesiones o pérdida de vidas a los actores de su entorno.
 
-[^2]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^2]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Estos estados inseguros pueden ser causados ​​por una variedad de factores:

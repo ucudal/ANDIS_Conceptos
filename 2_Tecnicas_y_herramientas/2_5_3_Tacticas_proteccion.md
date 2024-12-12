@@ -8,7 +8,7 @@ Las tácticas para [protección](/4_Conceptos/4_Proteccion.md) pueden clasificar
 ampliamente como prevención de estados inseguros, detección de estados inseguros
 o remediación de estados inseguros[^1].
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
       Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Una condición previa lógica para evitar o detectar la entrada en un estado

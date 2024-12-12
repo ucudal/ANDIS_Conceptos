@@ -33,7 +33,7 @@ la capacidad del sistema para proteger los datos y la información del acceso no
 autorizado y, al mismo tiempo, proporcionar acceso a las personas y los sistemas
 que están autorizados.
 
-[^2]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^2]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Un ataque, es decir, una acción que se lleva a cabo contra un sistema con la
