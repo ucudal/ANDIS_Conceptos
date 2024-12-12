@@ -1,0 +1,164 @@
+# 2 Técnicas y herramientas
+
+## 2.9 Evaluación de la arquitectura
+
+### 2.9.3 ALMA
+
+ALMA —por su sigla en inglés *Architecture Level Modifiability Analysis* o
+análisis de la facilidad de modificación con respecto a la arquitectura— es un
+método estructurado para analizar la [facilidad de
+modificación](/4_Conceptos/4_Facilidad_de_modificacion.md) en la arquitectura de
+software.
+
+Este documento está basado en [^1].
+
+[^1]: Bengtsson, P., Lassing, N., Bosch, J., & van Vliet, H. (2004).
+    Architecture-level modifiability analysis (ALMA). The Journal of Systems &
+    Software, 69(1), 129–147. Disponible
+    [aquí](https://doi-org.proxy.timbo.org.uy/10.1016/S0164-1212(03)00080-3) via
+    Timbó.
+
+El entorno de los sistemas de software está en constante transformación, lo que
+genera la necesidad de realizar múltiples actualizaciones después de su
+desarrollo inicial. Aproximadamente entre el 50 y el 70% del costo total
+asociado al ciclo de vida de un sistema de software se invierte en
+modificaciones posteriores a su desarrollo original. La elevada inversión
+necesaria para mantener y adaptar el software surge por la implementación de
+diversas transformaciones, tanto esperadas como inesperadas, que se presentan
+con posterioridad a la entrega del sistema. La arquitectura de software afecta
+el esfuerzo de realizar modificaciones, de allí la importancia de aplicar
+técnicas para determinar si las soluciones de diseño han logrado el objetivo de
+la facilidad de modificación.
+
+En el contexto de ALMA, la facilidad de modificación se define como la facilidad
+con la que se puede modificar ante cambios en el entorno, requisitos o
+especificaciones funcionales; mientras que para ISO 9126 las modificaciones
+pueden incluir correcciones, mejoras o adaptaciones en el entorno, requisitos o
+especificaciones funcionales.
+
+ALMA fue desarrollado por el SEI —Software Engineering Institute— y busca
+evaluar cómo los cambios planificados o inesperados afectarán una aplicación,
+proporcionando un enfoque sistemático para tomar decisiones informadas sobre la
+arquitectura.
+
+El principal objetivo de ALMA es evaluar si una arquitectura de software es
+capaz de manejar futuros cambios de manera efectiva y económica. Esto incluye
+identificar riesgos, puntos débiles y posibles mejoras en términos de
+la facilidad de modificación.
+
+#### Pasos de ALMA
+
+ALMA se organiza en cinco pasos clave:
+
+1. **Definir el objetivo de análisis**. Se define claramente el objetivo del
+    análisis de la facilidad de modificación:
+
+    * Predicción de costos de mantenimiento: estimar el esfuerzo que se requiere
+      para modificar el sistema para adaptarse a cambios futuros
+
+    * Evaluación de riesgos: identificar los tipos de cambios para los cuales la
+      arquitectura de software es inflexible
+
+    * Selección de la arquitectura de software: comparar dos o más arquitecturas
+      de software candidatas y seleccionar la candidata óptima
+
+2. **Descripciones de la arquitectura**. Para el análisis de facilidad de
+    modificación, se seleccionan las vistas que mejor representen los aspectos
+    del sistema afectados por los posibles cambios, incluyendo la descomposición
+    del sistema en componentes,las relaciones entre los componentes, y las
+    relaciones con el entorno del sistema.
+
+    Por ejemplo:
+
+    * Vista de componentes y conectores: Representa cómo se dividen las
+      funcionalidades en módulos y cómo interactúan entre sí.
+
+    * Vista de implementación: Muestra cómo el sistema está organizado en
+      términos de archivos o unidades de implementación.
+
+    * Vista de despliegue: Revela cómo los componentes se asignan a nodos físicos
+      o virtuales.
+
+    Estas vistas deben reflejar los elementos estructurales y dinámicos que
+    influyen en la facilidad de modificación.
+
+3. **Obtener los escenarios de cambio**. La obtención de escenarios de cambio es
+    el proceso de búsqueda y selección de los escenarios de cambio que se
+    utilizarán en el paso de evaluación. El primer problema es que el número de
+    cambios posibles en un sistema es casi infinito. Para que el análisis de la
+    arquitectura de software basado en escenarios sea factible, utilizamos una
+    combinación de dos técnicas:
+
+    * Clases de equivalencia
+
+    * Clasificación de categorías de cambio
+
+    La decisión sobre los escenarios de cambio importantes requiere un criterio
+    de selección. La otra técnica, la clasificación de categorías de cambio, se
+    utiliza para centrar nuestra atención en los escenarios que satisfacen este
+    criterio de selección.
+
+    La segunda cuestión es la de decidir los escenarios de cambio deseados, es
+    decir, el criterio de selección. El criterio de selección de los escenarios
+    está estrechamente vinculado al objetivo que perseguimos en el análisis:
+
+    * Si el objetivo es estimar el esfuerzo de mantenimiento, queremos
+      seleccionar escenarios que correspondan a cambios que tengan una alta
+      probabilidad de ocurrir durante la vida operativa del sistema.
+
+    * Si el objetivo es evaluar los riesgos, queremos seleccionar escenarios que
+      expongan esos riesgos.
+
+    * Si el objetivo es comparar diferentes arquitecturas, seguimos cualquiera
+      de los esquemas anteriores y nos concentramos en escenarios que resaltan
+      las diferencias entre esas arquitecturas.
+
+    El resultado de este paso es un conjunto de escenarios de cambio
+    priorizados.
+
+4. **Evaluación de los escenarios de cambio**:
+
+    En general, el análisis de impacto consta de los siguientes pasos:
+
+    * Identificar los componentes afectados
+
+    * Determinar el efecto sobre los componentes
+
+    * Determinar el efecto dominó
+
+    Debemos expresar los resultados del análisis de impacto ya sea de
+    cualitativamente, describiendo los cambios necesarios, o de forma
+    cuantitativa, utilizando medidas. Esto permite comparar el efecto de los
+    escenarios. También podemos expresar el esfuerzo requerido para un
+    escenario, como una estimación del tamaño de la modificación utilizando
+    métricas como líneas de código o puntos de función.
+
+5. **Interpretación de los resultados**. Cuando finaliza la evaluación de los
+   escenarios de cambio, se interpreta los resultados para sacar conclusiones
+   sobre la arquitectura del software. La interpretación de los resultados
+   depende completamente del objetivo del análisis y de los requisitos del
+   sistema.
+
+#### Ventajas
+
+* ALMA proporciona un enfoque estructurado; provee un método paso a paso para
+  analizar la facilidad de modificación.
+
+* Al centrarse en escenarios, facilita la
+  evaluación de la arquitectura en términos de casos concretos y realistas.
+
+* Es flexible, pues se adapta a diferentes contextos y tipos de sistemas.
+
+* Los resultados son accionables, pues genera recomendaciones prácticas que
+  pueden ser implementadas por el equipo de desarrollo.
+
+#### Limitaciones
+
+* Requiere esfuerzo considerable, pues la definición de escenarios y el análisis
+  detallado pueden ser laboriosos.
+
+* La calidad del análisis depende de la experiencia de los arquitectos y los
+  analistas y del conocimiento de los escenarios de cambio relevantes.
+
+* Está específicamente diseñado para facilidad de modificación, no aborda otros
+  atributos de calidad como rendimiento o disponibilidad.
