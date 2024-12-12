@@ -33,16 +33,16 @@ utilizada en otros tipos de proyectos.
 A partir de 2024 hay un único documento entregable del proyecto con el contenido
 explicado en esta sección.
 
-# 2 [Técnicas y herramientas](./2_Tecnicas_y_herramientas/2__Tecnicas_y_herramientas.md)
+# 2 [Técnicas y herramientas](./2_Tecnicas_y_herramientas/2_.Tecnicas_y_herramientas.md)
 
 Aquí van a encontrar diversas técnicas y herramientas de relevamiento, de
 modelado como UML, BPMN, MER, etc.
 
-# 3 [Plantillas](./3_Plantillas/3__Plantillas.md)
+# 3 [Plantillas](./3_Plantillas/3_.Plantillas.md)
 
 Diversas plantillas para casos de uso, arquitecturas típicas, etc.
 
-# 4 [Conceptos](./4_Conceptos/4__Conceptos.md)
+# 4 [Conceptos](./4_Conceptos/4_.Conceptos.md)
 
 Definiciones en formato glosario de conceptos que se usan a lo largo del sitio y
 que nos interesa unificar.
