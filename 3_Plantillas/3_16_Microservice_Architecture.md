@@ -15,17 +15,21 @@ HTTP o colas de mensajes.
 Esta comunicación desacoplada permite que los servicios evolucionen y escalen de
 manera independiente sin afectar a la aplicación completa.
 
+<a id="figura-1"/>
+
 ![Estilo microservices architecture](/diagrams/Architecture_Microservices.svg)
 
-#### *Figura 1: Estilo microservices architecture.*
+*Figura 1: Estilo microservices architecture.*
 
 Cada servicio suele implementar el patrón
 [Sidecar](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar)
 tal como se muestra en la figura 2, a continuación:
 
+<a id="figura-2"/>
+
 ![Sidecar](/diagrams/Architecture_Microservices_Sidecar.svg)
 
-#### *Figura 2: Sidecar.*
+*Figura 2: Sidecar.*
 
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
       Engineering Approach. O'Reilly.

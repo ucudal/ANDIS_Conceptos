@@ -42,10 +42,13 @@ actores `Restaurante` y `Delivery`. Por último, en el caso de uso `Llevar pedid
 al cliente` participan tanto los actores `Delivery` como `Cliente`. El ejemplo
 muestra también los límites del sistema.
 
+<a id="figura-1"/>
+
 ![Diagrama de casos de uso con actores, casos y de uso, y limite del
 sistema](/diagrams/Use_Case_Diagram_Actors_Use_Cases_System_Boundary.svg)
 
-#### *Figura 1: Un diagrama de casos de uso con casos de uso, actores, y límite del sistema.*
+*Figura 1: Un diagrama de casos de uso con casos de uso, actores, y límite del
+sistema.*
 
 Aunque los casos de uso en el diagrama de casos de uso no muestran detalle de
 cómo se implementan, es posible modelar el comportamiento de un caso de uso
@@ -61,11 +64,11 @@ Estas relaciones se modelan como flechas punteadas:
   específico a otro; el caso de uso extendido debe tener previsto dónde agregar
   el comportamiento mediante puntos de extensión o *extension points*.
 
-En la figura 2, a continuación, el caso de uso `Hacer pedido al restaurante`
-incluye el caso de uso `Pagar el pedido`, es decir, al hacer el pedido al
-restaurante se debe también pagar el pedido. En este ejemplo se modela de esta
-manera porque el pago del pedido puede ser utilizado en otros casos de uso, no
-sólo al hacer el pedido al restaurante.
+En la [Figura 2](#figura-2), a continuación, el caso de uso `Hacer pedido al
+restaurante` incluye el caso de uso `Pagar el pedido`, es decir, al hacer el
+pedido al restaurante se debe también pagar el pedido. En este ejemplo se modela
+de esta manera porque el pago del pedido puede ser utilizado en otros casos de
+uso, no sólo al hacer el pedido al restaurante.
 
 A su vez, el caso de uso `Pagar el pedido` tiene un punto de extensión llamado
 `Forma de pago`, es decir, tiene previsto que la forma de pago pueda variar. Los
@@ -76,10 +79,12 @@ segundo con el pago por transferencia bancaria; en los casos de uso que
 extienden no es necesario repetir el comportamiento del caso de uso extendido,
 sólo lo que es diferente en el punto de extensión.
 
+<a id="figura-2"/>
+
 ![Diagrama de casos de uso con relaciones de inclusión y
 extensión](/diagrams/Use_Case_Diagram_Extends_Includes.svg)
 
-#### *Figura 2: Un diagrama de casos de uso con relaciones de inclusión y extensión.*
+*Figura 2: Un diagrama de casos de uso con relaciones de inclusión y extensión.*
 
 Un actor puede ser primario o secundario. Los actores primarios son aquellos que
 inician casos de uso e interactúan con el sistema, se suele colocarlos del lado

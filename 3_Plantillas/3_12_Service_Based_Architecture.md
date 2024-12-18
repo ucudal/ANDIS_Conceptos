@@ -16,12 +16,15 @@ distribuidas, como los microservicios o la arquitectura orientada a eventos.
 > en un diagrama de arquitectura deberían aparecer, además de los paquetes, los
 > componentes en ellos.
 
-La figura 1, a continuación, muestra la interfaz de usuario, los servicios, y la
-base de datos, desplegados en unidades de despliegue independientes.
+La [Figura 1](#figura-1), a continuación, muestra la interfaz de usuario, los
+servicios, y la base de datos, desplegados en unidades de despliegue
+independientes.
+
+<a id="figura-1"/>
 
 ![Estilo service-based architecture](/diagrams/Architecture_Service_Based.svg)
 
-#### *Figura 1: Estilo service-based architecture.*
+*Figura 1: Estilo service-based architecture.*
 
 <!-- TODO: Agregar las variantes que aparecen en la referencia abajo -->
 

@@ -37,8 +37,11 @@ agrupar en un objeto valor atributos que están conceptualmente relacionados, po
 ejemplo: un usuario de un sistema podría ser un objeto valor compuesto de su
 identificador (`id`), `nombre`, `calle`, `ciudad` y `estado`, o mejor aún, `id`,
 `nombre` y `dirección`, donde este último es otro objeto valor compuesto de
-`calle`, `ciudad` y `estado`. Esto se ilustra en la siguiente figura.
+`calle`, `ciudad` y `estado`. Esto se ilustra en la siguiente [Figura
+1](#figura-1).
+
+<a id="figura-1"/>
 
 ![Objetos valor anidados](../diagrams/Value_Object.svg)
 
-#### *Figura 1: Objetos valor anidados*
+*Figura 1: Objetos valor anidados.*

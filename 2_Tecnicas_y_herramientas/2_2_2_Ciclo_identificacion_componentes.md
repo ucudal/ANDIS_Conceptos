@@ -16,10 +16,12 @@ y los [atributos de calidad](/4_Conceptos/4_Atributos_de_calidad.md).
 [^1]: Richards, M.; Ford, N. (2020). Fundamentals of software architecture.
     O'Reilly Media.
 
+<a id="figura-1"/>
+
 ![Ciclo de identificación de
 componentes](/diagrams/Component_Identification_Cycle.svg)
 
-#### *Figura 1: Ciclo de identificación de componentes*
+*Figura 1: Ciclo de identificación de componentes.*
 
 Las etapas del ciclo se definen a continuación.
 

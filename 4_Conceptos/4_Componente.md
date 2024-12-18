@@ -126,43 +126,45 @@ arquitectura de software:
   persistencia, por ejemplo; de hecho, esta es la partición predeterminada en
   diferentes organizaciones, frameworks, etc.
 
+  <a id="figura-1"/>
+
   ![Partición técnica](/diagrams/Components_Technical_Partitioning.svg)
 
-  #### *Figura 1: Partición técnica*
+  *Figura 1: Partición técnica*
 
 * Partición por el dominio: El criterio para repartir los componentes de alto
   nivel está inspirado en la metodología de Domain Driven Design de Eric Evans,
   donde el criterio para particionar los componentes está basado en dominios o
   flujos del trabajo, en lugar de capacidades técnicas.
 
+  <a id="figura-2"/>
+
   ![Partición por el dominio](/diagrams/Components_Domain_Partitioining.svg)
 
-  #### *Figura 2: Partición por el dominio*
-
-<!-- TODO: Cambiar todos a este nuevo estilo y aclararlo en el CONTRIBUTING.md -->
+  *Figura 2: Partición por el dominio.*
 
 Como los componentes pueden estar a su vez compuestos por componentes, los
-componentes correspondientes a los dominios en la [Figura
-2](#figura-2-partición-por-el-dominio) pueden estar implementados internamente con
-los componentes de la [Figura 1](#figura-1-partición-técnica) —pero no al revés—.
+componentes correspondientes a los dominios en la [Figura 2](#figura-2) pueden
+estar implementados internamente con los componentes de la [Figura 1](#figura-1)
+—pero no al revés—.
 
 La partición por el domino es la apropiada para un estilo de arquitectura de
 [microservicios](/2_Tecnicas_y_herramientas/2_7_8_Microservices_Architecture.md);
 cada componente será un micro-servicio, aunque en ese caso, a diferencia de la
-[Figura 2](#figura-2-partición-por-el-dominio), cada micro-servicio tiene su
-propia base de datos.
+[Figura 2](#figura-2), cada micro-servicio tiene su propia base de datos.
 
 En el caso de la partición técnica, la implementación de una funcionalidad
 típica de los sitios de comercio electrónico como es el carrito de compras, por
 ejemplo, aparece en todos los componentes; mientras que en la partición por el
 dominio queda contenida por completo en el componente `Catalog Checkout`, tal
-como se muestra en la siguiente [Figura
-3](/diagrams/Components_Domain_vs_Technical_Partitioining.svg).
+como se muestra en la siguiente [Figura 3](#figura-3).
+
+<a id="figura-3"/>
 
 ![Reparto por el domino vs reparto
 técnico](/diagrams/Components_Domain_vs_Technical_Partitioining.svg)
 
-#### Figura 3: Funcionalidad en reparto por el dominio versus en reparto técnico
+*Figura 3: Funcionalidad en reparto por el dominio versus en reparto técnico.*
 
 A continuación aparece un resumen de las ventajas y desventajas de ambos
 enfoques para definir las particiones de alto nivel[^1]:

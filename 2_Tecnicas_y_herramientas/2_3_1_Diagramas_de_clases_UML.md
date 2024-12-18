@@ -94,18 +94,24 @@ En la lista anterior, usamos "contenedor" y "elemento" de la siguiente forma:
 * En las relaciones, el contenedor es la clase de origen de la relación, los
   elementos son las clases de destino.
 
-La figura 1, a continuación, muestra una clase solamente con el nombre, y otra
-clase con las secciones para los atributos y las operaciones.
+La [Figura 1](#figura-1), a continuación, muestra una clase solamente con el
+nombre, y otra clase con las secciones para los atributos y las operaciones.
+
+<a id="figura-1"/>
 
 ![Diagrama con dos clases, una de ella con atributos y
 operaciones](/diagrams/Class_Diagram_Classes.svg)
 
-#### *Figura 1: Un diagrama de clases con dos clases, una de ellas con atributos y operaciones.*
+*Figura 1: Un diagrama de clases con dos clases, una de ellas con atributos y operaciones.*
+
+<a id="figura-2"/>
 
 ![Diagrama con un estereotipo de
 interfaz](/diagrams/Class_Diagram_Interfaces.svg)
 
-#### *Figura 2: Un diagrama de clases con una interfaz; noten el estereotipo `≪interface≫` utilizado para indicar que el símbolo representa una interfaz, y no una clase.*
+*Figura 2: Un diagrama de clases con una interfaz; noten el estereotipo
+`≪interface≫` utilizado para indicar que el símbolo representa una interfaz, y
+no una clase.*
 
 Las asociaciones, agregaciones y composiciones pueden tener un nombre; en caso
 de que el nombre de la relación tenga una semántica diferente según la dirección
@@ -116,21 +122,24 @@ Para modelar información adicional en una asociación, agregación o composici�
 —es decir, agregar otra información además del nombre y la multiplicidad—, se
 usa una clase de asociación.
 
-En la figura 3, a continuación, la clase `Persona` tiene una relación `Trabaja
-para` con la clase `Empresa`, para modelar que una persona trabaja para una
-empresa. Noten que cuando `Persona` y `Empresa` cambian de lugar, es necesario
-agregar el símbolo `⏴` para indicar que la relación `Trabaja para` se lee de
-derecha a izquierda, es decir, al revés de lo habitual —de lo contrario
-modelaríamos que la empresa trabaja para la persona, lo cual no sería correcto.—
-En el último ejemplo de esa figura, se puede ver cómo modelamos información
-adicional de la asociación `Trabaja para`, mediante la clase de asociación
-`Trabajo`; de esta forma, podemos decir qué cargo ocupa y qué salario tiene una
-persona que trabaja para una empresa.
+En la [Figura 3](#figura-3), a continuación, la clase `Persona` tiene una
+relación `Trabaja para` con la clase `Empresa`, para modelar que una persona
+trabaja para una empresa. Noten que cuando `Persona` y `Empresa` cambian de
+lugar, es necesario agregar el símbolo `⏴` para indicar que la relación `Trabaja
+para` se lee de derecha a izquierda, es decir, al revés de lo habitual —de lo
+contrario modelaríamos que la empresa trabaja para la persona, lo cual no sería
+correcto.— En el último ejemplo de esa figura, se puede ver cómo modelamos
+información adicional de la asociación `Trabaja para`, mediante la clase de
+asociación `Trabajo`; de esta forma, podemos decir qué cargo ocupa y qué salario
+tiene una persona que trabaja para una empresa.
+
+<a id="figura-3"/>
 
 ![Diagrama de clases mostrando asociaciones entre clases y una clase
 de asociación](/diagrams/Class_Diagram_Associations.svg)
 
-#### *Figura 3: Un diagrama de clases mostrando asociaciones entre clases y una clase de asociación.*
+*Figura 3: Un diagrama de clases mostrando asociaciones entre clases y una clase
+de asociación.*
 
 Las asociaciones, agregaciones y composiciones pueden tener una sola dirección
 —una clase conoce a la otra, pero no al revés— o ambas direcciones; en caso de
@@ -138,21 +147,24 @@ que tenga dirección, se representa con una flecha apuntando en la dirección de
 la relación, y en caso de que tenga ambas direcciones, no se coloca ninguna
 flecha.
 
-En la figura 4, a continuación, la clase `Camión` tiene un asociación `Arrastra`
-con la clase `Zorra`, para modelar que un camión arrastra una zorra; noten que
-como la asociación está dirigida desde `Camión` hacia `Zorra`, el camión conoce
-la zorra que arrastra, pero la zorra no conoce el camión que la arrastra.
+En la [Figura 4](#figura-4), a continuación, la clase `Camión` tiene un
+asociación `Arrastra` con la clase `Zorra`, para modelar que un camión arrastra
+una zorra; noten que como la asociación está dirigida desde `Camión` hacia
+`Zorra`, el camión conoce la zorra que arrastra, pero la zorra no conoce el
+camión que la arrastra.
+
+<a id="figura-4"/>
 
 ![Diagrama de clases con una asociación
 dirigida](/diagrams/Class_Diagram_Directed_Association.svg)
 
-#### *Figura 4: Un diagrama de clases mostrando una asociación dirigida.*
+*Figura 4: Un diagrama de clases mostrando una asociación dirigida.*
 
 Las asociaciones, agregaciones y composiciones pueden tener o no multiplicidad,
 es decir, el rango válido de instancias que pueden estar relacionadas.
 
-En la figura 5, a continuación, podemos ver varios ejemplos de multiplicidad en
-asociaciones:
+En la [Figura 5](#figura-5), a continuación, podemos ver varios ejemplos de
+multiplicidad en asociaciones:
 
 * La clase `Persona` tiene la asociación `Trabaja para` la clase `Empresa` que
   ya hemos visto. En este ejemplo agregamos el rol de las clases en la
@@ -188,12 +200,15 @@ asociaciones:
   recomendable indicarlo para evitar la ambigüedad, porque podría faltar porque
   nos olvidamos de ponerlo o porque es uno.
 
+<a id="figura-5"/>
+
 ![Diagrama de clases con
 multiplicidades](/diagrams/Class_Diagram_Multiplicity.svg)
 
-#### *Figura 6: Un diagrama de clases con varios ejemplos de multiplicidad en las asociaciones.*
+*Figura 5: Un diagrama de clases con varios ejemplos de multiplicidad en las
+asociaciones.*
 
-En la figura 7, a continuación, vemos ejemplos de agregaciones:
+En la [Figura 6](#figura-6), a continuación, vemos ejemplos de agregaciones:
 
 * La clase `Curso` tiene una agregación con la clase `Alumno`, es decir, un
   alumno es parte de un curso. Todo lo que vimos antes sobre el nombre, la
@@ -205,11 +220,13 @@ En la figura 7, a continuación, vemos ejemplos de agregaciones:
   pero puede tener más. La restricción `{ordenados}` indica que los puntos del
   polígono están ordenados, que el orden es importante en esa agregación[^3].
 
+<a id="figura-6"/>
+
 ![Diagrama de clases con agregaciones](/diagrams/Class_Diagram_Agregations.svg)
 
-#### *Figura 7: Un diagrama de clases con ejemplos de agregaciones.*
+*Figura 6: Un diagrama de clases con ejemplos de agregaciones.*
 
-En la figura 8, a continuación, vemos ejemplos de composiciones:
+En la [Figura 7](#figura-7), a continuación, vemos ejemplos de composiciones:
 
 * La clase `Ventana` está compuesta de dos instancias de `Slider` —con el rol de
   `Scrollbar`—, una de `Barra` —con el rol de Título— y una de `Panel` —con el
@@ -218,10 +235,12 @@ En la figura 8, a continuación, vemos ejemplos de composiciones:
 * La clase `Factura` está compuesta por una instancia de `Cabezal` y varias
   instancias de `Línea`.
 
+<a id="figura-7"/>
+
 ![Diagrama de clases con
 composiciones](/diagrams/Class_Diagram_Compositions.svg)
 
-#### *Figura 8: Un diagrama de clases con ejemplos de composiciones.*
+*Figura 7: Un diagrama de clases con ejemplos de composiciones.*
 
 En la composición, se aplican las siguientes reglas:
 
@@ -237,8 +256,8 @@ En la composición, se aplican las siguientes reglas:
 
 * Se puede remover partes; pero antes de que se elimine el todo.
 
-En la figura 9, a continuación, vemos varios ejemplos de generalización y
-especialización:
+En la [Figura 8](#figura-8), a continuación, vemos varios ejemplos de
+generalización y especialización:
 
 * La clase `Figura` es una generalización de las clases `Adimensional`,
   `Unidimensional` y `Bidimensional`; o dicho de otra forma, las clases
@@ -254,11 +273,14 @@ especialización:
 
 * Las clases `Círculo` y `Polígono` heredan de `Bidimensional`.
 
+<a id="figura-8"/>
+
 ![Diagrama de clases con
 generalizaciones y
 especializaciones](/diagrams/Class_Diagram_Generalization.svg)
 
-#### *Figura 9: Un diagrama de clases con ejemplos de generalización y especialización.*
+*Figura 8: Un diagrama de clases con ejemplos de generalización y
+especialización.*
 
 Para modelar una clase abstracta o una interfaz se utilizan los estereotipos
 `≪abstract≫` e `≪interface≫` debajo del nombre de la clase abstracta o de la
@@ -283,21 +305,28 @@ Una clase puede no tener ninguna superclase y es el origen de la jerarquía.
 Habitualmente los lenguajes de programación tienen una sola jerarquía, es decir,
 hay sólo una clase sin superclase.
 
-En la figura 10, a continuación, vemos un ejemplo de herencia múltiple: la clase
+En la [Figura 9](#figura-9), a continuación, vemos un ejemplo de herencia múltiple: la clase
 `Vehículo anfibio` hereda tanto de `Vehículo acuático` como de `Vehículo
 terrestre`.
+
+<a id="figura-9"/>
 
 ![Diagrama de clases con herencia
 múltiple](/diagrams/Class_Diagram_Multiple_Inheritance.svg)
 
-#### *Figura 10: Un diagrama de clases con ejemplo de herencia múltiple.*
+*Figura 9: Un diagrama de clases con ejemplo de herencia múltiple.*
 
 Tengan en cuenta que algunos lenguajes de programación no soportan herencia
 múltiple. Una alternativa es usar composición y delegación, como se muestra en
-la figura 11, a continuación:
+la [Figura 10](#figura-10), a continuación:
+
+<a id="figura-10"/>
 
 ![Diagrama de clases herencia múltiple versus composición y
 delegación](/diagrams/Class_Diagram_Composition_Multiple_Inheritance.svg)
+
+*Figura 10: Un diagrama de clases con ejemplo de herencia múltiple versus
+composición y delegación*
 
 La clase `Murciélago` hereda simultáneamente de las clases `Volador` y de
 `Mamífero`, por lo tanto tiene las operaciones `Volar()` e `Mamar()` —un
@@ -310,8 +339,8 @@ recibe un mensaje `Mamar`, en este caso lo delega a la instancia de `Mamífero`
 que lo compone. La alternativa de usar composición y delegación puede no ser
 perfecta, pero en muchos casos es útil.
 
-En la figura 11, a continuación, vemos ejemplos de dependencias. Como vimos
-antes, los diagramas de clases pueden incluir cualquier
+En la [Figura 11](#figura-11), a continuación, vemos ejemplos de dependencias.
+Como vimos antes, los diagramas de clases pueden incluir cualquier
 [clasificador](/4_Conceptos/4_Clasificador.md), por lo que en este caso
 ejemplificaremos las dependencias relacionando entre paquetes y no clases como
 en ejemplos anteriores. Los paquetes se representan con un rectángulo con el
@@ -325,10 +354,13 @@ los datos del modelo cambian; las acciones del usuario son enviadas a alguna
 clases en el paquete `Controlador`, que bien actualiza el modelo o envía las
 acciones del usuario a la vista si corresponde.
 
+<a id="figura-11"/>
+
 ![Diagrama de clases mostrando paquetes del patrón de arquitectura
 MVC](/diagrams/Class_Diagram_Dependency.svg)
 
-#### *Figura 11: Diagrama de clases mostrando paquetes del patrón de arquitectura MVC.*
+*Figura 11: Diagrama de clases mostrando paquetes del patrón de arquitectura
+MVC.*
 
 Existen estereotipos para las dependencias más comunes:
 
@@ -341,11 +373,11 @@ variables locales que son instancias de la clase independiente.
 * `≪call≫`, se utiliza cuando una operación en la clase dependiente invoca otra
   operación en la clase independiente.
 
-En la figura 12, a continuación, vemos ejemplos de elementos derivados. Un
-elemento es derivado cuando se puede calcular a partir de otro elemento, pero se
-muestra por claridad o se incluye por razones de diseño, aunque no agregue
-información semántica. Para indicar que un elemento es derivado se agrega `/`
-antes del nombre del elemento.
+En la [Figura 12](#figura-12), a continuación, vemos ejemplos de elementos
+derivados. Un elemento es derivado cuando se puede calcular a partir de otro
+elemento, pero se muestra por claridad o se incluye por razones de diseño,
+aunque no agregue información semántica. Para indicar que un elemento es
+derivado se agrega `/` antes del nombre del elemento.
 
 En la clase `Persona`, el atributo `Edad` es derivado, porque se puede calcular
 a partir del atributo `Fecha de nacimiento`. La restricción `Edad=Hoy-Fecha de
@@ -362,10 +394,12 @@ derivada, a partir de las relaciones entre `Edificio` y `Oficina`, y entre
 `Oficina` y `Departamento`: la oficina que ocupa el departamento pertenece a un
 edificio, el departamento ocupa ese edificio.
 
+<a id="figura-12"/>
+
 ![Diagrama de clases con elementos
 derivados](../diagrams/Class_Diagram_Derived.svg)
 
-#### *Figura 12: Diagrama de clases con elementos derivados.*
+*Figura 12: Diagrama de clases con elementos derivados.*
 
 [^1]: OMG. (2017). OMG® Unified Modeling Language®. Disponible
     [aquí](https://www.omg.org/spec/UML/2.5.1/PDF).
