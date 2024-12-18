@@ -1,0 +1,109 @@
+<mxfile host="65bd71144e">
+    <diagram id="TfBrJL6MkQ8omD83z_PI" name="Page-1">
+        <mxGraphModel dx="906" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Objetivos del diseño" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="125" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Casos de uso o&lt;br&gt;requerimientos&lt;br&gt;funcionales" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="185" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Atributos de calidad&lt;br&gt;o requerimientos no&lt;br&gt;funcionales" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="245" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Restricciones" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="305" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Preocupaciones" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="365" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Impulsores o &lt;i&gt;drivers&amp;nbsp;&lt;/i&gt;de la arquitectura" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;movable=1;rotatable=1;deletable=1;editable=1;connectable=1;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="-100" y="255" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Arquitecturas de&lt;br&gt;referencia o estilos&lt;br&gt;arquitectónicos" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="65" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Componentes&lt;br&gt;desarrollados por&lt;br&gt;terceros" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="315" y="65" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Tácticas de&lt;br&gt;arquitectura" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="65" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Patrones de&lt;br&gt;arquitectura" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="575" y="65" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontColor=#ffffff;fillColor=#1ba1e2;rotation=90;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="-210" width="20" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Conceptos de diseño" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;movable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="5" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontColor=#ffffff;fillColor=#1ba1e2;rotation=0;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="125" width="20" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Módulo: descomposición, dependencias, capas, clasificación, generalización, etc." style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;horizontal=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="703" y="125" width="120" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Componentes y conectores: distribución, concurrencia, procesos, datos compartidos, etc.&lt;br&gt;" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;horizontal=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="703" y="220" width="120" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Alocación: asignación de trabajo, despliegue, implementación, etc." style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;horizontal=1;whiteSpace=wrap;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+                    <mxGeometry x="703" y="330" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontColor=#ffffff;fillColor=#1ba1e2;rotation=-180;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="830" y="124" width="20" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Estructuras arquitectónicas" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;movable=1;rotatable=1;deletable=1;editable=1;connectable=1;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="254" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Captura" style="endArrow=open;html=1;fontColor=#006EAF;endFill=0;dashed=1;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1">
+                    <mxGeometry x="-0.0667" y="9" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="190" y="268.5" as="sourcePoint"/>
+                        <mxPoint x="340" y="268.5" as="targetPoint"/>
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Produce" style="endArrow=open;html=1;fontColor=#006EAF;endFill=0;dashed=1;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1">
+                    <mxGeometry y="10" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="545" y="269" as="sourcePoint"/>
+                        <mxPoint x="695" y="269" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="endArrow=open;html=1;fontColor=#006EAF;endFill=0;dashed=1;fillColor=#1ba1e2;strokeColor=#006EAF;labelBackgroundColor=none;" edge="1" parent="1">
+                    <mxGeometry x="0.036" y="61" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="439.5" y="124" as="sourcePoint"/>
+                        <mxPoint x="439.5" y="193.5" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="Selecciona e&lt;br&gt;instancia" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="415" y="140" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="345" y="219" width="190" height="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="group" vertex="1" connectable="0" parent="34">
+                    <mxGeometry x="60" width="130" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;strokeWidth=1;fontColor=#ffffff;fillColor=none;strokeColor=#006EAF;" vertex="1" parent="24">
+                    <mxGeometry width="130" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;span style=&quot;&quot;&gt;Decisiones de&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;diseño&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;candidatas&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" vertex="1" parent="24">
+                    <mxGeometry x="15" y="5" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="group" vertex="1" connectable="0" parent="34">
+                    <mxGeometry y="95" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeWidth=1;fontColor=#ffffff;fillColor=none;strokeColor=#006EAF;" vertex="1" parent="27">
+                    <mxGeometry x="10" width="60" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Arquitect@" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#006EAF;" vertex="1" parent="27">
+                    <mxGeometry y="70" width="80" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

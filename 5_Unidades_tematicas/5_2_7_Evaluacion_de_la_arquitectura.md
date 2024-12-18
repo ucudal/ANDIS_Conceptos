@@ -6,16 +6,16 @@
 
 #### Lecturas
 
-<!-- TBD. Incluir capítulo 21 de Bass-->
-
 * Capítulo 21 de [^1].
 
 [^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
+<!-- spell-checker: disable -->
 * [Evaluación de la/2_Tecnicas_y_herramientas/2_9_.Evaluacion_arquitectura.md
   arquitectura](/2_Tecnicas_y_herramientas/2_9__Evaluacion_arquitectura.md) como
   introducción y los siguientes métodos de evaluación de la arquitectura:
+<!-- spell-checker: enable -->
 
 * [ATAM](/2_Tecnicas_y_herramientas/2_9_1_ATAM.md)
 

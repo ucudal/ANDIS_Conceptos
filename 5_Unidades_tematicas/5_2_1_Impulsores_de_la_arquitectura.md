@@ -2,7 +2,7 @@
 
 ## 5.2 Análisis y diseño de aplicaciones II
 
-### 5.2.2 Impulsores o *drivers* de la arquitectura
+### 5.2.1 Impulsores o *drivers* de la arquitectura
 
 #### Lecturas
 
