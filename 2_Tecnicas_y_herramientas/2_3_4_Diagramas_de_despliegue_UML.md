@@ -88,18 +88,20 @@ Los diagramas de despliegue tienen estos elementos:
 * Asociaciones y generalizaciones, con la semántica habitual que tienen en los
   [diagramas de clases](./2_3_1_Diagramas_de_clases_UML.md).
 
-La figura 1, a continuación, muestra un ejemplo de diagrama de despliegue. El
-nodo `Servidor de aplicación` alberga una instancia de `WebSphere` en la que se
-ejecuta la `Aplicación web` y la `API conexión DB`. El `Navegador web` en el
-dispositivo `Computadora del usuario` se conecta a la `Aplicación web` mediante
-una conexión HTTP sobre Internet. La `API conexión DB` se conecta mediante una
-conexión nativa con el `Reporte de datos` en el `Servidor de base de datos`. La
-`Aplicación web` se conecta con la `lógica de negocios` en `Servidor web`
-mediante una conexión SOAP sobre HTTP.
+La [Figura 1](#figura-1), a continuación, muestra un ejemplo de diagrama de
+despliegue. El nodo `Servidor de aplicación` alberga una instancia de
+`WebSphere` en la que se ejecuta la `Aplicación web` y la `API conexión DB`. El
+`Navegador web` en el dispositivo `Computadora del usuario` se conecta a la
+`Aplicación web` mediante una conexión HTTP sobre Internet. La `API conexión DB`
+se conecta mediante una conexión nativa con el `Reporte de datos` en el
+`Servidor de base de datos`. La `Aplicación web` se conecta con la `lógica de
+negocios` en `Servidor web` mediante una conexión SOAP sobre HTTP.
+
+<a id="figura-1"/>
 
 ![Ejemplo de diagrama de despliegue](/diagrams/Deployment_Diagram_Example.svg)
 
-#### *Figura 1: ejemplo de diagrama de despliegue.*
+*Figura 1: ejemplo de diagrama de despliegue.*
 
 Puedes ver más información sobre diagramas de despliegue en las herramientas de
 modelado [IBM Software

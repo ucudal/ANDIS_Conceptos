@@ -32,23 +32,25 @@ Los diagramas de secuencia típicamente tienen:
 * Activaciones, que se representan con un rectángulo delgado sobre una línea de
   vida, para modelar cuándo la instancia está activa y puede enviar mensajes.
 
-En la figura 1, a continuación, hay tres líneas de vida con instancias de
-`Cliente`, `Carrito` y `Stock`. El cliente podría ser un actor y el carrito y el
-stock podrían ser componentes, por ejemplo. El primer mensaje desde `Cliente` a
-`Carrito` es un mensaje de creación, por eso va a la cabecera de la línea de
-vida. Luego `Cliente` envía un mensaje `Agregar artículo` con parámetro `id` a
-`Carrito` para indicar que el carrito debe agregar un producto. Luego `Carrito`
-envía un mensaje `Comprobar disponibilidad` con el mismo parámetro `id` a
-`Stock`. Luego `Stock` retorna la disponibilidad en un mensaje de respuesta a
-`Carrito`. A continuación `Carrito` se envía a sí mismo un mensaje `Agregar
-producto`, con parámetro `id`, para agregar el producto al carrito. Luego envía
-el mensaje de respuesta `Carrito actualizado` a `Cliente`. Por último, `Cliente`
-envía el mensaje `Guardar` a `Carrito`.
+En la [Figura 1](#figura-1), a continuación, hay tres líneas de vida con
+instancias de `Cliente`, `Carrito` y `Stock`. El cliente podría ser un actor y
+el carrito y el stock podrían ser componentes, por ejemplo. El primer mensaje
+desde `Cliente` a `Carrito` es un mensaje de creación, por eso va a la cabecera
+de la línea de vida. Luego `Cliente` envía un mensaje `Agregar artículo` con
+parámetro `id` a `Carrito` para indicar que el carrito debe agregar un producto.
+Luego `Carrito` envía un mensaje `Comprobar disponibilidad` con el mismo
+parámetro `id` a `Stock`. Luego `Stock` retorna la disponibilidad en un mensaje
+de respuesta a `Carrito`. A continuación `Carrito` se envía a sí mismo un
+mensaje `Agregar producto`, con parámetro `id`, para agregar el producto al
+carrito. Luego envía el mensaje de respuesta `Carrito actualizado` a `Cliente`.
+Por último, `Cliente` envía el mensaje `Guardar` a `Carrito`.
+
+<a id="figura-1"/>
 
 ![Un diagrama se secuencia con líneas de vida y
 mensajes](/diagrams/Sequence_Diagram_Lifelines_Messages.svg)
 
-#### *Figura 1: Un diagrama de secuencia con tres instancias y varios mensajes.*
+*Figura 1: Un diagrama de secuencia con tres instancias y varios mensajes.*
 
 Existen varios tipos de mensajes:
 
@@ -101,15 +103,19 @@ para modelar:
 * Referencias —*ref*—: La parte dentro de la región se omite en este diagrama,
   pero se detalla en otro diagrama cuyo nombre coincide con el de la región.
 
-En la figura 2, a continuación, el ejemplo es similar al de la figura 1,
-agregando una región `foreach` con la guarda `artículo` para indicar que los
-mensajes dentro de esa región ocurren para cada artículo; en la región `alt` se
-utiliza el valor `disponible` retornado por el mensaje `Comprobar
-disponibilidad` para la condición de guarda de la parte superior de la región, y
-la condición de guarda contraria `[!disponible]` para la inferior.
+En la [Figura 2](#figura-2), a continuación, el ejemplo es similar al de la
+[Figura 1](#figura-1), agregando una región `foreach` con la guarda `artículo`
+para indicar que los mensajes dentro de esa región ocurren para cada artículo;
+en la región `alt` se utiliza el valor `disponible` retornado por el mensaje
+`Comprobar disponibilidad` para la condición de guarda de la parte superior de
+la región, y la condición de guarda contraria `[!disponible]` para la inferior.
+
+<a id="figura-2"/>
 
 ![Un diagrama de secuencia con regiones foreach y
 alt](/diagrams/Sequence_Diagram_Loop_Alt.svg)
+
+*Figura 2. Un diagrama de secuencia con regiones `foreach`y `alt`.*
 
 En los diagramas de secuencia se suele poner a la izquierda los clasificadores
 que desencadenan la secuencia, pero esto no es obligatorio, es sólo una

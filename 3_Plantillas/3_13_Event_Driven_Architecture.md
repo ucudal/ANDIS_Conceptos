@@ -17,13 +17,15 @@ procesan eventos de forma asíncrona.
 > un diagrama de arquitectura deberían aparecer los componentes propios del
 > proyecto, usando estos mismos estereotipos.
 
-La figura 1, a continuación, muestra un ejemplo con el orquestador que recibe
-los eventos con el estereotipo `≪orchestrator≫` y varios procesadores de eventos
-con el estereotipo `≪processor≫`.
+La [Figura 1](#figura-1), a continuación, muestra un ejemplo con el orquestador
+que recibe los eventos con el estereotipo `≪orchestrator≫` y varios procesadores
+de eventos con el estereotipo `≪processor≫`.
+
+<a id="figura-1"/>
 
 ![Estilo event-driven architecture](/diagrams/Architecture_Event_Driven.svg)
 
-#### *Figura 1: Estilo event-driven architecture.*
+*Figura 1: Estilo event-driven architecture.*
 
 <!-- TODO: Agregar las variantes y ejemplos que aparecen en la referencia abajo -->
 

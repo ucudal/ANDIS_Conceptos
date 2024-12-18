@@ -59,13 +59,17 @@ proyecto.
 </table>
 
 Un ejemplo de eventos del negocio, correspondiente al siguiente diagrama de
-contexto de la figura 1, aparece luego, en la tabla 1:
+contexto de la [Figura 1](#figura-1), aparece luego, en la [Tabla 1](#tabla-1):
+
+<a id="figura-1"/>
 
 ![Ejemplo de diagrama de contexto](/diagrams/Context_Diagram_Example.svg)
 
-#### *Figura 1: Ejemplo de un diagrama de contexto.*
+*Figura 1: Ejemplo de un diagrama de contexto.*
 
-#### *Tabla 1: Ejemplo de eventos del negocio.*
+*Tabla 1: Ejemplo de eventos del negocio.*
+
+<a id="tabla-1"/>
 
 <table>
     <tr>

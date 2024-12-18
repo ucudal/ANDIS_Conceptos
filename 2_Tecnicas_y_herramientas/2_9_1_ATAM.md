@@ -212,11 +212,15 @@ concretos. Además, es necesario comprender la importancia relativa de estos
 objetivos en relación con otros, como desempeño —por ejemplo—.
 
 Un ejemplo de árbol de utilidad para este caso aparece a continuación en la
-[Figura 1](#figura-1-ejemplo-de-árbol-de-utilidad-de-un-sistema-de-comercio-electrónico-tomado-de).
+[Figura 1](#figura-1).
 
-![](/diagrams/Utility_Tree_Example.svg)
+<a id="figura-1"/>
 
-#### *Figura 1. Ejemplo de árbol de utilidad de un sistema de comercio electrónico*. Tomado de [^1]
+![Ejemplo de árbol de utilidad de un sistema de comercio
+electrónico](/diagrams/Utility_Tree_Example.svg)
+
+*Figura 1: Ejemplo de árbol de utilidad de un sistema de comercio electrónico*.
+Tomado de [^1]
 
 La `utilidad` es la raíz del árbol. Generalmente, atributos como `rendimiento`,
 `facilidad de modificación`, `seguridad` y `disponibilidad` conforman los nodos
@@ -225,11 +229,10 @@ pueden incorporar atributos adicionales o emplear denominaciones alternativas
 para conceptos similares.
 
 Cada uno de estos atributos de calidad se expande en varios sub-atributos. En la
-[Figura 1](#figura-1-ejemplo-de-árbol-de-utilidad-de-un-sistema-de-comercio-electrónico-tomado-de)
-el atributo `desempeño` se expande en `latencia de datos` y `rendimiento de las
-transacciones`. La `latencia de datos` se refina a su vez en `minimizar la
-latencia de almacenamiento de la base de datos a 200ms` y  `reproducir video en
-tiempo real`.
+[Figura 1](#figura-1) el atributo `desempeño` se expande en `latencia de datos`
+y `rendimiento de las transacciones`. La `latencia de datos` se refina a su vez
+en `minimizar la latencia de almacenamiento de la base de datos a 200ms` y
+`reproducir video en tiempo real`.
 
 Los nodos hoja tienen ahora suficiente nivel de detalle como para ser
 priorizados unos con respecto a otros. La priorización se puede hacer usando una
@@ -239,10 +242,10 @@ escala `H: high`, `M: medium`, `L: low` y dos dimensiones:
 
 * La segunda es el riesgo percibido de alcanzar el nodo.
 
-En la [Figura 1](#figura-1-ejemplo-de-árbol-de-utilidad-de-un-sistema-de-comercio-electrónico-tomado-de)
-`minimizar la latencia de almacenamiento de la base de datos a 200ms` tiene
-importancia media en comparación con las demás y un riesgo bajo de poder ser
-alcanzada —es fácil según la opinión de los arquitectos—.
+En la [Figura 1](#figura-1) `minimizar la latencia de almacenamiento de la base
+de datos a 200ms` tiene importancia media en comparación con las demás y un
+riesgo bajo de poder ser alcanzada —es fácil según la opinión de los
+arquitectos—.
 
 Los árboles de utilidades ponen a todos los interesados en la misma página y
 eliminan las ambigüedades en la definición de los requerimientos relacionados

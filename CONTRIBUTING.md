@@ -53,7 +53,7 @@ equivocarte, todos podemos equivocarnos, lo que no podemos hacer es dejar de
 aprender de nuestros errores, o ser negligentes; pero por lo demás, te alentamos
 a que pruebes.
 
-<!-- 
+<!--
 TODO: Ver qué de esto es interesante para agregar, el de Django me gustó.
 [source:
 [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#your-first-code-contribution)]
@@ -413,31 +413,54 @@ Addison-Wesley Professional.</span><a href="#back_ref_1" title="Volver...">↩�
 ### Leyendas de figuras
 
 Al incluir figuras en un documento las acompañamos de una pequeña leyenda debajo
-que explica o complementa brevemente la figura. Lo mismo hacemos con las tablas
-cuando resulta necesario o conveniente.
+que explica o describe brevemente la figura. Esa descripción se utiliza también
+como como texto alternativo al embeber la imagen. Lo mismo hacemos con las
+tablas cuando resulta necesario o conveniente.
 
-Estas leyendas las incluimos como un *heading 4* —h4 o ####— y en itálica,
-asegurándonos de asociarles un número según la cantidad de figuras presentes
-hasta el momento en el documento, empezando por uno (1). Si hay figuras y tablas
-en un mismo documento, las contamos por separado, por lo que puede haber una
-*tabla 1* y una *figura 1* en un mismo documento.
+Estas leyendas las incluimos en itálica, asegurándonos de asociarles un número
+según la cantidad de figuras presentes hasta el momento en el documento,
+empezando por uno —1—. Si hay figuras y tablas en un mismo documento, las
+contamos por separado, por lo que puede haber una *Tabla 1* y una *Figura 1* en
+un mismo documento. `Figura` o `Tabla` se separa del resto de la leyenda por `:`
+—dos puntos—.
+
+Antes de la imagen agregamos un elemento HTML `anchor` cuyo identificar `id` es
+`figura` o `tabla`, según corresponda, seguido del número respectivo. Esto
+permite hacer referencia a esa figura con `[Figura N](#figura-n)` como se
+muestra más abajo.
 
 Al incluir las leyendas de las figuras y tablas de esta forma, podemos
-referenciarlas desde dentro y fuera del documento.
+crear referencias desde dentro y fuera del documento.
 
 #### Ejemplo
 
+<a id="figura-1"/>
+
 ![El ciclo de vida DAD](/diagrams/DAD_Lifecycle.svg)
 
-#### *Figura 1: Una vista de alto nivel del ciclo de vida de la entrega en DAD.*
+*Figura 1: El ciclo de vida DAD.*
+
+§
+
+Ver [Figura 1](#figura-1).
 
 #### Fuente
 
 ```markdown
+<a id="figura-1"/>
+
 ![El ciclo de vida DAD](/diagrams/DAD_Lifecycle.svg)
 
-#### *Figura 1: Una vista de alto nivel del ciclo de vida de la entrega en DAD.*
+*Figura 1: El ciclo de vida DAD.*
+
+§
+
+Ver [Figura 1](#figura-1).
 ```
+
+> [!NOTE]
+> Hay configurado un *snippet* `figura` para insertar el código necesario para
+> incluir una figura.
 
 ### Viñetas
 
