@@ -13,7 +13,7 @@ Este documento está basado en UML 2.5.1[^1].
 [^1]: OMG. (2017). OMG® Unified Modeling Language®. Disponible
     [aquí](https://www.omg.org/spec/UML/2.5.1/PDF).
 
-Los diagramas de componentes son distintos de los [diagramas de
+Los diagramas de componentes son distintos de los [diagramas de2_3_4_Diagramas_de_despliegue_UML.md
 despliegue](./2_3_4_Diagramas_de_despliegue_UML.md). Un diagrama de componentes
 define la composición de los componentes y artefactos en el sistema. Un diagrama
 de despliegue muestra los componentes y artefactos en relación con el lugar
@@ -58,6 +58,39 @@ Los diagramas de componentes tienen principalmente:
   particular.
 
 <!-- TODO: Agregar diagrama de ejemplo -->
+
+En la [Figura 1](#figura-1), a continuación, aparece un ejemplo de un diagrama
+de componentes. En el ejemplo aparecen tres subsistemas —componentes con el
+estereotipo `≪subsystem≫`—: `WebStore`, `Warehouses` y `Accounting`. El
+subsistema `WebStore` provee o expone las interfaces `ProductSearch`,
+`OnlineShopping` y `UserSession` a través de los puertos que aparecen a la
+izquierda. A su vez requiere de las interfaces `SearchInventory`, `ManageOrders`
+y `ManageCustomers` a través de los puertos que aparecen a la derecha. La
+estructura interna de `WebStore` muestra el componente de tipo `SearchEngine`
+que provee la interfaz `ProductSearch`, a la que el subsistema `WebStore` delega
+la interfaz del mismo nombre. Algo similar ocurre con los componentes de tipo
+`ShoppingCart` y `Authentication` que proveen las interfaces `OnlineShopping` y
+`UserSession` en las que el subsistema `WebStore` delega sus interfaces del
+mismo nombre. En forma análoga los componentes de tipo `SearchEngine`,
+`ShoppingCart` y `Authentication` requieren de las interfaces `SearchInventory`,
+`ManageOrders` y `ManageCustomers` respectivamente, a través de la delegación de
+las interfaces requeridas por `WebStore` con mismo nombre.
+
+Entre la interfaz `SearchInventory` requerida por `WebStore` y provista por
+`Warehouses` hay una dependencia; también hay una dependencia entre las
+interfaces `ManageOrders` y `ManageCustomers` requeridas y provistas por
+`WebStore` y `Accounting` respectivamente. También hay otra dependencia en la
+interfaz `ManageInventory` requerida por `Accounting` y provista por
+`Warehouses`.
+
+<a id="figura-1"/>
+
+![Ejemplo de diagrama de componentes](/diagrams/Component_Diagram_Example.svg)
+
+*Figura 1: Ejemplo de diagrama de componentes*.
+
+Puedes ver más ejemplos de [diagramas de componentes en UML
+Diagrams](https://www.uml-diagrams.org/component-diagrams.html).
 
 Puedes ver más información sobre diagramas de componentes en las herramientas de
 modelado [IBM Software

@@ -124,6 +124,9 @@ convención para facilitar la lectura.
 A veces los mensajes no corresponden con operaciones, sino que describen el
 significado general del mensaje.
 
+Puedes ver más ejemplos de [diagramas de secuencia en UML
+Diagrams](https://www.uml-diagrams.org/sequence-diagrams.html).
+
 Puedes ver más información sobre diagramas de secuencia en las herramientas de
 modelado [IBM Software
 Architect](https://www.ibm.com/docs/en/rational-soft-arch/9.7.0?topic=diagrams-sequence),

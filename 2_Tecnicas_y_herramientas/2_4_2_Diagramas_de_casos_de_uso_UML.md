@@ -93,6 +93,9 @@ facilitar la lectura. Por otro lado, los actores secundarios pero no interactúa
 por sí solos; se suele colocarlos del lado derecho del diagrama, también como
 convención.
 
+Puedes ver más ejemplos de [diagramas de casos de uso en UML
+Diagrams](https://www.uml-diagrams.org/use-case-diagrams.html).
+
 Puedes ver más  información sobre diagramas de casos de uso con ejemplos
 adicionales de las herramientas de modelado [IBM Rational Software
 Architect](https://www.ibm.com/docs/en/rational-soft-arch/9.7.0?topic=diagrams-use-case),

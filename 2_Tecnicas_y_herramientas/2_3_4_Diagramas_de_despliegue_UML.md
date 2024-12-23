@@ -16,12 +16,11 @@ Este documento está basado en UML 2.5.1[^1].
 
 Los diagramas de despliegue tienen estos elementos:
 
-* Nodos, que se representan con un rectángulo tridimensional con el estereotipo
-  `≪node≫`; ese rectángulo contiene el nombre del nodo, que describe la pieza de
-  hardware que representa. En lugar de estereotipo `≪node≫` es posible usar
-  estereotipos más específicos como `≪mainframe≫`, `≪pc≫`, `≪database server≫`,
-  etc.; además se puede usar un ícono para representar visualmente estos
-  estereotipos.
+* Nodos, que se representan con un cubo con el estereotipo `≪node≫`; ese
+  rectángulo contiene el nombre del nodo, que describe la pieza de hardware que
+  representa. En lugar de estereotipo `≪node≫` es posible usar estereotipos más
+  específicos como `≪mainframe≫`, `≪pc≫`, `≪database server≫`, etc.; además se
+  puede usar un ícono para representar visualmente estos estereotipos.
 
   Los nodos son elementos del modelo que representan los recursos
   computacionales en los que se puede desplegar artefactos —la definición de
@@ -49,17 +48,16 @@ Los diagramas de despliegue tienen estos elementos:
   nivel de sistema operativo necesarios para soportar una aplicación de base de
   datos instalada en ese entorno.
 
-* Artefactos, que se representan con un rectángulo —no tridimensional— que tiene
-  el estereotipo `«artefacto»`, el icono del artefacto y el nombre del
-  artefacto.
+* Artefactos, que se representan con un rectángulo que tiene el estereotipo
+  `«artefacto»`, el icono del artefacto y el nombre del artefacto.
 
   Un artefacto representa algún elemento de información que se utiliza o produce
   mediante un proceso de desarrollo de software o mediante la operación de un
   sistema. Ejemplos de artefactos incluyen archivos de modelos, archivos fuente,
   scripts, archivos ejecutables, tablas de bases de datos, entregables de
   desarrollo, documentos de procesamiento de textos y mensajes de correo. Los
-  artefactos se implementan en nodos y se admite la implementación de artefactos
-  en varios tipos de nodos.
+  artefactos se implementan —se despliegan— en nodos y se admite la
+  implementación de artefactos en varios tipos de nodos.
 
 * Instancias de artefactos, que representan una ocurrencia real de un artefacto.
   Las instancias de artefactos se basan en artefactos existentes. El nombre de
@@ -69,10 +67,10 @@ Los diagramas de despliegue tienen estos elementos:
   también como un nodo pero con el estereotipo `≪device≫`; el nombre del nodo
   describe el dispositivo que representa.
 
-* Especificaciones de despliegue, que se representan con un rectángulo —no
-  tridimensional— con el estereotipo `≪deploymentSpec≫`. Modelan archivos de
-  configuración y sus atributos modelan los parámetros de configuración de los
-  componentes o artefactos desplegados en un nodo.
+* Especificaciones de despliegue, que se representan con un rectángulo con el
+  estereotipo `≪deploymentSpec≫`. Modelan archivos de configuración y sus
+  atributos modelan los parámetros de configuración de los componentes o
+  artefactos desplegados en un nodo.
 
 * Rutas de comunicación, que son un tipo más específico de asociación entre
   nodos en un diagrama de despliegue, que muestra cómo los nodos intercambian
@@ -101,7 +99,43 @@ negocios` en `Servidor web` mediante una conexión SOAP sobre HTTP.
 
 ![Ejemplo de diagrama de despliegue](/diagrams/Deployment_Diagram_Example.svg)
 
-*Figura 1: ejemplo de diagrama de despliegue.*
+*Figura 1: Ejemplo de diagrama de despliegue.*
+
+La [Figura 2](#figura-2), a continuación, muestra otro ejemplo de diagrama de
+despliegue. En este caso el dispositivo `Servidor de aplicación` que contiene un
+servidor JSP `Tomcat 5.5` —o dicho de otro modo, hay un servidor JSP llamado
+`Tomcat 5.5` desplegado en el dispositivo `Servidor de aplicación`. A su vez el
+servidor JSP contiene un ambiente de ejecución
+`Catalina Servlet 2.4/JSP 2.0 Container` —también es posible decir que el
+ambiente de ejecución está desplegado en el servidor JSP—. Ese ambiente de
+ejecución tiene un artefacto `book_club_app.war` que está compuesto por otros
+dos artefactos `user_services.jar` y `web-tools-lib.jar`. El primer artefacto
+`book_club_app.war` es la manifestación del componente `OnlineOrders`, mientras
+que el tercer artefacto
+`user_services.jar` es la manifestación del componente `UserServices`. La
+manifestación se modela como una dependencia estereotipada con
+`≪manifest≫` desde el artefacto que es la "manifestación" hacia el componente
+que es "manifestado". Hay una especificación de despliegue con el estereotipo
+`≪deploymentSpec≫` llamada `web.xml` para el artefacto `book_club_app.war`; la
+especificación de despliegue está conectada con el artefacto mediante una
+dependencia. Como todos estos elementos están contenidos dentro del nodo
+`Catalina Servlet 2.4/JSP 2.0 Container` implica que están desplegados en él.
+
+El dispositivo `Servidor de aplicación` está conectado con el dispositivo
+`Servidor de base de datos` mediante una conexión con protocolo `TCP/IP`. Este
+segundo dispositivo tiene un sistema de base de datos `Oracle 10g`. Este nodo
+contiene a su vez los esquemas `User`, `Orders` e `Inventory`.
+
+<a id="figura-2"/>
+
+![Otro ejemplo de diagrama de
+despliegue](/diagrams/Deployment_Diagram_Another_Example.svg)
+
+*Figura 2: Otro ejemplo de diagrama de despliegue.* Tomado de
+[aquí](https://www.uml-diagrams.org/deployment-diagrams-overview.html).
+
+Puedes ver más ejemplos de [diagramas de despliegue en UML
+Diagrams](https://www.uml-diagrams.org/deployment-diagrams-overview.html).
 
 Puedes ver más información sobre diagramas de despliegue en las herramientas de
 modelado [IBM Software
