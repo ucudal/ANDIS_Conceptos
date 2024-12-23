@@ -89,8 +89,8 @@ interfaz `ManageInventory` requerida por `Accounting` y provista por
 
 *Figura 1: Ejemplo de diagrama de componentes*.
 
-
-Puedes ver más ejemplos de [diagramas de componentes en UML Diagrams](https://www.uml-diagrams.org/component-diagrams.html).
+Puedes ver más ejemplos de [diagramas de componentes en UML
+Diagrams](https://www.uml-diagrams.org/component-diagrams.html).
 
 Puedes ver más información sobre diagramas de componentes en las herramientas de
 modelado [IBM Software

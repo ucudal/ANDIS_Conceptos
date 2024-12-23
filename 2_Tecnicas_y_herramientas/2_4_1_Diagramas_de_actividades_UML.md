@@ -185,6 +185,9 @@ acciones](/diagrams/Activity_Diagram_Send_Receive_Signals.svg)
 *Figura 9: Ejemplo de diagrama de actividades con acciones de recepción de
 señales, acciones temporizadas, y acciones de envío de señales.*
 
+Puedes ver más ejemplos de [diagramas de actividades en UML
+Diagrams](https://www.uml-diagrams.org/activity-diagrams.html).
+
 Los diagramas de actividades tienen otros elementos que no cubrimos en este
 documento; puedes ver los documentos sobre diagramas de actividades de las
 herramientas de modelado [IBM Software

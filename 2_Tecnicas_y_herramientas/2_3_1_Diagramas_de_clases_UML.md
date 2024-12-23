@@ -401,6 +401,9 @@ derivados](../diagrams/Class_Diagram_Derived.svg)
 
 *Figura 12: Diagrama de clases con elementos derivados.*
 
+Puedes ver más ejemplos de [diagramas de clases en UML
+Diagrams](https://www.uml-diagrams.org/class-diagrams-overview.html).
+
 [^1]: OMG. (2017). OMG® Unified Modeling Language®. Disponible
     [aquí](https://www.omg.org/spec/UML/2.5.1/PDF).
 [^2]: Esta notación está expresada usando [Backus-Naur
