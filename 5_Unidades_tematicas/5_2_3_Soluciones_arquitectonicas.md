@@ -15,7 +15,9 @@
 
 * [Interacción](/4_Conceptos/4_Interaccion.md)
 
-* [Componentes](/4_Conceptos/com)
+* Virtualización
+
+* ACID, BASE, CAP
 
 <!-- * Mensajes: -->
 
@@ -40,6 +42,7 @@ PointToPointChannel
 Publish-Subscr. Channel
 Guaranteed Delivery
 Message Bus -->
+>>>>>>> main
 
 <!-- TBD. Incluir la parte III de Bass
 Virtualización
