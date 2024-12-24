@@ -2,7 +2,7 @@
 
 ## 5.2 Análisis y diseño de aplicaciones II
 
-### 5.2.5 Patrones de arquitectura
+### 5.2.4 Patrones de arquitectura
 
 #### Lecturas
 

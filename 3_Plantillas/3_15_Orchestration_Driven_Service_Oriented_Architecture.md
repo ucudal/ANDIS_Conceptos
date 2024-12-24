@@ -14,10 +14,12 @@ de 1990: fusionándose con empresas más pequeñas, creciendo a un ritmo
 vertiginoso y requiriendo de soluciones tecnológicas más sofisticadas para
 acomodar este crecimiento.
 
+<a id="figura-1"/>
+
 ![Estilo orchestration-driven
 service-oriented](/diagrams/Architecture_Orchestration_Driven_Service_Oriented.svg)
 
-#### *Figura 1: Estilo orchestration-driven service-oriented architecture.*
+*Figura 1: Estilo orchestration-driven service-oriented architecture.*
 
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
       Engineering Approach. O'Reilly.

@@ -39,16 +39,18 @@ tiene los siguientes elementos:
 
 * Opcionalmente puede haber una frontera rodeando el caso de uso.
 
-La figura 1, a continuación, muestra un ejemplo —parcial— de un diagrama de
-contexto para una `Comunidad en línea`. Los sistemas adyacentes son los
-`Usuarios de la comunidad`, los `Anunciantes` y los `Creadores de contenido`.
-Los datos intercambiados aparecen como las etiquetas de las asociaciones; por
-ejemplo, el `Anunciante` recibe de la comunidad `Slots de publicidad` y envía
-`Pagos`.
+La [Figura 1](#figura-1), a continuación, muestra un ejemplo —parcial— de un
+diagrama de contexto para una `Comunidad en línea`. Los sistemas adyacentes son
+los `Usuarios de la comunidad`, los `Anunciantes` y los `Creadores de
+contenido`. Los datos intercambiados aparecen como las etiquetas de las
+asociaciones; por ejemplo, el `Anunciante` recibe de la comunidad `Slots de
+publicidad` y envía `Pagos`.
+
+<a id="figura-1"/>
 
 ![Ejemplo de diagrama de contexto](/diagrams/Context_Diagram_Example.svg)
 
-#### *Figura 1: Ejemplo de un diagrama de contexto.*
+*Figura 1: Ejemplo de un diagrama de contexto.*
 
 Con el diagrama de contexto es posible derivar los [eventos del
 negocio](/4_Conceptos/4_Evento_del_negocio.md), aunque durante el relevamiento

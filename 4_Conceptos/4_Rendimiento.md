@@ -7,7 +7,7 @@ arquitectura de software que define la capacidad de un sistema, producto o
 componente para cumplir con sus funciones dentro de los límites de tiempo
 aceptables[^1].
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Las operaciones en las computadoras llevan tiempo. Los cálculos en el procesador
@@ -136,3 +136,7 @@ Vean más detalles sobre estas las tácticas para el rendimiento
 Vean [Cloud design patterns that support performance
 efficiency](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/design-patterns)
 en Azure Well Architected Framework.
+
+> [!TIP]
+> Vean además el método [PASA](/2_Tecnicas_y_herramientas/2_9_4_PASA.md) de
+> evaluación del rendimiento de la arquitectura de software.

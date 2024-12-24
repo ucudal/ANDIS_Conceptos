@@ -16,12 +16,15 @@ implementación monolítica, generalmente instalada en el sitio del cliente—.
 > un diagrama de arquitectura deberían aparecer los componentes propios del
 > proyecto, usando estos mismos estereotipos.
 
-La figura 1, a continuación, muestra un ejemplo con el núcleo del sistema con el
-estereotipo `≪core≫` y los complementos con el estereotipo `≪plugin≫`.
+La [Figura 1](#figura-1), a continuación, muestra un ejemplo con el núcleo del
+sistema con el estereotipo `≪core≫` y los complementos con el estereotipo
+`≪plugin≫`.
+
+<a id="figura-1"/>
 
 ![Estilo microkernel architecture](/diagrams/Architecture_Microkernel.svg)
 
-#### *Figura 1: Estilo microkernel architecture.*
+*Figura 1: Estilo microkernel architecture.*
 
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
       Engineering Approach. O'Reilly.

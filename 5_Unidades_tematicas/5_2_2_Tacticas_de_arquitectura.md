@@ -2,7 +2,7 @@
 
 ## 5.2 Análisis y diseño de aplicaciones II
 
-### 5.2.3 Tácticas de arquitectura
+### 5.2.2 Tácticas de arquitectura
 
 #### Lecturas
 

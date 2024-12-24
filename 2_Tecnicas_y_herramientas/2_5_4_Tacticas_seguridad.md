@@ -14,7 +14,7 @@ de alarmas— y disponen de mecanismos de recuperación —como sistemas de resp
 en ubicaciones remotas—. Estas medidas se agrupan en cuatro categorías de
 tácticas: detección, resistencia, reacción y recuperación[^1].
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 La lista de tácticas está tomada de [^1]:

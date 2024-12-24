@@ -80,11 +80,13 @@ sumamos los **factores** de cada **uso** para obtener la medida de todos los
 **usos** —primer nivel—; finalmente sumamos los **usos** para obtener la medida
 de la calidad [^2].
 
-La siguiente figura muestra el modelo de calidad de McCall:
+La siguiente [Figura 1](#figura-1) muestra el modelo de calidad de McCall:
+
+<a id="figura-1"/>
 
 ![Modelo de calidad de McCall](/diagrams/Quality_Model_McCall.svg)
 
-#### *Figura 1: Modelo de calidad de McCall.*
+*Figura 1: Modelo de calidad de McCall.*
 
 #### Boehm
 
@@ -94,14 +96,16 @@ las **construcciones intermedias** y el tercero es el de las **construcciones
 primitivas**. El último nivel, al igual que el modelo de McCall, se obtiene a
 través de medidas del software.
 
-La Figura 2, a continuación, muestra el modelo de calidad de Boehm. El nivel de
-los **usos primarios** está a la izquierda, el de las **construcciones
-intermedias** en el centro y el de las **construcciones primitivas** a la
-derecha.
+La [Figura 2](#figura-2), a continuación, muestra el modelo de calidad de Boehm.
+El nivel de los **usos primarios** está a la izquierda, el de las
+**construcciones intermedias** en el centro y el de las **construcciones
+primitivas** a la derecha.
+
+<a id="figura-2"/>
 
 ![Modelo de calidad de Boehm](/diagrams/Quality_Model_Boehm.svg)
 
-#### *Figura 2: Modelo de calidad de Boehm*. [^2]
+*Figura 2: Modelo de calidad de Boehm*. [^2]
 
 #### ISO 9126
 
@@ -111,11 +115,14 @@ características de un producto de software en las que se basa su capacidad para
 satisfacer necesidades establecidas o implícitas. El modelo tiene seis
 **factores**, que a su vez tienen varios **atributos**.
 
-La siguiente figura muestra el modelo de calidad de la norma ISO 9126:
+La siguiente [Figura 3](#figura-3) muestra el modelo de calidad de la norma ISO
+9126:
+
+<a id="figura-3"/>
 
 ![Modelo de calidad de la norma ISO 9126](/diagrams/Quality_Model_ISO_9126.svg)
 
-#### *Figura 3: Modelo de calidad de la norma ISO 9126.*
+*Figura 3: Modelo de calidad de la norma ISO 9126.*
 
 ### Normas de calidad y de procesos
 
@@ -177,13 +184,16 @@ siguientes:
   proveedores son interdependientes y una relación mutuamente beneficiosa
   aumenta la capacidad de ambos para crear valor.
 
-El siguiente diagrama ilustra un modelo de gestión de la calidad basado en los
-procesos de la norma ISO 9000:
+La siguiente [Figura 4](#figura-4) ilustra un modelo de gestión de la calidad
+basado en los procesos de la norma ISO 9000:
+
+<a id="figura-4"/>
 
 ![Modelo del sistema de gestión de la calidad basado en los procesos de la norma
 ISO 9000](/diagrams/Quality_Management_Model_ISO_9000.svg)
 
-#### *Figura 4. Modelo del sistema de gestión de la calidad basado en los procesos de la norma ISO 9000.*
+*Figura 4: Modelo del sistema de gestión de la calidad basado en los procesos de
+la norma ISO 9000.*
 
 #### CMMI
 
@@ -384,7 +394,7 @@ El estándar ISO/IEC 12207:1995 establece que las actividades de validación son
 * Validación. Consiste en preparar las pruebas; realizarlas; comprobar que el
   producto satisface el uso previsto y probar que el producto es apropiado en el
   entorno destino.
-  
+
 La verificación es el proceso de evaluar un sistema o componente para determinar
 si los productos de una fase de desarrollo determinada satisfacen las
 condiciones impuestas al comienzo de la fase (IEEE 610.12 1990). La verificación

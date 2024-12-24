@@ -47,33 +47,43 @@ Además, pueden tener:
   al que entran dos o más flujos de control y sale un y sólo un flujo de
   control; los flujos de control de entrada no son concurrentes.
 
-En la figura 1, a continuación, hay un nodo inicial, la actividad `Cocinar`, y
-el nodo final.
+En la [Figura 1](#figura-1), a continuación, hay un nodo inicial, la actividad
+`Cocinar`, y el nodo final.
+
+<a id="figura-1"/>
 
 ![Diagrama de actividades con inicio, una actividad, y
 final](/diagrams/Activity_Diagram_Start_End_Action.svg)
 
-#### *Figura 1: Un diagrama de actividades con un nodo inicial, uno de actividad, y un nodo final.*
+*Figura 1: Un diagrama de actividades con un nodo inicial, uno de actividad, y
+un nodo final.*
 
-En la figura 2, a continuación, luego de la actividad `Conseguir ingredientes`,
-las actividades `Precalentar horno` y `Preparar receta` ocurren simultáneamente,
-es decir, el horno se precalienta mientras se prepara la receta. Cuando ambas
-actividades terminan, se realiza la actividad `Hornear receta`, es decir, se
-tiene que haber terminado de precalentar el horno y de preparar la receta para
-poder hornearla.
+En la [Figura 2](#figura-2), a continuación, luego de la actividad `Conseguir
+ingredientes`, las actividades `Precalentar horno` y `Preparar receta` ocurren
+simultáneamente, es decir, el horno se precalienta mientras se prepara la
+receta. Cuando ambas actividades terminan, se realiza la actividad `Hornear
+receta`, es decir, se tiene que haber terminado de precalentar el horno y de
+preparar la receta para poder hornearla.
+
+<a id="figura-2"/>
 
 ![Diagrama de actividades con actividades en
 paralelo](/diagrams/Activity_Diagram_Fork_Join.svg)
 
-#### *Figura 2: Un diagrama con actividades en paralelo entre nodos de bifurcación y de unión.*
+*Figura 2: Un diagrama con actividades en paralelo entre nodos de bifurcación y
+de unión.*
 
-En la figura 3, a continuación, la actividad `Conseguir ingredientes faltantes`
-ocurre sólo si la condición de guarda `Faltan ingredientes` es verdadera.
+En la [Figura 3](#figura-3), a continuación, la actividad `Conseguir
+ingredientes faltantes` ocurre sólo si la condición de guarda `Faltan
+ingredientes` es verdadera.
+
+<a id="figura-3"/>
 
 ![Diagrama de actividades con actividad
 condicional](/diagrams/Activity_Diagram_Decision_Merge.svg)
 
-#### *Figura 3: Un diagrama con una actividad condicional entre un nodo de decisión y otro de fusión*
+*Figura 3: Un diagrama con una actividad condicional entre un nodo de decisión y
+otro de fusión*
 
 En los diagramas de actividades vemos qué actividades tienen lugar, pero no
 quién las realiza; esto no es un problema porque muchas veces alcanza con
@@ -85,48 +95,61 @@ horizontales o verticales, y un nombre que etiqueta la partición en un cuadro e
 un extremo. Los nodos de actividad y los flujos de control colocados entre estas
 líneas se consideran contenidos dentro de la partición. Esta notación para una
 partición se conoce coloquialmente como andarivel —*swimlane*—, como se muestra
-en la figura 4 a continuación.
+en la [Figura 4](#figura-4) a continuación.
+
+<a id="figura-4"/>
 
 ![Partición](/diagrams/Activity_Diagram_Swimlane.svg)
 
-#### *Figura 4: Una partición utilizando la notación de andarivel.*
+*Figura 4: Una partición utilizando la notación de andarivel.*
 
 Los andariveles pueden representar una jerarquía entre particiones,
 representando las sub-particiones como una partición adicional de una
-super-partición, como se muestra en la figura 5 a continuación.
+super-partición, como se muestra en la [Figura 5](#figura-5) a continuación.
+
+<a id="figura-5"/>
 
 ![Sub-particiones](/diagrams/Activity_Diagram_Two_Swimlanes.svg)
 
-#### *Figura 5: Una partición con dos sub-particiones utilizando la notación de andarivel.*
+*Figura 5: Una partición con dos sub-particiones utilizando la notación de
+andarivel.*
 
 Los diagramas también se pueden dividir de forma multi-dimensional, como se
-muestra en la figura 6, a continuación, donde cada andarivel es una intersección
-de múltiples particiones.
+muestra en la [Figura 6](#figura-6), a continuación, donde cada andarivel es una
+intersección de múltiples particiones.
+
+<a id="figura-6"/>
 
 ![Sub-particiones matriciales](/diagrams/Activity_Diagram_Multidimensional_Swimlanes.svg)
 
-#### *Figura 6: Particiones multi-dimensionales utilizando la notación de andarivel.*
+*Figura 6: Particiones multi-dimensionales utilizando la notación de andarivel.*
 
-La figura 7, a continuación, es un ejemplo de las actividades que tienen lugar
-en la restaurante para una cena. Los participantes son el `Cliente`, el `Mozo` y
-la `Cocina`. El cliente realiza la actividad `Revisar menú`. Luego el mozo
-realiza `Tomar pedido`. Luego la cocina realiza `Preparar pedido`. Luego el mozo
-realiza `Llevar pedido a la mesa`. Por último, el cliente realiza la actividad
-`Cenar`.
+La [Figura 7](#figura-7), a continuación, es un ejemplo de las actividades que
+tienen lugar en la restaurante para una cena. Los participantes son el
+`Cliente`, el `Mozo` y la `Cocina`. El cliente realiza la actividad `Revisar
+menú`. Luego el mozo realiza `Tomar pedido`. Luego la cocina realiza `Preparar
+pedido`. Luego el mozo realiza `Llevar pedido a la mesa`. Por último, el cliente
+realiza la actividad `Cenar`.
+
+<a id="figura-7"/>
 
 ![Diagrama de actividades con
 particiones en andariveles](/diagrams/Activity_Diagram_Swimlanes_Example.svg)
 
-#### *Figura 7: Un ejemplo de diagrama de actividades con particiones en andariveles.*
+*Figura 7: Un ejemplo de diagrama de actividades con particiones en
+andariveles.*
 
 Cuando utilizar la notación de andarivel es complejo, es posible agregar el
 nombre de la partición entre paréntesis en cada nodo de actividad, como se
-muestra en la figura 8, a continuación.
+muestra en la [Figura 8](#figura-8), a continuación.
+
+<a id="figura-8"/>
 
 ![Diagrama de actividades con particiones entre
 paréntesis](/diagrams/Activity_Diagram_Partitions_Example.svg)
 
-#### *Figura 8: El mismo ejemplo de la figura 7, pero con las particiones entre paréntesis, en lugar de andariveles.*
+*Figura 8: El mismo ejemplo de la figura 7, pero con las particiones entre
+paréntesis, en lugar de andariveles.*
 
 Otros elementos que pueden aparecer en los diagramas de actividad son las
 acciones, que se utilizan para modelar eventos:
@@ -144,20 +167,26 @@ acciones, que se utilizan para modelar eventos:
   para modelar el envío de un evento a un sistema externo, o a otra parte del
   mismo sistema que no nos interesa modelar.
 
-La figura 9, a continuación, es un ejemplo de un cliente pidiendo la cena a un
-restaurante a través de una aplicación; vean que no se modela cómo el cliente
-confirma el pedido al restaurante, ni cómo el restaurante hace llegar la cena al
-cliente. El cliente realiza la acción `Revisar menú` a la `Hora de la cena`, que
-es una acción temporizada. Luego realiza la actividad `Agregar platos al
-carrito`, y cuando termina envía la señal `Confirmar pedido`. El restaurante
+La [Figura 9](#figura-9), a continuación, es un ejemplo de un cliente pidiendo
+la cena a un restaurante a través de una aplicación; vean que no se modela cómo
+el cliente confirma el pedido al restaurante, ni cómo el restaurante hace llegar
+la cena al cliente. El cliente realiza la acción `Revisar menú` a la `Hora de la
+cena`, que es una acción temporizada. Luego realiza la actividad `Agregar platos
+al carrito`, y cuando termina envía la señal `Confirmar pedido`. El restaurante
 recibe la señal `Aceptar pedido`, luego realiza la actividad `Preparar pedido`,
 y cuando termina, envía la señal `Enviar pedido`. El cliente recibe la señal
 `Recibir pedido`, y luego realiza la actividad `Cenar`.
 
+<a id="figura-9"/>
+
 ![Diagrama de actividades con
 acciones](/diagrams/Activity_Diagram_Send_Receive_Signals.svg)
 
-#### *Figura 9: Ejemplo de diagrama de actividades con acciones de recepción de señales, acciones temporizadas, y acciones de envío de señales.*
+*Figura 9: Ejemplo de diagrama de actividades con acciones de recepción de
+señales, acciones temporizadas, y acciones de envío de señales.*
+
+Puedes ver más ejemplos de [diagramas de actividades en UML
+Diagrams](https://www.uml-diagrams.org/activity-diagrams.html).
 
 Los diagramas de actividades tienen otros elementos que no cubrimos en este
 documento; puedes ver los documentos sobre diagramas de actividades de las

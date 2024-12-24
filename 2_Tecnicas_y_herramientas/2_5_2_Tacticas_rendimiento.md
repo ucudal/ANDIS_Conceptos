@@ -11,7 +11,7 @@ restricción basada en el tiempo o en los recursos. El evento puede ser un event
 
 La lista de tácticas está tomada de[^1]:
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
       Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 * **Gestionar los pedidos de trabajo**. Esta táctica se refiere a cómo un

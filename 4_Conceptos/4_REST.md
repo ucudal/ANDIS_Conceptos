@@ -9,7 +9,7 @@ seis restricciones impuestas sobre las [interacciones](./4_Interaccion.md) entre
 los [componentes](/4_Conceptos/4_Componente.md) de una arquitectura distribuida
 para un sistema de hipermedia a escala de Internet como el de la web[^1]:
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 * [Interfaz](/4_Conceptos/4_Interfaz.md) uniforme. Todas las interacciones son

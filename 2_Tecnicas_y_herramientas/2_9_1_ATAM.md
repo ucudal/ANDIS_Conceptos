@@ -1,0 +1,292 @@
+
+# 2 Técnicas y herramientas
+
+## 2.9 Evaluación de la arquitectura
+
+### 2.9.1 ATAM
+
+> [!TIP]
+> Ver también [Lightweight ATAM](./2_9_2_Lightweight_ATAM.md).
+
+El método ATAM —por su sigla en inglés *Architecture Tradeoff Analysis Method*
+o análisis de compromisos de la arquitectura— recibe su nombre porque no solo
+revela en qué medida una arquitectura satisface objetivos de calidad específicos
+—como el [rendimiento](/4_Conceptos/4_Rendimiento.md) o la [facilidad de
+modificación](/4_Conceptos/4_Facilidad_de_modificacion.md), por ejemplo—, sino
+que también proporciona información sobre cómo interactúan esos objetivos de
+calidad entre sí, es decir, cómo se balancean entre ellos. Estas decisiones de
+diseño son fundamentales, pues tienen las consecuencias de mayor alcance y son
+las más difíciles de cambiar una vez que se ha implementado un sistema.
+
+Este documento está basado en [^1].
+
+[^1]: Kazman,  R.; Klein, M. & Clements, P. (2000). ATAM:<sup>SM</sup> Method for
+   Architecture Evaluation. CMU/SEI-2000-TR-004. Disponible [aquí](https://insights.sei.cmu.edu/documents/629/2000_005_001_13706.pdf).
+
+El principal propósito de ATAM consiste en evaluar el impacto de las decisiones
+arquitectónicas en relación con los requisitos de calidad del sistema. Este
+método se concibe como una herramienta de identificación de riesgos, diseñada
+para detectar posibles áreas problemáticas dentro de arquitecturas de sistemas
+complejos con alto componente de software.
+
+Los objetivos de ATAM son:
+
+* Obtener y refinar una declaración precisa de los requisitos de los atributos
+  de calidad que impulsan la arquitectura
+
+* Obtener y refinar una declaración precisa de las decisiones de diseño
+  arquitectónico
+
+* Evaluar las decisiones de diseño arquitectónico para determinar si abordan
+  satisfactoriamente los requisitos de calidad
+
+Esta aproximación conlleva varias características distintivas:
+
+* Puede aplicarse en etapas tempranas del desarrollo de software.
+
+* Permite una evaluación económica y ágil al centrarse en artefactos de diseño
+  arquitectónico.
+
+* Genera análisis proporcionados al nivel de detalle de la especificación
+  arquitectónica.
+
+Su metodología no requiere producir análisis exhaustivos sobre métricas
+específicas de atributos de calidad —como latencia o tiempo medio entre fallos—.
+En su lugar, su éxito radica en identificar tendencias y patrones potenciales de
+riesgo dentro de la arquitectura.
+
+ATAM es un método de análisis que se basa en la premisa de que los estilos
+arquitectónicos son clave en la determinación de los [atributos de
+calidad](/4_Conceptos/4_Atributos_de_calidad.md) de un sistema de software. El
+enfoque del método radica en identificar primero los objetivos del negocio, los
+que a su vez se traducen en objetivos específicos relacionados con los atributos
+de calidad. A partir de estos objetivos, ATAM permite evaluar cómo los
+diferentes enfoques arquitectónicos contribuyen al logro de dichos atributos.
+
+### Pasos de ATAM
+
+Los pasos del método son los siguientes:
+
+#### Presentación
+
+1. **Presentar ATAM**. El arquitecto —o un miembro del equipo de arquitectura—
+   describe el método a las partes interesadas en una reunión. Las partes
+   interesadas incluyen típicamente representantes de los clientes, el
+   arquitecto —o el equipo de arquitectura—, representantes de los usuarios,
+   encargados de la operación, de la administradores, desarrolladores,
+   *testers*, etc.
+
+2. **Presentar los impulsores del negocio o *business drivers***. Un ejecutivo
+   del proyecto describe qué objetivos del negocio motivan el esfuerzo de
+   desarrollo y —por lo tanto—, cuáles serán los impulsores arquitectónicos
+   primarios, por ejemplo, alta disponibilidad, cierto tiempo de
+   comercialización, alta seguridad, etc.
+
+3. **Presentar la arquitectura**. El arquitecto —o un miembro del equipo de
+   arquitectura— describirá la arquitectura propuesta, centrándose en cómo
+   aborda los impulsores del negocio.
+
+#### Investigación y análisis
+
+<!-- markdownlint-disable MD029 -->
+4. **Identificar los enfoques arquitectónicos**. El arquitecto —o un miembro del
+   equipo de arquitectura— identifica los enfoques arquitectónicos, pero no los
+   analiza.
+
+5. **Generar el árbol de utilidad de atributos de calidad**. Se obtienen los
+   factores de calidad —[rendimiento](/4_Conceptos/4_Rendimiento.md),
+   [disponibilidad](/4_Conceptos/4_Disponibilidad.md),
+   [seguridad](/4_Conceptos/4_Seguridad.md), [facilidad de
+   modificación](/4_Conceptos/4_Facilidad_de_modificacion.md), [facilidad de
+   despliegue](/4_Conceptos/4_Facilidad_de_despliegue.md), etc.—, que se
+   especifican hasta el nivel de escenarios, se anotan con estímulos y
+   respuestas, y se les asigna una prioridad. Ver [Caracterización de los
+   atributos de calidad](#caracterización-de-los-atributos-de-calidad) más
+   adelante.
+
+6. **Analizar los enfoques arquitectónicos**. Con base en los factores de alta
+   prioridad identificados en el paso 5, se obtienen y analizan los enfoques
+   arquitectónicos que abordan esos factores —por ejemplo, un enfoque
+   arquitectónico destinado a cumplir con los objetivos de rendimiento se
+   someterá a un análisis de rendimiento—. Durante este paso se identifican los
+   riesgos arquitectónicos, los puntos de sensibilidad y los puntos de
+   compromiso o *tradeoff*.
+<!-- markdownlint-enable MD029 -->
+
+#### Prueba
+
+<!-- markdownlint-disable MD029 -->
+7. **Lluvia de ideas y priorización de escenarios**. Con base en los escenarios
+   de ejemplo generados en el paso 5, se obtiene un conjunto más amplio de
+   escenarios de todo el grupo de partes interesadas. Este conjunto de
+   escenarios se prioriza mediante un proceso de votación que involucra a todo
+   el grupo de partes interesadas.
+
+8. **Análisis de los enfoques arquitectónicos**. Este paso reitera el paso 6,
+   pero aquí los escenarios mejor calificados del paso 7 se consideran casos de
+   prueba para el análisis de los enfoques arquitectónicos determinados hasta el
+   momento. Estos escenarios de casos de prueba pueden revelar enfoques
+   arquitectónicos adicionales, riesgos, puntos de sensibilidad y puntos de
+   compromiso o *tradeoff* que luego se documentan.
+<!-- markdownlint-enable MD029 -->
+
+#### Informes
+
+<!-- markdownlint-disable MD029 -->
+9. **Presentar los resultados**. Con base en la información recopilada en los
+   pasos anteriores —estilos, escenarios, preguntas específicas de atributos,
+   árbol de utilidades, riesgos, puntos de sensibilidad, puntos de compromiso o
+   *tradeoff*, el equipo del ATAM presenta los hallazgos a las partes
+   interesadas reunidas y, potencialmente, redacta un informe que detalla esta
+   información junto con las estrategias de mitigación propuestas.
+<!-- markdownlint-enable MD029 -->
+
+### Caracterización de los atributos de calidad
+
+Cada caracterización de atributo de calidad se divide en tres categorías:
+
+* **Estímulos externos** —o simplemente estímulos—. Los estímulos externos son
+  los eventos que hacen que la arquitectura responda o cambie.
+
+* **Decisiones arquitectónicas**. Las decisiones arquitectónicas son aquellos
+  aspectos de una arquitectura —[componentes](/4_Conceptos/4_Componente.md),
+  relaciones entre componentes y sus propiedades— que tienen un impacto directo
+  en el logro de las respuestas a los atributos.
+
+* **Respuestas**. Para analizar una arquitectura respecto del cumplimiento de
+  los requerimientos de calidad, esos requerimientos deben expresarse en
+  términos que sean concretos y medibles u observables. Estas cantidades
+  medibles u observables se describen en la sección de respuestas de la
+  caracterización de atributos.
+
+Por ejemplo, los estímulos externos para el rendimiento son eventos como
+mensajes, interrupciones o eventos que dan como resultado el inicio de un
+cálculo. Las decisiones arquitectónicas de rendimiento incluyen mecanismos de
+arbitraje de procesador y de red; estructuras de concurrencia que incluyen
+procesos, sub-procesos y procesadores; y propiedades que incluyen prioridades de
+proceso y tiempos de ejecución. Las respuestas se caracterizan por cantidades
+medibles como latencia y rendimiento.
+
+Para la facilidad de modificación, por ejemplo, los estímulos externos son
+solicitudes de cambio al software. Las decisiones arquitectónicas incluyen
+mecanismos de encapsulamiento e indirección, y la respuesta se mide en términos
+de la cantidad de componentes, conectores e interfaces afectados y la cantidad
+de esfuerzo involucrado en cambiar estos elementos afectados.
+
+### Escenarios
+
+En el contexto de ATAM, un escenario es una breve descripción de la interacción
+de una de las partes interesadas con el sistema. Un usuario describiría el uso
+del sistema para realizar alguna tarea; sus escenarios se parecerían mucho a los
+[casos de uso](/4_Conceptos/4_Caso_de_uso_del_producto.md). Un desarrollador
+describiría la realización de un cambio en el sistema o cómo agregar una nueva
+función específica, o podría hablar sobre el uso de la arquitectura para
+construir el sistema o predecir su rendimiento. Un operador describiría como
+actualizar el sistema operativo de una manera particular. El escenario de un
+cliente podría describir cómo se reutilizará la arquitectura para un segundo
+producto en una línea de productos.
+
+Los escenarios proporcionan un vehículo para concretar cualidades vagas del
+tiempo de desarrollo, como la facilidad de modificación; representan ejemplos
+específicos de usos actuales y futuros de un sistema. Los escenarios también son
+útiles para comprender cualidades del tiempo de ejecución, como el rendimiento o
+la disponibilidad. Esto se debe a que los escenarios especifican los tipos de
+operaciones sobre las que se debe medir el rendimiento, o los tipos de fallas
+que el sistema tendrá que soportar.
+
+### Árboles de utilidades
+
+Los árboles de utilidades proporcionan un mecanismo para
+traducir de manera directa y eficiente los impulsores de negocio de un sistema
+en escenarios de atributos de calidad concretos.
+
+En un sitio de comercio electrónico —por ejemplo— dos motivaciones del negocio
+podrían ser "La protección de datos constituye un elemento crítico para el
+rendimiento del sistema, dado que salvaguardar la confidencialidad de la
+información de los usuarios representa un aspecto prioritario"; y "La facilidad
+de modificación es fundamental para el éxito del sistema, ya que debemos poder
+responder rápidamente a un mercado en rápida evolución y muy competitivo".
+
+Antes de evaluar la arquitectura estos objetivos deben ser más específicos y
+concretos. Además, es necesario comprender la importancia relativa de estos
+objetivos en relación con otros, como desempeño —por ejemplo—.
+
+Un ejemplo de árbol de utilidad para este caso aparece a continuación en la
+[Figura 1](#figura-1).
+
+<a id="figura-1"/>
+
+![Ejemplo de árbol de utilidad de un sistema de comercio
+electrónico](/diagrams/Utility_Tree_Example.svg)
+
+*Figura 1: Ejemplo de árbol de utilidad de un sistema de comercio electrónico*.
+Tomado de [^1]
+
+La `utilidad` es la raíz del árbol. Generalmente, atributos como `rendimiento`,
+`facilidad de modificación`, `seguridad` y `disponibilidad` conforman los nodos
+de primer nivel vinculados directamente a la raíz, si bien distintos interesados
+pueden incorporar atributos adicionales o emplear denominaciones alternativas
+para conceptos similares.
+
+Cada uno de estos atributos de calidad se expande en varios sub-atributos. En la
+[Figura 1](#figura-1) el atributo `desempeño` se expande en `latencia de datos`
+y `rendimiento de las transacciones`. La `latencia de datos` se refina a su vez
+en `minimizar la latencia de almacenamiento de la base de datos a 200ms` y
+`reproducir video en tiempo real`.
+
+Los nodos hoja tienen ahora suficiente nivel de detalle como para ser
+priorizados unos con respecto a otros. La priorización se puede hacer usando una
+escala `H: high`, `M: medium`, `L: low` y dos dimensiones:
+
+* La primera es la importancia relativa del nodo hoja para el éxito del sistema.
+
+* La segunda es el riesgo percibido de alcanzar el nodo.
+
+En la [Figura 1](#figura-1) `minimizar la latencia de almacenamiento de la base
+de datos a 200ms` tiene importancia media en comparación con las demás y un
+riesgo bajo de poder ser alcanzada —es fácil según la opinión de los
+arquitectos—.
+
+Los árboles de utilidades ponen a todos los interesados en la misma página y
+eliminan las ambigüedades en la definición de los requerimientos relacionados
+con los atributos de calidad.
+
+### Productos de ATAM
+
+Los productos resultantes de ATAM son los siguientes[^2]:
+
+[^2]: Cervantes, H.; Kazman, R. (2024). Designing Software Architectures,
+    2<sup>nd</sup> Edition. Addison-Wesley.
+
+* Una presentación concisa de la arquitectura. La arquitectura se presenta en
+  una hora.
+
+* Una articulación concisa de los objetivos de negocio para el sistema que está
+  siendo analizado. Con frecuencia, los objetivos de negocio presentados en ATAM
+  son vistos por primera vez por algunos de los participantes reunidos; estos se
+  capturan en los resultados.
+
+* Un conjunto de requisitos de atributos de calidad priorizados, expresados
+  ​​como escenarios.
+
+* Un mapeo de decisiones arquitectónicas a requisitos de calidad. Para cada
+  escenario de atributo de calidad examinado, se identifican y registran las
+  decisiones arquitectónicas que ayudan a lograrlo. Las decisiones
+  arquitectónicas pueden documentarse usando [registros de decisiones de
+  arquitectura](/3_Plantillas/3_18_ADR.md).
+
+* Un conjunto de puntos de sensibilidad y compensación. Estas decisiones
+  arquitectónicas tienen un efecto marcado en uno o más atributos de calidad.
+
+* Un conjunto de riesgos y no riesgos. Un riesgo se define como una decisión
+  arquitectónica que puede conducir a consecuencias indeseables a la luz de los
+  requisitos de los atributos de calidad. Un no riesgo es una decisión
+  arquitectónica que, tras el análisis, se considera segura. Los riesgos
+  identificados forman la base de un plan de mitigación de riesgos
+  arquitectónicos.
+
+* Un conjunto de temas de riesgo. El equipo de evaluación examina el conjunto
+  completo de riesgos descubiertos para identificar temas generales que revelen
+  debilidades sistémicas en la arquitectura —o incluso en el proceso y el equipo
+  de arquitectura—. Si no se tratan, estos temas amenazarán los objetivos
+  de negocio del proyecto.

@@ -26,7 +26,7 @@ escalabilidad casi infinita en la aplicación.
 > un diagrama de arquitectura deberían aparecer los componentes propios del
 > proyecto, usando estos mismos estereotipos.
 
-En la figura 1, a continuación, aparecen los siguientes elementos:
+En la [Figura 1](#figura-1), a continuación, aparecen los siguientes elementos:
 
 * `Processing Units` son nodos que tienen la lógica de la aplicación que en la
   plantilla se muestra como el componente `Application Logic` estereotipado como
@@ -60,9 +60,11 @@ En la figura 1, a continuación, aparecen los siguientes elementos:
   encargado de leer desde la base de datos y poner el resultado en otra cola
   `Reverse Data Pump`.
 
+<a id="figura-1"/>
+
 ![Estilo space-based architecture](/diagrams/Architecture_Space_Based.svg)
 
-#### *Figura 1: Estilo space-based architecture.*
+*Figura 1: Estilo space-based architecture.*
 
 <!-- TODO: Agregar las variantes y ejemplos que aparecen en la referencia abajo -->
 

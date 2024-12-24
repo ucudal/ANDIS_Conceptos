@@ -14,7 +14,7 @@ disponibilidad adecuadas y la combinación correcta de tácticas.
 
 La lista de tácticas está tomada de[^1]:
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 * **Monitoreo**. Refiere a la observación continua del estado de un componente

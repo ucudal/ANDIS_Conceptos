@@ -2,7 +2,7 @@
 
 ## 5.2 Análisis y diseño de aplicaciones II
 
-### 5.2.4 Soluciones arquitectónicas
+### 5.2.3 Soluciones arquitectónicas
 
 #### Lecturas
 

@@ -8,7 +8,7 @@ conectar [componentes](./4_Componente.md) en una arquitectura de software.
 Las definiciones y conceptos en este documento están tomados de [^1] a menos que
 se indique lo contrario.
 
-[^1]: Bass, L., Clements, P., Kazman, R. (2022). Software Architecture in
+[^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 ### Términos relacionados
