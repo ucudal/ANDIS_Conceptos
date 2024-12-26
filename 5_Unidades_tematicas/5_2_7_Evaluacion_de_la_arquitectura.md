@@ -17,10 +17,10 @@
   introducción y los siguientes métodos de evaluación de la arquitectura:
 <!-- spell-checker: enable -->
 
-* [ATAM](/2_Tecnicas_y_herramientas/2_9_1_ATAM.md)
+* [ATAM](/2_Tecnicas_y_herramientas/2_10_1_ATAM.md)
 
-* [Lightweight ATAM](/2_Tecnicas_y_herramientas/2_9_2_Lightweight_ATAM.md)
+* [Lightweight ATAM](/2_Tecnicas_y_herramientas/2_10_2_Lightweight_ATAM.md)
 
-* [ALMA](/2_Tecnicas_y_herramientas/2_9_3_ALMA.md)
+* [ALMA](/2_Tecnicas_y_herramientas/2_10_3_ALMA.md)
 
-* [PASA](/2_Tecnicas_y_herramientas/2_9_4_PASA.md)
+* [PASA](/2_Tecnicas_y_herramientas/2_10_4_PASA.md)
