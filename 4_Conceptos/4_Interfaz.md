@@ -263,8 +263,9 @@ práctico y casi nunca sería deseable; en su lugar, la documentación debe incl
 lo que los actores **deben** conocer para interactuar con la interfaz.
 
 Diferentes personas tienen diferentes necesidades de información. Considera los
-siguientes interesados cuando documentes una interfaz, probablemente incluyendo
-información para cada uno en secciones diferentes de la documentación:
+siguientes [interesados](/4_Conceptos/4_Interesado.md) cuando documentes una
+interfaz, probablemente incluyendo información para cada uno en secciones
+diferentes de la documentación:
 
 * **Desarrollador del componente**. Debe conocer el contrato que debe cumplir su
   interfaz. Los desarrolladores solo pueden probar la información incorporada en

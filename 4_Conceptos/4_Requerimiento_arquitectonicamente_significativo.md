@@ -58,11 +58,12 @@ específicas a buscar son las siguientes:
   configuraciones**.
 * **Tecnologías con nombre, paquetes comerciales**.
 
-Los interesados pueden no saber qué deben indicar cuáles son los requerimientos
-no-funcionales o las restricciones de diseño a tener en cuenta. O pueden asumir
-que esos requerimientos o restricciones son obvias y no es necesario
-especificarlas. En estos casos es conveniente realizar un taller con los
-interesados. Más información sobre estos talleres está disponible
+Los [interesados](/4_Conceptos/4_Interesado.md) pueden no saber qué deben
+indicar cuáles son los requerimientos no-funcionales o las restricciones de
+diseño a tener en cuenta. O pueden asumir que esos requerimientos o
+restricciones son obvias y no es necesario especificarlas. En estos casos es
+conveniente realizar un taller con los interesados. Más información sobre estos
+talleres está disponible
 [aquí](https://insights.sei.cmu.edu/library/quality-attribute-workshop-collection/).
 
 A continuación aparece una guía pra identificar algunos requerimientos

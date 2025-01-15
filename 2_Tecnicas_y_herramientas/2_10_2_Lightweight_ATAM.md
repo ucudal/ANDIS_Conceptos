@@ -24,8 +24,9 @@ Para adaptarse a este enfoque de desarrollo, se ha diseñado una versión
 modificada del ATAM: *Lightweight ATAM* —o ATAM ligero—. Esta variante mantiene
 la estructura metodológica original, pero reduce su alcance y duración. A
 diferencia del ATAM completo, que involucra varias fases con grupos de
-interesados internos y externos, el *Lightweight ATAM* comprende una única fase
-de análisis que puede ejecutarse en aproximadamente medio día.
+[interesados](/4_Conceptos/4_Interesado.md) internos y externos, el *Lightweight
+ATAM* comprende una única fase de análisis que puede ejecutarse en
+aproximadamente medio día.
 
 Este documento está basado en [^1].
 
