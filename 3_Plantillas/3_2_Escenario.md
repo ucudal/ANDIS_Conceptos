@@ -14,7 +14,7 @@ Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
 
 Los escenarios muestran la funcionalidad de un caso de uso dividiéndolo en una
 serie de pasos fácilmente reconocibles, escritos en lenguaje natural para que
-sean accesibles para todos los interesados.
+sean accesibles para todos los [interesados](/4_Conceptos/4_Interesado.md).
 
 <table>
     <tr>

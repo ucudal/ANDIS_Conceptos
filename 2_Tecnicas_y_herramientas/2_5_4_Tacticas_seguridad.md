@@ -131,9 +131,10 @@ La lista de tácticas está tomada de [^1]:
   cuando se sospecha que ha ocurrido un ataque. Por ejemplo, bloquear a un
   usuario luego de varios intentos fallidos de autenticación.
 
-* **Informar a los actores**. Es notificar a los interesados relevantes sobre un
-  intento de ataque. Por ejemplo, enviar un correo electrónico a los usuarios
-  cuando se detecta un intento de acceso no autorizado a sus cuentas.
+* **Informar a los actores**. Es notificar a los
+  [interesados](/4_Conceptos/4_Interesado.md) relevantes sobre un intento de
+  ataque. Por ejemplo, enviar un correo electrónico a los usuarios cuando se
+  detecta un intento de acceso no autorizado a sus cuentas.
 
 * **Auditar**. Consiste en registrar y revisar las acciones de los actores para
   detectar y prevenir actividades maliciosas.

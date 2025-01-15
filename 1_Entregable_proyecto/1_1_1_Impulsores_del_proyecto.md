@@ -72,7 +72,7 @@ el siguiente formato:
 | *Título del objetivo* | *Propósito del objetivo* | *Beneficio del objetivo* | *Cuantificación del beneficio* |
 | ...                   | ...                      | ...                      | ...                            |
 
-## Los interesados o *stakeholders*
+## Los [interesados](/4_Conceptos/4_Interesado.md) o *stakeholders*
 
 <!-- SECCIÓN: Cliente del proyecto -->
 <!-- TAG: Requerido -->
@@ -111,13 +111,14 @@ guía:
 
 <!-- SECCIÓN: Otros interesados -->
 Mencionar otras personas u organizaciones interesadas en el proyecto o afectadas
-por él. Estos interesados pueden formar parte de la organización cliente o
-trabajar para ella y sus comentarios pueden ser valiosos para el proyecto, por
-ejemplo: patrocinadores, expertos del dominio, usuarios del sistema actual,
-expertos en legislación, diseñadores, usuarios encargados del mantenimiento del
-sistema, encargados del servicio técnico, etcétera. Para cada uno de ellos,
-detallar: rol en el proyecto, rol en la organización, aporte al proyecto, grado
-de involucramiento en el proyecto y nivel de influencia en el proyecto.
+por él. Estos [interesados](/4_Conceptos/4_Interesado.md) pueden formar parte de
+la organización cliente o trabajar para ella y sus comentarios pueden ser
+valiosos para el proyecto, por ejemplo: patrocinadores, expertos del dominio,
+usuarios del sistema actual, expertos en legislación, diseñadores, usuarios
+encargados del mantenimiento del sistema, encargados del servicio técnico,
+etcétera. Para cada uno de ellos, detallar: rol en el proyecto, rol en la
+organización, aporte al proyecto, grado de involucramiento en el proyecto y
+nivel de influencia en el proyecto.
 
 <!-- SECCIÓN: Identificación de necesidades clave -->
 Listar los problemas clave junto con las soluciones existentes, de acuerdo a la

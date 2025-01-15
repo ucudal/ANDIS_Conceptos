@@ -5,8 +5,8 @@
 Los atributos de calidad, también llamados características arquitectónicas o
 características de calidad, son propiedades medibles o comprobables de un
 sistema que se utilizan para indicar qué tan bien el sistema satisface las
-necesidades de los interesados más allá de la funcionalidad básica del
-sistema[^1].
+necesidades de los [interesados](/4_Conceptos/4_Interesado.md) más allá de la
+funcionalidad básica del sistema[^1].
 
 [^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.

@@ -3,8 +3,8 @@
 ## 3.19 Minuta de reunión
 
 Esta es la plantilla para las minutas de reunión. Pueden utilizarla para las
-reuniones con el cliente, con interesados dentro de la organización del cliente,
-o incluso para las reuniones con el tutor.
+reuniones con el cliente, con [interesados](/4_Conceptos/4_Interesado.md) dentro
+de la organización del cliente, o incluso para las reuniones con el tutor.
 
 La minuta asume que la reunión fue agendada mediante una convocatoria de reunión
 —*meeting request*—.

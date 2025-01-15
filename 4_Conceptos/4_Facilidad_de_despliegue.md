@@ -63,9 +63,10 @@ determinado entorno.
 La facilidad de despliegue se centra en minimizar el tiempo y los esfuerzos
 necesarios para llevar el código desde el desarrollo hasta su puesta en
 producción. Dos factores clave influyen en la facilidad de despliegue: el tiempo
-de coordinación necesario entre los diferentes interesados antes de la
-implementación y el procesamiento del código a través de una cadena de
-herramientas —o *deployment pipeline*— hasta su despliegue final.
+de coordinación necesario entre los diferentes
+[interesados](/4_Conceptos/4_Interesado.md) antes de la implementación y el
+procesamiento del código a través de una cadena de herramientas —o *deployment
+pipeline*— hasta su despliegue final.
 
 Las prácticas de *devops* buscan automatizar y optimizar este proceso para
 reducir riesgos y asegurar la consistencia en los despliegues.
