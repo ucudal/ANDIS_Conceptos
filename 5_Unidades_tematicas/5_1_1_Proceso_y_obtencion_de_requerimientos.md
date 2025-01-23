@@ -15,12 +15,14 @@ Daniels, L. (2000). Managing the product requirements definition process. In
 Project Management Institute Annual Seminars & Symposium, Houston, TX. Newtown
 Square, PA: Project Management Institute. Disponible [aquí](https://www.pmi.org/learning/library/product-requirements-definition-process-foundation-1894)
 
+<!-- Nuevo para ver con José -->
 Fase de inicio ‑o *inception*‑ del Disciplined Agile Delivery del Project
 Management Institute, disponible
 [aquí](https://www.pmi.org/disciplined-agile/inception-goals), en particular la
 sección [*Explore
 scope*](https://www.pmi.org/disciplined-agile/inception-goals/explore-initial-scope).
 
+<!-- Ver con José otros conceptos clave que tengan que estar definidos. ¿Volere? -->
 [Requerimiento](TBD)
 
 [Requerimiento funcional](TBD)
@@ -47,6 +49,7 @@ uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md)
 
 [Personas](/2_Tecnicas_y_herramientas/2_1_3_Personas.md)
 
+<!-- Si va acá hay que agregar este tema -->
 [*Customer Journey*](TBD)
 
 #### Lecturas complementarias

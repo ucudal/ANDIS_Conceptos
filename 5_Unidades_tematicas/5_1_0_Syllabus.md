@@ -170,28 +170,31 @@ width="150"/>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
   <tr style="vertical-align:top">
     <td>3. Diseño de software</td>
-    <td>Proceso de diseño, principios de diseño, cohesión, acoplamiento<br>Diagramas UML de casos de uso, classes, secuencia, actividades</td>
+    <td><p>Proceso de diseño, principios de diseño, cohesión, acoplamiento</p>
+    <p>Diagramas UML de casos de uso, classes, secuencia, actividades</p></td>
     <td><i>Customer journey</i><br>Diagramas UML de paquetes, componentes, despliegue</td>
     <td>10 en clase, 25 en casa</td>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
   </tr>
   <tr style="vertical-align:top">
     <td>4. Interfaz de usuario</td>
-    <td>10 heurísticas de Nielsen, 16 Principios de Tognazzini</td>
+    <td>10 heurísticas de Nielsen, 16 principios de Tognazzini</td>
     <td>Ley de Fitts</td>
     <td>6 en clase, 15 en casa</td>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
   </tr>
   <tr style="vertical-align:top">
-    <td>5. Patrones de diseño</td>
-    <td>Principios SOLID, patrones y ejemplos de patrones, anti-patrones y ejemplos de anti-patrones</td>
-    <td>Patrones estructurales, patrones de creación, patrones comportamentales</td>
+    <td>5. Patrones de diseño y arquitectura</td>
+    <td>Patrón Model View Controller</p>
+    <p>Patrones Singleton, Factory, Prototype, Builder, Adapter, Bridge, Decorator, Façade, Proxy, Chain of responsability, Command, Mediator, Memento, Observer, State, Strategy, Visitor</p>
+    <p>Patrones Entity, Value Object, Aggregate, Repository, Factory, Service, anti-patrones y ejemplos de anti-patrones</p></td>
+    <td>Principios SOLID</td>
     <td>8 en clase, 20 en casa</td>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupos</td>
   </tr>
   <tr style="vertical-align:top">
-    <td>6. Patrones de arquitectura</td>
-    <td>Caché, Cliente-Servidor, Capas, Microservicios</td>
+    <td>6. Soluciones de arquitectura</td>
+    <td>Caché, colas de mensajes, colas de eventos, recursos virtuales, contenedores</td>
     <td></td>
     <td>2 en clase, 5 en casa</td>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupos</td>
@@ -382,7 +385,7 @@ Capítulos 9 y del 2 al 6. Disponible en <a href=https://catalogo.ucu.edu.uy/cgi
       <p><a href="./5_1_3_Diseno_de_software.md#lecturas">Lecturas de la unidad temática 3</a></p>
       <p><a href="./5_1_4_Interfaz_de_usuario.md#lecturas">Lecturas de la unidad temática 4</a></p>
       <p><a href="./5_1_5_Patrones_de_diseno.md#lecturas">Lecturas de la unidad temática 5</a></p>
-      <p><a href="./5_1_6_Patrones_de_arquitectura.md#lecturas">Lecturas de la unidad temática 6</a></p>
+      <p><a href="./5_1_6_Soluciones_de_arquitectura.md#lecturas">Lecturas de la unidad temática 6</a></p>
     </td>
   </tr>
 </table>

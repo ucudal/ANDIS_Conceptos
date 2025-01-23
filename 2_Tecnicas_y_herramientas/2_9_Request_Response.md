@@ -5,11 +5,11 @@
 
 ### Request/Response
 
-> ![](/assets/question.svg)<span style="color:#0969DA"> Problema</span></br>
+> ![](/assets/Question.svg)<span style="color:#0969DA"> Problema</span></br>
 > ¿Cuál es la forma más simple para que un servicio procese un pedido y provea
 > un resultado?
 
-> ![](/assets/solution.svg)<span style="color:#0969DA"> Solución</span></br>
+> ![](/assets/Solution.svg)<span style="color:#0969DA"> Solución</span></br>
 > Procesar los pedidos cuando son recibidos y retornar los resultados en la
 > misma conexión con el cliente
 
