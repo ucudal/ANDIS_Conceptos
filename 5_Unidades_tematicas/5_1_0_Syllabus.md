@@ -298,10 +298,10 @@ width="150"/>
       Actitud académica
     </td>
     <td>
-      Resultado de aprendizaje 1 a 9
+      Ciertos dominios de algunas de las competencias generales
     </td>
     <td>
-      Semana 16
+      A lo largo del curso
     </td>
     <td>
       10%
@@ -309,6 +309,37 @@ width="150"/>
   </tr>
 </table>
 <!-- markdownlint-enable MD033 -->
+
+El componente de actitud académica se evalúa mediante la manifestación de las
+competencias generales del grado UCU a lo largo del curso:
+
+* **Aprender a aprender**: Aprende el proceso de aprender —meta-cognición—. Cree
+  en la capacidad de aprender para crecer —mentalidad de crecimiento—. Persevera
+  y supera desafíos para alcanzar un objetivo Reflexiona sobre la experiencia
+  para mejorar su aprendizaje. Cultiva y administra la inteligencia emocional
+  para comprenderse a sí mismo y a los demás. Se adapta al cambio y muestra
+  resiliencia.
+
+* **Pensamiento crítico y resolución de problemas**. Resuelve ingeniosamente
+  problemas complejos y significativos de la vida real. Toma decisiones y da
+  pasos concretos para enfrentar dificultades. Diseña, gestiona y evalúa
+  iniciativas, programas o proyectos. Adquiere, procesa, interpreta y analiza
+  información para tomar decisiones. Emplea procesos de indagación para resolver
+  problemas. Hace conexiones y transfiere aprendizajes de una situación a otra.
+
+* **Colaboración**. Se involucra en equipos y establece relaciones positivas.
+  Aprende de, y contribuye al aprendizaje de otros. Co-construye conocimiento,
+  significado y contenidos. Asume y gestiona varios roles en un equipo. Asume y
+  gestiona el conflicto. Se relaciona con una variedad de comunidades y grupos.
+  Respeta y comprende perspectivas y enfoques diversos
+
+* **Comunicación**. Se comunica efectivamente en diferentes contextos tanto
+  oralmente como en forma escrita, en español y en inglés. Hace preguntas
+  efectivas para adquirir y profundizar en diversos tipos de conocimientos. Se
+  comunica utilizando una variedad de medios. Selecciona herramientas digitales
+  adecuadas, de acuerdo con su propósito e implicancias. Desarrolla la capacidad
+  de escucha para entender todos los puntos de vista. Expresa opiniones y aboga
+  por ideas fundado en evidencias.
 
 <!-- markdownlint-disable MD033 -->
 <table>
@@ -362,11 +393,59 @@ width="150"/>
       Actitud académica
     </td>
     <td>
-      TBD
+      Lista de cotejo
     </td>
   </tr>
 </table>
 <!-- markdownlint-enable MD033 -->
+
+Rúbrica para evaluación entre pares:
+
+Lista de cotejo para evaluación de actitud académica:
+
+**Aprender a aprender**
+
+| **Indicador**                                                                                     | **Hay evidencia** | **Evidencia insuficiente** | **Hay evidencia en contrario** |
+|---------------------------------------------------------------------------------------------------|-----------------|---------------------|--------------------|
+| **Meta-cognición:** Identifica y explica el proceso que utiliza para aprender.                   |                 |                     |                    |
+| **Mentalidad de crecimiento:** Demuestra confianza en su capacidad de aprender y crecer.          |                 |                     |                    |
+| **Perseverancia:** Supera obstáculos para alcanzar sus objetivos.                                 |                 |                     |                    |
+| **Reflexión:** Evalúa y adapta su aprendizaje a partir de la experiencia.                         |                 |                     |                    |
+| **Inteligencia emocional:** Reconoce y regula sus emociones y muestra empatía hacia los demás.    |                 |                     |                    |
+| **Adaptabilidad y resiliencia:** Se adapta a nuevas circunstancias y persiste ante el cambio.     |                 |                     |                    |
+
+**Pensamiento crítico y resolución de problemas**
+
+| **Indicador**                                                                                     | **Hay evidencia** | **Evidencia insuficiente** | **Hay evidencia en contrario** |
+|---------------------------------------------------------------------------------------------------|-----------------|---------------------|--------------------|
+| **Resolución ingeniosa:** Encuentra soluciones creativas para problemas complejos y significativos.|                 |                     |                    |
+| **Toma de decisiones:** Analiza alternativas y toma decisiones bien fundamentadas.                |                 |                     |                    |
+| **Gestión de proyectos:** Diseña, implementa y evalúa proyectos o iniciativas.                    |                 |                     |                    |
+| **Análisis de información:** Procesa y analiza información para la toma de decisiones.            |                 |                     |                    |
+| **Indagación:** Utiliza procesos de investigación para resolver problemas.                        |                 |                     |                    |
+| **Transferencia:** Aplica aprendizajes de una situación a otra de manera efectiva.                |                 |                     |                    |
+
+**Colaboración**
+
+| **Indicador**                                                                                     | **Hay evidencia** | **Evidencia insuficiente** | **Hay evidencia en contrario** |
+|---------------------------------------------------------------------------------------------------|-----------------|---------------------|--------------------|
+| **Trabajo en equipo:** Participa activamente y fomenta relaciones positivas en el equipo.         |                 |                     |                    |
+| **Contribución mutua:** Aprende de otros y aporta al aprendizaje colectivo.                       |                 |                     |                    |
+| **Co-construcción:** Colabora para generar conocimiento o productos en conjunto.                  |                 |                     |                    |
+| **Gestión de roles:** Desempeña diferentes roles dentro de un equipo de manera efectiva.          |                 |                     |                    |
+| **Manejo de conflictos:** Identifica, gestiona y resuelve conflictos de manera constructiva.      |                 |                     |                    |
+| **Diversidad:** Respeta y valora las perspectivas y enfoques diversos dentro del equipo.          |                 |                     |                    |
+
+**Comunicación**
+
+| **Indicador**                                                                                     | **Hay evidencia** | **Evidencia insuficiente** | **Hay evidencia en contrario** |
+|---------------------------------------------------------------------------------------------------|-----------------|---------------------|--------------------|
+| **Expresión oral y escrita:** Se comunica de forma clara y efectiva en diversos contextos.        |                 |                     |                    |
+| **Formulación de preguntas:** Realiza preguntas para adquirir y profundizar conocimientos.        |                 |                     |                    |
+| **Uso de medios:** Utiliza una variedad de medios para comunicarse.                               |                 |                     |                    |
+| **Herramientas digitales:** Selecciona herramientas tecnológicas según el propósito de la comunicación.|              |                     |                    |
+| **Escucha activa:** Comprende diferentes puntos de vista a través de la escucha atenta.           |                 |                     |                    |
+| **Defensa de ideas:** Expresa opiniones y aboga por ideas basadas en evidencia.                   |                 |                     |                    |
 
 <!-- markdownlint-disable MD033 -->
 <table>

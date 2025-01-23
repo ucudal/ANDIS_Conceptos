@@ -35,6 +35,17 @@ iOS y Android, y abstraerlas en un *framework* común basado en .NET.
 características del desarrollo con React al desarrollo nativo. Es la mejor
 biblioteca de JavaScript de su clase para crear interfaces de usuario.
 
+[SOAP](https://www.w3.org/TR/2000/NOTE-SOAP-20000508/) y [Apache
+Axis](https://axis.apache.org/axis/). SOAP es un protocolo ligero para
+intercambiar información estructurada en un entorno distribuido y
+descentralizado basado en XML. Axis es una implementación de SOAP de Apache.
+
+[REST](/4_Conceptos/4_REST.md) y [API REST con ASP.NET
+Core](https://dotnet.microsoft.com/es-es/apps/aspnet/apis). REST es un estilo
+arquitectónico creado por Roy Fielding para guiar el desarrollo y diseño de la
+arquitectura para la web. API REST con ASP.NET Core es una implementación de
+REST en .NET Core.
+
 [ASP .NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet). ASP.NET Core
 amplía la plataforma para desarrolladores .NET con herramientas y bibliotecas
 específicas para crear aplicaciones web.
