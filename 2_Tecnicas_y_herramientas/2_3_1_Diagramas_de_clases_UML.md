@@ -357,7 +357,7 @@ acciones del usuario a la vista si corresponde.
 <a id="figura-11"/>
 
 ![Diagrama de clases mostrando paquetes del patrón de arquitectura
-MVC](/diagrams/Class_Diagram_Dependency.svg)
+MVC](/diagrams/MVC.svg)
 
 *Figura 11: Diagrama de clases mostrando paquetes del patrón de arquitectura
 MVC.*
