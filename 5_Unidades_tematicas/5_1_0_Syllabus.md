@@ -170,9 +170,15 @@ width="150"/>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
   <tr style="vertical-align:top">
     <td>3. Diseño de software</td>
-    <td><p>Proceso de diseño, principios de diseño, cohesión, acoplamiento</p>
+    <td><p>Principios de diseño: abstracción, separación de aspectos,
+    modularidad, encapsulamiento, uniformidad, completitud, verificabilidad</p>
+    <!-- En modularidad incluir cohesión, acoplamiento, co-nascencia -->
+    <!-- En encapsulamiento incluir ocultamiento de información y separación de
+    interface e implementación -->
+    <p>Proceso de diseño: diseño arquitectónico, diseño de alto nivel, diseño detallado</p>
     <p>Diagramas UML de casos de uso, classes, secuencia, actividades</p></td>
-    <td><i>Customer journey</i><br>Diagramas UML de paquetes, componentes, despliegue</td>
+    <!-- Customer journey lo muevo a 1. Proceso y obtención de requerimientos -->
+    <td>Diagramas UML de paquetes, componentes, despliegue</td>
     <td>10 en clase, 25 en casa</td>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
   </tr>
@@ -186,9 +192,9 @@ width="150"/>
   <tr style="vertical-align:top">
     <td>5. Patrones de diseño y arquitectura</td>
     <td>Patrón Model View Controller</p>
-    <p>Patrones Singleton, Factory, Prototype, Builder, Adapter, Bridge, Decorator, Façade, Proxy, Chain of responsability, Command, Mediator, Memento, Observer, State, Strategy, Visitor</p>
-    <p>Patrones Entity, Value Object, Aggregate, Repository, Factory, Service, anti-patrones y ejemplos de anti-patrones</p></td>
-    <td>Principios SOLID</td>
+    <p>Patrones Singleton, Factory, Prototype, Builder, Adapter, Bridge, Decorator, Façade, Proxy, Chain of responsibility, Command, Mediator, Memento, Observer, State, Strategy, Visitor</p>
+    <p>Patrones Entity, Value Object, Aggregate, Repository, Factory, Service, </p></td>
+    <td>Anti-patrones y ejemplos de anti-patrones</td>
     <td>8 en clase, 20 en casa</td>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupos</td>
   </tr>
@@ -464,7 +470,7 @@ Capítulos 9 y del 2 al 6. Disponible en <a href=https://catalogo.ucu.edu.uy/cgi
       <p><a href="./5_1_3_Diseno_de_software.md#lecturas">Lecturas de la unidad temática 3</a></p>
       <p><a href="./5_1_4_Interfaz_de_usuario.md#lecturas">Lecturas de la unidad temática 4</a></p>
       <p><a href="./5_1_5_Patrones_de_diseno.md#lecturas">Lecturas de la unidad temática 5</a></p>
-      <p><a href="./5_1_6_Soluciones_de_arquitectura.md#lecturas">Lecturas de la unidad temática 6</a></p>
+      <p><a href="./5_1_6_Soluciones_de_arquitectura.md#recursos">Lecturas de la unidad temática 6</a></p>
     </td>
   </tr>
 </table>

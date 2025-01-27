@@ -12,17 +12,18 @@ Este documento está basado en [^2] y [^1].
     Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
-Una [entidad](./4_Entidad.md) es responsable de conocer y manipular sus datos a
-lo largo de su ciclo de vida. Aunque típicamente no son explícitas las causas de
-los cambios en el estado de las entidades y puede ser difícil explicar cómo la
-aplicación llegó a tener los valores que tiene en un momento dado.
+Una [entidad](/2_Tecnicas_y_herramientas/2_8_Entity.md) es responsable de
+conocer y manipular sus datos a lo largo de su ciclo de vida. Aunque típicamente
+no son explícitas las causas de los cambios en el estado de las entidades y
+puede ser difícil explicar cómo la aplicación llegó a tener los valores que
+tiene en un momento dado.
 
 Otro tema diferente, pero relacionado, son las cuestiones que aparecen en los
 sistemas distribuidos, en los que el estado no siempre es consistente
 —[consistencia eventual](https://en.wikipedia.org/wiki/Eventual_consistency)—.
-Mientras que en los [agregados](./4_Agregado.md) se puede mantener la
-consistencia internamente, otros cambios deben ser asíncronos y propagarse a
-través de la red.
+Mientras que en los [agregados](/2_Tecnicas_y_herramientas/2_8_Aggregate.md) se
+puede mantener la consistencia internamente, otros cambios deben ser asíncronos
+y propagarse a través de la red.
 
 Para definir eventos del dominio, considera lo siguiente:
 

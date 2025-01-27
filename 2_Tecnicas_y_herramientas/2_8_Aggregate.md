@@ -1,6 +1,8 @@
-# 4 Conceptos
+# 2 Técnicas y herramientas
 
-## Agregado
+## 2.8 Patrones de diseño
+
+### *Aggregate*
 
 Este documento está basado en [^2] y [^1].
 
@@ -13,7 +15,7 @@ Este documento está basado en [^2] y [^1].
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 Un modelo puede contener una gran cantidad de objetos del
-[dominio](./4_Dominio.md) y una gran cantidad de asociaciones entre estos
+[dominio](../4_Conceptos/4_Dominio.md) y una gran cantidad de asociaciones entre estos
 objetos, creando una complicada red de referencias entre ellos. El desafío
 principal de realizar un buen modelo va de la mano de esta idea, y es que la
 labor más complicada no es que el modelo sea completo, sino que el modelo sea lo
@@ -22,8 +24,8 @@ suficientemente simple y entendible.
 En el contexto de *Domain-Driven Design* —DDD, por sus siglas—, una técnica para
 simplificar un modelo es la de utilizar agregados.
 
-Un agregado es un grupo de objetos asociados —[entidades](./4_Entidad.md) y
-[objetos valor](./4_Objeto_Valor.md)— que son considerados como una unidad a la
+Un agregado es un grupo de objetos asociados —[entidades](./2_8_Entity.md) y
+[objetos valor](./2_8_Value_Object.md)— que son considerados como una unidad a la
 hora de realizar cambios en los datos.
 
 Una de las entidades es denominada la **raíz** del agregado. La raíz puede
@@ -51,7 +53,7 @@ para la distribución de los datos persistidos de los objetos:
   eventual.
 
 * Los datos del agregado se mantienen dentro del mismo nodo en el que reside el
-  cómputo que gestiona el agregado, por ejemplo, su [repositorio](./4_Repository.md).
+  cómputo que gestiona el agregado, por ejemplo, su [repositorio](./2_8_Repository.md).
 
 * Los datos de diferentes agregados pueden estar en nodos diferentes.
 
