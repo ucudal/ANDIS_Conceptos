@@ -6,53 +6,59 @@
 
 #### Lecturas
 
-Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
-Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
-Capítulos 9 y del 2 al 6. Disponible en
-[biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=121158)
+En este repositorio lee lo siguiente:
 
-Daniels, L. (2000). Managing the product requirements definition process. In
-Project Management Institute Annual Seminars & Symposium, Houston, TX. Newtown
-Square, PA: Project Management Institute. Disponible [aquí](https://www.pmi.org/learning/library/product-requirements-definition-process-foundation-1894)
+<!-- Ver con José otros conceptos clave que tengan que estar definidos. ¿Volere? -->
+* [Requerimiento](TBD)
+
+* [Requerimiento funcional](TBD)
+
+* [Requisito no-funcional](TBD)
+
+* [Evento del negocio](/4_Conceptos/4_Evento_del_dominio.md)
+
+* [Caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md)
+
+* [Caso de uso del producto](/4_Conceptos/4_Caso_de_uso_del_producto.md)
+
+* [Historias de usuario](/4_Conceptos/4_Historia_de_usuario.md)
+
+* [Épicas](/4_Conceptos/4_Epica.md)
+
+* [Interesados](/4_Conceptos/4_Interesado.md)
+
+* [Diagramas de
+contexto](/2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md)
+
+* [Diagramas UML de casos de
+uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md)
+
+* [Personas](/2_Tecnicas_y_herramientas/2_1_3_Personas.md)
+
+<!-- Si va acá hay que agregar este tema -->
+* [*Customer Journey*](TBD)
+
+Lee los capítulos 2 al 6 y 9 de [^1].
+
+[^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
+    Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley
+    Professional. Disponible en
+    [biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=121158)
 
 <!-- Nuevo para ver con José -->
-Fase de inicio ‑o *inception*‑ del Disciplined Agile Delivery del Project
-Management Institute, disponible
+Lee sobre la fase de inicio ‑o *inception*‑ del Disciplined Agile Delivery del
+Project Management Institute, disponible
 [aquí](https://www.pmi.org/disciplined-agile/inception-goals), en particular la
 sección [*Explore
 scope*](https://www.pmi.org/disciplined-agile/inception-goals/explore-initial-scope).
 
-<!-- Ver con José otros conceptos clave que tengan que estar definidos. ¿Volere? -->
-[Requerimiento](TBD)
 
-[Requerimiento funcional](TBD)
-
-[Requisito no-funcional](TBD)
-
-[Evento del negocio](/4_Conceptos/4_Evento_del_dominio.md)
-
-[Caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md)
-
-[Caso de uso del producto](/4_Conceptos/4_Caso_de_uso_del_producto.md)
-
-[Historias de usuario](/4_Conceptos/4_Historia_de_usuario.md)
-
-[Épicas](/4_Conceptos/4_Epica.md)
-
-[Interesados](/4_Conceptos/4_Interesado.md)
-
-[Diagramas de
-contexto](/2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md)
-
-[Diagramas UML de casos de
-uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md)
-
-[Personas](/2_Tecnicas_y_herramientas/2_1_3_Personas.md)
-
-<!-- Si va acá hay que agregar este tema -->
-[*Customer Journey*](TBD)
 
 #### Lecturas complementarias
+
+Daniels, L. (2000). Managing the product requirements definition process. In
+Project Management Institute Annual Seminars & Symposium, Houston, TX. Newtown
+Square, PA: Project Management Institute. Disponible [aquí](https://www.pmi.org/learning/library/product-requirements-definition-process-foundation-1894)
 
 Fricker, S. A., Grau, R., & Zwingli, A. (2014). Requirements engineering: best
 practice. In Requirements engineering for digital health p. 25-46. Cham:
