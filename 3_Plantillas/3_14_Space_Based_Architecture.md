@@ -42,20 +42,20 @@ En la [Figura 1](#figura-1), a continuación, aparecen los siguientes elementos:
   procesamiento adecuado; además maneja la sesión. El componente `Data Grid`
   estereotipado como `≪cache≫` se encarga de sincronizar los componentes `In
   Memory Data Grid` de los nodos de procesamiento, en caso de que esos caché no
-  se sincronicen entre sí —por eso es opcional—. El componente `Processing Grid`
+  se sincronicen entre sí ‑por eso es opcional‑. El componente `Processing Grid`
   estereotipado como `≪orchestrator≫` es encargado de orquestar el procesamiento
-  de eventos entre varios nodos de procesamiento si fuera necesario —por eso es
-  opcional—. El componente `Deployment Manager` estereotipado como `≪agent≫`
-  monitorea los nodos de procesamiento e inicia —o detiene— instancias de estos
+  de eventos entre varios nodos de procesamiento si fuera necesario ‑por eso es
+  opcional‑. El componente `Deployment Manager` estereotipado como `≪agent≫`
+  monitorea los nodos de procesamiento e inicia ‑o detiene‑ instancias de estos
   nodos si fuera necesario.
 
-* El componente `Write Data Pump` es una cola —por eso está estereotipado con
-  `≪queue≫`— utilizada como buffer para enviar pedidos de escritura al
+* El componente `Write Data Pump` es una cola ‑por eso está estereotipado con
+  `≪queue≫`‑ utilizada como buffer para enviar pedidos de escritura al
   componente `Data Writer`; este último es el encargado de escribir realmente en
   la base de datos.
 
-* El componente `Read Request` es también una cola —por eso también está
-  estereotipado con `≪queue≫`— utilizada como buffer para recibir pedidos de
+* El componente `Read Request` es también una cola ‑por eso también está
+  estereotipado con `≪queue≫`‑ utilizada como buffer para recibir pedidos de
   lectura consumidos por el componente `Data Reader`; este último es el
   encargado de leer desde la base de datos y poner el resultado en otra cola
   `Reverse Data Pump`.

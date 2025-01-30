@@ -2,11 +2,11 @@
 
 ## RPC o *remote procedure call*
 
-RPC —o llamada a procedimiento remoto en español— es un estilo de interacción
+RPC ‑o llamada a procedimiento remoto en español‑ es un estilo de interacción
 entre [componentes](/4_Conceptos/4_Componente.md) que se basa en las llamadas a
-procedimientos —sub-rutinas— de los lenguajes imperativos, excepto que el
+procedimientos ‑sub-rutinas‑ de los lenguajes imperativos, excepto que el
 procedimiento llamado se encuentra en otro componente en un espacio de
-direccionamiento diferente —en otra parte de la red—.
+direccionamiento diferente ‑en otra parte de la red‑.
 
 El programador codifica la llamada al procedimiento como si se estuviera
 llamando a un procedimiento local. La llamada se traduce en un mensaje que se

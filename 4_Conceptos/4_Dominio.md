@@ -16,7 +16,7 @@ El dominio es un área de conocimiento, influencia o actividad. El área temáti
 a la que el usuario aplica un programa es el dominio del software. Compáralo
 con [trabajo o área de trabajo](./4_Trabajo_y_area_de_trabajo.md).
 
-En el contexto de *Domain-Driven Design* —DDD, por sus siglas—, dominio refiere
+En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, dominio refiere
 al contexto en el cual encaja el sistema, y es el aspecto central de esta
 filosofía. En DDD, el dominio es el lugar en el cual se debe empezar el proceso
 de modelado; todo software pertenece a un dominio, y es complicado crear

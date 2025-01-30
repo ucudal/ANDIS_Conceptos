@@ -2,14 +2,14 @@
 
 ## Protección o *safety*
 
-La protección —o *safety* en inglés— es un atributo de la calidad de software
+La protección ‑o *safety* en inglés‑ es un atributo de la calidad de software
 que define la capacidad de un sistema, producto o componente, en condiciones
 definidas, de evitar un estado en el que se ponga en peligro la vida humana, la
 salud, la propiedad o el medio ambiente[^1].
 
 [^1]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
-    engineering—Systems and software Quality Requirements and Evaluation
-    (SQuaRE) — System and software quality models.
+    engineering‑Systems and software Quality Requirements and Evaluation
+    (SQuaRE) ‑ System and software quality models.
 
 Esta característica se subdivide a su vez en las siguientes sub-características:
 
@@ -41,14 +41,14 @@ Estos estados inseguros pueden ser causados ​​por una variedad de factores:
 * **Omisión**. El hecho de que un evento no ocurra.
 * **Comisión**. La ocurrencia espuria de un evento indeseable. El evento puede
   ser aceptable en algunos estados del sistema, pero indeseable en otros.
-* **Tiempo**. Tanto el tiempo temprano —la ocurrencia de un evento antes del
-  tiempo requerido— como el tardío —la ocurrencia de un evento después del
-  tiempo requerido— pueden ser potencialmente problemáticos.
+* **Tiempo**. Tanto el tiempo temprano ‑la ocurrencia de un evento antes del
+  tiempo requerido‑ como el tardío ‑la ocurrencia de un evento después del
+  tiempo requerido‑ pueden ser potencialmente problemáticos.
 * **Problemas con los valores del sistema**. Estos se dividen en dos categorías:
   los valores incorrectos gruesos son incorrectos pero detectables, mientras que
   los valores incorrectos sutiles son típicamente indetectables.
 * **Omisión y comisión de secuencia**. En una secuencia de eventos, falta un
-  evento —omisión— o se inserta un evento inesperado —comisión—.
+  evento ‑omisión‑ o se inserta un evento inesperado ‑comisión‑.
 * **Fuera de secuencia**. Una secuencia de eventos llega, pero no en el orden
   debido.
 
@@ -58,7 +58,7 @@ Se debe reconocer el estado inseguro y hacer que el sistema sea seguro mediante:
 
 * Continuar las operaciones después de recuperarse del estado inseguro o colocar
   el sistema en un modo seguro, o
-* Apagarlo —fallo seguro o *fail safe*—; o
+* Apagarlo ‑fallo seguro o *fail safe*‑; o
 * Transición a un estado que requiera operación manual.
 
 Además, el estado inseguro debe ser registrado e informado.

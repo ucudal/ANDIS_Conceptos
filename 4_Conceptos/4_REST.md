@@ -2,7 +2,7 @@
 
 ## REST o *representational state transfer*
 
-REST —o transferencia de estado representacional— es un estilo arquitectónico
+REST ‑o transferencia de estado representacional‑ es un estilo arquitectónico
 creado por [Roy Fielding](https://en.wikipedia.org/wiki/Roy_Fielding) para guiar
 el desarrollo y diseño de la arquitectura para la World Wide Web. Está basado en
 seis restricciones impuestas sobre las [interacciones](./4_Interaccion.md) entre
@@ -14,8 +14,8 @@ para un sistema de hipermedia a escala de Internet como el de la web[^1]:
 
 * [Interfaz](/4_Conceptos/4_Interfaz.md) uniforme. Todas las interacciones son
   de la misma forma, típicamente HTTP. Los [recursos](./4_Recurso.md) provistos
-  a través de la interfaz se especifican mediante una URI —o *universal resource
-  identifier*—.
+  a través de la interfaz se especifican mediante una URI ‑o *universal resource
+  identifier*‑.
 
 * Cliente-servidor. Los actores son clientes y los proveedores de recursos son
   servidores que utilizan el patrón cliente-servidor.
@@ -33,12 +33,12 @@ para un sistema de hipermedia a escala de Internet como el de la web[^1]:
   cliente. Es necesario disponer de un mecanismos para conocer cuándo la
   respuesta queda desactualizada.
 
-* Arquitectura en capas. El servidor puede dividirse en capas —ver por ejemplo
-  el [estilo layered architecture](/3_Plantillas/3_9_Layered_Architecture.md)—
+* Arquitectura en capas. El servidor puede dividirse en capas ‑ver por ejemplo
+  el [estilo layered architecture](/3_Plantillas/3_9_Layered_Architecture.md)‑
   que se pueden desplegar de forma independiente. El cliente no tiene forma de
   saber si se está comunicando un servidor final o con un servidor intermedio.
 
-* Código a demanda —opcional—. El servidor puede proveer código al cliente para
+* Código a demanda ‑opcional‑. El servidor puede proveer código al cliente para
   que éste ejecute. Javascript en un ejemplo.
 
 Aunque HTTP es el protocolo que más se usa para implementar REST, no es el

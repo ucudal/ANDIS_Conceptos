@@ -17,8 +17,8 @@ TODO: Completar con información de https://dabrowser.pmi.org/#item:287
 
 * **Pruebas de caja blanca**. También conocidas como prueba de caja
   transparente, prueban las estructuras internas o el funcionamiento de una
-  aplicación, a diferencia de su funcionalidad —que serían pruebas de caja
-  negra—. Para diseñar los casos de estas pruebas se usa una perspectiva interna
+  aplicación, a diferencia de su funcionalidad ‑que serían pruebas de caja
+  negra‑. Para diseñar los casos de estas pruebas se usa una perspectiva interna
   del sistema. Este enfoque de pruebas se puede aplicar a nivel de unidad,
   integración y de sistema.
 

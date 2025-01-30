@@ -7,9 +7,9 @@ and filters*; este es un estilo de arquitectura monolítica.
 
 Esta plantilla está basada en [^1].
 
-Tiene entidades independientes llamadas filtros —*filters*— que realizan
+Tiene entidades independientes llamadas filtros ‑*filters*‑ que realizan
 transformaciones en los datos y procesan la entrada que reciben, y tuberías
-—*pipes*— que sirven como conectores para el flujo de datos que se está
+‑*pipes*‑ que sirven como conectores para el flujo de datos que se está
 transformando. Transforma datos, desde la entrada hasta la salida. Es deseable
 crear estas partes como componentes independientes y reutilizables.
 

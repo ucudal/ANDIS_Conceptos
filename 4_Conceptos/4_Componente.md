@@ -36,7 +36,7 @@ Un **componente** es una parte de un sistema que interactúa con otras partes a
 través de interfaces. Es la unidad que implementa una función específica dentro
 de un sistema más grande[^3].
 
-[^3]: IEEE. (2O22). ISO/IEC/IEEE 42010:2022 Software, systems and enterprise —
+[^3]: IEEE. (2O22). ISO/IEC/IEEE 42010:2022 Software, systems and enterprise ‑
     Architecture description. ISO.
 
 #### Rozanski & Woods
@@ -83,7 +83,7 @@ cuales aparecen a continuación[^1]:
 
 * Un componente también puede ser un servicio en una [service based
   architecture](/2_Tecnicas_y_herramientas/2_7_4_Service_Based_Architecture), un
-  micro—servicio en una [microservices
+  micro‑servicio en una [microservices
   architecture](/2_Tecnicas_y_herramientas/2_7_8_Microservices_Architecture.md),
   o en cualquier otro arquitectura distribuida.
 
@@ -101,7 +101,7 @@ un arquitecto se refiere a la partición de alto nivel de los componentes en la
 arquitectura[^1].
 
 Habitualmente el componente es el nivel más bajo con el que interactúa
-directamente un arquitecto —exceptuando tal vez métricas que afectan [atributos
+directamente un arquitecto ‑exceptuando tal vez métricas que afectan [atributos
 de calidad](/4_Conceptos/4_Atributos_de_calidad.md) en las bases del código. Las
 clases o funciones y procedimientos dentro de un componente son responsabilidad
 de los desarrolladores[^1].
@@ -146,7 +146,7 @@ arquitectura de software:
 Como los componentes pueden estar a su vez compuestos por componentes, los
 componentes correspondientes a los dominios en la [Figura 2](#figura-2) pueden
 estar implementados internamente con los componentes de la [Figura 1](#figura-1)
-—pero no al revés—.
+‑pero no al revés‑.
 
 La partición por el domino es la apropiada para un estilo de arquitectura de
 [microservicios](/2_Tecnicas_y_herramientas/2_7_8_Microservices_Architecture.md);
@@ -208,8 +208,8 @@ Desventajas:
 * Los cambios en un componente pueden afectar a todos los demás componentes que
   dependen del él.
 
-* Los desarrolladores pueden tener que duplicar conceptos de dominio —por
-  ejemplo, validación de reglas del negocio— en diferentes componentes.
+* Los desarrolladores pueden tener que duplicar conceptos de dominio ‑por
+  ejemplo, validación de reglas del negocio‑ en diferentes componentes.
 
 * Habitualmente el acoplamiento es mayor en el nivel de datos. Los arquitectos
   de aplicaciones y datos probablemente colaborarían para crear una única base
@@ -221,9 +221,9 @@ Ninguna de las alternativas es mejor que la otra, aunque la elección inicial
 tiene consecuencias: por ejemplo, si es necesario tener componentes redundantes
 para alcanzar atributos de calidad tales como
 [disponibilidad](./4_Disponibilidad.md) o [rendimiento](./4_Rendimiento.md) de
-ciertas funcionalidades o flujos de trabajo —como el carrito de compras en las
-fiestas—, es más fácil lograrlo con la partición por dominio —asumiendo que esas
-funcionalidades o flujos de trabajo están contenidas en un componente—, pero no
+ciertas funcionalidades o flujos de trabajo ‑como el carrito de compras en las
+fiestas‑, es más fácil lograrlo con la partición por dominio ‑asumiendo que esas
+funcionalidades o flujos de trabajo están contenidas en un componente‑, pero no
 así con la partición técnica.
 
 ### Flujo de identificación de componentes

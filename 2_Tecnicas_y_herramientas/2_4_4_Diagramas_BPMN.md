@@ -4,8 +4,8 @@
 
 ### 2.4.4 Diagramas BPMN
 
-BPMN significa *business process model and notation* —modelado y notación de
-procesos del negocio—. Es un estándar para el modelado de procesos del negocio
+BPMN significa *business process model and notation* ‑modelado y notación de
+procesos del negocio‑. Es un estándar para el modelado de procesos del negocio
 que provee una notación gráfica similar a los [diagramas de actividades
 UML](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md).
 
@@ -18,7 +18,7 @@ automatización de procesos como WS-BPEL[^2].
 
 Los diagramas BPMN tienen típicamente los siguientes elementos gráficos:
 
-* **Objeto de flujo**: evento, actividad, pasarela —*gateways*—.
+* **Objeto de flujo**: evento, actividad, pasarela ‑*gateways*‑.
 
 * **Datos**: objeto de datos, entrada de datos, salida de datos,
   almacenamiento de datos.
@@ -30,7 +30,7 @@ Los diagramas BPMN tienen típicamente los siguientes elementos gráficos:
 
 Un evento es algo que sucede durante el curso de un proceso o una coreografía.
 Estos eventos afectan el flujo del modelo y generalmente tienen una causa
-—desencadenante— o un impacto —resultado—. Los eventos se representan con
+‑desencadenante‑ o un impacto ‑resultado‑. Los eventos se representan con
 círculos con centros en blanco para permitir agregar marcadores en el interior
 para diferenciar diferentes desencadenantes o resultados. Hay tres tipos de
 eventos, según cuándo afectan el flujo: inicio, intermedio y final.
@@ -42,7 +42,7 @@ eventos, según cuándo afectan el flujo: inicio, intermedio y final.
 *Figura 1: Eventos de inicio, intermedio y final.*
 
 Una actividad es un término genérico para el trabajo que realiza el negocio en
-un proceso. Una actividad puede ser atómica o no atómica —compuesta—. Los tipos
+un proceso. Una actividad puede ser atómica o no atómica ‑compuesta‑. Los tipos
 de actividades que forman parte de un modelo de procesos son sub-procesos y
 tareas, que se representan con rectángulos redondeados. Las actividades se
 utilizan tanto en procesos estándar como en coreografías.
@@ -53,10 +53,10 @@ utilizan tanto en procesos estándar como en coreografías.
 
 *Figura 2: Tareas y sub-procesos.*
 
-Una pasarela —*gateway*— se utiliza para controlar la divergencia y convergencia
+Una pasarela ‑*gateway*‑ se utiliza para controlar la divergencia y convergencia
 de los flujos de secuencia en un proceso y en una coreografía. Por lo tanto,
-determinará la ramificación —*branch*—, bifurcación —*fork*—, fusión —*merge*— y
-unión —*join*— de caminos. Los marcadores internos indicarán el tipo de
+determinará la ramificación ‑*branch*‑, bifurcación ‑*fork*‑, fusión ‑*merge*‑ y
+unión ‑*join*‑ de caminos. Los marcadores internos indicarán el tipo de
 comportamiento.
 
 <a id="figura-3"/>
@@ -67,16 +67,16 @@ comportamiento.
 
 Algunos tipos de pasarelas son:
 
-* Pasarela exclusiva —XOR—: Crea caminos alternativos en un flujo de proceso. En
+* Pasarela exclusiva ‑XOR‑: Crea caminos alternativos en un flujo de proceso. En
   una pasarela usada como ramificación, una expresión está asociada a los flujos
   de secuencia de salida; el flujo de control pasará por aquél en que la
-  expresión sea verdadera; las condiciones son excluyentes —no pueden ser todas
-  verdaderas a la vez—; puede haber un flujo sin expresión, que se tomará si no
+  expresión sea verdadera; las condiciones son excluyentes ‑no pueden ser todas
+  verdaderas a la vez‑; puede haber un flujo sin expresión, que se tomará si no
   se cumple ninguna de las otras expresiones. Cuando esta pasarela es usada como
   fusión, combina el flujo de control previamente separado en ramas por una
   pasarela exclusiva.
 
-* Pasarela inclusiva —OR—: Crea caminos alternativos o paralelos en un flujo de
+* Pasarela inclusiva ‑OR‑: Crea caminos alternativos o paralelos en un flujo de
   proceso. En una pasarela usada como ramificación, una expresión está asociada
   a los flujos de secuencia de salida; el flujo de control pasará en paralelo por
   todas los flujos de secuencia cuyas condiciones se cumplan; puede haber un
@@ -120,7 +120,7 @@ Algunos tipos de flujos de secuencia son:
 
 * Flujo predeterminado: Para puertas de enlace exclusivas basadas en datos o
   puertas de enlace inclusivas, un tipo de flujo es el flujo de condición
-  predeterminado —sin expresión asociada—. Este flujo se utilizará solo si el
+  predeterminado ‑sin expresión asociada‑. Este flujo se utilizará solo si el
   resto del flujo condicional saliente no es verdadero en tiempo de ejecución.
   Estos flujos de secuencia tendrán una barra diagonal que se agregará al
   comienzo del conector.

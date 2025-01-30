@@ -94,7 +94,7 @@ Una partición se representa con dos líneas, generalmente paralelas, ya sea
 horizontales o verticales, y un nombre que etiqueta la partición en un cuadro en
 un extremo. Los nodos de actividad y los flujos de control colocados entre estas
 líneas se consideran contenidos dentro de la partición. Esta notación para una
-partición se conoce coloquialmente como andarivel —*swimlane*—, como se muestra
+partición se conoce coloquialmente como andarivel ‑*swimlane*‑, como se muestra
 en la [Figura 4](#figura-4) a continuación.
 
 <a id="figura-4"/>

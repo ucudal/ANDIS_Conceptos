@@ -21,8 +21,8 @@ donde se utilizan en el sistema implementado.
 
 Los diagramas de componentes tienen principalmente:
 
-* Componentes, que se representan con un rectángulo —pues son
-  [clasificadores](/4_Conceptos/4_Clasificador.md)— con un ícono de componente
+* Componentes, que se representan con un rectángulo ‑pues son
+  [clasificadores](/4_Conceptos/4_Clasificador.md)‑ con un ícono de componente
   dentro o con el estereotipo `≪component≫`, y son elementos del modelo que
   representan partes independientes e intercambiables de un sistema. Un
   componente proporciona comportamiento a través de interfaces provistas y
@@ -43,8 +43,8 @@ Los diagramas de componentes tienen principalmente:
 
   ![Artefacto](/diagrams/Component_Diagram_Artifact.svg)
 
-* Interfaces, que definen conjuntos de operaciones proporcionadas —en el caso de
-  las interfaces provistas— o requeridas —en el caso de las consumidas—. Las
+* Interfaces, que definen conjuntos de operaciones proporcionadas ‑en el caso de
+  las interfaces provistas‑ o requeridas ‑en el caso de las consumidas‑. Las
   interfaces provistas se representan con el símbolo de *lollipop* y las
   consumidas por el símbolo de medio círculo o con una flecha punteada, aunque
   también se pueden representar con un rectángulo con el estereotipo
@@ -60,8 +60,8 @@ Los diagramas de componentes tienen principalmente:
 <!-- TODO: Agregar diagrama de ejemplo -->
 
 En la [Figura 1](#figura-1), a continuación, aparece un ejemplo de un diagrama
-de componentes. En el ejemplo aparecen tres subsistemas —componentes con el
-estereotipo `≪subsystem≫`—: `WebStore`, `Warehouses` y `Accounting`. El
+de componentes. En el ejemplo aparecen tres subsistemas ‑componentes con el
+estereotipo `≪subsystem≫`‑: `WebStore`, `Warehouses` y `Accounting`. El
 subsistema `WebStore` provee o expone las interfaces `ProductSearch`,
 `OnlineShopping` y `UserSession` a través de los puertos que aparecen a la
 izquierda. A su vez requiere de las interfaces `SearchInventory`, `ManageOrders`

@@ -2,15 +2,15 @@
 
 ## Seguridad
 
-La seguridad —o *security* en inglés— es un atributo de la calidad de software
+La seguridad ‑o *security* en inglés‑ es un atributo de la calidad de software
 que define la capacidad de protección de la información y los datos de manera
 que las personas u otros sistemas, productos o componentes tengan el grado de
 acceso a los datos adecuado a sus tipos y niveles de autorización, y para
 defenderse de los patrones de ataque de agentes malintencionados[^1].
 
 [^1]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
-    engineering—Systems and software Quality Requirements and Evaluation
-    (SQuaRE) — System and software quality models.
+    engineering‑Systems and software Quality Requirements and Evaluation
+    (SQuaRE) ‑ System and software quality models.
 
 Esta característica se subdivide a su vez en las siguientes sub-características:
 
@@ -22,7 +22,7 @@ Esta característica se subdivide a su vez en las siguientes sub-característica
   malintencionadas o por errores informáticos.
 * **No-repudio**. Es la capacidad de demostrar las acciones o eventos que han
   tenido lugar, de manera que dichas acciones o eventos no puedan ser
-  repudiados —rechazados, no aceptados— posteriormente.
+  repudiados ‑rechazados, no aceptados‑ posteriormente.
 * **Responsabilidad**. Es la capacidad de rastrear de forma inequívoca las
   acciones de una entidad.
 * **Autenticidad**. Es la capacidad de un sistema, producto o componente para
@@ -42,8 +42,8 @@ autorizado de acceder a los datos o servicios o de modificarlos, o puede tener
 como objetivo denegar servicios a usuarios legítimos.
 
 El enfoque más simple para caracterizar la seguridad se centra en tres
-características: confidencialidad, integridad y disponibilidad —o CIA por las
-siglas en inglés de *confidentiality*, *integrity* and *availability*—:
+características: confidencialidad, integridad y disponibilidad ‑o CIA por las
+siglas en inglés de *confidentiality*, *integrity* and *availability*‑:
 
 * La **confidencialidad** es la propiedad de que los datos o servicios están
   protegidos contra el acceso no autorizado. Por ejemplo, un pirata informático

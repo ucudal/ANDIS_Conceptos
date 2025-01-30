@@ -18,11 +18,11 @@ ensamblar objetos complejos no es una responsabilidad que pueda ser asignada a
 los objetos creados, o puede producir diseños poco elegantes y difíciles de
 entender. Hacer que el cliente dirija la construcción de esos objetos enturbia
 el diseño del cliente, viola el encapsulamiento del objeto ensamblado o agregado
-—requiere que el cliente conozca la estructura interna y las relaciones con
-otros objetos— y vincula excesivamente al cliente con la implementación del
+‑requiere que el cliente conozca la estructura interna y las relaciones con
+otros objetos‑ y vincula excesivamente al cliente con la implementación del
 objeto creado.
 
-Una *Factory* —fábrica, en español— es una clase utilizada para encapsular el
+Una *Factory* ‑fábrica, en español‑ es una clase utilizada para encapsular el
 conocimiento necesario para la creación de objetos, y es especialmente útil para
 la creación de agregados y objetos complejos. En una *Factory* se desplaza la
 responsabilidad de crear agregados y objetos complejos a un nuevo objeto que
@@ -31,7 +31,7 @@ forma parte del diseño del dominio. Provee una interfaz que encapsula la lógic
 compleja del ensamblado y crea agregados enteros como una unidad, cumpliendo
 entonces con sus invariantes.
 
-Es importante que el proceso de creación de objetos sea atómico —todo o nada—
+Es importante que el proceso de creación de objetos sea atómico ‑todo o nada‑
 para evitar que los objetos creados estén incompletos. Para los agregados, esto
 significa que cuando la raíz sea creada, todos los objetos también deben ser
 creados de forma tal que se cumplan las invariantes que hubiera. Para los
