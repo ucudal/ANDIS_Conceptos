@@ -3,21 +3,21 @@
 ## Cohesión
 
 La cohesión es una de las formas con las que se mide la modularidad en
-ingeniería de software —las otras son el [acoplamiento](./4_Acoplamiento.md) y
-la [co-nascencia o *connascence*](./4_Connascence.md)—. Refiere a hasta qué
+ingeniería de software ‑las otras son el [acoplamiento](./4_Acoplamiento.md) y
+la [co-nascencia o *connascence*](./4_Connascence.md)‑. Refiere a hasta qué
 punto las partes de un módulo deben estar contenidas dentro del mismo módulo. En
 otras palabras, es una medida de qué tan relacionadas están las partes entre
 sí[^1].
 
 Qué es un módulo y cuáles son sus partes depende del contexto, veamos algunos
-ejemplos —la lista no es exhaustiva—:
+ejemplos ‑la lista no es exhaustiva‑:
 
-* En el contexto del despliegue —*deployment*— un módulo puede ser un ensamblado
-  —*assembly*— de C# y sus partes pueden ser los tipos de datos definidos en ese
+* En el contexto del despliegue ‑*deployment*‑ un módulo puede ser un ensamblado
+  ‑*assembly*‑ de C# y sus partes pueden ser los tipos de datos definidos en ese
   ensamblado.
 
 * En el contexto de la definición de tipos un módulo puede ser un espacio de
-  nombres —*namespace*— de C# y sus partes también pueden ser los tipos de datos
+  nombres ‑*namespace*‑ de C# y sus partes también pueden ser los tipos de datos
   definidos en ese espacio de nombres.
 
 * En el contexto de un lenguaje de programación orientado a objetos un módulo
@@ -38,8 +38,8 @@ modularidad que la cohesión sea alta, pero también que al mismo tiempo el
 acoplamiento sea bajo. Lo mismo aplica para cohesión y co-nascencia.
 
 Idealmente, un módulo cohesivo es aquel en el que todas las partes deben estar
-juntas, porque dividirlas en partes más pequeñas —o separarlas en diferentes
-módulos— requeriría acoplar las partes —crear nuevas conexiones entre módulos—
+juntas, porque dividirlas en partes más pequeñas ‑o separarlas en diferentes
+módulos‑ requeriría acoplar las partes ‑crear nuevas conexiones entre módulos‑
 para lograr un resultado equivalente.
 
 Cabe reconocer que la cohesión es muchas veces discrecional, es decir, queda a

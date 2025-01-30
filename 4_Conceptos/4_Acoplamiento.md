@@ -3,10 +3,10 @@
 ## Acoplamiento
 
 El acoplamiento es una de las formas con las que se mide la modularidad en
-ingeniería de software —las otras son la [cohesión](./4_Cohesion.md) y la
-[co-nascencia o *connascence*](./4_Connascence.md)—. Refiere a la conexión
+ingeniería de software ‑las otras son la [cohesión](./4_Cohesion.md) y la
+[co-nascencia o *connascence*](./4_Connascence.md)‑. Refiere a la conexión
 entre partes de diferentes módulos o entre diferentes módulos, y puede ser
-aferente —hacia adentro— o eferente —hacia afuera—[^1]:
+aferente ‑hacia adentro‑ o eferente ‑hacia afuera‑[^1]:
 
 * El acoplamiento aferente mide el número de conexiones entrantes a una parte de
 un módulo.
@@ -49,5 +49,5 @@ primero.
 [^1]: Yourdon, E. & Constantine, L. (1979). Structured Design: Fundamentals of a
     Discipline of Computer Program and Systems Design. Prentice-Hall.
 [^2]: Es posible evitar esto usando el calificador completo del tipo de datos;
-    esto simplifica la escritura de código pero no elimina la conexión —la
-    dependencia— entre las clases de los diferentes espacios de nombres.
+    esto simplifica la escritura de código pero no elimina la conexión ‑la
+    dependencia‑ entre las clases de los diferentes espacios de nombres.

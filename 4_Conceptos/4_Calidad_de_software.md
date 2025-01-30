@@ -74,10 +74,10 @@ verificación para el **criterio** **completitud**.
 
 Para obtener la medida de la calidad, sumamos la cantidad de marcas en la lista
 de verificación, la normalizamos al intervalo [0, 1] para obtener la medida de
-un **criterio** —tercer nivel—; luego sumamos todos los **criterios** de cada
-**factor** para obtener la medida de un **factor** —segundo nivel—; luego
+un **criterio** ‑tercer nivel‑; luego sumamos todos los **criterios** de cada
+**factor** para obtener la medida de un **factor** ‑segundo nivel‑; luego
 sumamos los **factores** de cada **uso** para obtener la medida de todos los
-**usos** —primer nivel—; finalmente sumamos los **usos** para obtener la medida
+**usos** ‑primer nivel‑; finalmente sumamos los **usos** para obtener la medida
 de la calidad [^2].
 
 La siguiente [Figura 1](#figura-1) muestra el modelo de calidad de McCall:
@@ -126,8 +126,8 @@ La siguiente [Figura 3](#figura-3) muestra el modelo de calidad de la norma ISO
 
 ### Normas de calidad y de procesos
 
-La Organización Internacional para la Estandarización —o ISO, por sus siglas en
-inglés— y el Instituto de Ingenieros Eléctricos y Electrónicos —o IEEE— son dos
+La Organización Internacional para la Estandarización ‑o ISO, por sus siglas en
+inglés‑ y el Instituto de Ingenieros Eléctricos y Electrónicos ‑o IEEE‑ son dos
 de las organizaciones más importantes en la promulgación de estándares y normas
 de calidad y de ingeniería de software. A continuación verán algunos estándares
 relevantes desarrollados por estas dos entidades.
@@ -248,37 +248,37 @@ Las áreas de procesos de la representación continua de CMMI son:
   relacionadas con la planificación, monitoreo y control de proyectos.
 
 * Ingeniería. Incluye las actividades de desarrollo y mantenimiento, comunes a
-  todas las disciplinas de ingeniería —ingeniería de sistemas e ingeniería de
-  software—.
+  todas las disciplinas de ingeniería ‑ingeniería de sistemas e ingeniería de
+  software‑.
 
 * Soporte. Incluye procesos que son usados en el contexto de la ejecución de
   otros procesos.
 
 Los niveles de capacidad de la representación continua son:
 
-* 0 — Incompleto. Un proceso incompleto es un proceso que no es realizado o es
+* 0 ‑ Incompleto. Un proceso incompleto es un proceso que no es realizado o es
   realizado parcialmente.
 
-* 1 — Realizado. Un proceso realizado es el que satisface los objetivos del área
+* 1 ‑ Realizado. Un proceso realizado es el que satisface los objetivos del área
   de proceso.
 
-* 2 — Gestionado. Un proceso gestionado es un proceso realizado que se planifica
+* 2 ‑ Gestionado. Un proceso gestionado es un proceso realizado que se planifica
   y ejecuta de acuerdo con una política; que emplea personas capacitadas, que
   tienen los recursos adecuados para producir productos controlados; que incluye
   los involucrados relevantes; es monitoreado, controlado y revisado; y del que
   se evalúa su adherencia a la descripción del proceso.
 
-* 3 — Definido. Un proceso definido es un proceso gestionado que ha sido
+* 3 ‑ Definido. Un proceso definido es un proceso gestionado que ha sido
   adaptado del conjunto de procesos estándar de la organización, de acuerdo a
   las guías de adaptación de la organización; y que contribuye con productos de
   trabajo, medidas y otra información para la mejora de los procesos y a los
   activos organizacionales de procesos.
 
-* 4 — Administrado cuantitativamente. Un proceso administrado cuantitativamente
+* 4 ‑ Administrado cuantitativamente. Un proceso administrado cuantitativamente
   es un proceso definido, controlado mediante estadística y otras técnicas
   cuantitativas.
 
-* 5 — Optimizado. Un proceso optimizado es un proceso administrado
+* 5 ‑ Optimizado. Un proceso optimizado es un proceso administrado
   cuantitativamente que se cambia y adapta para alcanzar los objetivos
   relevantes, actuales y proyectados del negocio.
 

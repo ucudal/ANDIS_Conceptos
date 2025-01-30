@@ -60,8 +60,8 @@ lista será necesariamente incompleta. El estándar ISO/IEC 25010 define los
 siguientes[^3]:
 
 [^3]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
-    engineering—Systems and software Quality Requirements and Evaluation
-    (SQuaRE) — System and software quality models.
+    engineering‑Systems and software Quality Requirements and Evaluation
+    (SQuaRE) ‑ System and software quality models.
 
 <table>
   <tr>

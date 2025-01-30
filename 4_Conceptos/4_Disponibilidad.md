@@ -2,13 +2,13 @@
 
 ## Disponibilidad o *availability*
 
-La disponibilidad —o *availability* en inglés— es un atributo de calidad de una
+La disponibilidad ‑o *availability* en inglés‑ es un atributo de calidad de una
 arquitectura de software que define el grado en el cual un sistema, producto o
 componente está operativo y accesible cuando se requiere su uso[^1].
 
 [^1]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
-    engineering—Systems and software Quality Requirements and Evaluation
-    (SQuaRE) — System and software quality models.
+    engineering‑Systems and software Quality Requirements and Evaluation
+    (SQuaRE) ‑ System and software quality models.
 
 Es la probabilidad de que un sistema esté en funcionamiento en cualquier momento
 dado. Este atributo es relevante para sistemas, productos o componentes que
@@ -53,12 +53,12 @@ Donde:
 * $\text{Tiempo de Operación}$ o *uptime*: es el tiempo durante el cual el
   sistema está funcionando correctamente.
 * $\text{Tiempo Total}$: es la suma del tiempo de operación y el tiempo de
-  inactividad —o *downtime*—, que incluye tanto el tiempo planificado para
+  inactividad ‑o *downtime*‑, que incluye tanto el tiempo planificado para
   mantenimiento como el tiempo no planificado debido a fallos o interrupciones.
 
 Por ejemplo:
 
-Si un sistema estuvo operativo durante 696 horas en un mes —que tiene 720 horas—
+Si un sistema estuvo operativo durante 696 horas en un mes ‑que tiene 720 horas‑
 y tuvo 24 horas de inactividad no planificada, la disponibilidad se calcularía
 de la siguiente manera:
 
@@ -66,9 +66,9 @@ $\text{Disponibilidad} = \frac{720 - 24}{720} \times 100 = \frac{696}{720}
 \times 100 \approx 96.67\%$
 
 La fórmula de disponibilidad también se puede expresar en términos de tiempo
-medio entre fallos —o MTBF por sus siglas en inglés, que significa *mean time to
-failure*— y tiempo medio de reparación —o MTTR por sus siglas en inglés, que
-significa *mean time to repair*—.
+medio entre fallos ‑o MTBF por sus siglas en inglés, que significa *mean time to
+failure*‑ y tiempo medio de reparación ‑o MTTR por sus siglas en inglés, que
+significa *mean time to repair*‑.
 
 La disponibilidad se puede calcular utilizando MTBF y MTTR con la siguiente fórmula:
 
@@ -134,8 +134,8 @@ Esto significa que la disponibilidad del sistema es aproximadamente 99.01%.
 
 Las organizaciones a menudo establecen objetivos de disponibilidad específicos,
 conocidos como **acuerdos de nivel de servicio** o **SLA** por sus siglas en
-inglés —*service level agreement*-, que pueden ser del 99.9%
-—conocido como "tres nueves"—, 99.99% —"cuatro nueves"— o incluso más altos,
+inglés ‑*service level agreement*-, que pueden ser del 99.9%
+‑conocido como "tres nueves"‑, 99.99% ‑"cuatro nueves"‑ o incluso más altos,
 dependiendo de la criticidad del sistema.
 
 * **99.9% o tres nueves**: Aproximadamente 8.76 horas de inactividad al año.

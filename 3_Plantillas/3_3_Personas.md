@@ -51,7 +51,7 @@ resultar útil.
             <a href="/4_Conceptos/4_Trabajo_y_area_de_trabajo.md">trabajo</a>,
             por ejemplo, en el uso de dispositivos, de aplicaciones, etc.
             Habitualmente se utilizan representaciones gráficas como estrellas o
-            indicadores —<i>gauges</i>— para indicar el nivel de la habilidad.
+            indicadores ‑<i>gauges</i>‑ para indicar el nivel de la habilidad.
         </td>
         <td>
             Las cosas que molestan a la persona o que le generan fricción.

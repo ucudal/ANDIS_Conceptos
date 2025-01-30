@@ -4,9 +4,9 @@
 
 ### 2.1.3 Personas
 
-Las *personas* —en inglés, vean la
+Las *personas* ‑en inglés, vean la
 [definición](https://dictionary.cambridge.org/dictionary/english/persona); no
-significa lo mismo que en [español](https://dle.rae.es/persona)—, también
+significa lo mismo que en [español](https://dle.rae.es/persona)‑, también
 conocidas como "retratos hablados", "avatares de clientes", "usuarios personas",
 "personalidad de usuario", "cliente persona" o "comprador persona" son una herramienta
 útil para representar las necesidades, deseos, habilidades y entorno de una o

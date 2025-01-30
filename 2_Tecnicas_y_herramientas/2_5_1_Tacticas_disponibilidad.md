@@ -9,7 +9,7 @@ Las tácticas para lograr satisfacer el atributo de calidad de
 tienen uno de tres propósitos: detección de fallas, recuperación de fallas o
 prevención de fallas. Estas tácticas a menudo serán proporcionadas por
 plataformas, *middleware* u otras infraestructuras de software, por lo que el
-arquitecto debe elegir y evaluar —en lugar de implementar— las tácticas de
+arquitecto debe elegir y evaluar ‑en lugar de implementar‑ las tácticas de
 disponibilidad adecuadas y la combinación correcta de tácticas.
 
 La lista de tácticas está tomada de[^1]:
@@ -30,12 +30,12 @@ La lista de tácticas está tomada de[^1]:
 
 * **Ping/Echo**. Es una técnica para verificar la disponibilidad de un
   componente de la arquitectura de software mediante el envío de un mensaje
-  —`ping`— y la espera de una respuesta —`echo`—. Es utilizado frecuentemente
+  ‑`ping`‑ y la espera de una respuesta ‑`echo`‑. Es utilizado frecuentemente
   para comprobar si un servidor o un servicio está activo y respondiendo. Por
   ejemplo, el comando `ping` en sistemas operativos para verificar la
   conectividad con una dirección IP.
 
-* **Heartbeat** -o latido—. Es un mecanismo en el cual un componente de la
+* **Heartbeat** -o latido‑. Es un mecanismo en el cual un componente de la
   arquitectura de software envía señales periódicas para indicar que está
   funcionando correctamente. Si la señal no es recibida dentro de un tiempo
   establecido, se asume que el sistema ha fallado. Por ejemplo, en los sistemas
@@ -49,7 +49,7 @@ La lista de tácticas está tomada de[^1]:
 * <span id="timestamp">**Timestamp**. Consiste en asociar una marca de tiempo o
   *timestamp* a eventos o mensajes. Permite rastrear la ocurrencia de eventos en
   un sistema, para identificar cuándo ocurrió una falla. Por ejemplo, todas las
-  entradas de un sistema de registro —*log*— deben estar marcadas con la fecha y
+  entradas de un sistema de registro ‑*log*‑ deben estar marcadas con la fecha y
   hora para facilitar el análisis de errores. En los sistemas distribuidos es
   complejo sincronizar los relojes; si eso no fuera posible, se puede usar
   números secuenciales.</span>
@@ -57,16 +57,16 @@ La lista de tácticas está tomada de[^1]:
 * <span id="monitoreo_condiciones">**Monitoreo de condiciones**. Es verificar
   condiciones específicas de operación para identificar anomalías. Las
   condiciones en tiempo de ejecución deben ser consistentes con las asumidas
-  durante el diseño. Por ejemplo, el uso de *checksums* —sumas de verificación—
+  durante el diseño. Por ejemplo, el uso de *checksums* ‑sumas de verificación‑
   es una implementación de esta táctica.</span>
 
-* <span id="control_cordura">**Control de cordura** —o *sanity check*. Es una
+* <span id="control_cordura">**Control de cordura** ‑o *sanity check*. Es una
   verificación simple y rápida para asegurar que los valores recibidos o
   calculados por un componente de la arquitectura de software, o su estado, son
   razonables.</span>
 
-* <span id="replicacion">**Voto—Replicación**. La replicación es una táctica de
-  disponibilidad en la que se crean copias exactas —instancias o réplicas— de un
+* <span id="replicacion">**Voto‑Replicación**. La replicación es una táctica de
+  disponibilidad en la que se crean copias exactas ‑instancias o réplicas‑ de un
   componente para garantizar que, en caso de fallo de una instancia, otra esté
   disponible para tomar su lugar inmediatamente. Este enfoque asegura que la
   falla de una réplica no afecte la disponibilidad del servicio global.
@@ -101,7 +101,7 @@ La lista de tácticas está tomada de[^1]:
   de software. Por ejemplo, el uso de *timeouts* para detectar fallas en otros
   componentes.
 
-* **Auto-diagnóstico** —o *self-test*. Consiste en que un componente realice
+* **Auto-diagnóstico** ‑o *self-test*. Consiste en que un componente realice
   pruebas internas para verificar su correcto funcionamiento. Por ejemplo, un
   servicio puede ejecutar pruebas automáticas de inicio para asegurar
   que todas sus dependencias están funcionando antes de aceptar tráfico. Puede
@@ -166,13 +166,13 @@ La lista de tácticas está tomada de[^1]:
   manual o automática, en respuesta a fallas o cambios en la carga de
   trabajo.</span>
 
-* **Sombra** —o *shadow*—. Es ejecutar una instancia o réplica en paralelo
+* **Sombra** ‑o *shadow*‑. Es ejecutar una instancia o réplica en paralelo
   recién iniciada para probar que funcione correctamente antes de asignarle un
   rol activo y que pueda recibir tráfico.
 
 * **Re-sincronización del estado**. Esta táctica se usa en conjunto con la
   táctica de repuesto redundante o replicación asíncrona y consiste en
-  actualizar el estado —los datos— del componente de repuesto antes de asignarle
+  actualizar el estado ‑los datos‑ del componente de repuesto antes de asignarle
   un rol activo y que pueda recibir tráfico.
 
 * **Escalamiento del reinicio**. Consiste en reiniciar componentes de forma
@@ -208,6 +208,6 @@ La lista de tácticas está tomada de[^1]:
 
 * **Aumentar el conjunto de competencia**. El conjunto de competencia es el
   conjunto de estados en los que un componente de la arquitectura de software
-  puede operar —es competente—. Una excepción es la entrada a un estado fuera
+  puede operar ‑es competente‑. Una excepción es la entrada a un estado fuera
   del conjunto de competencia. Aumentar el conjunto de estados en los que un
   componente puede operar es una forma de aumentar la disponibilidad.

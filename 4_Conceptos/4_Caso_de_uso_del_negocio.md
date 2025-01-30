@@ -4,8 +4,8 @@
 
 Un caso de uso de negocio es una descripción de la forma en la que el
 [trabajo](./4_Trabajo_y_area_de_trabajo.md) responde a un
-[evento del negocio](./4_Evento_del_negocio.md) —que incluye un flujo de datos
-asociado— generado desde un [sistema adyacente](./4_Sistema_adyacente.md). El
+[evento del negocio](./4_Evento_del_negocio.md) ‑que incluye un flujo de datos
+asociado‑ generado desde un [sistema adyacente](./4_Sistema_adyacente.md). El
 trabajo responde mediante el procesamiento de los datos de entrada y mediante la
 recuperación y almacenamiento de los datos almacenados[^1].
 

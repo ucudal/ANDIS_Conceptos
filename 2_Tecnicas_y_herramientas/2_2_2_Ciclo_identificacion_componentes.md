@@ -30,7 +30,7 @@ Las etapas del ciclo se definen a continuación.
   y de gran escala. En esta etapa no es necesario entrar en demasiados detalles
   internos, sino definir la [partición de alto
   nivel](/4_Conceptos/4_Componente.md#partición-de-la-arquitectura-en-componentes)
-  —tecnológica o por dominio—.
+  ‑tecnológica o por dominio‑.
 
 2. **Asignar requerimientos a los componentes**. Una vez que se han identificado
   los componentes iniciales, se mapean los requerimientos funcionales a estos

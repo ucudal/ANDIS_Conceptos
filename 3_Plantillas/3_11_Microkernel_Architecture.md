@@ -8,8 +8,8 @@ architecture*; esta es un estilo de arquitectura monolítica.
 Esta plantilla está basada en [^1].
 
 Este estilo de arquitectura es adecuado para aplicaciones basadas en productos
-—empaquetadas y disponibles para su descarga e instalación como una única
-implementación monolítica, generalmente instalada en el sitio del cliente—.
+‑empaquetadas y disponibles para su descarga e instalación como una única
+implementación monolítica, generalmente instalada en el sitio del cliente‑.
 
 > [!NOTE]
 > En esta plantilla aparecen componentes de ejemplo estereotipados; en

@@ -60,8 +60,8 @@ La [Figura 4](#figura-4), a continuación, muestra una variante de la
 arquitectura en capas donde:
 
 * Las capas pueden ser abiertas o cerradas; si son abiertas las capas superiores
-  pueden comunicarse directamente con las inferiores —"pasan" a través de la
-  capa abierta—, mientras que por el contrario, si son cerradas, las capas
+  pueden comunicarse directamente con las inferiores ‑"pasan" a través de la
+  capa abierta‑, mientras que por el contrario, si son cerradas, las capas
   superiores se comunican solamente con la capa inmediata.
 * Se agrega una capa `Services Layer` abierta que expone componentes
   compartidos para la capa `Business Layer` pero ocultos para la capa

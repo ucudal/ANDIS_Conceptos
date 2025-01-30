@@ -24,7 +24,7 @@ La lista de tácticas está tomada de [^1]:
   esta forma se minimiza el impacto que un problema en la nueva versión pueda
   tener.
 
-* **Usar archivos de secuencias de comandos —*scripts*— para la
+* **Usar archivos de secuencias de comandos ‑*scripts*‑ para la
   implementación**. Implica la utilización de *scripts* automatizados para
   manejar el proceso de despliegue, incluyendo la configuración del entorno, la
   instalación de dependencias y la activación de servicios. De esta forma mejora
@@ -37,7 +37,7 @@ La lista de tácticas está tomada de [^1]:
   code?](https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code)
   en el sitio de DevOps de Microsoft.
 
-* **Vuelta atrás** —o *rollback*—. Es la capacidad de revertir un despliegue a
+* **Vuelta atrás** ‑o *rollback*‑. Es la capacidad de revertir un despliegue a
   una versión anterior en caso de que se detecten problemas durante o después
   del despliegue. Esto incluye la restauración de datos y configuraciones a su
   estado previo. Para poder lograr el *rollback* es necesaria una trazabilidad

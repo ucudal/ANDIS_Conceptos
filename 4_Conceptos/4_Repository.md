@@ -13,7 +13,7 @@ Este documento está basado en [^2] y [^1].
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 En la programación orientada a objetos, uno debe tener referencias a objetos
-para poder utilizarlos. Un *Repository* —repositorio, en español— es un concepto
+para poder utilizarlos. Un *Repository* ‑repositorio, en español‑ es un concepto
 utilizado con el fin de encapsular la lógica de obtener estas referencias a
 objetos. El repositorio actúa como el lugar centralizado en el cual obtener
 referencias a objetos que son accesibles globalmente.

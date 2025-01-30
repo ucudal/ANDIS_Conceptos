@@ -4,8 +4,8 @@
 
 ### MVC
 
-El patrón MVC —por su sigla en inglés *Model-View-Controller* o
-modelo-vista-controlador— es un patrón de arquitectura que separa la interacción
+El patrón MVC ‑por su sigla en inglés *Model-View-Controller* o
+modelo-vista-controlador‑ es un patrón de arquitectura que separa la interacción
 a través de la interfaz de usuario de una aplicación en tres roles
 diferentes[^1] que se detallan más adelante.
 
@@ -31,7 +31,7 @@ citados pero también más mal citados en la vuelta.
 
 #### Model
 
-El `Model` es un objeto —o [componente](/4_Conceptos/4_Componente.md)— que
+El `Model` es un objeto ‑o [componente](/4_Conceptos/4_Componente.md)‑ que
 representa cierta información acerca del [dominio](/4_Conceptos/4_Dominio.md).
 Es un objeto o componente no-visual que contiene todos los datos y
 comportamiento excepto los usados por la interfaz de usuario. En su forma más
@@ -53,7 +53,7 @@ en la medida que no tenga elementos de interfaz de usuario.
 
 #### Controller
 
-Los `Controller` —suele haber uno para cada `View`— toman la entrada
+Los `Controller` ‑suele haber uno para cada `View`‑ toman la entrada
 del usuario, manipulan el modelo, y logran que la vista se actualice según
 corresponda. De esta forma la interfaz de usuario es una combinación de las
 vistas y los controladores.
@@ -111,7 +111,7 @@ Las responsabilidades se distribuyen así:
 
   * Manejar los pedidos HTTP GET y HTTP POST
 
-  * Decidir qué modelo —o parte del modelo—
+  * Decidir qué modelo ‑o parte del modelo‑
 
   * Decidir qué vista usar
 
@@ -127,11 +127,11 @@ La idea es tener un `Page Controller` para cada página de un sitio web; o de
 forma más genérica, como las páginas pueden ser dinámicas, un `Page Controller`
 por cada acción tal como un vínculo o un botón. El `Page Controller` puede ser
 implementado como un *script*
-—[CGI](https://datatracker.ietf.org/doc/html/rfc3875),
-[*serverlet*](https://jcp.org/en/jsr/detail?id=340), etc.— o como una página de
-servidor —[ASP](https://learn.microsoft.com/en-us/aspnet/overview),
+‑[CGI](https://datatracker.ietf.org/doc/html/rfc3875),
+[*serverlet*](https://jcp.org/en/jsr/detail?id=340), etc.‑ o como una página de
+servidor ‑[ASP](https://learn.microsoft.com/en-us/aspnet/overview),
 [PHP](https://www.php.net/manual/es/intro-whatis.php),
-[JSP](https://projects.eclipse.org/projects/ee4j.jsp), etc.—. En este caso se
+[JSP](https://projects.eclipse.org/projects/ee4j.jsp), etc.‑. En este caso se
 suele implementar la `View` mediante [Template
 View](https://java-design-patterns.com/patterns/templateview/).
 
@@ -147,9 +147,9 @@ es posible usarlo, moviendo la lógica compleja a un objeto `Helper`.
 
 En una aplicación web compleja, en cada solicitud son necesarios comportamientos
 similares como autenticación, autorización, localización, etc. Cuando hay un
-controlador para cada solicitud —como en el caso anterior— esta lógica puede
+controlador para cada solicitud ‑como en el caso anterior‑ esta lógica puede
 llegar a quedar repetida. `Front Controller` consolida toda la gestión de una
-solicitud en un solo objeto —o componente—, que puede ser modificado a través de
+solicitud en un solo objeto ‑o componente‑, que puede ser modificado a través de
 [decoradores](https://refactoring.guru/design-patterns/decorator). Este objeto
 luego delega el procesamiento de la solicitud a
 [comandos](https://refactoring.guru/design-patterns/command) apropiados.

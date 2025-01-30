@@ -2,7 +2,7 @@
 
 ## Rendimiento o *performance*
 
-El rendimiento —o *performance* en inglés— es un atributo de la calidad de una
+El rendimiento ‑o *performance* en inglés‑ es un atributo de la calidad de una
 arquitectura de software que define la capacidad de un sistema, producto o
 componente para cumplir con sus funciones dentro de los límites de tiempo
 aceptables[^1].
@@ -11,8 +11,8 @@ aceptables[^1].
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 Las operaciones en las computadoras llevan tiempo. Los cálculos en el procesador
-llevan tiempo del orden de miles de nanosegundos, el acceso al disco —ya sea de
-estado sólido o mecánico— lleva tiempo del orden de decenas de milisegundos, y
+llevan tiempo del orden de miles de nanosegundos, el acceso al disco ‑ya sea de
+estado sólido o mecánico‑ lleva tiempo del orden de decenas de milisegundos, y
 el acceso a la red lleva tiempo que va desde cientos de microsegundos dentro del
 mismo centro de datos hasta más de 100 milisegundos para mensajes a centros de
 cómputo en la nube.
@@ -29,8 +29,8 @@ con el consumo de recursos y la capacidad de éstos, en las sub-características
 [capacidad](./4_Atributos_de_calidad.md#capacidad) respectivamente.
 
 [^2]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
-    engineering—Systems and software Quality Requirements and Evaluation
-    (SQuaRE) — System and software quality models.
+    engineering‑Systems and software Quality Requirements and Evaluation
+    (SQuaRE) ‑ System and software quality models.
 
 En el Azure Well-Architected Framework[^3] el pilar es [rendimiento
 eficiente](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/)
@@ -69,9 +69,9 @@ En cualquier momento durante el período posterior a la llegada de una solicitud
 pero antes de que se complete la respuesta del sistema, el sistema está
 trabajando para responder a esa solicitud o el procesamiento está bloqueado por
 alguna razón. Esto da lugar a los dos factores básicos que contribuyen al tiempo
-de respuesta y al uso de recursos: el tiempo de procesamiento —cuando el sistema
-está trabajando para responder y consumiendo recursos de forma activa— y el
-tiempo de bloqueo —cuando el sistema no puede responder—.
+de respuesta y al uso de recursos: el tiempo de procesamiento ‑cuando el sistema
+está trabajando para responder y consumiendo recursos de forma activa‑ y el
+tiempo de bloqueo ‑cuando el sistema no puede responder‑.
 
 * Tiempo de procesamiento y uso de los recursos
 * Tiempo de bloqueo y contención de recursos

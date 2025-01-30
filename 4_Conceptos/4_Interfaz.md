@@ -19,10 +19,10 @@ interfaces:
 * **Clientes**. Son los demás componentes, usuarios o sistemas con los que
   interactúa un componente.
 
-* **Entorno** o —*environment*—. Es el conjunto de clientes con los que
+* **Entorno** o ‑*environment*‑. Es el conjunto de clientes con los que
   interactúa un componente.
 
-* **Interacciones**. Son las transferencias de control —*calls*— o de
+* **Interacciones**. Son las transferencias de control ‑*calls*‑ o de
   datos entre componentes. Ver más información [aquí](./4_Interaccion.md).
 
 * **Recursos**. Son las construcciones que proveen puntos de interacción directa
@@ -82,8 +82,8 @@ Lo anterior tiene algunas implicaciones clave:
   a un componente para su procesamiento y son parte de la interfaz. La mayoría
   de las operaciones también devuelven un resultado. Como las operaciones pueden
   fallar, la interfaz debe dejar claro cómo hacen los clientes para detectar
-  errores —ya sea como parte del resultado, o a través de un mecanismo que
-  permita a los cliente consultar el estado de la última operación—.
+  errores ‑ya sea como parte del resultado, o a través de un mecanismo que
+  permita a los cliente consultar el estado de la última operación‑.
 
 * **Eventos**. Los eventos normalmente son asíncronos y representan la recepción
   de un mensaje; también son parte de la interfaz. Los elementos activos,
@@ -94,8 +94,8 @@ Lo anterior tiene algunas implicaciones clave:
 
 * **Metadata**. Además de los datos transferidos vía operaciones y eventos, otro
   aspecto importante de las interfaces es la metadata: permisos de acceso,
-  unidades de los parámetros o resultados, formatos —por ejemplo, el punto en
-  los decimales—. A esta metadata se le llama también **propiedades**.
+  unidades de los parámetros o resultados, formatos ‑por ejemplo, el punto en
+  los decimales‑. A esta metadata se le llama también **propiedades**.
 
 * **Evolución de las interfaces**. El componente que está implementando una
   interfaz debería poder evolucionar sin afectar a los demás componentes que
@@ -108,7 +108,7 @@ Lo anterior tiene algunas implicaciones clave:
   * **Deprecación**. Es eliminar la interfaz. Una buena práctica es avisar con
     antelación que una interfaz va a ser deprecada a partir de cierto momento.
     Otra es introducir un código de error que indique que la interfaz va a ser
-    deprecada —y cuándo— o que indique que la interfaz ya ha sido deprecada.
+    deprecada ‑y cuándo‑ o que indique que la interfaz ya ha sido deprecada.
 
   * **Versionado**. Es posible soportar la evolución de una interfaz
     introduciendo una nueva versión manteniendo la anterior. La anterior puede
@@ -145,10 +145,10 @@ Algunos principios para el diseño de interfaces son:
 * **Principio de acceso uniforme**. Evitar filtrar detalles de implementación
   a través de la interfaz. Un recurso debe ser accesible para sus actores de
   la misma manera independientemente de cómo se implemente. Un actor no debe
-  saber —por ejemplo— si un valor se devuelve desde un caché, desde un cálculo
+  saber ‑por ejemplo‑ si un valor se devuelve desde un caché, desde un cálculo
   o desde una nueva búsqueda del valor desde alguna fuente externa.
 
-* **Principio DRY —*don't repeat yourself*— o principio de no repetirse**. Las
+* **Principio DRY ‑*don't repeat yourself*‑ o principio de no repetirse**. Las
   interfaces deben ofrecer un conjunto de primitivas que se puedan componer en
   lugar de muchas formas diferentes de lograr el mismo objetivo.
 
@@ -166,10 +166,10 @@ acuerdo sobre los siguientes aspectos:
   modificación.
 
   Un patrón común para limitar y mediar el acceso a los recursos de un
-  componente —o un grupo de componentes— es establecer un *gateway* o puerta de
+  componente ‑o un grupo de componentes‑ es establecer un *gateway* o puerta de
   enlace. Una puerta de enlace traduce las solicitudes de los actores en
-  solicitudes a los recursos del componente —o componente— de destino, que de
-  esta forma se convierte en un actor para el elemento —o elementos— de destino.
+  solicitudes a los recursos del componente ‑o componente‑ de destino, que de
+  esta forma se convierte en un actor para el elemento ‑o elementos‑ de destino.
   Las puertas de enlace son útiles por las siguientes razones:
 
   * La granularidad de los recursos proporcionados por un componente puede ser
@@ -184,11 +184,11 @@ acuerdo sobre los siguientes aspectos:
     enlace puede proporcionar una interfaz más estable.
 
 * **Estilo de interacción**. Las interfaces están pensadas para estar conectadas
-  entre sí de modo que los diferentes elementos puedan comunicarse —transferir
-  datos— y coordinarse —transferir control—. Hay muchas formas en que se
+  entre sí de modo que los diferentes elementos puedan comunicarse ‑transferir
+  datos‑ y coordinarse ‑transferir control‑. Hay muchas formas en que se
   producen esas interacciones, dependiendo de la combinación entre
   comunicación y coordinación y de si los elementos estarán ubicados en el
-  mismo lugar —co-ubicados— o se implementarán de forma remota.
+  mismo lugar ‑co-ubicados‑ o se implementarán de forma remota.
 
   * Las interfaces de componentes co-ubicados pueden proporcionar acceso
     eficiente a grandes cantidades de datos a través de memoria compartida
@@ -197,9 +197,9 @@ acuerdo sobre los siguientes aspectos:
   * Los componentes que se espera que estén disponibles al mismo tiempo pueden
     utilizar llamadas sincrónicas para invocar las operaciones que requieren.
 
-  * Los elementos implementados en un entorno distribuido no fiable —ver las
+  * Los elementos implementados en un entorno distribuido no fiable ‑ver las
     [falacias de la computación
-    distribuida](/4_Conceptos/4_Falacias_computacion_distribuida.md)— necesitarán
+    distribuida](/4_Conceptos/4_Falacias_computacion_distribuida.md)‑ necesitarán
     depender de interacciones asíncronas basadas en el consumo y la producción de
     eventos, intercambiados a través de colas de mensajes o flujos de datos.
 
@@ -217,9 +217,9 @@ acuerdo sobre los siguientes aspectos:
 
   Los estilos de representación de datos más comunes, independientes del
   lenguaje de programación, se pueden dividir entre textuales
-  —[XML](https://www.w3.org/TR/xml/) o
-  [JSON](https://www.json.org/json-en.html)— y binarias —[*protocol
-  buffers*](https://protobuf.dev/reference/protobuf/proto3-spec/)—.
+  ‑[XML](https://www.w3.org/TR/xml/) o
+  [JSON](https://www.json.org/json-en.html)‑ y binarias ‑[*protocol
+  buffers*](https://protobuf.dev/reference/protobuf/proto3-spec/)‑.
 
 * **Manejo de errores**. Un sistema bien diseñado debe saber cómo tomar las
   medidas adecuadas ante circunstancias no deseadas. Los actores necesitan saber
@@ -286,7 +286,7 @@ diferentes de la documentación:
 
 * **Analista**. Este rol depende de los tipos de análisis realizados. Para un
   analista de rendimiento, por ejemplo, la documentación de la interfaz debe
-  incluir una garantía de acuerdo de nivel de servicio —SLA—, de modo que los
+  incluir una garantía de acuerdo de nivel de servicio ‑SLA‑, de modo que los
   actores puedan ajustar sus solicitudes de manera adecuada.
 
 * **Arquitecto que busca activos para reutilizar en un nuevo sistema**. A menudo

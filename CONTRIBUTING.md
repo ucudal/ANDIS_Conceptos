@@ -419,10 +419,10 @@ tablas cuando resulta necesario o conveniente.
 
 Estas leyendas las incluimos en itálica, asegurándonos de asociarles un número
 según la cantidad de figuras presentes hasta el momento en el documento,
-empezando por uno —1—. Si hay figuras y tablas en un mismo documento, las
+empezando por uno ‑1‑. Si hay figuras y tablas en un mismo documento, las
 contamos por separado, por lo que puede haber una *Tabla 1* y una *Figura 1* en
 un mismo documento. `Figura` o `Tabla` se separa del resto de la leyenda por `:`
-—dos puntos—.
+‑dos puntos‑.
 
 Antes de la imagen agregamos un elemento HTML `anchor` cuyo identificar `id` es
 `figura` o `tabla`, según corresponda, seguido del número respectivo. Esto

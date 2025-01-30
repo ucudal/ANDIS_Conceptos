@@ -3,7 +3,7 @@
 
 ## 2.9 Evaluación de la arquitectura
 
-### 2.9.1 *Lightweight ATAM* -o ATAM ligero—
+### 2.9.1 *Lightweight ATAM* -o ATAM ligero‑
 
 > [!TIP]
 > Ver también [ATAM](./2_9_1_ATAM.md).
@@ -21,7 +21,7 @@ riesgos más críticos. Esto se materializa desarrollando prototipos, pruebas de
 concepto, o productos mínimos viables.
 
 Para adaptarse a este enfoque de desarrollo, se ha diseñado una versión
-modificada del ATAM: *Lightweight ATAM* —o ATAM ligero—. Esta variante mantiene
+modificada del ATAM: *Lightweight ATAM* ‑o ATAM ligero‑. Esta variante mantiene
 la estructura metodológica original, pero reduce su alcance y duración. A
 diferencia del ATAM completo, que involucra varias fases con grupos de
 [interesados](/4_Conceptos/4_Interesado.md) internos y externos, el *Lightweight
@@ -45,7 +45,7 @@ evaluación sistemática.
 | 2. Presentar la arquitectura | ½ hora | Se espera que todos los participantes estén familiarizados con el sistema, por lo que se presenta una breve descripción general de la arquitectura y se trazan 1 o 2 escenarios a través de las vistas de arquitectura documentadas |
 | 3. Identificar los enfoques arquitectónicos | ¼ hora | El arquitecto identifica los enfoques arquitectónicos para las preocupaciones específicas sobre los atributos de calidad. Esto puede hacerse como parte del paso 2. |
 | 4. Generar el árbol de utilidad de atributos de calidad | ½ hora |  Es posible que ya existan escenarios; si es así, utilízalos. Es posible que ya exista un árbol de utilidades; si es así, el equipo lo revisa y lo actualiza, si es necesario |
-| 5. Analizar los enfoques arquitectónicos | 2 horas | Este paso —mapear los escenarios de alto rango en la arquitectura— consume la mayor parte del tiempo y se puede expandir o contraer según sea necesario |
+| 5. Analizar los enfoques arquitectónicos | 2 horas | Este paso ‑mapear los escenarios de alto rango en la arquitectura‑ consume la mayor parte del tiempo y se puede expandir o contraer según sea necesario |
 | 6. Presentar los resultados | ½ hora | Al final de la evaluación, el equipo revisa los riesgos y las compensaciones existentes y recientemente descubiertos y analiza las prioridades |
 | Total | 4 horas| |
 

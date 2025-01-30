@@ -4,7 +4,7 @@
 
 En el contexto de [componentes](./4_Componente.md) e
 [interfaces](./4_Interfaz.md) en arquitectura de software, las interacciones más
-relevantes son las transferencias de control —*calls*— o las transferencias de
+relevantes son las transferencias de control ‑*calls*‑ o las transferencias de
 datos [^1].
 
 [^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in

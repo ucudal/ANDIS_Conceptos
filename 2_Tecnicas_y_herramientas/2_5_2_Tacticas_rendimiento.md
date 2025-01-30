@@ -65,13 +65,13 @@ La lista de tácticas está tomada de[^1]:
   infrastructure](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/optimize-code-infrastructure)
   en Azure Well-Architected Framework.
 
-* **Aumentar los recursos**. Agregar más recursos —más y más rápidos
-  procesadores, memoria, componentes de red— para mejorar la capacidad de los
+* **Aumentar los recursos**. Agregar más recursos ‑más y más rápidos
+  procesadores, memoria, componentes de red‑ para mejorar la capacidad de los
   componentes de la arquitectura y reducir el tiempo de respuesta. Un ejemplo es
   escalar horizontalmente añadiendo más servidores a un clúster.
 
 * **Introducir concurrencia**. Permite que múltiples tareas se ejecuten en
-  paralelo y al mismo tiempo —en lugar de una después de la otra—, aprovechando
+  paralelo y al mismo tiempo ‑en lugar de una después de la otra‑, aprovechando
   la capacidad de procesamiento paralelo. Un ejemplo es usar hilos múltiples
   para manejar solicitudes concurrentes en un servidor web.
 
@@ -89,7 +89,7 @@ La lista de tácticas está tomada de[^1]:
     problema.
   * **Caché**. Ciertos datos accedidos frecuentemente o que conseguirlos tienen
     cierto costo pueden ser almacenados en repositorios de más rápido acceso
-    —por ejemplo, en memoria, o en disco SSD—. Hay dos problemas asociados, uno
+    ‑por ejemplo, en memoria, o en disco SSD‑. Hay dos problemas asociados, uno
     es decidir qué datos van al caché, y el otro es cómo mantener el caché
     consistente con la fuente de datos de origen.
 

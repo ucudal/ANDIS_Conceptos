@@ -8,7 +8,7 @@ Diagrama de contexto es un modelo gráfico del [alcance del
 trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md) que muestra cómo el
 trabajo a investigar se conecta con el mundo exterior[^1].
 
-El diagrama de contexto se utiliza para generar —y luego mostrar— el consenso
+El diagrama de contexto se utiliza para generar ‑y luego mostrar‑ el consenso
 entre las partes interesadas sobre el alcance del trabajo que se debe mejorar.
 El producto final que resulta del proyecto se utilizará para realizar parte de
 este trabajo.
@@ -39,7 +39,7 @@ tiene los siguientes elementos:
 
 * Opcionalmente puede haber una frontera rodeando el caso de uso.
 
-La [Figura 1](#figura-1), a continuación, muestra un ejemplo —parcial— de un
+La [Figura 1](#figura-1), a continuación, muestra un ejemplo ‑parcial‑ de un
 diagrama de contexto para una `Comunidad en línea`. Los sistemas adyacentes son
 los `Usuarios de la comunidad`, los `Anunciantes` y los `Creadores de
 contenido`. Los datos intercambiados aparecen como las etiquetas de las
