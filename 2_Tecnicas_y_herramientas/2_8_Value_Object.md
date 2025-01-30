@@ -12,14 +12,19 @@ Este documento está basado en [^2] y [^1].
     Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
+<<<<<<< HEAD:2_Tecnicas_y_herramientas/2_8_Value_Object.md
 En el contexto de *Domain-Driven Design* —DDD, por sus siglas—, un objeto valor
 es un objeto que, a diferencia de una [entidad](../4_Conceptos/4_Entidad.md), no tiene
+=======
+En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, un objeto valor
+es un objeto que, a diferencia de una [entidad](./4_Entidad.md), no tiene
+>>>>>>> main:4_Conceptos/4_Objeto_Valor.md
 identidad y se utiliza para describir o calcular características de las cosas
 que son parte del [dominio](../4_Conceptos/4_Dominio.md).
 
 Al no tener una identidad, los objetos valor se pueden crear y descartar
-fácilmente —a través del *garbage collector* cuando dejan de ser referenciados,
-por ejemplo—, lo que simplifica el diseño.
+fácilmente ‑a través del *garbage collector* cuando dejan de ser referenciados,
+por ejemplo‑, lo que simplifica el diseño.
 
 Una cualidad deseable e importante de los objetos valor es que sean inmutables,
 esto es, que sean creados a través de un constructor y nunca modificados en su
@@ -28,7 +33,7 @@ valor. Si un objeto valor cumple con esta cualidad de inmutabilidad, puede ser
 compartido.
 
 Todas las operaciones sobre objetos valor deberían ser funciones sin efectos
-colaterales —[funciones puras](https://en.wikipedia.org/wiki/Pure_function)— que
+colaterales ‑[funciones puras](https://en.wikipedia.org/wiki/Pure_function)‑ que
 no dependan de ningún estado mutable.
 
 Los objetos valores pueden contener otros objetos valor, e incluso contener

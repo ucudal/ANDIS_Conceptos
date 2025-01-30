@@ -7,19 +7,19 @@ reuniones con el cliente, con [interesados](/4_Conceptos/4_Interesado.md) dentro
 de la organización del cliente, o incluso para las reuniones con el tutor.
 
 La minuta asume que la reunión fue agendada mediante una convocatoria de reunión
-—*meeting request*—.
+‑*meeting request*‑.
 
 Recomendamos comenzar a completar la plantilla antes de la reunión con la
-información que tienen en ese momento —por ejemplo, los participantes
-invitados—, y completar el resto durante la reunión.
+información que tienen en ese momento ‑por ejemplo, los participantes
+invitados‑, y completar el resto durante la reunión.
 
 Una técnica útil es parafrasear las decisiones o los acuerdos a los que arriban
 con el cliente, y transcribir eso como parte de la minuta en la sección
 correspondiente.
 
 Otra recomendación es anotar en la minuta al final de la reunión los temas
-pendientes o compromisos, los responsables y las fechas límite —en caso de que
-las haya—.
+pendientes o compromisos, los responsables y las fechas límite ‑en caso de que
+las haya‑.
 
 <table>
     <tr>
@@ -46,7 +46,7 @@ las haya—.
             <b>Temas tratados</b>
         </td>
         <td style="vertical-align:top">
-            Lista de viñetas —<i>bullet list</i>— de temas a tratar. Debe coincidir
+            Lista de viñetas ‑<i>bullet list</i>‑ de temas a tratar. Debe coincidir
             con la lista enviada en la convocatoria de reunión.
         </td>
     </tr>
@@ -55,7 +55,7 @@ las haya—.
             <b>Acuerdos</b>
         </td>
         <td>
-            Lista de viñetas —<i>bullet list</i>— de los acuerdos alcanzados.
+            Lista de viñetas ‑<i>bullet list</i>‑ de los acuerdos alcanzados.
         </td>
     </tr>
     <tr>
@@ -63,7 +63,7 @@ las haya—.
             <b>Pendientes</b>
         </td>
         <td>
-            Lista de viñetas —<i>bullet list</i>— de temas pendientes, decisiones,
+            Lista de viñetas ‑<i>bullet list</i>‑ de temas pendientes, decisiones,
             entregables, etc. que no pudieron se resueltos en la reunión, que
             involucran integrantes de la organización del cliente o del equipo
             del proyecto, etc. Para cada tema indicar el responsable, tanto sea

@@ -14,7 +14,7 @@ Este documento está basado en [^2] y [^1].
     Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
-En el contexto de *Domain-Driven Design* —DDD, por sus siglas—, una entidad es
+En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, una entidad es
 un objeto que se distingue por su identidad, en lugar de por sus atributos. Es
 necesario un mecanismo para diferenciar un objeto de otro independientemente de
 su forma[^3] o su historia.
@@ -23,8 +23,8 @@ su forma[^3] o su historia.
     persistente o para ser enviado a través de la red.
 
 Así es que implementar entidades en software implica crear identidades, por lo
-que la capacidad de identificar estas últimas es crucial. El atributo —o
-combinación de atributos— utilizado para lograr la identidad puede ser propio
+que la capacidad de identificar estas últimas es crucial. El atributo ‑o
+combinación de atributos‑ utilizado para lograr la identidad puede ser propio
 del objeto, asignado por alguien externo a la aplicación o incluso al
 [dominio](../4_Conceptos/4_Dominio.md). Pero a veces no hay ninguna combinación de atributos
 que permita identificar los objetos de forma única, por lo que se puede utilizar

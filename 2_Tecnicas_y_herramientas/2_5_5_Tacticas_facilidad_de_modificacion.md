@@ -56,16 +56,16 @@ La lista de tácticas está tomada de [^1]:
 
 * **Reemplazo de componentes**. Consiste en diseñar el sistema de manera que los
   componentes puedan ser reemplazados fácilmente por otros en tiempo de
-  despliegue mediante un archivo de secuencias de comandos —o *script*— por
+  despliegue mediante un archivo de secuencias de comandos ‑o *script*‑ por
   ejemplo.
 
 * **Parametrización en tiempo de compilación**. Es cuando se usan directivas de
   compilación condicional para generar diferentes versiones de un componente a
   partir de un mismo código fuente.
 
-* **Aspectos**. Es el uso de la programación orientada a aspectos —o AOP por las
-  siglas en inglés de  *aspect oriented programming*— para separar las
-  cuestiones transversales —como logging o seguridad— del código principal,
+* **Aspectos**. Es el uso de la programación orientada a aspectos ‑o AOP por las
+  siglas en inglés de  *aspect oriented programming*‑ para separar las
+  cuestiones transversales ‑como logging o seguridad‑ del código principal,
   facilitando su modificación sin alterar la lógica central.
 
   Vean por ejemplo [Aspect Oriented Programming with
@@ -76,8 +76,8 @@ La lista de tácticas está tomada de [^1]:
   ejecución. Es uso de archivos de configuración `.appconfig` o archivos `.INI`
   es un ejemplo de *binding* en tiempo de configuración.
 
-* **Archivos de recursos** —o *resource files*—. Los recursos —como cadenas de
-  texto— se almacenan en archivos externos para facilitar su modificación sin
+* **Archivos de recursos** ‑o *resource files*‑. Los recursos ‑como cadenas de
+  texto‑ se almacenan en archivos externos para facilitar su modificación sin
   necesidad de volver a compilar y desplegar los componentes.
 
 * **Descubrimiento**. Es la capacidad de localizar y conectarse dinámicamente a

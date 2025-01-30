@@ -4,7 +4,7 @@
 
 ACID es un [acrónimo](https://dle.rae.es/acrónimo) que referencia las cuatro
 propiedades de una transacción: atomicidad, consistencia, aislamiento
-—*isolation* en inglés— y durabilidad[^1].
+‑*isolation* en inglés‑ y durabilidad[^1].
 
 [^1]: Haerder, T.; Reuter, A. (1983). Principles of Transaction-Oriented
     Database Recovery. ACM Computing Surveys (CSUR), 15(4). Disponible
@@ -13,8 +13,8 @@ propiedades de una transacción: atomicidad, consistencia, aislamiento
 Compáralo con [BASE](./4_BASE.md).
 
 La transacción básicamente refleja la idea de que las actividades de un usuario
-en particular estén aisladas de todas las demás actividades concurrentes —de
-otros usuarios u otros procesos—, pero restringe el grado de aislamiento y la
+en particular estén aisladas de todas las demás actividades concurrentes ‑de
+otros usuarios u otros procesos‑, pero restringe el grado de aislamiento y la
 duración de la transacción. Típicamente una transacción es una secuencia corta
 de interacciones con la base de datos, tales como encontrar o modificar un
 elemento, que representa una actividad significativa en el contexto del
@@ -29,7 +29,7 @@ Además, el usuario debe saber qué ha ocurrido, en qué estado ha quedado.
 La atomicidad garantiza que una transacción se trate como una sola unidad de
 trabajo. Puede completarse completamente o no completarse en absoluto como si
 nada hubiera ocurrido. En caso de que ocurra una falla durante una transacción,
-se revierte —*rollback*— toda la transacción.
+se revierte ‑*rollback*‑ toda la transacción.
 
 ### Consistencia
 
@@ -38,8 +38,8 @@ correctos, es decir, se cumplen todas las reglas que se hayan definido.
 
 La consistencia garantiza que una transacción mueve el conjunto de datos de un
 estado válido a otro estado también válido, lo que garantiza que se cumplan
-todas las reglas establecidas sobre los datos —por ejemplo la integridad
-referencial—.
+todas las reglas establecidas sobre los datos ‑por ejemplo la integridad
+referencial‑.
 
 ### Aislamiento
 
@@ -48,7 +48,7 @@ estén ejecutándose de forma concurrente.
 
 El aislamiento garantiza que las transacciones se ejecuten de forma
 independiente unas de otras. Los distintos motores gestionan el aislamiento a
-través de niveles de aislamiento —por ejemplo, [read
+través de niveles de aislamiento ‑por ejemplo, [read
 committed](https://www.postgresql.org/docs/current/transaction-iso.html#XACT-READ-COMMITTED),
 [repeatable
 read](https://www.postgresql.org/docs/current/transaction-iso.html#XACT-REPEATABLE-READ),o

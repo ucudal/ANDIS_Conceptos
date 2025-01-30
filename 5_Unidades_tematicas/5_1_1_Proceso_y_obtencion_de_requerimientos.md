@@ -8,18 +8,23 @@
 
 En este repositorio lee lo siguiente:
 
-<!-- Ver con José otros conceptos clave que tengan que estar definidos. ¿Volere? -->
-* [Requerimiento](TBD)
+* [Volere](/2_Tecnicas_y_herramientas/2_6_1_Volere.md)
 
-* [Requerimiento funcional](TBD)
+* [Requerimiento](/4_Conceptos/4_Requerimiento.md)
 
-* [Requisito no-funcional](TBD)
+* [Requerimiento funcional](/4_Conceptos/4_Requerimiento_funcional.md)
+
+* [Requerimiento no-funcional](/4_Conceptos/4_Requerimiento_no_funcional.md)
+
+* [Restricción](/4_Conceptos/4_Restriccion.md)
 
 * [Evento del negocio](/4_Conceptos/4_Evento_del_dominio.md)
 
 * [Caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md)
 
 * [Caso de uso del producto](/4_Conceptos/4_Caso_de_uso_del_producto.md)
+
+* [Escenario](/4_Conceptos/4_Escenario.md)
 
 * [Historias de usuario](/4_Conceptos/4_Historia_de_usuario.md)
 
@@ -51,8 +56,6 @@ Project Management Institute, disponible
 [aquí](https://www.pmi.org/disciplined-agile/inception-goals), en particular la
 sección [*Explore
 scope*](https://www.pmi.org/disciplined-agile/inception-goals/explore-initial-scope).
-
-
 
 #### Lecturas complementarias
 

@@ -6,7 +6,7 @@
 
 En esta segunda parte deben mencionar todas las restricciones que afecten al
 proyecto, así como también asunciones que hagan acerca de él y que su
-cumplimiento —o, incumplimiento— puedan afectarlo. Además, deben definir una
+cumplimiento ‑o, incumplimiento‑ puedan afectarlo. Además, deben definir una
 convención de denominaciones y términos que serán utilizados a lo largo del
 documento de forma consistente.
 
@@ -24,7 +24,7 @@ solución deberá ser una aplicación web? ¿deberá ser una aplicación mobile?
 ¿deberá seguir un patrón de arquitectura de software en específico?)*
 
 En caso de existir restricciones sobre las tecnologías a utilizar para el
-desarrollo de la solución, detallarlas mencionando —en caso de ser pertinente—
+desarrollo de la solución, detallarlas mencionando ‑en caso de ser pertinente‑
 la versión de las mismas.
 
 <!-- SECCIÓN: Restricciones de entorno de instalación -->
@@ -59,7 +59,7 @@ restricciones.
 
 <!-- SECCIÓN: Restricciones de presupuesto -->
 La organización o empresa cliente puede habilitar ciertos recursos con
-determinado límite —incluidos recursos monetarios—, y como los requerimientos no
+determinado límite ‑incluidos recursos monetarios‑, y como los requerimientos no
 deben exceder el presupuesto, esta restricción determina qué requerimientos son
 incluidos en el producto. En caso de que el cliente establezca un presupuesto
 (expresado en términos monetarios o recursos disponibles), detallarlo.

@@ -27,7 +27,7 @@ sean accesibles para todos los [interesados](/4_Conceptos/4_Interesado.md).
     </tr>
     <tr>
         <td td style="color:#0969DA" valign="top">
-            <b>Desencadenante —<i>trigger</i>—</b>
+            <b>Desencadenante ‑<i>trigger</i>‑</b>
         </td>
         <td>
             El mecanismo por el cual se inicia el caso de uso. Habitualmente
@@ -52,9 +52,9 @@ sean accesibles para todos los [interesados](/4_Conceptos/4_Interesado.md).
             <b>Partes interesadas</b>
         </td>
         <td>
-            Las personas que tienen interés en el resultado del caso de uso —que
+            Las personas que tienen interés en el resultado del caso de uso ‑que
             serán afectadas por la forma en que se haga el trabajo y por los
-            datos que produzca—.
+            datos que produzca‑.
         </td>
     </tr>
     <tr>

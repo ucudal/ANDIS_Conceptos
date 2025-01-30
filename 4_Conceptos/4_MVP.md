@@ -2,7 +2,7 @@
 
 ## MVP o mínimo producto viable
 
-El término MVP —*minimum viable product*— o mínimo producto viable fue
+El término MVP ‑*minimum viable product*‑ o mínimo producto viable fue
 popularizado entre otros por Eric Ries[^1]. Un MVP es una versión de un nuevo
 producto que permite a un equipo recopilar la máxima cantidad de aprendizaje
 validado sobre los clientes con el menor esfuerzo.
@@ -30,7 +30,7 @@ diseñado no solo para responder preguntas técnicas o de diseño de producto. S
 objetivo es probar hipótesis de negocio fundamentales.
 
 Los MVP varían en complejidad, desde pruebas de humo extremadamente simples
-—poco más que un anuncio— hasta prototipos iniciales completos con problemas y
+‑poco más que un anuncio‑ hasta prototipos iniciales completos con problemas y
 características faltantes. Decidir exactamente qué tan complejo debe ser un MVP
 no se puede hacer mediante fórmulas; requiere juicio. Afortunadamente, este
 juicio no es difícil de desarrollar: la mayoría de los emprendedores y personas
@@ -45,10 +45,10 @@ son experimentos para explorar una hipótesis sobre lo que realmente quieren los
 clientes. No corresponden a la versión "real" de su producto final porque no
 están al nivel de calidad o escala con que se produciría el producto final.
 Dicho esto, los MVP pueden evolucionar hasta convertirse en un producto real, o
-más exactamente en un MBI —*minimum business increment*— real, pero la mayoría
+más exactamente en un MBI ‑*minimum business increment*‑ real, pero la mayoría
 de las veces evolucionan hasta convertirse en algo más parecido a un prototipo
-—lo cual está bien porque son una inversión en aprendizaje y nunca estuvieron
-destinados a ser reales—. Por lo general, un equipo ejecuta el experimento con
+‑lo cual está bien porque son una inversión en aprendizaje y nunca estuvieron
+destinados a ser reales‑. Por lo general, un equipo ejecuta el experimento con
 un subconjunto de sus clientes potenciales para probar una nueva idea, recopilar
 datos sobre ella y así descubrir que los clientes están realmente
 interesados[^2].

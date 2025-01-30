@@ -21,15 +21,15 @@
 stateDiagram-v2
     [*] --> Closed
     Closed --> Open: Umbral de fallos alcanzado
-    Open --> Half—open: Tiempo de espera expirado
-    Half—open --> Open: Fallo en la operación
-    Half—open --> Closed: Umbral de éxitos alcanzado
+    Open --> Half‑open: Tiempo de espera expirado
+    Half‑open --> Open: Fallo en la operación
+    Half‑open --> Closed: Umbral de éxitos alcanzado
 
     note left of Closed
         on entry: restablecer contador de errores
         do: si la operación tiene éxito devolver resultado; sino incrementar contador de errores y devolver error
     end note
-    note right of Half—open
+    note right of Half‑open
         on entry: restablecer contador de éxito
         do: si la operación tiene éxito incrementar contador de éxito y devolver resultado; sino devolver error
     end note

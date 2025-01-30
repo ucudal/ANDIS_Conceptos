@@ -6,8 +6,8 @@
 
 #### Lecturas
 
-De los siguientes documentos enfocarse en las tácticas —lean pero no vamos a
-evaluar patrones—.
+De los siguientes documentos enfocarse en las tácticas ‑lean pero no vamos a
+evaluar patrones‑.
 
 * [Disponibilidad](/4_Conceptos/4_Disponibilidad.md) y [Tácticas para disponibilidad](/2_Tecnicas_y_herramientas/2_5_1_Tacticas_disponibilidad.md)
 * [Rendimiento](/4_Conceptos/4_Rendimiento.md) y [Tácticas para rendimiento](/2_Tecnicas_y_herramientas/2_5_2_Tacticas_rendimiento.md)

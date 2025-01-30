@@ -4,7 +4,7 @@
 
 ### Modelos de entidad relación
 
-Un modelo entidad-relación —también llamado MER— describe "cosas" de interés
+Un modelo entidad-relación ‑también llamado MER‑ describe "cosas" de interés
 relacionadas entre sí en el dominio de conocimiento del
 [trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md). Un modelo
 entidad-relación básico se compone de tipos de entidades con sus atributos y
@@ -12,8 +12,8 @@ especifica las relaciones que pueden existir entre instancias de esos tipos de
 entidades.
 
 El modelado entidad-relación fue desarrollado por Peter Chen[^1] y la notación
-usada por él fue luego extendida por Gordon Everest[^2] —conocida habitualmente
-como notación "pata de gallo" o "*crow's foot*"—. Este documento está
+usada por él fue luego extendida por Gordon Everest[^2] ‑conocida habitualmente
+como notación "pata de gallo" o "*crow's foot*"‑. Este documento está
 basado en esos artículos.
 
 Los diagramas con la notación de Chen de un modelo de entidad-relación pueden
@@ -25,9 +25,9 @@ contener:
 
 * Conjuntos de entidades débiles, que se representan con un rectángulo con
   líneas dobles. El rectángulo contiene siempre el nombre de la entidad. Estas
-  entidades deben participar en una relación —no pueden existir sin la otra
-  entidad de la relación— y no pueden ser identificadas unívocamente —dependen
-  de otra entidad en la relación—.
+  entidades deben participar en una relación ‑no pueden existir sin la otra
+  entidad de la relación‑ y no pueden ser identificadas unívocamente ‑dependen
+  de otra entidad en la relación‑.
 
 * Conjuntos de entidades asociativas, que se representan con un rectángulo con
   un rombo dentro. Relacionan las instancias de varios tipos de entidades.
@@ -55,7 +55,7 @@ contener:
   valor de un atributo derivado puede ser calculado a partir de los valores de
   otros atributos.
 
-Cuando un atributo es clave primaria —permite identificar de forma unívoca— el
+Cuando un atributo es clave primaria ‑permite identificar de forma unívoca‑ el
 nombre va subrayado.
 
 Además de estos elementos, es posible indicar la cardinalidad de las relaciones.
@@ -71,7 +71,7 @@ La siguiente notación fue propuesta por Chen:
   en la relación y puede hacerlo cualquier cantidad de veces.
 
 En la notación de "pata de gallo" las relaciones se representan con líneas que
-conectan las entidades —y no como rombos— y los atributos van uno por línea
+conectan las entidades ‑y no como rombos‑ y los atributos van uno por línea
 dentro de la entidad.
 
 A diferencia de la notación para la cardinalidad propuesta por Chen, la
@@ -119,7 +119,7 @@ primaria propios que los identifican de manera única (`RUT` para `Hotel` y
 
 `Habitación` es una entidad débil porque su existencia depende de la entidad
 fuerte `Hotel`. La clave primaria de `Habitación` es una combinación de `Número`
-—de `Habitación`— y `RUT` —de `Hotel`—.
+‑de `Habitación`‑ y `RUT` ‑de `Hotel`‑.
 
 La relación `Reserva` entre `Cliente` y `Hotel` es una relación fuerte, ya
 que ambos, `Cliente` y `Hotel`, son entidades fuertes.

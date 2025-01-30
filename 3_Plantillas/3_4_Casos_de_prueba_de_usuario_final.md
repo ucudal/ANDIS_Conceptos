@@ -38,9 +38,9 @@ lo sea. -->
         </td>
         <td colspan=3>
             Describir en qué estado debe estar la aplicación antes de iniciar
-            este caso de prueba —por ejemplo, si hay que importar o cargar
+            este caso de prueba ‑por ejemplo, si hay que importar o cargar
             ciertos datos; o navegar hacia cierta pantalla, página o ventana de
-            la aplicación—; y si es necesario o no volver a ese estado al final
+            la aplicación‑; y si es necesario o no volver a ese estado al final
             de cada uno de los casos a continuación.
         </td>
     </tr>

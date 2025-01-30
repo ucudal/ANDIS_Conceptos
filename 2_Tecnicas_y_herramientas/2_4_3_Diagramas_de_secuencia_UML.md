@@ -14,13 +14,13 @@ Este documento está basado en UML 2.5.1[^1].
 Los diagramas de secuencia típicamente tienen:
 
 * Líneas de vida o *lifelines*, que se representan por un rectángulo y una línea
-  vertical —opcionalmente punteada—, y modelan lo que ocurre en la vida de una
+  vertical ‑opcionalmente punteada‑, y modelan lo que ocurre en la vida de una
   instancia, con el tiempo transcurriendo desde arriba hacia abajo. Dentro del
   rectángulo van dos puntos y el nombre del
   [clasificador](/4_Conceptos/4_Clasificador.md) de la instancia; los dos puntos
   se utilizan para indicar que es una instancia, y no un clasificador. En caso
-  de que sea relevante el nombre de la instancia —para identificar instancias
-  del mismo clasificador— se escribe el nombre de la instancia antes de los dos
+  de que sea relevante el nombre de la instancia ‑para identificar instancias
+  del mismo clasificador‑ se escribe el nombre de la instancia antes de los dos
   puntos.
 * Mensajes, que se representan con una flecha desde la línea de vida del emisor
   hasta la del receptor, y modelan el transporte de información de una instancia
@@ -67,13 +67,13 @@ Existen varios tipos de mensajes:
 
 ![Mensaje de respuesta](/diagrams/Sequence_Diagram_Reply_Message.svg)
 
-* Perdido —*lost*—, que se dibujan con un círculo al final del mensaje, en el
+* Perdido ‑*lost*‑, que se dibujan con un círculo al final del mensaje, en el
   lugar en el que estaría el receptor, y que se utilizan para modelar un mensaje
   enviado por un emisor pero se desconoce o no interesa modelar el receptor.
 
 ![Mensaje perdido](/diagrams/Activity_Diagram_Lost.svg)
 
-* Encontrado —*found*—, que se dibujan con un círculo al inicio del mensaje, en
+* Encontrado ‑*found*‑, que se dibujan con un círculo al inicio del mensaje, en
   el lugar en el que estaría el emisor, y que se utiliza para modelar un mensaje
   recibido por un receptor pero que se desconoce o no interesa modelar el
   emisor.
@@ -85,12 +85,12 @@ de los mensajes del diagrama. Las regiones se representan con un rectángulo con
 el nombre de la región en la esquina superior izquierda, y pueden ser usados
 para modelar:
 
-* Bucles —*loop*, *foreach*—: los mensajes en la región se ejecutan en un bucle
-  controlador por una condición de guarda —*guard condition*— o para todos los
+* Bucles ‑*loop*, *foreach*‑: los mensajes en la región se ejecutan en un bucle
+  controlador por una condición de guarda ‑*guard condition*‑ o para todos los
   elementos de una colección; la condición de guarda se indica también en la
   esquina superior izquierda.
 
-* Condicionales —*alt*, *alt-else*, *case*—: Los mensajes en la región se
+* Condicionales ‑*alt*, *alt-else*, *case*‑: Los mensajes en la región se
   ejecutan si se cumple una condición de guarda. En el caso de *alt-else* la
   región se divide con una línea horizontal, y los mensajes en la parte superior
   se ejecutan si la condición de guarda se cumple, de lo contrario se ejecutan
@@ -100,7 +100,7 @@ para modelar:
   condición de guarda. Las condiciones de guarda se indican también en la
   esquina superior izquierda.
 
-* Referencias —*ref*—: La parte dentro de la región se omite en este diagrama,
+* Referencias ‑*ref*‑: La parte dentro de la región se omite en este diagrama,
   pero se detalla en otro diagrama cuyo nombre coincide con el de la región.
 
 En la [Figura 2](#figura-2), a continuación, el ejemplo es similar al de la

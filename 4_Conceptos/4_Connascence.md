@@ -10,8 +10,8 @@
 > inglés *connascence*.
 
 La co-nascencia es una de las formas con las que se mide la modularidad en
-ingeniería de software —las otras son el [acoplamiento](./4_Acoplamiento.md) y
-la [cohesión](./4_Cohesion.md)—. Refiere a que dos partes son co-nascentes si
+ingeniería de software ‑las otras son el [acoplamiento](./4_Acoplamiento.md) y
+la [cohesión](./4_Cohesion.md)‑. Refiere a que dos partes son co-nascentes si
 un cambio en una de ellas requiere modificar la otra para mantener la
 corrección general del sistema[^1]. La co-nascencia refina los conceptos de
 [acoplamiento](./4_Acoplamiento.md) eferente y aferente para los lenguajes de

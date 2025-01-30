@@ -47,7 +47,7 @@ Algunos sugieren que las historias de usuario tengan cierto formato[^3]:
 > quiero [<span style="color:#0969DA">característica o funcionalidad</span>]
 > de modo que [<span style="color:#0969DA">razón</span>]
 
-*Persona* —ver [definición](https://www.merriam-webster.com/dictionary/persona)—
+*Persona* ‑ver [definición](https://www.merriam-webster.com/dictionary/persona)‑
 representa el rol o el usuario.
 
 > [!TIP]
@@ -59,7 +59,7 @@ representa el rol o el usuario.
 
 Lo que el usuario quiere hacer en la historia es lo que asumes que es su
 objetivo e implica una característica o funcionalidad en el software. La razón
-—también llamada a veces recompensa— es algo que se puede probar —demostrar—
+‑también llamada a veces recompensa‑ es algo que se puede probar ‑demostrar‑
 para determinar que el usuario ha alcanzado su objetivo.
 
 > [!TIP]
@@ -216,7 +216,7 @@ atómico](/3_Plantillas/3_1_Requerimiento_atomico.md):
     </tr>
 </table>
 
-Las historias de usuario pueden ser agrupadas en épicas —*epics*—, o dicho de
+Las historias de usuario pueden ser agrupadas en épicas ‑*epics*‑, o dicho de
 otro modo, las épicas de descomponen en historias de usuario. Pueden tener el
 mismo formato que las historias de usuario aunque con una granularidad mucho
 menor, o dicho de otro modo, con un alcanza mucho mayor.

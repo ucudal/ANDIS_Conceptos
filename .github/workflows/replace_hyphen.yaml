@@ -1,0 +1,21 @@
+name: "Replace HYPHEN with NON-BREAKING HYPHEN"
+on:
+  push:
+    branches:
+      - "**"
+      - "!main"
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v3"
+      - name: Replace string in file
+        run: |
+          find . -type f -name "*.md" -exec sed -i 's/—/‑/g' {} +
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Replaced — with ‑"
+          file_pattern: "*.md"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

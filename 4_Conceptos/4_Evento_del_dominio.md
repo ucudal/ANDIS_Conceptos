@@ -20,10 +20,17 @@ tiene en un momento dado.
 
 Otro tema diferente, pero relacionado, son las cuestiones que aparecen en los
 sistemas distribuidos, en los que el estado no siempre es consistente
+<<<<<<< HEAD
 —[consistencia eventual](https://en.wikipedia.org/wiki/Eventual_consistency)—.
 Mientras que en los [agregados](/2_Tecnicas_y_herramientas/2_8_Aggregate.md) se
 puede mantener la consistencia internamente, otros cambios deben ser asíncronos
 y propagarse a través de la red.
+=======
+‑[consistencia eventual](https://en.wikipedia.org/wiki/Eventual_consistency)‑.
+Mientras que en los [agregados](./4_Agregado.md) se puede mantener la
+consistencia internamente, otros cambios deben ser asíncronos y propagarse a
+través de la red.
+>>>>>>> main
 
 Para definir eventos del dominio, considera lo siguiente:
 

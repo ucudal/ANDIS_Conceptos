@@ -5,13 +5,13 @@
 ### 2.5.4 Tácticas para la seguridad
 
 Una forma de pensar acerca de la seguridad en un sistema es mirar la seguridad
-física. Las instalaciones seguras limitan el acceso a su interior —por ejemplo,
-mediante el uso de vallas y puntos de control de acceso—, cuentan con métodos para
-detectar intrusos —como exigir a los visitantes autorizados que porten tarjetas
-de identificación—, poseen mecanismos disuasorios —como la presencia de cámaras
-de vigilancia—, tienen sistemas de respuesta —por ejemplo, activación automática
-de alarmas— y disponen de mecanismos de recuperación —como sistemas de respaldo
-en ubicaciones remotas—. Estas medidas se agrupan en cuatro categorías de
+física. Las instalaciones seguras limitan el acceso a su interior ‑por ejemplo,
+mediante el uso de vallas y puntos de control de acceso‑, cuentan con métodos para
+detectar intrusos ‑como exigir a los visitantes autorizados que porten tarjetas
+de identificación‑, poseen mecanismos disuasorios ‑como la presencia de cámaras
+de vigilancia‑, tienen sistemas de respuesta ‑por ejemplo, activación automática
+de alarmas‑ y disponen de mecanismos de recuperación ‑como sistemas de respaldo
+en ubicaciones remotas‑. Estas medidas se agrupan en cuatro categorías de
 tácticas: detección, resistencia, reacción y recuperación[^1].
 
 [^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
@@ -22,7 +22,7 @@ La lista de tácticas está tomada de [^1]:
 * **Detectar la intrusión**. Consiste en comparar patrones de tráfico o de
   llamados contra un conjunto conocido de patrones de comportamiento malicioso.
   Los patrones puede estar basados en características del protocolo, de los
-  llamados, del contenido de los mensajes —*payload*—, origen, destino, etc.
+  llamados, del contenido de los mensajes ‑*payload*‑, origen, destino, etc.
 
   Vean además [Recommendations for monitoring and threat
   detection](https://learn.microsoft.com/en-us/azure/well-architected/security/monitor-threats)
@@ -32,8 +32,8 @@ La lista de tácticas está tomada de [^1]:
   llevando a cabo un ataque que intenta hacer que el sistema sea inaccesible
   para los usuarios legítimos. Por ejemplo, monitorear el tráfico de red para
   identificar un aumento inusual en las solicitudes que podrían indicar un
-  ataque DDoS —denegación de servicio distribuida, o *distributed denial or
-  service*—.
+  ataque DDoS ‑denegación de servicio distribuida, o *distributed denial or
+  service*‑.
 
   Vean además [Recommendations for networking and
   connectivity](https://learn.microsoft.com/en-us/azure/well-architected/security/networking)
@@ -41,7 +41,7 @@ La lista de tácticas está tomada de [^1]:
 
 * **Verificar la integridad de los mensajes**. Consiste en asegurar que los
   mensajes no han sido alterados durante la transmisión, mediante el uso de
-  sumas de verificación —*hashes*— o firmas digitales para verificar la
+  sumas de verificación ‑*hashes*‑ o firmas digitales para verificar la
   integridad de los mensajes.
 
   Vean además [Recommendations for data
@@ -50,12 +50,12 @@ La lista de tácticas está tomada de [^1]:
 
 * **Detectar anomalías en la entrega de mensajes**. Es identificar
   comportamientos inusuales o anómalos en la entrega de mensajes, que podrían
-  sugerir un ataque de intermediario —*man-in-the-middle*—.
+  sugerir un ataque de intermediario ‑*man-in-the-middle*‑.
 
-* **Identificar actores**. Consiste en identificar —conocer la identidad— de los
-  diferentes actores —usuarios o componentes— que interactúan con un componente
+* **Identificar actores**. Consiste en identificar ‑conocer la identidad‑ de los
+  diferentes actores ‑usuarios o componentes‑ que interactúan con un componente
   de la arquitectura de software. Los usuarios son identificador típicamente
-  mediante un identificador de usuario —o *user id*—, pero también se puede usar
+  mediante un identificador de usuario ‑o *user id*‑, pero también se puede usar
   direcciones IP u otros mecanismos.
 
   Vean además [Recommendations for identity and access
@@ -64,8 +64,8 @@ La lista de tácticas está tomada de [^1]:
 
 * **Autenticar actores**. Es el proceso de verificar la identidad de los actores
   para asegurar que son quienes dicen ser. Las contraseñas, las contraseñas de
-  un solo uso —OTP o *one time password*, los certificados digitales, la
-  autenticación de dos factores —2FA o *two factors authentication*— y
+  un solo uso ‑OTP o *one time password*, los certificados digitales, la
+  autenticación de dos factores ‑2FA o *two factors authentication*‑ y
   la identificación biométrica proporcionan un medio para la autenticación.
 
   Vean además [Recommendations for identity and access
@@ -97,8 +97,8 @@ La lista de tácticas está tomada de [^1]:
 
 * **Cifrar los datos**. Consiste en transformar los datos de forma que solo
   pueda ser leído por aquellos que posean la clave de descifrado. El cifrado
-  puede ser simétrico —ambas partes tienen la misma clave— o asimétrico
-  —mediante un mecanismo de clave pública y privada—.
+  puede ser simétrico ‑ambas partes tienen la misma clave‑ o asimétrico
+  ‑mediante un mecanismo de clave pública y privada‑.
 
   Vean además [Recommendations for data
   encryption](https://learn.microsoft.com/en-us/azure/well-architected/security/encryption)
@@ -125,7 +125,7 @@ La lista de tácticas está tomada de [^1]:
   después de cierto tiempo.
 
 * **Revocar el acceso**. Consiste en limitar el acceso de las credenciales
-  —aún las legítimas— cuando se sospecha que ha ocurrido un ataque.
+  ‑aún las legítimas‑ cuando se sospecha que ha ocurrido un ataque.
 
 * **Restringir el ingreso**. Consiste en impedir el acceso de las credenciales
   cuando se sospecha que ha ocurrido un ataque. Por ejemplo, bloquear a un

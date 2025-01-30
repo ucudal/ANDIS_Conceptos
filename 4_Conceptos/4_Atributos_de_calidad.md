@@ -60,8 +60,8 @@ lista será necesariamente incompleta. El estándar ISO/IEC 25010 define los
 siguientes[^3]:
 
 [^3]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
-    engineering—Systems and software Quality Requirements and Evaluation
-    (SQuaRE) — System and software quality models.
+    engineering‑Systems and software Quality Requirements and Evaluation
+    (SQuaRE) ‑ System and software quality models.
 
 <table>
   <tr>
@@ -190,7 +190,7 @@ vez en las siguientes sub-características:
 #### Comportamiento temporal
 
 Grado en que un producto realiza sus funciones de forma que el tiempo de
-respuesta y el ratio de rendimiento cumple los requisitos especificados.
+respuesta y el ratio de rendimiento cumple los requerimientos especificados.
 
 #### Utilización de recursos
 
@@ -200,7 +200,7 @@ especificado.
 
 #### Capacidad
 
-Grado en que el producto cumple los requisitos relativos a límites máximos para
+Grado en que el producto cumple los requerimientos relativos a límites máximos para
 un parámetro (ítems almacenados, usuarios concurrentes, ancho de banda de
 comunicaciones...).
 
@@ -364,8 +364,8 @@ se cumplen dichos criterios.
 
 ### Flexibilidad
 
-Capacidad del producto para adaptarse a cambios en sus requisitos, contextos de
-uso o entorno del sistema. Esta característica se subdivide a su vez en las
+Capacidad del producto para adaptarse a cambios en sus requerimientos, contextos
+de uso o entorno del sistema. Esta característica se subdivide a su vez en las
 siguientes sub-características:
 
 #### Adaptabilidad
