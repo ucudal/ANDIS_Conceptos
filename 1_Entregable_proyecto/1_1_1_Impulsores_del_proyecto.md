@@ -17,14 +17,10 @@ como también su proyección y cualquier entidad interesada en el mismo.
 Sin entrar en detalles, describir el problema que este proyecto intenta
 resolver. Opcionalmente se puede utilizar el siguiente formato:
 
-<table>
-  <tr><td>El problema</td><td><i>(descripción del problema)</i></td></tr>
-  <!-- TODO Agregar definición y link para 'stakeholders' -->
-  <tr><td>Afecta a</td><td><i>(stakeholders afectados)</i></td></tr>
-  <tr><td>Cuyo impacto es</td><td><i>(¿cuál es el impacto del problema?)</i></td></tr>
-  <tr><td>Una solución exitosa debe tener</td><td><i>(listar algunos beneficios
-  clave de una solución exitosa)</i></td></tr>
-</table>
+> El problema [descripción del problema] afecta a
+> [[interesados](/4_Conceptos/4_Interesado.md)]  y el impacto es [descripción
+> del impacto del problema en los interesados]. Una solución exitosa debe tener
+> [lista de beneficios clave de una solución exitosa].
 
 <!-- SECCIÓN: Declaración del posicionamiento del producto -->
 Dar un resumen general que indique, a alto nivel y sin entrar en detalles, las
@@ -93,9 +89,10 @@ guía:
   <tr><td>Descripción</td><td><i>Descripción breve del usuario y la relación que
   tendrá con el sistema.</i></td></tr>
   <!-- TODO Agregar definición y link para 'stakeholders' -->
-  <tr><td>Representado por</td><td><i>Stakeholders que representan en el proyecto
-  a este tipo de usuario. Por ejemplo, el usuario “telefonista” podría estar
-  representado por el stakeholder “Encargado del Call Center”</i></td></tr>
+  <tr><td>Representado por</td><td><i><a href="/4_Conceptos/4_Interesado.md">
+  Interesado</a> que representan en el proyecto a este tipo de usuario. Por
+  ejemplo, el usuario “telefonista” podría estar representado por el interesado
+  “Encargado del Call Center”</i></td></tr>
   <tr><td>Rol en la organización</td><td><i>Descripción del rol que desempeña en
   la organización cliente.</i></td></tr>
   <tr><td>Rol en el sistema</td><td><i>Descripción del rol que tendrá con respecto
