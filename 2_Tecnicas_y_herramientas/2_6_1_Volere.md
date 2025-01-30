@@ -10,12 +10,15 @@ se descubren y de si se documentan o no. El verdadero objetivo del análisis de
 requerimientos no es producir documentación, sino entender una necesidad del
 negocio y diseñar una solución apropiada para ella. Volere[^1] es un proceso —que
 puede ser utilizado junto con otros *frameworks* de proceso— para descubrir,
-verificar y documentar requerimientos propuesto en [^2].
+verificar y documentar requerimientos[^2].
 
 [^1]: Volere es el término en italiano para ≪desear≫ o ≪querer≫.
 
 [^2]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
 Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
+
+La [Figura 1](#figura-1), a continuación, muestra una representación gráfica del
+proceso de requerimientos.
 
 <a id="figura-1"/>
 
@@ -110,6 +113,10 @@ Algunas actividades —no necesariamente secuenciales— de este proceso son:
   negocio dividiéndolo en una serie de pasos fácilmente reconocibles, escritos
   en lenguaje natural para que sean accesibles a todos los interesados. Una vez
   acordados, los escenarios se convierten en la base de los requerimientos.
+
+  > [!TIP]
+  > Existe una [plantilla](/3_Plantillas/3_2_Escenario.md) para escribir los
+  > escenarios.
 
 * **Escribir los requerimientos**. Un problema en el desarrollo de software es
   la falta de comprensión de los requerimientos. Para mitigar este problema los
@@ -213,3 +220,9 @@ especificación completa de requerimientos. Por otro lado, cuando la arquitectur
 general ya está definida, con frecuencia es posible comenzar la construcción y
 entrega del producto incluso antes de haber descubierto todos los
 requerimientos.
+
+#### Recursos
+
+> [!TIP]
+> Este sitio sobre [Volere](https://www.volere.org) incluye varios recursos en
+> línea que pueden ser útiles.
