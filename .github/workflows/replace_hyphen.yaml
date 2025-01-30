@@ -3,8 +3,7 @@ on:
   push:
     branches:
       - "**"
-    branches-ignore:
-      - master
+      - "!main"
 jobs:
   build:
     runs-on: "ubuntu-latest"
