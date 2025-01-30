@@ -12,7 +12,7 @@ Este documento está basado en [^2] y [^1].
     Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
-Las [entidades](./4_Entidad.md) y los [agregados](./4_Agregado.md) pueden ser
+Las [entidades](./2_8_Entity.md) y los [agregados](./2_8_Aggregate.md) pueden ser
 muy complejos como para que sean creados por la entidad raíz; o crear y
 ensamblar objetos complejos no es una responsabilidad que pueda ser asignada a
 los objetos creados, o puede producir diseños poco elegantes y difíciles de
@@ -35,7 +35,7 @@ Es importante que el proceso de creación de objetos sea atómico ‑todo o nada
 para evitar que los objetos creados estén incompletos. Para los agregados, esto
 significa que cuando la raíz sea creada, todos los objetos también deben ser
 creados de forma tal que se cumplan las invariantes que hubiera. Para los
-[objetos valor](./4_Objeto_Valor.md), esto significa que todos los atributos son
+[objetos valor](./2_8_Value_Object.md), esto significa que todos los atributos son
 inicializados en su estado válido. Para evitar que sea creado un valor inválido,
 se debe arrojar una excepción cuando un objeto no puede ser creado
 apropiadamente.

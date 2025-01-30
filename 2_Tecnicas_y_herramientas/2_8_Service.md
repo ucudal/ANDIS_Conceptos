@@ -1,6 +1,6 @@
 # 4 Conceptos
 
-## Servicio en *Domain-Driven Design*
+## *Service* en *Domain-Driven Design*
 
 Este documento está basado en [^2] y [^1].
 
@@ -12,10 +12,15 @@ Este documento está basado en [^2] y [^1].
     Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
+<<<<<<< HEAD:2_Tecnicas_y_herramientas/2_8_Service.md
+En *Domain-Driven Design* —DDD, por sus siglas—, un servicio es un objeto que, a
+diferencia de una [entidad](./2_8_Entity.md) y un [objeto2_8_Object_Value.md4_Objeto_Valor.md../4_Conceptos/4_Objeto_Valor.md
+=======
 En *Domain-Driven Design* ‑DDD, por sus siglas‑, un servicio es un objeto que, a
 diferencia de una [entidad](./4_Entidad.md) y un [objeto
+>>>>>>> main:4_Conceptos/4_Servicio.md
 valor](./4_Objeto_Valor.md), no tiene estado y su único propósito es el de
-proveer funcionalidad para el [dominio](./4_Dominio.md). Los servicios actúan
+proveer funcionalidad para el [dominio](../4_Conceptos/4_Dominio.md). Los servicios actúan
 como interfaces que proveen operaciones y si bien son más comunes en
 *frameworks* técnicos, también se pueden usar en la capa del dominio.
 
@@ -24,7 +29,7 @@ conexión entre diferentes objetos, y esta es una de las razones por la que el
 comportamiento que naturalmente corresponde a un servicio no debe incluirse
 dentro de otros objetos del dominio. Si esto pasara, se puede obtener como
 resultado una gran red de asociaciones entre objetos, lo cual significa un gran
-nivel de [acoplamiento](./4_Acoplamiento.md). Al mismo tiempo, un servicio
+nivel de [acoplamiento](../4_Conceptos/4_Acoplamiento.md). Al mismo tiempo, un servicio
 tampoco debería reemplazar una operación que normalmente pertenecería a un
 objeto del dominio.
 
