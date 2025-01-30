@@ -23,16 +23,16 @@ Los diagramas de despliegue tienen estos elementos:
   puede usar un ícono para representar visualmente estos estereotipos.
 
   Los nodos son elementos del modelo que representan los recursos
-  computacionales en los que se puede desplegar artefactos —la definición de
-  artefacto está más abajo—. Los nodos pueden contener otros nodos. Hay dos
+  computacionales en los que se puede desplegar artefactos ‑la definición de
+  artefacto está más abajo‑. Los nodos pueden contener otros nodos. Hay dos
   tipos más específicos de nodo, los ambientes de ejecución y los dispositivos
-  —que están definidos también más abajo—.
+  ‑que están definidos también más abajo‑.
 
 * Instancias de nodos, que representan una ocurrencia real de un nodo. Las
   instancias de nodo se basan en nodos existentes. El nombre de la instancia va
   delante del nombre del nodo separado por `:` y subrayado.
 
-* Ambientes de ejecución —*execution environment*—, que son un tipo más
+* Ambientes de ejecución ‑*execution environment*‑, que son un tipo más
   específico de nodo, y que se representan como un nodo pero con el estereotipo
   `≪executionEnvironment≫`; el nombre del nodo, que describe el ambiente de
   ejecución que representa.
@@ -56,7 +56,7 @@ Los diagramas de despliegue tienen estos elementos:
   sistema. Ejemplos de artefactos incluyen archivos de modelos, archivos fuente,
   scripts, archivos ejecutables, tablas de bases de datos, entregables de
   desarrollo, documentos de procesamiento de textos y mensajes de correo. Los
-  artefactos se implementan —se despliegan— en nodos y se admite la
+  artefactos se implementan ‑se despliegan‑ en nodos y se admite la
   implementación de artefactos en varios tipos de nodos.
 
 * Instancias de artefactos, que representan una ocurrencia real de un artefacto.
@@ -103,11 +103,11 @@ negocios` en `Servidor web` mediante una conexión SOAP sobre HTTP.
 
 La [Figura 2](#figura-2), a continuación, muestra otro ejemplo de diagrama de
 despliegue. En este caso el dispositivo `Servidor de aplicación` que contiene un
-servidor JSP `Tomcat 5.5` —o dicho de otro modo, hay un servidor JSP llamado
+servidor JSP `Tomcat 5.5` ‑o dicho de otro modo, hay un servidor JSP llamado
 `Tomcat 5.5` desplegado en el dispositivo `Servidor de aplicación`. A su vez el
 servidor JSP contiene un ambiente de ejecución
-`Catalina Servlet 2.4/JSP 2.0 Container` —también es posible decir que el
-ambiente de ejecución está desplegado en el servidor JSP—. Ese ambiente de
+`Catalina Servlet 2.4/JSP 2.0 Container` ‑también es posible decir que el
+ambiente de ejecución está desplegado en el servidor JSP‑. Ese ambiente de
 ejecución tiene un artefacto `book_club_app.war` que está compuesto por otros
 dos artefactos `user_services.jar` y `web-tools-lib.jar`. El primer artefacto
 `book_club_app.war` es la manifestación del componente `OnlineOrders`, mientras

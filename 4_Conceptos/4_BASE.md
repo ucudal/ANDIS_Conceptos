@@ -20,11 +20,11 @@ BASE[^1].
 https://dl.acm.org/doi/pdf/10.1145/1466443.1466448
 
 BASE en un acrónimo [acrónimo](https://dle.rae.es/acrónimo) que referencia las
-características de este tipo de sistemas: disponibilidad básica —***b**asic
-**a**vailability* en inglés—, estado blando —***s**oft state* en inglés— y
-consistencia eventual —***e**ventual consistency* en inglés—. *base* se traduce
+características de este tipo de sistemas: disponibilidad básica ‑***b**asic
+**a**vailability* en inglés‑, estado blando ‑***s**oft state* en inglés‑ y
+consistencia eventual ‑***e**ventual consistency* en inglés‑. *base* se traduce
 como base, lo contrario a ácido en química, por lo que BASE sería lo contrario a
-[ACID](./4_ACID.md)—
+[ACID](./4_ACID.md)‑
 
 Hay dos formas de ver la consistencia:
 
@@ -53,14 +53,14 @@ Los componentes del lado del cliente incluyen:
 ### Consistencia eventual del lado del cliente
 
 La consistencia del lado del cliente tiene que ver con cómo y cuándo los
-observadores —en este caso los procesos A, B o C— ven las actualizaciones
+observadores ‑en este caso los procesos A, B o C‑ ven las actualizaciones
 realizadas a los objetos de datos en el sistemas de almacenamiento.
 
 En los siguientes ejemplos que ilustran los diferentes tipos de consistencia, el
 proceso A ha realizado una actualización a un elemento de datos:
 
 * **Consistencia fuerte**. Una vez que se completa la actualización, cualquier
-  acceso posterior —por parte de A, B o C— devolverá el valor actualizado.
+  acceso posterior ‑por parte de A, B o C‑ devolverá el valor actualizado.
 
 * **Consistencia débil**. El sistema no garantiza que los accesos posteriores
   devolverán el valor actualizado. Se deben cumplir varias condiciones antes de
@@ -78,8 +78,8 @@ proceso A ha realizado una actualización a un elemento de datos:
 
 [^2]: El sistema más popular que implementa la consistencia eventual es el
     [sistema de nombres de
-    dominio](https://datatracker.ietf.org/doc/html/rfc1034) —DNS por sus siglas
-        en inglés *domain name system*—. Las actualizaciones de un nombre se
+    dominio](https://datatracker.ietf.org/doc/html/rfc1034) ‑DNS por sus siglas
+        en inglés *domain name system*‑. Las actualizaciones de un nombre se
     distribuyen de acuerdo con un patrón configurado y en combinación con cachés
     controlados por tiempo; finalmente, todos los clientes verán la
     actualización.
@@ -115,8 +115,8 @@ tener en cuenta:
 
 Se pueden combinar varias de estas propiedades. Por ejemplo, se pueden obtener
 lecturas monótonas combinadas con consistencia a nivel de sesión. Desde un punto
-de vista práctico, estas dos propiedades —lecturas monótonas y lecturas de
-escrituras— son las más deseables en un sistema de consistencia eventual, pero
+de vista práctico, estas dos propiedades ‑lecturas monótonas y lecturas de
+escrituras‑ son las más deseables en un sistema de consistencia eventual, pero
 no siempre son necesarias. Estas dos propiedades hacen que sea más sencillo para
 los desarrolladores crear aplicaciones, al tiempo que permiten que el sistema de
 almacenamiento relaje la consistencia y proporcione alta disponibilidad.
@@ -141,13 +141,13 @@ Si $W+R>N$, entonces el conjunto de escritura y el conjunto de lectura siempre
 se superponen y se puede garantizar la consistencia fuerte.
 
 Por ejemplo, en el escenario de un motor de bases de datos de copia de seguridad
-primaria, que implementa la replicación sincrónica —[*availability
+primaria, que implementa la replicación sincrónica ‑[*availability
 group*](https://learn.microsoft.com/en-us/sql/database-engine/sql-server-business-continuity-dr?view=sql-server-ver16#availability-groups)
-en SQL Server por ejemplo—, $N=2$, $W=2$ y $R=1$; sin importar desde qué réplica
+en SQL Server por ejemplo‑, $N=2$, $W=2$ y $R=1$; sin importar desde qué réplica
 lea el cliente, siempre obtendrá una respuesta coherente. En el caso de
-replicación asíncrona con lectura desde la copia de seguridad habilitada —[*log
+replicación asíncrona con lectura desde la copia de seguridad habilitada ‑[*log
 shipping*](https://learn.microsoft.com/en-us/sql/database-engine/sql-server-business-continuity-dr?view=sql-server-ver16#log-shipping)
-en SQL Server por ejemplo—, $N=2$, $W=1$ y $R=1$; en este caso, $R+W=N$ y no se
+en SQL Server por ejemplo‑, $N=2$, $W=1$ y $R=1$; en este caso, $R+W=N$ y no se
 puede garantizar la coherencia.
 
 El problema con estas configuraciones es que cuando debido a fallas el sistema
@@ -157,8 +157,8 @@ nodos disponibles, el sistema tendrá que fallar la escritura.
 
 En sistemas de almacenamiento distribuido que brindan alto rendimiento y alta
 disponibilidad, el número de réplicas es en general mayor que dos. Los sistemas
-que se enfocan únicamente en la tolerancia a fallas a menudo usan $N=3$ —con
-configuraciones $W=2$ y $R=2$—.
+que se enfocan únicamente en la tolerancia a fallas a menudo usan $N=3$ ‑con
+configuraciones $W=2$ y $R=2$‑.
 
 Los sistemas que deben atender cargas de lectura muy altas a menudo replican sus
 datos más allá de lo que se requiere para la tolerancia a fallas; $N$ puede ser

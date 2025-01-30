@@ -29,11 +29,11 @@ normal.
         </td>
         <td>
             Describe en qué consisten las pruebas a realizar. Para cada <a
-            href="/4_Conceptos/4_Epica.md">épica</a> —o grupo de
-            funcionalidades—, especifica los
+            href="/4_Conceptos/4_Epica.md">épica</a> ‑o grupo de
+            funcionalidades‑, especifica los
             <a href="/4_Conceptos/4_Enfoques_de_pruebas.md">enfoques</a> de las
             pruebas, los <a href="/4_Conceptos/4_Tipos_de_pruebas.md">tipos</a>
-            de pruebas, y la automatización —o no— de las pruebas, que garantiza
+            de pruebas, y la automatización ‑o no‑ de las pruebas, que garantiza
             que estos grupos de funcionalidades sean probados adecuadamente.
             Especifica las principales actividades, técnicas y herramientas que
             se utilizan para probar lo que se haya incluido en el alcance.

@@ -5,8 +5,8 @@
 ### 2.4.2 Diagramas de casos de uso UML
 
 Los diagramas de casos de uso permiten mostrar una visión general de los actores
-y de los casos de uso de un sujeto —de un
-[clasificador](/4_Conceptos/4_Clasificador.md)—, así como de la relación entre
+y de los casos de uso de un sujeto ‑de un
+[clasificador](/4_Conceptos/4_Clasificador.md)‑, así como de la relación entre
 ellos: qué actores participan en qué casos de uso, o qué casos de uso incluyen o
 extienden a otros.
 
@@ -25,8 +25,8 @@ Los diagramas de casos de uso tienen:
   generalización.
 * Casos de uso, que se representan con un óvalo, y modelan un comportamiento que
   el sujeto puede realizar con uno o más actores. Los casos de uso pueden estar
-  relacionados entre ellos también por relaciones de extensión —*extends*— y de
-  inclusión —*includes*—.
+  relacionados entre ellos también por relaciones de extensión ‑*extends*‑ y de
+  inclusión ‑*includes*‑.
 * Asociaciones entre actores y casos de uso, que se representan con una línea
   que une el actor con el caso de uso, y modelan la interacción entre ellos. Las
   asociaciones pueden tener cardinalidad en ambos extremos, aunque generalmente

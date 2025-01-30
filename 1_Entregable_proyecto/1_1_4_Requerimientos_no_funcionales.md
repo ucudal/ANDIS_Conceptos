@@ -25,7 +25,7 @@ necesarios, así como cuáles no.
 No todos los proyectos tratan de un producto que necesita una interfaz de
 usuario, pero en el caso de que su producto a desarrollar sí la necesite,
 detallar los requerimientos asociados a la apariencia del sistema, por ejemplo:
-guías de UX/UI a utilizar —quizá brindadas por el cliente—, marca corporativa de
+guías de UX/UI a utilizar ‑quizá brindadas por el cliente‑, marca corporativa de
 la organización cliente, qué colores utilizar, etcétera.
 
 ## Requerimientos de usabilidad y humanidad
@@ -82,7 +82,7 @@ los requerimientos asociados a las preferencias de los usuarios. Estos
 requerimientos indican cómo el sistema puede ser modificado o configurado por
 los usuarios para tener en cuenta sus preferencias y selección de lenguaje
 utilizado por el sistema. En otras culturas, se usan diferentes sistemas de
-unidades —sistema métrico, anglosajón, etcétera—, unidades monetarias, idiomas,
+unidades ‑sistema métrico, anglosajón, etcétera‑, unidades monetarias, idiomas,
 etcétera.
 
 <!-- SECCIÓN: Requerimientos de accesibilidad -->
@@ -210,7 +210,7 @@ documentos.
 />
 
 En caso de que el sistema incluya soporte o ayuda en línea de alguna forma
-específica —un chatbot, por ejemplo—, detallarlo aquí mediante requerimientos.
+específica ‑un chatbot, por ejemplo‑, detallarlo aquí mediante requerimientos.
 
 <!-- SECCIÓN: Manual de usuario -->
 En caso de que sea necesario desarrollar un manual de usuario, describir su

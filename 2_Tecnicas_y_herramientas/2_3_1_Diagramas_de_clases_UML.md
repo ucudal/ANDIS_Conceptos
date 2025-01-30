@@ -42,13 +42,13 @@ Los diagramas de clases tienen principalmente:
   representan con un diamante relleno del lado del compuesto.
 
 * Generalizaciones, que define una relación de generalización-especialización
-  entre dos clasificadores —entre dos clases, esta relación es la herencia—, y
+  entre dos clasificadores ‑entre dos clases, esta relación es la herencia‑, y
   que se representa con una línea terminada en un triángulo de lado del elemento
-  más general —la clase base en el caso de la herencia—.
+  más general ‑la clase base en el caso de la herencia‑.
 
 * Dependencias, que modelan una relación entre dos elementos, en la cual un
-  cambio en uno de ellos —el elemento independiente— afectará al otro —el
-  elemento dependiente—, que se representan con una flecha punteada apuntando al
+  cambio en uno de ellos ‑el elemento independiente‑ afectará al otro ‑el
+  elemento dependiente‑, que se representan con una flecha punteada apuntando al
   elemento independiente.
 
 > [!NOTE]
@@ -119,16 +119,16 @@ en que se lea, se pueden agregar los símbolos ⏵ o ⏴ para indicar en qué
 dirección tiene sentido el nombre indicado.
 
 Para modelar información adicional en una asociación, agregación o composición
-—es decir, agregar otra información además del nombre y la multiplicidad—, se
+‑es decir, agregar otra información además del nombre y la multiplicidad‑, se
 usa una clase de asociación.
 
 En la [Figura 3](#figura-3), a continuación, la clase `Persona` tiene una
 relación `Trabaja para` con la clase `Empresa`, para modelar que una persona
 trabaja para una empresa. Noten que cuando `Persona` y `Empresa` cambian de
 lugar, es necesario agregar el símbolo `⏴` para indicar que la relación `Trabaja
-para` se lee de derecha a izquierda, es decir, al revés de lo habitual —de lo
+para` se lee de derecha a izquierda, es decir, al revés de lo habitual ‑de lo
 contrario modelaríamos que la empresa trabaja para la persona, lo cual no sería
-correcto.— En el último ejemplo de esa figura, se puede ver cómo modelamos
+correcto.‑ En el último ejemplo de esa figura, se puede ver cómo modelamos
 información adicional de la asociación `Trabaja para`, mediante la clase de
 asociación `Trabajo`; de esta forma, podemos decir qué cargo ocupa y qué salario
 tiene una persona que trabaja para una empresa.
@@ -142,7 +142,7 @@ de asociación](/diagrams/Class_Diagram_Associations.svg)
 de asociación.*
 
 Las asociaciones, agregaciones y composiciones pueden tener una sola dirección
-—una clase conoce a la otra, pero no al revés— o ambas direcciones; en caso de
+‑una clase conoce a la otra, pero no al revés‑ o ambas direcciones; en caso de
 que tenga dirección, se representa con una flecha apuntando en la dirección de
 la relación, y en caso de que tenga ambas direcciones, no se coloca ninguna
 flecha.
@@ -172,12 +172,12 @@ multiplicidad en asociaciones:
   clase `Empresa` tiene el rol de `Empleador`. Los roles muchas veces son
   evidentes a partir del contexto. Cuando no lo sean, es necesario agregarlos.
   También en necesario agregar los roles cuando una clase está relacionada
-  consigo misma —una relación recursiva—.
+  consigo misma ‑una relación recursiva‑.
 
   La multiplicidad `0..1` modela la cantidad de empresas para las que puede
-  trabajar una persona: ninguna —la persona es un desempleado o es una persona
-  que no puede o no quiere trabajar—, o una —este modelo no contempla que una
-  persona pueda trabajar para más de una empresa—. La multiplicidad `1..*`
+  trabajar una persona: ninguna ‑la persona es un desempleado o es una persona
+  que no puede o no quiere trabajar‑, o una ‑este modelo no contempla que una
+  persona pueda trabajar para más de una empresa‑. La multiplicidad `1..*`
   modela la cantidad de personas que trabajan para una empresa: al menos una, o
   muchas. Noten que la multiplicidad para una instancia de una clase con otra,
   se especifica al final de la asociación de la una, es decir, junto a la otra.
@@ -191,8 +191,8 @@ multiplicidad en asociaciones:
 * La clase `Vehículo` tiene la asociación `Rueda sobre` la clase `Rueda`. La
   multiplicidad `1..4,6,10,14` indica que un vehículo rueda sobre 1, 2, 3 4, 6,
   10 o 14 ruedas solamente, los demás valores no son válidos. La multiplicidad
-  `1` indica que una rueda está asociada con solamente un vehículo —los
-  vehículos no comparten las ruedas—.
+  `1` indica que una rueda está asociada con solamente un vehículo ‑los
+  vehículos no comparten las ruedas‑.
 
 * La clase `Jefe` tiene la asociación `Manda` la clase `Empleado`. En este caso
   la multiplicidad `*` no especifica un límite inferior. Tampoco hay
@@ -228,9 +228,9 @@ En la [Figura 6](#figura-6), a continuación, vemos ejemplos de agregaciones:
 
 En la [Figura 7](#figura-7), a continuación, vemos ejemplos de composiciones:
 
-* La clase `Ventana` está compuesta de dos instancias de `Slider` —con el rol de
-  `Scrollbar`—, una de `Barra` —con el rol de Título— y una de `Panel` —con el
-  rol de `Cuerpo`—.
+* La clase `Ventana` está compuesta de dos instancias de `Slider` ‑con el rol de
+  `Scrollbar`‑, una de `Barra` ‑con el rol de Título‑ y una de `Panel` ‑con el
+  rol de `Cuerpo`‑.
 
 * La clase `Factura` está compuesta por una instancia de `Cabezal` y varias
   instancias de `Línea`.
@@ -329,12 +329,12 @@ delegación](/diagrams/Class_Diagram_Composition_Multiple_Inheritance.svg)
 composición y delegación*
 
 La clase `Murciélago` hereda simultáneamente de las clases `Volador` y de
-`Mamífero`, por lo tanto tiene las operaciones `Volar()` e `Mamar()` —un
-murciélago es efectivamente un mamífero volador—. En la alternativa con
+`Mamífero`, por lo tanto tiene las operaciones `Volar()` e `Mamar()` ‑un
+murciélago es efectivamente un mamífero volador‑. En la alternativa con
 composición, la clase `Murciélago` hereda directamente de animal, y está
 compuesto por una instancia de `Volador` y otra de `Mamífero`; cuando un objeto
-de la clase `Murciélago` recibe el mensaje `Volar`, lo delega —envía a su vez un
-mensaje— a la instancia de `Volador` que lo compone; algo similar ocurre cuando
+de la clase `Murciélago` recibe el mensaje `Volar`, lo delega ‑envía a su vez un
+mensaje‑ a la instancia de `Volador` que lo compone; algo similar ocurre cuando
 recibe un mensaje `Mamar`, en este caso lo delega a la instancia de `Mamífero`
 que lo compone. La alternativa de usar composición y delegación puede no ser
 perfecta, pero en muchos casos es útil.
@@ -345,7 +345,7 @@ Como vimos antes, los diagramas de clases pueden incluir cualquier
 ejemplificaremos las dependencias relacionando entre paquetes y no clases como
 en ejemplos anteriores. Los paquetes se representan con un rectángulo con el
 nombre del paquete, y otro rectángulo más pequeño en la esquina superior
-izquierda —como si fuera una solapa— con el estereotipo `≪package≫`. El ejemplo
+izquierda ‑como si fuera una solapa‑ con el estereotipo `≪package≫`. El ejemplo
 es el clásico patrón de arquitectura MVC[^4], compuestos por los paquetes
 `Modelo`, `Vista` y `Controlador`. En este patrón, las clases en el paquete
 `Model` son las clases del dominio y representan el estado de la aplicación; las

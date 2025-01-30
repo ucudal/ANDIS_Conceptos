@@ -4,12 +4,12 @@
 
 ### 2.1.4 Checklist requerimientos
 
-La siguiente lista de verificación —basada en [^1] y [^2]— incluye una serie de
+La siguiente lista de verificación ‑basada en [^1] y [^2]‑ incluye una serie de
 ítems que pueden ser usados para comprobar los requerimientos.
 
 [^1]: ISO/IEC/IEEE. (2018). ISO/IEC/IEEE 29148:2018 Systems and software
-engineering—Life cycle processes—Requirements engineering.
-[^2]: NASA. (2019). System Engineering Handbook—Appendix C: How to Write a Good
+engineering‑Life cycle processes‑Requirements engineering.
+[^2]: NASA. (2019). System Engineering Handbook‑Appendix C: How to Write a Good
     Requirement. Disponible
     [aquí](https://www.nasa.gov/reference/system-engineering-handbook-appendix/#hds-sidebar-nav-3).
 

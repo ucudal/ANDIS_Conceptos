@@ -7,8 +7,8 @@ requerimiento funcional o [no funcional](./4_Requerimiento_no_funcional.md) que
 es [arquitectónicamente
 significativo](./4_Requerimiento_arquitectonicamente_significativo).
 
-Un registro de decisión arquitectónica —o ADR por sus siglas en inglés
-*architectural decision record*— captura una única decisión arquitectónica y su
+Un registro de decisión arquitectónica ‑o ADR por sus siglas en inglés
+*architectural decision record*‑ captura una única decisión arquitectónica y su
 fundamento; la colección de ADR creados y mantenidos en un proyecto constituye
 su registro de decisiones. Todos estos están dentro del tema de la gestión del
 conocimiento arquitectónico (AKM), pero el uso de ADR se puede extender al

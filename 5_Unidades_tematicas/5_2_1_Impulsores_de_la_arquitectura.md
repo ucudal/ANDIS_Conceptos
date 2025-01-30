@@ -10,8 +10,8 @@
 * [Requerimientos arquitectónicamente
   significativos](/4_Conceptos/4_Requerimiento_arquitectonicamente_significativo.md)
 
-De los siguientes documentos enfocarse en definiciones y conceptos —lean pero no
-vamos a evaluar tácticas ni patrones—.
+De los siguientes documentos enfocarse en definiciones y conceptos ‑lean pero no
+vamos a evaluar tácticas ni patrones‑.
 
 * [Disponibilidad](/4_Conceptos/4_Disponibilidad.md)
 * [Rendimiento](/4_Conceptos/4_Rendimiento.md)

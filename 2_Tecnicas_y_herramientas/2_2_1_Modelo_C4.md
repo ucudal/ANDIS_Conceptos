@@ -10,21 +10,21 @@ sesiones de diseño iniciales como cuando se documenta en forma retrospectiva un
 base de código existente. Es una forma de crear mapas del código, con varios
 niveles de detalle[^1].
 
-C4 significa "contexto, contenedores, componentes y código" —o *context,
-containers, components, and code— y hace referencia a los cuatro diagramas
+C4 significa "contexto, contenedores, componentes y código" ‑o *context,
+containers, components, and code‑ y hace referencia a los cuatro diagramas
 utilizados para documentar una arquitectura con diferentes nivel de abstracción.
 
 En este modelo, un `sistema de software` está formado por uno o más
 `contenedores`[^2], cada uno de los cuales contiene uno o más `componentes`, que
-a su vez son implementados por uno o más elementos de `código` —clases,
-interfaces, objetos, funciones, etc.—; las `personas` pueden utilizar los
+a su vez son implementados por uno o más elementos de `código` ‑clases,
+interfaces, objetos, funciones, etc.‑; las `personas` pueden utilizar los
 `sistemas de software` que construimos:
 
 * **Sistema de software**. Es el nivel más alto de abstracción y describe algo
   que ofrece valor a sus usuarios, sean humanos o no. Esto incluye el sistema de
-  software que están modelando y otros sistemas de software —[sistemas
-  adyacentes](/4_Conceptos/4_Sistema_adyacente.md)— de los que éste depende —o
-  viceversa—.
+  software que están modelando y otros sistemas de software ‑[sistemas
+  adyacentes](/4_Conceptos/4_Sistema_adyacente.md)‑ de los que éste depende ‑o
+  viceversa‑.
 
 * **Contenedor**. Representa una aplicación o un almacenamiento de datos. Un
   contenedor es algo que debe estar ejecutándose para que funcione todo el
@@ -35,16 +35,16 @@ interfaces, objetos, funciones, etc.—; las `personas` pueden utilizar los
   * Una aplicación de escritorio del lado del cliente.
   * Una aplicación móvil.
   * Una aplicación de consola del lado del servidor.
-  * Una función sin servidor —o *serverless function*—.
+  * Una función sin servidor ‑o *serverless function*‑.
   * Una base de datos, relacional o no-relacional.
   * Un blob u otro almacenamiento de contenido.
-  * Un sistema de archivos, local o de red —NAS—.
+  * Un sistema de archivos, local o de red ‑NAS‑.
   * Un script de shell.
   * Etcétera.
 
 * **Componente**. En este contexto un componente es conjunto de funcionalidades
-  relacionadas encapsuladas detrás de una interfaz bien definida —una colección
-  de clases de implementación detrás de una interfaz—. Todos los componentes
+  relacionadas encapsuladas detrás de una interfaz bien definida ‑una colección
+  de clases de implementación detrás de una interfaz‑. Todos los componentes
   dentro de un contenedor normalmente se ejecutan en el mismo espacio de
   proceso. En el modelo C4, los componentes no son unidades que se despliegan
   por separado.
@@ -52,8 +52,8 @@ interfaces, objetos, funciones, etc.—; las `personas` pueden utilizar los
 Aunque los diagramas C4 tienen una notación específica, también es posible
 utilizar UML. Estos son los diagramas en un modelo C4:
 
-* **Contexto del sistema**. Incluye `personas` —por ejemplo, usuarios, actores,
-  roles o personas— y `sistemas de software` —sistemas adyacentes— que están
+* **Contexto del sistema**. Incluye `personas` ‑por ejemplo, usuarios, actores,
+  roles o personas‑ y `sistemas de software` ‑sistemas adyacentes‑ que están
   directamente conectados al sistema de software dentro del alcance. Es posible
   usar UML para estos diagramas: las personas estarán representadas por actores
   y los sistemas de software por componentes con el estereotipo `≪software

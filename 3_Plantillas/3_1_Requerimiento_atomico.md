@@ -71,16 +71,16 @@ y el texto a completar en el color normal. Tomado de [^1].
         </td>
         <td colspan="2">
             En qué grado la parte interesada es feliz si el requerimiento se implementa
-            satisfactoriamente. La escala va de 1 —no le importa— a 5 —extremadamente
-            satisfecho—.
+            satisfactoriamente. La escala va de 1 ‑no le importa‑ a 5 ‑extremadamente
+            satisfecho‑.
         </td>
         <td td style="color:#0969DA">
             <b>Insatisfacción del cliente</b>
         </td>
         <td colspan="2">
             En qué medida la parte interesada es infeliz si el requerimiento no
-            es parte del producto final. La escala va de 1 —no le importa— a 5
-            —extremadamente disgustado—.
+            es parte del producto final. La escala va de 1 ‑no le importa‑ a 5
+            ‑extremadamente disgustado‑.
         </td>
     </tr>
     <tr>
@@ -147,15 +147,15 @@ este requerimiento.<a href="#back_ref_2" title="Volver...">↩︎</a>
 
 <span id="ref_3">Prioridad</span>:
 
-* ***Must have* —imprescindibles—**: Requerimientos críticos que el proyecto
+* ***Must have* ‑imprescindibles‑**: Requerimientos críticos que el proyecto
   debe cumplir para ser considerado exitoso. Sin ellos el proyecto no cumplirá
   su propósito.
 
-* ***Should have* —importantes—**: Requerimientos que son importantes pero no
+* ***Should have* ‑importantes‑**: Requerimientos que son importantes pero no
   críticos. Su ausencia no detendrá el proyecto, pero puede afectar la calidad o
   eficiencia del resultado final.
 
-* ***Nice to have* —deseables—**: Estos son los requerimientos que sería
+* ***Nice to have* ‑deseables‑**: Estos son los requerimientos que sería
   beneficioso tener, pero que no son esenciales. Mejoran la experiencia o la
   funcionalidad, pero no afectan la viabilidad del proyecto.
   <a href="#back_ref_3" title="Volver...">↩︎</a>

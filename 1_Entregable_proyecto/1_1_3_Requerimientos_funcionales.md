@@ -23,8 +23,8 @@ reemplazados o cambiados por la solución a desarrollar.
 A alto nivel y mediante un [diagrama de
 contexto](../2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md), explicar
 las interacciones de la solución con sus sistemas
-[adyacentes](/4_Conceptos/4_Sistema_adyacente.md) —otras personas,
-organizaciones, hardware y software— y el input/output de estas interacciones.
+[adyacentes](/4_Conceptos/4_Sistema_adyacente.md) ‑otras personas,
+organizaciones, hardware y software‑ y el input/output de estas interacciones.
 
 <!-- SECCIÓN: Eventos y casos de uso del negocio -->
 A alto nivel, listar todos los [eventos del
@@ -56,8 +56,8 @@ diagramas de flujo, diagramas de secuencia o mapas mentales.
 > diccionario de datos, asegúrate de ser consistente con la subsección de
 > [convenciones de denominación y
 > términos](./1_1_2_Restricciones_del_proyecto.md#convenciones-de-denominación-y-términos)
-> —es una buena idea que las entidades del dominio estén definidas en esa
-> sección—. A su vez, es una buena práctica el mantener un lenguaje ubicuo a lo
+> ‑es una buena idea que las entidades del dominio estén definidas en esa
+> sección‑. A su vez, es una buena práctica el mantener un lenguaje ubicuo a lo
 > largo y ancho del proyecto[^1].
 
 Mediante un [diagrama de clases
@@ -108,8 +108,8 @@ de usar al definir requerimientos atómicos detallados.
 Mediante un [diagrama de casos de
 uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md), definir
 los casos de uso del producto. Una tabla con la misma información que los
-diagramas de casos de uso —es decir, nombre de los casos de uso, actores
-participantes, relación de `extends` o `includes` con otros casos de uso— suele
+diagramas de casos de uso ‑es decir, nombre de los casos de uso, actores
+participantes, relación de `extends` o `includes` con otros casos de uso‑ suele
 ser más cómoda cuando la cantidad de casos de uso es mayor a 20.
 
 <!-- SECCIÓN: Detalles de los casos de uso del producto -->

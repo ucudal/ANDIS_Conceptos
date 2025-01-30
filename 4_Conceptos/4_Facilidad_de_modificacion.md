@@ -2,7 +2,7 @@
 
 ## Facilidad de modificación o *modifiability*
 
-La facilidad de modificación —o *modifiability* en inglés— es un atributo de
+La facilidad de modificación ‑o *modifiability* en inglés‑ es un atributo de
 calidad de la arquitectura de software que baja el costo y el riesgo de hacer
 cambios[^1].
 
@@ -17,8 +17,8 @@ sea modificado de forma efectiva y eficiente sin introducir defectos o degradar
 su calidad[^2].
 
 [^2]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
-    engineering—Systems and software Quality Requirements and Evaluation
-    (SQuaRE) — System and software quality models.
+    engineering‑Systems and software Quality Requirements and Evaluation
+    (SQuaRE) ‑ System and software quality models.
 
 Este atributo es importante porque si en diversos contextos la única constante
 es el cambio, en el software mucho más: introducción de nueva funcionalidad y
@@ -138,7 +138,7 @@ Vean más detalles sobre estas tácticas para la facilidad de modificación
 ### Patrones para la facilidad de modificación
 
 * Patrón cliente-servidor
-* Patrón plug-in —microkernel—
+* Patrón plug-in ‑microkernel‑
 * Patrón capas
 * Patrón editor-suscriptor
 
