@@ -62,7 +62,7 @@ Las etapas del ciclo se definen a continuación.
    ellos.
 
 Este ciclo es iterativo y ayuda a refinar continuamente la arquitectura del
-software a medida que surgen nuevos requisitos o evolucionan las decisiones
+software a medida que surgen nuevos requerimientos o evolucionan las decisiones
 arquitectónicas.
 
 Además de estos pasos existen algunos enfoques adicionales para descubrir
