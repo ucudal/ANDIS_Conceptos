@@ -2,7 +2,7 @@
 
 ## Requerimiento arquitectónicamente significativo
 
-Un requisito arquitectónicamente significativo —o ASR, *architecturally
+Un requerimiento arquitectónicamente significativo —o ASR, *architecturally
 significant requirement* por sus siglas en inglés— es un requerimiento que
 tendrá un efecto profundo en la arquitectura, es decir, la arquitectura podría
 ser radicalmente diferente si no existiera ese requerimiento[^1].
@@ -49,7 +49,7 @@ específicas a buscar son las siguientes:
 * **Datos**. Persistencia y vigencia.
 * **Recursos**. Tiempo, concurrencia, uso de memoria, planificación, múltiples
   usuarios, múltiples actividades, dispositivos, uso de energía, recursos
-  blandos —por ejemplo, buffers, colas— y requisitos de escalabilidad.
+  blandos —por ejemplo, buffers, colas— y requerimientos de escalabilidad.
 * **Gestión de proyectos**. Planes para trabajar en equipo, conjuntos de
   habilidades, capacitación, coordinación de equipos.
 * **Opciones de hardware**. Procesadores, familias de procesadores, evolución de

@@ -149,12 +149,12 @@ gestión de la calidad refiere a "las actividades coordinadas para dirigir y
 controlar una organización en lo relativo a la calidad" [^3].
 
 La norma está basada en principios de la gestión total de la calidad y en
-requisitos del sistema de gestión de la calidad. Los principios son los
+requerimientos del sistema de gestión de la calidad. Los principios son los
 siguientes:
 
 * Enfoque al cliente. Las organizaciones dependen de sus clientes y por lo tanto
   deberían comprender las necesidades actuales y futuras de los clientes,
-  satisfacer los requisitos de los clientes y esforzarse en exceder las
+  satisfacer los requerimientos de los clientes y esforzarse en exceder las
   expectativas de los clientes.
 
 * Liderazgo. Los líderes establecen la unidad de propósito y la orientación de
@@ -359,7 +359,7 @@ Las actividades de aseguramiento de la calidad son las siguientes [^7]:
 
 * Aseguramiento del proceso. Consiste en asegurar que los procesos de ciclo de
   vida del software funcionan tal como deben; que las prácticas internas de
-  ingeniería de software funcionan tal como deben; que los requisitos del
+  ingeniería de software funcionan tal como deben; que los requerimientos del
   contratista se transfieren al subcontratista y los productos del
   subcontratista se transfieren al contratista; que se proporciona al cliente el
   soporte requerido; que las mediciones del producto y del proceso de software
@@ -410,7 +410,7 @@ Las actividades de verificación son [^7]:
   libertad para realizar las evaluaciones requeridas; establecer un plan de
   verificación; implementar el plan de verificación tal como está planificado.
 
-* Verificación. Consiste en verificación de contratos, procesos, requisitos,
+* Verificación. Consiste en verificación de contratos, procesos, requerimientos,
   diseño, código, integración y documentación.
 
 ### Revisiones y auditoría
@@ -425,7 +425,7 @@ actividad de un proyecto, según sea adecuado. Las revisiones están tanto a niv
 de gestión del proyecto como técnico.
 
 Por otro lado, la auditoría es el proceso que determina el cumplimiento de los
-requisitos, planes y contrato, según corresponda.
+requerimientos, planes y contrato, según corresponda.
 
 ### Error, falta, falla y equivocación
 

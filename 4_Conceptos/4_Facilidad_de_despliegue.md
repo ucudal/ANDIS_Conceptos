@@ -118,7 +118,8 @@ cuatro ambientes clave del *deployment pipeline* son[^1]:
 
 Estos ambientes permiten un flujo controlado y seguro desde el desarrollo
 inicial hasta la entrega final, asegurando que el software funcione
-correctamente y cumpla con los requisitos de calidad en cada etapa del proceso.
+correctamente y cumpla con los requerimientos de calidad en cada etapa del
+proceso.
 
 Pero no todo siempre sale según lo previsto. Si se detectan problemas cuando el
 software ya se encuentra en el entorno de producción, suele ser necesario volver
