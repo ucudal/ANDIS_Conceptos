@@ -1,6 +1,6 @@
 # 4 Conceptos
 
-## Atributos de calidad
+## Atributo de calidad
 
 Los atributos de calidad, también llamados características arquitectónicas o
 características de calidad, son propiedades medibles o comprobables de un
@@ -13,12 +13,23 @@ funcionalidad básica del sistema[^1].
 
 Algunos autores prefieren usar el término características arquitectónicas, en
 lugar de atributos de calidad, o incluso requerimientos no-funcionales[^2]. Los
-atributos de calidad en inglés se conocen tabién como *"ilities"* porque suelen
+atributos de calidad en inglés se conocen también como *"ilities"* porque suelen
 terminar con el sufijo *-ility*: *availability*, *deployability*,
 *integrability*, etc.
 
 [^2]: Richards, M., Ford, N. (2020). Fundamentals of Software Architecture-An
     Engineering Approach. O'Reilly.
+
+En este repositorio utilizamos atributo de calidad con el significado dado en
+[^1], es decir, como una característica del software o término genérico que se
+aplica a factores o sub-factores de calidad. Un [requerimiento
+no-funcional](/4_Conceptos/4_Requerimiento_no_funcional.md), por otra parte, es
+una propiedad o cualidad que un producto de software debe tener para que sea
+aceptable para su dueño y sus operadores[^3].
+
+[^3]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
+    Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley
+    Professional.
 
 Los arquitectos pueden colaborar en el análisis de requerimientos, pero tienen
 la responsabilidad clave de definir, descubrir y analizar todas las cosas que el
@@ -57,9 +68,9 @@ Los atributos de calidad tienen las siguientes características[^2]:
 
 Existen muchas clasificaciones y definiciones de atributos de calidad; cualquier
 lista será necesariamente incompleta. El estándar ISO/IEC 25010 define los
-siguientes[^3]:
+siguientes[^4]:
 
-[^3]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
+[^4]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
     engineering‑Systems and software Quality Requirements and Evaluation
     (SQuaRE) ‑ System and software quality models.
 
@@ -425,8 +436,3 @@ operaciones.
 
 Capacidad de un producto para mantener la seguridad durante y después de la
 integración con uno o varios componentes.
-
-Nos enfocaremos en los siguientes:
-
-* [Disponibilidad](./4_Disponibilidad.md)
-* [Performance](./4_Rendimiento.md)

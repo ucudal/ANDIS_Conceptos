@@ -51,7 +51,7 @@ despliegues rápidos son necesarios para mantener la competitividad o garantizar
 la seguridad y el funcionamiento continuo del sistema.
 
 El modelo de calidad de la norma ISO/IEC 25010[^3] define el concepto de
-[facilidad de instalación](./4_Atributos_de_calidad.md#facilidad-de-instalación)
+[facilidad de instalación](./4_Atributo_de_calidad.md#facilidad-de-instalación)
 ‑que se puede entender como equivalente‑ como la facilidad con la que un sistema,
 producto o componente se puede instalar o desinstalar de forma exitosa en un
 determinado entorno.

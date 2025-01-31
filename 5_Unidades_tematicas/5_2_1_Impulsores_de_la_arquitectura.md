@@ -6,7 +6,7 @@
 
 #### Lecturas
 
-* [Atributos de calidad](/4_Conceptos/4_Atributos_de_calidad.md)
+* [Atributos de calidad](/4_Conceptos/4_Atributo_de_calidad.md)
 * [Requerimientos arquitectónicamente
   significativos](/4_Conceptos/4_Requerimiento_arquitectonicamente_significativo.md)
 

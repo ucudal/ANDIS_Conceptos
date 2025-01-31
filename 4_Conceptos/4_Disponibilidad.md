@@ -15,11 +15,11 @@ dado. Este atributo es relevante para sistemas, productos o componentes que
 deben estar continuamente disponibles, como servicios de emergencia, sistemas
 bancarios, plataformas de comercio electrónico, entre otros.
 
-Bass y otros[^2] incluyen dentro del atributo de disponibilidad conceptos de prevención
-de fallos y recuperación de los fallos, que en ISO/IEC 25010[^1] pueden estar
-también relacionados con los atributos de [tolerancia a
-fallos](./4_Atributos_de_calidad.md#tolerancia-a-fallos) y [capacidad de
-recuperación](./4_Atributos_de_calidad.md#capacidad-de-recuperación)
+Bass y otros[^2] incluyen dentro del atributo de disponibilidad conceptos de
+prevención de fallos y recuperación de los fallos, que en ISO/IEC 25010[^1]
+pueden estar también relacionados con los atributos de [tolerancia a
+fallos](./4_Atributo_de_calidad.md#tolerancia-a-fallos) y [capacidad de
+recuperación](./4_Atributo_de_calidad.md#capacidad-de-recuperación)
 respectivamente.
 
 [^2]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
@@ -32,8 +32,8 @@ que incluye
 y
 [recuperación](https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles#design-for-recovery)
 que están también relacionados con los atributos de [tolerancia a
-fallos](./4_Atributos_de_calidad.md#tolerancia-a-fallos) y [capacidad de
-recuperación](./4_Atributos_de_calidad.md#capacidad-de-recuperación)
+fallos](./4_Atributo_de_calidad.md#tolerancia-a-fallos) y [capacidad de
+recuperación](./4_Atributo_de_calidad.md#capacidad-de-recuperación)
 respectivamente.
 
 [^3]: Microsoft. (2023). Reliability design principles. Disponible
