@@ -38,10 +38,13 @@ contexto](/2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md)
 * [Diagramas UML de casos de
 uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md)
 
-* [Personas](/2_Tecnicas_y_herramientas/2_1_3_Personas.md)
+* [*Personas*](/2_Tecnicas_y_herramientas/2_1_3_Personas.md)
 
 <!-- Si va acá hay que agregar este tema -->
-* [*Customer Journey*](TBD)
+* [*Customer Journey map*](/2_Tecnicas_y_herramientas/2_1_5_Customer_journey_map.md)
+
+* [*Checklist*
+  requerimientos](/2_Tecnicas_y_herramientas/2_1_4_Checklist_requerimientos.md)
 
 Lee los capítulos 2 al 6 y 9 de [^1].
 
