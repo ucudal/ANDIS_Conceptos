@@ -3,7 +3,7 @@
 ## 3.3 Personas
 
 Aunque no hay una forma estándar de representar las
-[personas](/2_Tecnicas_y_herramientas/2_1_3_Personas.md), esta plantilla puede
+[*personas*](/2_Tecnicas_y_herramientas/2_1_3_Personas.md), esta plantilla puede
 resultar útil.
 
 <table border="">
@@ -84,7 +84,7 @@ resultar útil.
 </table>
 
 > [!TIP]
-> Pueden ver plantillas para personas en
+> Puedes ver plantillas para personas en
 > [Canva](https://www.canva.com/templates/s/user-persona/),
 > [Miro](https://miro.com/templates/personas/) o
 > [Figma](https://www.figma.com/community/file/881830156311997001).
