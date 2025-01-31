@@ -102,16 +102,16 @@ arquitectura[^1].
 
 Habitualmente el componente es el nivel más bajo con el que interactúa
 directamente un arquitecto ‑exceptuando tal vez métricas que afectan [atributos
-de calidad](/4_Conceptos/4_Atributos_de_calidad.md) en las bases del código. Las
-clases o funciones y procedimientos dentro de un componente son responsabilidad
-de los desarrolladores[^1].
+de calidad](./4_Atributo_de_calidad.md) en las bases del código. Las clases o
+funciones y procedimientos dentro de un componente son responsabilidad de los
+desarrolladores[^1].
 
 ### Partición de la arquitectura en componentes
 
 En la medida de que los componentes representan un mecanismo genérico para
 contener código, el código se puede particionar en componentes de distintas
 maneras, cada una de ellas con diferentes compromisos en la satisfacción de los
-[atributos de calidad](./4_Atributos_de_calidad.md) de la arquitectura de
+[atributos de calidad](./4_Atributo_de_calidad.md) de la arquitectura de
 software resultante. Sin embargo, el reparto de componentes de alto nivel merece
 un tratamiento especial, pues condiciona más que los demás la arquitectura del
 software.

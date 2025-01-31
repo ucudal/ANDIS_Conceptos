@@ -19,14 +19,14 @@ cómputo en la nube.
 
 El modelo de calidad de la norma ISO/IEC 25010[^2] no define un atributo de
 calidad para el rendimiento con la definición que aquí se usa, sino para
-[eficiencia de desempeño](./4_Atributos_de_calidad.md#eficiencia-de-desempeño),
+[eficiencia de desempeño](./4_Atributo_de_calidad.md#eficiencia-de-desempeño),
 que a su vez incluye una sub-característica [comportamiento
-temporal](./4_Atributos_de_calidad.md#comportamiento-temporal)  que es más
+temporal](./4_Atributo_de_calidad.md#comportamiento-temporal)  que es más
 cercana a lo que aquí llamamos **rendimiento**. La eficiencia del desempeño
 incluye además de las cuestiones relacionadas con el tiempo, otras relacionadas
 con el consumo de recursos y la capacidad de éstos, en las sub-características
-[utilización de recursos](./4_Atributos_de_calidad.md#utilización-de-recursos) y
-[capacidad](./4_Atributos_de_calidad.md#capacidad) respectivamente.
+[utilización de recursos](./4_Atributo_de_calidad.md#utilización-de-recursos) y
+[capacidad](./4_Atributo_de_calidad.md#capacidad) respectivamente.
 
 [^2]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
     engineering‑Systems and software Quality Requirements and Evaluation
@@ -35,10 +35,13 @@ con el consumo de recursos y la capacidad de éstos, en las sub-características
 En el Azure Well-Architected Framework[^3] el pilar es [rendimiento
 eficiente](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/)
 o *performance efficiency* en inglés, que al igual que [^2] incluye aspectos de
-[comportamiento temporal](./4_Atributos_de_calidad.md#comportamiento-temporal)
+[comportamiento temporal](./4_Atributo_de_calidad.md#comportamiento-temporal)
 pero también de [utilización de
-recursos](./4_Atributos_de_calidad.md#utilización-de-recursos) y
-[capacidad](./4_Atributos_de_calidad.md#capacidad).
+recursos](./4_Atributo_de_calidad.md#utilización-de-recursos) y
+[capacidad](./4_Atributo_de_calidad.md#capacidad).
+
+[^3]: Microsoft. (2023). Performance efficiency design principles. Disponible
+    [aquí](https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/principles).
 
 ### Algunos componentes del rendimiento
 

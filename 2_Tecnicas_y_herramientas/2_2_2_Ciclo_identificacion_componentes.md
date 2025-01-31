@@ -11,7 +11,7 @@ es un proceso estructurado para descomponer un sistema en componentes
 individuales. Estos cinco pasos guían el desarrollo y refinamiento de los
 componentes para asegurarse de que estén alineados con los [requerimientos
 funcionales](/4_Conceptos/4_Requerimiento_arquitectonicamente_significativo.md)
-y los [atributos de calidad](/4_Conceptos/4_Atributos_de_calidad.md).
+y los [atributos de calidad](/4_Conceptos/4_Atributo_de_calidad.md).
 
 [^1]: Richards, M.; Ford, N. (2020). Fundamentals of software architecture.
     O'Reilly Media.
@@ -47,7 +47,7 @@ Las etapas del ciclo se definen a continuación.
 
 4. **Analizar atributos de calidad**. Ahora se asegura que cada componente dé
   soporte las características arquitectónicas, requerimientos no funcionales o
-  [atributos de calidad](/4_Conceptos/4_Atributos_de_calidad.md), tales como el
+  [atributos de calidad](/4_Conceptos/4_Atributo_de_calidad.md), tales como el
   [rendimiento](/4_Conceptos/4_Rendimiento.md), la
   [seguridad](/4_Conceptos/4_Seguridad.md), la
   [disponibilidad](/4_Conceptos/4_Disponibilidad.md), la [facilidad de

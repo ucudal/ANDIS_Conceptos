@@ -17,7 +17,7 @@ ser radicalmente diferente si no existiera ese requerimiento[^1].
 
 Los requerimientos arquitectónicamente significativos a menudo ‑pero no siempre‑
 toman la forma de requerimientos de [atributos de
-calidad](./4_Atributos_de_calidad.md): el rendimiento, la seguridad, la
+calidad](./4_Atributo_de_calidad.md): el rendimiento, la seguridad, la
 capacidad de ser modificado, la disponibilidad, la facilidad de uso, etc., que
 la arquitectura debe proporcionar al sistema.
 

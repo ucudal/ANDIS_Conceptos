@@ -11,7 +11,7 @@ cambios[^1].
 
 En ISO/IEC 25010 la facilidad de modificación es una sub-característica de la
 [facilidad de
-mantenimiento](./4_Atributos_de_calidad.md#facilidad-de-mantenimiento) y se
+mantenimiento](./4_Atributo_de_calidad.md#facilidad-de-mantenimiento) y se
 define como la capacidad de un sistema, producto o componente que permite que
 sea modificado de forma efectiva y eficiente sin introducir defectos o degradar
 su calidad[^2].
