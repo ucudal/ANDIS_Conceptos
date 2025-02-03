@@ -4,7 +4,7 @@
 
 ## Facultad de Ingeniería y Tecnologías
 
-### Análisis y diseño de aplicaciones I y II
+### Análisis y diseño de aplicaciones I y II.
 
 <br/>
 
