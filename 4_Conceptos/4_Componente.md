@@ -75,17 +75,17 @@ cuales aparecen a continuación[^1]:
   espacio de memoria y se comunican mediante llamados a funciones del lenguaje.
 
 * Un componente agrupa el código de cada una de las capas de una [layered
-  architecture](/2_Tecnicas_y_herramientas/2_7_1_Layered_architecture.md), de
-  cada una de los filtros en una [pipes and filter
-  architecture](/2_Tecnicas_y_herramientas/2_7_2_Pipes_and_Filters_Architecture.md),
-  o como el núcleo y cada uno de los complementos en una [microkernel
-  architecture](/2_Tecnicas_y_herramientas/2_7_3_Microkernel_Architecture).
+  architecture](/3_Plantillas/3_9_Layered_Architecture.md), de cada una de los
+  filtros en una [pipes and filter
+  architecture](/3_Plantillas/3_10_Pipes_and_Filters_Architecture.md), o como el
+  núcleo y cada uno de los complementos en una [microkernel
+  architecture](/3_Plantillas/3_11_Microkernel_Architecture.md).
 
 * Un componente también puede ser un servicio en una [service based
-  architecture](/2_Tecnicas_y_herramientas/2_7_4_Service_Based_Architecture), un
+  architecture](/3_Plantillas/3_12_Service_Based_Architecture.md), un
   micro‑servicio en una [microservices
-  architecture](/2_Tecnicas_y_herramientas/2_7_8_Microservices_Architecture.md),
-  o en cualquier otro arquitectura distribuida.
+  architecture](/3_Plantillas/3_16_Microservice_Architecture.md), o en cualquier
+  otro arquitectura distribuida.
 
   En este caso cada componente ejecuta habitualmente en su propio espacio de
   memoria y se comunica con los demás componentes mediante protocolos de red de
@@ -149,8 +149,8 @@ estar implementados internamente con los componentes de la [Figura 1](#figura-1)
 ‑pero no al revés‑.
 
 La partición por el domino es la apropiada para un estilo de arquitectura de
-[microservicios](/2_Tecnicas_y_herramientas/2_7_8_Microservices_Architecture.md);
-cada componente será un micro-servicio, aunque en ese caso, a diferencia de la
+[microservicios](/3_Plantillas/3_16_Microservice_Architecture.md); cada
+componente será un micro-servicio, aunque en ese caso, a diferencia de la
 [Figura 2](#figura-2), cada micro-servicio tiene su propia base de datos.
 
 En el caso de la partición técnica, la implementación de una funcionalidad

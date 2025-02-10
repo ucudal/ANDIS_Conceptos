@@ -50,8 +50,8 @@ planificación del lanzamiento[^2].
 Las historias de usuario se escriben en una oración que algunos autores sugieren
 que tenga cierto formato[^3][^4]:
 
-[^3]: Cowan, A. (2014). Your Best Agile User Story.
-    https://www.alexandercowan.com/best-agile-user-story/
+[^3]: Cowan, A. (2014). Your Best Agile User Story. Disponible
+    [aquí](https://www.alexandercowan.com/best-agile-user-story/).
 
 [^4]: Rehkopf, M. (2024). User stories with examples and a template. Jira.
     Disponible

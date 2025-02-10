@@ -42,7 +42,6 @@ PointToPointChannel
 Publish-Subscr. Channel
 Guaranteed Delivery
 Message Bus -->
->>>>>>> main
 
 <!-- TBD. Incluir la parte III de Bass
 Virtualización
