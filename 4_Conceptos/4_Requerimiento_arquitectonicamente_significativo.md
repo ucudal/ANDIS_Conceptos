@@ -3,8 +3,8 @@
 ## Requerimiento arquitectónicamente significativo
 
 <<<<<<< HEAD
-Un requerimiento arquitectónicamente significativo —o ASR, *architecturally
-significant requirement* por sus siglas en inglés— es un requerimiento que
+Un requerimiento arquitectónicamente significativo ‑o ASR, *architecturally
+significant requirement* por sus siglas en inglés‑ es un requerimiento que
 =======
 Un requisito arquitectónicamente significativo ‑o ASR, *architecturally
 significant requirement* por sus siglas en inglés‑ es un requerimiento que

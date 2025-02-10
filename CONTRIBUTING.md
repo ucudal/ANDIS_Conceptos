@@ -289,7 +289,7 @@ Además, esta es la configuración sugerida del editor y sus extensiones:
 Para verificar los links usamos la herramienta Linkspector disponible
 [aquí](https://github.com/UmbrellaDocs/linkspector). La puedes ejecutar a
 demanda con el comando `linkspector check`. La [configuración existente](/.linkspector.yml) considera
-el código HTTP 103 —además de 200, 201 y 204— como un correcto.
+el código HTTP 103 ‑además de 200, 201 y 204‑ como un correcto.
 
 ### Organización del contenido
 

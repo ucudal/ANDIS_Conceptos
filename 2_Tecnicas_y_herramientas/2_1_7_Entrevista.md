@@ -8,7 +8,7 @@ Una entrevista es un enfoque formal o informal para obtener información de los
 [interesados](/4_Conceptos/4_Interesado.md) hablando directamente con ellos[^1].
 
 [^1]: PMI. (2021). A Guide to the Project Management Body of Knowledge (PMBOK
-    Guide)—7<sup>th</sup> Edition and The Standard for Project Management.
+    Guide)‑7<sup>th</sup> Edition and The Standard for Project Management.
     Project Management Institute, Inc.
 
 Típicamente las entrevistas pueden ser:
@@ -33,8 +33,8 @@ Típicamente las entrevistas pueden ser:
 
 La elección del tipo de entrevista dependerá de factores como el objetivo de la investigación, el nivel de conocimiento previo sobre el tema, y la necesidad de comparar respuestas entre diferentes entrevistados.
 
-Algunos autores mencionan otros tipos de entrevistas —que se pueden combinar con
-los anteriores—[^2]:
+Algunos autores mencionan otros tipos de entrevistas ‑que se pueden combinar con
+los anteriores‑[^2]:
 
 [^2]: Stickdorn, M., Hormess, M., Lawrence, A., & Schneider, J. (2018). This Is
     Service Design Doing: Applying Service Design Thinking in the Real World.
@@ -61,7 +61,7 @@ los anteriores—[^2]:
 
 Entrevistar a los interesados es una técnica frecuentemente utilizada, que no
 está libre de problemas. El entrevistador depende de que el entrevistado conozca
-—y pueda verbalizar— todo el conocimiento necesario sobre el trabajo. Este
+‑y pueda verbalizar‑ todo el conocimiento necesario sobre el trabajo. Este
 método puede funcionar bien cuando las personas están familiarizadas con el
 trabajo, pero ese conocimiento suele limitarse a su área inmediata. Es probable
 que pocas personas en una organización entiendan lo suficiente del negocio para

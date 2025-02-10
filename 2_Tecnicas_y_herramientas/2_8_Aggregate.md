@@ -25,8 +25,8 @@ En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, una técnica
 simplificar un modelo es la de utilizar agregados.
 
 <<<<<<< HEAD:2_Tecnicas_y_herramientas/2_8_Aggregate.md
-Un agregado es un grupo de objetos asociados —[entidades](./2_8_Entity.md) y
-[objetos valor](./2_8_Value_Object.md)— que son considerados como una unidad a la
+Un agregado es un grupo de objetos asociados ‑[entidades](./2_8_Entity.md) y
+[objetos valor](./2_8_Value_Object.md)‑ que son considerados como una unidad a la
 =======
 Un agregado es un grupo de objetos asociados ‑[entidades](./4_Entidad.md) y
 [objetos valor](./4_Objeto_Valor.md)‑ que son considerados como una unidad a la

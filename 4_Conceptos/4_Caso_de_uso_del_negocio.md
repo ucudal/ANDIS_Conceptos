@@ -13,9 +13,9 @@ datos almacenados, y almacenamiento de datos procesados[^2].
     definición de caso de uso "a secas" introducida por Ivar Jacobson que fue
     quién acuñó el término. Jacobson lo define como "una secuencia de acciones
     que uno o más actores realizan en un sistema para obtener un resultado
-    significativo"[^3]. En el contexto del relevamiento de requerimientos —donde
+    significativo"[^3]. En el contexto del relevamiento de requerimientos ‑donde
     todavía no está definido qué parte del trabajo será automatizada por el
-    producto de software— la definición original de Jacobson no tiene mucho
+    producto de software‑ la definición original de Jacobson no tiene mucho
     sentido. Por eso es importante que los casos de uso del negocio sean
     agnósticos de la solución.
 

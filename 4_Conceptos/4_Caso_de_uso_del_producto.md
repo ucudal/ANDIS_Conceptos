@@ -7,7 +7,7 @@ decidir qué parte del [escenario](./4_Escenario.md) de ese caso de uso
 será realizado por el producto de software que estamos diseñando y qué parte
 será realizada por un [sistema adyacente](./4_Sistema_adyacente.md). La parte
 del caso de uso del negocio que se gestiona a través del sistema automatizado
-—el producto— es el caso de uso del producto[^1].
+‑el producto‑ es el caso de uso del producto[^1].
 
 [^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
     Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley
@@ -26,10 +26,10 @@ qué parte no.
 
 La siguiente [Figura 1](#figura-1) ilustra lo anterior: El evento del negocio es
 un suceso que se produce en el sistema adyacente. El flujo de información
-resultante notifica al trabajo del evento y desencadena una respuesta —el caso
-de uso del negocio—. Después de analizar esta situación el analista y los
+resultante notifica al trabajo del evento y desencadena una respuesta ‑el caso
+de uso del negocio‑. Después de analizar esta situación el analista y los
 [interesados](/4_Conceptos/4_Interesado.md) deciden qué parte del caso de uso
-del negocio debe manejar el producto propuesto —el caso de uso del producto—.
+del negocio debe manejar el producto propuesto ‑el caso de uso del producto‑.
 Todo lo que está inmediatamente fuera del alcance del producto se convierte en
 un actor, que manipula la funcionalidad del caso de uso del producto dentro del
 producto. Se muestra un diagrama de caso de uso UML para fines comparativos[^1].

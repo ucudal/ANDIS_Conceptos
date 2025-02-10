@@ -5,10 +5,10 @@
 ### 2.1.5 *Customer journey map* o mapa del recorrido del cliente
 
 Un *customer journey map* representa gráficamente la experiencia de un usuario
-con un servicio —ya sea mediante el relevamiento de su estado actual como a
-través del diseño de un estado futuro—, narrando sus interacciones mediante
+con un servicio ‑ya sea mediante el relevamiento de su estado actual como a
+través del diseño de un estado futuro‑, narrando sus interacciones mediante
 puntos de contacto. Estos puntos de contacto muchas veces tienen lugar a través
-de un producto de software —como un sitio web o una aplicación móvil— pero
+de un producto de software ‑como un sitio web o una aplicación móvil‑ pero
 también en forma personal o telefónica. Esta representación cuenta una historia
 detallada que captura no solo las acciones del usuario, sino fundamentalmente
 también sus estados emocionales, presentándolos de manera comprensible y
@@ -18,8 +18,8 @@ accesible[^1].
     Basics, tools, cases. BIS Publishers.
 
 > [!IMPORTANT]
-> Aprende más sobre *customer journey maps* —incluyendo los pasos para
-> crear tus propios mapas—
+> Aprende más sobre *customer journey maps* ‑incluyendo los pasos para
+> crear tus propios mapas‑
 > [aquí](https://www.thisisservicedesigndoing.com/methods/journey-mapping) y
 > [aquí](https://www.thisisservicedesigndoing.com/methods/mapping-journeys);
 > ambos basados en [^1].
@@ -42,5 +42,5 @@ CC BY-NC-ND 2.0.
 > en [Canva](https://www.canva.com/templates/s/customer-journey-map/) y en
 > [Miro](https://miro.com/templates/customer-journey-map/) por ejemplo. También
 > puedes usar [Mermaid](https://mermaid.js.org/syntax/userJourney.html) para
-> crear *customer journey maps* —que en Mermaid se llaman *user journey
-> diagrams*—.
+> crear *customer journey maps* ‑que en Mermaid se llaman *user journey
+> diagrams*‑.
