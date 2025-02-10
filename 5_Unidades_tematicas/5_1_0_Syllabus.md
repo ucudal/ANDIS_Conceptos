@@ -158,8 +158,8 @@ width="150"/>
   <tr style="vertical-align:top">
     <td>1. Proceso y obtención de requerimientos</td>
     <td>Requerimientos, validación requerimientos, trabajo, producto, evento del negocio, caso de uso del negocio, caso de uso del producto, alcance, interesados, restricciones<br>Técnicas para requerimientos<br>Escenarios, diagramas UML de casos de uso</td>
-    <td>Proceso de ingeniería de software, proceso de requerimientos, triángulo de hierro —alcance, recursos, duración—, reutilización de requerimientos, matriz de Mendelow, <i>persona analysis</i>, <i>customer journey</i></td>
-    <td>8 en clase, 20 en casa</td>
+    <td>Proceso de ingeniería de software, proceso de requerimientos, triángulo de hierro ‑alcance, recursos, duración‑, reutilización de requerimientos, matriz de Mendelow, <i>persona analysis</i>, <i>customer journey</i></td>
+    <td>10 en clase, 25 en casa</td>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
   </tr>
   </tr><tr style="vertical-align:top">
@@ -405,8 +405,8 @@ Capítulos 9 y del 2 al 6. Disponible en <a href=https://catalogo.ucu.edu.uy/cgi
 1. El componente de actitud académica se evalúa mediante la
 manifestación de las competencias generales del grado UCU a lo largo del curso:
 
-* Aprender a aprender: Aprende el proceso de aprender —meta-cognición—. Cree
-  en la capacidad de aprender para crecer —mentalidad de crecimiento—. Persevera
+* Aprender a aprender: Aprende el proceso de aprender ‑meta-cognición‑. Cree
+  en la capacidad de aprender para crecer ‑mentalidad de crecimiento‑. Persevera
   y supera desafíos para alcanzar un objetivo Reflexiona sobre la experiencia
   para mejorar su aprendizaje. Cultiva y administra la inteligencia emocional
   para comprenderse a sí mismo y a los demás. Se adapta al cambio y muestra

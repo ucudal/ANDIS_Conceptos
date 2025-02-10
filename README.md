@@ -4,7 +4,7 @@
 
 ## Facultad de Ingeniería y Tecnologías
 
-### Análisis y diseño de aplicaciones I y II.
+### Análisis y diseño de aplicaciones I y II
 
 <br/>
 
@@ -24,7 +24,7 @@ el componente de construcción de los proyectos de emprendimiento ‑excluye los
 proyectos de investigación y de extensión‑. Estos contenidos conceptuales están
 alineados con las competencias a desarrollar durante los cursos.
 
-# 1 [Entregable proyecto](./1_Entregable_proyecto/1__Entregable_proyecto.md)
+# 1 [Entregable proyecto](./1_Entregable_proyecto/1_.Entregable_proyecto.md)
 
 En esta sección encontrarás la descripción del contenido del documento
 entregable principal de un proyecto final de grado; aunque también puede ser

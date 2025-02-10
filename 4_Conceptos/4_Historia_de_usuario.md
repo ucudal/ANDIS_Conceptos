@@ -6,6 +6,9 @@ Una historia de usuario describe una funcionalidad que será de valor para un
 usuario o comprador de un sistema o software. Las historias de usuario se
 componen de tres aspectos[^1]:
 
+[^1]: Cohn, M. (2004). User Stories Applied: For Agile Software Development.
+Addison-Wesley Professional.
+
 * Una descripción escrita de la historia utilizada para la planificación y como
 recordatorio.
 
@@ -26,6 +29,9 @@ historia. Cuando llegue el momento de implementar la historia, los
 desarrolladores acudirán al cliente y recibirán una descripción detallada de los
 requerimientos cara a cara.
 
+[^2]: Beck, K. & Andres, C. (2004). Extreme Programming Explained: Embrace
+    Change, 2<sup>nd</sup> Edition. Addison-Wesley.
+
 La estimación temprana es una diferencia clave entre las historias y otras
 prácticas de requerimientos. La estimación brinda a las perspectivas técnica y
 de negocio la oportunidad de interactuar, lo que crea valor desde el principio,
@@ -41,11 +47,19 @@ combina algunas historias. Aproximadamente 80 historias de usuarios más o menos
 20 es un número perfecto para crear un plan de lanzamiento durante la
 planificación del lanzamiento[^2].
 
-Algunos sugieren que las historias de usuario tengan cierto formato[^3]:
+Las historias de usuario se escriben en una oración que algunos autores sugieren
+que tenga cierto formato[^3][^4]:
+
+[^3]: Cowan, A. (2014). Your Best Agile User Story.
+    https://www.alexandercowan.com/best-agile-user-story/
+
+[^4]: Rehkopf, M. (2024). User stories with examples and a template. Jira.
+    Disponible
+    [aquí](https://www.atlassian.com/agile/project-management/user-stories).
 
 > Como [<span style="color:#0969DA">*persona*</span>],
-> quiero [<span style="color:#0969DA">característica o funcionalidad</span>]
-> de modo que [<span style="color:#0969DA">razón</span>]
+> quiero [<span style="color:#0969DA">hacer algo</span>]
+> de modo que [<span style="color:#0969DA">recompensa o beneficio</span>]
 
 *Persona* ‑ver [definición](https://www.merriam-webster.com/dictionary/persona)‑
 representa el rol o el usuario.
@@ -58,9 +72,11 @@ representa el rol o el usuario.
 > * ¿Ejemplo de este usuario?
 
 Lo que el usuario quiere hacer en la historia es lo que asumes que es su
-objetivo e implica una característica o funcionalidad en el software. La razón
-‑también llamada a veces recompensa‑ es algo que se puede probar ‑demostrar‑
-para determinar que el usuario ha alcanzado su objetivo.
+intención u objetivo e implicará una característica o funcionalidad en el
+software.
+
+La recompensa o beneficio es algo que se puede probar ‑demostrar‑ para
+determinar que el usuario ha alcanzado su objetivo.
 
 > [!TIP]
 > Contesta estas preguntas sobre la recompensa:
@@ -71,9 +87,12 @@ para determinar que el usuario ha alcanzado su objetivo.
 
 La granularidad de una historia está en algún lugar entre un [caso de uso de
 producto](/4_Conceptos/4_Caso_de_uso_del_producto.md) y un [requerimiento
-atómico](/3_Plantillas/3_1_Requerimiento_atomico.md)[^4].
+atómico](/3_Plantillas/3_1_Requerimiento_atomico.md)[^5].
 
-El siguiente ejemplo de historia de usuario está tomado de [^4]:
+[^5]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
+Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
+
+El siguiente ejemplo de historia de usuario está tomado de [^5]:
 
 El primer paso de un caso de uso de negocio para un banco dice lo siguiente:
 
@@ -130,8 +149,8 @@ atómico](/3_Plantillas/3_1_Requerimiento_atomico.md):
             <b>Descripción</b>
         </td>
         <td colspan="5">
-            Como titular de una cuenta bancaria, quiero que me informen si se
-            prevé que mi saldo mensual llegue a cero o menos.
+            El sistema debe informar al titular de una cuenta bancaria si se
+            prevé que su saldo mensual llegue a cero o menos.
         </td>
     </tr>
     <tr>
@@ -221,11 +240,31 @@ otro modo, las épicas de descomponen en historias de usuario. Pueden tener el
 mismo formato que las historias de usuario aunque con una granularidad mucho
 menor, o dicho de otro modo, con un alcanza mucho mayor.
 
-[^1]: Cohn, M. (2004). User Stories Applied: For Agile Software Development.
-Addison-Wesley Professional.
-[^2]: Beck, K. & Andres, C. (2004). Extreme Programming Explained: Embrace
-    Change, 2<sup>nd</sup> Edition. Addison-Wesley.
-[^3]: Cowan, A. (2014). Your Best Agile User Story.
-    https://www.alexandercowan.com/best-agile-user-story/
-[^4]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
-Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
+Algunos de los beneficios de usar historias de usuario son[^5]:
+
+* **Las historias mantienen el foco en el usuario**. Cuando cada historia de
+  usuario es una  tarea pendiente, mantienen al equipo concentrado en las tareas
+  que deben completarse. El conjunto de historias mantiene al equipo concentrado
+  en resolver problemas para usuarios reales.
+
+* **Las historias permiten la colaboración**. Una vez definido el objetivo
+  final, el equipo puede trabajar en conjunto para decidir cuál es la mejor
+  manera de proveer valor al usuario y alcanzar ese objetivo.
+
+* **Las historias impulsan soluciones creativas**. Las historias alientan al
+  equipo a pensar de manera crítica y creativa sobre la mejor manera de lograr
+  el objetivo final.
+
+* **Las historias crean impulso**. Con cada historia que pasa, el equipo de
+  desarrollo disfruta de un pequeño desafío y una pequeña victoria, lo que
+  genera impulso.
+
+> [!TIP]
+> Mira [este
+> recurso](https://www.thisisservicedesigndoing.com/methods/writing-user-stories)
+> basado en [^6] para obtener más información sobre cómo escribir historias de
+> usuario.
+
+[^6]: Stickdorn, M., Hormess, M., Lawrence, A., & Schneider, J. (2018). This Is
+    Service Design Doing: Applying Service Design Thinking in the Real World.
+    O'Reilly Media.

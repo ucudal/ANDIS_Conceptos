@@ -14,7 +14,7 @@ allí indicadas:
 [^1]: Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design patterns:
     Elements of reusable object-oriented software. Addison Wesley Professional.
     Disponible en biblioteca
-    [aquí](https://catalogo.ucu.edu.uy/cgi*bin/koha/opac*detail.pl?biblionumber=3496).
+    [aquí](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=3496).
 
 * [Singleton](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#singleton)
 
@@ -73,4 +73,4 @@ Lee también sobre estos patrones en este repositorio:
 
 #### Complementarias
 
-Reenskaug, T. (1978). MVC: Notes and Historical documents. Disponible [aquí](https://folk.universitetetioslo.no/trygver/themes/mvc/mvc*index.html)
+Reenskaug, T. (1978). MVC: Notes and Historical documents. Disponible [aquí](https://folk.universitetetioslo.no/trygver/themes/mvc/mvc-index.html)

@@ -13,7 +13,7 @@ Este documento está basado en [^2] y [^1].
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 <<<<<<< HEAD:2_Tecnicas_y_herramientas/2_8_Value_Object.md
-En el contexto de *Domain-Driven Design* —DDD, por sus siglas—, un objeto valor
+En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, un objeto valor
 es un objeto que, a diferencia de una [entidad](../4_Conceptos/4_Entidad.md), no tiene
 =======
 En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, un objeto valor

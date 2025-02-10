@@ -1,0 +1,6 @@
+aliveStatusCodes:
+  - 200
+  - 201
+  - 204
+  - 103 # Early hint due including ERR_CERT_DATE_INVALID
+useGitIgnore: true

@@ -141,5 +141,5 @@ efficiency](https://learn.microsoft.com/en-us/azure/well-architected/performance
 en Azure Well Architected Framework.
 
 > [!TIP]
-> Vean además el método [PASA](/2_Tecnicas_y_herramientas/2_9_4_PASA.md) de
+> Vean además el método [PASA](/2_Tecnicas_y_herramientas/2_10_4_PASA.md) de
 > evaluación del rendimiento de la arquitectura de software.

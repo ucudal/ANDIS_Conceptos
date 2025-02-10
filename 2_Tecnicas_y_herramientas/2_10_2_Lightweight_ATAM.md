@@ -6,7 +6,7 @@
 ### 2.9.1 *Lightweight ATAM* -o ATAM ligero‑
 
 > [!TIP]
-> Ver también [ATAM](./2_9_1_ATAM.md).
+> Ver también [ATAM](./2_10_1_ATAM.md).
 
 La concepción tradicional de evaluar la arquitectura una vez que está
 "terminada" resulta inadecuada para las metodologías actuales de desarrollo de

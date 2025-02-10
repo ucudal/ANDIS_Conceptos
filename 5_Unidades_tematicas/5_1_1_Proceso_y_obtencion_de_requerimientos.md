@@ -6,11 +6,68 @@
 
 #### Lecturas
 
-En este repositorio lee lo siguiente:
+1. En este repositorio lee lo siguiente:
 
-* [Volere](/2_Tecnicas_y_herramientas/2_6_1_Volere.md)
+    * [Volere](/2_Tecnicas_y_herramientas/2_6_1_Volere.md).
 
-* [Requerimiento](/4_Conceptos/4_Requerimiento.md)
+      > [!TIP]
+      > Puedes ver antes [este video](https://www.youtube.com/watch?v=M5Z1igBmM3w)
+      > para tener una visión general de cómo fluye el proceso.
+
+    * [Requerimiento](/4_Conceptos/4_Requerimiento.md)
+
+    * [*Checklist* de requerimientos](/2_Tecnicas_y_herramientas/2_1_4_Checklist_requerimientos.md)
+
+    * [Caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md)
+
+    * [Caso de uso del producto](/4_Conceptos/4_Caso_de_uso_del_producto.md)
+
+    * [Interesado](/4_Conceptos/4_Interesado.md)
+
+    * [Evento del negocio](/4_Conceptos/4_Evento_del_dominio.md)
+
+    * [Escenario](/4_Conceptos/4_Escenario.md)
+
+    * [*Personas*](/2_Tecnicas_y_herramientas/2_1_3_Personas.md)
+
+    * [Diagramas de contexto](/2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md)
+
+        <!-- Si va acá hay que agregar este tema -->
+    * [*Customer Journey map*](/2_Tecnicas_y_herramientas/2_1_5_Customer_journey_map.md)
+
+2. Lee lo siguiente de [^1].
+
+    * Capítulo 2, **The Requirements Process**
+
+    * Capítulo 3, **Scoping the Business Problem**
+
+    * Capítulo 4, **Business Use Cases**
+
+    * Capítulo 5, **Investigating the Work**
+
+    * Capítulo 6, **Scenarios**
+
+    * Capítulo 9, **Strategies for Today’s Business Analyst**
+
+3. Lee lo siguiente de [^2]:
+
+    * El apartado **1. What Is Software Engineering?** de la sección
+      **Introduction to the guide**
+
+    * El capítulo 1 **Software Requirements**.
+
+[^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
+    Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley
+    Professional. Disponible en
+    [biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=121158)
+
+[^2]: IEEE Computer Society. (2024). Guide to the Software Engineering Body of
+    Knowledge v4.0. IEEE. Disponible
+    [aquí](https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf).
+
+#### Lecturas complementarias
+
+En este repositorio:
 
 * [Requerimiento funcional](/4_Conceptos/4_Requerimiento_funcional.md)
 
@@ -18,53 +75,24 @@ En este repositorio lee lo siguiente:
 
 * [Restricción](/4_Conceptos/4_Restriccion.md)
 
-* [Evento del negocio](/4_Conceptos/4_Evento_del_dominio.md)
+* [Historia de usuario](/4_Conceptos/4_Historia_de_usuario.md)
 
-* [Caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md)
+* [Épica](/4_Conceptos/4_Epica.md)
 
-* [Caso de uso del producto](/4_Conceptos/4_Caso_de_uso_del_producto.md)
+* [Diagramas UML de casos de uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md)
 
-* [Escenario](/4_Conceptos/4_Escenario.md)
+* [Diagramas de actividades UML](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
 
-* [Historias de usuario](/4_Conceptos/4_Historia_de_usuario.md)
+* [Mapas mentales](/2_Tecnicas_y_herramientas/2_1_1_Mapas_mentales.md)
 
-* [Épicas](/4_Conceptos/4_Epica.md)
+* [Observación como participante](/2_Tecnicas_y_herramientas/2_1_6_Observacion_Participante.md)
 
-* [Interesados](/4_Conceptos/4_Interesado.md)
-
-* [Diagramas de
-contexto](/2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md)
-
-* [Diagramas UML de casos de
-uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md)
-
-* [*Personas*](/2_Tecnicas_y_herramientas/2_1_3_Personas.md)
-
-<!-- Si va acá hay que agregar este tema -->
-* [*Customer Journey map*](/2_Tecnicas_y_herramientas/2_1_5_Customer_journey_map.md)
-
-* [*Checklist*
-  requerimientos](/2_Tecnicas_y_herramientas/2_1_4_Checklist_requerimientos.md)
-
-Lee los capítulos 2 al 6 y 9 de [^1].
-
-[^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
-    Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley
-    Professional. Disponible en
-    [biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=121158)
-
-<!-- Nuevo para ver con José -->
-Lee sobre la fase de inicio ‑o *inception*‑ del Disciplined Agile Delivery del
-Project Management Institute, disponible
-[aquí](https://www.pmi.org/disciplined-agile/inception-goals), en particular la
-sección [*Explore
-scope*](https://www.pmi.org/disciplined-agile/inception-goals/explore-initial-scope).
-
-#### Lecturas complementarias
+* [Entrevista](/2_Tecnicas_y_herramientas/2_1_7_Entrevista.md)
 
 Daniels, L. (2000). Managing the product requirements definition process. In
 Project Management Institute Annual Seminars & Symposium, Houston, TX. Newtown
-Square, PA: Project Management Institute. Disponible [aquí](https://www.pmi.org/learning/library/product-requirements-definition-process-foundation-1894)
+Square, PA: Project Management Institute. Disponible
+[aquí](https://www.pmi.org/learning/library/product-requirements-definition-process-foundation-1894)
 
 Fricker, S. A., Grau, R., & Zwingli, A. (2014). Requirements engineering: best
 practice. In Requirements engineering for digital health p. 25-46. Cham:
@@ -80,6 +108,15 @@ Ambisoft. (2018). State of Software Development: 2018 Open Research. Disponible
 [aquí](http://www.ambysoft.com/surveys/softwareDevelopment2018.html). Un poco
 más actual que The Chaos Report 2015, aunque usando otra encuesta.
 
-PMI. (2024). Pulse of the Profession® 2024, 15<sup>th</sup> Edition. Disponible
+PMI. (2024). Pulse of the Profession® 2024, 15<sup>th</sup> Edition. Project
+Management Institute. Disponible
 [aquí](https://www.pmi.org/learning/thought-leadership/pulse/future-of-project-work).
-Más actual que The Chaos Report 2015, aunque incluye proyectos que no son de software.
+Más actual que The Chaos Report 2015, aunque incluye proyectos que no son de
+software.
+
+PMI. (2025). Introduction to Disciplined Agile® (DA™). Project Management
+Institute. Disponible
+[aquí](https://www.pmi.org/disciplined-agile/introduction-to-disciplined-agile)
+
+PMI. (2025). Full Delivery Life Cycles. Project Management Institute.
+Disponible [aquí](https://www.pmi.org/disciplined-agile/lifecycle).
