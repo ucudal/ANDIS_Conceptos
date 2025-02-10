@@ -5,7 +5,7 @@
 Una decisión arquitectónica es una elección de diseño justificada que aborda un
 requerimiento funcional o [no funcional](./4_Requerimiento_no_funcional.md) que
 es [arquitectónicamente
-significativo](./4_Requerimiento_arquitectonicamente_significativo).
+significativo](./4_Requerimiento_arquitectonicamente_significativo.md).
 
 Un registro de decisión arquitectónica ‑o ADR por sus siglas en inglés
 *architectural decision record*‑ captura una única decisión arquitectónica y su

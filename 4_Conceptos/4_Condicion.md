@@ -2,7 +2,7 @@
 
 ## Condición
 
-Una condición es un [atributo](./4_Atributos_de_calidad.md) cualitativo o
+Una condición es un [atributo](./4_Atributo_de_calidad.md) cualitativo o
 cuantitativo medible que se estipula para un [requerimiento](./4_Rendimiento.md)
 y que indica una circunstancia o evento bajo el cual se aplica un
 requerimiento[^1].

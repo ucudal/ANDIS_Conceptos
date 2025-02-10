@@ -12,15 +12,11 @@ Este documento está basado en [^2] y [^1].
     Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
-<<<<<<< HEAD:2_Tecnicas_y_herramientas/2_8_Value_Object.md
 En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, un objeto valor
-es un objeto que, a diferencia de una [entidad](../4_Conceptos/4_Entidad.md), no tiene
-=======
-En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, un objeto valor
-es un objeto que, a diferencia de una [entidad](./4_Entidad.md), no tiene
->>>>>>> main:4_Conceptos/4_Objeto_Valor.md
-identidad y se utiliza para describir o calcular características de las cosas
-que son parte del [dominio](../4_Conceptos/4_Dominio.md).
+es un objeto que, a diferencia de una
+[entidad](/2_Tecnicas_y_herramientas/2_8_Entity.md), no tiene identidad y se
+utiliza para describir o calcular características de las cosas que son parte del
+[dominio](/4_Conceptos/4_Dominio.md).
 
 Al no tener una identidad, los objetos valor se pueden crear y descartar
 fácilmente ‑a través del *garbage collector* cuando dejan de ser referenciados,
@@ -37,13 +33,13 @@ colaterales ‑[funciones puras](https://en.wikipedia.org/wiki/Pure_function)‑
 no dependan de ningún estado mutable.
 
 Los objetos valores pueden contener otros objetos valor, e incluso contener
-referencias a entidades. Algo que favorece a la expresabilidad del diseño es
-agrupar en un objeto valor atributos que están conceptualmente relacionados, por
-ejemplo: un usuario de un sistema podría ser un objeto valor compuesto de su
-identificador (`id`), `nombre`, `calle`, `ciudad` y `estado`, o mejor aún, `id`,
-`nombre` y `dirección`, donde este último es otro objeto valor compuesto de
-`calle`, `ciudad` y `estado`. Esto se ilustra en la siguiente [Figura
-1](#figura-1).
+referencias a entidades. Algo que favorece a la capacidad de expresión del
+diseño es agrupar en un objeto valor atributos que están conceptualmente
+relacionados, por ejemplo: un usuario de un sistema podría ser un objeto valor
+compuesto de su identificador (`id`), `nombre`, `calle`, `ciudad` y `estado`, o
+mejor aún, `id`, `nombre` y `dirección`, donde este último es otro objeto valor
+compuesto de `calle`, `ciudad` y `estado`. Esto se ilustra en la siguiente
+[Figura 1](#figura-1).
 
 <a id="figura-1"/>
 
