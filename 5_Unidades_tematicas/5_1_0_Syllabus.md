@@ -159,7 +159,7 @@ width="150"/>
     <td>1. Proceso y obtención de requerimientos</td>
     <td>Requerimientos, validación requerimientos, trabajo, producto, evento del negocio, caso de uso del negocio, caso de uso del producto, alcance, interesados, restricciones<br>Técnicas para requerimientos<br>Escenarios, diagramas UML de casos de uso</td>
     <td>Proceso de ingeniería de software, proceso de requerimientos, triángulo de hierro —alcance, recursos, duración—, reutilización de requerimientos, matriz de Mendelow, <i>persona analysis</i>, <i>customer journey</i></td>
-    <td>8 en clase, 20 en casa</td>
+    <td>10 en clase, 25 en casa</td>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
   </tr>
   </tr><tr style="vertical-align:top">

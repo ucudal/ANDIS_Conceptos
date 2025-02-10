@@ -286,6 +286,11 @@ Además, esta es la configuración sugerida del editor y sus extensiones:
 }
 ```
 
+Para verificar los links usamos la herramienta Linkspector disponible
+[aquí](https://github.com/UmbrellaDocs/linkspector). La puedes ejecutar a
+demanda con el comando `linkspector check`. No es necesario usar una
+configuración particular pues la configuración predeterminada es suficiente.
+
 ### Organización del contenido
 
 El contenido está organizado en estas carpetas:

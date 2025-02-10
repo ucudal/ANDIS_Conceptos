@@ -12,6 +12,9 @@ conocidas como ≪retratos hablados≫, ≪avatares de clientes≫, ≪usuarios
 *persona*≫ son una herramienta útil para representar las necesidades, deseos,
 habilidades y entorno de una o más clases de usuarios reales[^1].
 
+[^1]: Rind, B. (2009). The Power of the Persona.
+  [Link](https://bonfire.typepad.com/bonfire/The-Power-of-the-Persona.pdf)
+
 Desarrolladas a partir de investigaciones y datos, las *personas* van más allá
 de los simples hechos. Encarnan nombres, personalidades y rostros, reflejando
 necesidades, deseos, gustos, disgustos, oportunidades y desafíos reales.
@@ -42,5 +45,12 @@ hora de tomar decisiones sobre el producto o servicio que estamos construyendo.
 Aunque no hay una forma estándar de representar las *personas*, esta
 [plantilla](../3_Plantillas/3_3_Personas.md) puede ser útil.
 
-[^1]: Rind, B. (2009). The Power of the Persona.
-  [Link](https://bonfire.typepad.com/bonfire/The-Power-of-the-Persona.pdf)
+> [!IMPORTANT]
+> Aprende más sobre *personas* incluyendo los pasos para crearlas
+> [aquí](https://www.thisisservicedesigndoing.com/methods/creating-personas) y
+> [aquí](https://www.thisisservicedesigndoing.com/methods/creating-personas-2);
+> ambos basados en [^2].
+
+[^2]: Stickdorn, M., Hormess, M., Lawrence, A., & Schneider, J. (2018). This Is
+    Service Design Doing: Applying Service Design Thinking in the Real World.
+    O'Reilly Media.

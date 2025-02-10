@@ -20,7 +20,9 @@ accesible[^1].
 > [!IMPORTANT]
 > Aprende más sobre *customer journey maps* —incluyendo los pasos para
 > crear tus propios mapas—
-> [aquí](https://www.thisisservicedesigndoing.com/methods/mapping-journeys).
+> [aquí](https://www.thisisservicedesigndoing.com/methods/journey-mapping) y
+> [aquí](https://www.thisisservicedesigndoing.com/methods/mapping-journeys);
+> ambos basados en [^1].
 
 La [Figura 1](#figura-1), a continuación, muestra un ejemplo de un *customer
 journey map*:
