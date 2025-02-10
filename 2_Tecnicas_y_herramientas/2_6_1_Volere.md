@@ -42,17 +42,17 @@ Algunas actividades —no necesariamente secuenciales— de este proceso son:
   proceso de descubrimiento de requerimientos y cuál será específicamente
   excluida.
 
-  Un [diagrama de
+  Un [diagrama de/2_Tecnicas_y_herramientas/2_01_2_Diagramas_de_contexto.md
   contexto](/2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md) se
   utiliza para generar un consenso entre los interesados sobre el alcance del
   [trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md) que se debe mejorar. El
   producto final se utilizará para realizar parte de este trabajo.
 
-* **Relevar los requerimientos**. Los analistas de negocios comienzan a
-  relevar[^3] el trabajo para aprender y comprender su funcionalidad,
-  fundamentalmente entender qué está pasando con la parte del negocio
-  involucrada y qué se está buscando resolver. Para mayor comodidad y
-  consistente, dividen el diagrama de contexto de trabajo en [casos de uso del
+* **Relevar los requerimientos**. Los analistas comienzan a relevar[^3] el
+  trabajo para aprender y comprender su funcionalidad, fundamentalmente entender
+  qué está pasando con la parte del negocio involucrada y qué se está buscando
+  resolver. Para mayor comodidad y consistente, dividen el diagrama de contexto
+  de trabajo en [casos de uso del
   negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md).
 
   Cada caso de uso del negocio es la funcionalidad que necesita el trabajo para
@@ -142,14 +142,21 @@ Algunas actividades —no necesariamente secuenciales— de este proceso son:
   * **Comprobar la completitud**. Confirmar que se han cubierto todas las
     necesidades y funcionalidades esperadas del producto.
 
-  * **Analizar la viabilidad**. Evaluar si los requerimientos son técnica y
+  * **Analizar la factibilidad**. Evaluar si los requerimientos son técnica y
     económicamente realizables.
 
   * **Revisar la claridad**. Garantizar que cada requerimiento está expresado de
-    manera inequívoca y sea comprensible para todos los interesados.
+    manera no-ambigua y de forma que sea comprensible para todos los
+    interesados.
 
   * **Trazabilidad**. Comprobar que cada requisito pueda ser rastreado hasta su
     origen —hasta la necesidad del usuario o requerimiento del negocio—.
+
+  > [!IMPORTANT]
+  > Esta lista aparece en [^2] y se incluye aquí por completitud. Una lista más
+  > completa de los atributos de calidad de los requerimientos se incluye en la
+  > [*checklist* de/2_Tecnicas_y_herramientas/2_01_4_Checklist_requerimientos.md
+  > requerimientos](/2_Tecnicas_y_herramientas/2_1_4_Checklist_requerimientos.md).
 
 * **Reutilizar requerimientos**. Los requerimientos para un producto nunca serán
   completamente originales. Antes de iniciar un nuevo proyecto es recomendable
