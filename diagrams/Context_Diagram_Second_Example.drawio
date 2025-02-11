@@ -1,0 +1,108 @@
+<mxfile host="65bd71144e">
+    <diagram id="Iu2R6_a1w64LbfTA9N5M" name="Page-1">
+        <mxGraphModel dx="830" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Pedidos de autorización&lt;br&gt;de crédito" style="html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="13" edge="1">
+                    <mxGeometry x="-0.027" y="15" relative="1" as="geometry">
+                        <mxPoint x="550" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="430" y="200"/>
+                            <mxPoint x="510" y="200"/>
+                            <mxPoint x="580" y="200"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Detalle órdenes&lt;br&gt;Detalle pagos&lt;br&gt;Detalle entrega" style="html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;startArrow=open;startFill=0;" parent="1" source="5" target="9" edge="1">
+                    <mxGeometry x="-0.0161" y="-36" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Sistema de&lt;br&gt;ventas" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="200" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Estado de órdenes&lt;br&gt;Excepciones de órdenes" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7" target="5" edge="1">
+                    <mxGeometry x="-0.2105" y="20" relative="1" as="geometry">
+                        <mxPoint x="480" y="470" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="350" y="430"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="&lt;span style=&quot;&quot;&gt;≪&lt;/span&gt;cooperative&lt;span style=&quot;&quot;&gt;&amp;nbsp;system≫&lt;br&gt;Sistema&amp;nbsp;de&lt;br&gt;gestión del&lt;br&gt;depósito&lt;/span&gt;" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="370" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Estado órdenes" style="edgeStyle=none;html=1;endArrow=none;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;startArrow=open;startFill=0;" parent="1" source="9" target="5" edge="1">
+                    <mxGeometry x="0.4298" y="15" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="160" y="235"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;span style=&quot;&quot;&gt;≪active system≫&lt;br&gt;&lt;/span&gt;Comprador&lt;br&gt;en línea" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="60" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Actualizaciones de productos" style="html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="11" target="5" edge="1">
+                    <mxGeometry x="-0.3333" y="-10" relative="1" as="geometry">
+                        <mxPoint x="505" y="120" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="70"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;&quot;&gt;≪cooperative system≫&lt;br&gt;Sistema de&lt;br&gt;mantenimiento de&lt;br&gt;productos&lt;/span&gt;" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="40" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;&quot;&gt;≪active system≫&lt;br&gt;&lt;/span&gt;Vendedor&lt;br&gt;telefónico" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="310" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;&quot;&gt;≪&lt;/span&gt;cooperative&lt;span style=&quot;&quot;&gt;&amp;nbsp;system≫&lt;br&gt;&lt;/span&gt;Sistema de&lt;br&gt;autorización&lt;br&gt;de crédito" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=none;fontColor=#006EAF;strokeColor=#006EAF;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="205" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Respuestas de autorización&lt;br&gt;de crédito" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;" parent="1" source="13" target="5" edge="1">
+                    <mxGeometry x="0.1562" y="20" relative="1" as="geometry">
+                        <mxPoint x="500" y="390" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="580" y="270"/>
+                            <mxPoint x="430" y="270"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="376.21343691142283" y="279.0482175139882" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Órdenes&lt;br&gt;Actualizaciones de órdenes" style="html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5" target="7" edge="1">
+                    <mxGeometry x="0.4054" y="15" relative="1" as="geometry">
+                        <mxPoint x="500" y="390" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="390"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="421.0102875987184" y="227.84085661286053" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Detalle órdenes&lt;br&gt;Detalle pagos&lt;br&gt;Detalle entrega" style="html=1;endArrow=none;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=open;startFill=0;" parent="1" source="12" edge="1">
+                    <mxGeometry x="-0.2046" y="30" relative="1" as="geometry">
+                        <mxPoint x="70" y="331" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="300.5025253169417" y="260.74873734152914" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Estado de órdenes&lt;br&gt;Información del cliente" style="html=1;endArrow=none;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;labelBackgroundColor=none;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=open;startFill=0;" parent="1" source="5" target="12" edge="1">
+                    <mxGeometry x="0.334" y="20" relative="1" as="geometry">
+                        <mxPoint x="330.5" y="550.25" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="240" y="370"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                        <mxPoint x="159.99747468305827" y="419.99873734152914" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
