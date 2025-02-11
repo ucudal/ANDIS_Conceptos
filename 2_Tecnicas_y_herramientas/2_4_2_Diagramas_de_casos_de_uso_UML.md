@@ -13,8 +13,8 @@ extienden a otros.
 Este documento está basado en UML 2.5.1[^1].
 
 Tengan en cuenta que este diagrama sólo incluye los nombres de los casos de uso,
-sin ningún detalle del escenario que tiene ese caso de uso, así que también va a
-ser necesario el [escenario](/3_Plantillas/3_2_Escenario.md) detallado del caso
+sin ningún detalle del [escenario](/3_Plantillas/3_2_Escenario.md) que tiene ese
+caso de uso, así que también va a ser necesario el escenario detallado del caso
 de uso.
 
 Los diagramas de casos de uso tienen:
@@ -60,6 +60,7 @@ Estas relaciones se modelan como flechas punteadas:
 
 * Inclusión o *include*, modela cuando un caso de uso incluye un comportamiento
   especificado en otro caso de uso. Esto es útil para reutilizar casos de uso.
+
 * Extensión o *extends*, modela cuando un caso de uso agrega comportamiento
   específico a otro; el caso de uso extendido debe tener previsto dónde agregar
   el comportamiento mediante puntos de extensión o *extension points*.
