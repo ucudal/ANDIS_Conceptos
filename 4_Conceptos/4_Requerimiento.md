@@ -22,7 +22,7 @@ en un producto, servicio o resultado para satisfacer una necesidad del
 negocio[^3].
 
 [^3]: PMI. (2021). A Guide to the Project Management Body of Knowledge (PMBOK
-    Guide)—7<sup>th</sup> Edition and The Standard for Project Management.
+    Guide)‑7<sup>th</sup> Edition and The Standard for Project Management.
     Project Management Institute, Inc.
 
 Un requerimiento es algo que un producto debe hacer para dar soporte al negocio

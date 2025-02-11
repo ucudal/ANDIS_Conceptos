@@ -8,7 +8,7 @@ En esta unidad temática los estudiantes preparan presentaciones y demos de
 soluciones de arquitectura para presentar a sus pares. Por lo tanto la lista a
 continuación no es de las lecturas previas a la clase como en las demás unidades
 temáticas, sino una lista de algunos de los recursos que pueden utilizar para
-preparar esas presentaciones y demos —también pueden usar otros recursos—.
+preparar esas presentaciones y demos ‑también pueden usar otros recursos‑.
 
 #### Recursos
 
@@ -55,7 +55,7 @@ el desarrollo de aplicaciones y contenedor de inversión de control de código
 abierto para la plataforma Java.
 
 [MassTransit](https://masstransit.io). MassTransit es un software de bus de
-servicios empresariales —ESB— de código abierto y gratuito, que ayuda a los
+servicios empresariales ‑ESB‑ de código abierto y gratuito, que ayuda a los
 desarrolladores de .NET a enrutar mensajes a través de agentes de mensajería.
 
 [Docker](https://www.docker.com). Docker ayuda a los desarrolladores a crear,

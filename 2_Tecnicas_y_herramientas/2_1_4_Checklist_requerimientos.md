@@ -16,8 +16,8 @@ La siguiente lista de verificación ‑basada en [^1] y [^2]‑ incluye una seri
     Requirement. Disponible
     [aquí](https://www.nasa.gov/reference/system-engineering-handbook-appendix/#hds-sidebar-nav-3).
 
-1. **Necesario**: Todo requerimiento representa una necesidad fundamental —en el
-   sentido de que si falta provocará una deficiencia— que no puede ser sustituida
+1. **Necesario**: Todo requerimiento representa una necesidad fundamental ‑en el
+   sentido de que si falta provocará una deficiencia‑ que no puede ser sustituida
    por otras capacidades o funcionalidades.
 
 2. **No ambiguo**: Debe tener una única interpretación. Que el requerimiento sea
@@ -37,8 +37,8 @@ La siguiente lista de verificación ‑basada en [^1] y [^2]‑ incluye una seri
    supuestos deben estar confirmados.
 
 6. **Factible**: Debe ser posible de cumplir técnicamente y dentro de los
-   límites de la tecnología; se ajusta a las restricciones —por ejemplo de
-   costo, de calendario, legales, de regulaciones, etc.— con un riesgo
+   límites de la tecnología; se ajusta a las restricciones ‑por ejemplo de
+   costo, de calendario, legales, de regulaciones, etc.‑ con un riesgo
    aceptable.
 
 7. **Verificable**: Debe ser posible demostrar que el requerimiento ha sido

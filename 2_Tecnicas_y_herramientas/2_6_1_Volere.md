@@ -8,8 +8,8 @@ Los [requerimientos](/4_Conceptos/4_Requerimiento.md) definen la esencia de lo
 que es y de lo que hace un producto o servicio. Existen independientemente de si
 se descubren y de si se documentan o no. El verdadero objetivo del análisis de
 requerimientos no es producir documentación, sino entender una necesidad del
-negocio y diseñar una solución apropiada para ella. Volere[^1] es un proceso —que
-puede ser utilizado junto con otros *frameworks* de proceso— para descubrir,
+negocio y diseñar una solución apropiada para ella. Volere[^1] es un proceso ‑que
+puede ser utilizado junto con otros *frameworks* de proceso‑ para descubrir,
 verificar y documentar requerimientos[^2].
 
 [^1]: Volere es el término en italiano para ≪desear≫ o ≪querer≫.
@@ -26,13 +26,13 @@ proceso de requerimientos.
 
 *Figura 1: El proceso de requerimientos Volere*. Adaptado de [^2].
 
-Algunas actividades —no necesariamente secuenciales— de este proceso son:
+Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
 
 * **Lanzamiento del proyecto**. El lanzamiento del proyecto establece las bases
   para posteriormente descubrir los requerimientos y asegura que todos los
   elementos esenciales para el éxito del proyecto estén disponibles. Los
-  principales interesados —incluyendo el patrocinador, los usuarios clave, el
-  analista líder de requerimientos y expertos técnicos y de negocio— se reúnen
+  principales interesados ‑incluyendo el patrocinador, los usuarios clave, el
+  analista líder de requerimientos y expertos técnicos y de negocio‑ se reúnen
   para alcanzar acuerdos sobre los aspectos más importantes del proyecto.
 
   El lanzamiento del proyecto determina el alcance del problema del negocio y
@@ -71,7 +71,7 @@ Algunas actividades —no necesariamente secuenciales— de este proceso son:
   producto. Este propósito puede verse como el principio operativo esencial, o
   cómo funcionaría el [trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md) o
   la regla de negocio si pudiera existir independientemente de cualquier
-  tecnología —incluyendo las personas—.
+  tecnología ‑incluyendo las personas‑.
 
   Después de comprender la naturaleza fundamental del trabajo los analistas
   establecen reuniones con los principales interesados para determinar el mejor
@@ -106,7 +106,7 @@ Algunas actividades —no necesariamente secuenciales— de este proceso son:
   preliminar sobre el producto esperado antes de construirlo[^4].
 
   [^4]: PMI. (2021). A Guide to the Project Management Body of Knowledge (PMBOK
-    Guide)—7<sup>th</sup> Edition and The Standard for Project Management.
+    Guide)‑7<sup>th</sup> Edition and The Standard for Project Management.
     Project Management Institute, Inc.
 
 * **Escenarios**. Los escenarios muestran la funcionalidad de un proceso de
@@ -150,7 +150,7 @@ Algunas actividades —no necesariamente secuenciales— de este proceso son:
     interesados.
 
   * **Trazabilidad**. Comprobar que cada requisito pueda ser rastreado hasta su
-    origen —hasta la necesidad del usuario o requerimiento del negocio—.
+    origen ‑hasta la necesidad del usuario o requerimiento del negocio‑.
 
   > [!IMPORTANT]
   > Esta lista aparece en [^2] y se incluye aquí por completitud. Una lista más
@@ -179,8 +179,8 @@ Algunas actividades —no necesariamente secuenciales— de este proceso son:
 * **Revisar los requerimientos**. El portal de calidad antes mencionado funciona
   como un filtro para evitar que requerimientos incorrectos se incluyan en la
   especificación, evaluándolos uno por uno. Al completar la especificación de
-  todos los requerimientos —o los suficientes como para pasar a la siguiente
-  etapa— es necesario realizar una revisión integral. Esta revisión final tiene
+  todos los requerimientos ‑o los suficientes como para pasar a la siguiente
+  etapa‑ es necesario realizar una revisión integral. Esta revisión final tiene
   como objetivo verificar la integridad de los requerimientos, asegurar su
   coherencia mutua y confirmar que se han resuelto todos los conflictos
   existentes. En esencia, esta revisión valida que la especificación está
@@ -198,7 +198,7 @@ Algunas actividades —no necesariamente secuenciales— de este proceso son:
 
   > [!NOTE]
   > La justificación puede encontrarse en el llamado ≪cono de incertidumbre≫,
-  > que muestra que la estimación del tamaño —y en consecuencia el tamaño y el
+  > que muestra que la estimación del tamaño ‑y en consecuencia el tamaño y el
   > costo de un proyecto de software tiene menor margen de error a medida que el
   > proyecto avanza. Mientras que al inicio de un proyecto esas estimaciones
   > pueden ser entre 25% a 400% del valor real, al finalizar el análisis de
@@ -220,8 +220,8 @@ que trabajar con requerimientos implica necesariamente seguir un proceso
 tradicional en cascada. Si bien esto es necesario en algunas circunstancias, no
 siempre es el caso.
 
-Por un lado, cuando se trabaja con *outsourcing* —es decir, cuando se contrata a
-un tercero la construcción del producto— o cuando el documento de requerimientos
+Por un lado, cuando se trabaja con *outsourcing* ‑es decir, cuando se contrata a
+un tercero la construcción del producto‑ o cuando el documento de requerimientos
 forma parte de un entregable de contrato, claramente se necesita contar con una
 especificación completa de requerimientos. Por otro lado, cuando la arquitectura
 general ya está definida, con frecuencia es posible comenzar la construcción y
