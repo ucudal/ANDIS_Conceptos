@@ -12,7 +12,6 @@ Este documento está basado en [^2] y [^1].
     Disponible
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
-
 En *Domain-Driven Design* ‑DDD, por sus siglas‑, un servicio es un objeto que, a
 diferencia de una [entidad](./2_8_Entity.md) y un [objeto
 valor](./2_8_Value_Object.md), no tiene estado y su único propósito es el de

@@ -12,8 +12,9 @@
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
 <!-- spell-checker: disable -->
-* [Evaluación de la arquitectura](/2_Tecnicas_y_herramientas/2_10_.Evaluacion_arquitectura.md) como
-  introducción y los siguientes métodos de evaluación de la arquitectura:
+* [Evaluación de la
+  arquitectura](/2_Tecnicas_y_herramientas/2_10_.Evaluacion_arquitectura.md)
+  como introducción y los siguientes métodos de evaluación de la arquitectura:
 <!-- spell-checker: enable -->
 
 * [ATAM](/2_Tecnicas_y_herramientas/2_10_1_ATAM.md)

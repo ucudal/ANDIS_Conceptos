@@ -24,7 +24,6 @@ suficientemente simple y entendible.
 En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, una técnica para
 simplificar un modelo es la de utilizar agregados.
 
-
 Un agregado es un grupo de objetos asociados ‑[entidades](./2_8_Entity.md) y
 [objetos valor](./2_8_Value_Object.md)‑ que son considerados como una unidad a
 la hora de realizar cambios en los datos.
