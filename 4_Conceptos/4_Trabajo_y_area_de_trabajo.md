@@ -12,4 +12,4 @@ Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
 
 El alcance del trabajo refiere a la extensión del área de negocio bajo
 investigación y el mundo real que la rodea. Generalmente se muestra mediante un
-[diagrama de contexto](/2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md).
+[diagrama de contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md).

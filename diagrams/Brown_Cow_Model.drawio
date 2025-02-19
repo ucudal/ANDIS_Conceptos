@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="fFir1IJxsEvohGPSZX_E" name="Page-1">
+        <mxGraphModel dx="906" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="endArrow=none;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="280" y="340" as="sourcePoint"/>
+                        <mxPoint x="280" y="60" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="" style="endArrow=none;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="200" as="sourcePoint"/>
+                        <mxPoint x="420" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Ahora" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="60" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Futuro" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="60" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Ahora" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="310" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Futuro" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="310" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Qué" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="170" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Cómo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="200" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Qué" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="170" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Cómo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="200" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 110, 175));&quot;&gt;Modelo de la&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 110, 175));&quot;&gt;situación&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 110, 175));&quot;&gt;actual&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="175" y="250" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Casos de uso&lt;br&gt;esenciales" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="175" y="115" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Casos de uso&lt;br&gt;esenciales&lt;br&gt;mejorados" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="110" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Escenarios de&lt;br&gt;casos de uso&lt;br&gt;de producto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=light-dark(#000000,#006EAF);labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="250" width="90" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
