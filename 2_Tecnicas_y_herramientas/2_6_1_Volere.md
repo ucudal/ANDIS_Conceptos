@@ -43,7 +43,7 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
   excluida.
 
   Un [diagrama de/2_Tecnicas_y_herramientas/2_01_2_Diagramas_de_contexto.md
-  contexto](/2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md) se
+  contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md) se
   utiliza para generar un consenso entre los interesados sobre el alcance del
   [trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md) que se debe mejorar. El
   producto final se utilizará para realizar parte de este trabajo.
@@ -156,7 +156,7 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
   > Esta lista aparece en [^2] y se incluye aquí por completitud. Una lista más
   > completa de los atributos de calidad de los requerimientos se incluye en la
   > [*checklist* de/2_Tecnicas_y_herramientas/2_01_4_Checklist_requerimientos.md
-  > requerimientos](/2_Tecnicas_y_herramientas/2_1_4_Checklist_requerimientos.md).
+  > requerimientos](/2_Tecnicas_y_herramientas/2_1_04_Checklist_requerimientos.md).
 
 * **Reutilizar requerimientos**. Los requerimientos para un producto nunca serán
   completamente originales. Antes de iniciar un nuevo proyecto es recomendable

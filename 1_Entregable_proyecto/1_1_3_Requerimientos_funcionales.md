@@ -21,7 +21,7 @@ reemplazados o cambiados por la solución a desarrollar.
 
 <!-- SECCIÓN: Interfaces pertinentes al trabajo -->
 A alto nivel y mediante un [diagrama de../2_Tecnicas_y_herramientas/2_01_2_Diagramas_de_contexto.md
-contexto](../2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md), explicar
+contexto](../2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md), explicar
 las interacciones de la solución con sus sistemas
 [adyacentes](/4_Conceptos/4_Sistema_adyacente.md) ‑otras personas,
 organizaciones, hardware y software‑ y el input/output de estas interacciones.
