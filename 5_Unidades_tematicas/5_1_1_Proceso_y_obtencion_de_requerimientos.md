@@ -16,7 +16,7 @@
 
     * [Requerimiento](/4_Conceptos/4_Requerimiento.md)
 
-    * [*Checklist* de requerimientos](/2_Tecnicas_y_herramientas/2_1_4_Checklist_requerimientos.md)
+    * [*Checklist* de requerimientos](/2_Tecnicas_y_herramientas/2_1_04_Checklist_requerimientos.md)
 
     * [Caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md)
 
@@ -28,12 +28,12 @@
 
     * [Escenario](/4_Conceptos/4_Escenario.md)
 
-    * [*Personas*](/2_Tecnicas_y_herramientas/2_1_3_Personas.md)
+    * [*Personas*](/2_Tecnicas_y_herramientas/2_1_03_Personas.md)
 
-    * [Diagramas de contexto](/2_Tecnicas_y_herramientas/2_1_2_Diagramas_de_contexto.md)
+    * [Diagramas de contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md)
 
         <!-- Si va acá hay que agregar este tema -->
-    * [*Customer Journey map*](/2_Tecnicas_y_herramientas/2_1_5_Customer_journey_map.md)
+    * [*Customer Journey map*](/2_Tecnicas_y_herramientas/2_1_05_Customer_journey_map.md)
 
 2. Lee lo siguiente de [^1].
 
@@ -83,30 +83,35 @@ En este repositorio:
 
 * [Diagramas de actividades UML](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
 
-* [Mapas mentales](/2_Tecnicas_y_herramientas/2_1_1_Mapas_mentales.md)
+* [Mapas mentales](/2_Tecnicas_y_herramientas/2_1_01_Mapas_mentales.md)
 
-* [Observación como participante](/2_Tecnicas_y_herramientas/2_1_6_Observacion_Participante.md)
+* [Observación como participante](/2_Tecnicas_y_herramientas/2_1_06_Observacion_Participante.md)
 
-* [Entrevista](/2_Tecnicas_y_herramientas/2_1_7_Entrevista.md)
+* [Entrevista](/2_Tecnicas_y_herramientas/2_1_07_Entrevista.md)
 
 Daniels, L. (2000). Managing the product requirements definition process. In
-Project Management Institute Annual Seminars & Symposium, Houston, TX. Newtown
-Square, PA: Project Management Institute. Disponible
+Project Management Institute Annual Seminars & Symposium, Houston, TX. <!--
+cSpell:disable -->Newtown<!-- cSpell:enable --> Square, PA: Project Management
+Institute. Disponible
 [aquí](https://www.pmi.org/learning/library/product-requirements-definition-process-foundation-1894)
 
+<!-- cSpell:disable -->
 Fricker, S. A., Grau, R., & Zwingli, A. (2014). Requirements engineering: best
 practice. In Requirements engineering for digital health p. 25-46. Cham:
 Springer International Publishing. Disponible
 [aquí](https://www.diva-portal.org/smash/get/diva2:834026/FULLTEXT01.pdf).
+<!-- cSpell:enable -->
 
 The Standish Group. (2015). The Chaos Report. Disponible
 [aquí](https://www.standishgroup.com/sample_research_files/CHAOSReport2015-Final.pdf).
 Última versión de acceso libre disponible del estado de los proyectos de
 software a nivel global.
 
+<!-- cSpell:disable -->
 Ambisoft. (2018). State of Software Development: 2018 Open Research. Disponible
 [aquí](http://www.ambysoft.com/surveys/softwareDevelopment2018.html). Un poco
 más actual que The Chaos Report 2015, aunque usando otra encuesta.
+<!-- cSpell:enable -->
 
 PMI. (2024). Pulse of the Profession® 2024, 15<sup>th</sup> Edition. Project
 Management Institute. Disponible

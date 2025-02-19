@@ -31,7 +31,9 @@ Típicamente las entrevistas pueden ser:
   considera importantes. Este formato es útil para explorar áreas desconocidas o
   cuando se busca comprender perspectivas y experiencias en profundidad.
 
-La elección del tipo de entrevista dependerá de factores como el objetivo de la investigación, el nivel de conocimiento previo sobre el tema, y la necesidad de comparar respuestas entre diferentes entrevistados.
+La elección del tipo de entrevista dependerá de factores como el objetivo de la
+investigación, el nivel de conocimiento previo sobre el tema, y la necesidad de
+comparar respuestas entre diferentes entrevistados.
 
 Algunos autores mencionan otros tipos de entrevistas ‑que se pueden combinar con
 los anteriores‑[^2]:
