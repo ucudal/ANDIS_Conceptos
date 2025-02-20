@@ -97,14 +97,14 @@ En la lista anterior, usamos "contenedor" y "elemento" de la siguiente forma:
 La [Figura 1](#figura-1), a continuación, muestra una clase solamente con el
 nombre, y otra clase con las secciones para los atributos y las operaciones.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Diagrama con dos clases, una de ella con atributos y
 operaciones](/diagrams/Class_Diagram_Classes.svg)
 
 *Figura 1: Un diagrama de clases con dos clases, una de ellas con atributos y operaciones.*
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Diagrama con un estereotipo de
 interfaz](/diagrams/Class_Diagram_Interfaces.svg)
@@ -133,7 +133,7 @@ información adicional de la asociación `Trabaja para`, mediante la clase de
 asociación `Trabajo`; de esta forma, podemos decir qué cargo ocupa y qué salario
 tiene una persona que trabaja para una empresa.
 
-<a id="figura-3"/>
+<span id="figura-3"/>
 
 ![Diagrama de clases mostrando asociaciones entre clases y una clase
 de asociación](/diagrams/Class_Diagram_Associations.svg)
@@ -153,7 +153,7 @@ una zorra; noten que como la asociación está dirigida desde `Camión` hacia
 `Zorra`, el camión conoce la zorra que arrastra, pero la zorra no conoce el
 camión que la arrastra.
 
-<a id="figura-4"/>
+<span id="figura-4"/>
 
 ![Diagrama de clases con una asociación
 dirigida](/diagrams/Class_Diagram_Directed_Association.svg)
@@ -200,7 +200,7 @@ multiplicidad en asociaciones:
   recomendable indicarlo para evitar la ambigüedad, porque podría faltar porque
   nos olvidamos de ponerlo o porque es uno.
 
-<a id="figura-5"/>
+<span id="figura-5"/>
 
 ![Diagrama de clases con
 multiplicidades](/diagrams/Class_Diagram_Multiplicity.svg)
@@ -220,7 +220,7 @@ En la [Figura 6](#figura-6), a continuación, vemos ejemplos de agregaciones:
   pero puede tener más. La restricción `{ordenados}` indica que los puntos del
   polígono están ordenados, que el orden es importante en esa agregación[^3].
 
-<a id="figura-6"/>
+<span id="figura-6"/>
 
 ![Diagrama de clases con agregaciones](/diagrams/Class_Diagram_Agregations.svg)
 
@@ -235,7 +235,7 @@ En la [Figura 7](#figura-7), a continuación, vemos ejemplos de composiciones:
 * La clase `Factura` está compuesta por una instancia de `Cabezal` y varias
   instancias de `Línea`.
 
-<a id="figura-7"/>
+<span id="figura-7"/>
 
 ![Diagrama de clases con
 composiciones](/diagrams/Class_Diagram_Compositions.svg)
@@ -273,7 +273,7 @@ generalización y especialización:
 
 * Las clases `Círculo` y `Polígono` heredan de `Bidimensional`.
 
-<a id="figura-8"/>
+<span id="figura-8"/>
 
 ![Diagrama de clases con
 generalizaciones y
@@ -309,7 +309,7 @@ En la [Figura 9](#figura-9), a continuación, vemos un ejemplo de herencia múlt
 `Vehículo anfibio` hereda tanto de `Vehículo acuático` como de `Vehículo
 terrestre`.
 
-<a id="figura-9"/>
+<span id="figura-9"/>
 
 ![Diagrama de clases con herencia
 múltiple](/diagrams/Class_Diagram_Multiple_Inheritance.svg)
@@ -320,7 +320,7 @@ Tengan en cuenta que algunos lenguajes de programación no soportan herencia
 múltiple. Una alternativa es usar composición y delegación, como se muestra en
 la [Figura 10](#figura-10), a continuación:
 
-<a id="figura-10"/>
+<span id="figura-10"/>
 
 ![Diagrama de clases herencia múltiple versus composición y
 delegación](/diagrams/Class_Diagram_Composition_Multiple_Inheritance.svg)
@@ -354,7 +354,7 @@ los datos del modelo cambian; las acciones del usuario son enviadas a alguna
 clases en el paquete `Controlador`, que bien actualiza el modelo o envía las
 acciones del usuario a la vista si corresponde.
 
-<a id="figura-11"/>
+<span id="figura-11"/>
 
 ![Diagrama de clases mostrando paquetes del patrón de arquitectura
 MVC](/diagrams/MVC.svg)
@@ -394,7 +394,7 @@ derivada, a partir de las relaciones entre `Edificio` y `Oficina`, y entre
 `Oficina` y `Departamento`: la oficina que ocupa el departamento pertenece a un
 edificio, el departamento ocupa ese edificio.
 
-<a id="figura-12"/>
+<span id="figura-12"/>
 
 ![Diagrama de clases con elementos
 derivados](../diagrams/Class_Diagram_Derived.svg)

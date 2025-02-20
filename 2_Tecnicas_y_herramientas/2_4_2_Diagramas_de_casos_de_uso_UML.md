@@ -42,7 +42,7 @@ actores `Restaurante` y `Delivery`. Por último, en el caso de uso `Llevar pedid
 al cliente` participan tanto los actores `Delivery` como `Cliente`. El ejemplo
 muestra también los límites del sistema.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Diagrama de casos de uso con actores, casos y de uso, y limite del
 sistema](/diagrams/Use_Case_Diagram_Actors_Use_Cases_System_Boundary.svg)
@@ -80,7 +80,7 @@ segundo con el pago por transferencia bancaria; en los casos de uso que
 extienden no es necesario repetir el comportamiento del caso de uso extendido,
 sólo lo que es diferente en el punto de extensión.
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Diagrama de casos de uso con relaciones de inclusión y
 extensión](/diagrams/Use_Case_Diagram_Extends_Includes.svg)

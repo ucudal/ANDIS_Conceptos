@@ -15,7 +15,7 @@ HTTP o colas de mensajes.
 Esta comunicación desacoplada permite que los servicios evolucionen y escalen de
 manera independiente sin afectar a la aplicación completa.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Estilo microservices architecture](/diagrams/Architecture_Microservices.svg)
 
@@ -25,7 +25,7 @@ Cada servicio suele implementar el patrón
 [Sidecar](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar)
 tal como se muestra en la figura 2, a continuación:
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Sidecar](/diagrams/Architecture_Microservices_Sidecar.svg)
 

@@ -50,7 +50,7 @@ Además, pueden tener:
 En la [Figura 1](#figura-1), a continuación, hay un nodo inicial, la actividad
 `Cocinar`, y el nodo final.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Diagrama de actividades con inicio, una actividad, y
 final](/diagrams/Activity_Diagram_Start_End_Action.svg)
@@ -65,7 +65,7 @@ receta. Cuando ambas actividades terminan, se realiza la actividad `Hornear
 receta`, es decir, se tiene que haber terminado de precalentar el horno y de
 preparar la receta para poder hornearla.
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Diagrama de actividades con actividades en
 paralelo](/diagrams/Activity_Diagram_Fork_Join.svg)
@@ -77,7 +77,7 @@ En la [Figura 3](#figura-3), a continuación, la actividad `Conseguir
 ingredientes faltantes` ocurre sólo si la condición de guarda `Faltan
 ingredientes` es verdadera.
 
-<a id="figura-3"/>
+<span id="figura-3"/>
 
 ![Diagrama de actividades con actividad
 condicional](/diagrams/Activity_Diagram_Decision_Merge.svg)
@@ -97,7 +97,7 @@ líneas se consideran contenidos dentro de la partición. Esta notación para un
 partición se conoce coloquialmente como andarivel ‑*swimlane*‑, como se muestra
 en la [Figura 4](#figura-4) a continuación.
 
-<a id="figura-4"/>
+<span id="figura-4"/>
 
 ![Partición](/diagrams/Activity_Diagram_Swimlane.svg)
 
@@ -107,7 +107,7 @@ Los andariveles pueden representar una jerarquía entre particiones,
 representando las sub-particiones como una partición adicional de una
 super-partición, como se muestra en la [Figura 5](#figura-5) a continuación.
 
-<a id="figura-5"/>
+<span id="figura-5"/>
 
 ![Sub-particiones](/diagrams/Activity_Diagram_Two_Swimlanes.svg)
 
@@ -118,7 +118,7 @@ Los diagramas también se pueden dividir de forma multi-dimensional, como se
 muestra en la [Figura 6](#figura-6), a continuación, donde cada andarivel es una
 intersección de múltiples particiones.
 
-<a id="figura-6"/>
+<span id="figura-6"/>
 
 ![Sub-particiones matriciales](/diagrams/Activity_Diagram_Multidimensional_Swimlanes.svg)
 
@@ -131,7 +131,7 @@ menú`. Luego el mozo realiza `Tomar pedido`. Luego la cocina realiza `Preparar
 pedido`. Luego el mozo realiza `Llevar pedido a la mesa`. Por último, el cliente
 realiza la actividad `Cenar`.
 
-<a id="figura-7"/>
+<span id="figura-7"/>
 
 ![Diagrama de actividades con
 particiones en andariveles](/diagrams/Activity_Diagram_Swimlanes_Example.svg)
@@ -143,7 +143,7 @@ Cuando utilizar la notación de andarivel es complejo, es posible agregar el
 nombre de la partición entre paréntesis en cada nodo de actividad, como se
 muestra en la [Figura 8](#figura-8), a continuación.
 
-<a id="figura-8"/>
+<span id="figura-8"/>
 
 ![Diagrama de actividades con particiones entre
 paréntesis](/diagrams/Activity_Diagram_Partitions_Example.svg)
@@ -177,7 +177,7 @@ recibe la señal `Aceptar pedido`, luego realiza la actividad `Preparar pedido`,
 y cuando termina, envía la señal `Enviar pedido`. El cliente recibe la señal
 `Recibir pedido`, y luego realiza la actividad `Cenar`.
 
-<a id="figura-9"/>
+<span id="figura-9"/>
 
 ![Diagrama de actividades con
 acciones](/diagrams/Activity_Diagram_Send_Receive_Signals.svg)

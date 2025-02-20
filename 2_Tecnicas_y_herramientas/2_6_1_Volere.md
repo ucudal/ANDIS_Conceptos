@@ -20,7 +20,7 @@ Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley Professional.
 La [Figura 1](#figura-1), a continuación, muestra una representación gráfica del
 proceso de requerimientos.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![El proceso de requerimientos de Volere](/diagrams/Volere.svg)
 

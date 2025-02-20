@@ -35,7 +35,7 @@ círculos con centros en blanco para permitir agregar marcadores en el interior
 para diferenciar diferentes desencadenantes o resultados. Hay tres tipos de
 eventos, según cuándo afectan el flujo: inicio, intermedio y final.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Eventos de inicio, intermedio y final](/diagrams/BPMN_Diagram_Events.svg)
 
@@ -47,7 +47,7 @@ de actividades que forman parte de un modelo de procesos son sub-procesos y
 tareas, que se representan con rectángulos redondeados. Las actividades se
 utilizan tanto en procesos estándar como en coreografías.
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Tareas y sub-procesos](/diagrams/BMPN_Diagram_Activities.svg)
 
@@ -59,7 +59,7 @@ determinará la ramificación ‑*branch*‑, bifurcación ‑*fork*‑, fusión
 unión ‑*join*‑ de caminos. Los marcadores internos indicarán el tipo de
 comportamiento.
 
-<a id="figura-3"/>
+<span id="figura-3"/>
 
 ![Algunas pasarelas](/diagrams/BPMN_Diagram_Gateways.svg)
 
@@ -95,7 +95,7 @@ Algunos tipos de pasarelas son:
 Los flujos de secuencia se utilizan para mostrar el orden en el que se realizan
 las actividades en un proceso o en una coreografía.
 
-<a id="figura-4"/>
+<span id="figura-4"/>
 
 ![Algunos flujos de secuencia](/diagrams/BPMN_Diagram_Sequence_Flows.svg)
 

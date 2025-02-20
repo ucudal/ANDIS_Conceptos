@@ -60,7 +60,7 @@ En la [Figura 1](#figura-1), a continuación, aparecen los siguientes elementos:
   encargado de leer desde la base de datos y poner el resultado en otra cola
   `Reverse Data Pump`.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Estilo space-based architecture](/diagrams/Architecture_Space_Based.svg)
 

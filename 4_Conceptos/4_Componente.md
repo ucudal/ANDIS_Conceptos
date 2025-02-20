@@ -126,7 +126,7 @@ arquitectura de software:
   persistencia, por ejemplo; de hecho, esta es la partición predeterminada en
   diferentes organizaciones, frameworks, etc.
 
-  <a id="figura-1"/>
+  <span id="figura-1"/>
 
   ![Partición técnica](/diagrams/Components_Technical_Partitioning.svg)
 
@@ -137,7 +137,7 @@ arquitectura de software:
   donde el criterio para particionar los componentes está basado en dominios o
   flujos del trabajo, en lugar de capacidades técnicas.
 
-  <a id="figura-2"/>
+  <span id="figura-2"/>
 
   ![Partición por el dominio](/diagrams/Components_Domain_Partitioining.svg)
 
@@ -159,7 +159,7 @@ ejemplo, aparece en todos los componentes; mientras que en la partición por el
 dominio queda contenida por completo en el componente `Catalog Checkout`, tal
 como se muestra en la siguiente [Figura 3](#figura-3).
 
-<a id="figura-3"/>
+<span id="figura-3"/>
 
 ![Reparto por el domino vs reparto
 técnico](/diagrams/Components_Domain_vs_Technical_Partitioining.svg)

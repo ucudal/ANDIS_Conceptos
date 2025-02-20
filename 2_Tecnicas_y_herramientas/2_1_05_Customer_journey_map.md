@@ -27,7 +27,7 @@ accesible[^1].
 La [Figura 1](#figura-1), a continuación, muestra un ejemplo de un *customer
 journey map*:
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Ejemplo de *customer journey
 map](https://live.staticflickr.com/65535/52597383703_135b5d1bc8_b.jpg)

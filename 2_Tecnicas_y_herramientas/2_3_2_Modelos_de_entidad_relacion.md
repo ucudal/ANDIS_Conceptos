@@ -95,7 +95,7 @@ máximo.
 * Anillo y pata de gallo → mínimo cero, máximo muchos (opcional)
 * Guión y pata de gallo → mínimo uno, máximo muchos (obligatorio)
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Ejemplos de cardinalidad](/diagrams/Entity_Relationship_Diagram_Cardinality.svg)
 
@@ -106,7 +106,7 @@ simplificada de un sistema de reservas de hotel donde los clientes pueden
 reservar habitaciones y los hoteles llevan un registro del mantenimiento de las
 habitaciones.
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Ejemplo de un diagrama de entidad relación con la notación de
 Chen](/diagrams/Entity_Relationship_Model_Example_Chen.svg)
@@ -130,7 +130,7 @@ ya que involucra la entidad débil `Habitación`.
 En la [Figura 3](#figura-3), a continuación, aparece el mismo diagrama, pero en
 la notación de "pata de gallo".
 
-<a id="figura-3"/>
+<span id="figura-3"/>
 
 ![Ejemplo de un diagrama de entidad relación con la notación pata de
 gallo](/diagrams/Entity_Relationship_Model_Example_Crows_Foot.svg)

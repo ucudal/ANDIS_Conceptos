@@ -20,7 +20,7 @@ La [Figura 1](#figura-1), a continuación, muestra la interfaz de usuario, los
 servicios, y la base de datos, desplegados en unidades de despliegue
 independientes.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Estilo service-based architecture](/diagrams/Architecture_Service_Based.svg)
 

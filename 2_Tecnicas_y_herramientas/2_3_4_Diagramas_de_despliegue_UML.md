@@ -95,7 +95,7 @@ se conecta mediante una conexión nativa con el `Reporte de datos` en el
 `Servidor de base de datos`. La `Aplicación web` se conecta con la `lógica de
 negocios` en `Servidor web` mediante una conexión SOAP sobre HTTP.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Ejemplo de diagrama de despliegue](/diagrams/Deployment_Diagram_Example.svg)
 
@@ -126,7 +126,7 @@ El dispositivo `Servidor de aplicación` está conectado con el dispositivo
 segundo dispositivo tiene un sistema de base de datos `Oracle 10g`. Este nodo
 contiene a su vez los esquemas `User`, `Orders` e `Inventory`.
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Otro ejemplo de diagrama de
 despliegue](/diagrams/Deployment_Diagram_Another_Example.svg)

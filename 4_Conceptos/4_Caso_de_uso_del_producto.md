@@ -34,7 +34,7 @@ Todo lo que está inmediatamente fuera del alcance del producto se convierte en
 un actor, que manipula la funcionalidad del caso de uso del producto dentro del
 producto. Se muestra un diagrama de caso de uso UML para fines comparativos[^1].
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Caso de uso del producto](/diagrams/Product_Use_Case.svg)
 

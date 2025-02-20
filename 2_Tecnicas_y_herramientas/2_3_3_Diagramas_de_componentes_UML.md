@@ -83,7 +83,7 @@ interfaces `ManageOrders` y `ManageCustomers` requeridas y provistas por
 interfaz `ManageInventory` requerida por `Accounting` y provista por
 `Warehouses`.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Ejemplo de diagrama de componentes](/diagrams/Component_Diagram_Example.svg)
 

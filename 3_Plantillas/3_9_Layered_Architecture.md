@@ -21,7 +21,7 @@ Layer`, `Business Layer`, `Persistence Layer` y `Database Layer` en una sola
 unidad de despliegue; por ejemplo, una aplicación de escritorio con una base de
 datos embebida o en memoria.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Plantilla del estilo layered architecture desplegada en una sola
 unidad de despliegue](/diagrams/Architecture_Layered.svg)
@@ -37,7 +37,7 @@ de escritorio que usa un motor de base de datos local.
 despliegue físicamente separada del
 resto](/diagrams/Architecture_Layered_Variation_1.svg)
 
-<a id="figura-3"/>
+<span id="figura-3"/>
 
 *Figura 2: Estilo layered architecture con la base de datos desplegada en una
 unidad físicamente separada del resto.*
@@ -67,7 +67,7 @@ arquitectura en capas donde:
   compartidos para la capa `Business Layer` pero ocultos para la capa
   `Presentation Layer`.
 
-<a id="figura-4"/>
+<span id="figura-4"/>
 
 ![Estilo layered architecture con una capa `Service Layer` abierta y
 cerradas](/diagrams/Architecture_Layered_Variation_3.svg)

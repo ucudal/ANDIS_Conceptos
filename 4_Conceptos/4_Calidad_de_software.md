@@ -82,7 +82,7 @@ de la calidad [^2].
 
 La siguiente [Figura 1](#figura-1) muestra el modelo de calidad de McCall:
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Modelo de calidad de McCall](/diagrams/Quality_Model_McCall.svg)
 
@@ -101,7 +101,7 @@ El nivel de los **usos primarios** está a la izquierda, el de las
 **construcciones intermedias** en el centro y el de las **construcciones
 primitivas** a la derecha.
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Modelo de calidad de Boehm](/diagrams/Quality_Model_Boehm.svg)
 
@@ -118,7 +118,7 @@ satisfacer necesidades establecidas o implícitas. El modelo tiene seis
 La siguiente [Figura 3](#figura-3) muestra el modelo de calidad de la norma ISO
 9126:
 
-<a id="figura-3"/>
+<span id="figura-3"/>
 
 ![Modelo de calidad de la norma ISO 9126](/diagrams/Quality_Model_ISO_9126.svg)
 
@@ -187,7 +187,7 @@ siguientes:
 La siguiente [Figura 4](#figura-4) ilustra un modelo de gestión de la calidad
 basado en los procesos de la norma ISO 9000:
 
-<a id="figura-4"/>
+<span id="figura-4"/>
 
 ![Modelo del sistema de gestión de la calidad basado en los procesos de la norma
 ISO 9000](/diagrams/Quality_Management_Model_ISO_9000.svg)

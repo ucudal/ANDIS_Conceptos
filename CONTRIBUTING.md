@@ -438,7 +438,7 @@ crear referencias desde dentro y fuera del documento.
 
 #### Ejemplo
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![El ciclo de vida DAD](/diagrams/DAD_Lifecycle.svg)
 
@@ -451,7 +451,7 @@ Ver [Figura 1](#figura-1).
 #### Fuente
 
 ```markdown
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![El ciclo de vida DAD](/diagrams/DAD_Lifecycle.svg)
 

@@ -45,7 +45,7 @@ mensaje `Agregar producto`, con parámetro `id`, para agregar el producto al
 carrito. Luego envía el mensaje de respuesta `Carrito actualizado` a `Cliente`.
 Por último, `Cliente` envía el mensaje `Guardar` a `Carrito`.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Un diagrama se secuencia con líneas de vida y
 mensajes](/diagrams/Sequence_Diagram_Lifelines_Messages.svg)
@@ -110,7 +110,7 @@ en la región `alt` se utiliza el valor `disponible` retornado por el mensaje
 `Comprobar disponibilidad` para la condición de guarda de la parte superior de
 la región, y la condición de guarda contraria `[!disponible]` para la inferior.
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Un diagrama de secuencia con regiones foreach y
 alt](/diagrams/Sequence_Diagram_Loop_Alt.svg)

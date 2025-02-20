@@ -48,7 +48,7 @@ contenido`. Los datos intercambiados aparecen como las etiquetas de las
 asociaciones; por ejemplo, el `Anunciante` recibe de la comunidad `Slots de
 publicidad` y envía `Pagos`.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Ejemplo de diagrama de contexto](/diagrams/Context_Diagram_Example.svg)
 
@@ -63,7 +63,7 @@ gestión del depósito` están estereotipados con ≪cooperative system≫ —pu
 sistemas automatizados que colaboran con el trabajo mediante mensajes y
 respuestas—.
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Otro ejemplo de un diagrama de contexto](/diagrams/Context_Diagram_Second_Example.svg)
 
