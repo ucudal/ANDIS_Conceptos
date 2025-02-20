@@ -40,7 +40,7 @@ mejor aún, `id`, `nombre` y `dirección`, donde este último es otro objeto val
 compuesto de `calle`, `ciudad` y `estado`. Esto se ilustra en la siguiente
 [Figura 1](#figura-1).
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Objetos valor anidados](../diagrams/Value_Object.svg)
 

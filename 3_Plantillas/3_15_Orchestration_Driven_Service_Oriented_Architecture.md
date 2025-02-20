@@ -14,7 +14,7 @@ de 1990: fusionándose con empresas más pequeñas, creciendo a un ritmo
 vertiginoso y requiriendo de soluciones tecnológicas más sofisticadas para
 acomodar este crecimiento.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Estilo orchestration-driven
 service-oriented](/diagrams/Architecture_Orchestration_Driven_Service_Oriented.svg)

@@ -20,7 +20,7 @@ La [Figura 1](#figura-1), a continuación, muestra un ejemplo con el núcleo del
 sistema con el estereotipo `≪core≫` y los complementos con el estereotipo
 `≪plugin≫`.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Estilo microkernel architecture](/diagrams/Architecture_Microkernel.svg)
 

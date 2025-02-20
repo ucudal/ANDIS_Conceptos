@@ -61,7 +61,7 @@ proyecto.
 Un ejemplo de eventos del negocio, correspondiente al siguiente diagrama de
 contexto de la [Figura 1](#figura-1), aparece luego, en la [Tabla 1](#tabla-1):
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Ejemplo de diagrama de contexto](/diagrams/Context_Diagram_Example.svg)
 

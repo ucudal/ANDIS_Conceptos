@@ -23,7 +23,7 @@ cuatro tipos típicos de filtros, usando los estereotipos `≪producer≫`,
 `≪transformer≫`, `≪tester≫` y `≪consumer≫` para identificarlos, con sus
 respectivas tuberías conectando esos filtros.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Estilo pipes and filters
 architecture](/diagrams/Architecture_Pipes_And_Filters.svg)

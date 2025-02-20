@@ -21,7 +21,7 @@ La [Figura 1](#figura-1), a continuación, muestra un ejemplo con el orquestador
 que recibe los eventos con el estereotipo `≪orchestrator≫` y varios procesadores
 de eventos con el estereotipo `≪processor≫`.
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Estilo event-driven architecture](/diagrams/Architecture_Event_Driven.svg)
 

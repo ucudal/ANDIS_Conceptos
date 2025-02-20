@@ -56,7 +56,7 @@ La [Figura 1](#figura-1), a continuación, muestra un ejemplo de BDN para un
 medibles y cómo las conexiones representan dependencias que permiten navegar
 desde las inversiones en TI hasta los objetivos del negocio.
 
-<!-- <a id="figura-1"/> -->
+<!-- <span id="figura-1"/> -->
 
 <span id="figura-1"/>
 

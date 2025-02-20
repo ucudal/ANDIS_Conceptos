@@ -61,7 +61,7 @@ vistas y los controladores.
 La [Figura 1](#figura-1) a continuación muestra las dependencias entre los tres
 elementos descritos:
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Estructura y dependencias en MVC](/diagrams/MVC.svg)
 
@@ -99,7 +99,7 @@ para una acción específica en un sitio web. Es una variante de MVC para
 aplicaciones web donde hay un archivo para procesar cada solicitud recibida por
 el sitio web.
 
-<a id="figura-2"/>
+<span id="figura-2"/>
 
 ![Estructura y dependencias en Page Controller](/diagrams/MVC_Page_Controller.svg)
 
@@ -154,7 +154,7 @@ solicitud en un solo objeto ‑o componente‑, que puede ser modificado a trav�
 luego delega el procesamiento de la solicitud a
 [comandos](https://refactoring.guru/design-patterns/command) apropiados.
 
-<a id="figura-3"/>
+<span id="figura-3"/>
 
 ![Estructura y dependencias en Front Controller](/diagrams/MVC_Front_Controller.svg)
 
