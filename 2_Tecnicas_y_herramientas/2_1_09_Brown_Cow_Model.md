@@ -69,7 +69,7 @@ el ≪qué≫ del ≪cómo≫ y otro eje vertical separa el ≪ahora≫ del ≪f
 lugar a cuatro cuadrantes —que exploraremos a continuación—, uno para cada
 perspectiva del trabajo, como se muestra en la [Figura 1](#figura-1).
 
-<a id="figura-1"/>
+<span id="figura-1"/>
 
 ![Brown Cow Model](/diagrams/Brown_Cow_Model.svg)
 
