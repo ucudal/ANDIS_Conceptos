@@ -58,7 +58,7 @@ desde las inversiones en TI hasta los objetivos del negocio.
 
 <a id="figura-1"/>
 
-![Ejemplo de BDN para un CRM](/diagrams/BDN_Example.svg)
+<!-- ![Ejemplo de BDN para un CRM](/diagrams/BDN_Example.svg) -->
 
 *Figura 1: Ejemplo de BDN para un CRM.*
 
