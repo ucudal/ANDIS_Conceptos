@@ -14,10 +14,10 @@
 
     * [Brown Cow Model](/2_Tecnicas_y_herramientas/2_1_09_Brown_Cow_Model.md)
 
-      > [!TIP]
-      > Puedes ver antes [este
-      > video](https://www.youtube.com/watch?v=ckWaVRkM3dI) para tener una
-      > visión general del modelo de la mano de sus autores.
+        > [!TIP]
+        > Puedes ver antes [este
+        > video](https://www.youtube.com/watch?v=ckWaVRkM3dI) para tener una
+        > visión general del modelo de la mano de sus autores.
 
     * [Sistema adyacente](/4_Conceptos/4_Sistema_adyacente.md)
 

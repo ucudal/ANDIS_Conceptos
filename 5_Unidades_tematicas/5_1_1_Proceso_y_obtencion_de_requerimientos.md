@@ -10,9 +10,9 @@
 
     * [Volere](/2_Tecnicas_y_herramientas/2_6_1_Volere.md).
 
-      > [!TIP]
-      > Puedes ver antes [este video](https://www.youtube.com/watch?v=M5Z1igBmM3w)
-      > para tener una visión general de cómo fluye el proceso.
+        > [!TIP]
+        > Puedes ver antes [este video](https://www.youtube.com/watch?v=M5Z1igBmM3w)
+        > para tener una visión general de cómo fluye el proceso.
 
     * [Requerimiento](/4_Conceptos/4_Requerimiento.md)
 
