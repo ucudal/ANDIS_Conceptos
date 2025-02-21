@@ -35,6 +35,8 @@
 
     * [Design thinking](/2_Tecnicas_y_herramientas/2_1_08_Design_thinking.md)
 
+    * [*Brainstorming* o tormenta de ideas](/2_Tecnicas_y_herramientas/2_1_11_Brainstorming.md)
+
 2. Lee lo siguiente de [^1]:
 
     * Capítulo 7, **Understanding the real problem**
@@ -60,5 +62,4 @@
 
 Pressman, R. (2010). Ingeniería del software: un enfoque práctico. 7<sup>a</sup>
 edición.  McGraw-Hill. Capítulo 5. Disponible en
-[biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=80936)
-y hay ediciones anteriores que pueden leer también.
+[biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=80936).ß
