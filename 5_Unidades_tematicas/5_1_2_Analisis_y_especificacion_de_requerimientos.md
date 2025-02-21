@@ -8,11 +8,18 @@
 
 1. En este repositorio lee lo siguiente:
 
-    * [Volere](/2_Tecnicas_y_herramientas/2_6_1_Volere.md).
+    * [Volere](/2_Tecnicas_y_herramientas/2_6_1_Volere.md)
 
     * [Valor](/4_Conceptos/4_Valor.md)
 
-    * [Brown Cow Model]
+    * [Brown Cow Model](/2_Tecnicas_y_herramientas/2_1_09_Brown_Cow_Model.md)
+
+      > [!TIP]
+      > Puedes ver antes [este
+      > video](https://www.youtube.com/watch?v=ckWaVRkM3dI) para tener una
+      > visión general del modelo de la mano de sus autores.
+
+    * [Sistema adyacente](/4_Conceptos/4_Sistema_adyacente.md)
 
     * [Caso de uso del producto](/4_Conceptos/4_Caso_de_uso_del_producto.md)
 
@@ -20,9 +27,13 @@
 
     * [Requerimiento no-funcional](/4_Conceptos/4_Requerimiento_no_funcional.md)
 
-    * [Design Thinking](/2_Tecnicas_y_herramientas/2_1_08_Design_thinking.md)
+    * [Requerimiento atómico](/3_Plantillas/3_1_Requerimiento_atomico.md)
 
-[Brainstorming](TBD)
+    * [Atributo de calidad](/4_Conceptos/4_Atributo_de_calidad.md)
+
+    * [Checklist requerimientos](/2_Tecnicas_y_herramientas/2_1_04_Checklist_requerimientos.md)
+
+    * [Design thinking](/2_Tecnicas_y_herramientas/2_1_08_Design_thinking.md)
 
 2. Lee lo siguiente de [^1]:
 
@@ -39,10 +50,6 @@
     * Capítulo 13, **The quality gateway**
 
     * Capítulo 17, **Requirements completeness**
-
-
-
-
 
 [^1]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
     Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley
