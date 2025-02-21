@@ -26,7 +26,8 @@ producto de software: recompensa, penalización y costo[^2]:
 
 [^2]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
     Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley
-    Professional.
+    Professional. Disponible en
+    [biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=121158).
 
 Para determinar el valor de una [historia de
 usuario](./4_Historia_de_usuario.md) o de un [caso de

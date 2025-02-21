@@ -33,7 +33,8 @@ requerimiento sea parte del producto entregado[^4].
 
 [^4]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
     Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley
-    Professional.
+    Professional. Disponible en
+    [biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=121158).
 
 Los requerimientos suelen ser [funcionales](./4_Requerimiento_funcional.md),
 [no-funcionales](./4_Requerimiento_no_funcional.md), y
