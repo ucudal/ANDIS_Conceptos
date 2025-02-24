@@ -22,6 +22,43 @@ La siguiente lista de verificación ‑basada en [^1] y [^2]‑ incluye una seri
 
 2. **No ambiguo**: Debe tener una única interpretación. Que el requerimiento sea
    claro, conciso y fácil de entender contribuye a lograr que no sea ambiguo.
+   Ten en cuenta las siguientes causas de ambigüedad en los requerimientos[^3]:
+
+   * Uso incorrecto de [homónimos](https://www.rae.es/dpd/homónimo): en
+     particular en idioma español hay palabras que se pronuncian como otras que
+     tienen un significado muy distante; por ejemplo, "vaca" es un animal y
+     "baca" es un porta equipaje en el techo de un auto; o "aya" que es una
+     niñera y "haya" es un árbol.
+
+   * Uso incorrecto de signos ortográficos: especialmente una coma fuera de
+     lugar puede cambiar completamente el sentido de una oración; por ejemplo
+     "solicito programador inútil, presentarse sin referencias" versus "solicito
+     programador, inútil presentarse sin referencias".
+
+   * Lenguaje impreciso o vago: términos como "rápido", "eficiente" o "amigable"
+     sin definiciones específicas pueden ser interpretados de diferente forma
+     por diferentes interesados.
+
+   * Uso de sinónimos: el idioma tiene diferentes términos para referirse al
+     mismo concepto; también hay veces en los que algunos términos se utilizan
+     como sinónimos [cuando no lo son](https://www.rae.es/dpd/sinónimo).
+
+   * Uso de polisémicos: el idioma tiene términos que pueden tener diferentes
+     significados.
+
+   * Omisión de información: detalles importantes que no se incluyen en la
+     documentación.
+
+   * Suposiciones: asunciones implícitas —es decir— que no se incluyen como
+     parte del requerimiento.
+
+   * Falta de contexto: puede dificultar la compresión pero también empeorar
+     algunos de los problemas anteriores.
+
+[^3]: Varios de estos problemas están listados y explicados
+    [aquí](https://www.rae.es/libro-estilo-justicia/problemas-de-significado-y-sentido);
+    aunque el artículo está escrito en el contexto legal, varios de sus
+    conceptos son aplicables.
 
 3. **Completo**: Debe contener toda la información necesaria para su
    entendimiento y cumplimiento. Contribuye a alcanzar este punto el uso de la
