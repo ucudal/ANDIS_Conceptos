@@ -59,4 +59,4 @@
 
 Pressman, R. (2010). Ingeniería del software: un enfoque práctico. 7<sup>a</sup>
 edición.  McGraw-Hill. Capítulo 5. Disponible en
-[biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=80936).ß
+[biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=80936).
