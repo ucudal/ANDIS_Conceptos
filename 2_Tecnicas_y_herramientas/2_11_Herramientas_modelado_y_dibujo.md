@@ -94,6 +94,7 @@ CUSTOMER }|..|{ DELIVERY_ADDRESS : uses
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![Demo de PlantUML](/diagrams/PlantUML_Demo.svg)
 
 Otro ejemplo es [Mermaid](https://mermaid.js.org/). También existe un [editor
@@ -123,6 +124,19 @@ online](https://www.mermaidchart.com/) de diagramas escritos en Mermaid, y
 también es posible incluir el código de los diagramas directamente en documentos
 Markdown:
 >>>>>>> d75a76f (#177 work in progress)
+=======
+![Demo de PlantUML](/diagrams/PlantUML_Demo.svg)
+
+Otro ejemplo es [Mermaid](https://mermaid.js.org/). También existe un [editor
+online](https://www.mermaidchart.com/) de diagramas escritos en Mermaid. Es
+posible incluir código Mermaid directamente en documentos
+[Markdown](https://daringfireball.net/projects/markdown/) —Markdown es el
+lenguaje en el que está escrito este documento que estás viendo—. Por ejemplo,
+este bloque de código —que está incluido tal como lo ves en este documento, pero
+dentro de un [*fenced code
+block*](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)—, da
+lugar al diagrama que está debajo:
+>>>>>>> 5f367fd (Done #177)
 
 ```
 erDiagram
@@ -138,10 +152,7 @@ erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 
-<<<<<<< HEAD
 Obviamente la sintaxis de PlantUML y de Mermaid es diferente, y tendrás que
 aprender la sintaxis de cualquiera de ellos —además de aprender a hacer el tipo
 de diagrama que quieras hacer—, pero cualquiera de los dos son parte de una
 tendencia a tener diagramas como código, bajo control de configuración.
-=======
->>>>>>> d75a76f (#177 work in progress)

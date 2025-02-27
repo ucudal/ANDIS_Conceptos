@@ -30,7 +30,6 @@
 
     * [Diagramas de contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md)
 
-
 2. Lee lo siguiente de [^1].
 
     * Capítulo 2, **The Requirements Process**
