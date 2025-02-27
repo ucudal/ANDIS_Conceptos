@@ -70,4 +70,5 @@ código.
 
 [^1]: Page-Jones, M. (1996). What Every Programmer Should Know About
     Object-Oriented Design. Dorset House.
+    
 [^2]: Richards, M. (2020). Fundamentals of Software Architecture. O'Reilly.

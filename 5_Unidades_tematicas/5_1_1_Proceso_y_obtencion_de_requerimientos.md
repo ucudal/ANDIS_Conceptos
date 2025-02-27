@@ -59,8 +59,8 @@
     Professional. Disponible en
     [biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=121158)
 
-[^2]: IEEE Computer Society. (2024). Guide to the Software Engineering Body of
-    Knowledge v4.0. IEEE. Disponible
+[^2]: IEEE Computer Society. (2024). SWEBOK: Guide to the Software Engineering
+    Body of Knowledge v4.0. IEEE. Disponible
     [aquí](https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf).
 
 #### Lecturas complementarias
