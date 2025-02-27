@@ -30,7 +30,8 @@
 
     * [Diagramas de contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md)
 
-        <!-- Si va acá hay que agregar este tema -->
+<!-- TODO: Ver si Customer Journey va en UT1 -->
+
     * [*Customer Journey map*](/2_Tecnicas_y_herramientas/2_1_05_Customer_journey_map.md)
 
 2. Lee lo siguiente de [^1].
@@ -59,8 +60,8 @@
     Professional. Disponible en
     [biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=121158)
 
-[^2]: IEEE Computer Society. (2024). Guide to the Software Engineering Body of
-    Knowledge v4.0. IEEE. Disponible
+[^2]: IEEE Computer Society. (2024). SWEBOK: Guide to the Software Engineering
+    Body of Knowledge v4.0. IEEE. Disponible
     [aquí](https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf).
 
 #### Lecturas complementarias
