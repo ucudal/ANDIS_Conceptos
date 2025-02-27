@@ -6,59 +6,62 @@
 
 #### Lecturas
 
-En este repositorio lee lo siguiente:
+1. En este repositorio lee lo siguiente:
 
-* [Modularidad](/4_Conceptos/4_Modularidad.md)
+    * [Modularidad](/4_Conceptos/4_Modularidad.md)
 
-* [Cohesión](/4_Conceptos/4_Cohesion.md)
+    * [Cohesión](/4_Conceptos/4_Cohesion.md)
 
-* [Acoplamiento](/4_Conceptos/4_Acoplamiento.md)
+    * [Acoplamiento](/4_Conceptos/4_Acoplamiento.md)
 
-* [Co-nascencia o *connascence*](/4_Conceptos/4_Connascence.md)
+    * [Co-nascencia o *connascence*](/4_Conceptos/4_Connascence.md)
 
-* [Diagramas de casos de uso
-UML](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md)
+    * [Modelos de estructura
+      UML](/2_Tecnicas_y_herramientas/2_3_.Modelos_de_estructura.md): [diagramas
+      de clases](/2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md) y
+      [diagramas de
+      despliegue](/2_Tecnicas_y_herramientas/2_3_4_Diagramas_de_despliegue_UML.md)
 
-* [Diagramas de clases
-UML](/2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md)
+    * [Modelos de comportamiento
+      UML](/2_Tecnicas_y_herramientas/2_4_.Modelos_de_comportamiento.md):
+      [diagramas de casos de
+      uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md),
+      [diagramas de
+      secuencia](/2_Tecnicas_y_herramientas/2_4_3_Diagramas_de_secuencia_UML.md)
+      y [diagramas de
+      actividades](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md).
 
-* [Diagramas de secuencia
-UML](/2_Tecnicas_y_herramientas/2_4_3_Diagramas_de_secuencia_UML.md)
+    * [Herramientas de modelado y
+      dibujo](/2_Tecnicas_y_herramientas/2_11_Herramientas_modelado_y_dibujo.md)
 
-* [Diagramas de actividades
-UML](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
+2. Además, en [^1] lee al menos lo siguiente; aunque es un sitio de Java, los
+   principios de diseño son agnósticos del lenguaje:
 
-* [Diagramas de despliegue
-UML](/2_Tecnicas_y_herramientas/2_3_4_Diagramas_de_despliegue_UML.md)
+    * [Minimize
+      Coupling](https://java-design-patterns.com/principles/#minimise-coupling)
 
-Además, en [^1] lee al menos lo siguiente; aunque es un sitio de Java, los
-principios de diseño son agnósticos del lenguaje:
+    * [Maximize
+      Cohesion](https://java-design-patterns.com/principles/#maximise-cohesion)
 
-* [Minimize
-  Coupling](https://java-design-patterns.com/principles/#minimise-coupling)
+    * [Law of Demeter](https://java-design-patterns.com/principles/#law-of-demeter)
 
-* [Maximize
-  Cohesion](https://java-design-patterns.com/principles/#maximise-cohesion)
+    * [Liskov Substitution
+      Principle](https://java-design-patterns.com/principles/#liskov-substitution-principle)
 
-* [Law of Demeter](https://java-design-patterns.com/principles/#law-of-demeter)
+    * [Open/Closed
+      Principle](https://java-design-patterns.com/principles/#open-closed-principle)
 
-* [Liskov Substitution
-  Principle](https://java-design-patterns.com/principles/#liskov-substitution-principle)
+    * [Single Responsibility
+      Principle](https://java-design-patterns.com/principles/#single-responsibility-principle)
 
-* [Open/Closed
-  Principle](https://java-design-patterns.com/principles/#open-closed-principle)
-
-* [Single Responsibility
-  Principle](https://java-design-patterns.com/principles/#single-responsibility-principle)
-
-* [Interface Segregation
-  Principle](https://java-design-patterns.com/principles/#interface-segregation-principle)
+    * [Interface Segregation
+      Principle](https://java-design-patterns.com/principles/#interface-segregation-principle)
 
 [^1]: Seppälä, I. (2024). Essential Java Design Principles for Developers. Java
     Design Patterns [página web]. Disponible
     [aquí](https://java-design-patterns.com/principles/)
 
-### Complementarias
+#### Complementarias
 
 El estándar de UML versión 2.5.1 está disponible en línea[^2]. No tienes que
 leerlo completo pero puedes consultarlo como referencia.

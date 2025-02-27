@@ -8,13 +8,12 @@ ingeniería de software ‑las otras son la [cohesión](./4_Cohesion.md) y la
 entre partes de diferentes módulos o entre diferentes módulos, y puede ser
 aferente ‑hacia adentro‑ o eferente ‑hacia afuera‑[^1]:
 
-* El acoplamiento aferente mide el número de conexiones entrantes a una parte de
-un módulo.
-
-* El acoplamiento eferente mide las conexiones salientes con otras partes en
+* El acoplamiento ≪aferente≫  mide el número de conexiones entrantes a una parte
+  de un módulo.
+* El acoplamiento ≪eferente≫ mide las conexiones salientes con otras partes en
   otros módulos.
 
-Además de los módulos y sus partes es importante la conexión entre las partes de
+Además de los módulos y sus partes, es importante la conexión entre las partes de
 diferentes módulos y la conexión entre los diferentes módulos; cuando las partes
 de diferentes módulos están conectadas, los módulos de esas partes también están
 conectados, aunque el tipo de conexión puede ser diferente; veamos algunos
