@@ -72,8 +72,7 @@ leerlo completo pero puedes consultarlo como referencia.
 En biblioteca hay ejemplares disponibles de [^3] que puedes tomar como
 referencia teniendo en cuenta que cubre la versión 1.0 que no es la última.
 
-<!-- Hay que ver si es igual al UML Distilled que está en webasignatura y ver cómo
-indicar capítulos o páginas o temas -->
+<!-- TODO; Revisar referencias a UML Gota a Gota -->
 [^3]: Fowler, M.; Kendall, S. (1999). UML Gota a Gota. Pearson Education.
     Disponible en
     [biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=4511).

@@ -6,9 +6,9 @@ El concepto de modularidad fue introducido por David Parnas para referirse a la
 descomposición de un sistema de software en módulos altamente
 [cohesivos](./4_Cohesion.md) y poco [acoplados](./4_Acoplamiento.md), donde cada
 módulo oculta los detalles de su implementación detrás de una
-[interfaz](./4_Interfaz.md) y puede ser modificado independientemente con mínimo
-impacto en otros módulos[^1]. Luego Meilir Page-Jones extendió el concepto para
-que los módulos tuvieran ‑además‑ poca o nula [co-nascencia ‑o
+[interfaz](./4_Interfaz.md) y puede ser modificado independientemente con muy
+poco o ningún impacto en otros módulos[^1]. Luego Meilir Page-Jones extendió el
+concepto para que los módulos tuvieran ‑además‑ poca o nula [co-nascencia ‑o
 *connascence*‑](./4_Connascence.md)[^2].
 
 [^1]: Parnas, D. (1972). On the criteria to be used in decomposing systems into
