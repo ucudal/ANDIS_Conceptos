@@ -1,0 +1,6 @@
+@startuml
+!include PlantUML.style
+CUSTOMER ||--o{ ORDER : places
+ORDER ||--|{ LINE_ITEM : contains
+CUSTOMER }|..|{ DELIVERY_ADDRESS : uses
+@enduml

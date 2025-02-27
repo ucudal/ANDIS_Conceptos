@@ -1,0 +1,15 @@
+@startuml styles
+
+<style>
+    Root {
+        RoundCorner 0
+        BackgroundColor Transparent
+        element {
+          FontColor #006EAF
+          BorderColor #006EAF
+          LineColor #006EAF
+        }
+    }
+</style>
+
+@enduml

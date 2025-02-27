@@ -17,6 +17,11 @@ corrección general del sistema[^1]. La co-nascencia refina los conceptos de
 [acoplamiento](./4_Acoplamiento.md) eferente y aferente para los lenguajes de
 programación orientada a objetos[^2].
 
+[^1]: Page-Jones, M. (1996). What Every Programmer Should Know About
+    Object-Oriented Design. Dorset House.
+
+[^2]: Richards, M. (2020). Fundamentals of Software Architecture. O'Reilly.
+
 Existen dos tipos de co-nascencia:
 
 * Estática. Refiere al acoplamiento en tiempo de compilación, opuesto al
@@ -67,8 +72,3 @@ La co-nascencia dinámica es más difícil de determinar que la estática,
 típicamente por la falta de herramientas que permitan analizar el comportamiento
 dinámico de un sistema, a diferencia de las herramientas de análisis estático de
 código.
-
-[^1]: Page-Jones, M. (1996). What Every Programmer Should Know About
-    Object-Oriented Design. Dorset House.
-    
-[^2]: Richards, M. (2020). Fundamentals of Software Architecture. O'Reilly.

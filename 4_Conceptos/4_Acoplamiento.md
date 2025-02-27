@@ -8,6 +8,9 @@ ingeniería de software ‑las otras son la [cohesión](./4_Cohesion.md) y la
 entre partes de diferentes módulos o entre diferentes módulos, y puede ser
 aferente ‑hacia adentro‑ o eferente ‑hacia afuera‑[^1]:
 
+[^1]: Yourdon, E. & Constantine, L. (1979). Structured Design: Fundamentals of a
+    Discipline of Computer Program and Systems Design. Prentice-Hall.
+
 * El acoplamiento ≪aferente≫  mide el número de conexiones entrantes a una parte
   de un módulo.
 * El acoplamiento ≪eferente≫ mide las conexiones salientes con otras partes en
@@ -34,6 +37,10 @@ ejemplos:
   eferente con el ensamblado donde se lo referencia; y este último tiene un
   acoplamiento aferente con el primero.
 
+[^2]: Es posible evitar esto usando el calificador completo del tipo de datos;
+    esto simplifica la escritura de código pero no elimina la conexión ‑la
+    dependencia‑ entre las clases de los diferentes espacios de nombres.
+
 El acoplamiento es menos discrecional que la cohesión, las conexiones salientes
 y entrantes están bien determinadas.
 
@@ -44,9 +51,3 @@ cambian firmas de métodos o nombres de clases, hay grandes chances de tener que
 modificar el primero; cuando desplegamos una nueva versión de los otros
 ensamblados, hay grandes chances de tener que desplegar una nueva versión del
 primero.
-
-[^1]: Yourdon, E. & Constantine, L. (1979). Structured Design: Fundamentals of a
-    Discipline of Computer Program and Systems Design. Prentice-Hall.
-[^2]: Es posible evitar esto usando el calificador completo del tipo de datos;
-    esto simplifica la escritura de código pero no elimina la conexión ‑la
-    dependencia‑ entre las clases de los diferentes espacios de nombres.

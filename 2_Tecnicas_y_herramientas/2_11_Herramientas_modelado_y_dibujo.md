@@ -77,14 +77,11 @@ herramientas.
 Un ejemplo de estas herramientas es [PlantUML](https://plantuml.com/). A pesar
 de lo que podría sugerir el nombre, incluye varios tipos de diagramas que no son
 UML, además de todos los de UML. Tiene un [editor
-online](https://www.plantuml.com/plantuml/uml/) de diagramas y es posible
-incluir código PlantUML directamente en documentos
-[Markdown](https://daringfireball.net/projects/markdown/) —Markdown es el
-lenguaje en el que está escrito este documento que estás viendo—. Por ejemplo,
-este bloque de código —que está incluido tal como lo ves en este documento, pero
-dentro de un [*fenced code
-block*](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)—, da
-lugar al diagrama que está debajo:
+online](https://www.plantuml.com/plantuml/uml/) de diagramas. Tal como se
+describe [aquí](https://plantuml.com/starting), una herramienta de línea de
+comandos convierte los archivos con los diagramas en archivos `.png` —el formato
+predeterminado—, `.svg` u otros. Por ejemplo, un archivo con el código que ves
+debajo, produce la imagen que está inmediatamente después.
 
 ```code
 @startuml
@@ -94,20 +91,17 @@ CUSTOMER }|..|{ DELIVERY_ADDRESS : uses
 @enduml
 ```
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/ucudal/ANDIS_Conceptos/blob/feature/177/2_Tecnicas_y_herramientas/2_11_Herramientas_modelado_y_dibujo.md)
-
-```plantuml
-@startuml
-CUSTOMER ||--o{ ORDER : places
-ORDER ||--|{ LINE_ITEM : contains
-CUSTOMER }|..|{ DELIVERY_ADDRESS : uses
-@enduml
-```
+![Demo de PlantUML](/diagrams/PlantUML_Demo.svg)
 
 Otro ejemplo es [Mermaid](https://mermaid.js.org/). También existe un [editor
-online](https://www.mermaidchart.com/) de diagramas escritos en Mermaid, y
-también es posible incluir el código de los diagramas directamente en documentos
-Markdown:
+online](https://www.mermaidchart.com/) de diagramas escritos en Mermaid. Es
+posible incluir código Mermaid directamente en documentos
+[Markdown](https://daringfireball.net/projects/markdown/) —Markdown es el
+lenguaje en el que está escrito este documento que estás viendo—. Por ejemplo,
+este bloque de código —que está incluido tal como lo ves en este documento, pero
+dentro de un [*fenced code
+block*](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)—, da
+lugar al diagrama que está debajo:
 
 ```
 erDiagram
@@ -123,3 +117,7 @@ erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 
+Obviamente la sintaxis de PlantUML y de Mermaid es diferente, y tendrás que
+aprender la sintaxis de cualquiera de ellos —además de aprender a hacer el tipo
+de diagrama que quieras hacer—, pero cualquiera de los dos son parte de una
+tendencia a tener diagramas como código, bajo control de configuración.

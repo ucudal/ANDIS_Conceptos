@@ -26,8 +26,8 @@ Los módulos también favorecen la mejora de la calidad del código al proveer
 mayor [cohesión](./4_Cohesion.md) y menor [acoplamiento](./4_Acoplamiento.md);
 en algunos casos también es posible lograr con los módulos poca o nula
 [co-nascencia ‑o *connascence*‑](./4_Connascence.md). Para lograr esto, se
-agrupan en módulos las clases altamente relacionadas y se definen interfaces
-bien definidas para los módulos, de modo que los módulos interactúan a través de
+agrupan en módulos las clases altamente relacionadas y se crean interfaces bien
+definidas para los módulos, de modo que los módulos interactúan a través de
 ellas, en vez de interactuar con varias clases directamente.
 
 Para definir módulos, puedes considerar las siguientes recomendaciones:
