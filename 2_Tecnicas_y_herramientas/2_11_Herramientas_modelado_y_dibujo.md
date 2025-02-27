@@ -94,6 +94,8 @@ CUSTOMER }|..|{ DELIVERY_ADDRESS : uses
 @enduml
 ```
 
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/ucudal/ANDIS_Conceptos/blob/feature/177/2_Tecnicas_y_herramientas/2_11_Herramientas_modelado_y_dibujo.md)
+
 ```plantuml
 @startuml
 CUSTOMER ||--o{ ORDER : places
