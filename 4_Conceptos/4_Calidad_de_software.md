@@ -505,29 +505,29 @@ Algunas técnicas para la depuración son:
   además del análisis de ese registro.
 
 [^1]: IEEE 610.12. IEEE STD 610.12-1990 IEEE Standard Glossary of Software
-Engineering Terminology. IEEE Standards Collection Software Engineering. The
-Institute of Electrical and Electronics Engineers, Inc.; 1990.
+    Engineering Terminology. IEEE Standards Collection Software Engineering. The
+    Institute of Electrical and Electronics Engineers, Inc.; 1990.
 
 [^2]: Fenton, Norman and Pfleeger, Shari. Software Metrics: A Rigorous &
-Practical Approach. PWS Publishing Company; 1997.
+    Practical Approach. PWS Publishing Company; 1997.
 
 [^3]: ISO 9000. UNIT-ISO 9000:2000 Sistemas de gestión de la calidad -
-Fundamentos y vocabulario. Instituto Uruguayo de Normas Técnicas; 2000.
+    Fundamentos y vocabulario. Instituto Uruguayo de Normas Técnicas; 2000.
 
-[^4]: Capability Maturity Model® Integration (CMMISM): Continuous
-Representation. Carnegie Mellon University, Software Engineering Institute;
-2002a Mar; CMU/ SEI-2002-TR-011.
+[^4]: Capability Maturity Model® Integration (CMMI<sup>SM</sup>): Continuous
+    Representation. Carnegie Mellon University, Software Engineering Institute;
+    2002a Mar; CMU/SEI-2002-TR-011.
 
-[^5]: Phillips, Mike, CMMISM Program Manager. CMMISM 1.1 Tutorial. Carnegie
-Mellon University, Software Engineering Institute; 2003.
+[^5]: Phillips, Mike, CMMI<sup>SM</sup> Program Manager. CMMI<sup>SM</sup> 1.1
+    Tutorial. Carnegie Mellon University, Software Engineering Institute; 2003.
 
-[^6]: SWEBOK. Guide to the software engineering body of knowledgeAbran, Alain
-and Moore, James, Executive Editors: IEEE Computer Society; 2001.
+[^6]: IEEE Computer Society. (2001). Guide to the Software Engineering Body of
+    Knowledge (SWEBOK). IEEE Computer Society.
 
 [^7]: ISO/IEC 12207. ISO/IEC 12207:1995 Information Technology - Software
-lifecycle processes. International Organization for Standarization &
-International Electrotechnical Commission; 1995.
+    lifecycle processes. International Organization for Standarization &
+    International Electrotechnical Commission; 1995.
 
 [^8]: IEEE 829. ANSI/IEEE STD 829-1983 ANSI/IEEE Standard for Software Test
-Documentation. IEEE Standards Collection Software Engineering. The Institute of
-Electrical and Electronics Engineers, Inc.; 1983.
+    Documentation. IEEE Standards Collection Software Engineering. The Institute of
+    Electrical and Electronics Engineers, Inc.; 1983.
