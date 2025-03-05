@@ -8,6 +8,13 @@
 
 1. En este repositorio lee lo siguiente:
 
+    * [*Customer Journey
+      map*](/2_Tecnicas_y_herramientas/2_1_05_Customer_journey_map.md)
+
+    * [Abstracción](/4_Conceptos/4_Abstraccion.md)
+
+    * [Encapsulamiento](/4_Conceptos/4_Encapsulamiento.md)
+
     * [Modularidad](/4_Conceptos/4_Modularidad.md)
 
     * [Cohesión](/4_Conceptos/4_Cohesion.md)
