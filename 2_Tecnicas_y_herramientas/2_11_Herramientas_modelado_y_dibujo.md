@@ -64,6 +64,7 @@ mostrar algún aspecto específico de tu software y embeberlo en la documentaci�
 > [plano](https://martinfowler.com/bliki/UmlAsBlueprint.html) y como [lenguaje
 > de
 > programación](https://martinfowler.com/bliki/UmlAsProgrammingLanguage.html).
+> En la práctica, el uso más común de UML es como croquis.
 
 Con la adopción de metodologías ágiles que [favorecen la comunicación sobre la
 documentación](https://agilemanifesto.org), el uso de herramientas de modelado
