@@ -78,22 +78,11 @@ herramientas.
 Un ejemplo de estas herramientas es [PlantUML](https://plantuml.com/). A pesar
 de lo que podría sugerir el nombre, incluye varios tipos de diagramas que no son
 UML, además de todos los de UML. Tiene un [editor
-<<<<<<< HEAD
 online](https://www.plantuml.com/plantuml/uml/) de diagramas. Tal como se
 describe [aquí](https://plantuml.com/starting), una herramienta de línea de
 comandos convierte los archivos con los diagramas en archivos `.png` —el formato
 predeterminado—, `.svg` u otros. Por ejemplo, un archivo con el código que ves
 debajo, produce la imagen que está inmediatamente después.
-=======
-online](https://www.plantuml.com/plantuml/uml/) de diagramas y es posible
-incluir código PlantUML directamente en documentos
-[Markdown](https://daringfireball.net/projects/markdown/) —Markdown es el
-lenguaje en el que está escrito este documento que estás viendo—. Por ejemplo,
-este bloque de código —que está incluido tal como lo ves en este documento, pero
-dentro de un [*fenced code
-block*](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)—, da
-lugar al diagrama que está debajo:
->>>>>>> d75a76f (#177 work in progress)
 
 ```code
 @startuml
@@ -103,6 +92,7 @@ CUSTOMER }|..|{ DELIVERY_ADDRESS : uses
 @enduml
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ![Demo de PlantUML](/diagrams/PlantUML_Demo.svg)
 
@@ -116,6 +106,10 @@ dentro de un [*fenced code
 block*](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)—, da
 lugar al diagrama que está debajo:
 =======
+=======
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/ucudal/ANDIS_Conceptos/blob/feature/177/2_Tecnicas_y_herramientas/2_11_Herramientas_modelado_y_dibujo.md)
+
+>>>>>>> ce75b4d (#177 work in progress)
 ```plantuml
 @startuml
 CUSTOMER ||--o{ ORDER : places
