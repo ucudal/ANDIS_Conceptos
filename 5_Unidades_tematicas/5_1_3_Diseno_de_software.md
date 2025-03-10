@@ -36,7 +36,7 @@
       [diagramas de
       secuencia](/2_Tecnicas_y_herramientas/2_4_3_Diagramas_de_secuencia_UML.md)
       y [diagramas de
-      actividades](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md).
+      actividades](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
 
     * [Herramientas de modelado y
       dibujo](/2_Tecnicas_y_herramientas/2_11_Herramientas_modelado_y_dibujo.md)
