@@ -100,3 +100,35 @@ La siguiente lista de verificación ‑basada en [^1] y [^2]‑ incluye una seri
 
 11. **Modificable**: Debe estar escrito de tal manera que permita cambios en su
    formulación sin perder su coherencia y claridad.
+
+#### SMART
+
+A veces se suele simplificar la lista de verificación anterior y usar un
+subconjunto de los ítems que se recuerdan con
+[mnemotecnia](https://dle.rae.es/mnemotecnia) gracias al
+[acrónimo](https://dle.rae.es/acrónimo) *SMART* —inteligente en inglés—. El
+acrónimo significa que el requerimiento debe ser:
+
+* ***Specific* o específico**. Claro y preciso, evitando la ambigüedad.
+  Corresponde con **no-ambiguo** —ítem 2— de la lista de verificación.
+
+* ***Measurable* o medible**. Posible de cuantificar o de evaluar el
+  cumplimiento. Corresponde con **verificable** —ítem 7— de la lista de
+  verificación.
+
+* ***Achievable* o alcanzable**. Realista y posible de lograr, considerando los
+  recursos y limitaciones. Corresponde con **factible** —ítem 6— de la lista de
+  verificación.
+
+* ***Relevant* o relevante**. Alineado con los objetivos generales y ser
+  importante para la organización o el individuo. Corresponde con **necesario**
+  —ítem 1— de la lista de verificación.
+
+* ***Time-bound* o con límite de tiempo**. Debe tener una fecha límite o un
+  período de tiempo definido para su cumplimiento. No hay una correspondencia
+  exacta con ningún ítem de la lista de verificación —y esta es una de las
+  razones por la cual preferimos usar la lista y no el acrónimo—, aunque el
+  hecho de que el requerimiento sea **completo** —ítem 3—, **consistente** —ítem
+  4— y **correcto** —ítem 5— definitivamente ayuda a que se pueda implementar a
+  tiempo, al evitar el trabajo derivado de requerimientos incompletos,
+  inconsistentes o incorrectos.
