@@ -28,7 +28,7 @@ detallar los requerimientos asociados a la apariencia del sistema, por ejemplo:
 guías de UX/UI a utilizar ‑quizá brindadas por el cliente‑, marca corporativa de
 la organización cliente, qué colores utilizar, etcétera.
 
-## Requerimientos de usabilidad y humanidad
+## Requerimientos de facilidad de uso y humanidad
 
 <!-- SECCIÓN: Requerimientos de facilidad de uso -->
 <!-- TAG: Según proyecto -->
@@ -37,9 +37,9 @@ la organización cliente, qué colores utilizar, etcétera.
   src="https://img.shields.io/badge/SEG%C3%9AN%20PROYECTO-FFD700"
 />
 
-Similarmente a los requerimientos de apariencia, en caso de que el producto a
+Al igual que con los requerimientos de apariencia, en caso de que el producto a
 desarrollar necesite de algún tipo de interacción con los usuarios finales,
-detallar los requerimientos del cliente en cuanto a la facilidad de uso del
+detallen los requerimientos del cliente en cuanto a la facilidad de uso del
 sistema por parte de estos usuarios finales. Tengan en cuenta que esta facilidad
 es derivada de la habilidad de los previstos usuarios finales y la complejidad
 del producto y sus funcionalidades. Algunas características a tener en cuenta
@@ -96,7 +96,7 @@ daño percibido a personas o propiedad dentro del entorno de uso, detallar los
 requerimientos que cuantifican este daño. Estos pueden estar relacionados a
 estándares de seguridad o protección.
 
-## Requerimientos de performance
+## Requerimientos de desempeño
 
 <!-- SECCIÓN: Requerimientos de velocidad y latencia -->
 <!-- TAG: Requerido -->
@@ -284,3 +284,17 @@ cada uno de ustedes como desarrolladores del sistema deberán cumplir.
 Detallar los estándares con los cuales el producto deberá cumplir, si los hay.
 Por ejemplo, legales (FDA, UCC), de comunicaciones, de compatibilidad con
 plataformas, calidad y seguridad (UL, ISO, CMM).
+
+## Soluciones listas para usar —*off-the-shelf*—
+
+<!-- SECCIÓN: Soluciones off-the-shelf -->
+<!-- TAG: Requerido -->
+<img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
+
+Incluye potenciales productos prefabricados existentes que puedan ser utilizados
+mediante configuración —o con mínimo desarrollo— para satisfacer los demás
+requerimientos. Describe aquí el análisis exhaustivo de las ventajas y
+desventajas de utilizar algunos de estos productos, incluyendo las razones por
+las cuales no van a ser utilizados si fuera el caso.
+
+Considera también componentes reutilizables dentro del análisis.

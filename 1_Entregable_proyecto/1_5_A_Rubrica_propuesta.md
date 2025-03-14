@@ -88,6 +88,28 @@ proyecto final de grado.
   </tr>
   <tr>
     <td style="vertical-align: top;">
+      Análisis de soluciones <i>off-the-shelf</i>
+    </td>
+    <td style="vertical-align: top;">
+      No incluyen potenciales soluciones <i>off-the-shelf</i> que pudieran ser
+      utilizadas para implementar el proyecto; o no se analiza o no se
+      fundamenta adecuadamente la decisión de no utilizarlas.
+    </td>
+    <td style="vertical-align: top;">
+      Aunque se mencionan potenciales soluciones <i>off-the-shelf</i>, faltan
+      algunas importantes, o el análisis o la fundamentación para no utilizarlas
+      no es suficiente. <span style="color:#0969DA">El tribunal debe indicar qué
+      modificaciones debería introducir el equipo para que la propuesta sea
+      aceptable.</span>
+    </td>
+    <td style="vertical-align: top;">
+      La propuesta de proyecto analiza en detalle la implementación mediante
+      soluciones <i>off-the-shelf</i> y justifica de forma adecuada la decisión
+      de no utilizarlas.
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">
       Arquitectura preliminar y tecnologías previstas
     </td>
     <td style="vertical-align: top;">
