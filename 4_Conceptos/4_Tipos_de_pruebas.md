@@ -7,7 +7,7 @@ software](/4_Conceptos/4_Calidad_de_software.md); y la [plantilla de
 pruebas](/3_Plantillas/3_4_Casos_de_prueba_de_usuario_final.md) donde se indican
 los tipos de pruebas en un proyecto.
 
-TODO: Completar con información de https://dabrowser.pmi.org/#item:2096650002
+<!--TODO: Completar con información de https://dabrowser.pmi.org/#item:2096650002-->
 
 * Pruebas de accesibilidad
 * Pruebas alfa/beta/piloto/canario
