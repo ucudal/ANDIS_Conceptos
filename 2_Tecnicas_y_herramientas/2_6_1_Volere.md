@@ -42,9 +42,8 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
   proceso de descubrimiento de requerimientos y cuál será específicamente
   excluida.
 
-  Un [diagrama de/2_Tecnicas_y_herramientas/2_01_2_Diagramas_de_contexto.md
-  contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md) se
-  utiliza para generar un consenso entre los interesados sobre el alcance del
+  Un [diagrama de contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md)
+  se utiliza para generar un consenso entre los interesados sobre el alcance del
   [trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md) que se debe mejorar. El
   producto final se utilizará para realizar parte de este trabajo.
 
