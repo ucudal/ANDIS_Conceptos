@@ -6,12 +6,6 @@
 
 #### Lecturas
 
-<style>
-.filter{
-    filter: invert(46%) sepia(81%) saturate(1177%) hue-rotate(226deg) brightness(92%) contrast(91%);
-}
-</style>
-
 1. En este repositorio lee lo siguiente:
 
     * [Volere](/2_Tecnicas_y_herramientas/2_6_1_Volere.md). Puedes ver antes
@@ -38,9 +32,7 @@
       contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md)
 
     * [Entrevistas](/2_Tecnicas_y_herramientas/2_1_07_Entrevista.md), incluyendo
-      los links donde dice <img class="filter"
-      src="https://raw.githubusercontent.com/primer/octicons/refs/heads/main/icons/report-16.svg"/>
-      <span style="color:#8256d0;font-weight:bold">Importante</span>.
+      los links donde dice ![](/assets/report-16.svg) <span style="color:#8256d0;font-weight:bold">Importante</span>.
 
 2. Lee lo siguiente de [^1].
 
