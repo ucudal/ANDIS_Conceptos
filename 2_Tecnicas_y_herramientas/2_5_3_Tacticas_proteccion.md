@@ -49,17 +49,19 @@ La lista a continuación está tomada de [^1]:
   se toman medidas para evitar entrar en estados inseguros causados por factores
   relacionados con el tiempo.
 
-* **Monitoreo de condiciones**. Abre <a rel="noopener"
+* **Monitoreo de condiciones**. Consulta [aquí](./2_5_1_Tacticas_disponibilidad.md#monitoreo-de-condiciones).
+<!-- Abre <a rel="noopener"
   href="./2_5_1_Tacticas_disponibilidad.md#monitoreo_condiciones:~:text=Monitoreo%20de%20condiciones,táctica.">esta
-  página</a> en una nueva solapa o ventana.
+  página</a> en una nueva solapa o ventana. -->
 
 * **Timestamp**. Abre <a rel="noopener"
   href="./2_5_1_Tacticas_disponibilidad.md#timestamp:~:text=Timestamp,secuenciales.">esta
   página</a> en una nueva solapa o ventana.
 
-* **Replicación**. Abre <a rel="noopener"
+* **Replicación**. Consulta [aquí](./2_5_1_Tacticas_disponibilidad.md#)
+ <!-- Abre <a rel="noopener"
   href="./2_5_1_Tacticas_disponibilidad.md#replicacion:~:text=Voto%E2%80%94Replicaci%C3%B3n,Framework.">esta
-  página</a> en una nueva solapa o ventana.
+  página</a> en una nueva solapa o ventana. -->
 
 * **Redundancia analítica**. Abre <a rel="noopener"
   href="./2_5_1_Tacticas_disponibilidad.md#redundancia_analitica:~:text=Voto-Redundancia+anal%C3%ADtica,industrial.">esta

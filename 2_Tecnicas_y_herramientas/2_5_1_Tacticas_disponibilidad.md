@@ -24,7 +24,7 @@ abajo.
   <tr>
     <td rowspan="26">Tácticas de disponibilidad</td>
     <td rowspan="9" colspan="2">Detectar fallas</td>
-    <td>Monitoreo</td>
+    <td><a href="monitoreo">Monitoreo</a></td>
   </tr>
   <tr>
     <td>Ping/echo</td>
@@ -158,156 +158,194 @@ Las condiciones en tiempo de ejecución deben ser consistentes con las asumidas
 durante el diseño. Por ejemplo, el uso de *checksums* ‑sumas de verificación‑ es
 una implementación de esta táctica.
 
-#### Control de cordura** ‑o *sanity check*
+#### Control de cordura ‑o *sanity check*‑
 
-Es una
-verificación simple y rápida para asegurar que los valores recibidos o
+Es una verificación simple y rápida para asegurar que los valores recibidos o
 calculados por un componente de la arquitectura de software, o su estado, son
 razonables.
 
-* <span id="replicacion">**Voto‑Replicación**. La replicación es una táctica de
-  disponibilidad en la que se crean copias exactas ‑instancias o réplicas‑ de un
-  componente para garantizar que, en caso de fallo de una instancia, otra esté
-  disponible para tomar su lugar inmediatamente. Este enfoque asegura que la
-  falla de una réplica no afecte la disponibilidad del servicio global.
+#### Voto‑Replicación
 
-  Hay dos tipos de replicación:
+La replicación es una táctica de disponibilidad en la que se crean copias
+exactas ‑instancias o réplicas‑ de un componente para garantizar que, en caso de
+fallo de una instancia, otra esté disponible para tomar su lugar inmediatamente.
+Este enfoque asegura que la falla de una réplica no afecte la disponibilidad del
+servicio global.
+
+Hay dos tipos de replicación:
+
   * **Sincrónica:** Las réplicas están constantemente actualizadas y cualquier
     cambio se replica en tiempo real a todas ellas.
+
   * **Asíncrona:** Las réplicas se actualizan con un cierto retraso, lo que
-    puede ser más eficiente pero introduce un riesgo de pérdida de datos
+    puede ser más eficiente, pero introduce un riesgo de pérdida de datos
     recientes en caso de falla.
 
-  Vean también [Recommendations for designing for
-  redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy)
-  en Azure Well-Architected Framework.</span>
+> [!TIP]
+> Vean también [Recommendations for designing for
+> redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy)
+> en Azure Well-Architected Framework.
 
-* <span id="redundancia_funcional">**Voto-Redundancia funcional**. La
-  redundancia funcional se refiere a la implementación de varias funciones que
-  cumplen la misma tarea, pero de manera diferente; es decir, a las mismas
-  entradas producen la misma salida, pero la computan de forma diferente. Esto
-  permite que si una función falla, otra pueda realizar la misma tarea,
-  garantizando la continuidad del servicio.</span>
+#### Voto-Redundancia funcional
 
-* <span id="redundancia_analitica">**Voto-Redundancia analítica**. La
-  redundancia analítica implica el uso de diferentes métodos o algoritmos para
-  analizar el mismo conjunto de datos y obtener un resultado consensuado. Esta
-  táctica es especialmente útil en sistemas que requieren alta precisión y
-  fiabilidad, como en análisis de datos críticos o en sistemas de control
-  industrial.</span>
+La redundancia funcional se refiere a la implementación de varias funciones que
+cumplen la misma tarea, pero de manera diferente; es decir, a las mismas
+entradas producen la misma salida, pero la computan de forma diferente. Esto
+permite que si una función falla, otra pueda realizar la misma tarea,
+garantizando la continuidad del servicio.
 
-* **Detección de excepciones**. Consiste en identificar y manejar condiciones
-  excepcionales que podrían causar fallos en los componentes de la arquitectura
-  de software. Por ejemplo, el uso de *timeouts* para detectar fallas en otros
-  componentes.
+#### Voto-Redundancia analítica
 
-* **Auto-diagnóstico** ‑o *self-test*. Consiste en que un componente realice
-  pruebas internas para verificar su correcto funcionamiento. Por ejemplo, un
-  servicio puede ejecutar pruebas automáticas de inicio para asegurar
-  que todas sus dependencias están funcionando antes de aceptar tráfico. Puede
-  implicar el uso de otras tácticas, como chequeos de salud o ping/echo.
+La redundancia analítica implica el uso de diferentes métodos o algoritmos para
+analizar el mismo conjunto de datos y obtener un resultado consensuado. Esta
+táctica es especialmente útil en sistemas que requieren alta precisión y
+fiabilidad, como en análisis de datos críticos o en sistemas de control
+industrial.
 
-* **Repuesto redundante**. Es disponer de componentes de repuesto para
-  reemplazar aquellos que fallan. Esta táctica asegura la continuidad del
-  servicio en caso de fallas del hardware o software. Por ejemplo, los
-  servidores en un clúster de alta disponibilidad que pueden asumir el control
-  en caso de que uno falle.
+#### Detección de excepciones
 
-  Vean también [Recommendations for designing for
-  redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy)
-  en Azure Well-Architected Framework.
+Consiste en identificar y manejar condiciones excepcionales que podrían causar
+fallos en los componentes de la arquitectura de software. Por ejemplo, el uso de
+*timeouts* para detectar fallas en otros componentes.
 
-* <span id="rollback">**Rollback**. Consiste en volver a un estado anterior
-  conocido y correcto en caso de error o falla. Es una táctica crucial en la
-  implementación de actualizaciones y cambios de los componentes. Por ejemplo,
-  deshacer una actualización de software que causó problemas operativos.
+#### Auto-diagnóstico ‑o *self-test*‑
 
-  Vean también [Recommendations for designing a deployment failure mitigation
-  strategy](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/mitigation-strategy)
-  en Azure Well-Architected Framework.</span>
+Consiste en que un componente realice pruebas internas para verificar su
+correcto funcionamiento. Por ejemplo, un servicio puede ejecutar pruebas
+automáticas de inicio para asegurar que todas sus dependencias están funcionando
+antes de aceptar tráfico. Puede implicar el uso de otras tácticas, como chequeo
+de salud o ping/echo.
 
-* **Manejo de excepciones**. Es la gestión adecuada de condiciones anómalas para
-  evitar que el componente se detenga. Implica capturar y manejar excepciones en
-  tiempo de ejecución para mantener la estabilidad. Por ejemplo, usar los
-  mecanismos `try-catch` en lenguajes de programación para convertir las
-  excepciones en mensajes de error en tiempo de ejecución.
+#### Repuesto redundante
 
-* **Actualización de software**. Consiste en la implementación de nuevas
-  versiones de software sin interrumpir el servicio. Asegura que un componente
-  de la arquitectura de software puede
-  seguir operando durante actualizaciones, mejorando la disponibilidad. Esta
-  táctica se basa en otras como replicación o repuesto redundante para redirigir
-  el tráfico a otras réplicas mientras se actualiza una de ellas, iterativamente
-  hasta que se actualizan todas.
+Es disponer de componentes de repuesto para reemplazar aquellos que fallan. Esta
+táctica asegura la continuidad del servicio en caso de fallas del hardware o
+software. Por ejemplo, los servidores en un clúster de alta disponibilidad que
+pueden asumir el control en caso de que uno falle.
 
-* **Re-intentos**. Es repetir una operación que falló con la esperanza de que
-  tenga éxito en un segundo intento. Los re-intentos son útiles para manejar
-  fallas transitorias.
+> [!TIP]
+> Vean también [Recommendations for designing for
+> redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy)
+> en Azure Well-Architected Framework.
 
-  Vean también [Recommendations for handling transient
-  faults](https://learn.microsoft.com/en-us/azure/well-architected/reliability/handle-transient-faults)
-  en Azure Well-Architected Framework.
+#### *Rollback*
 
-* **Ignorar el comportamiento fallido**. Consiste en continuar la operación a
-  pesar de la ocurrencia de errores, ignorando el componente que falló. Esta
-  táctica evita que una falla menor cause una parada total del sistema. Por
-  ejemplo, ignorar mensajes corruptos, o fallos en dependencias que no son
-  críticas.
+Consiste en volver a un estado anterior
+conocido y correcto en caso de error o falla. Es una táctica crucial en la
+implementación de actualizaciones y cambios de los componentes. Por ejemplo,
+deshacer una actualización de software que causó problemas operativos.
 
-* **Degradación elegante**. Es reducir la funcionalidad de un sistema en
-  respuesta a una falla en lugar de detenerse por completo. La degradación
-  controlada mantiene el servicio disponible, aunque con funcionalidad reducida.
-  Por ejemplo, un sitio web puede desactivar funciones avanzadas cuando detecta
-  alta carga para seguir funcionando.
+> [!TIP]
+> Vean también [Recommendations for designing a deployment failure mitigation
+> strategy](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/mitigation-strategy)
+> en Azure Well-Architected Framework.
 
-* <span id="reconfiguracion">**Re-configuración**. Consiste en ajustar la
-  configuración del sistema en forma dinámica para reasignar responsabilidades a
-  otros componentes que todavía estén funcionando. La re-configuración puede ser
-  manual o automática, en respuesta a fallas o cambios en la carga de
-  trabajo.</span>
+#### Manejo de excepciones
 
-* **Sombra** ‑o *shadow*‑. Es ejecutar una instancia o réplica en paralelo
-  recién iniciada para probar que funcione correctamente antes de asignarle un
-  rol activo y que pueda recibir tráfico.
+Es la gestión adecuada de condiciones anómalas para evitar que el componente se
+detenga. Implica capturar y manejar excepciones en tiempo de ejecución para
+mantener la estabilidad. Por ejemplo, usar los mecanismos `try-catch` en
+lenguajes de programación para convertir las excepciones en mensajes de error en
+tiempo de ejecución.
 
-* **Re-sincronización del estado**. Esta táctica se usa en conjunto con la
-  táctica de repuesto redundante o replicación asíncrona y consiste en
-  actualizar el estado ‑los datos‑ del componente de repuesto antes de asignarle
-  un rol activo y que pueda recibir tráfico.
+#### Actualización de software
 
-* **Escalamiento del reinicio**. Consiste en reiniciar componentes de forma
-  controlada luego de un fallo para manejar nuevos fallos potenciales sin
-  afectar los demás componentes o el resto del sistema. Es útil para evitar que
-  fallas menores escalen a problemas más grandes. Por ejemplo, reiniciar una
-  maquina virtual en lugar de todo el hypervisor.
+Consiste en la implementación de nuevas versiones de software sin interrumpir el
+servicio. Asegura que un componente de la arquitectura de software puede seguir
+operando durante actualizaciones, mejorando la disponibilidad. Esta táctica se
+basa en otras como replicación o repuesto redundante para redirigir el tráfico a
+otras réplicas mientras se actualiza una de ellas, de forma iterativa hasta que
+se actualizan todas.
 
-* **Reenvío sin pausa**. Consiste en separar las responsabilidades de control de
-  las de datos, para que las de datos puedan seguir funcionando cuando fallan
-  las de control, cuando la comunicación involucra rutas previamente conocidas.
+#### Re-intentos
 
-* **Remoción del servicio o rejuvenecimiento de software o reinicio
-  terapéutico** Es reiniciar componentes periódicamente para evitar fallas
-  debido a degradación o problemas de software como *memory leaks* u *open
-  connections*. Por ejemplo, reiniciar un servidor web cada cierto tiempo para
-  evitar problemas de memoria que podrían acumularse.
+Es repetir una operación que falló con la esperanza de que tenga éxito en un
+segundo intento. Los re-intentos son útiles para manejar fallas transitorias.
 
-* **Transacciones**. Es agrupar operaciones en unidades atómicas para asegurar
-  que todas se completen o ninguna lo haga. Las transacciones garantizan la
-  consistencia del sistema en caso de fallos durante operaciones complejas.
+> [!TIP]
+> Vean también [Recommendations for handling transient
+> faults](https://learn.microsoft.com/en-us/azure/well-architected/reliability/handle-transient-faults)
+> en Azure Well-Architected Framework.
 
-* <span id="modelo_predictivo">**Modelo predictivo**. Es usar técnicas de
-  aprendizaje automático y análisis predictivo para anticipar fallas antes de
-  que ocurran a partir de los datos de monitoreo. Permite tomar acciones
-  proactivas basadas en patrones y tendencias identificadas en los
-  *logs*.</span>
+#### Ignorar el comportamiento fallido
 
-* **Prevención de excepciones**. Consiste en implementar medidas para evitar que
-  ocurran errores o fallas en primer lugar. El uso de bits de control de paridad
-  o la verificación de redundancia cíclica son ejemplos de prevención de
-  excepciones.
+Consiste en continuar la operación a pesar de la ocurrencia de errores,
+ignorando el componente que falló. Esta táctica evita que una falla menor cause
+una parada total del sistema. Por ejemplo, ignorar mensajes corruptos, o fallos
+en dependencias que no son críticas.
 
-* **Aumentar el conjunto de competencia**. El conjunto de competencia es el
-  conjunto de estados en los que un componente de la arquitectura de software
-  puede operar ‑es competente‑. Una excepción es la entrada a un estado fuera
-  del conjunto de competencia. Aumentar el conjunto de estados en los que un
-  componente puede operar es una forma de aumentar la disponibilidad.
+#### Degradación elegante
+
+Es reducir la funcionalidad de un sistema en respuesta a una falla en lugar de
+detenerse por completo. La degradación controlada mantiene el servicio
+disponible, aunque con funcionalidad reducida. Por ejemplo, un sitio web puede
+desactivar funciones avanzadas cuando detecta alta carga para seguir
+funcionando.
+
+#### Re-configuración
+
+Consiste en ajustar la configuración del sistema en forma dinámica para
+reasignar responsabilidades a otros componentes que todavía estén funcionando.
+La re-configuración puede ser manual o automática, en respuesta a fallas o
+cambios en la carga de trabajo.
+
+#### Sombra ‑o *shadow*‑
+
+Es ejecutar una instancia o réplica en paralelo recién iniciada para probar que
+funcione correctamente antes de asignarle un rol activo y que pueda recibir
+tráfico.
+
+#### Re-sincronización del estado
+
+Esta táctica se usa en conjunto con la táctica de repuesto redundante o
+replicación asíncrona y consiste en actualizar el estado ‑los datos‑ del
+componente de repuesto antes de asignarle un rol activo y que pueda recibir
+tráfico.
+
+#### Escalamiento del reinicio
+
+Consiste en reiniciar componentes de forma controlada luego de un fallo para
+manejar nuevos fallos potenciales sin afectar los demás componentes o el resto
+del sistema. Es útil para evitar que fallas menores escalen a problemas más
+grandes. Por ejemplo, reiniciar una maquina virtual en lugar de todo el
+hypervisor.
+
+#### Reenvío sin pausa
+
+Consiste en separar las responsabilidades de control de las de datos, para que
+las de datos puedan seguir funcionando cuando fallan las de control, cuando la
+comunicación involucra rutas previamente conocidas.
+
+#### Remoción del servicio o rejuvenecimiento de software o reinicio terapéutico
+
+Es reiniciar componentes periódicamente para evitar fallas
+debido a degradación o problemas de software como *memory leaks* u *open
+connections*. Por ejemplo, reiniciar un servidor web cada cierto tiempo para
+evitar problemas de memoria que podrían acumularse.
+
+#### Transacciones
+
+Es agrupar operaciones en unidades atómicas para asegurar que todas se completen
+o ninguna lo haga. Las transacciones garantizan la consistencia del sistema en
+caso de fallos durante operaciones complejas.
+
+#### Modelo predictivo
+
+Es usar técnicas de aprendizaje automático y análisis predictivo para anticipar
+fallas antes de que ocurran a partir de los datos de monitoreo. Permite tomar
+acciones proactivas basadas en patrones y tendencias identificadas en los
+*logs*.
+
+#### Prevención de excepciones
+
+Consiste en implementar medidas para evitar que ocurran errores o fallas en
+primer lugar. El uso de bits de control de paridad o la verificación de
+redundancia cíclica son ejemplos de prevención de excepciones.
+
+#### Aumentar el conjunto de competencia
+
+El conjunto de competencia es el conjunto de estados en los que un componente de
+la arquitectura de software puede operar ‑es competente‑. Una excepción es la
+entrada a un estado fuera del conjunto de competencia. Aumentar el conjunto de
+estados en los que un componente puede operar es una forma de aumentar la
+disponibilidad.
