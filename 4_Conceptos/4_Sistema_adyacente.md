@@ -6,7 +6,7 @@ Los sistemas adyacentes son simplemente eso: sistemas de algún tipo
 ‑automatizados o humanos‑ que residen adyacentes ‑al lado‑ del
 [trabajo](./4_Trabajo_y_area_de_trabajo.md). Se muestran como actores en el
 [diagrama de contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md)
-y recibendatos o servicios del trabajo y, a su vez, suministran datos al
+y reciben datos o servicios del trabajo y, a su vez, suministran datos al
 trabajo[^1].
 
 El alcance del producto que se construye ‑es decir, la funcionalidad que incluye
