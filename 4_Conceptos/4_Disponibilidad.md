@@ -145,7 +145,14 @@ dependiendo de la criticidad del sistema.
 La disponibilidad es un aspecto crucial de la arquitectura de un producto que
 requiere alta confiabilidad y accesibilidad constante.
 
-### Tácticas para la disponibilidad
+#### Tácticas
+
+> [!TIP]
+> Vean [este
+> documento](/2_Tecnicas_y_herramientas/2_5_1_Tacticas_disponibilidad.md) para
+> conocer diversas tácticas para lograr la disponibilidad.
+
+<!-- ### Tácticas para la disponibilidad
 
 Vean más detalles sobre estas tácticas para la disponibilidad
 [aquí](/2_Tecnicas_y_herramientas/2_5_1_Tacticas_disponibilidad.md).
@@ -235,13 +242,15 @@ Vean más detalles sobre estas tácticas para la disponibilidad
   <tr>
       <td>Aumentar el conjunto de competencia</td>
   </tr>
-</table>
+</table> -->
 
 ### Patrones para disponibilidad
 
-Vean [Cloud design patterns that support
-reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/design-patterns)
-en Azure Well-Architected Framework.
-
-Vean [Tactics and Patterns for Software Robustness](https://insights.sei.cmu.edu/blog/tactics-and-patterns-for-software-robustness/) en Carnegie Mellon
-University, Software Engineering Institute's Insights Blog.
+> [!TIP]
+>  Vean [Cloud design patterns that support
+>  reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/design-patterns)
+>  en Azure Well-Architected Framework y también [Tactics and Patterns for
+>  Software
+>  Robustness](https://insights.sei.cmu.edu/blog/tactics-and-patterns-for-software-robustness/)
+>  en Carnegie Mellon University, Software Engineering Institute's Insights
+>  Blog.

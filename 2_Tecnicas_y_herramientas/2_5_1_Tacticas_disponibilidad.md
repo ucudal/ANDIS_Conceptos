@@ -17,53 +17,153 @@ La lista de tácticas está tomada de[^1]:
 [^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
 
-* **Monitoreo**. Refiere a la observación continua del estado de un componente
-  de la arquitectura para detectar fallas o anomalías. Esta táctica permite la
-  identificación temprana de problemas potenciales, lo que ayuda a prevenir
-  fallas o mitigar su impacto. Por ejemplo, es posible monitorear el uso de
-  recursos o el desempeño en un servidor para evitar sobrecargas y tomar acción
-  antes de que se caiga.
+La siguiente tabla resume las tácticas disponibles, que están explicadas más
+abajo.
 
-  Vean también [Recommendations for designing a reliable monitoring and alerting
-  strategy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/monitoring-alerting-strategy)
-  en Azure Well-Architected Framework.
+<table>
+  <tr>
+    <td rowspan="26">Tácticas de disponibilidad</td>
+    <td rowspan="9" colspan="2">Detectar fallas</td>
+    <td>Monitoreo</td>
+  </tr>
+  <tr>
+    <td>Ping/echo</td>
+  </tr>
+  <tr>
+    <td>Heartbeat</td>
+  </tr>
+  <tr>
+    <td>Timestamp</td>
+  </tr>
+  <tr>
+    <td>Monitoreo de condiciones</td>
+  </tr>
+  <tr>
+    <td>Chequeo de salud</td>
+  </tr>
+  <tr>
+    <td>Voto: replicación, redundancia funcional, redundancia analítica</td>
+  </tr>
+  <tr>
+    <td>Detección de excepciones</td>
+  </tr>
+  <tr>
+    <td>Auto-diagnóstico</td>
+  </tr>
+  <tr>
+    <td rowspan="12">Recuperarse de las fallas</td>
+    <td rowspan="8">Preparación y reparación</td>
+    <td>Repuesto redundante</td>
+  </tr>
+  <tr>
+    <td>Rollback</td>
+  </tr>
+  <tr>
+    <td>Manejo de excepciones</td>
+  </tr>
+  <tr>
+    <td>Actualización de software</td>
+  </tr>
+  <tr>
+    <td>Re-intentos</td>
+  </tr>
+  <tr>
+    <td>Ignorar el comportamiento fallido</td>
+  </tr>
+  <tr>
+    <td>Degradación elegante</td>
+  </tr>
+  <tr>
+    <td>Re-configuración</td>
+  </tr>
+  <tr>
+      <td rowspan="4">Re-introducción</td>
+      <td>Sombra</td>
+  </tr>
+  <tr>
+    <td>Re-sincronización del estado</td>
+  </tr>
+  <tr>
+    <td>Escalamiento del reinicio</td>
+  </tr>
+  <tr>
+      <td>Reenvío sin pausa</td>
+  </tr>
+  <tr>
+    <td rowspan="5" colspan="2">Prevenir fallas</td>
+      <td>Remoción del servicio o rejuvenecimiento de software o reinicio terapéutico</td>
+  </tr>
+  <tr>
+      <td>Transacciones</td>
+  </tr>
+  <tr>
+      <td>Modelo predictivo</td>
+  </tr>
+  <tr>
+      <td>Prevención de excepciones</td>
+  </tr>
+  <tr>
+      <td>Aumentar el conjunto de competencia</td>
+  </tr>
+</table>
 
-* **Ping/Echo**. Es una técnica para verificar la disponibilidad de un
-  componente de la arquitectura de software mediante el envío de un mensaje
-  ‑`ping`‑ y la espera de una respuesta ‑`echo`‑. Es utilizado frecuentemente
-  para comprobar si un servidor o un servicio está activo y respondiendo. Por
-  ejemplo, el comando `ping` en sistemas operativos para verificar la
-  conectividad con una dirección IP.
+#### Monitoreo
 
-* **Heartbeat** -o latido‑. Es un mecanismo en el cual un componente de la
-  arquitectura de software envía señales periódicas para indicar que está
-  funcionando correctamente. Si la señal no es recibida dentro de un tiempo
-  establecido, se asume que el sistema ha fallado. Por ejemplo, en los sistemas
-   de alta disponibilidad que envían señales de vida entre los nodos de un
-   clúster.
+Refiere a la observación continua del estado de un componente de la arquitectura
+para detectar fallas o anomalías. Esta táctica permite la identificación
+temprana de problemas potenciales, lo que ayuda a prevenir fallas o mitigar su
+impacto. Por ejemplo, es posible monitorear el uso de recursos o el desempeño en
+un servidor para evitar sobrecargas y tomar acción antes de que se caiga.
 
-  Vean también [Health modeling for
-  workloads](https://learn.microsoft.com/en-us/azure/well-architected/cross-cutting-guides/health-modeling)
-  en Azure Well-Architected Framework.
+> [!TIP]
+> Vean también [Recommendations for designing a reliable monitoring and alerting
+> strategy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/monitoring-alerting-strategy)
+> en Azure Well-Architected Framework.
 
-* <span id="timestamp">**Timestamp**. Consiste en asociar una marca de tiempo o
-  *timestamp* a eventos o mensajes. Permite rastrear la ocurrencia de eventos en
-  un sistema, para identificar cuándo ocurrió una falla. Por ejemplo, todas las
-  entradas de un sistema de registro ‑*log*‑ deben estar marcadas con la fecha y
-  hora para facilitar el análisis de errores. En los sistemas distribuidos es
-  complejo sincronizar los relojes; si eso no fuera posible, se puede usar
-  números secuenciales.</span>
+#### *Ping/Echo*
 
-* <span id="monitoreo_condiciones">**Monitoreo de condiciones**. Es verificar
-  condiciones específicas de operación para identificar anomalías. Las
-  condiciones en tiempo de ejecución deben ser consistentes con las asumidas
-  durante el diseño. Por ejemplo, el uso de *checksums* ‑sumas de verificación‑
-  es una implementación de esta táctica.</span>
+Es una técnica para verificar la disponibilidad de un componente de la
+arquitectura de software mediante el envío de un mensaje ‑`ping`‑ y la espera de
+una respuesta ‑`echo`‑. Es utilizado frecuentemente para comprobar si un
+servidor o un servicio está activo y respondiendo. Por ejemplo, el comando
+`ping` en sistemas operativos para verificar la conectividad con una dirección
+IP.
 
-* <span id="control_cordura">**Control de cordura** ‑o *sanity check*. Es una
-  verificación simple y rápida para asegurar que los valores recibidos o
-  calculados por un componente de la arquitectura de software, o su estado, son
-  razonables.</span>
+#### *Heartbeat* -o latido‑
+
+Es un mecanismo en el cual un componente de la
+arquitectura de software envía señales periódicas para indicar que está
+funcionando correctamente. Si la señal no es recibida dentro de un tiempo
+establecido, se asume que el sistema ha fallado. Por ejemplo, en los sistemas
+de alta disponibilidad que envían señales de vida entre los nodos de un clúster.
+
+> [!TIP]
+> Vean también [Health modeling for
+> workloads](https://learn.microsoft.com/en-us/azure/well-architected/cross-cutting-guides/health-modeling)
+> en Azure Well-Architected Framework.
+
+#### *Timestamp*
+
+Consiste en asociar una marca de tiempo o *timestamp* a eventos o mensajes.
+Permite rastrear la ocurrencia de eventos en un sistema, para identificar cuándo
+ocurrió una falla. Por ejemplo, todas las entradas de un sistema de registro
+‑*log*‑ deben estar marcadas con la fecha y hora para facilitar el análisis de
+errores. En los sistemas distribuidos es complejo sincronizar los relojes; si
+eso no fuera posible, se puede usar números secuenciales.</span>
+
+#### Monitoreo de condiciones
+
+Es verificar condiciones específicas de operación para identificar anomalías.
+Las condiciones en tiempo de ejecución deben ser consistentes con las asumidas
+durante el diseño. Por ejemplo, el uso de *checksums* ‑sumas de verificación‑ es
+una implementación de esta táctica.
+
+#### Control de cordura** ‑o *sanity check*
+
+Es una
+verificación simple y rápida para asegurar que los valores recibidos o
+calculados por un componente de la arquitectura de software, o su estado, son
+razonables.
 
 * <span id="replicacion">**Voto‑Replicación**. La replicación es una táctica de
   disponibilidad en la que se crean copias exactas ‑instancias o réplicas‑ de un
