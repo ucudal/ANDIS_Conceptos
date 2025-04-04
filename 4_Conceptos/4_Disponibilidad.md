@@ -3,8 +3,8 @@
 ## Disponibilidad o *availability*
 
 La disponibilidad ‑o *availability* en inglés‑ es un atributo de calidad de una
-arquitectura de software que define el grado en el cual un sistema, producto o
-componente está operativo y accesible cuando se requiere su uso[^1].
+arquitectura de software que define el grado en el cual un sistema o componente
+está operativo y accesible cuando se requiere su uso[^1].
 
 [^1]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
     engineering‑Systems and software Quality Requirements and Evaluation
@@ -145,104 +145,12 @@ dependiendo de la criticidad del sistema.
 La disponibilidad es un aspecto crucial de la arquitectura de un producto que
 requiere alta confiabilidad y accesibilidad constante.
 
-#### Tácticas
+### Tácticas para disponibilidad
 
 > [!TIP]
 > Vean [este
 > documento](/2_Tecnicas_y_herramientas/2_5_1_Tacticas_disponibilidad.md) para
-> conocer diversas tácticas para lograr la disponibilidad.
-
-<!-- ### Tácticas para la disponibilidad
-
-Vean más detalles sobre estas tácticas para la disponibilidad
-[aquí](/2_Tecnicas_y_herramientas/2_5_1_Tacticas_disponibilidad.md).
-
-<table>
-  <tr>
-    <td rowspan="26">Tácticas de disponibilidad</td>
-    <td rowspan="9" colspan="2">Detectar fallas</td>
-    <td>Monitoreo</td>
-  </tr>
-  <tr>
-    <td>Ping/echo</td>
-  </tr>
-  <tr>
-    <td>Heartbeat</td>
-  </tr>
-  <tr>
-    <td>Timestamp</td>
-  </tr>
-  <tr>
-    <td>Monitoreo de condiciones</td>
-  </tr>
-  <tr>
-    <td>Chequeo de salud</td>
-  </tr>
-  <tr>
-    <td>Voto: replicación, redundancia funcional, redundancia analítica</td>
-  </tr>
-  <tr>
-    <td>Detección de excepciones</td>
-  </tr>
-  <tr>
-    <td>Auto-diagnóstico</td>
-  </tr>
-  <tr>
-    <td rowspan="12">Recuperarse de las fallas</td>
-    <td rowspan="8">Preparación y reparación</td>
-    <td>Repuesto redundante</td>
-  </tr>
-  <tr>
-    <td>Rollback</td>
-  </tr>
-  <tr>
-    <td>Manejo de excepciones</td>
-  </tr>
-  <tr>
-    <td>Actualización de software</td>
-  </tr>
-  <tr>
-    <td>Re-intentos</td>
-  </tr>
-  <tr>
-    <td>Ignorar el comportamiento fallido</td>
-  </tr>
-  <tr>
-    <td>Degradación elegante</td>
-  </tr>
-  <tr>
-    <td>Re-configuración</td>
-  </tr>
-  <tr>
-      <td rowspan="4">Re-introducción</td>
-      <td>Sombra</td>
-  </tr>
-  <tr>
-    <td>Re-sincronización del estado</td>
-  </tr>
-  <tr>
-    <td>Escalamiento del reinicio</td>
-  </tr>
-  <tr>
-      <td>Reenvío sin pausa</td>
-  </tr>
-  <tr>
-    <td rowspan="5" colspan="2">Prevenir fallas</td>
-      <td>Remoción del servicio o rejuvenecimiento de software o reinicio terapéutico</td>
-  </tr>
-  <tr>
-      <td>Transacciones</td>
-  </tr>
-  <tr>
-      <td>Modelo predictivo</td>
-  </tr>
-  <tr>
-      <td>Prevención de excepciones</td>
-  </tr>
-  <tr>
-      <td>Aumentar el conjunto de competencia</td>
-  </tr>
-</table> -->
+> conocer diversas tácticas para implementar la disponibilidad.
 
 ### Patrones para disponibilidad
 

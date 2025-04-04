@@ -12,98 +12,98 @@ plataformas, *middleware* u otras infraestructuras de software, por lo que el
 arquitecto debe elegir y evaluar ‑en lugar de implementar‑ las tácticas de
 disponibilidad adecuadas y la combinación correcta de tácticas.
 
-La lista de tácticas está tomada de[^1]:
+La siguiente tabla —tomada de[^1]— resume las tácticas disponibles, que están
+explicadas más abajo.
 
 [^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
-
-La siguiente tabla resume las tácticas disponibles, que están explicadas más
-abajo.
 
 <table>
   <tr>
     <td rowspan="26">Tácticas de disponibilidad</td>
     <td rowspan="9" colspan="2">Detectar fallas</td>
-    <td><a href="monitoreo">Monitoreo</a></td>
+    <td><a href="#monitoreo">Monitoreo</a></td>
   </tr>
   <tr>
-    <td>Ping/echo</td>
+    <td><a href="#pingecho">Ping/echo</a></td>
   </tr>
   <tr>
-    <td>Heartbeat</td>
+    <td><a href="#heartbeat--o-latido">Heartbeat</a></td>
   </tr>
   <tr>
-    <td>Timestamp</td>
+    <td><a href="#timestamp">Timestamp</a></td>
   </tr>
   <tr>
-    <td>Monitoreo de condiciones</td>
+    <td><a href="#monitoreo-de-condiciones">Monitoreo de condiciones</a></td>
   </tr>
   <tr>
-    <td>Chequeo de salud</td>
+    <td><a href="#control-de-cordura-o-sanity-check">Control de cordura o <i>sanity check</i></a></td>
   </tr>
   <tr>
-    <td>Voto: replicación, redundancia funcional, redundancia analítica</td>
+    <td>Voto con <a href="#voto-replicación">replicación</a>, con <a href="#voto-redundancia-funcional">redundancia funcional</a>, con <a href="#voto-redundancia-analítica">redundancia analítica</a></td>
   </tr>
   <tr>
-    <td>Detección de excepciones</td>
+    <td><a href="#detección-de-excepciones">Detección de excepciones</a></td>
   </tr>
   <tr>
-    <td>Auto-diagnóstico</td>
+    <td><a href="#auto-diagnóstico-o-self-test">Auto- o <i>self test</i></a></td>
   </tr>
   <tr>
     <td rowspan="12">Recuperarse de las fallas</td>
     <td rowspan="8">Preparación y reparación</td>
-    <td>Repuesto redundante</td>
+    <td><a href="#repuesto-redundante">Repuesto redundante</a></td>
   </tr>
   <tr>
-    <td>Rollback</td>
+    <td><a href="#rollback">Rollback</a></td>
   </tr>
   <tr>
-    <td>Manejo de excepciones</td>
+    <td><a href="#manejo-de-excepciones">Manejo de excepciones</a></td>
   </tr>
   <tr>
-    <td>Actualización de software</td>
+    <td><a href="#actualización-de-software">Actualización de software</a></td>
   </tr>
   <tr>
-    <td>Re-intentos</td>
+    <td><a href="#re-intentos">Re-intentos</a></td>
   </tr>
   <tr>
-    <td>Ignorar el comportamiento fallido</td>
+    <td><a href="#ignorar-el-comportamiento-fallido">Ignorar el comportamiento fallido</a></td>
   </tr>
   <tr>
-    <td>Degradación elegante</td>
+    <td><a href="#degradación-elegante">Degradación elegante</a></td>
   </tr>
   <tr>
-    <td>Re-configuración</td>
+    <td><a href="#re-configuración">Re-configuración</a></td>
   </tr>
   <tr>
       <td rowspan="4">Re-introducción</td>
-      <td>Sombra</td>
+      <td><a href="#sombra-o-shadow">Sombra o <i>shadowing</i></a></td>
   </tr>
   <tr>
-    <td>Re-sincronización del estado</td>
+    <td><a href="#re-sincronización-del-estado">Re-sincronización del estado</a></td>
   </tr>
   <tr>
-    <td>Escalamiento del reinicio</td>
+    <td><a href="#escalamiento-del-reinicio">Escalamiento del reinicio</a></td>
   </tr>
   <tr>
-      <td>Reenvío sin pausa</td>
+      <td><a href="#reenvío-sin-pausa">Reenvío sin pausa</a></td>
   </tr>
   <tr>
     <td rowspan="5" colspan="2">Prevenir fallas</td>
-      <td>Remoción del servicio o rejuvenecimiento de software o reinicio terapéutico</td>
+    <td><a href=
+    "#remoción-del-servicio-o-rejuvenecimiento-de-software-o-reinicio-terapéutico">
+    Remoción del servicio o rejuvenecimiento de software o reinicio terapéutico</a></td>
   </tr>
   <tr>
-      <td>Transacciones</td>
+      <td><a href="#transacciones">Transacciones</a></td>
   </tr>
   <tr>
-      <td>Modelo predictivo</td>
+      <td><a href="#modelo-predictivo">Modelo predictivo</a></td>
   </tr>
   <tr>
-      <td>Prevención de excepciones</td>
+      <td><a href="#prevención-de-excepciones">Prevención de excepciones</a></td>
   </tr>
   <tr>
-      <td>Aumentar el conjunto de competencia</td>
+      <td><a href="#aumentar-el-conjunto-de-competencia">Aumentar el conjunto de competencia</a></td>
   </tr>
 </table>
 
@@ -164,7 +164,7 @@ Es una verificación simple y rápida para asegurar que los valores recibidos o
 calculados por un componente de la arquitectura de software, o su estado, son
 razonables.
 
-#### Voto‑Replicación
+#### Voto: Replicación
 
 La replicación es una táctica de disponibilidad en la que se crean copias
 exactas ‑instancias o réplicas‑ de un componente para garantizar que, en caso de
@@ -186,7 +186,7 @@ Hay dos tipos de replicación:
 > redundancy](https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy)
 > en Azure Well-Architected Framework.
 
-#### Voto-Redundancia funcional
+#### Voto: Redundancia funcional
 
 La redundancia funcional se refiere a la implementación de varias funciones que
 cumplen la misma tarea, pero de manera diferente; es decir, a las mismas
@@ -194,7 +194,7 @@ entradas producen la misma salida, pero la computan de forma diferente. Esto
 permite que si una función falla, otra pueda realizar la misma tarea,
 garantizando la continuidad del servicio.
 
-#### Voto-Redundancia analítica
+#### Voto: Redundancia analítica
 
 La redundancia analítica implica el uso de diferentes métodos o algoritmos para
 analizar el mismo conjunto de datos y obtener un resultado consensuado. Esta
@@ -230,10 +230,11 @@ pueden asumir el control en caso de que uno falle.
 
 #### *Rollback*
 
-Consiste en volver a un estado anterior
-conocido y correcto en caso de error o falla. Es una táctica crucial en la
-implementación de actualizaciones y cambios de los componentes. Por ejemplo,
-deshacer una actualización de software que causó problemas operativos.
+Es la capacidad de revertir un cambio —por ejemplo, un despliegue— a un estado
+anterior en caso de que se detecten problemas durante o después del cambio. Esto
+incluye la restauración de datos y configuraciones a su estado previo. Para
+poder lograr el *rollback* es necesaria una trazabilidad detallada de todos los
+cambios que ocurren durante el despliegue.
 
 > [!TIP]
 > Vean también [Recommendations for designing a deployment failure mitigation
