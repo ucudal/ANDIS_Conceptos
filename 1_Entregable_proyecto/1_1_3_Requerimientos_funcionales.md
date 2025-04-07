@@ -15,14 +15,14 @@ sus requerimientos funcionales.
 <img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Utilizando un [diagrama
-BPMN](../2_Tecnicas_y_herramientas/2_4_4_Diagramas_BPMN.md), denotar los
+BPMN](../2_Tecnicas_y_herramientas/2_04_04_Diagramas_BPMN.md), denotar los
 procesos de negocio pertinentes que existen actualmente y que pueden ser
 reemplazados o cambiados por la solución a desarrollar.
 
 <!-- SECCIÓN: Interfaces pertinentes al trabajo -->
-A alto nivel y mediante un [diagrama de../2_Tecnicas_y_herramientas/2_01_2_Diagramas_de_contexto.md
-contexto](../2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md), explicar
-las interacciones de la solución con sus sistemas
+A alto nivel y mediante un [diagrama de contexto
+contexto](../2_Tecnicas_y_herramientas/2_01_02_Diagramas_de_contexto.md),
+explicar las interacciones de la solución con sus sistemas
 [adyacentes](/4_Conceptos/4_Sistema_adyacente.md) ‑otras personas,
 organizaciones, hardware y software‑ y el input/output de estas interacciones.
 
@@ -61,8 +61,8 @@ diagramas de flujo, diagramas de secuencia o mapas mentales.
 > largo y ancho del proyecto[^1].
 
 Mediante un [diagrama de clases
-UML](../2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md), un [modelo
-entidad-relación](/2_Tecnicas_y_herramientas/2_3_2_Modelos_de_entidad_relacion.md)
+UML](../2_Tecnicas_y_herramientas/2_03_01_Diagramas_de_clases_UML.md), un [modelo
+entidad-relación](/2_Tecnicas_y_herramientas/2_03_02_Modelos_de_entidad_relacion.md)
 o cualquier otro diagrama de datos, especificar todas las entidades o clases
 relevantes al contexto del trabajo. Lo interesante aquí es mostrar todas las
 entidades en cuestión y sus atributos o propiedades, además de mostrar cómo las
@@ -106,7 +106,7 @@ de usar al definir requerimientos atómicos detallados.
 <img alt="REQUERIDO" src="https://img.shields.io/badge/REQUERIDO-FF4D4D" />
 
 Mediante un [diagrama de casos de
-uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md), definir
+uso](/2_Tecnicas_y_herramientas/2_04_02_Diagramas_de_casos_de_uso_UML.md), definir
 los casos de uso del producto. Una tabla con la misma información que los
 diagramas de casos de uso ‑es decir, nombre de los casos de uso, actores
 participantes, relación de `extends` o `includes` con otros casos de uso‑ suele
@@ -126,9 +126,9 @@ mediante una de las siguientes opciones:
 * Un escenario descrito textualmente, paso a paso, incluyendo excepciones y
   alternativas
 * Un [diagrama de actividades
-  UML](../2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md) o un
+  UML](../2_Tecnicas_y_herramientas/2_04_01_Diagramas_de_actividades_UML.md) o un
   [diagrama de procesos
-  BPMN](/2_Tecnicas_y_herramientas/2_4_4_Diagramas_BPMN.md)
+  BPMN](/2_Tecnicas_y_herramientas/2_04_04_Diagramas_BPMN.md)
 * Una historia de usuario descrita textualmente
 * Un guión gráfico
 * Un prototipo de baja o alta fidelidad

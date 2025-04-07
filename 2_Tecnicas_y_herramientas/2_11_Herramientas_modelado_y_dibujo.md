@@ -3,14 +3,14 @@
 ## 2.11 Modelado y dibujo
 
 Las herramientas de modelado y dibujo permiten construir modelos y diagramas
-como los incluidos en [modelos de estructura](./2_3_.Modelos_de_estructura.md),
-[modelos de comportamiento](./2_4_.Modelos_de_comportamiento.md), o
-[arquitectura](./2_2_.Arquitectura.md).
+como los incluidos en [modelos de estructura](./2_03_.Modelos_de_estructura.md),
+[modelos de comportamiento](./2_04_.Modelos_de_comportamiento.md), o
+[arquitectura](./2_02_.Arquitectura.md).
 
 Una herramienta de modelado permite definir primero un modelo —por ejemplo un
 modelo de [dominio](/4_Conceptos/4_Dominio.md)— y luego generar a partir de ese
 modelo diferentes diagramas —por ejemplo [diagramas de
-clases](./2_3_1_Diagramas_de_clases_UML.md). Para cambiar las entidades que
+clases](./2_03_01_Diagramas_de_clases_UML.md). Para cambiar las entidades que
 aparecen en el diagrama, o alguna de sus propiedades o relaciones, es necesario
 modificar primero el modelo y volver a generar los diagramas. De esta forma es
 más simple tener los diagramas consistentes entre sí, porque la sincronización
@@ -92,9 +92,6 @@ CUSTOMER }|..|{ DELIVERY_ADDRESS : uses
 @enduml
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 ![Demo de PlantUML](/diagrams/PlantUML_Demo.svg)
 
 Otro ejemplo es [Mermaid](https://mermaid.js.org/). También existe un [editor
@@ -106,39 +103,8 @@ este bloque de código —que está incluido tal como lo ves en este documento, 
 dentro de un [*fenced code
 block*](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)—, da
 lugar al diagrama que está debajo:
-=======
-=======
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/ucudal/ANDIS_Conceptos/blob/feature/177/2_Tecnicas_y_herramientas/2_11_Herramientas_modelado_y_dibujo.md)
 
->>>>>>> ce75b4d (#177 work in progress)
-```plantuml
-@startuml
-CUSTOMER ||--o{ ORDER : places
-ORDER ||--|{ LINE_ITEM : contains
-CUSTOMER }|..|{ DELIVERY_ADDRESS : uses
-@enduml
-```
-
-Otro ejemplo es [Mermaid](https://mermaid.js.org/). También existe un [editor
-online](https://www.mermaidchart.com/) de diagramas escritos en Mermaid, y
-también es posible incluir el código de los diagramas directamente en documentos
-Markdown:
->>>>>>> d75a76f (#177 work in progress)
-=======
-![Demo de PlantUML](/diagrams/PlantUML_Demo.svg)
-
-Otro ejemplo es [Mermaid](https://mermaid.js.org/). También existe un [editor
-online](https://www.mermaidchart.com/) de diagramas escritos en Mermaid. Es
-posible incluir código Mermaid directamente en documentos
-[Markdown](https://daringfireball.net/projects/markdown/) —Markdown es el
-lenguaje en el que está escrito este documento que estás viendo—. Por ejemplo,
-este bloque de código —que está incluido tal como lo ves en este documento, pero
-dentro de un [*fenced code
-block*](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)—, da
-lugar al diagrama que está debajo:
->>>>>>> 5f367fd (Done #177)
-
-```
+```code
 erDiagram
     CUSTOMER ||--o{ ORDER : places
     ORDER ||--|{ LINE-ITEM : contains

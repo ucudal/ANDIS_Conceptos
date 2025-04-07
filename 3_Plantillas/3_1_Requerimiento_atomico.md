@@ -130,7 +130,7 @@ y el texto a completar en el color normal. Tomado de [^1].
 
 > [!TIP]
 > Vean además la [checklist de
-> requerimientos](/2_Tecnicas_y_herramientas/2_1_04_Checklist_requerimientos.md).
+> requerimientos](/2_Tecnicas_y_herramientas/2_01_04_Checklist_requerimientos.md).
 
 -----
 <span id="ref_1">Tipos de requerimiento</span>:
@@ -142,7 +142,7 @@ y el texto a completar en el color normal. Tomado de [^1].
 * Impulsor o *driver* del proyecto
 * Cuestiones o *issues* del proyecto <a href="#back_ref_1" title="Volver...">↩︎</a>
 
-<span id="ref_2">#Evento/Caso de uso</span>:
+<span id="ref_2">Evento/Caso de uso</span>:
 
 * Lista de identificadores de eventos o casos de uso que necesitan
 este requerimiento.<a href="#back_ref_2" title="Volver...">↩︎</a>

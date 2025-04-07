@@ -77,8 +77,8 @@ Además, el estado inseguro debe ser registrado e informado.
 ### Tácticas para la protección
 
 > [!TIP]
-> Vean [este documento](/2_Tecnicas_y_herramientas/2_5_5_Tacticas_proteccion.md)
-> para conocer diversas tácticas para implementar la facilidad de modificación.
+> Vean [este documento](/2_Tecnicas_y_herramientas/2_05_03_Tacticas_proteccion.md)
+> para conocer diversas tácticas para implementar la protección.
 
 ### Patrones para la protección
 

@@ -16,6 +16,6 @@
 [^2]: Cervantes, H.; Kazman, R. (2024). Designing Software Architectures,
     2<sup>nd</sup> Edition. Addison-Wesley.
 
-* [ADD](/2_Tecnicas_y_herramientas/2_6_2_ADD.md)
+* [ADD](/2_Tecnicas_y_herramientas/2_06_02_ADD.md)
 
 * [ADR](/4_Conceptos/4_ADR.md) y [plantillas de ADR](/3_Plantillas/3_18_ADR.md)

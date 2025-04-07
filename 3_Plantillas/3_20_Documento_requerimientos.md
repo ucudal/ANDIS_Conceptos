@@ -48,7 +48,7 @@ la sección respectiva en este repositorio.
     [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-apariencia).
 
 11. Requerimientos de facilidad de uso y humanidad. Consulta los detalles
-    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-usabilidad-y-humanidad).
+    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-facilidad-de-uso-y-humanidad).
 
 12. Requerimientos de desempeño. Consulta los detalles
     [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-desempeño).

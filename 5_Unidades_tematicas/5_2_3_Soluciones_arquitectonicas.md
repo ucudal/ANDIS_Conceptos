@@ -9,7 +9,7 @@
 * [Componentes](/4_Conceptos/4_Componente.md)
 
 * [Ciclo de identificación de
-  componentes](/2_Tecnicas_y_herramientas/2_2_2_Ciclo_identificacion_componentes.md)
+  componentes](/2_Tecnicas_y_herramientas/2_02_02_Ciclo_identificacion_componentes.md)
 
 * [Interfaces](/4_Conceptos/4_Interfaz.md)
 
