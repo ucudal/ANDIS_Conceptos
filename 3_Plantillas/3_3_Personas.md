@@ -3,7 +3,7 @@
 ## 3.3 Personas
 
 Aunque no hay una forma estándar de representar las
-[*personas*](/2_Tecnicas_y_herramientas/2_1_03_Personas.md), esta plantilla puede
+[*personas*](/2_Tecnicas_y_herramientas/2_01_03_Personas.md), esta plantilla puede
 resultar útil.
 
 <table border="">

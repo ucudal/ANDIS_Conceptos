@@ -90,7 +90,7 @@ tiempo de bloqueo ‑cuando el sistema no puede responder‑.
 
 > [!TIP]
 > Vean más información sobre las tácticas para rendimiento
-> [aquí](/2_Tecnicas_y_herramientas/2_5_2_Tacticas_rendimiento.md).
+> [aquí](/2_Tecnicas_y_herramientas/2_05_02_Tacticas_rendimiento.md).
 
 ### Patrones para el rendimiento y la eficiencia
 

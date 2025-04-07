@@ -89,7 +89,7 @@ del proceso de despliegue.
 
 #### *Rollback*
 
-Está explicado [aquí](./2_5_1_Tacticas_disponibilidad.md#rollback).
+Está explicado [aquí](./2_05_01_Tacticas_disponibilidad.md#rollback).
 
 #### Gestionar las interacciones entre servicios
 

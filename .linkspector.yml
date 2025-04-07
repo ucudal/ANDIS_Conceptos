@@ -1,0 +1,9 @@
+dirs:
+  - ./
+useGitIgnore: true
+ignorePatterns:
+  - pattern: '#figura-\d+'
+  - pattern: '#tabla-\d+'
+  - pattern: 'https://www.standishgroup.com/sample_research_files/.*$'
+  - pattern: 'https://www.researchgate.net/profile/Connie_Smith5/publication/234792513_PASASM_A_method_for_the_performance_assessment_of_software_architectures/links/02e7e52b25ec295c19000000/PASASM-A-method-for-the-performance-assessment-of-software-architectures.pdf'
+

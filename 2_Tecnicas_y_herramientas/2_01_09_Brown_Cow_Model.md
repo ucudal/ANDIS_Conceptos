@@ -113,7 +113,7 @@ perspectiva del trabajo, como se muestra en la [Figura 1](#figura-1).
   tecnología y las personas necesarias para traerla al mundo real.
 
 El *Brown Cow Model* puede ser utilizado junto con la [*Benefits Dependency
-Network*](./2_1_10_Benefits_Dependency_Network.md) para mostrar —en línea con
+Network*](./2_01_10_Benefits_Dependency_Network.md) para mostrar —en línea con
 las perspectivas mencionadas— cómo los cambios en el futuro del negocio y las
 inversiones para el producto de software están alineadas con los objetivos del
 negocio.

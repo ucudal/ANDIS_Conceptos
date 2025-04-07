@@ -21,7 +21,7 @@ implica que se ha realizado un FTA[^2].
     via [Timbó](https://timbo.org.uy/).
 
 Varias de las tácticas para protección aparecen también como [tácticas para
-disponibilidad](/2_Tecnicas_y_herramientas/2_5_1_Tacticas_disponibilidad.md).
+disponibilidad](/2_Tecnicas_y_herramientas/2_05_01_Tacticas_disponibilidad.md).
 
 La siguiente tabla —tomada de[^1]— resume las tácticas disponibles, que están
 explicadas más abajo.
@@ -155,18 +155,18 @@ Synchrotron en el CERN. Caen dentro de esta categoría componentes como
 
 #### Modelo predictivo
 
-Está explicado [aquí](./2_5_1_Tacticas_disponibilidad.md#modelo-predictivo).
+Está explicado [aquí](./2_05_01_Tacticas_disponibilidad.md#modelo-predictivo).
 
 #### Control de cordura o *sanity check*
 
-Está explicado [aquí](./2_5_1_Tacticas_disponibilidad.md#control-de-cordura-o-sanity-check)
+Está explicado [aquí](./2_05_01_Tacticas_disponibilidad.md#control-de-cordura-o-sanity-check)
 
 #### Comparación
 
 Implica verificar los resultados de ciertas operaciones comparándolos con los de
 sistemas redundantes; por lo tanto esta táctica se usa junto con las de
 redundancia mencionadas en [tácticas de
-disponibilidad](./2_5_1_Tacticas_disponibilidad.md#voto-replicación). Esto ayuda
+disponibilidad](./2_05_01_Tacticas_disponibilidad.md#voto-replicación). Esto ayuda
 a detectar fallos antes de que causen situaciones inseguras.
 
 #### Tiempo de espera o *timeout*
@@ -179,25 +179,25 @@ inseguros causados por factores relacionados con el tiempo.
 #### Monitoreo de condiciones
 
 Está explicado
-[aquí](./2_5_1_Tacticas_disponibilidad.md#monitoreo-de-condiciones).
+[aquí](./2_05_01_Tacticas_disponibilidad.md#monitoreo-de-condiciones).
 
 #### *Timestamp*
 
-Está explicado [aquí](./2_5_1_Tacticas_disponibilidad.md#timestamp).
+Está explicado [aquí](./2_05_01_Tacticas_disponibilidad.md#timestamp).
 
 #### Replicación
 
-Está explicado [aquí](./2_5_1_Tacticas_disponibilidad.md#voto-replicación).
+Está explicado [aquí](./2_05_01_Tacticas_disponibilidad.md#voto-replicación).
 
 #### Redundancia analítica
 
 Está explicado
-[aquí](./2_5_1_Tacticas_disponibilidad.md#voto-redundancia-analítica).
+[aquí](./2_05_01_Tacticas_disponibilidad.md#voto-redundancia-analítica).
 
 #### Redundancia funcional
 
 Está explicado
-[aquí](./2_5_1_Tacticas_disponibilidad.md#voto-redundancia-funcional).
+[aquí](./2_05_01_Tacticas_disponibilidad.md#voto-redundancia-funcional).
 
 #### Enmascaramiento o *masking*
 
@@ -227,11 +227,11 @@ sustitución más arriba.
 
 #### *Rollback*
 
-Está explicado [aquí](./2_5_1_Tacticas_disponibilidad.md#rollback).
+Está explicado [aquí](./2_05_01_Tacticas_disponibilidad.md#rollback).
 
 #### Re-configuración
 
-Está explicado [aquí](./2_5_1_Tacticas_disponibilidad.md#re-configuración).
+Está explicado [aquí](./2_05_01_Tacticas_disponibilidad.md#re-configuración).
 
 #### Reparación del estado o *repair state*
 

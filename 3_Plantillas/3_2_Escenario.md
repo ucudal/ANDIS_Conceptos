@@ -79,7 +79,7 @@ sean accesibles para todos los [interesados](/4_Conceptos/4_Interesado.md).
             </br>
             Para el caso normal, las alternativas y las excepciones es posible
             usar <a href="/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md">
-            diagramas de actividades</a> o un <a href="/2_Tecnicas_y_herramientas/2_4_4_Diagramas_BPMN.md">
+            diagramas de actividades</a> o un <a href="/2_Tecnicas_y_herramientas/2_04_04_Diagramas_BPMN.md">
             diagram BPMN</a>.
         </td>
     </tr>

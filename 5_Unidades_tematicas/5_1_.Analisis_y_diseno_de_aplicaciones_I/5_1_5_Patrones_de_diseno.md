@@ -7,48 +7,49 @@
 #### Lecturas
 
 1. En este repositorio hay una página dedicada a [patrones de
-   diseño](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md), fundamentalmente
+   diseño](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md), fundamentalmente
    los de [^1]; lee acerca de los siguientes patrones a partir de las referencias
    allí indicadas:
 
-    * [Singleton](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#singleton)
+    * [Singleton](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#singleton)
 
-    * [Factory](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#factory)
+    * [Factory
+      Method](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#factory-method)
 
-    * [Prototype](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#prototype)
+    * [Abstract Factory](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#abstract-factory)
 
-    * [Builder](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#builder)
+    * [Prototype](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#prototype)
 
-    * [Adapter](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#adapter)
+    * [Builder](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#builder)
 
-    * [Bridge](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#bridge)
+    * [Adapter](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#adapter)
 
-    * [Decorator](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#decorator)
+    * [Bridge](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#bridge)
 
-    * [Façade](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#façade)
+    * [Decorator](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#decorator)
 
-    * [Proxy](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#proxy)
+    * [Façade](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#façade)
 
-    * [Data Access Object](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#data-access-object)
+    * [Proxy](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#proxy)
 
-    * [Repository](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#repository)
+    * [Data Access Object](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#data-access-object)
 
     * [Chain of
-      responsibility](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#chain-of-responsibility)
+      responsibility](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#chain-of-responsibility)
 
-    * [Command](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#command)
+    * [Command](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#command)
 
-    * [Mediator](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#mediator)
+    * [Mediator](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#mediator)
 
-    * [Memento](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#memento)
+    * [Memento](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#memento)
 
-    * [Observer](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#observer)
+    * [Observer](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#observer)
 
-    * [State](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#state)
+    * [State](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#state)
 
-    * [Strategy](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#strategy)
+    * [Strategy](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#strategy)
 
-    * [Visitor](/2_Tecnicas_y_herramientas/2_8_.Patrones_de_diseno.md#visitor)
+    * [Visitor](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#visitor)
 
 [^1]: Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design patterns:
     Elements of reusable object-oriented software. Addison Wesley Professional.
@@ -57,19 +58,19 @@
 
 2. En este repositorio lee también lo siguiente:
 
-    * [MVC](/2_Tecnicas_y_herramientas/2_9_MVC.md)
+    * [MVC](/2_Tecnicas_y_herramientas/2_09_MVC.md)
 
-    * [Aggregate](/2_Tecnicas_y_herramientas/2_8_Aggregate.md)
+    * [Aggregate](/2_Tecnicas_y_herramientas/2_08_Aggregate.md)
 
-    * [Entity](/2_Tecnicas_y_herramientas/2_8_Entity.md)
+    * [Entity](/2_Tecnicas_y_herramientas/2_08_Entity.md)
 
-    * [Factory](/2_Tecnicas_y_herramientas/2_8_Factory.md)
+    * [Factory](/2_Tecnicas_y_herramientas/2_08_Factory.md)
 
-    * [Value Object](/2_Tecnicas_y_herramientas/2_8_Value_Object.md)
+    * [Value Object](/2_Tecnicas_y_herramientas/2_08_Value_Object.md)
 
-    * [Repository](/2_Tecnicas_y_herramientas/2_8_Repository.md)
+    * [Repository](/2_Tecnicas_y_herramientas/2_08_Repository.md)
 
-    * [Service](/2_Tecnicas_y_herramientas/2_8_Service.md)
+    * [Service](/2_Tecnicas_y_herramientas/2_08_Service.md)
 
 3. En este repositorio lee también lo siguiente:
 

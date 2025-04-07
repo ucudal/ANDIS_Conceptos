@@ -8,13 +8,13 @@
 
 1. En este repositorio lee lo siguiente:
 
-    * [Volere](/2_Tecnicas_y_herramientas/2_6_1_Volere.md). Puedes ver antes
+    * [Volere](/2_Tecnicas_y_herramientas/2_06_01_Volere.md). Puedes ver antes
       [este video](https://www.youtube.com/watch?v=M5Z1igBmM3w) para tener una
       visión general de cómo fluye el proceso.
 
     * [Requerimiento](/4_Conceptos/4_Requerimiento.md)
 
-    * [*Checklist* de requerimientos](/2_Tecnicas_y_herramientas/2_1_04_Checklist_requerimientos.md)
+    * [*Checklist* de requerimientos](/2_Tecnicas_y_herramientas/2_01_04_Checklist_requerimientos.md)
 
     * [Caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md)
 
@@ -26,12 +26,12 @@
 
     * [Escenario](/4_Conceptos/4_Escenario.md)
 
-    * [*Personas*](/2_Tecnicas_y_herramientas/2_1_03_Personas.md)
+    * [*Personas*](/2_Tecnicas_y_herramientas/2_01_03_Personas.md)
 
     * [Diagramas de
-      contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md)
+      contexto](/2_Tecnicas_y_herramientas/2_01_02_Diagramas_de_contexto.md)
 
-    * [Entrevistas](/2_Tecnicas_y_herramientas/2_1_07_Entrevista.md), incluyendo
+    * [Entrevistas](/2_Tecnicas_y_herramientas/2_01_07_Entrevista.md), incluyendo
       los links donde dice ![](/assets/report-16.svg) <span style="color:#8256d0;font-weight:bold">Importante</span>.
 
 2. Lee lo siguiente de [^1].
@@ -78,15 +78,15 @@ En este repositorio:
 
 * [Épica](/4_Conceptos/4_Epica.md)
 
-* [Diagramas UML de casos de uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md)
+* [Diagramas UML de casos de uso](/2_Tecnicas_y_herramientas/2_04_02_Diagramas_de_casos_de_uso_UML.md)
 
-* [Diagramas de actividades UML](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
+* [Diagramas de actividades UML](/2_Tecnicas_y_herramientas/2_04_01_Diagramas_de_actividades_UML.md)
 
-* [Mapas mentales](/2_Tecnicas_y_herramientas/2_1_01_Mapas_mentales.md)
+* [Mapas mentales](/2_Tecnicas_y_herramientas/2_01_01_Mapas_mentales.md)
 
-* [Observación como participante](/2_Tecnicas_y_herramientas/2_1_06_Observacion_Participante.md)
+* [Observación como participante](/2_Tecnicas_y_herramientas/2_01_06_Observacion_Participante.md)
 
-* [Entrevista](/2_Tecnicas_y_herramientas/2_1_07_Entrevista.md)
+* [Entrevista](/2_Tecnicas_y_herramientas/2_01_07_Entrevista.md)
 
 Daniels, L. (2000). Managing the product requirements definition process. In
 Project Management Institute Annual Seminars & Symposium, Houston, TX. <!--

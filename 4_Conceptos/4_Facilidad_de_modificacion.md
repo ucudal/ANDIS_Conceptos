@@ -50,7 +50,7 @@ Algunas categorías de modificaciones tienen nombres propios[^1]:
 
 > [!TIP]
 > Vean [este
-> documento](/2_Tecnicas_y_herramientas/2_5_5_Tacticas_facilidad_de_modificacion.md)
+> documento](/2_Tecnicas_y_herramientas/2_05_05_Tacticas_facilidad_de_modificacion.md)
 > para conocer diversas tácticas para implementar la facilidad de modificación.
 
 ### Patrones para la facilidad de modificación

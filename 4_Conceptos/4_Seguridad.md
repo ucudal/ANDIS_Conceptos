@@ -69,7 +69,7 @@ inglés. Pueden ver más información sobre qué es y cómo usar un árbol de at
 ### Tácticas para la seguridad
 
 > [!TIP]
-> Vean [este documento](/2_Tecnicas_y_herramientas/2_5_4_Tacticas_seguridad.md)
+> Vean [este documento](/2_Tecnicas_y_herramientas/2_05_04_Tacticas_seguridad.md)
 > para conocer diversas tácticas para implementar la seguridad.
 
 ### Patrones para la seguridad

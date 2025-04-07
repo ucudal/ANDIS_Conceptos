@@ -84,7 +84,7 @@ Los diagramas de despliegue tienen estos elementos:
   soporta el despliegue de un artefacto.
 
 * Asociaciones y generalizaciones, con la semántica habitual que tienen en los
-  [diagramas de clases](./2_3_1_Diagramas_de_clases_UML.md).
+  [diagramas de clases](./2_03_01_Diagramas_de_clases_UML.md).
 
 La [Figura 1](#figura-1), a continuación, muestra un ejemplo de diagrama de
 despliegue. El nodo `Servidor de aplicación` alberga una instancia de

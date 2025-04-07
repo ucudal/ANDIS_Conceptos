@@ -9,7 +9,7 @@
 1. En este repositorio lee lo siguiente:
 
     * [*Customer Journey
-      map*](/2_Tecnicas_y_herramientas/2_1_05_Customer_journey_map.md)
+      map*](/2_Tecnicas_y_herramientas/2_01_05_Customer_journey_map.md)
 
     * [Abstracción](/4_Conceptos/4_Abstraccion.md)
 
@@ -24,19 +24,19 @@
     * [Co-nascencia o *connascence*](/4_Conceptos/4_Connascence.md)
 
     * [Modelos de estructura
-      UML](/2_Tecnicas_y_herramientas/2_3_.Modelos_de_estructura.md): [diagramas
-      de clases](/2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md) y
+      UML](/2_Tecnicas_y_herramientas/2_03_.Modelos_de_estructura.md): [diagramas
+      de clases](/2_Tecnicas_y_herramientas/2_03_01_Diagramas_de_clases_UML.md) y
       [diagramas de
-      despliegue](/2_Tecnicas_y_herramientas/2_3_4_Diagramas_de_despliegue_UML.md)
+      despliegue](/2_Tecnicas_y_herramientas/2_03_04_Diagramas_de_despliegue_UML.md)
 
     * [Modelos de comportamiento
-      UML](/2_Tecnicas_y_herramientas/2_4_.Modelos_de_comportamiento.md):
+      UML](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento.md):
       [diagramas de casos de
-      uso](/2_Tecnicas_y_herramientas/2_4_2_Diagramas_de_casos_de_uso_UML.md),
+      uso](/2_Tecnicas_y_herramientas/2_04_02_Diagramas_de_casos_de_uso_UML.md),
       [diagramas de
-      secuencia](/2_Tecnicas_y_herramientas/2_4_3_Diagramas_de_secuencia_UML.md)
+      secuencia](/2_Tecnicas_y_herramientas/2_04_03_Diagramas_de_secuencia_UML.md)
       y [diagramas de
-      actividades](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
+      actividades](/2_Tecnicas_y_herramientas/2_04_01_Diagramas_de_actividades_UML.md)
 
     * [Herramientas de modelado y
       dibujo](/2_Tecnicas_y_herramientas/2_11_Herramientas_modelado_y_dibujo.md)

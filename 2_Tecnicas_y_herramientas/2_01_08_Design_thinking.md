@@ -160,8 +160,8 @@ proceso, aunque típicamente incluye[^1]:
 
   Los diseñadores utilizan diversas herramientas y métodos para lograr esta
   comprensión, incluyendo métodos como
-  [personas](/2_Tecnicas_y_herramientas/2_1_03_Personas.md), [observación
-  directa](/2_Tecnicas_y_herramientas/2_1_06_Observacion_Participante.md) y
+  [personas](/2_Tecnicas_y_herramientas/2_01_03_Personas.md), [observación
+  directa](/2_Tecnicas_y_herramientas/2_01_06_Observacion_Participante.md) y
   juego de roles, o más innovadores como [mapas de
   empatía](https://www.interaction-design.org/literature/topics/empathy-mapping),
   [etnografía
@@ -201,7 +201,7 @@ proceso, aunque típicamente incluye[^1]:
   los diseñadores pueden mantener diarios, cuadernos de bocetos o practicar la
   escritura libre; en entornos colaborativos, las sesiones de lluvia de ideas y
   la creación de [mapas
-  mentales](/2_Tecnicas_y_herramientas/2_1_01_Mapas_mentales.md) permiten que las
+  mentales](/2_Tecnicas_y_herramientas/2_01_01_Mapas_mentales.md) permiten que las
   ideas se multipliquen y evolucionen a través de la interacción. Las ideas
   pueden representarse de diversas formas.
 

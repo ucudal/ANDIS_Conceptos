@@ -24,8 +24,8 @@ suficientemente simple y entendible.
 En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, una técnica para
 simplificar un modelo es la de utilizar agregados.
 
-Un agregado es un grupo de objetos asociados ‑[entidades](./2_8_Entity.md) y
-[objetos valor](./2_8_Value_Object.md)‑ que son considerados como una unidad a
+Un agregado es un grupo de objetos asociados ‑[entidades](./2_08_Entity.md) y
+[objetos valor](./2_08_Value_Object.md)‑ que son considerados como una unidad a
 la hora de realizar cambios en los datos.
 
 Una de las entidades es denominada la **raíz** del agregado. La raíz puede
@@ -53,7 +53,7 @@ para la distribución de los datos persistidos de los objetos:
   eventual.
 
 * Los datos del agregado se mantienen dentro del mismo nodo en el que reside el
-  cómputo que gestiona el agregado, por ejemplo, su [repositorio](./2_8_Repository.md).
+  cómputo que gestiona el agregado, por ejemplo, su [repositorio](./2_08_Repository.md).
 
 * Los datos de diferentes agregados pueden estar en nodos diferentes.
 

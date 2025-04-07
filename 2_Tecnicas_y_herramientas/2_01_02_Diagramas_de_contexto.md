@@ -22,7 +22,7 @@ El contexto de trabajo muestra dónde comienzan y terminan las responsabilidades
 del trabajo y las responsabilidades de los sistemas adyacentes.
 
 Aunque no hay una notación estándar para los diagramas de contexto, es posible
-usar un [diagrama de casos de uso UML](./2_4_2_Diagramas_de_casos_de_uso_UML.md)
+usar un [diagrama de casos de uso UML](./2_04_02_Diagramas_de_casos_de_uso_UML.md)
 para construirlos. Un diagrama de contexto tiene los siguientes elementos:
 
 * **Trabajo**. Utiliza un caso de uso para modelar el trabajo; el nombre del

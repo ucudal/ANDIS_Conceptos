@@ -13,8 +13,8 @@ Este documento está basado en [^2] y [^1].
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 En *Domain-Driven Design* ‑DDD, por sus siglas‑, un servicio es un objeto que, a
-diferencia de una [entidad](./2_8_Entity.md) y un [objeto
-valor](./2_8_Value_Object.md), no tiene estado y su único propósito es el de
+diferencia de una [entidad](./2_08_Entity.md) y un [objeto
+valor](./2_08_Value_Object.md), no tiene estado y su único propósito es el de
 proveer funcionalidad para el [dominio](../4_Conceptos/4_Dominio.md). Los
 servicios actúan como interfaces que proveen operaciones y si bien son más
 comunes en *frameworks* técnicos, también se pueden usar en la capa del dominio.

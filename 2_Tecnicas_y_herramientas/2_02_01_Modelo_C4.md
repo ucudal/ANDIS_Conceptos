@@ -84,7 +84,7 @@ utilizar UML. Estos son los diagramas en un modelo C4:
 
 * **Diagrama de código**. El diagrama de código muestra cómo los componentes se
   implementan en código. Es posible usar un [diagrama de clases
-  UML](/2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md) para crear
+  UML](/2_Tecnicas_y_herramientas/2_03_01_Diagramas_de_clases_UML.md) para crear
   los diagramas de código. Estos diagramas también son opcionales.
 
 <!-- TODO: Agregar ejemplos de cada uno de estos diagramas, tomados de

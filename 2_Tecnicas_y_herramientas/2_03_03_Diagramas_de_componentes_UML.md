@@ -13,8 +13,8 @@ Este documento está basado en UML 2.5.1[^1].
 [^1]: OMG. (2017). OMG® Unified Modeling Language®. Disponible
     [aquí](https://www.omg.org/spec/UML/2.5.1/PDF).
 
-Los diagramas de componentes son distintos de los [diagramas de2_3_4_Diagramas_de_despliegue_UML.md
-despliegue](./2_3_4_Diagramas_de_despliegue_UML.md). Un diagrama de componentes
+Los diagramas de componentes son distintos de los [diagramas de
+despliegue](./2_03_04_Diagramas_de_despliegue_UML.md). Un diagrama de componentes
 define la composición de los componentes y artefactos en el sistema. Un diagrama
 de despliegue muestra los componentes y artefactos en relación con el lugar
 donde se utilizan en el sistema implementado.

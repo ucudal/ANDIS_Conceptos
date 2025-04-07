@@ -1,4 +1,4 @@
-# 2 Técnicas y herramientas
+8# 2 Técnicas y herramientas
 
 ## 2.8 Patrones de diseño
 
@@ -34,14 +34,14 @@ Para implementar un repositorio, puedes seguir los siguientes pasos:
   agregar, remover y obtener objetos, los cuales encapsularán la lógica
   relacionada a estas operaciones en el almacén de datos.
 
-* Provee repositorios solamente para las raíces de [agregados](./2_8_Aggregate.md)
+* Provee repositorios solamente para las raíces de [agregados](./2_08_Aggregate.md)
   que requieran acceso directo.
 
 Implementando un repositorio, puedes mantener la lógica del cliente enfocada al
 modelo, delegando a los repositorios la lógica del almacenamiento y acceso a
 objetos.
 
-Hay una relación entre el patrón [*Factory*](./2_8_Factory.md) y *Repository*, ya
+Hay una relación entre el patrón [*Factory*](./2_08_Factory.md) y *Repository*, ya
 que ambos ayudan a manejar el ciclo de vida de los objetos del dominio, pero no
 son lo mismo. El patrón Factory concierne exclusivamente a la **creación** de
 objetos, mientras que *Repository* se encarga de la **obtención** de objetos ya
