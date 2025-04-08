@@ -50,7 +50,7 @@ Algunas categorías de modificaciones tienen nombres propios[^1]:
 
 > [!TIP]
 > Vean [este
-> documento](/2_Tecnicas_y_herramientas/2_05_05_Tacticas_facilidad_de_modificacion.md)
+> documento](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura/2_05_05_Tacticas_facilidad_de_modificacion.md)
 > para conocer diversas tácticas para implementar la facilidad de modificación.
 
 ### Patrones para la facilidad de modificación
@@ -72,5 +72,6 @@ Disponible
 [aquí](https://insights.sei.cmu.edu/blog/two-categories-of-architecture-patterns-for-deployability/)
 
 > [!TIP]
-> Vean además el método [ALMA](/2_Tecnicas_y_herramientas/2_10_3_ALMA.md)
+> Vean además el método
+> [ALMA](/2_Tecnicas_y_herramientas/2_10_.Evaluacion_arquitectura/2_10_3_ALMA.md)
 > de análisis de la facilidad de modificación con respecto a la arquitectura.

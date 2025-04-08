@@ -15,7 +15,7 @@ Este documento está basado en [^2] y [^1].
 En el contexto de *Domain-Driven Design* ‑DDD, por sus siglas‑, un objeto valor
 es un objeto que, a diferencia de una [entidad](./2_08_Entity.md), no tiene
 identidad y se utiliza para describir o calcular características de las
-cosas que son parte del [dominio](../4_Conceptos/4_Dominio.md).
+cosas que son parte del [dominio](/4_Conceptos/4_Dominio.md).
 
 Al no tener una identidad, los objetos valor se pueden crear y descartar
 fácilmente ‑a través del *garbage collector* cuando dejan de ser referenciados,
@@ -42,6 +42,6 @@ compuesto de `calle`, `ciudad` y `estado`. Esto se ilustra en la siguiente
 
 <span id="figura-1"/>
 
-![Objetos valor anidados](../diagrams/Value_Object.svg)
+![Objetos valor anidados](/diagrams/Value_Object.svg)
 
 *Figura 1: Objetos valor anidados.*

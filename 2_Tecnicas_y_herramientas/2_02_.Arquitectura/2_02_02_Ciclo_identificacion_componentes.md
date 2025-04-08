@@ -52,7 +52,8 @@ Las etapas del ciclo se definen a continuación.
   [seguridad](/4_Conceptos/4_Seguridad.md), la
   [disponibilidad](/4_Conceptos/4_Disponibilidad.md), la [facilidad de
   modificación](/4_Conceptos/4_Facilidad_de_modificacion.md), etc. Las [tácticas
-  de arquitectura](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura.md)
+  de
+  arquitectura](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura/2_05_.Tacticas_arquitectura.md)
   para lograr estos atributos pueden sugerir nuevos componentes.
 
 5. **Reestructurar los componentes**. Después de analizar los roles,

@@ -149,8 +149,8 @@ requiere alta confiabilidad y accesibilidad constante.
 
 > [!TIP]
 > Vean [este
-> documento](/2_Tecnicas_y_herramientas/2_05_01_Tacticas_disponibilidad.md) para
-> conocer diversas tácticas para implementar la disponibilidad.
+> documento](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura/2_05_01_Tacticas_disponibilidad.md)
+> para conocer diversas tácticas para implementar la disponibilidad.
 
 ### Patrones para disponibilidad
 

@@ -130,7 +130,7 @@ y el texto a completar en el color normal. Tomado de [^1].
 
 > [!TIP]
 > Vean además la [checklist de
-> requerimientos](/2_Tecnicas_y_herramientas/2_01_04_Checklist_requerimientos.md).
+> requerimientos](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_04_Checklist_requerimientos.md).
 
 -----
 <span id="ref_1">Tipos de requerimiento</span>:

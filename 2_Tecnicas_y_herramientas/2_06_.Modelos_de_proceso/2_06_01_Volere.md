@@ -42,7 +42,8 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
   proceso de descubrimiento de requerimientos y cuál será específicamente
   excluida.
 
-  Un [diagrama de contexto](/2_Tecnicas_y_herramientas/2_01_02_Diagramas_de_contexto.md)
+  Un [diagrama de
+  contexto](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_02_Diagramas_de_contexto.md)
   se utiliza para generar un consenso entre los interesados sobre el alcance del
   [trabajo](/4_Conceptos/4_Trabajo_y_area_de_trabajo.md) que se debe mejorar. El
   producto final se utilizará para realizar parte de este trabajo.
@@ -88,8 +89,8 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
 
 * **Hacer prototipos**. Aunque los modelos pueden ser usados en cualquier etapa
   de este proceso y existen modelos formales como los diagramas
-  [UML](/2_Tecnicas_y_herramientas/2_04_02_Diagramas_de_casos_de_uso_UML.md) o
-  [BPMN](/2_Tecnicas_y_herramientas/2_04_04_Diagramas_BPMN.md), muchas veces los
+  [UML](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_02_Diagramas_de_casos_de_uso_UML.md) o
+  [BPMN](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_04_Diagramas_BPMN.md), muchas veces los
   analistas pueden hacer un uso productivo de *sketches* y diagramas rápidos
   para modelar el trabajo que se está investigando.
 
@@ -155,7 +156,7 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
   > Esta lista aparece en [^2] y se incluye aquí por completitud. Una lista más
   > completa de los atributos de calidad de los requerimientos se incluye en la
   > [*checklist* de
-  > requerimientos](/2_Tecnicas_y_herramientas/2_01_04_Checklist_requerimientos.md).
+  > requerimientos](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_04_Checklist_requerimientos.md).
 
 * **Reutilizar requerimientos**. Los requerimientos para un producto nunca serán
   completamente originales. Antes de iniciar un nuevo proyecto es recomendable
