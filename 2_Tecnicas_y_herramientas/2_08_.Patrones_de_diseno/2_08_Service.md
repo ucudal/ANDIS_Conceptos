@@ -15,7 +15,7 @@ Este documento está basado en [^2] y [^1].
 En *Domain-Driven Design* ‑DDD, por sus siglas‑, un servicio es un objeto que, a
 diferencia de una [entidad](./2_08_Entity.md) y un [objeto
 valor](./2_08_Value_Object.md), no tiene estado y su único propósito es el de
-proveer funcionalidad para el [dominio](../4_Conceptos/4_Dominio.md). Los
+proveer funcionalidad para el [dominio](/4_Conceptos/4_Dominio.md). Los
 servicios actúan como interfaces que proveen operaciones y si bien son más
 comunes en *frameworks* técnicos, también se pueden usar en la capa del dominio.
 
@@ -24,7 +24,7 @@ conexión entre diferentes objetos, y esta es una de las razones por la que el
 comportamiento que naturalmente corresponde a un servicio no debe incluirse
 dentro de otros objetos del dominio. Si esto pasara, se puede obtener como
 resultado una gran red de asociaciones entre objetos, lo cual significa un gran
-nivel de [acoplamiento](../4_Conceptos/4_Acoplamiento.md). Al mismo tiempo, un servicio
+nivel de [acoplamiento](/4_Conceptos/4_Acoplamiento.md). Al mismo tiempo, un servicio
 tampoco debería reemplazar una operación que normalmente pertenecería a un
 objeto del dominio.
 

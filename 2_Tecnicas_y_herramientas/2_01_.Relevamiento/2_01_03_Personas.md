@@ -43,7 +43,7 @@ Las *personas* nos dan la capacidad de ponernos en el lugar de la persona a la
 hora de tomar decisiones sobre el producto o servicio que estamos construyendo.
 
 Aunque no hay una forma estándar de representar las *personas*, esta
-[plantilla](../3_Plantillas/3_3_Personas.md) puede ser útil.
+[plantilla](/3_Plantillas/3_3_Personas.md) puede ser útil.
 
 > [!IMPORTANT]
 > Aprende más sobre *personas* incluyendo los pasos para crearlas

@@ -21,7 +21,7 @@ implica que se ha realizado un FTA[^2].
     via [Timbó](https://timbo.org.uy/).
 
 Varias de las tácticas para protección aparecen también como [tácticas para
-disponibilidad](/2_Tecnicas_y_herramientas/2_05_01_Tacticas_disponibilidad.md).
+disponibilidad](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura/2_05_01_Tacticas_disponibilidad.md).
 
 La siguiente tabla —tomada de[^1]— resume las tácticas disponibles, que están
 explicadas más abajo.

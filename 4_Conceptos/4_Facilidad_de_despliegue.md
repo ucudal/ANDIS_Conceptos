@@ -147,7 +147,7 @@ La calidad del *deployment pipeline* se mide considerando tres factores:
 
 > [!TIP]
 > Vean [este
-> documento](/2_Tecnicas_y_herramientas/2_05_06_Tacticas_facilidad_de_despliegue.md)
+> documento](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura/2_05_06_Tacticas_facilidad_de_despliegue.md)
 > para conocer diversas tácticas para implementar la facilidad de despliegue.
 
 ### Patrones para la facilidad de despliegue

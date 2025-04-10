@@ -7,49 +7,49 @@
 #### Lecturas
 
 1. En este repositorio hay una página dedicada a [patrones de
-   diseño](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md), fundamentalmente
+   diseño](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md), fundamentalmente
    los de [^1]; lee acerca de los siguientes patrones a partir de las referencias
    allí indicadas:
 
-    * [Singleton](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#singleton)
+    * [Singleton](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#singleton)
 
     * [Factory
-      Method](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#factory-method)
+      Method](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#factory-method)
 
-    * [Abstract Factory](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#abstract-factory)
+    * [Abstract Factory](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#abstract-factory)
 
-    * [Prototype](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#prototype)
+    * [Prototype](/2_Tecnicas_y_herramientas//2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#prototype)
 
-    * [Builder](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#builder)
+    * [Builder](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#builder)
 
-    * [Adapter](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#adapter)
+    * [Adapter](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#adapter)
 
-    * [Bridge](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#bridge)
+    * [Bridge](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#bridge)
 
-    * [Decorator](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#decorator)
+    * [Decorator](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#decorator)
 
-    * [Façade](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#façade)
+    * [Façade](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#façade)
 
-    * [Proxy](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#proxy)
+    * [Proxy](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#proxy)
 
-    * [Data Access Object](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#data-access-object)
+    * [Data Access Object](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#data-access-object)
 
     * [Chain of
-      responsibility](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#chain-of-responsibility)
+      responsibility](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#chain-of-responsibility)
 
-    * [Command](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#command)
+    * [Command](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#command)
 
-    * [Mediator](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#mediator)
+    * [Mediator](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#mediator)
 
-    * [Memento](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#memento)
+    * [Memento](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#memento)
 
-    * [Observer](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#observer)
+    * [Observer](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#observer)
 
-    * [State](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#state)
+    * [State](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#state)
 
-    * [Strategy](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#strategy)
+    * [Strategy](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#strategy)
 
-    * [Visitor](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno.md#visitor)
+    * [Visitor](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#visitor)
 
 [^1]: Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design patterns:
     Elements of reusable object-oriented software. Addison Wesley Professional.
@@ -58,24 +58,24 @@
 
 2. En este repositorio lee también lo siguiente:
 
-    * [MVC](/2_Tecnicas_y_herramientas/2_09_MVC.md)
+    * [MVC](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_MVC.md)
 
-    * [Aggregate](/2_Tecnicas_y_herramientas/2_08_Aggregate.md)
+    * [Aggregate](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_Aggregate.md)
 
-    * [Entity](/2_Tecnicas_y_herramientas/2_08_Entity.md)
+    * [Entity](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_Entity.md)
 
-    * [Factory](/2_Tecnicas_y_herramientas/2_08_Factory.md)
+    * [Factory](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_Factory.md)
 
-    * [Value Object](/2_Tecnicas_y_herramientas/2_08_Value_Object.md)
+    * [Value Object](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_Value_Object.md)
 
-    * [Repository](/2_Tecnicas_y_herramientas/2_08_Repository.md)
+    * [Repository](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_Repository.md)
 
-    * [Service](/2_Tecnicas_y_herramientas/2_08_Service.md)
+    * [Service](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_Service.md)
 
 3. En este repositorio lee también lo siguiente:
 
     * [Anti-patrones de
-      diseño](/2_Tecnicas_y_herramientas/2_12_Antipatrones_de_diseno.md)
+      diseño](/2_Tecnicas_y_herramientas/2_12_.Antipatrones_de_diseno/2_12_Antipatrones_de_diseno.md)
 
 #### Complementarias
 

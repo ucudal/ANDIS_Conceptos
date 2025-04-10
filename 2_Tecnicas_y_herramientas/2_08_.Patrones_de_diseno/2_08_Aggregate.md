@@ -15,8 +15,8 @@ Este documento está basado en [^2] y [^1].
     [aquí](https://www.infoq.com/minibooks/domain-driven-design-quickly/).
 
 Un modelo puede contener una gran cantidad de objetos del
-[dominio](../4_Conceptos/4_Dominio.md) y una gran cantidad de asociaciones entre estos
-objetos, creando una complicada red de referencias entre ellos. El desafío
+[dominio](/4_Conceptos/4_Dominio.md) y una gran cantidad de asociaciones entre
+estos objetos, creando una complicada red de referencias entre ellos. El desafío
 principal de realizar un buen modelo va de la mano de esta idea, y es que la
 labor más complicada no es que el modelo sea completo, sino que el modelo sea lo
 suficientemente simple y entendible.
@@ -53,7 +53,8 @@ para la distribución de los datos persistidos de los objetos:
   eventual.
 
 * Los datos del agregado se mantienen dentro del mismo nodo en el que reside el
-  cómputo que gestiona el agregado, por ejemplo, su [repositorio](./2_08_Repository.md).
+  cómputo que gestiona el agregado, por ejemplo, su
+  [repositorio](./2_08_Repository.md).
 
 * Los datos de diferentes agregados pueden estar en nodos diferentes.
 

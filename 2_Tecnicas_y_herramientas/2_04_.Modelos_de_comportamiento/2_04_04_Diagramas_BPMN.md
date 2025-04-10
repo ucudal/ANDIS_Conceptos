@@ -7,7 +7,7 @@
 BPMN significa *business process model and notation* ‑modelado y notación de
 procesos del negocio‑. Es un estándar para el modelado de procesos del negocio
 que provee una notación gráfica similar a los [diagramas de actividades
-UML](/2_Tecnicas_y_herramientas/2_04_01_Diagramas_de_actividades_UML.md).
+UML](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_01_Diagramas_de_actividades_UML.md).
 
 Este documento está basado en BPMN 2.0.2[^1].
 

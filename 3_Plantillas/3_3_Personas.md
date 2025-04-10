@@ -3,8 +3,8 @@
 ## 3.3 Personas
 
 Aunque no hay una forma estándar de representar las
-[*personas*](/2_Tecnicas_y_herramientas/2_01_03_Personas.md), esta plantilla puede
-resultar útil.
+[*personas*](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_03_Personas.md),
+esta plantilla puede resultar útil.
 
 <table border="">
     <tr style="color:#0969DA;font-weight: bold;">

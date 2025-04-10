@@ -397,7 +397,7 @@ edificio, el departamento ocupa ese edificio.
 <span id="figura-12"/>
 
 ![Diagrama de clases con elementos
-derivados](../diagrams/Class_Diagram_Derived.svg)
+derivados](/diagrams/Class_Diagram_Derived.svg)
 
 *Figura 12: Diagrama de clases con elementos derivados.*
 

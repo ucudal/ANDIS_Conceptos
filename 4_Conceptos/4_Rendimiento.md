@@ -90,7 +90,7 @@ tiempo de bloqueo ‑cuando el sistema no puede responder‑.
 
 > [!TIP]
 > Vean más información sobre las tácticas para rendimiento
-> [aquí](/2_Tecnicas_y_herramientas/2_05_02_Tacticas_rendimiento.md).
+> [aquí](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura/2_05_02_Tacticas_rendimiento.md).
 
 ### Patrones para el rendimiento y la eficiencia
 
@@ -100,5 +100,6 @@ tiempo de bloqueo ‑cuando el sistema no puede responder‑.
 > en Azure Well Architected Framework.
 
 > [!TIP]
-> Vean además el método [PASA](/2_Tecnicas_y_herramientas/2_10_4_PASA.md) de
-> evaluación del rendimiento de la arquitectura de software.
+> Vean además el método
+> [PASA](/2_Tecnicas_y_herramientas/2_10_.Evaluacion_arquitectura/2_10_4_PASA.md)
+> de evaluación del rendimiento de la arquitectura de software.

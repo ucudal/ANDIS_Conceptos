@@ -8,11 +8,11 @@
 
 1. En este repositorio lee lo siguiente:
 
-    * [Volere](/2_Tecnicas_y_herramientas/2_06_01_Volere.md)
+    * [Volere](/2_Tecnicas_y_herramientas/2_06_.Modelos_de_proceso/2_06_01_Volere.md)
 
     * [Valor](/4_Conceptos/4_Valor.md)
 
-    * [Brown Cow Model](/2_Tecnicas_y_herramientas/2_01_09_Brown_Cow_Model.md).
+    * [Brown Cow Model](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_09_Brown_Cow_Model.md).
       Puedes ver antes [este video](https://www.youtube.com/watch?v=ckWaVRkM3dI)
       para tener una visión general del modelo de la mano de sus autores.
 
@@ -28,11 +28,14 @@
 
     * [Atributo de calidad](/4_Conceptos/4_Atributo_de_calidad.md)
 
-    * [Checklist requerimientos](/2_Tecnicas_y_herramientas/2_01_04_Checklist_requerimientos.md)
+    * [Checklist
+      requerimientos](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_04_Checklist_requerimientos.md)
 
-    * [Design thinking](/2_Tecnicas_y_herramientas/2_01_08_Design_thinking.md)
+    * [*Design
+      thinking*](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_08_Design_thinking.md)
 
-    * [*Brainstorming* o tormenta de ideas](/2_Tecnicas_y_herramientas/2_01_11_Brainstorming.md)
+    * [*Brainstorming* o tormenta de
+      ideas](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_11_Brainstorming.md)
 
 2. Lee lo siguiente de [^1]:
 

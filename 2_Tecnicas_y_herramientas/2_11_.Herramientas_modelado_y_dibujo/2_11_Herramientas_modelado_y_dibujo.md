@@ -3,18 +3,19 @@
 ## 2.11 Modelado y dibujo
 
 Las herramientas de modelado y dibujo permiten construir modelos y diagramas
-como los incluidos en [modelos de estructura](./2_03_.Modelos_de_estructura.md),
-[modelos de comportamiento](./2_04_.Modelos_de_comportamiento.md), o
-[arquitectura](./2_02_.Arquitectura.md).
+como los incluidos en [modelos de estructura](../2_03_.Modelos_de_estructura/2_03_.Modelos_de_estructura.md),
+[modelos de comportamiento](../2_04_.Modelos_de_comportamiento/2_04_.Modelos_de_comportamiento.md), o
+[arquitectura](../2_02_.Arquitectura/2_02_.Arquitectura.md).
 
 Una herramienta de modelado permite definir primero un modelo —por ejemplo un
 modelo de [dominio](/4_Conceptos/4_Dominio.md)— y luego generar a partir de ese
 modelo diferentes diagramas —por ejemplo [diagramas de
-clases](./2_03_01_Diagramas_de_clases_UML.md). Para cambiar las entidades que
-aparecen en el diagrama, o alguna de sus propiedades o relaciones, es necesario
-modificar primero el modelo y volver a generar los diagramas. De esta forma es
-más simple tener los diagramas consistentes entre sí, porque la sincronización
-la realiza la herramienta a partir de un único modelo.
+clases](../2_03_.Modelos_de_estructura/2_03_01_Diagramas_de_clases_UML.md). Para
+cambiar las entidades que aparecen en el diagrama, o alguna de sus propiedades o
+relaciones, es necesario modificar primero el modelo y volver a generar los
+diagramas. De esta forma es más simple tener los diagramas consistentes entre
+sí, porque la sincronización la realiza la herramienta a partir de un único
+modelo.
 
 > [!NOTE]
 > Ejemplos de este tipo de herramientas utilizadas en ambientes corporativos

@@ -26,7 +26,7 @@ Así es que implementar entidades en software implica crear identidades, por lo
 que la capacidad de identificar estas últimas es crucial. El atributo ‑o
 combinación de atributos‑ utilizado para lograr la identidad puede ser propio
 del objeto, asignado por alguien externo a la aplicación o incluso al
-[dominio](../4_Conceptos/4_Dominio.md). Pero a veces no hay ninguna combinación de atributos
+[dominio](/4_Conceptos/4_Dominio.md). Pero a veces no hay ninguna combinación de atributos
 que permita identificar los objetos de forma única, por lo que se puede utilizar
 un sistema arbitrario creado por la aplicación.
 
@@ -53,5 +53,5 @@ a través de sus atributos. También es importante tener en cuenta que el modelo
 debe definir qué significa ser la misma cosa.
 
 Las entidades son objetos importantes para el modelo del
-[dominio](../4_Conceptos/4_Dominio.md), y deben ser consideradas desde el comienzo del
+[dominio](/4_Conceptos/4_Dominio.md), y deben ser consideradas desde el comienzo del
 proceso de modelado.
