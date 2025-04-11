@@ -65,8 +65,7 @@ Docs](http://docs.readthedocs.org/en/latest/contribute.html#contributing-to-deve
 
 ### Puntos de Bonus: Agrega un enlace a recursos para personas que nunca han contribuido anteriormente
 
-Aquí hay algunos tutoriales que puedes incluir: http://makeapullrequest.com/ y
-http://www.firsttimersonly.com/
+Aquí hay algunos tutoriales que puedes incluir: http://www.firsttimersonly.com/
 
 > Trabajando en tu primer Pull Request? Puedes aprender como en esta *free*
 > series, [Cómo contribuir a un proyecto de Código abierto en
@@ -80,8 +79,7 @@ llegadas en todo el documento. Aquí algunos ejemplos de [Active
 Admin](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md):
  -->
 
-[![PRs
-Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 
 > [!TIP]
 > ¿Estás por hacer tu primer *pull request*? Aprende cómo hacerlo en esta

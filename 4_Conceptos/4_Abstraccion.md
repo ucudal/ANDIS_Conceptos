@@ -72,11 +72,11 @@ cambiar la representación sin afectar a los programas que usan los datos[^4].
 A veces es conveniente considerar múltiples abstracciones al mismo nivel pero
 desde diferentes puntos de vista, para poder tener diferentes perspectivas en
 mente: por ejemplo un [diagrama de
-clases](/2_Tecnicas_y_herramientas/2_3_1_Diagramas_de_clases_UML.md), un
-[diagrama de
-actividades](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md) y
+clases](/2_Tecnicas_y_herramientas/2_03_.Modelos_de_estructura/2_03_01_Diagramas_de_clases_UML.md),
 un [diagrama de
-secuencia](/2_Tecnicas_y_herramientas/2_4_3_Diagramas_de_secuencia_UML.md) de la
-misma pieza de software pueden estar todos en el mismo nivel de abstracción,
-complementándose unos a otros para ayudar a entender el problema y su
-solución[^3].
+actividades](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_01_Diagramas_de_actividades_UML.md)
+y un [diagrama de
+secuencia](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_03_Diagramas_de_secuencia_UML.md)
+de la misma pieza de software pueden estar todos en el mismo nivel de
+abstracción, complementándose unos a otros para ayudar a entender el problema y
+su solución[^3].

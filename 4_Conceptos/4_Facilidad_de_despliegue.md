@@ -2,12 +2,12 @@
 
 ## Facilidad de despliegue o *deployability*
 
-El **proceso de despliegue de software** se refiere al conjunto de actividades y
-prácticas involucradas en la entrega de un sistema de software desde el entorno
-de desarrollo hasta el entorno de producción donde será utilizado por los
-usuarios finales. Este proceso abarca desde la compilación y prueba del software
-hasta su configuración, instalación, y activación en un entorno de
-producción[^1].
+El **proceso de despliegue** en ingeniería de software se refiere al conjunto de
+actividades y prácticas involucradas en la entrega de un sistema de software
+desde el entorno de desarrollo hasta el entorno de producción, donde será
+utilizado por los usuarios finales. Este proceso abarca desde la compilación y
+prueba del software hasta su configuración, instalación, y activación en un
+entorno de producción[^1].
 
 [^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4<sup>th</sup> edition. Addison-Wesley.
@@ -19,15 +19,19 @@ Las etapas principales del proceso de despliegue incluyen:
    producción[^2]. Dependiendo del ambiente esto implica generar activos
    binarios ejecutables listo para el despliegue o archivos de secuencias de
    comandos para modificar una base de datos, por ejemplo.
+
 2. **Pruebas**. Asegurar que el software funcione correctamente en un entorno
    que imita al de producción antes de su despliegue real.
+
 3. **Configuración**. Ajustar el software y los sistemas relacionados para que
    funcionen correctamente en el entorno de producción. Dependiendo del ambiente
    esto puede implicar cambiar las cadenas de conexión a bases de datos,
    direcciones IP, direcciones URL, por ejemplo.
+
 4. **Implementación**. Transferir el software empaquetado al entorno de
    producción, configurarlo adecuadamente, y activarlo para que los usuarios
    puedan acceder a él.
+
 5. **Verificación y monitoreo**. Comprobar que el software esté funcionando como
    se esperaba después del despliegue y monitorear su rendimiento para detectar
    posibles problemas.
@@ -42,9 +46,9 @@ habitualmente por el equipo de operaciones ‑u *operations* en inglés‑. De a
 surge el término *devops*.
 
 La facilidad de despliegue ‑o *deployability* en inglés‑ es un atributo de
-calidad de la arquitectura de software que refiere a la capacidad de un sistema,
-producto o componente para ser desplegado de manera eficiente y segura en
-entornos de producción con un esfuerzo y demora predecibles y aceptables[^1].
+calidad de la arquitectura de software que refiere a la capacidad de un sistema
+o componente para ser desplegado de manera eficiente y segura en entornos de
+producción con un esfuerzo y demora predecibles y aceptables[^1].
 
 Este atributo es crítico en contextos donde las actualizaciones frecuentes y los
 despliegues rápidos son necesarios para mantener la competitividad o garantizar
@@ -52,18 +56,18 @@ la seguridad y el funcionamiento continuo del sistema.
 
 El modelo de calidad de la norma ISO/IEC 25010[^3] define el concepto de
 [facilidad de instalación](./4_Atributo_de_calidad.md#facilidad-de-instalación)
-‑que se puede entender como equivalente‑ como la facilidad con la que un sistema,
-producto o componente se puede instalar o desinstalar de forma exitosa en un
-determinado entorno.
+‑que se puede entender como equivalente‑ como la facilidad con la que un sistema
+o componente se puede instalar o desinstalar de forma exitosa en un determinado
+entorno.
 
 [^3]: ISO/IEC 25010. (2011). ISO/IEC 25010:2011, Systems and software
     engineering‑Systems and software Quality Requirements and Evaluation
     (SQuaRE) ‑ System and software quality models.
 
-La facilidad de despliegue se centra en minimizar el tiempo y los esfuerzos
-necesarios para llevar el código desde el desarrollo hasta su puesta en
-producción. Dos factores clave influyen en la facilidad de despliegue: el tiempo
-de coordinación necesario entre los diferentes
+La facilidad de despliegue se centra en minimizar los errores y el tiempo y los
+esfuerzos necesarios para llevar el código desde el desarrollo hasta su puesta
+en producción. Dos factores clave influyen en la facilidad de despliegue: el
+tiempo de coordinación necesario entre los diferentes
 [interesados](/4_Conceptos/4_Interesado.md) antes de la implementación y el
 procesamiento del código a través de una cadena de herramientas ‑o *deployment
 pipeline*‑ hasta su despliegue final.
@@ -101,16 +105,19 @@ cuatro ambientes clave del *deployment pipeline* son[^1]:
    experimentación. Es un ambiente controlado y flexible donde los
    desarrolladores pueden hacer cambios y probar nuevas características
    rápidamente.
+
 2. **Integración** ‑o *continuous integration environment*‑. En este ambiente los
    cambios realizados en el código son integrados y probados de manera continua.
    Las pruebas automáticas se ejecutan para asegurar que los cambios no rompan
    la funcionalidad existente ‑pruebas de regresión‑. Este ambiente permite
    detectar problemas de integración lo antes posible.
+
 3. **Preproducción** ‑o *staging environment‑*. El ambiente de staging es una
    réplica cercana al ambiente de producción. Aquí se realizan pruebas de
    aceptación y validación de características en condiciones que imitan las del
    ambiente final. Este es el último paso antes del despliegue en producción y
    asegura que el software está listo para ser liberado a los usuarios.
+
 4. **Producción** ‑o *production environment*‑. Este es el ambiente donde el
    software está disponible para los usuarios finales. Es un ambiente crítico
    que debe ser monitoreado y mantenido para asegurar la disponibilidad,
@@ -129,77 +136,50 @@ La calidad del *deployment pipeline* se mide considerando tres factores:
 
 1. **Tiempo de ciclo**. El tiempo que demora el software en atravesar todo el
    *pipeline*.
+
 2. **Trazabilidad**. Es la capacidad de saber exactamente de dónde proviene cada
    artefacto y dónde se genera cada mensaje u error.
+
 3. **Repetibilidad**. Es tener los mismos resultados cuando se realizan las
    mismas acciones sobre los mismos artefactos.
 
-## Tácticas para la facilidad de despliegue
+### Tácticas para la facilidad de despliegue
 
-Vean más detalles sobre estas tácticas para la facilidad de despliegue
-[aquí](/2_Tecnicas_y_herramientas/2_5_6_Tacticas_facilidad_de_despliegue.md).
+> [!TIP]
+> Vean [este
+> documento](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura/2_05_06_Tacticas_facilidad_de_despliegue.md)
+> para conocer diversas tácticas para implementar la facilidad de despliegue.
 
-<table>
-  <tr>
-    <td rowspan="6">
-      Tácticas para la facilidad de despliegue
-    </td>
-    <td rowspan="3">
-      Gestionar el <i>pipeline</i> de despliegue
-    </td>
-    <td>
-      Despliegue escalonado
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Usar archivos de secuencias de comandos para la implementación
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Vuelta atrás ‑o <i>rollback</i>‑
-    </td>
-  </tr>
-  <tr>
-    <td rowspan=3>
-      Gestionar el sistema desplegado
-    </td>
-    <td>
-      Gestionar las interacciones entre servicios
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Empaquetar también las dependencias
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Apagar y encender características
-    </td>
-  </tr>
-</table>
+### Patrones para la facilidad de despliegue
 
-## Patrones para la facilidad de despliegue
+> [!TIP]
+> Vean [Cloud design patterns that support operational
+> excellence](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/design-patterns)
+> en Azure Well-Architected Framework; y las referencias a continuación:
 
-Vean [Cloud design patterns that support operational
-excellence](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/design-patterns)
-en Azure Well-Architected Framework.
+* Arquitecturas de microservicios en [^4] y [^5].
 
-* Arquitecturas de microservicios<br>
-  Microsoft. (2024). Microservice architecture style. Disponible
-  [aquí](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)<br>
-  Lewis, J. & Fowler, M. (2014). Microservices. Disponible
+[^4]: Microsoft. (2024). Microservice architecture style. Disponible
+  [aquí](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
+
+[^5]: Lewis, J. & Fowler, M. (2014). Microservices. Disponible
   [aquí](https://martinfowler.com/bliki/BlueGreenDeployment.html)
-* Blue/green deployment<br>
-  Fowler, M. (2010). Blue Green Deployment. Disponible
+
+* Blue/green deployment en [^6].
+
+[^6]: Fowler, M. (2010). Blue Green Deployment. Disponible
   [aquí](https://martinfowler.com/bliki/BlueGreenDeployment.html)
-* Rolling upgrade<br>
-  Wolski, A. & Laiho, K. (2004). Rolling Upgrades for Continuous Services.
+
+* Rolling upgrade en [^7].
+
+[^7]: Wolski, A. & Laiho, K. (2004). Rolling Upgrades for Continuous Services.
   Disponible
   [aquí](https://link-springer-com.proxy.timbo.org.uy/chapter/10.1007/978-3-540-30225-4_13)
   vía Timbó.
-* Canary testing<br>
-  Sato, D. (2014). Canary Release. Disponible [aquí](https://martinfowler.com/bliki/CanaryRelease.html?ref=wellarchitected)
+
+* Canary testing en [^8].
+
+[^8]: Sato, D. (2014). Canary Release. Disponible
+  [aquí](https://martinfowler.com/bliki/CanaryRelease.html?ref=wellarchitected)
+
 * A/B testing

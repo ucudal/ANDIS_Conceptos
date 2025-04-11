@@ -34,9 +34,9 @@ técnica, sino en las necesidades organizacionales y los objetivos estratégicos
 
 El proceso en el caso de uso del negocio puede ser especificado utilizando
 [escenarios](/4_Conceptos/4_Escenario.md), [diagramas
-BPMN](/2_Tecnicas_y_herramientas/2_4_4_Diagramas_BPMN.md) o [diagramas de
-actividades
-UML](/2_Tecnicas_y_herramientas/2_4_1_Diagramas_de_actividades_UML.md)
+BPMN](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_04_Diagramas_BPMN.md)
+o [diagramas de actividades
+UML](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_01_Diagramas_de_actividades_UML.md)
 
 Los casos de uso del negocio tienen estas características[^2]:
 

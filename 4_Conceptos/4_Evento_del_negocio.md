@@ -18,8 +18,8 @@ que el evento ha ocurrido. En el otro caso ‑el evento desencadenado por el
 tiempo‑ el resultado es siempre un flujo hacia el mundo exterior.
 
 En cualquier situación, cada vez que ocurre un evento del negocio, debe haber al
-menos un flujo de datos para mostrarlo en el [diagrama de/2_Tecnicas_y_herramientas/2_01_2_Diagramas_de_contexto.md
-contexto](/2_Tecnicas_y_herramientas/2_1_02_Diagramas_de_contexto.md).
+menos un flujo de datos para mostrarlo en el [diagrama de
+contexto](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_02_Diagramas_de_contexto.md).
 
 Cada uno de los flujos de datos que entran o salen del trabajo es resultado de
 un evento del negocio; no puede haber otra razón para que exista una
