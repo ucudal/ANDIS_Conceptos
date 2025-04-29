@@ -39,7 +39,12 @@ width="150"/>
   </tr>
   <tr>
     <td>
-      En cursos anteriores has visto cómo relevar y especificar requerimientos funcionales de aplicaciones informáticas y cómo crear diseños que cumplan con esos requerimientos. Pero las aplicaciones también tienen requerimientos no-funcionales de escalabilidad, desempeño, confiabilidad, y muchos más; ahora verás cómo diseñar aplicaciones para cumplir con estos nuevos requerimientos.
+      En cursos anteriores has visto cómo relevar y especificar requerimientos
+      funcionales de aplicaciones informáticas y cómo crear diseños que cumplan
+      con esos requerimientos. Pero las aplicaciones también tienen
+      requerimientos no-funcionales de escalabilidad, desempeño, confiabilidad,
+      y muchos más; ahora verás cómo diseñar aplicaciones para cumplir con estos
+      nuevos requerimientos.
     </td>
   </tr>
 
@@ -55,7 +60,9 @@ width="150"/>
   </tr>
   <tr>
     <td colspan=2>
-      La intención de este curso es que puedas relevar requerimientos no-funcionales de aplicaciones empresariales y diseñar la infraestructura y el software apropiados para satisfacer esos requerimientos.
+      La intención de este curso es que puedas relevar requerimientos
+      no—funcionales de aplicaciones empresariales y diseñar la infraestructura
+      y el software apropiados para satisfacer esos requerimientos.
     </td>
   </tr>
   <tr>
@@ -68,36 +75,55 @@ width="150"/>
   </tr>
   <tr style="vertical-align:top">
     <td>
-      Aplica principios y patrones de diseño y arquitectura de software e infraestructura en el modelado y diseño de sistemas informáticos demostrando la comprensión de las decisiones alternativas involucradas en las opciones de diseño.
+      Aplica principios y patrones de diseño y arquitectura de software e
+      infraestructura en el modelado y diseño de sistemas informáticos
+      demostrando la comprensión de las decisiones alternativas involucradas en
+      las opciones de diseño.
     </td>
     <td rowspan=2>
-      1. Aplica estilos y patrones de arquitectura al diseño de una solución informática para satisfacer requerimientos no-funcionales; y explica a una audiencia de pares cómo el diseño resultante satisface esos requerimientos.
+      1. Aplica estilos y patrones de arquitectura al diseño de una solución
+      informática para satisfacer requerimientos no-funcionales; y explica a una
+      audiencia de pares cómo el diseño resultante satisface esos requerimientos.
     </td>
   </tr>
   <tr>
     <td>
-      Comunica efectivamente con diversas audiencias información técnica consistente con la audiencia y el propósito, en una variedad de contextos profesionales.
+      Comunica efectivamente con diversas audiencias información técnica
+      consistente con la audiencia y el propósito, en una variedad de contextos profesionales.
     </td>
   </tr>
   <tr style="vertical-align:top">
     <td>
-      Analiza problemas complejos del mundo real, para identificar y definir requisitos informáticos, y los resuelve aplicando enfoques y principios computacionales relevantes y otras disciplinas en el proceso de resolución.
+      Analiza problemas complejos del mundo real, para identificar y definir
+      requisitos informáticos, y los resuelve aplicando enfoques y principios
+      computacionales relevantes y otras disciplinas en el proceso de resolución.
     </td>
     <td>
-      2. Evalúa opciones de integración de aplicaciones y demuestra como esas opciones afectan las pruebas dentro del desarrollo de un sistema informático.
+      2. Evalúa opciones de integración de aplicaciones y demuestra como esas
+      opciones afectan las pruebas dentro del desarrollo de un sistema
+      informático.
     </td>
   </tr>
   <tr style="vertical-align:top">
     <td rowspan=3>
-      Diseña, implementa y evalúa soluciones informáticas aplicando el proceso de diseño de ingeniería que satisfacen requerimientos en el contexto de la disciplina, analizando el impacto local y global de la informática en individuos, organizaciones, y la sociedad.
+      Diseña, implementa y evalúa soluciones informáticas aplicando el proceso
+      de diseño de ingeniería que satisfacen requerimientos en el contexto de la
+      disciplina, analizando el impacto local y global de la informática en
+      individuos, organizaciones, y la sociedad.
     </td>
       <tr style="vertical-align:top">
     <td>
-      3. Evalúa opciones de implementación de una solución informática utilizando arquitecturas de microservicios desplegadas en contenedores versus arquitecturas tradicionales en máquinas virtuales o físicas, y explica las consecuencias a una audiencia de partes interesadas.
+      3. Evalúa opciones de implementación de una solución informática
+      utilizando arquitecturas de microservicios desplegadas en contenedores
+      versus arquitecturas tradicionales en máquinas virtuales o físicas, y
+      explica las consecuencias a una audiencia de partes interesadas.
     </td>
   </tr>
     <td>
-      4. Diseña la arquitectura del software y de la infraestructura de una solución informática considerando tanto recursos en nubes privadas o públicas e híbridas, y servicios de infraestructura o de plataforma; y documentarla utilizando una notación apropiada.
+      4. Diseña la arquitectura del software y de la infraestructura de una
+      solución informática considerando tanto recursos en nubes privadas o
+      públicas e híbridas, y servicios de infraestructura o de plataforma; y
+      documentarla utilizando una notación apropiada.
     </td>
   </tr>
 </table>
@@ -133,52 +159,79 @@ width="150"/>
     </td>
   </tr>
   <tr style="vertical-align:top">
-    <td>1. Impulsores de la arquitectura</td>
-    <td>Primarios 1</td>
-    <td>Secundarios 1</td>
-    <td>X en clase, X en casa</td>
-    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
+    <td>1. Impulsores o <i>drivers</i> de la arquitectura</td>
+    <td>
+      <p>Atributos de calidad</p>
+      <p>Requerimientos arquitectónicamente significativos</p>
+      <p>Disponibilidad, rendimiento, protección, seguridad, facilidad de
+      modificación, facilidad de despliegue</p>
+    </td>
+    <td>Modelos de calidad de software</td>
+    <td>12 en clase, 30 en casa</td>
+    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
+    trabajo en grupo</td>
   </tr>
   </tr><tr style="vertical-align:top">
     <td>2. Tácticas de arquitectura</td>
-    <td>Primarios 2</td>
-    <td>Secundarios 2</td>
-    <td>X en clase, X en casa</td>
-    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
+    <td>
+      Tácticas para disponibilidad, rendimiento, protección, seguridad,
+      facilidad de modificación, facilidad de despliegue
+    </td>
+    <td>N/A</td>
+    <td>12 en clase, 30 en casa</td>
+    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
+    trabajo en grupo</td>
   <tr style="vertical-align:top">
     <td>3. Soluciones arquitectónicas</td>
-    <td>Primarios 3</td>
-    <td>Secundarios 3</td>
-    <td>X en clase, X en casa</td>
-    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
+    <td>
+      <p>Componentes</p>
+      <p>Interfaces</p>
+      <p>Interacción</p>
+    </td>
+    <td>
+      <p>Virtualización</p>
+      <p>Microservicios</p>
+      <p>Computación distribuida, propiedades ACID, propiedades BASE, teorema
+      de Brewer, consistencia fuerte, consistencia eventual</p>
+    </td>
+    <td>14 en clase, 35 en casa</td>
+    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
+    trabajo en grupo</td>
   </tr>
   <tr style="vertical-align:top">
     <td>4. Patrones de arquitectura</td>
-    <td>Primarios 4</td>
-    <td>Secundarios 4</td>
-    <td>X en clase, X en casa</td>
-    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
+    <td>Patrones para disponibilidad, rendimiento, protección, seguridad,
+      facilidad de modificación, facilidad de despliegue</td>
+    <td>CQRS, Compensating Transaction, Event Sourcing, Choreography</td>
+    <td>14 en clase, 35 en casa</td>
+    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
+    trabajo en grupo</td>
   </tr>
   <tr style="vertical-align:top">
     <td>5. Estilos de arquitectura</td>
-    <td>Primarios 5</td>
-    <td>Secundarios 5</td>
-    <td>X en clase, X en casa</td>
-    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupos</td>
+    <td>Layered, Pipes and Filters, Microkernel, Service-Based, Event-Driven,
+    Service-Oriented, Microservices
+    </td>
+    <td>Space-Based, Orchestration-Driven</td>
+    <td>14 en clase, 35 en casa</td>
+    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
+    trabajo en grupos</td>
   </tr>
   <tr style="vertical-align:top">
     <td>6. Proceso de arquitectura</td>
-    <td>Primarios 6</td>
-    <td>Secundarios 6</td>
-    <td>X en clase, X en casa</td>
-    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupos</td>
+    <td>Diseño dirigido por atributos</td>
+    <td>Modelo C4, Ciclo de identificación de componentes</td>
+    <td>6 en clase, 15 en casa</td>
+    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
+    trabajo en grupos</td>
   </tr>
   <tr style="vertical-align:top">
     <td>7. Evaluación de la arquitectura</td>
-    <td>Primarios 7</td>
-    <td>Secundarios 7</td>
-    <td>X en clase, X en casa</td>
-    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupos</td>
+    <td>ATAM</td>
+    <td>ALMA, PASA</td>
+    <td>6 en clase, 15 en casa</td>
+    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
+    trabajo en grupos</td>
   </tr>
 </table>
 <!-- markdownlint-enable MD033 -->
@@ -265,7 +318,7 @@ width="150"/>
       Pruebas parciales escritas
     </td>
     <td>
-      Resultado de aprendizaje 1 a 9
+      Resultado de aprendizaje 1 a 4
     </td>
     <td>
       Semana 7, 12 y 16
@@ -319,7 +372,8 @@ width="150"/>
       Controles de lectura individuales
     </td>
     <td>
-      Respuesta correcta y puntos diferidos hasta el cierre del cuestionario control de lectura en equipo
+      Respuesta correcta y puntos diferidos hasta el cierre del cuestionario
+      control de lectura en equipo
     </td>
   </tr>
   <tr style="vertical-align:top">
@@ -327,7 +381,8 @@ width="150"/>
       Controles de lectura en equipo
     </td>
     <td>
-      Respuesta correcta durante el intento en modo adaptativo y puntos al cerrar el cuestionario
+      Respuesta correcta durante el intento en modo adaptativo y puntos al
+      cerrar el cuestionario
     </td>
   </tr>
   <tr style="vertical-align:top">
@@ -360,15 +415,28 @@ Rúbrica para evaluación entre pares:
   </tr>
   <tr style="vertical-align:top">
     <td>
-      <p>Bass, L., Clements, P., & Kazman, R. (2022). Software architecture in practice, 4<sup>th</sup> edition. Addison-Wesley.</p>
-      <p>Richards, M., & Ford, N. (2020). Fundamentals of software architecture: An engineering approach. O'Reilly Media. Disponible en <a href=https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=122029>biblioteca</a>.</p>
-      <p><a href="./5_2_1_Impulsores_de_la_arquitectura.md#lecturas">Lecturas de la unidad temática 1</a></p>
-      <p><a href="./5_2_2_Tacticas_de_arquitectura.md#lecturas">Lecturas de la unidad temática 2</a></p>
-      <p><a href="./5_2_3_Soluciones_arquitectonicas.md#lecturas">Lecturas de la unidad temática 3</a></p>
-      <p><a href="./5_2_4_Patrones_de_arquitectura.md#lecturas">Lecturas de la unidad temática 4</a></p>
-      <p><a href="./5_2_5_Estilos_de_arquitectura.md#lecturas">Lecturas de la unidad temática 5</a></p>
-      <p><a href="./5_2_6_Proceso_de_arquitectura.md#lecturas">Lecturas de la unidad temática 6</a></p>
-      <p><a href="./5_2_7_Evaluacion_de_la_arquitectura.md#lecturas">Lecturas de la unidad temática 7</a></p>
+      <p>Bass, L., Clements, P., & Kazman, R. (2022). Software architecture in
+      practice, 4<sup>th</sup> edition. Addison-Wesley.</p>
+      <p>Richards, M., & Ford, N. (2020). Fundamentals of software architecture:
+      An engineering approach. O'Reilly Media. Disponible en
+      <a href=https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=122029>biblioteca</a>.</p>
+      <p><a href="./5_2_1_Impulsores_de_la_arquitectura.md#lecturas">Lecturas de
+      la unidad temática 1</a></p>
+      <!-- spell-checker:ignore Tacticas -->
+      <p><a href="./5_2_2_Tacticas_de_arquitectura.md#lecturas">Lecturas de la
+      unidad temática 2</a></p>
+      <!-- spell-checker:ignore arquitectonicas -->
+      <p><a href="./5_2_3_Soluciones_arquitectonicas.md#lecturas">Lecturas de la
+      unidad temática 3</a></p>
+      <p><a href="./5_2_4_Patrones_de_arquitectura.md#lecturas">Lecturas de la
+      unidad temática 4</a></p>
+      <p><a href="./5_2_5_Estilos_de_arquitectura.md#lecturas">Lecturas de la
+      unidad temática 5</a></p>
+      <p><a href="./5_2_6_Proceso_de_arquitectura.md#lecturas">Lecturas de la
+      unidad temática 6</a></p>
+      <!-- spell-checker:ignore Evaluacion -->
+      <p><a href="./5_2_7_Evaluacion_de_la_arquitectura.md#lecturas">Lecturas de
+      la unidad temática 7</a></p>
     </td>
   </tr>
 </table>
@@ -376,6 +444,7 @@ Rúbrica para evaluación entre pares:
 
 ----
 
+<!-- markdownlint-disable MD033 -->
 <span id="ref_1">
 1. El componente de actitud académica se evalúa mediante la
 manifestación de las competencias generales del grado UCU a lo largo del curso:
@@ -416,39 +485,55 @@ manifestación de las competencias generales del grado UCU a lo largo del curso:
 <ul>
   <li>Aprender a aprender</li>
     <ul>
-      <li>Meta-cognición: Identifica y explica el proceso que utiliza para aprender.</li>
-      <li>Mentalidad de crecimiento: Demuestra confianza en su capacidad de aprender y crecer.</li>
+      <li>Meta-cognición: Identifica y explica el proceso que utiliza para
+      aprender.</li>
+      <li>Mentalidad de crecimiento: Demuestra confianza en su capacidad de
+      aprender y crecer.</li>
       <li>Perseverancia: Supera obstáculos para alcanzar sus objetivos.</li>
       <li>Reflexión: Evalúa y adapta su aprendizaje a partir de la experiencia.</li>
-      <li>Inteligencia emocional: Reconoce y regula sus emociones y muestra empatía hacia los demás.</li>
-      <li>Adaptabilidad y resiliencia: Se adapta a nuevas circunstancias y persiste ante el cambio.</li>
+      <li>Inteligencia emocional: Reconoce y regula sus emociones y muestra
+      empatía hacia los demás.</li>
+      <li>Adaptabilidad y resiliencia: Se adapta a nuevas circunstancias y
+      persiste ante el cambio.</li>
     </ul>
   <li>Pensamiento crítico y resolución de problemas</li>
     <ul>
-      <li>Resolución ingeniosa: Encuentra soluciones creativas para problemas complejos y significativos.</li>
+      <li>Resolución ingeniosa: Encuentra soluciones creativas para problemas
+      complejos y significativos.</li>
       <li>Toma de decisiones: Analiza alternativas y toma decisiones bien fundamentadas.</li>
       <li>Gestión de proyectos: Diseña, implementa y evalúa proyectos o iniciativas.</li>
-      <li>Análisis de información: Procesa y analiza información para la toma de decisiones.</li>
+      <li>Análisis de información: Procesa y analiza información para la toma de
+      decisiones.</li>
       <li>Indagación: Utiliza procesos de investigación para resolver problemas.</li>
       <li>Transferencia: Aplica aprendizajes de una situación a otra de manera efectiva.</li>
     </ul>
   <li>Colaboración</li>
     <ul>
-      <li>Trabajo en equipo: Participa activamente y fomenta relaciones positivas en el equipo.</li>
+      <li>Trabajo en equipo: Participa activamente y fomenta relaciones
+      positivas en el equipo.</li>
       <li>Contribución mutua: Aprende de otros y aporta al aprendizaje colectivo.</li>
       <li>Co-construcción: Colabora para generar conocimiento o productos en conjunto.</li>
-      <li>Gestión de roles: Desempeña diferentes roles dentro de un equipo de manera efectiva.</li>
-      <li>Manejo de conflictos: Identifica, gestiona y resuelve conflictos de manera constructiva.</li>
-      <li>Diversidad: Respeta y valora las perspectivas y enfoques diversos dentro del equipo.</li>
+      <li>Gestión de roles: Desempeña diferentes roles dentro de un equipo de
+      manera efectiva.</li>
+      <li>Manejo de conflictos: Identifica, gestiona y resuelve conflictos de
+      manera constructiva.</li>
+      <li>Diversidad: Respeta y valora las perspectivas y enfoques diversos
+      dentro del equipo.</li>
     </ul>
   <li>Comunicación</li>
     <ul>
-      <li>Expresión oral y escrita: Se comunica de forma clara y efectiva en diversos contextos.</li>
-      <li>Formulación de preguntas: Realiza preguntas para adquirir y profundizar conocimientos.</li>
+      <li>Expresión oral y escrita: Se comunica de forma clara y efectiva en
+      diversos contextos.</li>
+      <li>Formulación de preguntas: Realiza preguntas para adquirir y
+      profundizar conocimientos.</li>
       <li>Uso de medios: Utiliza una variedad de medios para comunicarse.</li>
-      <li>Herramientas digitales: Selecciona herramientas tecnológicas según el propósito de la comunicación.</li>
-      <li>Escucha activa: Comprende diferentes puntos de vista a través de la escucha atenta.</li>
-      <li>Defensa de ideas: Expresa opiniones y aboga por ideas basadas en evidencia.<a href="#back_ref_3" title="Volver...">↩︎</a></li>
+      <li>Herramientas digitales: Selecciona herramientas tecnológicas según el
+      propósito de la comunicación.</li>
+      <li>Escucha activa: Comprende diferentes puntos de vista a través de la
+      escucha atenta.</li>
+      <li>Defensa de ideas: Expresa opiniones y aboga por ideas basadas en
+      evidencia.<a href="#back_ref_3" title="Volver...">↩︎</a></li>
     </ul>
 </ul>
 </span>
+<!-- markdownlint-enable MD033 -->

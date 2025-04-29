@@ -6,4 +6,15 @@
 
 #### Lecturas
 
-<!-- TBD. Incluir los patrones mencionados en Bass -->
+<!-- TODO: Completar la lista de patrones de arquitectura con los mencionados en
+Bass -->
+
+### [Cache Aside](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Cache_Aside.md)
+
+### [Choreography](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Choreography.md)
+
+### [Circuit Breaker](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Circuit_breaker.md)
+
+### [Retry](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Retry.md)
+
+### [Saga](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Saga.md)

@@ -2,7 +2,7 @@
 
 ## BASE y consistencia eventual
 
-Gracias al [teorema CAP](./4_CAP.md) sabemos que en los sistemas que
+Gracias al [teorema de Brewer](./4_Teorema_Brewer.md) sabemos que en los sistemas que
 proporcionan alta disponibilidad a través de redundancia mediante réplicas,
 dadas las propiedades de consistencia, alta disponibilidad y resiliencia a la
 partición, sólo es posible cumplir a la vez dos como máximo, nunca las tres al

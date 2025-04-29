@@ -85,7 +85,7 @@ cuales aparecen a continuación[^1]:
   architecture](/3_Plantillas/3_12_Service_Based_Architecture.md), un
   micro‑servicio en una [microservices
   architecture](/3_Plantillas/3_16_Microservice_Architecture.md), o en cualquier
-  otro arquitectura distribuida.
+  otra arquitectura distribuida.
 
   En este caso cada componente ejecuta habitualmente en su propio espacio de
   memoria y se comunica con los demás componentes mediante protocolos de red de
@@ -102,7 +102,7 @@ arquitectura[^1].
 
 Habitualmente el componente es el nivel más bajo con el que interactúa
 directamente un arquitecto ‑exceptuando tal vez métricas que afectan [atributos
-de calidad](./4_Atributo_de_calidad.md) en las bases del código. Las clases o
+de calidad](./4_Atributo_de_calidad.md) en las bases del código—. Las clases o
 funciones y procedimientos dentro de un componente son responsabilidad de los
 desarrolladores[^1].
 
@@ -119,8 +119,8 @@ software.
 Existen dos grandes formas de comenzar a particionar los componentes en una
 arquitectura de software:
 
-* Partición técnica: El criterio para particionar los componentes de alto nivel
-  está basado en capacidades técnicas y es independiente del domino del
+* **Partición técnica**: El criterio para particionar los componentes de alto
+  nivel está basado en capacidades técnicas y es independiente del domino del
   problema. Un ejemplo típico es cuando los componentes de alto nivel
   corresponden a las capas de presentación, lógica de negocio, servicios y
   persistencia, por ejemplo; de hecho, esta es la partición predeterminada en
@@ -132,10 +132,10 @@ arquitectura de software:
 
   *Figura 1: Partición técnica*
 
-* Partición por el dominio: El criterio para repartir los componentes de alto
-  nivel está inspirado en la metodología de Domain Driven Design de Eric Evans,
-  donde el criterio para particionar los componentes está basado en dominios o
-  flujos del trabajo, en lugar de capacidades técnicas.
+* **Partición por el dominio**: El criterio para repartir los componentes de
+  alto nivel está inspirado en la metodología de Domain Driven Design de Eric
+  Evans, donde el criterio para particionar los componentes está basado en
+  dominios o flujos del trabajo, en lugar de capacidades técnicas.
 
   <span id="figura-2"/>
 

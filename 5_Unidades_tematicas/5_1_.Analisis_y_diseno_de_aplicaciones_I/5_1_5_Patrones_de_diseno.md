@@ -6,10 +6,10 @@
 
 #### Lecturas
 
-1. En este repositorio hay una página dedicada a [patrones de
-   diseño](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md), fundamentalmente
-   los de [^1]; lee acerca de los siguientes patrones a partir de las referencias
-   allí indicadas:
+1. En este repositorio hay un documento dedicado a [patrones de
+   diseño](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md),
+   fundamentalmente los de [^1]; lee acerca de los siguientes patrones a partir
+   de las referencias allí indicadas:
 
     * [Singleton](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_.Patrones_de_diseno.md#singleton)
 

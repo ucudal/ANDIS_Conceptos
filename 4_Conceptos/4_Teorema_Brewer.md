@@ -1,6 +1,6 @@
 # 4 Conceptos
 
-## Teorema CAP
+## Teorema de Brewer
 
 Las aplicaciones modernas a escala de Internet deben afrontar altas expectativas
 de [disponibilidad](./4_Disponibilidad.md) y [rendimiento](./4_Rendimiento.md)
@@ -30,18 +30,28 @@ conjunto de réplicas ‑lo que implica que los datos redundantes en las réplic
 no pueden ser sincronizados‑, pero ambos conjuntos son accesibles por un grupo
 de clientes.
 
-CAP es un [acrónimo](https://dle.rae.es/acrónimo) que establece compromisos
-entre estas tres propiedades: **c**onsistencia fuerte, alta disponibilidad
-‑***a**vailability* en inglés‑, y resistencia a la **p**artición de la red. El
-principio CAP fuerte establece que entre consistencia fuerte, alta
+El teorema de Brewer establece compromisos entre estas tres propiedades:
+consistencia fuerte, alta disponibilidad, y resistencia a la partición de la red
+—en inglés *strong <span style="color:#0969DA;font-weight:
+bold;">c</span>onsistency*, *<span style="color:#0969DA;font-weight:
+bold;">a</span>vailability*, y *<span style="color:#0969DA;font-weight:
+bold;">p</span>artition tolerance*—; de ahí que este teorema se conozca también
+como teorema CAP[^4], por el [acrónimo](https://dle.rae.es/acrónimo) formado por
+estas tres propiedades.
+
+[^4]: Preferimos usar teorema de ≪Brewer≫ en lugar de ≪CAP≫ para evitar
+    cualquier referencia a ya saben quién
+    :red_circle::large_blue_circle::white_circle: :wink:
+
+El teorema de Brewer fuerte establece que entre consistencia fuerte, alta
 disponibilidad y resiliencia a la partición sólo es posible cumplir a la vez dos
-como máximo, nunca los tres. Para demostrar el principio ‑de ahí que algunos lo
-llamen teorema CAP‑ es posible considerar todas las combinaciones posibles de
-forma exhaustiva[^1]:
+como máximo, nunca los tres. Para demostrarlo ‑de ahí es que se llama
+**teorema**‑ es posible considerar todas las combinaciones posibles de forma
+exhaustiva[^1]:
 
 * CA sin P: Las bases de datos que proporcionan semántica transaccional
   distribuida solo pueden hacerlo en ausencia de una partición de red que separe
-  la réplicas.
+  las réplicas.
 
 * CP sin A: En caso de una partición, las transacciones posteriores a una base
   de datos ACID pueden bloquearse hasta que la partición se recupere, para
@@ -56,26 +66,26 @@ forma exhaustiva[^1]:
   réplicas y votación mayoritaria para obtener PC ‑la minoría no está
   disponible‑.
 
-La noción de “dos de tres” en el teorema CAP ha sido criticada por simplificar
-en exceso la relación entre consistencia, disponibilidad y tolerancia a
-particiones. En realidad, las tensiones entre estas propiedades son más
-complejas y matizadas. Si bien CAP señala que no se puede garantizar al mismo
-tiempo consistencia y disponibilidad perfectas durante una partición, estas
-situaciones son poco comunes. Los arquitectos deben seguir eligiendo entre
+La noción de “dos de tres” en el teorema de Brewer ha sido criticada por
+simplificar en exceso la relación entre consistencia, disponibilidad y
+tolerancia a particiones. En realidad, las tensiones entre estas propiedades son
+más complejas y matizadas. Si bien Brewer señala que no se puede garantizar al
+mismo tiempo consistencia y disponibilidad perfectas durante una partición,
+estas situaciones son poco comunes. Los arquitectos deben seguir eligiendo entre
 consistencia y disponibilidad cuando ocurren particiones, pero tienen mucha
 flexibilidad en la forma de gestionar y recuperarse de ellas. El enfoque actual
 se centra en maximizar las combinaciones más adecuadas para cada aplicación
 específica, incorporando tanto estrategias para operar durante una partición
 como para restaurar el sistema después de superarla. Esta perspectiva amplía el
-entendimiento del teorema CAP, superando las limitaciones que tradicionalmente
-se le atribuían[^2].
+entendimiento del teorema de Brewer, superando las limitaciones que
+tradicionalmente se le atribuían[^2].
 
 [^2]: Brewer, E. (2012). CAP Twelve Years Later: How "Rules" Have Changed. IEEE
     Computer, vol. 45, no. 2, pp. 23-29, Feb. 2012. Disponible
     [aquí](https://ieeexplore-ieee-org.proxy.timbo.org.uy/document/6133253) vía
     Timbó.
 
-### CAP, ACID, BASE
+### El teorema de Brewer y los principios ACID y BASE
 
 En la práctica la tolerancia a particiones de la red en un sistema distribuido
 no suele ser negociable: las fallas y las divisiones de la red son inevitables

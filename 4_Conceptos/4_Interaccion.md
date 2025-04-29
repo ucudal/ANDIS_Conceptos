@@ -14,3 +14,7 @@ Por ejemplo, la invocación local de procedimientos, funciones o métodos usando
 construcciones de un lenguaje de programación, la llamada a procedimientos
 remotos –RPC–, flujos de datos, memoria compartida, o envío de mensajes, son
 formas de interacción.
+
+> [!TIP]
+> Vean además [integración de
+> aplicaciones](/2_Tecnicas_y_herramientas/2_13_.Integracion_aplicaciones/2_13_.Integracion_aplicaciones.md).
