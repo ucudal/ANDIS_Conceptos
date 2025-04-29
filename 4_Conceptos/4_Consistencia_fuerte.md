@@ -1,0 +1,3 @@
+# Conceptos
+
+## Consistencia fuerte
