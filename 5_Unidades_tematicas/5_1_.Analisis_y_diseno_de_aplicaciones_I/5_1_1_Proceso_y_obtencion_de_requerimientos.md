@@ -23,7 +23,7 @@
 
     * [Interesado](/4_Conceptos/4_Interesado.md)
 
-    * [Evento del negocio](/4_Conceptos/4_Evento_del_dominio.md)
+    * [Evento del negocio](/4_Conceptos/4_Evento_del_negocio.md)
 
     * [Escenario](/4_Conceptos/4_Escenario.md)
 
