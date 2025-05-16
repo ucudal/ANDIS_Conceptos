@@ -21,7 +21,9 @@
 
     * [Integración](/2_Tecnicas_y_herramientas/2_13_.Integracion_aplicaciones/)
 
-    * Virtualización
+    * [Virtualización](/4_Conceptos/4_Virtualizacion.md)
+
+    * [Contenedores](/4_Conceptos/4_Contenedores.md)
 
     * [ACID](/4_Conceptos/4_ACID.md)
 
@@ -45,7 +47,7 @@
 
     * [REST](/4_Conceptos/4_REST.md)
 
-    * Computación distribuida
+    * [Computación distribuida](/4_Conceptos/4_Computacion_distribuida.md)
 
     * Cloud computing
 
