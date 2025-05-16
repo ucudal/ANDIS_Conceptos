@@ -4,7 +4,9 @@
 
 Este documento está basado en [^1].
 
-[^1]: van Steen, M., Tanenbaum, A. (2025). Distributed Systems: Principles and
+<!-- cSpell:ignore Tannenbaum -->
+
+[^1]: van Steen, M., Tannenbaum, A. (2025). Distributed Systems: Principles and
     Paradigms, 4<sup>th</sup> edition. Maarten van Steen. Disponible
     [aquí](https://www.distributed-systems.net/index.php/books/ds4/).
 
@@ -13,6 +15,17 @@ Este documento está basado en [^1].
 El avance de los sistemas de computación ha sido vertiginoso. Entre 1945 y 1985,
 computadoras grandes y costosas funcionaban de forma aislada al no poder
 conectarse entre sí.
+
+<!-- cSpell:ignore Iain,Callum -->
+<span id="figura-1"/> <a title="Iain MacCallum, CC BY 3.0
+&lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:University_of_Manchester_Atlas,_January_1963.JPG"><img
+width="512" alt="University of Manchester Atlas, January 1963"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/University_of_Manchester_Atlas%2C_January_1963.JPG/512px-University_of_Manchester_Atlas%2C_January_1963.JPG?20201105033817"></a>
+
+*Figura 1. University of Manchester Atlas, January 1963. © Iain MacCallum, [CC
+BY 3.0](https://creativecommons.org/licenses/by/3.0), via [Wikimedia
+Commons](https://commons.wikimedia.org/).*
 
 A mediados de los '80, dos avances transformaron esta realidad:
 
@@ -36,6 +49,20 @@ simultáneamente una impresionante miniaturización. Los smartphones representan
 el mayor logro: dispositivos con múltiples sensores, mucha memoria y potentes
 procesadores *multi-core* que funcionan como computadoras completas con
 capacidades de red.
+
+<!-- cSpell:ignore Cloudwatt,Datacenter -->
+<span id="figura-2"/>
+<a title="Cloudwatt, CC BY-SA 3.0
+&lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Datacenter_Cloudwatt.jpg"><img
+width="512" alt="Datacenter Cloudwatt"
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Datacenter_Cloudwatt.jpg/512px-Datacenter_Cloudwatt.jpg?20131212112639"></a>
+
+<!-- cSpell:ignore Normandía, Reuil -->
+*Figura 2. Centro de datos Normandía de Cloudwatt en Val-de-Reuil (Eure). ©
+Cloudwatt, [CC BY-SA
+3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en), via [Wikimedia
+Commons](https://commons.wikimedia.org/).*
 
 Paralelamente surgieron las nano computadoras: sistemas de placa única del
 tamaño de una tarjeta de crédito, como [Raspberry
@@ -66,6 +93,7 @@ de sistemas:
   computadoras —por ejemplo,
   [blockchain](https://aws.amazon.com/what-is/blockchain)—.
 
+<!-- cSpell:ignore Gmail -->
 * **Un sistema distribuido** es un sistema informático en red en el cual los
   procesos y recursos están **suficientemente** distribuidos en múltiples
   computadoras —por ejemplo, un servicio de correo electrónico como Gmail o un
@@ -148,7 +176,8 @@ should be scalable.
   posiblemente separadas por grandes distancias. Existen diferentes formas de
   transparencia:
 
-  * **Acceso**. Oculta las diferencias en la representación de los datos y en cómo se accede a un objeto[^2].
+  * **Acceso**. Oculta las diferencias en la representación de los datos y en
+    cómo se accede a un objeto[^2].
 
   * **Ubicación**. Oculta dónde se encuentra un objeto.
 
@@ -203,12 +232,47 @@ should be scalable.
   En otras palabras, un sistema distribuido abierto también debe ser
   **extensible**.
 
----
+  Para lograr flexibilidad en sistemas distribuidos abiertos, es esencial
+  organizarlos en componentes pequeños y reemplazables, definiendo tanto
+  interfaces de alto nivel como internas. Este enfoque contrasta con los
+  sistemas monolíticos tradicionales, donde modificar un componente afecta a
+  todo el sistema, con lo que el sistema resultante tiende a ser cerrado y no
+  abierto. Lo que se necesita es separar la **política** —o *policy*— del
+  **mecanismo** —o *mechanism*—. El componente provee un mecanismo para una
+  política definida por el compuesto.
 
-¿Te gustaría que este fragmento se adapte como parte de un resumen o presentación didáctica?
+* **Confiabilidad** o -*dependability*-. Como su nombre lo indica, la
+  confiabilidad se refiere al grado en que se puede confiar en que un sistema
+  informático funcionará según lo previsto. La confiabilidad en sistemas
+  distribuidos es compleja debido a los fallos parciales: componentes que fallan
+  mientras el sistema sigue funcionando parcialmente. A diferencia de los
+  sistemas de un solo computador, las redes de computadoras complican la
+  situación, debiendo asumirse que siempre ocurren fallos parciales. Un objetivo
+  clave de los sistemas distribuidos es enmascarar estos fallos y su
+  recuperación, lo que constituye la **tolerancia a fallos**.
 
+  Vean también [disponibilidad](/4_Conceptos/4_Disponibilidad.md),
+  [seguridad](/4_Conceptos/4_Seguridad.md), facilidad de
+  [modificación](/4_Conceptos/4_Facilidad_de_modificacion.md) y
+  [despliegue](/4_Conceptos/4_Facilidad_de_despliegue.md) y
+  [error](/4_Conceptos/4_Error.md).
 
-* **Escalabilidad**. Otro objetivo es que sean escalables.
+* **Escalabilidad**. Otro objetivo es que sean escalables. La escalabilidad
+  tiene al menos tres dimensiones diferentes:
 
+  * Escalabilidad de tamaño: Un sistema puede ser escalable en función de su
+    tamaño, lo que significa que podemos añadir fácilmente más usuarios y
+    recursos sin ninguna pérdida apreciable de rendimiento.
 
+  * Escalabilidad geográfica: Un sistema geográficamente escalable es aquel en
+    el que los usuarios y los recursos pueden estar muy separados, pero los
+    retrasos significativos en la comunicación pasan prácticamente
+    desapercibidos.
 
+  * Escalabilidad administrativa: Un sistema administrativamente escalable es
+    aquel que puede gestionarse fácilmente incluso si abarca muchas
+    organizaciones administrativas independientes.
+
+> [!TIP]
+> Para conocer más información acerca de estos temas, consulta la sección **1.2
+> Design Goals**, del capítulo **1 Introduction**, de [^1].

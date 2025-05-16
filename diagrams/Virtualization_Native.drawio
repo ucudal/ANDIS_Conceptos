@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="shR7l1z_CxIOuZ4IrIi_" name="Page-1">
+        <mxGraphModel dx="906" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="176.75" width="50" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="176.75" width="90" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="76.75" width="100" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#FFFFFF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="40" y="186.75" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Sistema operativo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#FFFFFF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="40" y="86.75" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=none;html=1;strokeColor=light-dark(#000000,#006EAF);" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="176.75" as="sourcePoint"/>
+                        <mxPoint x="210" y="176.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="shape=corner;whiteSpace=wrap;html=1;rotation=90;dx=36;dy=41;fillColor=none;fontColor=#ffffff;strokeColor=light-dark(#006EAF,#006EAF);" vertex="1" parent="1">
+                    <mxGeometry x="81.75" y="-2" width="85.75" height="170.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Hipervisor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#FFFFFF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);fillStyle=hatch;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="136.75" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="126.75" width="50" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="126.75" width="90" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Aplicaciones y librerías" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=light-dark(#000000,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="49.620000000000005" y="41.75" width="150" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
