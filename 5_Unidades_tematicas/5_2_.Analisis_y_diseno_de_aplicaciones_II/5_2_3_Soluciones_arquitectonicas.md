@@ -77,6 +77,18 @@
 
     * Capítulo 7, **Designing Cloud-Based Solutions**
 
+4. Lee lo siguiente en [^4]:
+
+    * Capítulo 1, **Introduction**, en particular la sección 1.2 **Design
+      goals**
+
+    * Capítulo 3, **Processes**, en particular la sección 3.2 **Virtualization**
+
+    * Capítulo 4, **Communications**, en particular las secciones 4.2 **Remote
+      procedure call** y 4.3 **Message-oriented communication**
+
+    * Capítulo 7, **Consistency and replication**
+
 [^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
     Practice, 4th edition. Addison-Wesley.
 
@@ -85,3 +97,7 @@
 
 [^3]:Cervantes, H.; Kazman, R. (2024). Designing Software Architectures,
     2<sup>nd</sup> Edition. Addison-Wesley.
+
+[^4]: van Steen, M., Tannenbaum, A. (2025). Distributed Systems: Principles and
+    Paradigms, 4<sup>th</sup> edition. Maarten van Steen. Disponible
+    [aquí](https://www.distributed-systems.net/index.php/books/ds4/).
