@@ -1,0 +1,31 @@
+@startuml
+
+<style>
+document {
+  BackGroundColor transparent
+}
+element {
+  FontColor #0969DA
+  LineColor #0969DA
+  BackGroundColor transparent
+  FontSize 12
+  RoundCorner 0
+}
+</style>
+
+participant "Código cliente" as PC
+participant "//Stub// cliente" as SC
+participant "OS local" as LOS
+participant "OS remoto" as ROS
+participant "//Stub// servidor" as SS
+participant "Servidor" as S
+
+PC ->> SC : 1: call(params)
+SC ->> SC : 2: msg = codificarMensaje(params)
+SC ->> LOS : 3: enviarMensaje(msg)
+LOS ->> ROS : 4: enviarMensaje(msg)
+ROS ->> SS : 5: recibirMensaje(msg)
+SS ->> SS : 6: params = decodificarMensaje(msg)
+SS ->> S : 7: call(params)
+
+@enduml

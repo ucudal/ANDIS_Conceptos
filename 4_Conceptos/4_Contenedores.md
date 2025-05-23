@@ -27,7 +27,7 @@ transferencia— de las imágenes y el tiempo de inicio[^1].
 > particular con las [imágenes](./4_Virtualizacion.md#imágenes).
 
 Un contenedor proporciona la capacidad de empaquetar y ejecutar una aplicación
-en un entorno ligeramente aislado y liviano. El aislamiento y la seguridad
+en un entorno bastante aislado y liviano. El aislamiento y la seguridad
 permiten ejecutar muchos contenedores simultáneamente en un sistema operativo
 anfitrión. Los contenedores son livianos pero contienen todo lo necesario para
 ejecutar aplicaciones, por lo que no dependen de lo que esté instalado en el
@@ -51,7 +51,8 @@ subyacente.
 
 <span id="figura-1"/>
 
-![](/diagrams/Containers.svg)
+![Contenedores en un motor de contenedores sobre un sistema operativo sobre un
+hipervisor o hardware](/diagrams/Containers.svg)
 
 <!-- cSpell:ignore hipervisor -->
 
@@ -81,11 +82,11 @@ cuando el contenedor se detenga. Para guardar datos de forma persistente el
 contenedor puede montar un almacenamiento persistente externo.
 
 Un contenedor se construye sobre el *kernel*, pero el *kernel* no proporciona
-todos servicios que las aplicaciones en el contenedor necesitan; estos otros
-servicios están implementados en bibliotecas —*libraries*— provistas por
-archivos del sistema —*system files*— que ejecutan en [modo usuario o
-no—protegido](https://en.wikipedia.org/wiki/Protection_ring) —a diferencia del
-*kernel* que ejecuta en modo protegido—.
+todos servicios que las aplicaciones en el contenedor necesitan; los demás
+servicios que el *kernel* no proporciona están implementados en bibliotecas
+—*libraries*— provistas por archivos del sistema —*system files*— que ejecutan
+en [modo usuario o no—protegido](https://en.wikipedia.org/wiki/Protection_ring)
+—a diferencia del *kernel* que ejecuta en modo protegido—.
 
 Por lo tanto, el contenedor necesita su propia copia de estos archivos del
 sistema en modo usuario, que están empaquetados en lo que se conoce como una
@@ -101,12 +102,12 @@ aplicaciones, la imagen incluye los archivos de los entornos de ejecución
 —*runtimes*— y demás dependencias de las aplicaciones, más otros archivos de
 configuración que la aplicación necesite.
 
-Las imágenes de los contenedores se construyen en capas. Cada capa contiene una
-parte de esos archivos, que cuando se superponen, representan la imagen
-completa. Por ejemplo, una capa puede contener sólo los archivos de modo usuario
-de una distribución particular de Linux, otra capa encima los archivos de un
-entorno de ejecución en particular en Python, otra capa encima los archivos de
-otro entorno de ejecución con Django, y así sucesivamente.
+Como las imágenes de los contenedores se construyen en capas, cada capa puede
+contener una parte de esos archivos, que cuando se superponen, representan la
+imagen completa. Por ejemplo, una capa puede contener sólo los archivos de modo
+usuario de una distribución particular de Linux, otra capa encima los archivos
+de un entorno de ejecución en particular de Python, otra capa encima los
+archivos de otro entorno de ejecución con Django, y así sucesivamente.
 
 ### Aspectos internos de los contenedores
 
@@ -280,7 +281,8 @@ contenedores y las máquinas virtuales:
     <td>Sistema operativo</td>
     <td>Ejecuta un sistema operativo completo, incluido el <i>kernel</i>, por
     lo que requiere más recursos —procesador, memoria y almacenamiento—.</td>
-    <td>Ejecuta solo la parte en modo usuario del sistema operativo —y no el <i>kernel</i>—, y puede adaptarse para incluir únicamente los servicios
+    <td>Ejecuta solo la parte en modo usuario del sistema operativo —y no el
+    <i>kernel</i>—, y puede adaptarse para incluir únicamente los servicios
     necesarios para las aplicaciones, utilizando así menos recursos.</td>
   </tr>
   <tr style="vertical-align: top;">
