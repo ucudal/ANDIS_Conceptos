@@ -23,7 +23,8 @@ coherente, la realidad con la que nos vamos a encontrar es diferente:
 * Las organizaciones compran —o consumen en la modalidad de
   *software-as-a-service* en la nube— diferentes paquetes de software
   [COTS](https://en.wikipedia.org/wiki/Commercial_off-the-shelf) —*commercially
-  off-the-shelf*— de proveedores diferentes.
+  off-the-shelf*, aplicaciones listas para usar que se configuran para adaptarse
+a la organización que las compra— de proveedores diferentes.
 
 * También las organizaciones van construyendo aplicaciones en diferentes
   momentos: mientras los nuevos desarrollos pueden usar tecnologías más nuevas
