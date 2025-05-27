@@ -203,7 +203,7 @@ acuerdo sobre los siguientes aspectos:
     depender de interacciones asíncronas basadas en el consumo y la producción de
     eventos, intercambiados a través de colas de mensajes o flujos de datos.
 
-  Los dos estilos de interacción más comunes son [RPC](/2_Tecnicas_y_herramientas/2_13_.Integracion_aplicaciones/2_13_3_RPC.md) y
+  Los dos estilos de interacción más comunes son [RPC](/4_Conceptos/4_RPC.md) y
   [REST](/4_Conceptos/4_REST.md).
 
 * **Representación y estructura de los datos intercambiados**. Cada interfaz
@@ -212,7 +212,7 @@ acuerdo sobre los siguientes aspectos:
   de la interfaz, en una representación diferente, más adecuada para ser
   intercambiada entre diferentes componentes, implementados eventualmente en
   otras tecnologías, y transmitida a través de la red. La conversión de la
-  representación interna a la externa se denomina "serialización",
+  representación interna a la externa se denomina "secuenciación",
   "*marshaling*" o "traducción".
 
   Los estilos de representación de datos más comunes, independientes del

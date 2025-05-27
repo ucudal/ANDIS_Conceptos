@@ -17,7 +17,7 @@ un entorno de ejecución del lado del servidor para ejecutar consultas utilizand
 un sistema de tipos que el desarrollador define para sus datos.
 
 [gRPC](https://grpc.io). Un *framework* RPC universal de código abierto y alto
-rendimiento. Ver también [RPC](/2_Tecnicas_y_herramientas/2_13_.Integracion_aplicaciones/2_13_3_RPC.md)
+rendimiento. Ver también [RPC](/4_Conceptos/4_RPC.md)
 
 [Redis](https://redis.io). Redis es una base de datos en memoria rápida que
 ofrece soluciones locales y en la nube para almacenamiento en caché, búsqueda
@@ -53,6 +53,8 @@ específicas para crear aplicaciones web.
 [Java Spring Boot](https://spring.io). Java Spring Boot es un *framework* para
 el desarrollo de aplicaciones y contenedor de inversión de control de código
 abierto para la plataforma Java.
+
+<!-- cSpell:ignore enrutar https://dle.rae.es/enrutar -->
 
 [MassTransit](https://masstransit.io). MassTransit es un software de bus de
 servicios empresariales ‑ESB‑ de código abierto y gratuito, que ayuda a los
