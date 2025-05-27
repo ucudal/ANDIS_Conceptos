@@ -123,7 +123,7 @@ perspectivas fundamentales para comprender su funcionamiento:
 * **Perspectiva de comunicación**: Aborda las capacidades de los sistemas
   distribuidos para intercambiar datos entre procesos, incluyendo [llamadas a
   procedimientos
-  remotos](/2_Tecnicas_y_herramientas/2_13_.Integracion_aplicaciones/2_13_3_RPC.md),
+  remotos](/4_Conceptos/4_RPC.md),
   [intercambio de mensajes de alto
   nivel](/2_Tecnicas_y_herramientas/2_13_.Integracion_aplicaciones/2_13_4_Messaging.md)
   y comunicación entre conjuntos de procesos.

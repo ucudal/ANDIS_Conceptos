@@ -8,6 +8,8 @@ La transferencia de archivos es un mecanismo que permite [integrar
 aplicaciones](./2_13_.Integracion_aplicaciones.md) que fueron construidas
 independientemente, en lenguajes diferentes, en entornos diferentes[^1].
 
+<!-- cSpell:ignore Hohpe -->
+
 [^1]: Hohpe, G. & Woolf, B. (2003). Enterprise Integration Patterns: Designing,
 Building, and Deploying Messaging Solutions. Addison-Wesley Professional.
 
@@ -114,5 +116,5 @@ noche, para sincronizar los datos que cambiaron durante el día—, pero en otro
 puede ser necesario que la actualización sea inmediata. En este último caso la
 integración mediante transferencia de archivos puede no ser el mecanismo más
 adecuado —otros mecanismos como [mensajería](./2_13_4_Messaging.md), [bases de
-datos compartidas](./2_13_2_Shared_Database.md), o [RPC](./2_13_3_RPC.md) pueden
-ser más apropiados—.
+datos compartidas](./2_13_2_Shared_Database.md), o
+[RPC](/4_Conceptos/4_RPC.md) pueden ser más apropiados—.

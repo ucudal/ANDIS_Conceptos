@@ -8,6 +8,8 @@ Las bases de datos compartidas son un mecanismo que permite [integrar
 aplicaciones](./2_13_.Integracion_aplicaciones.md) que fueron construidas
 independientemente, en lenguajes diferentes, en plataformas diferentes[^1].
 
+<!-- cSpell:ignore Hohpe -->
+
 [^1]: Hohpe, G. & Woolf, B. (2003). Enterprise Integration Patterns: Designing,
 Building, and Deploying Messaging Solutions. Addison-Wesley Professional.
 
@@ -68,7 +70,7 @@ aplicaciones son [distribuidas](/4_Conceptos/4_Computacion_distribuida.md) y hay
 que agregar la latencia de la red.
 
 Para integrar la funcionalidad de las aplicaciones en lugar de sus datos, es
-mejor utilizar la llamada a procedimientos remotos o [RPC](./2_13_3_RPC.md).
-Para permitir intercambios frecuentes de pequeñas cantidades de datos utilizando
-un formato por tipo de dato —en lugar de un esquema universal— es preferible
-utilizar [mensajería](./2_13_4_Messaging.md).
+mejor utilizar la llamada a procedimientos remotos o
+[RPC](/4_Conceptos/4_RPC.md). Para permitir intercambios frecuentes de pequeñas
+cantidades de datos utilizando un formato por tipo de dato —en lugar de un
+esquema universal— es preferible utilizar [mensajería](./2_13_4_Messaging.md).
