@@ -58,7 +58,7 @@
 
 2. En este repositorio lee también lo siguiente:
 
-    * [MVC](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_MVC.md)
+    * [MVC](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura.md/2_09_MVC.md)
 
     * [Aggregate](/2_Tecnicas_y_herramientas/2_08_.Patrones_de_diseno/2_08_Aggregate.md)
 

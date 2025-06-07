@@ -1,0 +1,39 @@
+<mxfile host="65bd71144e">
+    <diagram id="PhueQTqiLwWuwRucKA9R" name="Page-1">
+        <mxGraphModel dx="536" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Aplicación A" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="155" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Aplicación B" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="155" width="80" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="205" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="Stub" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.07500000000000001;arcSize=10;flipV=1;labelPosition=center;align=center;rotation=-90;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="185" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Skeleton" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.07500000000000001;arcSize=10;flipV=0;labelPosition=center;align=center;rotation=-90;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="185" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Función" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=light-dark(#006EAF,#006EAF);fillColor=none;fontColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="185" y="150" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Resultado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=light-dark(#006EAF,#006EAF);fillColor=none;fontColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="180" y="200" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);dashed=1;startArrow=open;startFill=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="215" as="sourcePoint"/>
+                        <mxPoint x="250" y="215" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

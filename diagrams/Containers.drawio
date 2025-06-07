@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="lhNPyN11TTnuB0F7F2ws" name="Page-1">
+        <mxGraphModel dx="536" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font style=&quot;color: light-dark(rgb(0, 110, 175), rgb(0, 110, 175));&quot;&gt;Sistema operativo anfitrión&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="50" width="410" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Hipervisor o hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="40" y="290" width="410" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Aplicaciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="50" y="80" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Contenedor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);horizontal=0;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="105" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Kernel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="240" width="390" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Servicios" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="50" y="160" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Aplicaciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="190" y="115" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Servicios" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="190" y="165" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Contenedor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);horizontal=0;align=center;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="105" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Aplicaciones" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="330" y="115" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Servicios" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);" parent="1" vertex="1">
+                    <mxGeometry x="330" y="165" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Motor de contenedores" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=light-dark(#006EAF,#006EAF);strokeColor=light-dark(#006EAF,#006EAF);verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="80" width="290" height="150" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
