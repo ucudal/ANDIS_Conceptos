@@ -1,34 +1,34 @@
 <mxfile host="65bd71144e">
     <diagram id="PhueQTqiLwWuwRucKA9R" name="Page-1">
-        <mxGraphModel dx="536" dy="261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="536" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="none">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="10" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeColor=light-dark(#000000,#006EAF);fontColor=light-dark(#000000,#006EAF);" parent="1" source="2" target="6" edge="1">
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);" parent="1" source="2" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="Aplicación A" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#006EAF);fontColor=light-dark(#000000,#006EAF);fillColor=none;" parent="1" vertex="1">
+                <mxCell id="2" value="Aplicación A" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="40" y="155" width="80" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Aplicación B" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#006EAF);fontColor=light-dark(#000000,#006EAF);fillColor=none;" parent="1" vertex="1">
+                <mxCell id="3" value="Aplicación B" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="460" y="155" width="80" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;strokeColor=light-dark(#000000,#006EAF);fontColor=light-dark(#000000,#006EAF);" parent="1" source="5" target="7" edge="1">
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);" parent="1" source="5" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Datos compartidos" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13076923076923078;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=light-dark(#000000,#006EAF);fontColor=light-dark(#000000,#006EAF);fillColor=none;" parent="1" vertex="1">
+                <mxCell id="5" value="Datos compartidos" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13076923076923078;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="240" y="170" width="100" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;strokeColor=light-dark(#000000,#006EAF);fontColor=light-dark(#000000,#006EAF);" parent="1" source="6" target="5" edge="1">
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);" parent="1" source="6" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Exportación" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.07500000000000001;arcSize=10;flipV=1;labelPosition=center;align=center;rotation=-90;strokeColor=light-dark(#000000,#006EAF);fontColor=light-dark(#000000,#006EAF);fillColor=none;" parent="1" vertex="1">
+                <mxCell id="6" value="Exportación" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.07500000000000001;arcSize=10;flipV=1;labelPosition=center;align=center;rotation=-90;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="130" y="185" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeColor=light-dark(#000000,#006EAF);fontColor=light-dark(#000000,#006EAF);" parent="1" source="7" target="3" edge="1">
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);" parent="1" source="7" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Importación" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.07500000000000001;arcSize=10;flipV=0;labelPosition=center;align=center;rotation=-90;strokeColor=light-dark(#000000,#006EAF);fontColor=light-dark(#000000,#006EAF);fillColor=none;" parent="1" vertex="1">
+                <mxCell id="7" value="Importación" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.07500000000000001;arcSize=10;flipV=0;labelPosition=center;align=center;rotation=-90;strokeColor=light-dark(#006EAF,#006EAF);fontColor=light-dark(#006EAF,#006EAF);fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="350" y="185" width="100" height="40" as="geometry"/>
                 </mxCell>
             </root>
