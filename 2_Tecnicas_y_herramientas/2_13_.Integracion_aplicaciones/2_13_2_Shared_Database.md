@@ -71,6 +71,7 @@ que agregar la latencia de la red.
 
 Para integrar la funcionalidad de las aplicaciones en lugar de sus datos, es
 mejor utilizar la llamada a procedimientos remotos o
-[RPC](/4_Conceptos/4_RPC.md). Para permitir intercambios frecuentes de pequeñas
-cantidades de datos utilizando un formato por tipo de dato —en lugar de un
-esquema universal— es preferible utilizar [mensajería](./2_13_4_Messaging.md).
+[RPC](/4_Conceptos/4_RPC.md). Cuando se requiere un intercambio frecuente de
+pequeñas cantidades de datos y se prefiere usar un formato específico por tipo
+de dato en lugar de un esquema universal, la [mensajería](./2_13_4_Messaging.md)
+es una opción más adecuada.

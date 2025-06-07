@@ -5,8 +5,9 @@
 ### 2.13.4 *Messaging* o mensajería
 
 La mensajería es un mecanismo que permite [integrar
-aplicaciones](./2_13_.Integracion_aplicaciones.md) que fueron construidas
-independientemente, en lenguajes diferentes, en plataformas diferentes[^1].
+aplicaciones](./2_13_.Integracion_aplicaciones.md) que fueron construidas de
+forma independiente, utilizando distintos lenguajes de programación y diferentes
+plataformas[^1].
 
 <!-- cSpell:ignore Hohpe -->
 
@@ -17,23 +18,25 @@ Los mecanismos como [File Transfer](./2_13_1_File_Transfer.md) y [Shared
 Database](./2_13_2_Shared_Database.md) permiten que las aplicaciones compartan
 sus datos pero no su funcionalidad, mientras que [Remote Procedure
 Invocation](./2_13_3_Remote_Procedure_Invocation.md) permite que las
-aplicaciones compartan funcionalidad, pero también las acopla estrechamente: hay
-enormes diferencias en términos de [desempeño](/4_Conceptos/4_Rendimiento.md) y
+aplicaciones compartan funcionalidad, pero también introduce un fuerte
+acoplamiento: hay enormes diferencias en términos de
+[desempeño](/4_Conceptos/4_Rendimiento.md) y
 [confiabilidad](/4_Conceptos/4_Disponibilidad.md) entre invocaciones locales y
 remotas, y cuando estas diferencias no son tenidas en cuenta, el uso puede
 conducir a sistemas lentos y poco confiables.
 
-Lo que se necesita es la posibilidad de enviar datos como en [File
-Transfer](./2_13_1_File_Transfer.md), pero que la aplicación que los recibe se
-entere cuando lleguen. El envío de datos puede desencadenar un comportamiento en
-la aplicación receptora como en [Remote Procedure
-Invocation](./2_13_3_Remote_Procedure_Invocation.md), pero sin los problemas
-recién mencionados. El envío debe ser asíncrono para que la aplicación que envía
-los datos no tenga que esperar por la aplicación que los recibe.
+Lo que se necesita es la posibilidad de enviar datos, como en [File
+Transfer](./2_13_1_File_Transfer.md), pero con la posibilidad de que la
+aplicación que los recibe sea notificada en cuando lleguen esos datos. El envío
+de datos puede desencadenar un comportamiento en la aplicación receptora como en
+[Remote Procedure Invocation](./2_13_3_Remote_Procedure_Invocation.md), pero sin
+los problemas recién mencionados. El envío debe ser asíncrono para que la
+aplicación que envía los datos no tenga que esperar por la aplicación que los
+recibe.
 
-> Para integrar aplicaciones usa  mensajería y transfiere paquetes de datos de
-> forma frecuente, inmediata, confiable y asíncrona, utilizando formatos
-> personalizables.
+> Para integrar aplicaciones, utiliza  mensajería para transferir paquetes de
+> datos de forma frecuente, inmediata, confiable y asíncrona, utilizando
+> formatos personalizables.
 
 <span id="figura-1"/>
 
@@ -56,7 +59,7 @@ que la aplicación que envía el mensaje o la que lo recibe lo sepa.
 
 Este desacoplamiento también permite que varias aplicaciones reciban el mismo
 mensaje transmitido por otra. Esto separa las decisiones de integración de
-aplicaciones las decisiones de desarrollo de aplicaciones.
+aplicaciones de las decisiones de desarrollo de aplicaciones.
 
 Cuando las aplicaciones puedan tener diferentes modelos conceptuales de los
 datos enviados en los mensajes, se podrán aplicar las mismas medidas que se
@@ -86,7 +89,7 @@ que surgen:
   Router](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageRouter.html)
   o ≪enrutador de mensajes≫, el que enviará el mensaje al receptor adecuado.
 
-* ¿Cómo saber qué formato de datos utilizar? El remitente pueden enviar los
+* ¿Cómo saber qué formato de datos utilizar? El remitente puede enviar los
   mensajes a un [Message
   Translator](https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageTranslator.html)
   o ≪traductor de mensajes≫ que convertirá el mensaje al formato adecuado para

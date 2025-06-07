@@ -5,8 +5,8 @@
 ### 2.13.1 *File Transfer* o transferencia de archivos
 
 La transferencia de archivos es un mecanismo que permite [integrar
-aplicaciones](./2_13_.Integracion_aplicaciones.md) que fueron construidas
-independientemente, en lenguajes diferentes, en entornos diferentes[^1].
+aplicaciones](./2_13_.Integracion_aplicaciones.md) construidas de forma
+independiente, utilizando lenguajes diferentes y en entornos diversos[^1].
 
 <!-- cSpell:ignore Hohpe -->
 
@@ -28,10 +28,10 @@ coherente, la realidad con la que nos vamos a encontrar es diferente:
   off-the-shelf*, aplicaciones listas para usar que se configuran para adaptarse
 a la organización que las compra— de proveedores diferentes.
 
-* También las organizaciones van construyendo aplicaciones en diferentes
-  momentos: mientras los nuevos desarrollos pueden usar tecnologías más nuevas
-  —y está bien—, los existentes van a usar tecnologías obsoletas —y no siempre
-  es bueno reemplazarlos[^2]—.
+* Además, las organizaciones desarrollan aplicaciones en diferentes momentos:
+  mientras los nuevos desarrollos pueden usar tecnologías más nuevas —y está
+  bien—, los existentes van a usar tecnologías obsoletas —y no siempre resulta
+  conveniente reemplazarlos[^2]—.
 
 [^2]: Por un lado está el costo de hacer algo de nuevo y por otro la máxima ≪lo
     que funciona no se toca≫.
@@ -80,9 +80,9 @@ values*—, [XML](https://en.wikipedia.org/wiki/XML) —*extensible markup
 language*— o [JSON](https://en.wikipedia.org/wiki/JSON) —JavaScript object
 notation—, entre otros.
 
-Una consecuencia de esta forma de integración es que los desarrolladores de la
-aplicación que consume el archivo no precisan conocer detalles de la aplicación
-que los produce. Aunque el formato y el contenido del archivo podrían ser
+Una consecuencia de este tipo de integración es que los desarrolladores de la
+aplicación consumidora no necesitan conocer detalles de la aplicación que
+produce los archivos. Aunque el formato y el contenido del archivo podrían ser
 negociados entre los desarrolladores de las aplicaciones a integrar, esto no
 siempre es posible, especialmente cuando la aplicación que produce el archivo es
 un paquete COTS.
