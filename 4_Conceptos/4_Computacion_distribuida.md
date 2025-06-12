@@ -435,7 +435,7 @@ servicio recibe miles de solicitudes por segundo, los milisegundos pasan a ser
 relevantes.
 
 Los centros de cómputo de los proveedores de [nube
-pública](./4_Computacion_nube.md#nube-pública-o-public-cloud) tienen relojes muy
+pública](./4_Computacion_nube.md#modelos-de-despliegue) tienen relojes muy
 exactos: usan un reloj atómico que atrasa o adelanta un segundo en 300 años; o
 toman la hora del GPS que es exacta en más o menos 100 nanosegundos—.
 

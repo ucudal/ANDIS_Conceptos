@@ -19,8 +19,8 @@ razonable para el negocio: cuando ocurre un cambio en un dato de la aplicación
 que produce el archivo, mientras el archivo no se transfiera, ese dato estará
 inconsistente en las demás aplicaciones que consumen el archivo.
 
-Por otro lado, la transferencia de archivos puede no respetar suficientemente
-bien los formatos de datos, o aún respetando los formatos, puede haber
+Por otro lado, la transferencia de archivos puede garantizar el cumplimiento
+estricto de los formatos de datos, o aún respetando los formatos, puede haber
 diferentes interpretaciones semánticas de los datos.
 
 Lo que se necesita es un repositorio de datos centralizado, acordado y
@@ -46,9 +46,9 @@ manejar la concurrencia.
 La integración con bases de datos compartidas se facilita hoy en día por la
 amplia difusión y aceptación que tienen las bases de datos relacionales basadas
 en SQL. El esquema de la base de datos elimina el problema de los formatos de
-archivo. La enorme mayoría de los lenguajes de programación y *frameworks* pueden
-conectarse a bases de datos; y por otro lado, la mayoría de las aplicaciones ya
-están usando alguna base de datos.
+archivo. La mayoría de los lenguajes de programación y *frameworks* modernos
+permiten conectarse fácilmente a bases de datos; y muchas aplicaciones ya
+utilizan alguna.
 
 Una de las dificultades con las bases de datos compartidas es acordar un diseño
 adecuado para todas las aplicaciones a integrar: conseguir un esquema que
