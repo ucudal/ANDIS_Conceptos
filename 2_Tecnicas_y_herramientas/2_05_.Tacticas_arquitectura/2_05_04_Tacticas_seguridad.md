@@ -26,7 +26,7 @@ explicadas más abajo.
       Tácticas de seguridad
     </td>
     <td rowspan="4">
-      Detectar ataques
+      Detección de ataques
     </td>
     <td>
       <a href="#detectar-la-intrusión">Detectar la intrusión</a>
@@ -49,7 +49,7 @@ explicadas más abajo.
   </tr>
   <tr>
     <td rowspan="9">
-      Resistir ataques
+      Resistencia a los ataques
     </td>
     <td>
       <a href="#identificar-actores">Identificar actores</a>
@@ -97,7 +97,7 @@ explicadas más abajo.
   </tr>
   <tr>
     <td rowspan="3">
-      Reaccionar a ataques</a>
+      Reacción a los ataques</a>
     </td>
     <td>
       <a href="#revocar-el-acceso">Revocar el acceso</a>
@@ -115,7 +115,7 @@ explicadas más abajo.
   </tr>
   <tr>
     <td rowspan="2">
-      Recuperarse de los ataques
+      Recuperación de los ataques
     </td>
     <td>
       <a href="#auditar">Auditar</a>

@@ -55,7 +55,7 @@ explicadas más abajo.
   </tr>
   <tr>
     <td>
-      <a href="#apagar-y-encender-características">Apagar y encender
+      <a href="#apagar-y-prender-características">Apagar y encender
       características</a>
     </td>
   </tr>
@@ -105,7 +105,7 @@ paquete de despliegue todas las dependencias necesarias para que componente
 desplegado funcione . Esto asegura que el componente se ejecute de manera
 consistente independientemente del entorno en el que se despliegue.
 
-#### Apagar y encender características
+#### Apagar y prender características
 
 Permite habilitar o deshabilitar las nuevas funcionalidades o características
 del componente desplegado en tiempo de ejecución, sin necesidad de volver a

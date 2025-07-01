@@ -32,7 +32,7 @@ explicadas más abajo.
       Tácticas de protección
     </td>
     <td rowspan="2" colspan="2">
-      Evitar los estados desprotegidos
+      Prevención de estados inseguros
     </td>
     <td>
       <a href="#sustitución">Sustitución</a>
@@ -45,7 +45,7 @@ explicadas más abajo.
   </tr>
   <tr>
     <td rowspan="5" colspan="2">
-      Detección de estados desprotegidos
+      Detección de estados inseguros
     </td>
     <td>
       <a href="#control-de-cordura-o-sanity-check">Control de cordura o

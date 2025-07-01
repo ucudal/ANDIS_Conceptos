@@ -195,4 +195,4 @@ eventos.
 
 Asigna recursos a los eventos basándose en un algún criterio para buscar que
 estén disponibles cuando se necesiten. Los criterios de asignación incluyen
-*first-in/first/out*, *round robin*, etc.
+*first-in/first-out*, *round robin*, etc.
