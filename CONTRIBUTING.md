@@ -167,6 +167,8 @@ otros recursos útiles para encontrar lo que estás sugiriendo
 2. ¿Por qué es necesario?
 3. ¿Cómo deberíamos agregarlo?
 
+<!-- TODO:  -->
+
 <!--
 TODO: Revisar estas fuentes
 
@@ -287,6 +289,21 @@ Además, esta es la configuración sugerida del editor y sus extensiones:
 Para verificar los links usamos la herramienta Linkspector disponible
 [aquí](https://github.com/UmbrellaDocs/linkspector). La puedes ejecutar a
 demanda con el comando `linkspector check`.
+
+Usamos cSpell como corrector ortográfico tanto en inglés como en español. Las
+palabras que cSpell no reconoce podemos ignorarlas si y sólo sí:
+
+* Son nombres propios o apellidos de autores
+
+* Son palabras que existen en el idioma. En este caso agregamos a la directiva
+  para ignorar la palabra el link a la definición en la [RAE](https://rae.es) u
+  otro diccionario confiable.
+
+Por ejemplo:
+
+```markdown
+<!-- cSpell:ignore idempotente https://dle.rae.es/idempotente -->
+```
 
 ### Organización del contenido
 
@@ -488,6 +505,25 @@ Puedes generar una raya:
 Cuando no existe una traducción ampliamente aceptada de una palabra en inglés
 u otro idioma al español, preferimos usar la palabra original; esa palabra la
 escribimos *en cursiva*.
+
+También ponemos tanto la palabra en español como en inglés cuando existe más de
+una posible traducción.
+
+### Colores
+
+Usamos un único color para resaltar texto y para las líneas en los diagramas:
+
+<span style="color:#0969DA">This color</span>
+
+Que se obtiene con este código:
+
+```markdown
+<span style="color:#0969DA">This color</span>
+```
+
+El único texto resaltado es en las plantillas el texto que debe quedar como
+parte de la plantilla, para diferenciarlo del texto que debe ser reemplazado en
+la plantilla.
 
 ### Notas, consejos, avisos, etcétera
 
