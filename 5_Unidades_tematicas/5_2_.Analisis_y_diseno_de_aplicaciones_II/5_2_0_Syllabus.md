@@ -172,7 +172,7 @@ width="150"/>
     trabajo en grupo</td>
   </tr>
   </tr><tr style="vertical-align:top">
-    <td>2. Tácticas de arquitectura</td>
+    <td><a id="ut2"></a>2. Tácticas de arquitectura</td>
     <td>
       Tácticas para disponibilidad, rendimiento, protección, seguridad,
       facilidad de modificación, facilidad de despliegue
@@ -182,7 +182,7 @@ width="150"/>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
     trabajo en grupo</td>
   <tr style="vertical-align:top">
-    <td>3. Soluciones arquitectónicas</td>
+    <td><a id="ut3"></a>3. Soluciones arquitectónicas</td>
     <td>
       <p>Componentes</p>
       <p>Interfaces</p>
@@ -199,7 +199,7 @@ width="150"/>
     trabajo en grupo</td>
   </tr>
   <tr style="vertical-align:top">
-    <td>4. Patrones de arquitectura</td>
+    <td><a id="ut4"></a>4. Patrones de arquitectura</td>
     <td>Patrones para disponibilidad, rendimiento, protección, seguridad,
       facilidad de modificación, facilidad de despliegue</td>
     <td>CQRS, Compensating Transaction, Event Sourcing, Choreography</td>
@@ -208,7 +208,7 @@ width="150"/>
     trabajo en grupo</td>
   </tr>
   <tr style="vertical-align:top">
-    <td>5. Estilos de arquitectura</td>
+    <td><a id="ut5"></a>5. Estilos de arquitectura</td>
     <td>Layered, Pipes and Filters, Microkernel, Service-Based, Event-Driven,
     Service-Oriented, Microservices
     </td>
@@ -218,7 +218,7 @@ width="150"/>
     trabajo en grupos</td>
   </tr>
   <tr style="vertical-align:top">
-    <td>6. Proceso de arquitectura</td>
+    <td><a id="ut6"></a>6. Proceso de arquitectura</td>
     <td>Diseño dirigido por atributos</td>
     <td>Modelo C4, Ciclo de identificación de componentes</td>
     <td>6 en clase, 15 en casa</td>
@@ -226,7 +226,7 @@ width="150"/>
     trabajo en grupos</td>
   </tr>
   <tr style="vertical-align:top">
-    <td>7. Evaluación de la arquitectura</td>
+    <td><a id="ut7"></a>7. Evaluación de la arquitectura</td>
     <td>ATAM</td>
     <td>ALMA, PASA</td>
     <td>6 en clase, 15 en casa</td>
