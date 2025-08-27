@@ -76,7 +76,7 @@ $\text{Disponibilidad} = \frac{\text{MTBF}}{\text{MTBF} + \text{MTTR}}$
 
 Donde:
 
-* $\text{MTTF}$: es el tiempo promedio que transcurre entre fallos sucesivos de
+* $\text{MTBF}$: es el tiempo promedio que transcurre entre fallos sucesivos de
   un sistema. Representa la fiabilidad del sistema.
 * $\text{MTTR}$: es el tiempo promedio que se tarda en reparar un fallo y
   restaurar el sistema a su funcionamiento normal. Representa la capacidad de
