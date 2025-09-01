@@ -132,7 +132,6 @@ Wu, W. & Kelly, T. (2004). Safety Tactics for Software Architecture Design.
 2. Lee en el sitio de [Azure Well-Architected
    Framework](https://learn.microsoft.com/en-us/azure/well-architected/):
 
-<!-- markdownlint-disable MD007 -->
     * [Cloud design patterns that support
       reliability](https://learn.microsoft.com/en-us/azure/well-architected/reliability/design-patterns).
 
@@ -141,7 +140,6 @@ Wu, W. & Kelly, T. (2004). Safety Tactics for Software Architecture Design.
 
     * [Cloud design patterns that support
       security](https://learn.microsoft.com/en-us/azure/well-architected/security/design-patterns).
-<!-- markdownlint-enable MD007 -->
 
 3. En el Carnegie Mellon University Software Engineering Institute's Insights
   Blog [Tactics and Patterns for Software
