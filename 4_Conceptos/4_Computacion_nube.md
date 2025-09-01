@@ -239,9 +239,9 @@ distribuidos](/4_Conceptos/4_Computacion_distribuida.md) puede estar en varios
 lados—.
 
 > [!TIP] Existen patrones de arquitectura como [Circuit
-> Breaker](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura.md/2_09_Circuit_breaker.md)
+> Breaker](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Circuit_breaker.md)
 > y
-> [Retry](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura.md/2_09_Retry.md)
+> [Retry](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Retry.md)
 > para manejar fallas eventuales o intermitentes, pues usualmente hay un costo
 > asociado a las acciones de recuperación de las fallas.
 
@@ -275,7 +275,7 @@ respuestas que van a demorar el doble, el triple, o más que el promedio —esta
 son las solicitudes que están en la parte larga de la cola—.
 
 Un patrón para abordar este problema es [Request
-Hedging](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura.md/2_09_Request_Hedging.md).
+Hedging](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Request_Hedging.md).
 Otros patrones y técnicas aparecen también en [^3].
 
 <!-- cSpell:ignore Timbó -->
