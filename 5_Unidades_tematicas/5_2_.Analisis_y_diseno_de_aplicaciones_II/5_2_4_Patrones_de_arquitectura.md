@@ -9,7 +9,7 @@
 1. Lee los sitios referenciados en los siguientes documentos de este repositorio
    para patrones para disponibilidad:
 
-    * [Bulkhead pattern](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Bulkhead.md)
+    * [Bulkhead](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Bulkhead.md)
 
     * [Circuit Breaker](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Circuit_breaker.md)
 
@@ -25,55 +25,62 @@
 
     * [Throttling](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Throttling.md)
 
-
 2. Lee los sitios referenciados en los siguientes documentos de este repositorio
    para patrones para el rendimiento:
 
+    * [Cache-Aside](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Cache_Aside.md)
 
+    * [Queue-Based Load Leveling](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Queue-Based_Load_Leveling.md)
 
+    * [Competing Consumers](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Competing_Consumers.md)
 
--------
+    * [Publisher/Subscriber](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Publisher_Subscriber.md)
 
+    * [Asynchronous Request-Reply](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Asynchronous_Request_Reply.md)
 
-> [!TIP]
+    * [CQRS](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_CQRS.md)
 
-
+    * [Materialized View](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Materialized_View.md)
 
 3. Lee los sitios referenciados en los siguientes documentos de este repositorio
    para patrones para la seguridad:
 
+    * [Gatekeeper](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Gatekeeper.md)
 
+    * [Federated Identity](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Federated_Identity.md)
+
+    * [Gateway Offloading](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Gateway_Offloading.md)
+
+    * [Sidecar](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Sidecar.md)
+
+    * [Valet Key](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Valet_Key.md)
 
 4. Lee los sitios referenciados en los siguientes documentos de este repositorio
-   para patrones para la protección
+   para patrones para la facilidad de modificación y de despliegue
 
-Wu, W. & Kelly, T. (2004). Safety Tactics for Software Architecture Design.
-368-375 Vol 1.
-[10.1109/CMPSAC.2004.1342860](https://www.researchgate.net/publication/4095499_Safety_Tactics_for_Software_Architecture_Design).
+    * [Deployment
+      Stamps](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Deployment_Stamps.md)
 
-5. Lee los sitios referenciados en los siguientes documentos de este repositorio
-   para patrones para la facilidad de modificación
+    * [External Configuration
+      Store](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_External_Configuration_Store.md)
 
-<!-- TODO: Proveer vínculos a estos patrones de facilidad de modificación -->
+    * [Messaging
+      Bridge](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Messaging_Bridge.md)
 
-* Patrón cliente-servidor
-* Patrón plug-in ‑microkernel‑
-* Patrón capas
-* Patrón editor-suscriptor
+    * [Strangler
+      Fig](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Strangler_Fig.md)
 
+5. Lee lo siguiente sobre patrones de facilidad de modificación y despliegue:
 
+    * Arquitecturas de micro-servicios en [^4] y [^5].
 
+    * Blue/green deployment en [^6]. <!-- https://learn.microsoft.com/en-us/azure/container-apps/blue-green-deployment?pivots=azure-cli -->
 
+    * Rolling upgrade en [^7].
 
-6. Lee los sitios referenciados en los siguientes documentos de este repositorio
-   para patrones para la facilidad de despliegue
+    * Canary testing en [^8].
 
-> [!TIP]
-> Vean [Cloud design patterns that support operational
-> excellence](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/design-patterns)
-> en Azure Well-Architected Framework; y las referencias a continuación:
-
-* Arquitecturas de microservicios en [^4] y [^5].
+    * A/B testing
 
 [^4]: Microsoft. (2024). Microservice architecture style. Disponible
   [aquí](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
@@ -81,39 +88,22 @@ Wu, W. & Kelly, T. (2004). Safety Tactics for Software Architecture Design.
 [^5]: Lewis, J. & Fowler, M. (2014). Microservices. Disponible
   [aquí](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 
-* Blue/green deployment en [^6].
-
 [^6]: Fowler, M. (2010). Blue Green Deployment. Disponible
   [aquí](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 
-* Rolling upgrade en [^7].
+<!-- cSpell:ignore Wolski Laiho -->
 
 [^7]: Wolski, A. & Laiho, K. (2004). Rolling Upgrades for Continuous Services.
   Disponible
   [aquí](https://link-springer-com.proxy.timbo.org.uy/chapter/10.1007/978-3-540-30225-4_13)
   vía Timbó.
 
-* Canary testing en [^8].
-
 [^8]: Sato, D. (2014). Canary Release. Disponible
   [aquí](https://martinfowler.com/bliki/CanaryRelease.html?ref=wellarchitected)
 
-* A/B testing
-
-
-
-
-
-
-### [Cache Aside](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Cache_Aside.md)
-
-### [Choreography](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Choreography.md)
-
-
-
-### [Saga](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Saga.md)
-
 #### Lecturas complementarias
+
+<!-- cSpell:ignore Bachmann Nord -->
 
 1. Lee lo siguiente de [^1]:
 

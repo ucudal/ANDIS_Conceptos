@@ -55,9 +55,9 @@
 
     * [Cloud computing](/4_Conceptos/4_Computacion_nube.md)
 
-    * Mobile systems
+    <!-- * Mobile systems
 
-    * Workflow
+    * Workflow -->
 
 #### Lecturas complementarias
 
