@@ -368,9 +368,9 @@ Aún con un balanceador de carga que implementa el chequeo de salud, es posible
 que un cliente no obtenga la respuesta a una solicitud. Los clientes deben ser
 diseñados para volver a enviar las solicitudes de las que no obtienen
 respuestas, implementando por ejemplo patrones como [Circuit
-Breaker](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura.md/2_09_Circuit_breaker.md)
+Breaker](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Circuit_breaker.md)
 o
-[Retry](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura.md/2_09_Retry.md).
+[Retry](/2_Tecnicas_y_herramientas/2_09_.Patrones_de_arquitectura/2_09_Retry.md).
 
 ### Manejo del estado
 
