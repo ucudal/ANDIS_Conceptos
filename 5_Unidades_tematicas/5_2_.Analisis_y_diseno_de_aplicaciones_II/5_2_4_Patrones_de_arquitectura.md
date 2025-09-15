@@ -74,13 +74,13 @@
 
     * Arquitecturas de micro-servicios en [^4] y [^5].
 
-    * Blue/green deployment en [^6]. <!-- https://learn.microsoft.com/en-us/azure/container-apps/blue-green-deployment?pivots=azure-cli -->
+    * Blue/green deployment en [^6]. Opcionalmente mira también [10^].
 
     * Rolling upgrade en [^7].
 
     * Canary testing en [^8].
 
-    * A/B testing
+    * A/B testing en [^9].
 
 [^4]: Microsoft. (2024). Microservice architecture style. Disponible
   [aquí](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
@@ -91,7 +91,7 @@
 [^6]: Fowler, M. (2010). Blue Green Deployment. Disponible
   [aquí](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 
-<!-- cSpell:ignore Wolski Laiho -->
+<!-- cSpell:ignore Wolski Laiho Fabijan Dmitriev Olsson -->
 
 [^7]: Wolski, A. & Laiho, K. (2004). Rolling Upgrades for Continuous Services.
   Disponible
@@ -100,6 +100,17 @@
 
 [^8]: Sato, D. (2014). Canary Release. Disponible
   [aquí](https://martinfowler.com/bliki/CanaryRelease.html?ref=wellarchitected)
+
+[^9]: Fabijan, A., Dmitriev, P., Olsson, H. H., & Bosch, J. (2017). The
+    evolution of continuous experimentation in software product development:
+    From data to a data-driven organization at scale. In Proceedings of the 39th
+    International Conference on Software Engineering (pp. 770-780). IEEE Press.
+    Disponible
+    [aquí](https://www.researchgate.net/publication/317006885_The_Evolution_of_Continuous_Experimentation_in_Software_Product_Development).
+
+[^10] Microsoft. (2025). Blue-green deployment in Azure Container Apps.
+Microsoft Learn. Recuperado 15 de September de 2025 de
+[aquí](https://learn.microsoft.com/en-us/azure/container-apps/blue-green-deployment?pivots=azure-cli).
 
 #### Lecturas complementarias
 
