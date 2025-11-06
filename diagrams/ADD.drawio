@@ -1,14 +1,14 @@
 <mxfile host="65bd71144e">
     <diagram id="Cwdnkp9nwKkTm0oBLxAz" name="Page-1">
-        <mxGraphModel dx="1146" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="606" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="33" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#006EAF;dashed=0;rounded=1;fontColor=#006EAF;arcSize=3;" parent="1" vertex="1">
-                    <mxGeometry x="85" y="350" width="310" height="580" as="geometry"/>
+                    <mxGeometry x="85" y="350" width="310" height="510" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="" style="ellipse;html=1;shape=endState;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="225" y="1040" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="225" y="960" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="" style="ellipse;html=1;shape=startState;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="225" y="40" width="30" height="30" as="geometry"/>
@@ -48,37 +48,31 @@
                 <mxCell id="15" value="3. Elegir uno o más elementos&lt;br&gt;del sistema a refinar" style="html=1;dashed=0;whitespace=wrap;rounded=1;strokeColor=#006EAF;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="125" y="440" width="260" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="16" target="17" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" value="3. Elegir uno o más elementos&lt;br&gt;del sistema a refinar" style="html=1;dashed=0;whitespace=wrap;rounded=1;strokeColor=#006EAF;fillColor=none;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="125" y="520" width="260" height="50" as="geometry"/>
-                </mxCell>
                 <mxCell id="20" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="17" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="4. Elegir uno o más conceptos de diseño que satisfacen los impulsores o &lt;i&gt;drivers&lt;/i&gt; seleccionados" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#006EAF;dashed=0;rounded=1;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="125" y="600" width="260" height="60" as="geometry"/>
+                    <mxGeometry x="125" y="520" width="260" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="19" target="21" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="5: Crear instancias de elementos arquitectónicos, asignar responsabilidades y definir interfaces" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#006EAF;dashed=0;rounded=1;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="125" y="690" width="260" height="60" as="geometry"/>
+                    <mxGeometry x="125" y="610" width="260" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="21" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="6. Bosquejar vistas y crear registros de&lt;br&gt;decisiones de diseño" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#006EAF;dashed=0;rounded=1;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="125" y="780" width="260" height="50" as="geometry"/>
+                    <mxGeometry x="125" y="700" width="260" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="7: Analizar el diseño actual y revisar los objetivos&amp;nbsp;de la iteración y el logro del&lt;br&gt;propósito del diseño" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#006EAF;dashed=0;rounded=1;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="125" y="860" width="260" height="60" as="geometry"/>
+                    <mxGeometry x="125" y="780" width="260" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="15" target="16" edge="1">
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="15" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="265" y="570" as="sourcePoint"/>
-                        <mxPoint x="255" y="550" as="targetPoint"/>
+                        <mxPoint x="555" y="490" as="sourcePoint"/>
+                        <mxPoint x="555" y="550" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="26" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="14" target="15" edge="1">
@@ -104,13 +98,13 @@
                         <mxPoint x="65" y="780" as="sourcePoint"/>
                         <mxPoint x="275" y="370" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="95" y="880"/>
+                            <mxPoint x="95" y="810"/>
                             <mxPoint x="95" y="385"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="30" value="8. Documentar la arquitectura y&lt;br&gt;comunicar a los interesados" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#006EAF;dashed=1;rounded=1;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="110" y="960" width="260" height="50" as="geometry"/>
+                    <mxGeometry x="110" y="880" width="260" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="33" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -125,7 +119,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="34" value="Registro de las&lt;br&gt;decisiones de&lt;br&gt;arquitectura" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="615" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="440" y="580" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="33" target="34" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -134,10 +128,10 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="36" value="Especificaciones&lt;br&gt;para desarrollo" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="410" y="930" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="410" y="850" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="Descripción de la&lt;br&gt;arquitectura" style="html=1;fillColor=none;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" vertex="1">
-                    <mxGeometry x="410" y="990" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="410" y="910" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="" style="edgeStyle=none;html=1;endArrow=open;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#006EAF;" parent="1" source="30" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry">
