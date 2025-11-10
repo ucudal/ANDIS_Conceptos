@@ -2,7 +2,7 @@
 
 ## 5.2 Análisis y diseño de aplicaciones II
 
-### 5.2.6 Proceso de arquitectura
+### 5.2.6 Proceso y evaluación de arquitectura
 
 #### Lecturas
 
