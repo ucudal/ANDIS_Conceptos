@@ -218,18 +218,10 @@ width="150"/>
     trabajo en grupos</td>
   </tr>
   <tr style="vertical-align:top">
-    <td><a id="ut6"></a>6. Proceso de arquitectura</td>
-    <td>Diseño dirigido por atributos</td>
-    <td>Modelo C4, Ciclo de identificación de componentes</td>
-    <td>6 en clase, 15 en casa</td>
-    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
-    trabajo en grupos</td>
-  </tr>
-  <tr style="vertical-align:top">
-    <td><a id="ut7"></a>7. Evaluación de la arquitectura</td>
-    <td>ATAM</td>
-    <td>ALMA, PASA</td>
-    <td>6 en clase, 15 en casa</td>
+    <td><a id="ut6"></a>6. Proceso y evaluación de arquitectura</td>
+    <td>Diseño dirigido por atributos o ADD, ATAM</td>
+    <td>Modelo C4, Ciclo de identificación de componentes, ALMA, PASA</td>
+    <td>12 en clase, 30 en casa</td>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
     trabajo en grupos</td>
   </tr>
@@ -432,11 +424,9 @@ Rúbrica para evaluación entre pares:
       unidad temática 4</a></p>
       <p><a href="./5_2_5_Estilos_de_arquitectura.md#lecturas">Lecturas de la
       unidad temática 5</a></p>
-      <p><a href="./5_2_6_Proceso_de_arquitectura.md#lecturas">Lecturas de la
-      unidad temática 6</a></p>
-      <!-- spell-checker:ignore Evaluacion -->
-      <p><a href="./5_2_7_Evaluacion_de_la_arquitectura.md#lecturas">Lecturas de
-      la unidad temática 7</a></p>
+      <!-- spell-checker:ignore evaluacion -->
+      <p><a href="./5_2_6_Proceso_y_evaluacion_de_arquitectura.md#lecturas">
+      Lecturas de la unidad temática 6</a></p>
     </td>
   </tr>
 </table>
