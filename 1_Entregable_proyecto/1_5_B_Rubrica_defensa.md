@@ -9,6 +9,7 @@
       vertical-align: top;
     }
 </style>
+
 <table>
     <tr>
         <td style="width:10%">
