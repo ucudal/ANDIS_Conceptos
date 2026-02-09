@@ -17,21 +17,18 @@
 En este documento definimos y presentamos contenidos útiles para los cursos de
 [Análisis y diseño de aplicaciones
 I](https://webasignatura.ucu.edu.uy/course/view.php?id=22930) y
-[II](https://webasignatura.ucu.edu.uy/course/view.php?id=24039) e Ingeniería de
-software. También es la referencia para los [proyecto finales de
-grado](https://webasignatura.ucu.edu.uy/course/view.php?id=7559) de ingeniería y
-el componente de construcción de los proyectos de emprendimiento ‑excluye los
-proyectos de investigación y de extensión‑. Estos contenidos conceptuales están
-alineados con las competencias a desarrollar durante los cursos.
+[II](https://webasignatura.ucu.edu.uy/course/view.php?id=24039); otros cursos
+podrían ser agregados en el futuro.
 
-# 1 [Entregable proyecto](./1_Entregable_proyecto/1_.Entregable_proyecto.md)
+# 1 Proyecto Final de Grado
 
-En esta sección encontrarás la descripción del contenido del documento
-entregable principal de un proyecto final de grado; aunque también puede ser
-utilizada en otros tipos de proyectos.
+Lo relacionado con los materiales del curso de [Proyecto Final de
+Grado](https://webasignatura.ucu.edu.uy/course/view.php?id=7559) ahora está en
+su [propio repositorio](https://github.com/ucudal/PFG_Metodologia).
 
-A partir de 2024 hay un único documento entregable del proyecto con el contenido
-explicado en esta sección.
+> [!NOTE]
+> Dejamos la sección aquí, con un vínculo a la ubicación actual, para no
+> cambiar la numeración del resto de los capítulos.
 
 # 2 [Técnicas y herramientas](./2_Tecnicas_y_herramientas/2_.Tecnicas_y_herramientas.md)
 
