@@ -15,64 +15,64 @@ la sección respectiva en este repositorio.
     [biblioteca](https://catalogo.ucu.edu.uy/cgi-bin/koha/opac-detail.pl?biblionumber=121158).
 
 1. Propósito del proyecto. Consulta los detalles
-   [aquí](/1_Entregable_proyecto/1_1_1_Impulsores_del_proyecto.md#propósito-del-proyecto).
+   [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_1_Impulsores_del_proyecto.md#propósito-del-proyecto).
 
 2. Interesados. Consulta los detalles
-   [aquí](/1_Entregable_proyecto/1_1_1_Impulsores_del_proyecto.md#los-interesados-o-stakeholders).
+   [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_1_Impulsores_del_proyecto.md#los-interesados-o-stakeholders).
 
 3. Restricciones obligatorias. Consulta los detalles
-   [aquí](/1_Entregable_proyecto/1_1_2_Restricciones_del_proyecto.md#restricciones-obligatorias).
+   [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_2_Restricciones_del_proyecto.md#restricciones-obligatorias).
 
 4. Convenciones de denominación y términos. Consulta los detalles
-   [aquí](/1_Entregable_proyecto/1_1_2_Restricciones_del_proyecto.md#convenciones-de-denominación-y-términos).
+   [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_2_Restricciones_del_proyecto.md#convenciones-de-denominación-y-términos).
 
 5. Hechos relevantes y asunciones. Consulta los detalles
-   [aquí](/1_Entregable_proyecto/1_1_2_Restricciones_del_proyecto.md#hechos-relevantes-y-asunciones).
+   [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_2_Restricciones_del_proyecto.md#hechos-relevantes-y-asunciones).
 
 6. Alcance del trabajo. Consulta los detalles
-   [aquí](/1_Entregable_proyecto/1_1_3_Requerimientos_funcionales.md#área-de-trabajo)
+   [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_3_Requerimientos_funcionales.md#área-de-trabajo)
    y
-   [aquí](/1_Entregable_proyecto/1_1_3_Requerimientos_funcionales.md#alcance-del-proyecto).
+   [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_3_Requerimientos_funcionales.md#alcance-del-proyecto).
 
 7. Modelo de datos organizacionales y diccionario de datos. Consulta los
    detalles
-   [aquí](/1_Entregable_proyecto/1_1_3_Requerimientos_funcionales.md#modelo-de-datos-organizacionales-y-diccionario-de-datos).
+   [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_3_Requerimientos_funcionales.md#modelo-de-datos-organizacionales-y-diccionario-de-datos).
 
 8. Alcance del producto. Consulta los detalles
-   [aquí](/1_Entregable_proyecto/1_1_3_Requerimientos_funcionales.md#alcance-del-proyecto).
+   [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_3_Requerimientos_funcionales.md#alcance-del-proyecto).
 
 9. Requerimientos funcionales. Consulta los detalles
-   [aquí](/1_Entregable_proyecto/1_1_3_Requerimientos_funcionales.md#requerimientos-funcionales).
+   [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_3_Requerimientos_funcionales.md#requerimientos-funcionales).
 
 10. Requerimientos de apariencia. Consulta los detalles
-    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-apariencia).
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-apariencia).
 
 11. Requerimientos de facilidad de uso y humanidad. Consulta los detalles
-    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-facilidad-de-uso-y-humanidad).
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-facilidad-de-uso-y-humanidad).
 
 12. Requerimientos de desempeño. Consulta los detalles
-    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-desempeño).
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-desempeño).
 
 13. Requerimientos operacionales y de entorno. Consulta los detalles
-    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-operacionales-y-de-entorno).
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-operacionales-y-de-entorno).
 
 14. Requerimientos de mantenimiento y soporte. Consulta los detalles
-    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-mantenimiento-y-soporte).
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-mantenimiento-y-soporte).
 
 15. Requerimientos de seguridad. Consulta los detalles
-    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-seguridad).
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-de-seguridad).
 
 16. Requerimientos culturales. Consulta los detalles
-    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-culturales).
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-culturales).
 
 17. Requerimientos de cumplimiento. Consulta los detalles
-    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-legales).
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#requerimientos-legales).
 
 18. Temas abiertos. Una declaración de factores que son inciertos y que podrían
     generar una diferencia significativa en el producto.
 
 19. Soluciones listas para usar —*off-the-shelf*—. Consulta los detalles
-    [aquí](/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#soluciones-listas-para-usar-off-the-shelf).
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_1_4_Requerimientos_no_funcionales.md#soluciones-listas-para-usar-off-the-shelf).
 
 20. Nuevos problemas. Incluye efectos en el entorno actual, en los sistemas
     instalados, posibles problemas para los usuarios, limitaciones en el entorno
@@ -81,7 +81,7 @@ la sección respectiva en este repositorio.
 
 21. Tareas. Incluye plan de proyecto y planificación de las fases de desarrollo.
     Consulta más detalles
-    [aquí](/1_Entregable_proyecto/1_5_.Gestion_y_proceso.md#153-hitos-y-entregas).
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_5_.Gestion_y_proceso.md#153-hitos-y-entregas).
 
 22. Migración al nuevo producto. Incluye requerimientos para la migración al
     nuevo producto y datos que se deben modificar o traducir para el nuevo
@@ -89,7 +89,8 @@ la sección respectiva en este repositorio.
 
 23. Riesgos. Contiene una lista de los riesgos más probables y graves para el
     proyecto. Para cada riesgo se incluye la probabilidad de que se convierta en
-    un problema y los planes de contingencia. Consulta más detalles [aquí](/1_Entregable_proyecto/1_5_.Gestion_y_proceso.md#151-riesgos)
+    un problema y los planes de contingencia. Consulta más detalles
+    [aquí](https://github.com/ucudal/PFG_Metodologia/blob/main/1_Entregable_proyecto/1_5_.Gestion_y_proceso.md#151-riesgos)
 
 24. Costos. El costo de los requerimientos es la cantidad de dinero o esfuerzo
     que se debe invertir para integrarlos en un producto. Una vez completada la
