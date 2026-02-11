@@ -24,7 +24,7 @@ proceso de requerimientos.
 
 ![El proceso de requerimientos Volere](/diagrams/Volere.svg)
 
-*Figura 1: El proceso de requerimientos Volere. Adaptado de [^2].*
+*Figura 1: El proceso de requerimientos Volere.* Adaptado de [^2].
 
 Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
 
@@ -255,7 +255,7 @@ flowchart LR
     E --> F@{ shape: doc, label: Producto<br>terminado }
 ```
 
-*Figura 2: Variación del proceso de requerimientos en cascada. Adaptado de [^2].*
+*Figura 2: Variación del proceso de requerimientos en cascada.* Adaptado de [^2].
 
 Pero cuando la arquitectura es conocida de antemano, la construcción puede
 comenzar en paralelo con el proceso de descubrimiento de requerimientos. Esto se
@@ -287,8 +287,8 @@ flowchart LR
     E --> F@{ shape: doc, label: Producto<br>terminado }
 ```
 
-*Figura 3: Proceso iterativo e incremental de descubrimiento de requerimientos.
-Adaptado de [^2].*
+*Figura 3: Proceso iterativo e incremental de descubrimiento de requerimientos.*
+Adaptado de [^2].
 
 #### Recursos
 

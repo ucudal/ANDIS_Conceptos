@@ -42,7 +42,7 @@ recibe.
 
 ![Integración de aplicaciones por mensajería](/diagrams/Messaging.svg)
 
-*Figura 1: Integración de aplicaciones por mensajería*. Tomado de [^1]
+*Figura 1: Integración de aplicaciones por mensajería*. Tomado de [^1].
 
 La mensajería asíncrona es una solución pragmática a los problemas de los
 sistemas distribuidos al no requerir que ambos sistemas estén disponibles al

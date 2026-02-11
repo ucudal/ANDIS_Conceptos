@@ -38,4 +38,4 @@ producto. Se muestra un diagrama de caso de uso UML para fines comparativos[^1].
 
 ![Caso de uso del producto](/diagrams/Product_Use_Case.svg)
 
-*Figura 1: Caso de uso del producto*. Tomado de [^1]
+*Figura 1: Caso de uso del producto*. Tomado de [^1].
