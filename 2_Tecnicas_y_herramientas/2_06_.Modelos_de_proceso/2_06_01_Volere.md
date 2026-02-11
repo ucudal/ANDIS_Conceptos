@@ -22,7 +22,7 @@ proceso de requerimientos.
 
 <span id="figura-1"/>
 
-![El proceso de requerimientos de Volere](/diagrams/Volere.svg)
+![El proceso de requerimientos Volere](/diagrams/Volere.svg)
 
 *Figura 1: El proceso de requerimientos Volere. Adaptado de [^2].*
 
@@ -287,8 +287,8 @@ flowchart LR
     E --> F@{ shape: doc, label: Producto<br>terminado }
 ```
 
-*Figura 3: Variación del proceso de requerimientos en cascada. Adaptado de
-[^2].*
+*Figura 3: Proceso iterativo e incremental de descubrimiento de requerimientos.
+Adaptado de [^2].*
 
 #### Recursos
 
