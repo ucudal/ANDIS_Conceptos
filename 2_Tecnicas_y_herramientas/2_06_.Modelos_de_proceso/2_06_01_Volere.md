@@ -236,15 +236,15 @@ Estas situaciones quedan reflejadas en la [Figura 2](#figura-2), a continuación
 ```mermaid
 %%{
   init: {
-    "theme": "base",
-    "themeVariables": {
-      "fontFamily": "system-ui, Helvetica, Arial, sans-serif",
-      "fontSize": "12px",
-      "mainBkg": "transparent",
-      "primaryColor": "transparent",
-      "primaryTextColor": "#006EAF",
-      "primaryBorderColor": "#006EAF",
-      "lineColor": "#006EAF",
+    'theme': 'base',
+    'themeVariables': {
+      'fontFamily': 'system-ui, Helvetica, Arial, sans-serif',
+      'fontSize': '12px',
+      'mainBkg': 'transparent',
+      'primaryColor': 'transparent',
+      'primaryTextColor': '#006EAF',
+      'primaryBorderColor': '#006EAF',
+      'lineColor': '#006EAF'
     }
   }
 }%%
@@ -269,15 +269,15 @@ ilustra en la siguiente [Figura 3](#figura-3).
 ```mermaid
 %%{
   init: {
-    "theme": "base",
-    "themeVariables": {
-      "fontFamily": "system-ui, Helvetica, Arial, sans-serif",
-      "fontSize": "12px",
-      "mainBkg": "transparent",
-      "primaryColor": "transparent",
-      "primaryTextColor": "#006EAF",
-      "primaryBorderColor": "#006EAF",
-      "lineColor": "#006EAF",
+    'theme': 'base',
+    'themeVariables': {
+      'fontFamily': 'system-ui, Helvetica, Arial, sans-serif',
+      'fontSize': '12px',
+      'mainBkg': 'transparent',
+      'primaryColor': 'transparent',
+      'primaryTextColor': '#006EAF',
+      'primaryBorderColor': '#006EAF',
+      'lineColor': '#006EAF'
     }
   }
 }%%
@@ -302,5 +302,22 @@ Adaptado de [^2].
 > Este sitio sobre [Volere](https://www.volere.org) incluye varios recursos en
 > línea que pueden ser útiles.
 
+
+```mermaid
+%%{
+  init: {
+  'theme': 'base',
+    'themeVariables': {
+      'fontFamily': 'system-ui, Helvetica, Arial, sans-serif',
+      'fontSize': '12px',
+      'mainBkg': 'transparent',
+      'primaryColor': 'transparent',
+      'primaryTextColor': '#006EAF',
+      'primaryBorderColor': '#006EAF',
+      'lineColor': '#006EAF'
+    }
+  }
+}%%
+%% https://mermaid.js.org/config/theming.html
 
 ```
