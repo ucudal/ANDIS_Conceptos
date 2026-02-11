@@ -457,7 +457,7 @@ crear referencias desde dentro y fuera del documento.
 
 ![El ciclo de vida DAD](/diagrams/DAD_Lifecycle.svg)
 
-*Figura 1: El ciclo de vida DAD.*
+*Figura 1: El ciclo de vida DAD.* Tomado de [^1].
 
 §
 
@@ -470,7 +470,7 @@ Ver [Figura 1](#figura-1).
 
 ![El ciclo de vida DAD](/diagrams/DAD_Lifecycle.svg)
 
-*Figura 1: El ciclo de vida DAD.*
+*Figura 1: El ciclo de vida DAD.* Tomado de [^1].
 
 §
 

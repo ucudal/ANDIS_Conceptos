@@ -22,9 +22,9 @@ proceso de requerimientos.
 
 <span id="figura-1"/>
 
-![El proceso de requerimientos de Volere](/diagrams/Volere.svg)
+![El proceso de requerimientos Volere](/diagrams/Volere.svg)
 
-*Figura 1: El proceso de requerimientos Volere*. Adaptado de [^2].
+*Figura 1: El proceso de requerimientos Volere.* Adaptado de [^2].
 
 Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
 
@@ -89,10 +89,11 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
 
 * **Hacer prototipos**. Aunque los modelos pueden ser usados en cualquier etapa
   de este proceso y existen modelos formales como los diagramas
-  [UML](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_02_Diagramas_de_casos_de_uso_UML.md) o
-  [BPMN](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_04_Diagramas_BPMN.md), muchas veces los
-  analistas pueden hacer un uso productivo de *sketches* y diagramas rápidos
-  para modelar el trabajo que se está investigando.
+  [UML](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_02_Diagramas_de_casos_de_uso_UML.md)
+  o
+  [BPMN](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_04_Diagramas_BPMN.md),
+  muchas veces los analistas pueden hacer un uso productivo de *sketches* y
+  diagramas rápidos para modelar el trabajo que se está investigando.
 
   > [!TIP]
   > Puedes ver estos artículos en el sitio de Figma sobre [prototipos de baja
@@ -100,7 +101,7 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
   > y [prototipado
   > rápido](https://www.figma.com/resource-library/what-is-rapid-prototyping/) y
   > esta [lista de recursos](https://sketchbook.cpsc.ucalgary.ca/?page_id=197)
-  > sobre *skecthing* de la Universidad de Calgary.
+  > sobre *sketching* de la Universidad de Calgary.
 
   Un prototipo es un modelo funcional utilizado para obtener retroalimentación
   preliminar sobre el producto esperado antes de construirlo[^4].
@@ -213,7 +214,7 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
 
 #### Enfoque tradicional en cascada versus iterativo
 
-Un malentendido frecuente en el contexto de análisis de requisitos es la
+Un malentendido frecuente en el contexto de análisis de requerimientos es la
 creencia de que es necesario recopilar todos los requerimientos antes de avanzar
 hacia las fases de diseño y construcción. En otras palabras, hay quienes piensan
 que trabajar con requerimientos implica necesariamente seguir un proceso
@@ -228,8 +229,95 @@ general ya está definida, con frecuencia es posible comenzar la construcción y
 entrega del producto incluso antes de haber descubierto todos los
 requerimientos.
 
+Estas situaciones quedan reflejadas en la [Figura 2](#figura-2), a continuación.
+
+<span id="figura-2"/>
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'fontFamily': 'system-ui, Helvetica, Arial, sans-serif',
+      'fontSize': '12px',
+      'mainBkg': 'transparent',
+      'primaryColor': 'transparent',
+      'primaryTextColor': '#006EAF',
+      'primaryBorderColor': '#006EAF',
+      'lineColor': '#006EAF'
+    }
+  }
+}%%
+%% https://mermaid.js.org/config/theming.html
+%% https://mermaid.js.org/syntax/flowchart.html
+flowchart LR
+    A[/Concepto<br>inicial/] --> B[Investigar el<br>trabajo]
+    B --> C[Escribir<br>requerimientos]
+    C --> D@{ shape: doc, label: Documento de<br>requerimientos<br>completo }
+    D --> E[Desarrollar<br>el código]
+    E --> F@{ shape: doc, label: Producto<br>terminado }
+```
+
+*Figura 2: Variación del proceso de requerimientos en cascada.* Adaptado de [^2].
+
+Pero cuando la arquitectura es conocida de antemano, la construcción puede
+comenzar en paralelo con el proceso de descubrimiento de requerimientos. Esto se
+ilustra en la siguiente [Figura 3](#figura-3).
+
+<span id="figura-3"/>
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'fontFamily': 'system-ui, Helvetica, Arial, sans-serif',
+      'fontSize': '12px',
+      'mainBkg': 'transparent',
+      'primaryColor': 'transparent',
+      'primaryTextColor': '#006EAF',
+      'primaryBorderColor': '#006EAF',
+      'lineColor': '#006EAF'
+    }
+  }
+}%%
+%% https://mermaid.js.org/config/theming.html
+%% https://mermaid.js.org/syntax/flowchart.html
+flowchart LR
+    A[/Concepto<br>inicial/] --> B[Análisis<br>preliminar<br>del negocio]
+    B --> C@{ shape: circle, label: 👤<br>Product owner }
+    C --> D@{ shape: doc, label: Historias<br>de usuario }
+    D --> E[Desarrollar<br>parte del producto]
+    E --> G@{ shape: doc, label: Feedback }
+    G --> C
+    E --> F@{ shape: doc, label: Producto<br>terminado }
+```
+
+*Figura 3: Proceso iterativo e incremental de descubrimiento de requerimientos.*
+Adaptado de [^2].
+
 #### Recursos
 
 > [!TIP]
 > Este sitio sobre [Volere](https://www.volere.org) incluye varios recursos en
 > línea que pueden ser útiles.
+
+
+```mermaid
+%%{
+  init: {
+  'theme': 'base',
+    'themeVariables': {
+      'fontFamily': 'system-ui, Helvetica, Arial, sans-serif',
+      'fontSize': '12px',
+      'mainBkg': 'transparent',
+      'primaryColor': 'transparent',
+      'primaryTextColor': '#006EAF',
+      'primaryBorderColor': '#006EAF',
+      'lineColor': '#006EAF'
+    }
+  }
+}%%
+%% https://mermaid.js.org/config/theming.html
+
+```
