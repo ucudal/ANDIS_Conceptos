@@ -115,7 +115,7 @@ la región, y la condición de guarda contraria `[!disponible]` para la inferior
 ![Un diagrama de secuencia con regiones foreach y
 alt](/diagrams/Sequence_Diagram_Loop_Alt.svg)
 
-*Figura 2. Un diagrama de secuencia con regiones `foreach`y `alt`.*
+*Figura 2: Un diagrama de secuencia con regiones `foreach`y `alt`.*
 
 En los diagramas de secuencia se suele poner a la izquierda los clasificadores
 que desencadenan la secuencia, pero esto no es obligatorio, es sólo una

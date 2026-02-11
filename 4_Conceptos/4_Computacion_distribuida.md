@@ -26,7 +26,7 @@ href="https://commons.wikimedia.org/wiki/File:University_of_Manchester_Atlas,_Ja
 width="512" alt="University of Manchester Atlas, January 1963"
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/University_of_Manchester_Atlas%2C_January_1963.JPG/512px-University_of_Manchester_Atlas%2C_January_1963.JPG?20201105033817"></a>
 
-*Figura 1. University of Manchester Atlas, January 1963. © Iain MacCallum, [CC
+*Figura 1: University of Manchester Atlas, January 1963. © Iain MacCallum, [CC
 BY 3.0](https://creativecommons.org/licenses/by/3.0), via [Wikimedia
 Commons](https://commons.wikimedia.org/).*
 
@@ -62,7 +62,7 @@ width="512" alt="Datacenter Cloudwatt"
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Datacenter_Cloudwatt.jpg/512px-Datacenter_Cloudwatt.jpg?20131212112639"></a>
 
 <!-- cSpell:ignore Normandía, Reuil -->
-*Figura 2. Centro de datos Normandía de Cloudwatt en Val-de-Reuil (Eure). ©
+*Figura 2: Centro de datos Normandía de Cloudwatt en Val-de-Reuil (Eure). ©
 Cloudwatt, [CC BY-SA
 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en), via [Wikimedia
 Commons](https://commons.wikimedia.org/).*
