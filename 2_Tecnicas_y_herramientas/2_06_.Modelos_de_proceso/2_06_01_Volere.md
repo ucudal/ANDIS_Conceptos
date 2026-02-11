@@ -24,7 +24,7 @@ proceso de requerimientos.
 
 ![El proceso de requerimientos de Volere](/diagrams/Volere.svg)
 
-*Figura 1: El proceso de requerimientos Volere*. Adaptado de [^2].
+*Figura 1: El proceso de requerimientos Volere. Adaptado de [^2].*
 
 Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
 
@@ -102,8 +102,6 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
   > rápido](https://www.figma.com/resource-library/what-is-rapid-prototyping/) y
   > esta [lista de recursos](https://sketchbook.cpsc.ucalgary.ca/?page_id=197)
   > sobre *sketching* de la Universidad de Calgary.
-
-  Testing [links](https://googl3e333e.com)
 
   Un prototipo es un modelo funcional utilizado para obtener retroalimentación
   preliminar sobre el producto esperado antes de construirlo[^4].
@@ -283,7 +281,7 @@ flowchart LR
     A[/Concepto<br>inicial/] --> B[Análisis<br>preliminar<br>del negocio]
     B --> C@{ shape: circle, label: 👤<br>Product owner }
     C --> D@{ shape: doc, label: Historias<br>de usuario }
-    D --> E[Desarrollar<br>parte del producto ]
+    D --> E[Desarrollar<br>parte del producto]
     E --> G@{ shape: doc, label: Feedback }
     G --> C
     E --> F@{ shape: doc, label: Producto<br>terminado }
