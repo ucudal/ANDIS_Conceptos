@@ -234,17 +234,20 @@ Estas situaciones quedan reflejadas en la [Figura 2](#figura-2), a continuación
 <span id="figura-2"/>
 
 ```mermaid
----
-config:
-  theme: 'base'
-  themeVariables:
-    fontFamily: 'system-ui, Helvetica, Arial, sans-serif'
-    fontSize: '16px'
-    primaryColor: transparent
-    primaryTextColor: '#0969DA'
-    primaryBorderColor: '#0969DA'
-    lineColor: '#0969DA'
----
+%%{
+  init: {
+    "theme": "base",
+    "themeVariables": {
+      "fontFamily": "system-ui, Helvetica, Arial, sans-serif",
+      "fontSize": "12px",
+      "mainBkg": "transparent",
+      "primaryColor": "transparent",
+      "primaryTextColor": "#006EAF",
+      "primaryBorderColor": "#006EAF",
+      "lineColor": "#006EAF",
+    }
+  }
+}%%
 %% https://mermaid.js.org/config/theming.html
 %% https://mermaid.js.org/syntax/flowchart.html
 flowchart LR
@@ -264,17 +267,20 @@ ilustra en la siguiente [Figura 3](#figura-3).
 <span id="figura-3"/>
 
 ```mermaid
----
-config:
-  theme: 'base'
-  themeVariables:
-    fontFamily: 'system-ui, Helvetica, Arial, sans-serif'
-    fontSize: '16px'
-    primaryColor: transparent
-    primaryTextColor: '#0969DA'
-    primaryBorderColor: '#0969DA'
-    lineColor: '#0969DA'
----
+%%{
+  init: {
+    "theme": "base",
+    "themeVariables": {
+      "fontFamily": "system-ui, Helvetica, Arial, sans-serif",
+      "fontSize": "12px",
+      "mainBkg": "transparent",
+      "primaryColor": "transparent",
+      "primaryTextColor": "#006EAF",
+      "primaryBorderColor": "#006EAF",
+      "lineColor": "#006EAF",
+    }
+  }
+}%%
 %% https://mermaid.js.org/config/theming.html
 %% https://mermaid.js.org/syntax/flowchart.html
 flowchart LR
@@ -295,3 +301,6 @@ Adaptado de [^2].
 > [!TIP]
 > Este sitio sobre [Volere](https://www.volere.org) incluye varios recursos en
 > línea que pueden ser útiles.
+
+
+```
