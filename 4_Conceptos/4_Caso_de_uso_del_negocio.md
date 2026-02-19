@@ -33,7 +33,8 @@ del negocio de principio a fin, sin enfocarse en detalles de implementación
 técnica, sino en las necesidades organizacionales y los objetivos estratégicos.
 
 El proceso en el caso de uso del negocio puede ser especificado utilizando
-[escenarios](/4_Conceptos/4_Escenario.md), [diagramas
+[escenarios de caso de uso](/4_Conceptos/4_Escenario_de_caso_de_uso.md),
+[diagramas
 BPMN](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_04_Diagramas_BPMN.md)
 o [diagramas de actividades
 UML](/2_Tecnicas_y_herramientas/2_04_.Modelos_de_comportamiento/2_04_01_Diagramas_de_actividades_UML.md)

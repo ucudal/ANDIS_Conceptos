@@ -60,8 +60,8 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
   negocio](/4_Conceptos/4_Evento_del_negocio.md).
 
   Los analistas utilizan técnicas de relevamiento tales como *apprenticing*,
-  *shadowing*, escenarios, talleres de casos de uso y muchas otras para
-  descubrir la verdadera naturaleza del trabajo.
+  *shadowing*, escenarios de usuario, talleres de casos de uso y muchas otras
+  para descubrir la verdadera naturaleza del trabajo.
 
   En el relevamiento de requerimientos el mayor desafío radica en identificar la
   verdadera esencia del sistema. Los interesados suelen comunicar sus deseos
@@ -110,14 +110,15 @@ Algunas actividades ‑no necesariamente secuenciales‑ de este proceso son:
     Guide)‑7<sup>th</sup> Edition and The Standard for Project Management.
     Project Management Institute, Inc.
 
-* **Escenarios**. Los escenarios muestran la funcionalidad de un proceso de
-  negocio dividiéndolo en una serie de pasos fácilmente reconocibles, escritos
-  en lenguaje natural para que sean accesibles a todos los interesados. Una vez
-  acordados, los escenarios se convierten en la base de los requerimientos.
+* **Escenarios de caso de uso**. Los escenarios de caso de uso muestran la
+  funcionalidad de un proceso de negocio dividiéndolo en una serie de pasos
+  fácilmente reconocibles, escritos en lenguaje natural para que sean accesibles
+  a todos los interesados. Una vez acordados, estos escenarios se convierten en
+  la base de los requerimientos.
 
   > [!TIP]
-  > Existe una [plantilla](/3_Plantillas/3_2_Escenario.md) para escribir los
-  > escenarios.
+  > Existe una [plantilla](/3_Plantillas/3_2_Escenario_de_caso_de_uso.md) para
+  > escribir los escenarios de caso de uso.
 
 * **Escribir los requerimientos**. Un problema en el desarrollo de software es
   la falta de comprensión de los requerimientos. Para mitigar este problema los

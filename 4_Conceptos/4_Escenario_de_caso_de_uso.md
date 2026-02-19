@@ -1,26 +1,34 @@
 # 4 Conceptos
 
-## Escenario
+## Escenario de caso de uso
 
-Un escenario cuenta la historia de un [caso de uso del
+Un escenario de caso de uso cuenta la historia de un [caso de uso del
 negocio](./4_Caso_de_uso_del_negocio.md)[^1] en una secuencia de pasos en
 lenguaje natural. El término y el contenido de este artículo están tomado de
 [^2].
 
-[^1]: Los escenarios se usan también en los [caso de uso del
+> [!NOTE]
+> Usamos ≪escenario de caso de uso≫ para diferenciarlo de [≪escenario de
+> usuario≫](./4_Escenario_de_usuario.md), aunque en [^2] se utiliza simplemente
+> ≪escenario≫. Los escenarios de usuario son más ricos que los escenarios de
+> caso de uso pues, además de los pasos en lenguaje natural, incluyen también
+> emociones, canales, *front stage* y *back stage*, con foco en la experiencia
+> del usuario.
+
+[^1]: Los escenarios de caso de uso se usan también en los [caso de uso del
     producto](./4_Caso_de_uso_del_producto.md)
 
 [^2]: Robertson, S. & Robertson, J. (2012). Mastering the Requirements Process:
     Getting Requirements Right, 3<sup>rd</sup> Edition. Addison-Wesley
     Professional.
 
-Un escenario es el esquema de una trama o una secuencia de pasos. En el contexto
-de requerimientos usamos ≪escenario≫ para referirnos a la trama de una sección
-del [trabajo](./4_Trabajo_y_area_de_trabajo.md) que estamos estudiando. Usamos
-≪trama≫ para implicar que divides el trabajo en una serie de pasos o escenas, y
-al explicar estos pasos, explicas el trabajo.
+Un escenario de caso de uso es el esquema de una trama o una secuencia de pasos.
+En el contexto de requerimientos usamos ≪escenario≫ para referirnos a la trama
+de una sección del [trabajo](./4_Trabajo_y_area_de_trabajo.md) que estamos
+estudiando. Usamos ≪trama≫ para implicar que divides el trabajo en una serie de
+pasos o escenas, y al explicar estos pasos, explicas el trabajo.
 
-Un ejemplo de escenario es el siguiente, tomado también de [^2]:
+Un ejemplo de escenario de caso de uso es el siguiente, tomado también de [^2]:
 
 1. El espectador solicita películas según sus preferencias previamente
    registradas.
@@ -43,5 +51,6 @@ todos los [interesados](./4_Interesado.md).
 > [!TIP]
 > Escribe tus escenarios usando entre tres y diez pasos.
 
-Además de la secuencia de pasos, un escenario incluye más información, que se
-describe en [esta plantilla](/3_Plantillas/3_2_Escenario.md).
+Además de la secuencia de pasos, un escenario de caso de uso incluye más
+información, que se describe en [esta
+plantilla](/3_Plantillas/3_2_Escenario_de_caso_de_uso.md).

@@ -25,7 +25,9 @@
 
     * [Evento del negocio](/4_Conceptos/4_Evento_del_negocio.md)
 
-    * [Escenario](/4_Conceptos/4_Escenario.md)
+    * [Escenario de caso de uso](/4_Conceptos/4_Escenario_de_caso_de_uso.md)
+
+    * [Escenario de usuario](/4_Conceptos/4_Escenario_de_usuario.md)
 
     * [*Personas*](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_03_Personas.md)
 
@@ -90,8 +92,6 @@ En este repositorio:
 
 * [Observación como
   participante](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_06_Observacion_Participante.md)
-
-* [Entrevista](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_07_Entrevista.md)
 
 Daniels, L. (2000). Managing the product requirements definition process. In
 Project Management Institute Annual Seminars & Symposium, Houston, TX. <!--
