@@ -16,9 +16,11 @@
       Puedes ver antes [este video](https://www.youtube.com/watch?v=ckWaVRkM3dI)
       para tener una visión general del modelo de la mano de sus autores.
 
-    * [Sistema adyacente](/4_Conceptos/4_Sistema_adyacente.md)
+    * [Caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md)
 
     * [Caso de uso del producto](/4_Conceptos/4_Caso_de_uso_del_producto.md)
+
+    * [Escenario](/4_Conceptos/4_Escenario.md)
 
     * [Requerimiento funcional](/4_Conceptos/4_Requerimiento_funcional.md)
 
@@ -37,7 +39,7 @@
     * [*Brainstorming* o tormenta de
       ideas](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_11_Brainstorming.md)
 
-2. Lee lo siguiente de [^1]:
+2. Además, te recomedamos leer lo siguiente de [^1]:
 
     * Capítulo 7, **Understanding the real problem**
 
