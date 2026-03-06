@@ -157,17 +157,27 @@ width="150"/>
   </tr>
   <tr style="vertical-align:top">
     <td>1. Proceso y obtención de requerimientos</td>
-    <td>Requerimientos, validación requerimientos, trabajo, producto, evento del negocio, caso de uso del negocio, caso de uso del producto, alcance, interesados, restricciones<br>Técnicas para requerimientos<br>Escenarios, diagramas UML de casos de uso</td>
-    <td>Proceso de ingeniería de software, proceso de requerimientos, triángulo de hierro ‑alcance, recursos, duración‑, reutilización de requerimientos, matriz de Mendelow, <i>persona analysis</i>, <i>customer journey</i></td>
+    <td>Requerimientos, validación requerimientos, trabajo, alcance, interesados,
+    sistemas adyacentes, evento del negocio<br>Técnicas para requerimientos:
+    entrevistas, <i>user personas</i>, <i>customer journey map</i><br>Diagramas
+    de contexto</td>
+    <td>Proceso de ingeniería de software, proceso de requerimientos, triángulo
+    de hierro ‑alcance, recursos, duración‑, matriz de Mendelow</td>
     <td>10 en clase, 25 en casa</td>
-    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
+    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
+    trabajo en grupo</td>
   </tr>
   </tr><tr style="vertical-align:top">
     <td>2. Análisis y especificación de requerimientos</td>
-    <td>Definición del problema, valor, pensamiento sistémico, de casos de uso del negocio a casos de uso del producto, sistemas adyacentes, requerimiento atómicos, requerimientos funcionales y no-funcionales, criterios de aceptación</td>
-    <td><i>Design thinking</i>, rendimiento, disponibilidad, seguridad, facilidad de modificación, facilidad de despliegue</td>
+    <td>
+    Definición del problema, valor, pensamiento sistémico, de casos de uso del
+    negocio a casos de uso del producto, requerimiento atómicos, requerimientos
+    funcionales y no-funcionales, restricciones, criterios de aceptación</td>
+    <td><i>Design thinking</i>, rendimiento, disponibilidad, seguridad,
+    facilidad de modificación, facilidad de despliegue</td>
     <td>10 en clase, 25 en casa</td>
-    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación, trabajo en grupo</td>
+    <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
+    trabajo en grupo</td>
   <tr style="vertical-align:top">
     <td>3. Diseño de software</td>
     <td><p>Principios de diseño: abstracción, separación de aspectos,

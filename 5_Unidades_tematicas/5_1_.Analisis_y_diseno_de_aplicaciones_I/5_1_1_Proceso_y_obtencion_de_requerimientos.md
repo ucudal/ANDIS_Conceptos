@@ -8,34 +8,33 @@
 
 1. En este repositorio lee lo siguiente:
 
-    * [Volere](/2_Tecnicas_y_herramientas/2_06_.Modelos_de_proceso/2_06_01_Volere.md). Puedes ver antes
-      [este video](https://www.youtube.com/watch?v=M5Z1igBmM3w) para tener una
-      visión general de cómo fluye el proceso.
+    * [Volere](/2_Tecnicas_y_herramientas/2_06_.Modelos_de_proceso/2_06_01_Volere.md).
+      Puedes ver antes [este video](https://www.youtube.com/watch?v=M5Z1igBmM3w)
+      para tener una visión general de cómo fluye el proceso.
 
     * [Requerimiento](/4_Conceptos/4_Requerimiento.md)
 
     * [*Checklist* de
       requerimientos](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_04_Checklist_requerimientos.md)
 
-    * [Caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md)
-
-    * [Caso de uso del producto](/4_Conceptos/4_Caso_de_uso_del_producto.md)
-
-    * [Interesado](/4_Conceptos/4_Interesado.md)
-
-    * [Evento del negocio](/4_Conceptos/4_Evento_del_negocio.md)
-
-    * [Escenario](/4_Conceptos/4_Escenario.md)
-
     * [*Personas*](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_03_Personas.md)
 
-    * [Diagramas de contexto](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_02_Diagramas_de_contexto.md)
+    * [*Customer journey
+      map*](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_05_Customer_journey_map.md)
+
+    * [Interesado](/4_Conceptos/4_Interesado.md)
 
     * [Entrevistas](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_07_Entrevista.md),
       incluyendo los links donde dice ![](/assets/report-16.svg) <span
       style="color:#8256d0;font-weight:bold">Importante</span>.
 
-2. Lee lo siguiente de [^1].
+    * [Evento del negocio](/4_Conceptos/4_Evento_del_negocio.md)
+
+    * [Sistema adyacente](/4_Conceptos/4_Sistema_adyacente.md)
+
+    * [Diagramas de contexto](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_02_Diagramas_de_contexto.md)
+
+2. Además, te recomendamos leer lo siguiente de [^1].
 
     * Capítulo 2, **The Requirements Process**
 
@@ -49,7 +48,7 @@
 
     * Capítulo 9, **Strategies for Today’s Business Analyst**
 
-3. Lee lo siguiente de [^2]:
+3. Por último, te recomendamos leer también lo siguiente de [^2]:
 
     * El apartado **1. What Is Software Engineering?** de la sección
       **Introduction to the guide**
@@ -90,8 +89,6 @@ En este repositorio:
 
 * [Observación como
   participante](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_06_Observacion_Participante.md)
-
-* [Entrevista](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_07_Entrevista.md)
 
 Daniels, L. (2000). Managing the product requirements definition process. In
 Project Management Institute Annual Seminars & Symposium, Houston, TX. <!--
