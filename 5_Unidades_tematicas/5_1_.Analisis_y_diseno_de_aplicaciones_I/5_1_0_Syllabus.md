@@ -241,72 +241,59 @@ width="150"/>
   </tr>
   <tr style="vertical-align:top">
     <td>
-      Tareas de aplicación individuales o en equipo
+      Primera prueba escrita —<i>mid-term</i> 1—, unidades temáticas 1 y 2
     </td>
     <td>
       Resultados de aprendizaje 1 a 9
     </td>
     <td>
-      Durante cada unidad temática
+      Semana 6
     </td>
     <td>
-      15%
-    </td>
-  </tr>
-  <tr style="vertical-align:top">
-    <td>
-      Controles de lectura individuales
-    </td>
-    <td>
-      Resultados de aprendizaje 3 y 4
-    </td>
-    <td>
-      Al inicio de cada unidad temática
-    </td>
-    <td>
-      18%
+      20%
     </td>
   </tr>
   <tr style="vertical-align:top">
     <td>
-      Controles de lectura en equipos
+      Segunda prueba escrita —<i>mid-term</i> 2—, 30% unidades temáticas 1 y 2,
+      70% unidad temática 3
     </td>
     <td>
-      Resultados de aprendizaje 3 y 4
+      Resultados de aprendizaje 1 a 9
     </td>
     <td>
-      Al inicio de cada unidad temática
+      Semana 10
     </td>
     <td>
-      12%
+      20%
     </td>
   </tr>
-    <tr style="vertical-align:top">
+  <tr style="vertical-align:top">
     <td>
-      Evaluación entre pares
+      Tercera prueba escrita —<i>final</i>—, unidades temáticas 1 a 6
     </td>
     <td>
-      Resultados de aprendizaje 2, 3 y 6
+      Resultados de aprendizaje 1 a 9
     </td>
     <td>
       Semana 16
     </td>
     <td>
-      3%
+      35%
     </td>
   </tr>
-  <tr style="vertical-align:top">
+    <tr style="vertical-align:top">
     <td>
-      Pruebas parciales escritas
+      Pruebas de aseguramiento de la preparación y trabajos finales de unidad
     </td>
     <td>
-      Resultado de aprendizaje 1 a 9
+      Resultados de aprendizaje 1 a 9
     </td>
     <td>
-      Semana 7, 12 y 16
+      Al inicio y al final de cada unidad temática
     </td>
     <td>
-      42%
+      15%
     </td>
   </tr>
   <tr style="vertical-align:top">
