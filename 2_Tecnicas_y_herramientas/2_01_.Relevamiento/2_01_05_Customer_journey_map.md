@@ -37,6 +37,13 @@ map](https://live.staticflickr.com/65535/52597383703_135b5d1bc8_b.jpg)
 CC BY-NC-ND 2.0.
 
 > [!TIP]
+> Mira este [🎥 video](https://www.youtube.com/watch?v=2W13ext26kQ) de
+> [NN/g](https://www.nngroup.com/about/) sobre qué es, cómo crear y cómo usar
+> *customer journey maps*.
+
+<!-- Intentionally blank -->
+
+> [!TIP]
 > Hay plantillas para crear *customer journey maps* en
 > [Figma](https://www.figma.com/community/collections/customer-journey-map-templates),
 > en [Canva](https://www.canva.com/templates/s/customer-journey-map/) y en
