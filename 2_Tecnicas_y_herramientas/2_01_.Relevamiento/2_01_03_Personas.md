@@ -54,3 +54,9 @@ Aunque no hay una forma estándar de representar las *personas*, esta
 [^2]: Stickdorn, M., Hormess, M., Lawrence, A., & Schneider, J. (2018). This Is
     Service Design Doing: Applying Service Design Thinking in the Real World.
     O'Reilly Media.
+
+> [!TIP]
+> También puedes ver este [🎥
+> video](https://www.youtube.com/watch?v=XnG4c4gXaQY) de la [Interaction Design
+> Foundation](https://ixdf.org) sobre qué son, cómo crear y cómo usar
+> *personas*.
