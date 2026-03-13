@@ -9,8 +9,8 @@
 1. En este repositorio lee lo siguiente:
 
     * [Volere](/2_Tecnicas_y_herramientas/2_06_.Modelos_de_proceso/2_06_01_Volere.md).
-      Puedes ver antes [este video](https://www.youtube.com/watch?v=M5Z1igBmM3w)
-      para tener una visión general de cómo fluye el proceso.
+      Opcionalmente puedes ver también [este curso en
+      línea](https://www.oreilly.com/videos/requirements-the-masterclass/9780134189819)[^3].
 
     * [Requerimiento](/4_Conceptos/4_Requerimiento.md)
 
@@ -63,6 +63,10 @@
 [^2]: IEEE Computer Society. (2024). SWEBOK: Guide to the Software Engineering
     Body of Knowledge v4.0. IEEE. Disponible
     [aquí](https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf).
+
+[^3]: El acceso al curso requiere una suscripción a O'Reilly, que tiene costo;
+    sin embargo, es posible obtener un *trial* por 10 días, tiempo suficiente
+    para completarlo.
 
 #### Lecturas complementarias
 
