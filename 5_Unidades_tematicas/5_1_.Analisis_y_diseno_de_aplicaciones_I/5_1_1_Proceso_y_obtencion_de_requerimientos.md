@@ -25,7 +25,7 @@
     * [Interesado](/4_Conceptos/4_Interesado.md)
 
     * [Entrevistas](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_07_Entrevista.md),
-      incluyendo los links donde dice ![](/assets/report-16.svg) <span
+      incluyendo los links donde dice ![!](/assets/report-16.svg) <span
       style="color:#8256d0;font-weight:bold">Importante</span>.
 
     * [Evento del negocio](/4_Conceptos/4_Evento_del_negocio.md)
