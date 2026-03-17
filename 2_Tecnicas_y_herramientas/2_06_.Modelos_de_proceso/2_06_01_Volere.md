@@ -301,23 +301,3 @@ Adaptado de [^2].
 > [!TIP]
 > Este sitio sobre [Volere](https://www.volere.org) incluye varios recursos en
 > línea que pueden ser útiles.
-
-
-```mermaid
-%%{
-  init: {
-  'theme': 'base',
-    'themeVariables': {
-      'fontFamily': 'system-ui, Helvetica, Arial, sans-serif',
-      'fontSize': '12px',
-      'mainBkg': 'transparent',
-      'primaryColor': 'transparent',
-      'primaryTextColor': '#006EAF',
-      'primaryBorderColor': '#006EAF',
-      'lineColor': '#006EAF'
-    }
-  }
-}%%
-%% https://mermaid.js.org/config/theming.html
-
-```
