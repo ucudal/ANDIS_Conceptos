@@ -24,6 +24,11 @@
 
     * [Interesado](/4_Conceptos/4_Interesado.md)
 
+    <!-- cSpell:words Mendelow -->
+
+    * [Matriz de poder e interés o matriz de
+      Mendelow](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_12_Matriz_Mendelow.md)
+
     * [Entrevistas](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_07_Entrevista.md),
       incluyendo los links donde dice ![!](/assets/report-16.svg) <span
       style="color:#8256d0;font-weight:bold">Importante</span>.
