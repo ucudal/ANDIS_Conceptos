@@ -12,7 +12,7 @@
 
     * [Valor](/4_Conceptos/4_Valor.md)
 
-    * [Brown Cow Model](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_09_Brown_Cow_Model.md).
+    * [Brown Cow Model](/2_Tecnicas_y_herramientas/2_01_.Relevamiento/2_01_09_Brown_Cow_Model.md)
 
     * [Caso de uso del negocio](/4_Conceptos/4_Caso_de_uso_del_negocio.md)
 
