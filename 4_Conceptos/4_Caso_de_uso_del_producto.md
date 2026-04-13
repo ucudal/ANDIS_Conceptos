@@ -39,3 +39,7 @@ producto. Se muestra un diagrama de caso de uso UML para fines comparativos[^1].
 ![Caso de uso del producto](/diagrams/Product_Use_Case.svg)
 
 *Figura 1: Caso de uso del producto*. Tomado de [^1].
+
+> [!TIP]
+> Para escribir los casos de uso del producto mediante escenarios utiliza la
+> [plantilla de escenario](/3_Plantillas/3_2_Escenario.md) de caso de uso.

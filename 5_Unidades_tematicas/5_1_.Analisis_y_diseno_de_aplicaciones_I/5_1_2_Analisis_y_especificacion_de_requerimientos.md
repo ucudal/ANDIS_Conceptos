@@ -24,7 +24,9 @@
 
     * [Requerimiento no-funcional](/4_Conceptos/4_Requerimiento_no_funcional.md)
 
-    * [Requerimiento atómico](/3_Plantillas/3_1_Requerimiento_atomico.md)
+    * Plantilla de [requerimiento atómico](/3_Plantillas/3_1_Requerimiento_atomico.md)
+
+    * Plantilla de [escenario](/3_Plantillas/3_2_Escenario.md)
 
     * [Atributo de calidad](/4_Conceptos/4_Atributo_de_calidad.md)
 
