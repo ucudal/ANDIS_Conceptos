@@ -55,3 +55,7 @@ Los casos de uso del negocio tienen estas características[^2]:
 * Se puede constatar su existencia fácilmente.
 
 * Hay uno o más interesados expertos en esa parte del trabajo.
+
+> [!TIP]
+> Para escribir los casos de uso del negocio mediante escenarios utiliza la
+> [plantilla de escenario](/3_Plantillas/3_2_Escenario.md) de caso de uso.
