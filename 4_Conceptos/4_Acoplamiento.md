@@ -51,3 +51,8 @@ cambian firmas de métodos o nombres de clases, hay grandes chances de tener que
 modificar el primero; cuando desplegamos una nueva versión de los otros
 ensamblados, hay grandes chances de tener que desplegar una nueva versión del
 primero.
+
+> [!TIP]
+> Vean los principios [ADP](./4_ADP.md), [SDP](./4_SDP.md) y [SAP](./4_SAP.md);
+> estos principios sirven como guía para tomar decisiones arquitectónicas sobre
+> acoplamiento y, en algunos casos, definen métricas para medirlo.
