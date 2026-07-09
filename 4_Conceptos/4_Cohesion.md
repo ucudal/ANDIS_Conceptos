@@ -27,6 +27,15 @@ ejemplos ‑la lista no es exhaustiva‑:
 * En el contexto de la programación estructurada un módulo puede ser una función
   o un procedimiento y sus partes la lógica que implementan.
 
+> [!TIP]
+> En el contexto de arquitectura de software, los módulos van a ser
+> [componentes](./4_Componente.md) que se pueden ser desplegados
+> independientemente y sus partes van a ser las clases —o más genéricamente los
+> tipos de datos— contenidos en ese componente. Entonces la cohesión es lo que
+> permite responde la pregunta de qué clase —qué tipo— pertenece a qué
+> componente. Para responder esa pregunta, vean los principios
+> [REP](./4_REP.md), [CCP](./4_CCP.md) y [CRP](./4_CRP.md).
+
 Además de los módulos y sus partes es importante la conexión entre las partes de
 diferentes módulos y la conexión entre los diferentes módulos; mira el concepto
 de [acoplamiento](./4_Acoplamiento.md).

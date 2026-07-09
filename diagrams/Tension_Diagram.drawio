@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="SgO4PNPhcsNlzQ1bTdwi" name="Page-1">
+        <mxGraphModel dx="1146" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#0969DA;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;b&gt;&lt;font style=&quot;color: rgb(9, 105, 218);&quot;&gt;REP&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(9, 105, 218);&quot;&gt;Agrupar para reutilizar&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#0969DA;fillColor=none;strokeColor=#0969DA;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;&lt;font style=&quot;color: rgb(9, 105, 218);&quot;&gt;CCP&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(9, 105, 218);&quot;&gt;Agrupar para mantenimiento&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#0969DA;fillColor=none;strokeColor=#0969DA;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="40" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;&lt;font style=&quot;color: rgb(9, 105, 218);&quot;&gt;CRP&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(9, 105, 218);&quot;&gt;Dividir para evitar liberaciones innecesarias&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#0969DA;fillColor=none;strokeColor=#0969DA;" vertex="1" parent="1">
+                    <mxGeometry x="242" y="310" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#0969DA;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="110" as="sourcePoint"/>
+                        <mxPoint x="440" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#0969DA;" edge="1" parent="1" source="4" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="145" y="145" as="sourcePoint"/>
+                        <mxPoint x="265" y="275" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Demasiadas liberaciones inncesarias" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0969DA;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="70" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Demasiados cambios en componentes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0969DA;rotation=57;" vertex="1" parent="1">
+                    <mxGeometry x="69" y="224" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Difícil de reutilizar" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0969DA;rotation=308;" vertex="1" parent="1">
+                    <mxGeometry x="359" y="229" width="120" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
