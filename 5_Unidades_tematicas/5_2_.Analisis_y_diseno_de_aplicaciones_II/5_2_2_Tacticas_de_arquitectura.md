@@ -20,6 +20,9 @@
     * [Tácticas para
       seguridad](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura/2_05_04_Tacticas_seguridad.md)
 
+    * [Tácticas para eficiencia
+      energética](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura/2_05_07_Tacticas_eficiencia_energetica.md)
+
     * [Tácticas para la facilidad de
       modificación](/2_Tecnicas_y_herramientas/2_05_.Tacticas_arquitectura/2_05_05_Tacticas_facilidad_de_modificacion.md)
 
