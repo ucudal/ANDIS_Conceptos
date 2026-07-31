@@ -87,10 +87,10 @@ una región más barata pero donde la energía provenga de fuentes fósiles.
   se expresa en CO₂e o CO₂ equivalente.
 
 * **Utilización de recursos y energía**. Es la relación entre cuánto recurso de
-  cómputo —CPU, memoria, almacenamiento, red, etc.— se utiliza con respecto a
-  cuánto se tiene disponible; y cómo esa utilización se traduce en consumo
-  energético. Arquitecturas que mantienen recursos infrautilizados tienden a ser
-  ineficientes en cuanto a la energía.
+  cómputo —procesador, memoria, disco, red, etc.— se utiliza con
+  respecto a cuánto se tiene disponible; y cómo esa utilización se traduce en
+  consumo energético. Arquitecturas que mantienen recursos infrautilizados
+  tienden a ser ineficientes en cuanto a la energía.
 
 [^7]: En este contexto una solicitud es un mensaje o una invocación que da
     inicio a una unidad de trabajo, una transacción, el entrenamiento de un

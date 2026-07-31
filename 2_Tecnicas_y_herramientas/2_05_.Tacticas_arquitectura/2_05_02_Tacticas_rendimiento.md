@@ -10,7 +10,10 @@ restricción basada en el tiempo o en los recursos. El evento puede ser un event
 único o una secuencia, y es el disparador para realizar un procesamiento.
 
 La siguiente tabla —tomada de[^1]— resume las tácticas disponibles, que están
-explicadas más abajo.
+explicadas más abajo. Por ≪recurso≫ entendemos un dispositivo computacional que
+consume energía cuando provee su funcionalidad, en la misma forma que para las
+[tácticas de eficiencia
+energética](./2_05_07_Tacticas_eficiencia_energetica.md).
 
 [^1]: Bass, L.; Clements, P.; Kazman, R. (2022). Software Architecture in
       Practice, 4<sup>th</sup> edition. Addison-Wesley.
