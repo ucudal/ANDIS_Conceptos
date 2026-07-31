@@ -66,7 +66,9 @@ recursos](./4_Atributo_de_calidad.md#utilización-de-recursos) y
    solicitud; es parte del tiempo de respuesta y excluye el tiempo de
    procesamiento de la solicitud.
 
-[^4]: En este contexto una solicitud es un mensaje o una invocación.
+[^4]: En este contexto una solicitud es un mensaje o una invocación que da
+    inicio a una unidad de trabajo, una transacción, el entrenamiento de un
+    modelo, etc.
 
 ### Tácticas para el rendimiento
 

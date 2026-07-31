@@ -190,7 +190,8 @@ facilitan la consecución de tareas y objetivos de usuario especificados.
 
 ### Eficiencia de desempeño
 
-Vean además el artículo completo sobre [rendimiento](./4_Rendimiento.md).
+Vean además los artículos completos sobre [eficiencia
+energética](./4_Eficiencia_energetica.md) y [rendimiento](./4_Rendimiento.md).
 
 Esta característica representa el desempeño de un producto en la realización de
 sus funciones dentro de unos parámetros de tiempo y rendimiento especificados y

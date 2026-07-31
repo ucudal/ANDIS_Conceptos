@@ -49,7 +49,8 @@ Las etapas del ciclo se definen a continuación.
   soporte las características arquitectónicas, requerimientos no funcionales o
   [atributos de calidad](/4_Conceptos/4_Atributo_de_calidad.md), tales como el
   [rendimiento](/4_Conceptos/4_Rendimiento.md), la
-  [seguridad](/4_Conceptos/4_Seguridad.md), la
+  [seguridad](/4_Conceptos/4_Seguridad.md), [eficiencia
+  energética](/4_Conceptos/4_Eficiencia_energetica.md), la
   [disponibilidad](/4_Conceptos/4_Disponibilidad.md), la [facilidad de
   modificación](/4_Conceptos/4_Facilidad_de_modificacion.md), etc. Las [tácticas
   de
