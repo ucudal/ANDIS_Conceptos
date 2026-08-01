@@ -12,8 +12,6 @@ del proyecto final de grado.
 
 Coordinación de Proyectos Finales de Grado de Informática
 <br/>
-Facultad de Ingeniería y Tecnologías
-<br/>
 Universidad Católica del Uruguay
 
 Por la presente, se deja constancia que el proyecto `≪nombre del proyecto≫`,

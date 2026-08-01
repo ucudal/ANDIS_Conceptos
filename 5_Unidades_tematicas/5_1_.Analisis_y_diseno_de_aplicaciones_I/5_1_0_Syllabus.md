@@ -3,9 +3,7 @@ width="150"/>
 
 # Universidad Católica del Uruguay
 
-## Facultad de Ingeniería y Tecnologías
-
-### Análisis y diseño de aplicaciones I
+## Análisis y diseño de aplicaciones I
 
 # Syllabus
 
