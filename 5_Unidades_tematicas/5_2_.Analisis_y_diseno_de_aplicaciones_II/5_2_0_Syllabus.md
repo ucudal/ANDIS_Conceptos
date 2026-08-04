@@ -161,8 +161,8 @@ width="150"/>
     <td>
       <p>Atributos de calidad</p>
       <p>Requerimientos arquitectónicamente significativos</p>
-      <p>Disponibilidad, rendimiento, protección, seguridad, facilidad de
-      modificación, facilidad de despliegue</p>
+      <p>Disponibilidad, rendimiento, protección, seguridad, eficiencia
+      energética, facilidad de modificación, facilidad de despliegue</p>
     </td>
     <td>Modelos de calidad de software</td>
     <td>12 en clase, 30 en casa</td>
@@ -173,7 +173,7 @@ width="150"/>
     <td><a id="ut2"></a>2. Tácticas de arquitectura</td>
     <td>
       Tácticas para disponibilidad, rendimiento, protección, seguridad,
-      facilidad de modificación, facilidad de despliegue
+      eficiencia energética, facilidad de modificación, facilidad de despliegue
     </td>
     <td>N/A</td>
     <td>12 en clase, 30 en casa</td>
@@ -199,7 +199,8 @@ width="150"/>
   <tr style="vertical-align:top">
     <td><a id="ut4"></a>4. Patrones de arquitectura</td>
     <td>Patrones para disponibilidad, rendimiento, protección, seguridad,
-      facilidad de modificación, facilidad de despliegue</td>
+      eficiencia energética, facilidad de modificación, facilidad de
+      despliegue</td>
     <td>CQRS, Compensating Transaction, Event Sourcing, Choreography</td>
     <td>14 en clase, 35 en casa</td>
     <td>Lecturas previas, clase invertida, ejercicios prácticos de aplicación,
@@ -208,7 +209,7 @@ width="150"/>
   <tr style="vertical-align:top">
     <td><a id="ut5"></a>5. Estilos de arquitectura</td>
     <td>Layered, Pipes and Filters, Microkernel, Service-Based, Event-Driven,
-    Service-Oriented, Microservices
+    Service-Oriented, Microservices, Clean Architecture
     </td>
     <td>Space-Based, Orchestration-Driven</td>
     <td>14 en clase, 35 en casa</td>
@@ -249,13 +250,55 @@ width="150"/>
   </tr>
   <tr style="vertical-align:top">
     <td>
-      Tareas de aplicación individuales o en equipo
+      Primera prueba escrita parcial individual
+    </td>
+    <td>
+      Resultados de aprendizaje 1 a 4, unidades temáticas 1 y 2
+    </td>
+    <td>
+      Semana 5
+    </td>
+    <td>
+      20%
+    </td>
+  </tr>
+  <tr style="vertical-align:top">
+    <td>
+      Segunda prueba escrita parcial individual
+    </td>
+    <td>
+      Resultados de aprendizaje 1 a 4, unidades temáticas 1 a 3
+    </td>
+    <td>
+      Semana 12
+    </td>
+    <td>
+      20%
+    </td>
+  </tr>
+  <tr style="vertical-align:top">
+    <td>
+      Tercera prueba escrita final individual
+    </td>
+    <td>
+      Resultados de aprendizaje 1 a 4, unidades temáticas 1 a 6
+    </td>
+    <td>
+      Semana 16
+    </td>
+    <td>
+      30%
+    </td>
+  </tr>
+    <tr style="vertical-align:top">
+    <td>
+      Pruebas de aseguramiento de la preparación y trabajos finales en equipo
     </td>
     <td>
       Resultados de aprendizaje 1 a 4
     </td>
     <td>
-      Durante cada unidad temática
+      Al inicio y al final de cada unidad temática
     </td>
     <td>
       15%
@@ -263,63 +306,9 @@ width="150"/>
   </tr>
   <tr style="vertical-align:top">
     <td>
-      Controles de lectura individuales
-    </td>
-    <td>
-      Resultados de aprendizaje 1 a 4
-    </td>
-    <td>
-      Al inicio de cada unidad temática
-    </td>
-    <td>
-      18%
-    </td>
-  </tr>
-  <tr style="vertical-align:top">
-    <td>
-      Controles de lectura en equipos
-    </td>
-    <td>
-      Resultados de aprendizaje 1 a 4
-    </td>
-    <td>
-      Al inicio de cada unidad temática
-    </td>
-    <td>
-      12%
-    </td>
-  </tr>
-    <tr style="vertical-align:top">
-    <td>
-      Evaluación entre pares
-    </td>
-    <td>
-      Resultados de aprendizaje 1 a 4
-    </td>
-    <td>
-      Semana 16
-    </td>
-    <td>
-      3%
-    </td>
-  </tr>
-  <tr style="vertical-align:top">
-    <td>
-      Pruebas parciales escritas
-    </td>
-    <td>
-      Resultado de aprendizaje 1 a 4
-    </td>
-    <td>
-      Semana 7, 12 y 16
-    </td>
-    <td>
-      42%
-    </td>
-  </tr>
-  <tr style="vertical-align:top">
-    <td>
-      Actitud académica<span id="back_ref_1"><a href="#ref_1"><sup>[1]</sup></a></span>
+      Actitud académica<span id="back_ref_1"><a href="#ref_1"><sup>[1]</sup></a></span>,
+      evaluación entre pares a<span id="back_ref_2"><a href="#ref_2"><sup>[2]</sup></a></span>,
+      entrega de las tareas de aplicación domiciliarias
     </td>
     <td>
       Ciertos dominios de algunas de las competencias generales
@@ -359,7 +348,7 @@ width="150"/>
   </tr>
   <tr style="vertical-align:top">
     <td>
-      Controles de lectura individuales
+      Pruebas de aseguramiento de la preparación individuales
     </td>
     <td>
       Respuesta correcta y puntos diferidos hasta el cierre del cuestionario
@@ -368,7 +357,7 @@ width="150"/>
   </tr>
   <tr style="vertical-align:top">
     <td>
-      Controles de lectura en equipo
+      Pruebas de aseguramiento de la preparación en equipo
     </td>
     <td>
       Respuesta correcta durante el intento en modo adaptativo y puntos al
@@ -393,8 +382,6 @@ width="150"/>
   </tr>
 </table>
 <!-- markdownlint-enable MD033 -->
-
-Rúbrica para evaluación entre pares:
 
 <!-- markdownlint-disable MD033 -->
 <table>
