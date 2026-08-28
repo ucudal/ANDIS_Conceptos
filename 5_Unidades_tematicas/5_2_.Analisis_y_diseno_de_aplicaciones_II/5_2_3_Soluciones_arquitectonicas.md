@@ -12,6 +12,15 @@
 
     * [Componentes](/4_Conceptos/4_Componente.md)
 
+    * [Modularidad](/4_Conceptos/4_Modularidad.md),
+      [cohesión](/4_Conceptos/4_Cohesion.md),
+      [acoplamiento](/4_Conceptos/4_Acoplamiento.md) y [co-nascencia ‑o
+      *connascence*‑](/4_Conceptos/4_Connascence.md).
+
+    * Principios [REP](/4_Conceptos/4_REP.md), [CCP](/4_Conceptos/4_CCP.md),
+      [CRP](/4_Conceptos/4_CRP.md), [ADP](/4_Conceptos/4_ADP.md),
+      [SDP](/4_Conceptos/4_SDP.md) y [SAP](/4_Conceptos/4_SAP.md).
+
     * [Ciclo de identificación de
       componentes](/2_Tecnicas_y_herramientas/2_02_.Arquitectura/2_02_02_Ciclo_identificacion_componentes.md)
 
