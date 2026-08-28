@@ -29,6 +29,11 @@
 [^1]: Richards, M. & Ford, N. (2020). Fundamentals of Software Architecture-An
     Engineering Approach. O'Reilly.
 
+2. En este repositorio lee lo siguiente:
+
+    * [Clean
+      Architecture](/2_Tecnicas_y_herramientas/2_07_.Estilos_arquitectura/2_07_09_Clean_Architecture.md)
+
 #### Lecturas complementarias
 
 <!-- TODO: Agregar o convertir los documentos sobre plantillas de arquitectura
