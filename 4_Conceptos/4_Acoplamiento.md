@@ -8,6 +8,8 @@ ingeniería de software ‑las otras son la [cohesión](./4_Cohesion.md) y la
 entre partes de diferentes módulos o entre diferentes módulos, y puede ser
 aferente ‑hacia adentro‑ o eferente ‑hacia afuera‑[^1]:
 
+<!-- cSpell:ignore Yourdon -->
+
 [^1]: Yourdon, E. & Constantine, L. (1979). Structured Design: Fundamentals of a
     Discipline of Computer Program and Systems Design. Prentice-Hall.
 
