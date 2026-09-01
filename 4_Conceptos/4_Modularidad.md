@@ -19,7 +19,9 @@ concepto para que los módulos tuvieran ‑además‑ poca o nula [co-nascencia 
 
 A veces también se usa modularidad para referirse a la técnica en la que se
 divide un sistema de software en componentes discretos que se pueden
-desarrollar, modificar, reemplazar y reutilizar de forma independiente[^3].
+desarrollar, modificar, reemplazar y reutilizar de forma independiente[^3]. En
+este contexto, ≪módulo≫ y [componente](./4_Componente.md) son términos
+intercambiables.
 
 [^3]: Pressman, R. (2010). Ingeniería del software: un enfoque práctico.
     7<sup>a</sup> edición.  McGraw-Hill. Capítulo 5. Disponible en

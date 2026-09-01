@@ -4,9 +4,9 @@
 
 Existen varias definiciones de **componente** en arquitectura de software y
 todas ellas son relativamente consistentes en que los componentes son unidades
-modulares con interfaces bien definidas, que encapsulan funciones específicas y
-pueden interactuar con otros componentes, permitiendo la reutilización y la
-independencia en la construcción y el despliegue.
+[modulares](./4_Modularidad.md) con interfaces bien definidas, que encapsulan
+funciones específicas y pueden interactuar con otros componentes, permitiendo la
+reutilización y la independencia en la construcción y el despliegue.
 
 ### Definiciones
 
