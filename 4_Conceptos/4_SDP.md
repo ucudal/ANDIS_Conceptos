@@ -60,9 +60,9 @@ cambie. Decimos que `Y` es ≪dependiente≫.
 
 <span id="figura-2"/>
 
-![Un componente estable](https://www.plantuml.com/plantuml/png/TP0n3u8m48Nt_eeBxiZaH0WKON8o3ZWsS356k99h6OpnlrifaYPgXykxxxrhSysDLModeHSYDVRUOoR0dQFM5XwpzEr4NQcPa25PgLJjxSBUwZN3YHMPKJ6INJFOu-3wu2w0MfFr4viasLL57NXISuVypprS2NzxJ-5hkbss4AqUHatljwDp1Cf04wBzZ8eGLJEItwbID137MURYYv0VKGgH8tNk_ru0)
+![Un componente inestable](https://www.plantuml.com/plantuml/png/TP0n3u8m48Nt_eeBxiZaH0WKON8o3ZWsS356k99h6OpnlmijaWxQuVBUz-xQN7DZ5Tjfw8L8ZNtsc0cOprbh2oydlPseApKJCYGRbQfztDX7lMQui28pAaQoMm_sECm-k0kWrcJzn2v93bLH1vdKt27_Iqztmj_PM_YQxjSjHAk7KTFoTdIDG1beGdHqg0XHvP0CKUrGAHg8uooRsrSXlw8K8aVgbl_x00)
 
-*Figura 2: Un componente estable.* Adaptado de [^2]
+*Figura 2: Un componente inestable.* Adaptado de [^2]
 
 Una forma de medir la estabilidad de un componente es contar las referencias que
 entran y que salen del componente:
