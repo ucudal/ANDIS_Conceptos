@@ -9,6 +9,9 @@
           BorderColor #006EAF
           LineColor #006EAF
         }
+        stereotype {
+          FontColor #006EAF
+        }
     }
 </style>
 
